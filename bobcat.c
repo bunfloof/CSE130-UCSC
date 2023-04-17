@@ -6,8 +6,9 @@
  * 
  * Notes:
  * - Used cat example from Linux Programming by Example textbook as starter code
- * - Keeping consistent convention for termination signals intially given in bobcat.c template
  * - Handles double dash and single dash edge cases
+ * - Handles last argument as double or single dash edge cases
+ * - Handles broken pipe errors using errno.h dependency
  *
  * Usage:
  * ./bobcat [FILE]...
