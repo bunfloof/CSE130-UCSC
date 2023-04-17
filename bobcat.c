@@ -62,13 +62,14 @@ void process_file(int fd, const char *filename, bool *error_occurred) {
   }
 }
 
-int main(int argc, char * argv[]) {
+int main(int argc, char *argv[]) {
   bool error_occurred = false;
   bool double_dash = false;
   bool processed_file = false; // var to track if any files have been processed
+  bool non_existent_file = false; // addresses non-existent files edge case
 
   if (argc == 1) { // no arguments provided, process stdin
-    process_file(STDIN_FILENO, "-", & error_occurred);
+    process_file(STDIN_FILENO, "-", &error_occurred);
   } else {
     for (int i = 1; i < argc; i++) {
       if (!double_dash && strcmp(argv[i], "--") == 0) { // encountered a double dash, mark it and continue
@@ -77,28 +78,33 @@ int main(int argc, char * argv[]) {
       }
 
       if (!double_dash && strcmp(argv[i], "-") == 0) { // single dash without a double dash, process stdin
-        process_file(STDIN_FILENO, "-", & error_occurred);
+        process_file(STDIN_FILENO, "-", &error_occurred);
         processed_file = true; // mark that a file has been processed
       } else {
         int fd = open(argv[i], O_RDONLY);
 
-        if (fd < 0) { // if the file can not be opened
+        if (fd < 0) { // if the file cannot be opened
           if (strcmp(argv[i], "-") != 0 || !double_dash) { // if it's not a single dash after a double dash, print a warning
             warn("%s", argv[i]);
             error_occurred = true;
+            non_existent_file = true;
           } else { // if it's a single dash after a double dash, process stdin
-            process_file(STDIN_FILENO, "-", & error_occurred);
+            process_file(STDIN_FILENO, "-", &error_occurred);
             processed_file = true; // mark that a file has been processed
           }
         } else { // if the file can be opened, process it
-          process_file(fd, argv[i], & error_occurred);
+          process_file(fd, argv[i], &error_occurred);
           close(fd);
           processed_file = true; // mark that a file has been processed
         }
       }
     }
 
-    if (!processed_file && double_dash) process_file(STDIN_FILENO, "-", & error_occurred); // if no files have been processed and a double dash was encountered, process stdin
+    if (!processed_file && double_dash && !non_existent_file) {
+      process_file(STDIN_FILENO, "-", &error_occurred); // if no files have been processed and a double dash was encountered, process stdin
+    } else if (!processed_file && non_existent_file) {
+      exit(EXIT_FAILURE);
+    }
   }
 
   // set the exit status based on whether an error occurred during processing
