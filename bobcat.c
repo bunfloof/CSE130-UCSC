@@ -2,13 +2,14 @@
  * Joey Ma, jma363
  * 2023 Spring CSE130 project1
  * bobcat.c
- * Unix cat command written in C without OPTIONS
+ * Unix cat command written in C without [OPTION]...
  * 
  * Notes:
  * - Used cat example from Linux Programming by Example textbook as starter code
  * - Handles double dash and single dash edge cases
  * - Handles last argument as double or single dash edge cases
  * - Handles broken pipe errors using errno.h dependency
+ * - For checking, the sed command replaces "bobcat" with "cat" in the output for the sake of checking with diff.
  *
  * Usage:
  * ./bobcat [FILE]...
@@ -20,6 +21,9 @@
  *
  * (2) GNU Core Utilities/cat.c
  *
+ * Checks:
+ * diff <(./bobcat your_arguments_here 2>&1 | sed 's/bobcat/cat/g') <(cat your_arguments_here 2>&1)
+ * 
 *********************************************************************************/
 #include <err.h>
 #include <fcntl.h>
