@@ -8,7 +8,7 @@
  * - Used cat example from Linux Programming by Example textbook as starter code
  * - Keeping consistent convention for termination signals intially given in bobcat.c template
  * - Handles double dash and single dash edge cases; apologies if I overlooked any more edge cases
- * 
+ *
  * Usage:
  * ./bobcat [FILE]...
  *
@@ -28,7 +28,8 @@
 #include <string.h>
 #include <unistd.h>
 
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 1024 // theoretically speaking, the memory usage of the bobcat program should always stay below 1 MB, 
+                         // as it uses a fixed-size buffer of 1024 bytes (1 KB) for reading and writing data.
 
 // helper function to process the file with the provided file descriptor (fd) and filename
 void process_file(int fd, const char *filename, bool *error_occurred) {
@@ -42,7 +43,8 @@ void process_file(int fd, const char *filename, bool *error_occurred) {
 
       if (result < 0) { // handle write errors
         //err(EXIT_FAILURE, "write");
-        warn("write");
+        //warn("write");
+        warn("write error");
         *error_occurred = true;
         return;
       }
@@ -93,9 +95,7 @@ int main(int argc, char * argv[]) {
       }
     }
 
-    if (!processed_file && double_dash) { // if no files have been processed and a double dash was encountered, process stdin
-      process_file(STDIN_FILENO, "-", & error_occurred);
-    }
+    if (!processed_file && double_dash) process_file(STDIN_FILENO, "-", & error_occurred); // if no files have been processed and a double dash was encountered, process stdin
   }
 
   // set the exit status based on whether an error occurred during processing
