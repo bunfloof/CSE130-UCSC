@@ -9,7 +9,7 @@
  * - Handles double dash and single dash edge cases
  * - Handles last argument as double or single dash edge cases
  * - Handles broken pipe errors using errno.h dependency
- * - For checking, the sed command replaces "bobcat" with "cat" in the output for the sake of checking with diff.
+ * - For checking, the sed command replaces "bobcat" with "cat" in the output for the sake of checking with diff
  *
  * Usage:
  * ./bobcat [FILE]...
