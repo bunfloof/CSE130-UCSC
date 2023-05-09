@@ -1,0 +1,6668 @@
+1
+00:00:05,100 --> 00:00:08,599
+so here oh we know the OS what is the Os
+
+2
+00:00:08,599 --> 00:00:11,519
+Os has two rules right
+
+3
+00:00:11,519 --> 00:00:14,700
+uh the first rule is the resource
+
+4
+00:00:14,700 --> 00:00:16,079
+manager and the second row is
+
+5
+00:00:16,079 --> 00:00:18,359
+abstraction but in exam I will not test
+
+6
+00:00:18,359 --> 00:00:21,060
+you that simple I would say like okay if
+
+7
+00:00:21,060 --> 00:00:22,800
+this is a true first question ask okay
+
+8
+00:00:22,800 --> 00:00:25,560
+OS has two rules of abstraction or
+
+9
+00:00:25,560 --> 00:00:27,840
+resource manager I will not ask like
+
+10
+00:00:27,840 --> 00:00:28,920
+that
+
+11
+00:00:28,920 --> 00:00:30,660
+because you need to understand that
+
+12
+00:00:30,660 --> 00:00:32,759
+think of the example about what is the
+
+13
+00:00:32,759 --> 00:00:36,239
+abstraction what is a resource manager
+
+14
+00:00:36,239 --> 00:00:38,820
+okay for example how the OS allocates
+
+15
+00:00:38,820 --> 00:00:40,680
+the resources
+
+16
+00:00:40,680 --> 00:00:43,379
+like in memory right in memory address
+
+17
+00:00:43,379 --> 00:00:46,620
+space how the OS allocates the resources
+
+18
+00:00:46,620 --> 00:00:48,719
+like CPU time
+
+19
+00:00:48,719 --> 00:00:50,700
+right difference scheduling algorithms
+
+20
+00:00:50,700 --> 00:00:52,980
+they are all examples of resource
+
+21
+00:00:52,980 --> 00:00:54,239
+manager
+
+22
+00:00:54,239 --> 00:00:57,539
+right and for the obstruction so what is
+
+23
+00:00:57,539 --> 00:00:59,760
+abstraction
+
+24
+00:00:59,760 --> 00:01:03,000
+what is the example of obstruction
+
+25
+00:01:03,000 --> 00:01:05,280
+so for example process is an abstraction
+
+26
+00:01:05,280 --> 00:01:07,619
+of program this is what we have learned
+
+27
+00:01:07,619 --> 00:01:09,920
+right
+
+28
+00:01:12,600 --> 00:01:17,360
+so that is for the OS so rules over OS
+
+29
+00:01:21,840 --> 00:01:24,299
+hmm
+
+30
+00:01:24,299 --> 00:01:27,320
+give me one sec
+
+31
+00:01:29,100 --> 00:01:31,979
+show the computer and then we talking
+
+32
+00:01:31,979 --> 00:01:34,380
+about the computer architecture
+
+33
+00:01:34,380 --> 00:01:35,280
+um
+
+34
+00:01:35,280 --> 00:01:38,700
+so this is a different figure I I
+
+35
+00:01:38,700 --> 00:01:41,460
+intentionally remove the other like
+
+36
+00:01:41,460 --> 00:01:44,299
+monitor keyboards
+
+37
+00:01:44,299 --> 00:01:46,619
+drivers the other drivers from the
+
+38
+00:01:46,619 --> 00:01:48,479
+figure if you you look at the previous
+
+39
+00:01:48,479 --> 00:01:51,060
+slides of the introduction we have a
+
+40
+00:01:51,060 --> 00:01:55,280
+long picture about the pipe about the
+
+41
+00:01:55,280 --> 00:01:58,799
+data plan and control plan of the OS so
+
+42
+00:01:58,799 --> 00:02:01,380
+this is a simplified version so the
+
+43
+00:02:01,380 --> 00:02:03,600
+computer is a sensor just a
+
+44
+00:02:03,600 --> 00:02:05,759
+communication system data is constantly
+
+45
+00:02:05,759 --> 00:02:08,399
+being moved between the CPU memory and
+
+46
+00:02:08,399 --> 00:02:11,479
+the various devices
+
+47
+00:02:14,940 --> 00:02:18,540
+the CPU use IO address to direct data to
+
+48
+00:02:18,540 --> 00:02:20,879
+particular devices and the device in
+
+49
+00:02:20,879 --> 00:02:23,340
+turn used to interrupt mode divide CPU
+
+50
+00:02:23,340 --> 00:02:26,400
+and operating system of their needs so
+
+51
+00:02:26,400 --> 00:02:28,400
+um
+
+52
+00:02:29,760 --> 00:02:32,940
+so if we see that the data is transfer
+
+53
+00:02:32,940 --> 00:02:35,160
+right it's basically just a data
+
+54
+00:02:35,160 --> 00:02:36,959
+Communication System data is being
+
+55
+00:02:36,959 --> 00:02:38,760
+transferred moved between different
+
+56
+00:02:38,760 --> 00:02:40,739
+devices between this
+
+57
+00:02:40,739 --> 00:02:43,220
+okay
+
+58
+00:02:45,720 --> 00:02:48,780
+so here you need to understand what is
+
+59
+00:02:48,780 --> 00:02:52,920
+interrupts okay what is the interrupt
+
+60
+00:02:52,920 --> 00:02:58,260
+how how OS handles interrupts
+
+61
+00:02:58,260 --> 00:03:02,900
+what is dma so what is dma
+
+62
+00:03:03,840 --> 00:03:06,840
+osdmi
+
+63
+00:03:08,060 --> 00:03:11,459
+director my direct memory access can
+
+64
+00:03:11,459 --> 00:03:14,580
+anyone explain to me what is dma
+
+65
+00:03:14,580 --> 00:03:16,800
+director memory of the SAS so what
+
+66
+00:03:16,800 --> 00:03:20,360
+exactly is the Mi yes
+
+67
+00:03:22,560 --> 00:03:24,840
+the device does not go to the CPU and
+
+68
+00:03:24,840 --> 00:03:26,760
+change the memory well it's very close
+
+69
+00:03:26,760 --> 00:03:30,480
+so device and memory exchange the data
+
+70
+00:03:30,480 --> 00:03:33,300
+right without the intervention of the
+
+71
+00:03:33,300 --> 00:03:35,220
+CPU that is the direct memory access
+
+72
+00:03:35,220 --> 00:03:37,940
+that is this kind of this is one part
+
+73
+00:03:37,940 --> 00:03:41,040
+this is just the one type
+
+74
+00:03:41,040 --> 00:03:45,180
+of one type of data transfer
+
+75
+00:03:45,180 --> 00:03:47,459
+between CPU device and memory and the
+
+76
+00:03:47,459 --> 00:03:49,860
+other transfer we have
+
+77
+00:03:49,860 --> 00:03:53,220
+IO by pouring right and IO by interrupt
+
+78
+00:03:53,220 --> 00:03:57,980
+and then dma direct memory access
+
+79
+00:04:03,480 --> 00:04:05,280
+so you need to understand what is
+
+80
+00:04:05,280 --> 00:04:08,239
+interrupt
+
+81
+00:04:10,799 --> 00:04:14,400
+what is interrupts or is the ma
+
+82
+00:04:14,400 --> 00:04:16,760
+okay
+
+83
+00:04:21,899 --> 00:04:24,060
+so then in the introduction we're
+
+84
+00:04:24,060 --> 00:04:26,639
+talking about the pipeline CPU pipeline
+
+85
+00:04:26,639 --> 00:04:28,979
+when we talk about like
+
+86
+00:04:28,979 --> 00:04:29,759
+um
+
+87
+00:04:29,759 --> 00:04:32,340
+what is exactly the pipeline and why we
+
+88
+00:04:32,340 --> 00:04:33,960
+need the pipeline
+
+89
+00:04:33,960 --> 00:04:35,400
+right pipeline is just a
+
+90
+00:04:35,400 --> 00:04:37,500
+multi-programming technology that CPU
+
+91
+00:04:37,500 --> 00:04:40,560
+uses to improve the throughput and CPU
+
+92
+00:04:40,560 --> 00:04:41,880
+has
+
+93
+00:04:41,880 --> 00:04:44,280
+three units right fetch decode and
+
+94
+00:04:44,280 --> 00:04:46,580
+excuse factual instruction
+
+95
+00:04:46,580 --> 00:04:49,500
+decoder instruction and execute the
+
+96
+00:04:49,500 --> 00:04:52,560
+instruction so when we are
+
+97
+00:04:52,560 --> 00:04:57,199
+so you need to understand what it how to
+
+98
+00:04:57,600 --> 00:04:59,759
+how to pipeline how the pipeline is
+
+99
+00:04:59,759 --> 00:05:02,600
+executed okay
+
+100
+00:05:04,680 --> 00:05:07,800
+so what are the PC like IR
+
+101
+00:05:07,800 --> 00:05:10,500
+what are they
+
+102
+00:05:10,500 --> 00:05:13,040
+yes
+
+103
+00:05:14,940 --> 00:05:16,919
+they're very good they are what are they
+
+104
+00:05:16,919 --> 00:05:18,840
+they are just registered inside of the
+
+105
+00:05:18,840 --> 00:05:21,960
+CPU right they're just the registers
+
+106
+00:05:21,960 --> 00:05:24,440
+okay
+
+107
+00:05:25,500 --> 00:05:29,340
+what is CPU pipeline now how the CPU how
+
+108
+00:05:29,340 --> 00:05:32,180
+the OS handle the interrupt how do you
+
+109
+00:05:32,180 --> 00:05:37,520
+CPU response to the interrupt
+
+110
+00:05:39,660 --> 00:05:42,979
+so um
+
+111
+00:05:45,300 --> 00:05:47,639
+before we before we're talking about the
+
+112
+00:05:47,639 --> 00:05:50,340
+interrupts I want to ask you a question
+
+113
+00:05:50,340 --> 00:05:54,440
+there's two mode in the OS
+
+114
+00:05:54,600 --> 00:05:57,440
+what are they
+
+115
+00:05:57,479 --> 00:05:58,680
+yeah
+
+116
+00:05:58,680 --> 00:06:00,780
+kernel mode and user mode now you need
+
+117
+00:06:00,780 --> 00:06:03,680
+to understand so
+
+118
+00:06:03,680 --> 00:06:07,320
+once once CPU responds to the interrupt
+
+119
+00:06:07,320 --> 00:06:11,880
+would involves a mode change mode switch
+
+120
+00:06:11,880 --> 00:06:13,740
+it worked right it would then how it
+
+121
+00:06:13,740 --> 00:06:17,120
+happens how it happens
+
+122
+00:06:19,380 --> 00:06:23,120
+so let's using this example okay
+
+123
+00:06:23,520 --> 00:06:25,259
+so if you look at this this is an
+
+124
+00:06:25,259 --> 00:06:27,620
+example
+
+125
+00:06:28,259 --> 00:06:31,139
+so this is your user's code right so we
+
+126
+00:06:31,139 --> 00:06:32,940
+are in the user mode and now it's kernel
+
+127
+00:06:32,940 --> 00:06:34,560
+mode so
+
+128
+00:06:34,560 --> 00:06:38,240
+um how the interrupts happens
+
+129
+00:06:43,259 --> 00:06:46,520
+how to interrupt happens
+
+130
+00:07:14,160 --> 00:07:18,560
+it is a lot of failure yeah
+
+131
+00:07:25,800 --> 00:07:27,690
+call it the Trap instruction I think
+
+132
+00:07:27,690 --> 00:07:30,870
+[Music]
+
+133
+00:07:33,419 --> 00:07:37,500
+after the after okay very good so
+
+134
+00:07:37,500 --> 00:07:39,900
+so control we see the control plane is
+
+135
+00:07:39,900 --> 00:07:42,660
+is switched from the
+
+136
+00:07:42,660 --> 00:07:44,639
+user amount to Kernel mode right so
+
+137
+00:07:44,639 --> 00:07:46,199
+let's look at this code let's look at
+
+138
+00:07:46,199 --> 00:07:47,880
+this code
+
+139
+00:07:47,880 --> 00:07:50,580
+so for Corporation
+
+140
+00:07:50,580 --> 00:07:54,000
+so this is a this is let's say this is a
+
+141
+00:07:54,000 --> 00:07:57,419
+user's mode right user smart user needs
+
+142
+00:07:57,419 --> 00:07:59,520
+to call this function
+
+143
+00:07:59,520 --> 00:08:04,340
+right and then what happens
+
+144
+00:08:05,099 --> 00:08:07,699
+what happens
+
+145
+00:08:08,160 --> 00:08:10,560
+so the process runs this process find
+
+146
+00:08:10,560 --> 00:08:11,699
+out that
+
+147
+00:08:11,699 --> 00:08:16,199
+this function needs some
+
+148
+00:08:16,199 --> 00:08:18,539
+Priority Access and it's the kernel mode
+
+149
+00:08:18,539 --> 00:08:21,419
+to handle that the user mode cannot
+
+150
+00:08:21,419 --> 00:08:23,580
+handle this right it needs to call some
+
+151
+00:08:23,580 --> 00:08:26,340
+library in OS to handle that and we call
+
+152
+00:08:26,340 --> 00:08:28,139
+it interrupt Handler there's an
+
+153
+00:08:28,139 --> 00:08:30,300
+interrupt Handler too specifically
+
+154
+00:08:30,300 --> 00:08:32,580
+handle this so
+
+155
+00:08:32,580 --> 00:08:35,458
+when we run the code and the instruction
+
+156
+00:08:35,458 --> 00:08:38,339
+comes these lines of the code when we
+
+157
+00:08:38,339 --> 00:08:40,440
+have a pointer to point this line of the
+
+158
+00:08:40,440 --> 00:08:42,599
+code
+
+159
+00:08:42,599 --> 00:08:45,660
+the state and or register of values for
+
+160
+00:08:45,660 --> 00:08:50,820
+the process are saved are saved then we
+
+161
+00:08:50,820 --> 00:08:53,880
+have our chop instruction trap
+
+162
+00:08:53,880 --> 00:08:56,220
+instruction we go to
+
+163
+00:08:56,220 --> 00:08:59,760
+the interrupt Handler interrupt Handler
+
+164
+00:08:59,760 --> 00:09:03,240
+the CPU mode is switched to the super
+
+165
+00:09:03,240 --> 00:09:05,700
+like supervision mode we call it a
+
+166
+00:09:05,700 --> 00:09:09,180
+kernel mode and then and then the
+
+167
+00:09:09,180 --> 00:09:11,580
+pointer the pointer the point what is
+
+168
+00:09:11,580 --> 00:09:13,980
+the point the pointer is something if
+
+169
+00:09:13,980 --> 00:09:16,440
+you look at this the point is here right
+
+170
+00:09:16,440 --> 00:09:19,080
+see this is a pointer
+
+171
+00:09:19,080 --> 00:09:21,600
+pointer and it points to the line of the
+
+172
+00:09:21,600 --> 00:09:22,260
+code
+
+173
+00:09:22,260 --> 00:09:26,120
+right points to the line of the code
+
+174
+00:09:26,279 --> 00:09:28,320
+so we have a pointer here we found out
+
+175
+00:09:28,320 --> 00:09:31,320
+this instruction the user cannot handle
+
+176
+00:09:31,320 --> 00:09:34,080
+in the center interrupts to the CPU and
+
+177
+00:09:34,080 --> 00:09:37,440
+CPU will make a trap instruction to come
+
+178
+00:09:37,440 --> 00:09:39,420
+to the kernels and find out the
+
+179
+00:09:39,420 --> 00:09:41,459
+interruption Handler to handle this
+
+180
+00:09:41,459 --> 00:09:44,640
+score to handle this instruction and
+
+181
+00:09:44,640 --> 00:09:47,279
+then the pointer are going to point to
+
+182
+00:09:47,279 --> 00:09:48,600
+the
+
+183
+00:09:48,600 --> 00:09:51,420
+to the code in the kernel to the code in
+
+184
+00:09:51,420 --> 00:09:53,339
+the kernel this is not users mode code
+
+185
+00:09:53,339 --> 00:09:56,279
+it's not it's not written by user it's
+
+186
+00:09:56,279 --> 00:09:58,860
+randomized OS right then it's called
+
+187
+00:09:58,860 --> 00:10:01,200
+this system Fork right this is this is
+
+188
+00:10:01,200 --> 00:10:04,220
+the interrupt Handler
+
+189
+00:10:05,220 --> 00:10:08,040
+so my question is that one point points
+
+190
+00:10:08,040 --> 00:10:11,100
+to this is the user modes is the user's
+
+191
+00:10:11,100 --> 00:10:13,440
+code still running or not
+
+192
+00:10:13,440 --> 00:10:15,420
+they are not running right it is not
+
+193
+00:10:15,420 --> 00:10:17,580
+running why they are waiting for the OS
+
+194
+00:10:17,580 --> 00:10:21,180
+to give back the control to the user
+
+195
+00:10:21,180 --> 00:10:24,240
+so we go to the interrupt Handler
+
+196
+00:10:24,240 --> 00:10:26,399
+to handle the code
+
+197
+00:10:26,399 --> 00:10:29,160
+now after finish it how about we finish
+
+198
+00:10:29,160 --> 00:10:32,339
+it after the interrupt Vector will save
+
+199
+00:10:32,339 --> 00:10:34,980
+the values about like the pro previous
+
+200
+00:10:34,980 --> 00:10:37,800
+program counter and I asked value and
+
+201
+00:10:37,800 --> 00:10:40,140
+then after we send it back we are going
+
+202
+00:10:40,140 --> 00:10:42,660
+to retrieve the value from the previous
+
+203
+00:10:42,660 --> 00:10:45,660
+saved register value and goes back to
+
+204
+00:10:45,660 --> 00:10:48,180
+the code goes back to this so this is
+
+205
+00:10:48,180 --> 00:10:51,300
+the how the CPU handles the interrupts
+
+206
+00:10:51,300 --> 00:10:53,640
+now you need to understand it because in
+
+207
+00:10:53,640 --> 00:10:55,500
+the exam one we are going to testing you
+
+208
+00:10:55,500 --> 00:10:57,360
+is whether you can understand it or not
+
+209
+00:10:57,360 --> 00:11:02,240
+because I'm going I may create some very
+
+210
+00:11:02,240 --> 00:11:04,920
+confusing questions asks you like the
+
+211
+00:11:04,920 --> 00:11:08,100
+true false question like next
+
+212
+00:11:08,100 --> 00:11:10,079
+give some
+
+213
+00:11:10,079 --> 00:11:12,180
+yeah
+
+214
+00:11:12,180 --> 00:11:14,760
+so if you understand that then you you
+
+215
+00:11:14,760 --> 00:11:16,920
+know how to answer so be careful about
+
+216
+00:11:16,920 --> 00:11:21,720
+this okay be careful about this so uh
+
+217
+00:11:21,720 --> 00:11:24,480
+another question is that so Mo this is
+
+218
+00:11:24,480 --> 00:11:26,940
+mode switch right from the user mode to
+
+219
+00:11:26,940 --> 00:11:30,560
+Kernel mode so then
+
+220
+00:11:30,560 --> 00:11:33,480
+another switch we call it contact switch
+
+221
+00:11:33,480 --> 00:11:35,760
+so what's the difference is between the
+
+222
+00:11:35,760 --> 00:11:37,980
+mode switch and contact switch
+
+223
+00:11:37,980 --> 00:11:42,480
+are they the same are they the same
+
+224
+00:11:42,480 --> 00:11:44,519
+no if they are not the same then what's
+
+225
+00:11:44,519 --> 00:11:47,000
+the difference
+
+226
+00:11:59,640 --> 00:12:01,860
+well you need to understand like it's
+
+227
+00:12:01,860 --> 00:12:04,620
+every context switch always
+
+228
+00:12:04,620 --> 00:12:07,019
+causing a model switch or mode switch
+
+229
+00:12:07,019 --> 00:12:09,600
+are always causing contact switch
+
+230
+00:12:09,600 --> 00:12:11,760
+or in understand the differences between
+
+231
+00:12:11,760 --> 00:12:14,160
+these two they are quite they are
+
+232
+00:12:14,160 --> 00:12:18,200
+actually very confusing Concepts
+
+233
+00:12:18,779 --> 00:12:21,180
+okay I'll leave the answers to you so
+
+234
+00:12:21,180 --> 00:12:23,160
+think about that contact solution mode
+
+235
+00:12:23,160 --> 00:12:25,140
+switch
+
+236
+00:12:25,140 --> 00:12:28,459
+yeah Andrew
+
+237
+00:12:30,060 --> 00:12:32,160
+the Trump
+
+238
+00:12:32,160 --> 00:12:34,260
+the Trump table Yeah so sometimes it's
+
+239
+00:12:34,260 --> 00:12:37,140
+called interrupt table no need to
+
+240
+00:12:37,140 --> 00:12:39,560
+yeah yeah
+
+241
+00:12:41,700 --> 00:12:44,160
+handle the exception no while you handle
+
+242
+00:12:44,160 --> 00:12:45,660
+the exceptions based on how you write
+
+243
+00:12:45,660 --> 00:12:47,220
+your code you may have your own
+
+244
+00:12:47,220 --> 00:12:49,139
+exception Handler
+
+245
+00:12:49,139 --> 00:12:50,880
+when you write a code in the user mode
+
+246
+00:12:50,880 --> 00:12:53,459
+you you when you're writing a Java code
+
+247
+00:12:53,459 --> 00:12:55,380
+for C plus plus code you may trap the
+
+248
+00:12:55,380 --> 00:12:58,920
+exception right I think Java you have to
+
+249
+00:12:58,920 --> 00:13:02,459
+try exception right the code
+
+250
+00:13:02,459 --> 00:13:04,320
+if you know this code have some problem
+
+251
+00:13:04,320 --> 00:13:08,100
+you may you you wrap it with a try
+
+252
+00:13:08,100 --> 00:13:10,399
+right
+
+253
+00:13:20,279 --> 00:13:22,139
+oh you
+
+254
+00:13:22,139 --> 00:13:24,180
+what's the question is is this slide on
+
+255
+00:13:24,180 --> 00:13:25,620
+the canvas
+
+256
+00:13:25,620 --> 00:13:27,720
+it will be on Converse I will be posting
+
+257
+00:13:27,720 --> 00:13:28,560
+that
+
+258
+00:13:28,560 --> 00:13:30,000
+Okay so
+
+259
+00:13:30,000 --> 00:13:32,100
+okay I will be posted after the class
+
+260
+00:13:32,100 --> 00:13:35,420
+okay yes
+
+261
+00:13:47,639 --> 00:13:52,740
+no not exactly not exactly Andrew
+
+262
+00:13:52,740 --> 00:13:54,600
+I guess like so here
+
+263
+00:13:54,600 --> 00:13:56,579
+um it's clearly stated that like Fork is
+
+264
+00:13:56,579 --> 00:13:58,800
+a trap construction so trap instructions
+
+265
+00:13:58,800 --> 00:14:00,360
+are basically just any sort of
+
+266
+00:14:00,360 --> 00:14:03,240
+instruction which causes a like a mode
+
+267
+00:14:03,240 --> 00:14:05,940
+switch from user to Kernel but
+
+268
+00:14:05,940 --> 00:14:08,700
+what other kind of instructions
+
+269
+00:14:08,700 --> 00:14:11,459
+basically
+
+270
+00:14:11,459 --> 00:14:13,860
+like I understand like why they are trap
+
+271
+00:14:13,860 --> 00:14:15,420
+instructions like they just require the
+
+272
+00:14:15,420 --> 00:14:18,420
+kernel but like what are you you have
+
+273
+00:14:18,420 --> 00:14:20,399
+you'll have a homework you have a
+
+274
+00:14:20,399 --> 00:14:22,019
+homework question right they ask you
+
+275
+00:14:22,019 --> 00:14:24,240
+like could you give some examples about
+
+276
+00:14:24,240 --> 00:14:25,380
+the
+
+277
+00:14:25,380 --> 00:14:28,100
+uh
+
+278
+00:14:35,579 --> 00:14:39,839
+yeah yeah yes it will right caught like
+
+279
+00:14:39,839 --> 00:14:43,019
+a second okay that's a Soulful wild trap
+
+280
+00:14:43,019 --> 00:14:45,500
+right
+
+281
+00:14:48,180 --> 00:14:49,500
+that's different yeah that's different
+
+282
+00:14:49,500 --> 00:14:51,480
+that's different that is why in the
+
+283
+00:14:51,480 --> 00:14:54,800
+homework I I I
+
+284
+00:14:55,380 --> 00:14:57,000
+in the homework I ask you a question
+
+285
+00:14:57,000 --> 00:14:58,800
+like could you give some examples about
+
+286
+00:14:58,800 --> 00:15:00,300
+the
+
+287
+00:15:00,300 --> 00:15:01,860
+um
+
+288
+00:15:01,860 --> 00:15:04,139
+the interruption right is that the
+
+289
+00:15:04,139 --> 00:15:06,060
+homework it's some types of different
+
+290
+00:15:06,060 --> 00:15:08,519
+interrupts right ask you this question
+
+291
+00:15:08,519 --> 00:15:11,220
+right there's many types I
+
+292
+00:15:11,220 --> 00:15:13,440
+um it is clearly posting the correct
+
+293
+00:15:13,440 --> 00:15:15,660
+order like North Koreans I mean the
+
+294
+00:15:15,660 --> 00:15:19,220
+example solution
+
+295
+00:15:19,380 --> 00:15:21,660
+he's not okay I'm not going to ask a
+
+296
+00:15:21,660 --> 00:15:24,120
+material to post in the uh example
+
+297
+00:15:24,120 --> 00:15:27,120
+solution okay and then so there's many
+
+298
+00:15:27,120 --> 00:15:29,279
+uh
+
+299
+00:15:29,279 --> 00:15:31,860
+many types one time is the software like
+
+300
+00:15:31,860 --> 00:15:33,720
+software trap
+
+301
+00:15:33,720 --> 00:15:36,240
+right social life
+
+302
+00:15:36,240 --> 00:15:38,820
+like this right this is like oh you you
+
+303
+00:15:38,820 --> 00:15:41,100
+create a file you create all four
+
+304
+00:15:41,100 --> 00:15:43,019
+cooperation right this is a software
+
+305
+00:15:43,019 --> 00:15:45,360
+shop another is like
+
+306
+00:15:45,360 --> 00:15:48,000
+you catch up the exception the software
+
+307
+00:15:48,000 --> 00:15:50,339
+exception software instruction another
+
+308
+00:15:50,339 --> 00:15:53,339
+is the hardware hardware error something
+
+309
+00:15:53,339 --> 00:15:55,139
+like
+
+310
+00:15:55,139 --> 00:15:56,459
+um
+
+311
+00:15:56,459 --> 00:15:58,500
+for example we started divided by zero
+
+312
+00:15:58,500 --> 00:16:00,360
+that will be a hardware error because
+
+313
+00:16:00,360 --> 00:16:03,300
+you are you you are or segmentation
+
+314
+00:16:03,300 --> 00:16:05,699
+fault you are going to some other
+
+315
+00:16:05,699 --> 00:16:07,620
+address space that is not belonging to
+
+316
+00:16:07,620 --> 00:16:10,980
+you that all all of this all of this
+
+317
+00:16:10,980 --> 00:16:13,380
+were causing the OS to help you handle
+
+318
+00:16:13,380 --> 00:16:14,699
+that and you it will of course are
+
+319
+00:16:14,699 --> 00:16:15,959
+interrupt
+
+320
+00:16:15,959 --> 00:16:20,180
+it will cause the interrupts okay
+
+321
+00:16:22,620 --> 00:16:24,480
+okay so you need to understand see some
+
+322
+00:16:24,480 --> 00:16:26,399
+core differences between system core and
+
+323
+00:16:26,399 --> 00:16:28,740
+interrupts that's another trap here so
+
+324
+00:16:28,740 --> 00:16:31,019
+it's like mode mode switch contact
+
+325
+00:16:31,019 --> 00:16:34,680
+switch interrupts system core these
+
+326
+00:16:34,680 --> 00:16:37,620
+consumptions are very uh confusing right
+
+327
+00:16:37,620 --> 00:16:40,259
+so system core
+
+328
+00:16:40,259 --> 00:16:42,120
+what's the relationship between system
+
+329
+00:16:42,120 --> 00:16:45,199
+core and interrupt
+
+330
+00:16:53,519 --> 00:16:55,500
+the code they both called mode switch
+
+331
+00:16:55,500 --> 00:16:57,240
+very good when what the relationship why
+
+332
+00:16:57,240 --> 00:17:00,920
+we just call it the system quality
+
+333
+00:17:00,959 --> 00:17:03,500
+here
+
+334
+00:17:07,439 --> 00:17:09,620
+foreign
+
+335
+00:17:21,299 --> 00:17:24,500
+counter switch
+
+336
+00:17:25,559 --> 00:17:28,459
+mode switch
+
+337
+00:17:31,140 --> 00:17:34,880
+yeah any student can
+
+338
+00:17:35,299 --> 00:17:39,200
+you what do you want to say
+
+339
+00:17:46,940 --> 00:17:49,500
+in the process and usually it can like
+
+340
+00:17:49,500 --> 00:17:52,320
+call an IL
+
+341
+00:17:52,320 --> 00:17:55,820
+draft I think is more
+
+342
+00:18:00,660 --> 00:18:02,580
+so let's let's
+
+343
+00:18:02,580 --> 00:18:04,740
+and any student want to try this because
+
+344
+00:18:04,740 --> 00:18:07,320
+these concepts are really confusing even
+
+345
+00:18:07,320 --> 00:18:09,299
+when I read a textbook I found like
+
+346
+00:18:09,299 --> 00:18:10,980
+because they are everywhere but they are
+
+347
+00:18:10,980 --> 00:18:12,960
+sometimes they use this term some where
+
+348
+00:18:12,960 --> 00:18:15,059
+sometimes they use their term
+
+349
+00:18:15,059 --> 00:18:17,280
+right so this is what we need to learn
+
+350
+00:18:17,280 --> 00:18:19,640
+in from the in in in
+
+351
+00:18:19,640 --> 00:18:22,320
+the introduction this is some take away
+
+352
+00:18:22,320 --> 00:18:24,720
+here in the intro what is trap
+
+353
+00:18:24,720 --> 00:18:26,400
+interrupts system called Contact switch
+
+354
+00:18:26,400 --> 00:18:28,980
+mode switch you may know exactly how
+
+355
+00:18:28,980 --> 00:18:30,780
+they are what they are you may exactly
+
+356
+00:18:30,780 --> 00:18:33,179
+you may know that okay the Trap what is
+
+357
+00:18:33,179 --> 00:18:35,280
+the Trap means right what is the
+
+358
+00:18:35,280 --> 00:18:36,780
+interrupted means what is system core
+
+359
+00:18:36,780 --> 00:18:38,400
+means what is the context switch means
+
+360
+00:18:38,400 --> 00:18:41,160
+what is mode switch means but my
+
+361
+00:18:41,160 --> 00:18:42,539
+question is that do you know the
+
+362
+00:18:42,539 --> 00:18:44,760
+relationship between this between all
+
+363
+00:18:44,760 --> 00:18:47,240
+these five
+
+364
+00:18:52,440 --> 00:18:55,140
+to make a system call
+
+365
+00:18:55,140 --> 00:18:58,400
+uh the system problem
+
+366
+00:18:58,919 --> 00:19:00,919
+s
+
+367
+00:19:04,520 --> 00:19:07,140
+interrupts interrupts actually
+
+368
+00:19:07,140 --> 00:19:07,919
+um
+
+369
+00:19:07,919 --> 00:19:10,320
+consists of system core right
+
+370
+00:19:10,320 --> 00:19:12,000
+it actually will interrupt as the
+
+371
+00:19:12,000 --> 00:19:13,620
+software interrupts
+
+372
+00:19:13,620 --> 00:19:16,200
+and Hardware interrupts right and many
+
+373
+00:19:16,200 --> 00:19:18,000
+software will interrupts is just a
+
+374
+00:19:18,000 --> 00:19:20,340
+system core system core is that when
+
+375
+00:19:20,340 --> 00:19:22,679
+user write some code AS write some code
+
+376
+00:19:22,679 --> 00:19:25,020
+like call some functions that need
+
+377
+00:19:25,020 --> 00:19:27,000
+system to handle rather than we call a
+
+378
+00:19:27,000 --> 00:19:29,400
+system core so the interrupts
+
+379
+00:19:29,400 --> 00:19:31,799
+these are see some core
+
+380
+00:19:31,799 --> 00:19:34,620
+and system called leads what this trap
+
+381
+00:19:34,620 --> 00:19:37,260
+instruction right system code then leads
+
+382
+00:19:37,260 --> 00:19:39,900
+a sharp instruction for to do what
+
+383
+00:19:39,900 --> 00:19:42,480
+to do account to do a mode switch right
+
+384
+00:19:42,480 --> 00:19:44,400
+to more switch from
+
+385
+00:19:44,400 --> 00:19:46,679
+you some out to kernels
+
+386
+00:19:46,679 --> 00:19:48,900
+and then
+
+387
+00:19:48,900 --> 00:19:50,880
+and then
+
+388
+00:19:50,880 --> 00:19:53,960
+what is contact switch
+
+389
+00:19:57,000 --> 00:19:59,160
+what is a contact switch
+
+390
+00:19:59,160 --> 00:20:01,580
+Andrew
+
+391
+00:20:08,580 --> 00:20:11,240
+well yeah
+
+392
+00:20:25,320 --> 00:20:26,820
+and you still don't have a different
+
+393
+00:20:26,820 --> 00:20:29,419
+opinion
+
+394
+00:20:29,640 --> 00:20:33,179
+Andrew Aaron
+
+395
+00:20:43,559 --> 00:20:46,200
+very good very good okay this is the
+
+396
+00:20:46,200 --> 00:20:49,620
+answer this is answer okay
+
+397
+00:20:49,620 --> 00:20:50,400
+yeah
+
+398
+00:20:50,400 --> 00:20:54,299
+are they uh are are these going to be
+
+399
+00:20:54,299 --> 00:20:56,280
+going on the actual slides when they're
+
+400
+00:20:56,280 --> 00:20:59,100
+published because when you do this
+
+401
+00:20:59,100 --> 00:20:59,700
+um
+
+402
+00:20:59,700 --> 00:21:02,419
+our
+
+403
+00:21:08,700 --> 00:21:10,020
+English
+
+404
+00:21:10,020 --> 00:21:14,340
+oh I have a video recorded you guys know
+
+405
+00:21:14,340 --> 00:21:17,760
+that the video is it you can
+
+406
+00:21:17,760 --> 00:21:18,419
+um
+
+407
+00:21:18,419 --> 00:21:20,820
+I think I take the video recorded for
+
+408
+00:21:20,820 --> 00:21:23,299
+every class
+
+409
+00:21:24,600 --> 00:21:27,240
+yeah no problem yeah thank you Sharon so
+
+410
+00:21:27,240 --> 00:21:29,220
+let's go back okay
+
+411
+00:21:29,220 --> 00:21:31,440
+when you contact switch what is contact
+
+412
+00:21:31,440 --> 00:21:34,260
+switch contacts which is CPU
+
+413
+00:21:34,260 --> 00:21:37,440
+this is superior if you want to
+
+414
+00:21:37,440 --> 00:21:40,200
+want to give the time recipe is running
+
+415
+00:21:40,200 --> 00:21:42,419
+a running process a
+
+416
+00:21:42,419 --> 00:21:45,240
+now CPU needs to run in process B so CPU
+
+417
+00:21:45,240 --> 00:21:48,179
+is saving all the all the data States
+
+418
+00:21:48,179 --> 00:21:50,640
+about process a into its register and
+
+419
+00:21:50,640 --> 00:21:53,340
+switch towards as B so in order for CPU
+
+420
+00:21:53,340 --> 00:21:56,760
+to do that first is need to do what
+
+421
+00:21:56,760 --> 00:21:59,700
+you need to do more switch right because
+
+422
+00:21:59,700 --> 00:22:03,179
+it cannot happen in the user mode
+
+423
+00:22:03,179 --> 00:22:06,740
+now this is a relationship okay
+
+424
+00:22:07,020 --> 00:22:11,039
+okay so now now I'll repeat that okay so
+
+425
+00:22:11,039 --> 00:22:13,520
+interrupt
+
+426
+00:22:16,620 --> 00:22:18,840
+so I will repeat that okay so in summary
+
+427
+00:22:18,840 --> 00:22:20,820
+in summary we know interrupts is a very
+
+428
+00:22:20,820 --> 00:22:23,340
+big word interrupts is a very big word
+
+429
+00:22:23,340 --> 00:22:25,679
+and some students mentioned that like
+
+430
+00:22:25,679 --> 00:22:27,600
+the concepts you have the concept yeah
+
+431
+00:22:27,600 --> 00:22:29,840
+yeah
+
+432
+00:22:35,880 --> 00:22:38,280
+that's a very good question that depends
+
+433
+00:22:38,280 --> 00:22:39,120
+right
+
+434
+00:22:39,120 --> 00:22:42,360
+let's defends any students know that
+
+435
+00:22:42,360 --> 00:22:44,880
+yeah and what's your name
+
+436
+00:22:44,880 --> 00:22:47,419
+Lily
+
+437
+00:22:49,440 --> 00:22:51,360
+it depends on stress in a different
+
+438
+00:22:51,360 --> 00:22:54,000
+process right remember that if threats
+
+439
+00:22:54,000 --> 00:22:56,340
+are in the same process then they
+
+440
+00:22:56,340 --> 00:22:58,860
+are going to share
+
+441
+00:22:58,860 --> 00:23:00,539
+address space
+
+442
+00:23:00,539 --> 00:23:03,840
+if they share the address space
+
+443
+00:23:03,840 --> 00:23:06,299
+there's no contact switch it's very it's
+
+444
+00:23:06,299 --> 00:23:09,840
+very it's very the CPU does not need to
+
+445
+00:23:09,840 --> 00:23:11,940
+save all these states because they are
+
+446
+00:23:11,940 --> 00:23:14,280
+going to share the same data structure
+
+447
+00:23:14,280 --> 00:23:15,299
+okay
+
+448
+00:23:15,299 --> 00:23:17,840
+oh now let's repeat that again okay okay
+
+449
+00:23:17,840 --> 00:23:20,280
+interrupts is a very big word so
+
+450
+00:23:20,280 --> 00:23:23,580
+interrupts means that uh
+
+451
+00:23:23,580 --> 00:23:25,679
+CPU is running something
+
+452
+00:23:25,679 --> 00:23:27,659
+she feels running something now we need
+
+453
+00:23:27,659 --> 00:23:30,059
+to interrupt the CPU okay say indirect
+
+454
+00:23:30,059 --> 00:23:33,240
+okay do something else it can be what it
+
+455
+00:23:33,240 --> 00:23:35,640
+can be it can be waiting for the i o it
+
+456
+00:23:35,640 --> 00:23:37,980
+can be waiting for the io right it can
+
+457
+00:23:37,980 --> 00:23:40,020
+be waiting for some
+
+458
+00:23:40,020 --> 00:23:41,100
+um
+
+459
+00:23:41,100 --> 00:23:45,000
+another another process inputs it can be
+
+460
+00:23:45,000 --> 00:23:46,620
+just to terminate that it can be
+
+461
+00:23:46,620 --> 00:23:48,659
+anything you just stop doing what you
+
+462
+00:23:48,659 --> 00:23:50,159
+are doing it now and doing something
+
+463
+00:23:50,159 --> 00:23:52,500
+else so interrupt we have the software
+
+464
+00:23:52,500 --> 00:23:54,840
+Interruption Hardware interrupt and
+
+465
+00:23:54,840 --> 00:23:57,120
+under the software interrupt system core
+
+466
+00:23:57,120 --> 00:23:59,880
+is one part of the software interrupts
+
+467
+00:23:59,880 --> 00:24:03,179
+okay and one that's super well
+
+468
+00:24:03,179 --> 00:24:05,100
+interrupts happens we issue a system
+
+469
+00:24:05,100 --> 00:24:08,640
+core system core okay system core means
+
+470
+00:24:08,640 --> 00:24:12,120
+large we need to call the system look at
+
+471
+00:24:12,120 --> 00:24:13,500
+the name we need to call the system
+
+472
+00:24:13,500 --> 00:24:15,299
+system is what system we need to call
+
+473
+00:24:15,299 --> 00:24:18,059
+the OS or S we need to call Os to help
+
+474
+00:24:18,059 --> 00:24:21,720
+us then when we call Os to help us that
+
+475
+00:24:21,720 --> 00:24:24,240
+means that we need to go from the user
+
+476
+00:24:24,240 --> 00:24:25,799
+mode to the kernel mode so that is the
+
+477
+00:24:25,799 --> 00:24:27,480
+traffic instruction that is drop
+
+478
+00:24:27,480 --> 00:24:30,059
+instruction and then we need to go to a
+
+479
+00:24:30,059 --> 00:24:32,039
+model switch to the model switch and
+
+480
+00:24:32,039 --> 00:24:34,260
+what contact switch
+
+481
+00:24:34,260 --> 00:24:37,559
+contact switch is a very special case
+
+482
+00:24:37,559 --> 00:24:41,100
+that CPU is switching the processing
+
+483
+00:24:41,100 --> 00:24:42,600
+water from one process to another
+
+484
+00:24:42,600 --> 00:24:45,299
+process so to do that to ensure this
+
+485
+00:24:45,299 --> 00:24:47,460
+happens we need to do the mode switch
+
+486
+00:24:47,460 --> 00:24:49,440
+because we need to go to the kernel mode
+
+487
+00:24:49,440 --> 00:24:52,740
+first to ensure that
+
+488
+00:24:52,740 --> 00:24:55,020
+contact switch can happen so now we
+
+489
+00:24:55,020 --> 00:24:56,520
+understand the relationship between
+
+490
+00:24:56,520 --> 00:24:59,520
+these two this five right so are we
+
+491
+00:24:59,520 --> 00:25:02,840
+clear okay this is something
+
+492
+00:25:05,299 --> 00:25:08,340
+switch contact switch
+
+493
+00:25:08,340 --> 00:25:12,320
+where do you think of contact switches
+
+494
+00:25:15,799 --> 00:25:18,840
+okay connect switch contact switch okay
+
+495
+00:25:18,840 --> 00:25:21,559
+think of that
+
+496
+00:25:22,200 --> 00:25:24,539
+contact switch is
+
+497
+00:25:24,539 --> 00:25:27,600
+a scenario it's a scenario that CPU
+
+498
+00:25:27,600 --> 00:25:30,720
+needs to scheduling its order processing
+
+499
+00:25:30,720 --> 00:25:32,039
+order from one process to another
+
+500
+00:25:32,039 --> 00:25:33,720
+process
+
+501
+00:25:33,720 --> 00:25:37,320
+okay okay so okay let's let's continue
+
+502
+00:25:37,320 --> 00:25:40,559
+so this is what you need to learn from
+
+503
+00:25:40,559 --> 00:25:44,960
+the introduction okay okay wait
+
+504
+00:25:54,179 --> 00:25:55,799
+was from kernel mode back to user mode
+
+505
+00:25:55,799 --> 00:26:00,020
+so what did it so after
+
+506
+00:26:03,840 --> 00:26:05,460
+the content after the contact switch
+
+507
+00:26:05,460 --> 00:26:09,380
+what will happen is that your question
+
+508
+00:26:13,559 --> 00:26:15,960
+no they are in the user process
+
+509
+00:26:15,960 --> 00:26:17,340
+when you approach when you are running
+
+510
+00:26:17,340 --> 00:26:20,700
+process a right forces a
+
+511
+00:26:20,700 --> 00:26:23,820
+process a is already in the user process
+
+512
+00:26:23,820 --> 00:26:26,159
+now contact switch means contact switch
+
+513
+00:26:26,159 --> 00:26:28,799
+means that we need to for some reason we
+
+514
+00:26:28,799 --> 00:26:31,320
+need to run give the processing give the
+
+515
+00:26:31,320 --> 00:26:32,760
+CPU time
+
+516
+00:26:32,760 --> 00:26:35,900
+to the process B
+
+517
+00:26:36,360 --> 00:26:38,279
+okay
+
+518
+00:26:38,279 --> 00:26:40,860
+okay so you need to remember okay just
+
+519
+00:26:40,860 --> 00:26:45,659
+remember that okay contact yeah
+
+520
+00:26:48,539 --> 00:26:51,000
+contact well well contacts which think
+
+521
+00:26:51,000 --> 00:26:52,799
+of that contacts which can we do contact
+
+522
+00:26:52,799 --> 00:26:55,320
+switching your most user mode
+
+523
+00:26:55,320 --> 00:26:58,740
+can we do that conduct switch is a part
+
+524
+00:26:58,740 --> 00:27:01,559
+of resource management
+
+525
+00:27:01,559 --> 00:27:04,919
+policy in the OS right OS has two rules
+
+526
+00:27:04,919 --> 00:27:07,440
+resource manager and abstraction
+
+527
+00:27:07,440 --> 00:27:11,460
+contacts so contact switch is OS trying
+
+528
+00:27:11,460 --> 00:27:14,100
+to especially see people trying to
+
+529
+00:27:14,100 --> 00:27:16,740
+allow cases resource right so it's in
+
+530
+00:27:16,740 --> 00:27:19,320
+the kernel mode right it's in the kernel
+
+531
+00:27:19,320 --> 00:27:20,039
+mode
+
+532
+00:27:20,039 --> 00:27:22,700
+Okay so
+
+533
+00:27:27,840 --> 00:27:30,240
+no it's not exactly that it's not
+
+534
+00:27:30,240 --> 00:27:32,220
+exactly I do not remember like that I'm
+
+535
+00:27:32,220 --> 00:27:34,919
+I'm using the the directions to help you
+
+536
+00:27:34,919 --> 00:27:37,020
+understand the differences between these
+
+537
+00:27:37,020 --> 00:27:38,880
+these five you need to understand
+
+538
+00:27:38,880 --> 00:27:42,120
+exactly what it means okay they are
+
+539
+00:27:42,120 --> 00:27:46,039
+there's not exactly a preceding or after
+
+540
+00:27:46,039 --> 00:27:49,740
+relationships okay this is trap what is
+
+541
+00:27:49,740 --> 00:27:52,799
+trap just action right season core what
+
+542
+00:27:52,799 --> 00:27:55,200
+is system core is just a
+
+543
+00:27:55,200 --> 00:27:58,919
+is it just a name of right it's like
+
+544
+00:27:58,919 --> 00:28:01,500
+trap is an action trap is an action and
+
+545
+00:28:01,500 --> 00:28:04,380
+then interrupts Interruption system core
+
+546
+00:28:04,380 --> 00:28:08,039
+a kind of parallel terms it's just
+
+547
+00:28:08,039 --> 00:28:10,440
+some some system code belongs to the
+
+548
+00:28:10,440 --> 00:28:13,380
+interrupt right and contact switcher
+
+549
+00:28:13,380 --> 00:28:14,580
+mode switch
+
+550
+00:28:14,580 --> 00:28:16,980
+are two different cases but there's
+
+551
+00:28:16,980 --> 00:28:20,360
+relationship between this yeah
+
+552
+00:28:21,600 --> 00:28:23,760
+yeah you can think of that yeah
+
+553
+00:28:23,760 --> 00:28:26,299
+okay
+
+554
+00:28:49,799 --> 00:28:52,799
+we talked that after class okay yeah
+
+555
+00:28:52,799 --> 00:28:53,779
+yeah
+
+556
+00:28:53,779 --> 00:28:57,659
+we have many others to think about okay
+
+557
+00:28:57,659 --> 00:29:00,140
+okay
+
+558
+00:29:00,240 --> 00:29:02,400
+yeah yeah let's talk about after the
+
+559
+00:29:02,400 --> 00:29:06,380
+class of Sharon okay so um
+
+560
+00:29:08,760 --> 00:29:10,980
+then in the introduction you also need
+
+561
+00:29:10,980 --> 00:29:12,779
+to know the examples of the chop
+
+562
+00:29:12,779 --> 00:29:15,840
+instruction system core interrupt you
+
+563
+00:29:15,840 --> 00:29:18,179
+need to understand the examples if you
+
+564
+00:29:18,179 --> 00:29:20,700
+do not know that then put that in your
+
+565
+00:29:20,700 --> 00:29:22,440
+checklist okay you definitely need to
+
+566
+00:29:22,440 --> 00:29:23,460
+know like
+
+567
+00:29:23,460 --> 00:29:26,640
+what kind of instructions is the Trap
+
+568
+00:29:26,640 --> 00:29:29,899
+instruction it's a system core
+
+569
+00:29:29,899 --> 00:29:32,460
+right it's open a file system called
+
+570
+00:29:32,460 --> 00:29:34,260
+something like that you delete a file a
+
+571
+00:29:34,260 --> 00:29:36,840
+system call is like click the keyboard
+
+572
+00:29:36,840 --> 00:29:38,600
+system core
+
+573
+00:29:38,600 --> 00:29:40,860
+and the same as the traffic instruction
+
+574
+00:29:40,860 --> 00:29:43,740
+right you understand like if I'm I'm
+
+575
+00:29:43,740 --> 00:29:45,960
+using the mathematical function is that
+
+576
+00:29:45,960 --> 00:29:49,080
+a system call or not
+
+577
+00:29:49,080 --> 00:29:53,480
+examples like that what kind of
+
+578
+00:29:54,740 --> 00:29:57,840
+examples of each like and the dma right
+
+579
+00:29:57,840 --> 00:30:01,980
+or what is exactly direct memory access
+
+580
+00:30:01,980 --> 00:30:04,260
+what is IO by Pauline what is IO by
+
+581
+00:30:04,260 --> 00:30:07,919
+interrupts they are all in our slides
+
+582
+00:30:07,919 --> 00:30:12,140
+okay so let's come to our
+
+583
+00:30:14,340 --> 00:30:16,380
+come to our
+
+584
+00:30:16,380 --> 00:30:19,380
+chapter 2 process process and threat
+
+585
+00:30:19,380 --> 00:30:22,620
+processor threat so first question is
+
+586
+00:30:22,620 --> 00:30:25,559
+that what is the process
+
+587
+00:30:25,559 --> 00:30:27,899
+what is the process
+
+588
+00:30:27,899 --> 00:30:30,380
+Andrew
+
+589
+00:30:31,679 --> 00:30:35,419
+then what's inside of the process
+
+590
+00:30:49,320 --> 00:30:51,720
+something like that then where are this
+
+591
+00:30:51,720 --> 00:30:53,100
+something
+
+592
+00:30:53,100 --> 00:30:55,919
+where are they where are they
+
+593
+00:30:55,919 --> 00:30:58,679
+we have
+
+594
+00:30:58,679 --> 00:31:00,899
+in memory
+
+595
+00:31:00,899 --> 00:31:04,820
+any other opinion yeah
+
+596
+00:31:04,980 --> 00:31:06,960
+slowly on a transfer is about what is
+
+597
+00:31:06,960 --> 00:31:08,580
+our dress pace
+
+598
+00:31:08,580 --> 00:31:10,919
+address space
+
+599
+00:31:10,919 --> 00:31:13,140
+is a data structure where is address
+
+600
+00:31:13,140 --> 00:31:15,559
+space
+
+601
+00:31:16,500 --> 00:31:18,899
+address space is in registers
+
+602
+00:31:18,899 --> 00:31:21,179
+Lily
+
+603
+00:31:21,179 --> 00:31:23,659
+yeah
+
+604
+00:31:23,700 --> 00:31:26,460
+is on the page another space
+
+605
+00:31:26,460 --> 00:31:29,220
+your address phase is the address in
+
+606
+00:31:29,220 --> 00:31:30,720
+your memory
+
+607
+00:31:30,720 --> 00:31:32,100
+right
+
+608
+00:31:32,100 --> 00:31:36,240
+okay so come back to my question well so
+
+609
+00:31:36,240 --> 00:31:38,880
+Andrew said that a process is just a
+
+610
+00:31:38,880 --> 00:31:41,520
+running program it basically has the
+
+611
+00:31:41,520 --> 00:31:43,980
+information about the program in the
+
+612
+00:31:43,980 --> 00:31:46,080
+address space into input outputs with
+
+613
+00:31:46,080 --> 00:31:47,279
+files
+
+614
+00:31:47,279 --> 00:31:48,960
+and all other information that my
+
+615
+00:31:48,960 --> 00:31:52,640
+question is that where are they
+
+616
+00:31:53,340 --> 00:31:56,159
+where are they so why you load launching
+
+617
+00:31:56,159 --> 00:31:57,480
+a process
+
+618
+00:31:57,480 --> 00:32:00,480
+when you're launching it in the CPU
+
+619
+00:32:00,480 --> 00:32:04,580
+well we put these data structures
+
+620
+00:32:05,340 --> 00:32:08,279
+some of them in the memory right
+
+621
+00:32:08,279 --> 00:32:11,600
+some of them in the
+
+622
+00:32:12,419 --> 00:32:15,500
+something okay
+
+623
+00:32:21,539 --> 00:32:24,419
+so this is a little cold okay A little
+
+624
+00:32:24,419 --> 00:32:25,440
+cold
+
+625
+00:32:25,440 --> 00:32:29,000
+then you combine your code
+
+626
+00:32:29,340 --> 00:32:31,620
+into some process let's say this is your
+
+627
+00:32:31,620 --> 00:32:33,299
+process in a P1
+
+628
+00:32:33,299 --> 00:32:36,020
+then P1
+
+629
+00:32:36,779 --> 00:32:39,860
+now we have the
+
+630
+00:32:39,960 --> 00:32:41,700
+One OS
+
+631
+00:32:41,700 --> 00:32:44,039
+using a data structure to represent the
+
+632
+00:32:44,039 --> 00:32:47,419
+process what they are using
+
+633
+00:32:51,899 --> 00:32:53,760
+broken up into like a few different
+
+634
+00:32:53,760 --> 00:32:56,460
+parts so one of them is like the
+
+635
+00:32:56,460 --> 00:33:00,200
+so like all the variables basically
+
+636
+00:33:01,200 --> 00:33:05,480
+another one I think is just like all the
+
+637
+00:33:07,260 --> 00:33:09,360
+third one was I think there were three
+
+638
+00:33:09,360 --> 00:33:11,820
+but I kind of forget yeah very good
+
+639
+00:33:11,820 --> 00:33:14,100
+thank you Andrew okay
+
+640
+00:33:14,100 --> 00:33:17,580
+so let's continue so we have the process
+
+641
+00:33:17,580 --> 00:33:20,220
+okay we have process so come back to my
+
+642
+00:33:20,220 --> 00:33:23,700
+question when OS CPU is lodging the
+
+643
+00:33:23,700 --> 00:33:27,000
+process launching the process we
+
+644
+00:33:27,000 --> 00:33:29,460
+we use the data structure to represent
+
+645
+00:33:29,460 --> 00:33:32,580
+the process or as you start remember
+
+646
+00:33:32,580 --> 00:33:34,799
+that is in our lecture in the
+
+647
+00:33:34,799 --> 00:33:37,440
+introduction it's in the process lecture
+
+648
+00:33:37,440 --> 00:33:39,120
+lecture five four
+
+649
+00:33:39,120 --> 00:33:40,620
+six
+
+650
+00:33:40,620 --> 00:33:43,019
+the process table right
+
+651
+00:33:43,019 --> 00:33:45,480
+any students remember we have process
+
+652
+00:33:45,480 --> 00:33:48,240
+table and inside of the table
+
+653
+00:33:48,240 --> 00:33:51,179
+there are many variables right some
+
+654
+00:33:51,179 --> 00:33:53,100
+variable is the process named the
+
+655
+00:33:53,100 --> 00:33:56,960
+priority and what
+
+656
+00:33:58,380 --> 00:33:59,640
+name
+
+657
+00:33:59,640 --> 00:34:02,039
+priority
+
+658
+00:34:02,039 --> 00:34:05,640
+a lot of a lot of things like date
+
+659
+00:34:05,640 --> 00:34:09,060
+creation date creation times it should
+
+660
+00:34:09,060 --> 00:34:12,839
+call time creation time and states
+
+661
+00:34:12,839 --> 00:34:15,239
+right States process States
+
+662
+00:34:15,239 --> 00:34:18,199
+and the address
+
+663
+00:34:18,480 --> 00:34:21,020
+space
+
+664
+00:34:22,440 --> 00:34:24,719
+in many other things right
+
+665
+00:34:24,719 --> 00:34:27,659
+many other things so my question is that
+
+666
+00:34:27,659 --> 00:34:30,119
+okay these are in the process table
+
+667
+00:34:30,119 --> 00:34:32,639
+process table data structure
+
+668
+00:34:32,639 --> 00:34:36,179
+so when we're launching this process or
+
+669
+00:34:36,179 --> 00:34:38,280
+us are going to create a data structure
+
+670
+00:34:38,280 --> 00:34:40,679
+to represent this process it will save
+
+671
+00:34:40,679 --> 00:34:42,359
+all the information about the process
+
+672
+00:34:42,359 --> 00:34:45,239
+into this data structure into the data
+
+673
+00:34:45,239 --> 00:34:47,399
+structure my question is where or as
+
+674
+00:34:47,399 --> 00:34:49,739
+Store Dust okay the answer is that most
+
+675
+00:34:49,739 --> 00:34:52,980
+of them are in a memory
+
+676
+00:34:52,980 --> 00:34:54,780
+we later are talking about where they
+
+677
+00:34:54,780 --> 00:34:56,820
+are in the memory okay and some of them
+
+678
+00:34:56,820 --> 00:34:59,420
+in a
+
+679
+00:35:01,740 --> 00:35:04,280
+some of them in the
+
+680
+00:35:04,280 --> 00:35:08,460
+registers yes where is the registers
+
+681
+00:35:08,460 --> 00:35:11,700
+in CPU right in removing our first cell
+
+682
+00:35:11,700 --> 00:35:13,859
+second slide we have the data structure
+
+683
+00:35:13,859 --> 00:35:16,740
+CPU architecture I told you there's a ir
+
+684
+00:35:16,740 --> 00:35:20,700
+and the PC IPC register right now you
+
+685
+00:35:20,700 --> 00:35:22,920
+need to you need to connect with the the
+
+686
+00:35:22,920 --> 00:35:25,140
+channel in most challenging part of os
+
+687
+00:35:25,140 --> 00:35:27,720
+course is that students find out it's
+
+688
+00:35:27,720 --> 00:35:29,820
+very difficult to connect all these
+
+689
+00:35:29,820 --> 00:35:32,400
+Concepts together but that is what we
+
+690
+00:35:32,400 --> 00:35:34,500
+should learn we need to connect connect
+
+691
+00:35:34,500 --> 00:35:37,079
+them all together in a whole picture
+
+692
+00:35:37,079 --> 00:35:39,500
+yes
+
+693
+00:35:40,140 --> 00:35:42,740
+what
+
+694
+00:35:48,660 --> 00:35:50,760
+yeah some some of them are in the CPU
+
+695
+00:35:50,760 --> 00:35:52,440
+right in the summer register right
+
+696
+00:35:52,440 --> 00:35:55,560
+especially even remember the IPC like
+
+697
+00:35:55,560 --> 00:35:57,839
+the program counter the pro sorry the
+
+698
+00:35:57,839 --> 00:36:00,359
+program counter the IR the program
+
+699
+00:36:00,359 --> 00:36:04,460
+counter now for the program counter
+
+700
+00:36:05,760 --> 00:36:07,920
+so that is the process that is the
+
+701
+00:36:07,920 --> 00:36:10,500
+process then inside of the memory we're
+
+702
+00:36:10,500 --> 00:36:13,020
+talking about that
+
+703
+00:36:13,020 --> 00:36:15,180
+inside of the memory that is the address
+
+704
+00:36:15,180 --> 00:36:17,400
+space especially the address space so
+
+705
+00:36:17,400 --> 00:36:19,740
+it's this data structure when the OS
+
+706
+00:36:19,740 --> 00:36:22,260
+creates a data structure for the process
+
+707
+00:36:22,260 --> 00:36:24,839
+it saves all the information in this
+
+708
+00:36:24,839 --> 00:36:28,619
+process table and then we put the other
+
+709
+00:36:28,619 --> 00:36:31,079
+information saved in the memory in the
+
+710
+00:36:31,079 --> 00:36:34,920
+memory also in memory in memory
+
+711
+00:36:34,920 --> 00:36:37,859
+memory is consists come memory consists
+
+712
+00:36:37,859 --> 00:36:41,099
+of pages Pages we are not going to test
+
+713
+00:36:41,099 --> 00:36:42,839
+in that but you need to know that what
+
+714
+00:36:42,839 --> 00:36:44,280
+we are going to test that in your final
+
+715
+00:36:44,280 --> 00:36:48,960
+pages one page is 4 KB the fourth of the
+
+716
+00:36:48,960 --> 00:36:52,619
+4 KB is a page we call it a page so the
+
+717
+00:36:52,619 --> 00:36:55,020
+address space will tell exactly what
+
+718
+00:36:55,020 --> 00:36:58,500
+page of this process is of these
+
+719
+00:36:58,500 --> 00:37:01,740
+processes and to ensure a very efficient
+
+720
+00:37:01,740 --> 00:37:04,380
+computation to manage in the process or
+
+721
+00:37:04,380 --> 00:37:08,520
+what OS did this Dutch he or us she was
+
+722
+00:37:08,520 --> 00:37:11,400
+going to put all the data together
+
+723
+00:37:11,400 --> 00:37:14,400
+together
+
+724
+00:37:14,400 --> 00:37:20,339
+so it's a tax text phase code space
+
+725
+00:37:20,339 --> 00:37:23,820
+and there are some hip and stack step
+
+726
+00:37:23,820 --> 00:37:26,940
+Haze to dynamically allocation of the
+
+727
+00:37:26,940 --> 00:37:29,579
+memory to that process right so it will
+
+728
+00:37:29,579 --> 00:37:31,619
+be there it will be there
+
+729
+00:37:31,619 --> 00:37:34,859
+then that is the that is the process now
+
+730
+00:37:34,859 --> 00:37:38,420
+to come to the threads
+
+731
+00:37:38,520 --> 00:37:41,940
+so if if this process creates a stress
+
+732
+00:37:41,940 --> 00:37:45,240
+and we call it stress one
+
+733
+00:37:45,240 --> 00:37:46,920
+it will be
+
+734
+00:37:46,920 --> 00:37:51,079
+where it is where it is
+
+735
+00:37:52,619 --> 00:37:54,420
+yes
+
+736
+00:37:54,420 --> 00:37:57,119
+in the same address space right in the
+
+737
+00:37:57,119 --> 00:37:59,460
+same address space that is why we say
+
+738
+00:37:59,460 --> 00:38:00,599
+that
+
+739
+00:38:00,599 --> 00:38:03,300
+stress is more lightweight
+
+740
+00:38:03,300 --> 00:38:05,700
+than a process that is why we say that
+
+741
+00:38:05,700 --> 00:38:07,680
+stress is more lightweight than a
+
+742
+00:38:07,680 --> 00:38:08,579
+process
+
+743
+00:38:08,579 --> 00:38:10,140
+we have the like the difference between
+
+744
+00:38:10,140 --> 00:38:13,760
+process and threat right
+
+745
+00:38:19,500 --> 00:38:21,960
+right
+
+746
+00:38:21,960 --> 00:38:25,339
+is that why it's more lightweight
+
+747
+00:38:25,339 --> 00:38:27,480
+threat so let's come what's the
+
+748
+00:38:27,480 --> 00:38:31,160
+difference between process and stress
+
+749
+00:38:31,260 --> 00:38:35,660
+um this is in our lectures yes
+
+750
+00:38:41,940 --> 00:38:44,839
+the same information
+
+751
+00:38:52,440 --> 00:38:56,160
+yeah very good very good so well if you
+
+752
+00:38:56,160 --> 00:38:57,960
+look how you remember the one we
+
+753
+00:38:57,960 --> 00:38:59,940
+mentioned in the lecture the textbook we
+
+754
+00:38:59,940 --> 00:39:02,700
+say that stress has almost the same data
+
+755
+00:39:02,700 --> 00:39:04,859
+structure as process right we have this
+
+756
+00:39:04,859 --> 00:39:07,980
+this exactly the sentence but the
+
+757
+00:39:07,980 --> 00:39:09,480
+difference is that only difference is
+
+758
+00:39:09,480 --> 00:39:10,800
+that if
+
+759
+00:39:10,800 --> 00:39:13,619
+if a process creates a stress and
+
+760
+00:39:13,619 --> 00:39:16,320
+creates several threats then the
+
+761
+00:39:16,320 --> 00:39:18,300
+contacts video will be no contact switch
+
+762
+00:39:18,300 --> 00:39:21,839
+between This Thread however however if
+
+763
+00:39:21,839 --> 00:39:24,960
+here is process one so his process one
+
+764
+00:39:24,960 --> 00:39:27,780
+is crazy stress when process 2 creates a
+
+765
+00:39:27,780 --> 00:39:29,400
+threat too
+
+766
+00:39:29,400 --> 00:39:31,859
+then if we need to conduct switch
+
+767
+00:39:31,859 --> 00:39:36,200
+between threads one through two
+
+768
+00:39:41,760 --> 00:39:44,579
+if we switch if CPU is switching from
+
+769
+00:39:44,579 --> 00:39:47,400
+stress one thread to
+
+770
+00:39:47,400 --> 00:39:50,160
+then it will be the same old head of of
+
+771
+00:39:50,160 --> 00:39:54,619
+switch from slash one and thread 2.
+
+772
+00:39:54,900 --> 00:39:58,320
+however if this if the stress there's a
+
+773
+00:39:58,320 --> 00:40:01,160
+stress three
+
+774
+00:40:01,440 --> 00:40:04,800
+threads one and three three
+
+775
+00:40:04,800 --> 00:40:08,940
+if they belonging to the same process if
+
+776
+00:40:08,940 --> 00:40:11,040
+they belonging to the same process then
+
+777
+00:40:11,040 --> 00:40:13,140
+there will be no contacts we we just
+
+778
+00:40:13,140 --> 00:40:15,119
+switched from Source one to three three
+
+779
+00:40:15,119 --> 00:40:18,240
+then there will be no contact switch
+
+780
+00:40:18,240 --> 00:40:20,160
+there will not come because they are
+
+781
+00:40:20,160 --> 00:40:22,200
+going to share the same address space
+
+782
+00:40:22,200 --> 00:40:26,900
+the CPU does not need to yeah
+
+783
+00:40:30,060 --> 00:40:32,579
+yeah it has but it is going to share
+
+784
+00:40:32,579 --> 00:40:36,240
+with the process parents process
+
+785
+00:40:36,240 --> 00:40:39,119
+yes right that is why the context which
+
+786
+00:40:39,119 --> 00:40:40,740
+does not cost much because they are
+
+787
+00:40:40,740 --> 00:40:43,460
+going to use the same
+
+788
+00:40:45,960 --> 00:40:48,740
+yeah it's IR
+
+789
+00:40:51,900 --> 00:40:54,500
+what's IR
+
+790
+00:40:55,339 --> 00:40:58,079
+there's a lot of registers but the most
+
+791
+00:40:58,079 --> 00:40:59,460
+important register you need to remember
+
+792
+00:40:59,460 --> 00:41:00,420
+is
+
+793
+00:41:00,420 --> 00:41:04,760
+program counter what is program counter
+
+794
+00:41:04,920 --> 00:41:09,320
+for this program counter yeah Andrew
+
+795
+00:41:10,740 --> 00:41:12,599
+yeah it's just pointed to the currency
+
+796
+00:41:12,599 --> 00:41:13,619
+instruction
+
+797
+00:41:13,619 --> 00:41:16,680
+point to the current instruction
+
+798
+00:41:16,680 --> 00:41:19,520
+of the code okay
+
+799
+00:41:19,520 --> 00:41:22,740
+so this is the process this is the
+
+800
+00:41:22,740 --> 00:41:25,040
+process
+
+801
+00:41:30,119 --> 00:41:32,839
+Okay so
+
+802
+00:41:33,119 --> 00:41:35,400
+oh
+
+803
+00:41:35,400 --> 00:41:36,540
+yeah
+
+804
+00:41:36,540 --> 00:41:39,119
+this is looks like an address space this
+
+805
+00:41:39,119 --> 00:41:40,440
+is why I told you this is an address
+
+806
+00:41:40,440 --> 00:41:43,260
+space you see a little process are going
+
+807
+00:41:43,260 --> 00:41:45,619
+to be
+
+808
+00:41:54,000 --> 00:41:57,000
+I'm going to use the uh the same data
+
+809
+00:41:57,000 --> 00:41:59,099
+structure so they did what we have a
+
+810
+00:41:59,099 --> 00:42:01,079
+different name but they are the same you
+
+811
+00:42:01,079 --> 00:42:03,920
+can think of that like this is just
+
+812
+00:42:03,920 --> 00:42:07,700
+inherited from that class
+
+813
+00:42:09,300 --> 00:42:12,980
+the process does not use what
+
+814
+00:42:14,760 --> 00:42:16,980
+they all have different names
+
+815
+00:42:16,980 --> 00:42:18,900
+they were no they were not going to use
+
+816
+00:42:18,900 --> 00:42:19,619
+that
+
+817
+00:42:19,619 --> 00:42:22,740
+if in the code they will be different it
+
+818
+00:42:22,740 --> 00:42:23,820
+will be different
+
+819
+00:42:23,820 --> 00:42:26,640
+so look at that address space this is
+
+820
+00:42:26,640 --> 00:42:29,839
+like address space right
+
+821
+00:42:32,700 --> 00:42:35,760
+so each process you will its memory as a
+
+822
+00:42:35,760 --> 00:42:37,560
+continuous set of logical memory address
+
+823
+00:42:37,560 --> 00:42:39,119
+and the operating system management
+
+824
+00:42:39,119 --> 00:42:41,339
+transition of logical respect to
+
+825
+00:42:41,339 --> 00:42:43,400
+physical address space of the computer
+
+826
+00:42:43,400 --> 00:42:45,900
+and we call in this we actually
+
+827
+00:42:45,900 --> 00:42:48,540
+mentioned that in our introduction and
+
+828
+00:42:48,540 --> 00:42:50,520
+we call it um
+
+829
+00:42:50,520 --> 00:42:53,820
+we use the page table to do that we use
+
+830
+00:42:53,820 --> 00:42:55,380
+the page table to do and this is the
+
+831
+00:42:55,380 --> 00:42:57,839
+mapping from The Logical address space
+
+832
+00:42:57,839 --> 00:42:59,880
+to the physical address space this is
+
+833
+00:42:59,880 --> 00:43:01,500
+what I go we are going to learn in our
+
+834
+00:43:01,500 --> 00:43:04,220
+memory chapter
+
+835
+00:43:13,500 --> 00:43:15,780
+now it's come to the uh
+
+836
+00:43:15,780 --> 00:43:18,599
+it's come to the
+
+837
+00:43:18,599 --> 00:43:20,880
+let's come to the process States
+
+838
+00:43:20,880 --> 00:43:24,200
+come to the process States
+
+839
+00:43:27,660 --> 00:43:30,720
+here you you need to you need to
+
+840
+00:43:30,720 --> 00:43:33,480
+you you need to connect the discount I
+
+841
+00:43:33,480 --> 00:43:36,540
+believe most of you have already
+
+842
+00:43:36,540 --> 00:43:40,140
+remember this stage but we are not going
+
+843
+00:43:40,140 --> 00:43:42,420
+to test you or start easy like ask you
+
+844
+00:43:42,420 --> 00:43:44,520
+to draw the picture about the stage
+
+845
+00:43:44,520 --> 00:43:46,140
+transition between
+
+846
+00:43:46,140 --> 00:43:48,839
+the three states like the running block
+
+847
+00:43:48,839 --> 00:43:50,280
+ready
+
+848
+00:43:50,280 --> 00:43:53,339
+right so so you need to using this
+
+849
+00:43:53,339 --> 00:43:55,680
+connecting this with something else that
+
+850
+00:43:55,680 --> 00:43:58,319
+we learned in the chapter for example
+
+851
+00:43:58,319 --> 00:44:00,119
+for example this is the status
+
+852
+00:44:00,119 --> 00:44:03,980
+transition right stage transition
+
+853
+00:44:06,599 --> 00:44:09,260
+so
+
+854
+00:44:09,480 --> 00:44:12,240
+how is it connected with the CPU
+
+855
+00:44:12,240 --> 00:44:14,780
+scheduling
+
+856
+00:44:15,119 --> 00:44:19,380
+in in all in in the surround process and
+
+857
+00:44:19,380 --> 00:44:21,240
+the third chapter when we are talking
+
+858
+00:44:21,240 --> 00:44:23,339
+about the states
+
+859
+00:44:23,339 --> 00:44:25,319
+after we're talking about the states the
+
+860
+00:44:25,319 --> 00:44:27,140
+state transitions we're talking about
+
+861
+00:44:27,140 --> 00:44:29,339
+mutexamophones and then later we're
+
+862
+00:44:29,339 --> 00:44:30,599
+talking about the
+
+863
+00:44:30,599 --> 00:44:32,819
+CPU scheduling right we'll talk about a
+
+864
+00:44:32,819 --> 00:44:34,380
+lot of skills Gathering algorithm we
+
+865
+00:44:34,380 --> 00:44:36,540
+will talk about the or system
+
+866
+00:44:36,540 --> 00:44:38,880
+performance Matrix another like the
+
+867
+00:44:38,880 --> 00:44:42,140
+batch system interactive systems
+
+868
+00:44:42,140 --> 00:44:44,940
+then I a whale see some something like
+
+869
+00:44:44,940 --> 00:44:47,640
+Dash and then we talk about the
+
+870
+00:44:47,640 --> 00:44:49,500
+scheduling algorithms we're talking
+
+871
+00:44:49,500 --> 00:44:52,319
+about the CPU queue like the radical
+
+872
+00:44:52,319 --> 00:44:55,500
+right spill radical and scheduling
+
+873
+00:44:55,500 --> 00:44:58,380
+algorithms you remember that so how it
+
+874
+00:44:58,380 --> 00:45:00,660
+how it's connected with them
+
+875
+00:45:00,660 --> 00:45:03,180
+see this is what I'm talking about this
+
+876
+00:45:03,180 --> 00:45:05,760
+is the ready list right ready list
+
+877
+00:45:05,760 --> 00:45:07,920
+and then we are talking about a lot of
+
+878
+00:45:07,920 --> 00:45:09,720
+algorithms if you still remember the
+
+879
+00:45:09,720 --> 00:45:11,520
+round robin algorithms the priority
+
+880
+00:45:11,520 --> 00:45:14,460
+algorithms the first Surfers to come
+
+881
+00:45:14,460 --> 00:45:16,859
+first come first serve algorithms
+
+882
+00:45:16,859 --> 00:45:18,300
+the
+
+883
+00:45:18,300 --> 00:45:22,200
+like shortest time sure she's a job
+
+884
+00:45:22,200 --> 00:45:24,960
+showed his job time algorithm showed his
+
+885
+00:45:24,960 --> 00:45:28,140
+remaining job time algorithms so how
+
+886
+00:45:28,140 --> 00:45:30,300
+these two concepts are connected to to
+
+887
+00:45:30,300 --> 00:45:31,980
+each other
+
+888
+00:45:31,980 --> 00:45:34,740
+I feel sorry about that how these two
+
+889
+00:45:34,740 --> 00:45:38,240
+concepts connected to each other
+
+890
+00:45:38,940 --> 00:45:41,420
+Lily
+
+891
+00:45:45,660 --> 00:45:48,839
+the transition between ready and running
+
+892
+00:45:48,839 --> 00:45:51,300
+very good and then by the world how
+
+893
+00:45:51,300 --> 00:45:54,000
+about this block how about block
+
+894
+00:45:54,000 --> 00:45:56,839
+how about block
+
+895
+00:45:57,780 --> 00:46:00,839
+let's say let's say okay let's say
+
+896
+00:46:00,839 --> 00:46:03,839
+okay
+
+897
+00:46:38,819 --> 00:46:40,859
+these three states okay so first of
+
+898
+00:46:40,859 --> 00:46:43,800
+first someone can help me to
+
+899
+00:46:43,800 --> 00:46:46,140
+finish this the transition between the
+
+900
+00:46:46,140 --> 00:46:49,440
+Slate the process each process can have
+
+901
+00:46:49,440 --> 00:46:52,760
+these three states right
+
+902
+00:47:15,839 --> 00:47:18,420
+can you go from ready to block
+
+903
+00:47:18,420 --> 00:47:21,800
+can you go from ready to block
+
+904
+00:47:22,079 --> 00:47:24,859
+yes or no
+
+905
+00:47:28,500 --> 00:47:31,500
+yes
+
+906
+00:47:33,060 --> 00:47:35,040
+we discussion in the class right we
+
+907
+00:47:35,040 --> 00:47:36,660
+discussed that in the class anyone
+
+908
+00:47:36,660 --> 00:47:39,440
+remember why
+
+909
+00:47:40,140 --> 00:47:43,460
+anyone remember why
+
+910
+00:47:43,920 --> 00:47:46,940
+yeah what's your name
+
+911
+00:47:47,099 --> 00:47:48,720
+Andrew
+
+912
+00:47:48,720 --> 00:47:51,180
+together
+
+913
+00:47:51,180 --> 00:47:53,720
+uh
+
+914
+00:47:54,079 --> 00:47:58,200
+okay we have three Andrews that's good
+
+915
+00:47:58,200 --> 00:48:00,740
+okay
+
+916
+00:48:02,280 --> 00:48:05,339
+so okay so my question is that can we go
+
+917
+00:48:05,339 --> 00:48:09,560
+from ready state to the Vlog state
+
+918
+00:48:12,960 --> 00:48:17,000
+so if anything
+
+919
+00:48:18,780 --> 00:48:21,240
+it has not done anything it's in the
+
+920
+00:48:21,240 --> 00:48:23,579
+radical how could you block someone's
+
+921
+00:48:23,579 --> 00:48:25,260
+already
+
+922
+00:48:25,260 --> 00:48:28,140
+it's already it's not running right he's
+
+923
+00:48:28,140 --> 00:48:30,780
+he's staying in the in the CPU radical
+
+924
+00:48:30,780 --> 00:48:33,480
+it's a very long queue so data structure
+
+925
+00:48:33,480 --> 00:48:36,480
+is that it's not even noticed about OS
+
+926
+00:48:36,480 --> 00:48:38,720
+yeah
+
+927
+00:48:40,140 --> 00:48:42,720
+how would you ask
+
+928
+00:48:42,720 --> 00:48:46,280
+you after him how am I asked
+
+929
+00:48:52,819 --> 00:48:56,460
+no I'm not going to ask this this is too
+
+930
+00:48:56,460 --> 00:48:58,680
+sweet stupid I'm going to ask you a very
+
+931
+00:48:58,680 --> 00:49:02,960
+tricky question you will see that
+
+932
+00:49:05,300 --> 00:49:08,700
+I'm not going to ask because there will
+
+933
+00:49:08,700 --> 00:49:10,859
+be a lot of answers and I do not want to
+
+934
+00:49:10,859 --> 00:49:12,900
+put myself in a situation that to look
+
+935
+00:49:12,900 --> 00:49:14,040
+at your
+
+936
+00:49:14,040 --> 00:49:16,619
+your words like one word after one word
+
+937
+00:49:16,619 --> 00:49:17,880
+still no
+
+938
+00:49:17,880 --> 00:49:20,339
+you you are I have a question but if you
+
+939
+00:49:20,339 --> 00:49:22,500
+understand that I think it will be
+
+940
+00:49:22,500 --> 00:49:24,420
+well I'll make an example okay I'll help
+
+941
+00:49:24,420 --> 00:49:27,720
+you okay make the example okay
+
+942
+00:49:27,720 --> 00:49:30,119
+so think of that we have we have
+
+943
+00:49:30,119 --> 00:49:32,940
+different scheduling algorithms right we
+
+944
+00:49:32,940 --> 00:49:36,540
+have different schedule algorithms first
+
+945
+00:49:36,540 --> 00:49:39,260
+what is that
+
+946
+00:49:39,660 --> 00:49:42,300
+first come first serve
+
+947
+00:49:42,300 --> 00:49:46,160
+when I first come first is serve
+
+948
+00:49:46,920 --> 00:49:49,500
+so if I have three process if I have
+
+949
+00:49:49,500 --> 00:49:53,160
+three process P1 just to two process P1
+
+950
+00:49:53,160 --> 00:49:55,760
+and P2
+
+951
+00:49:56,520 --> 00:49:59,700
+what kind of states are they look going
+
+952
+00:49:59,700 --> 00:50:03,920
+to look at a first come first serve
+
+953
+00:50:04,079 --> 00:50:06,599
+first come first serve scheduling
+
+954
+00:50:06,599 --> 00:50:08,579
+algorithms
+
+955
+00:50:08,579 --> 00:50:11,700
+what what kind of stage transition looks
+
+956
+00:50:11,700 --> 00:50:15,020
+like a first conversation
+
+957
+00:50:21,020 --> 00:50:25,500
+let me make the question more concrete I
+
+958
+00:50:25,500 --> 00:50:29,819
+have P1 okay P1 P1 needs five
+
+959
+00:50:29,819 --> 00:50:32,940
+CPU time to finish P2 needs two CPU
+
+960
+00:50:32,940 --> 00:50:36,119
+timer to finish to spill time to finish
+
+961
+00:50:36,119 --> 00:50:38,579
+but I do not tell you how what is
+
+962
+00:50:38,579 --> 00:50:41,760
+gathering order is but I tell you now I
+
+963
+00:50:41,760 --> 00:50:44,579
+have the CPU scheduling order of P1 P1
+
+964
+00:50:44,579 --> 00:50:48,780
+P1 P1 P1 and P2 P2
+
+965
+00:50:48,780 --> 00:50:51,780
+so I'm asking like what will be the most
+
+966
+00:50:51,780 --> 00:50:54,359
+possible scheduling algorithms it looks
+
+967
+00:50:54,359 --> 00:50:56,099
+like
+
+968
+00:50:56,099 --> 00:50:58,200
+it will look like a first come first
+
+969
+00:50:58,200 --> 00:51:03,660
+serve right but if it is the P1 P2 P1 P2
+
+970
+00:51:03,660 --> 00:51:06,000
+is like they saying like I'm saying like
+
+971
+00:51:06,000 --> 00:51:08,280
+this is the running this is the running
+
+972
+00:51:08,280 --> 00:51:11,819
+running and P2 is P2 is always in the
+
+973
+00:51:11,819 --> 00:51:14,760
+block State block stays
+
+974
+00:51:14,760 --> 00:51:16,920
+and after waiting two blocks this is
+
+975
+00:51:16,920 --> 00:51:19,700
+starting running
+
+976
+00:51:20,940 --> 00:51:23,300
+so P1 is always running running running
+
+977
+00:51:23,300 --> 00:51:26,040
+then I will be mostly exactly looks like
+
+978
+00:51:26,040 --> 00:51:28,859
+a first come first serve right so this
+
+979
+00:51:28,859 --> 00:51:30,480
+is how you connect this is just an
+
+980
+00:51:30,480 --> 00:51:32,640
+example very stupid example that help
+
+981
+00:51:32,640 --> 00:51:36,359
+you to help you to understand the the
+
+982
+00:51:36,359 --> 00:51:39,059
+the concept between this Gathering
+
+983
+00:51:39,059 --> 00:51:41,460
+algorithms and the stage transition
+
+984
+00:51:41,460 --> 00:51:43,500
+the most challenging part of the OS
+
+985
+00:51:43,500 --> 00:51:45,420
+course is that to connecting all these
+
+986
+00:51:45,420 --> 00:51:48,500
+components together yes
+
+987
+00:51:53,220 --> 00:51:56,520
+no no you see that let's say P1 comes at
+
+988
+00:51:56,520 --> 00:52:01,200
+1 pm P2 at the other like one one pm2
+
+989
+00:52:01,200 --> 00:52:04,559
+but it's slightly later than P1 so P2
+
+990
+00:52:04,559 --> 00:52:06,780
+are going to be blocked for
+
+991
+00:52:06,780 --> 00:52:09,720
+five slots because P1 is let's say just
+
+992
+00:52:09,720 --> 00:52:12,480
+one nanoseconds earlier and P1 is going
+
+993
+00:52:12,480 --> 00:52:14,700
+to be on the
+
+994
+00:52:14,700 --> 00:52:17,700
+sorry
+
+995
+00:52:21,599 --> 00:52:24,059
+United States right
+
+996
+00:52:24,059 --> 00:52:26,420
+ready
+
+997
+00:52:26,880 --> 00:52:29,220
+right it will be in the ready States for
+
+998
+00:52:29,220 --> 00:52:32,640
+for five slots until P1 finish that then
+
+999
+00:52:32,640 --> 00:52:34,380
+use P2
+
+1000
+00:52:34,380 --> 00:52:36,900
+okay okay then you think of that what
+
+1001
+00:52:36,900 --> 00:52:37,859
+will be the
+
+1002
+00:52:37,859 --> 00:52:40,140
+round robin looks like right round robin
+
+1003
+00:52:40,140 --> 00:52:42,720
+looks like what will be the shortest job
+
+1004
+00:52:42,720 --> 00:52:44,640
+first looks like what is the shortest
+
+1005
+00:52:44,640 --> 00:52:47,579
+remaining job first looks like
+
+1006
+00:52:47,579 --> 00:52:52,400
+so try to try to connect them together
+
+1007
+00:52:54,000 --> 00:52:57,420
+now let's come to our
+
+1008
+00:52:57,420 --> 00:53:00,900
+schedule schedule this is the attack oh
+
+1009
+00:53:00,900 --> 00:53:03,300
+sorry this is the architecture of our
+
+1010
+00:53:03,300 --> 00:53:06,059
+scheduler so looking at that look at
+
+1011
+00:53:06,059 --> 00:53:08,180
+that
+
+1012
+00:53:08,700 --> 00:53:11,300
+here
+
+1013
+00:53:11,579 --> 00:53:13,740
+ready list we have we have been talking
+
+1014
+00:53:13,740 --> 00:53:16,079
+that a lot of time right writing is just
+
+1015
+00:53:16,079 --> 00:53:19,200
+radical this is the radical radical we
+
+1016
+00:53:19,200 --> 00:53:21,240
+have the ready process we put it in
+
+1017
+00:53:21,240 --> 00:53:23,339
+color and then we put in the ready list
+
+1018
+00:53:23,339 --> 00:53:26,160
+and then we dispatch it now this is the
+
+1019
+00:53:26,160 --> 00:53:28,200
+this is where you you
+
+1020
+00:53:28,200 --> 00:53:31,079
+you connect the contact switch concepts
+
+1021
+00:53:31,079 --> 00:53:32,880
+with the CPU scheduling algorithm
+
+1022
+00:53:32,880 --> 00:53:35,180
+together
+
+1023
+00:53:35,400 --> 00:53:39,420
+whenever a CPU are picking a process
+
+1024
+00:53:39,420 --> 00:53:41,880
+picking a process that's reaching from
+
+1025
+00:53:41,880 --> 00:53:44,160
+one process to another process
+
+1026
+00:53:44,160 --> 00:53:46,740
+scheduling that you it's going to cause
+
+1027
+00:53:46,740 --> 00:53:49,800
+a contact switch contact switch and then
+
+1028
+00:53:49,800 --> 00:53:52,380
+we go to CPU and for running
+
+1029
+00:53:52,380 --> 00:53:54,780
+right that is the structure of the CPUs
+
+1030
+00:53:54,780 --> 00:53:58,280
+process scheduler
+
+1031
+00:53:59,400 --> 00:54:02,339
+okay so CPU utilization you remember
+
+1032
+00:54:02,339 --> 00:54:04,440
+when we're talking about visualization
+
+1033
+00:54:04,440 --> 00:54:06,720
+we're talking about the formula
+
+1034
+00:54:06,720 --> 00:54:09,380
+yes
+
+1035
+00:54:09,900 --> 00:54:11,900
+yes
+
+1036
+00:54:22,140 --> 00:54:24,720
+you cannot go from ready to walk block
+
+1037
+00:54:24,720 --> 00:54:28,260
+means that you ecpu needs to interrupt
+
+1038
+00:54:28,260 --> 00:54:30,859
+the process
+
+1039
+00:54:34,859 --> 00:54:37,680
+in the radical one some process it puts
+
+1040
+00:54:37,680 --> 00:54:40,140
+it include in the radical and that means
+
+1041
+00:54:40,140 --> 00:54:42,359
+it's ready
+
+1042
+00:54:42,359 --> 00:54:45,980
+it means it's already ready
+
+1043
+00:54:46,740 --> 00:54:50,960
+you cannot go back you cannot go back
+
+1044
+00:54:51,420 --> 00:54:53,940
+okay now now after we're talking about
+
+1045
+00:54:53,940 --> 00:54:55,859
+the process the difference is pushing
+
+1046
+00:54:55,859 --> 00:54:59,520
+process and stress which contact switch
+
+1047
+00:54:59,520 --> 00:55:02,160
+and scattering before we talk about
+
+1048
+00:55:02,160 --> 00:55:04,619
+scheduling algorithm and we're talking
+
+1049
+00:55:04,619 --> 00:55:06,059
+about
+
+1050
+00:55:06,059 --> 00:55:09,480
+CPU utilization in the lecture we have a
+
+1051
+00:55:09,480 --> 00:55:13,339
+formula any student remember that
+
+1052
+00:55:16,980 --> 00:55:19,800
+I hope you do not forget okay if we if I
+
+1053
+00:55:19,800 --> 00:55:20,880
+have a
+
+1054
+00:55:20,880 --> 00:55:24,859
+if I have a process one
+
+1055
+00:55:25,319 --> 00:55:28,500
+it's used it's used 15 percentage of
+
+1056
+00:55:28,500 --> 00:55:31,260
+time to do the i o waiting
+
+1057
+00:55:31,260 --> 00:55:35,220
+to do the eye all waiting
+
+1058
+00:55:35,220 --> 00:55:38,160
+what is the average CPU utilization of
+
+1059
+00:55:38,160 --> 00:55:40,640
+the system we just have only one process
+
+1060
+00:55:40,640 --> 00:55:43,859
+what is the average CPU utilization of
+
+1061
+00:55:43,859 --> 00:55:45,839
+the systems
+
+1062
+00:55:45,839 --> 00:55:49,099
+that's just 50 percent
+
+1063
+00:55:54,180 --> 00:55:57,900
+if our P1 and P2 both have 15 percentage
+
+1064
+00:55:57,900 --> 00:56:01,640
+of the i o waiting what is the
+
+1065
+00:56:02,220 --> 00:56:05,780
+what is a CPU utilization
+
+1066
+00:56:09,540 --> 00:56:12,900
+what will be the CPU utilization
+
+1067
+00:56:12,900 --> 00:56:15,380
+angel
+
+1068
+00:56:15,420 --> 00:56:16,680
+how much
+
+1069
+00:56:16,680 --> 00:56:19,400
+75
+
+1070
+00:56:19,859 --> 00:56:22,260
+you know how to calculate that right
+
+1071
+00:56:22,260 --> 00:56:24,980
+is one
+
+1072
+00:56:25,559 --> 00:56:28,020
+where's this
+
+1073
+00:56:28,020 --> 00:56:30,059
+this run
+
+1074
+00:56:30,059 --> 00:56:32,040
+is
+
+1075
+00:56:32,040 --> 00:56:34,380
+75
+
+1076
+00:56:34,380 --> 00:56:35,940
+right
+
+1077
+00:56:35,940 --> 00:56:38,599
+yes
+
+1078
+00:56:48,240 --> 00:56:51,440
+what will be the answer
+
+1079
+00:57:00,119 --> 00:57:02,780
+how much
+
+1080
+00:57:11,040 --> 00:57:13,740
+30 50.
+
+1081
+00:57:13,740 --> 00:57:16,880
+30 50.
+
+1082
+00:57:17,280 --> 00:57:19,200
+right
+
+1083
+00:57:19,200 --> 00:57:21,619
+okay
+
+1084
+00:57:26,700 --> 00:57:30,059
+okay what is the waiting time what is
+
+1085
+00:57:30,059 --> 00:57:32,160
+the waiting hour
+
+1086
+00:57:32,160 --> 00:57:34,500
+so we know the cpu's utilization slow
+
+1087
+00:57:34,500 --> 00:57:36,480
+puts how to calculate our system's
+
+1088
+00:57:36,480 --> 00:57:38,160
+throughputs
+
+1089
+00:57:38,160 --> 00:57:40,920
+you have we have 100 jobs submitted to
+
+1090
+00:57:40,920 --> 00:57:43,020
+the system the system needs three
+
+1091
+00:57:43,020 --> 00:57:46,319
+seconds to process these drops then what
+
+1092
+00:57:46,319 --> 00:57:48,920
+is throughput
+
+1093
+00:57:49,920 --> 00:57:54,839
+is 100 divided 3 right and then 33
+
+1094
+00:57:54,839 --> 00:57:58,020
+.3 drops per second that is the
+
+1095
+00:57:58,020 --> 00:58:00,660
+throughput throughput means
+
+1096
+00:58:00,660 --> 00:58:03,480
+at the time units how much you can
+
+1097
+00:58:03,480 --> 00:58:05,700
+finish how much you can finish that's
+
+1098
+00:58:05,700 --> 00:58:06,900
+the throughput
+
+1099
+00:58:06,900 --> 00:58:08,880
+what is the waiting time why is the
+
+1100
+00:58:08,880 --> 00:58:09,900
+waiting time
+
+1101
+00:58:09,900 --> 00:58:12,000
+what is the service time
+
+1102
+00:58:12,000 --> 00:58:16,220
+run time response time
+
+1103
+00:58:18,900 --> 00:58:21,420
+let's just focus on this okay
+
+1104
+00:58:21,420 --> 00:58:25,940
+waiting home to run time
+
+1105
+00:58:37,040 --> 00:58:39,780
+the amount of time the process has to
+
+1106
+00:58:39,780 --> 00:58:43,619
+wait to go like the rifle minus or like
+
+1107
+00:58:43,619 --> 00:58:46,079
+time it starts minus arrival time I
+
+1108
+00:58:46,079 --> 00:58:48,380
+believe time Stars
+
+1109
+00:58:48,380 --> 00:58:52,140
+arrival time and uh
+
+1110
+00:58:52,140 --> 00:58:54,599
+but what if we start running for a while
+
+1111
+00:58:54,599 --> 00:58:56,760
+then it needs to be waited for the other
+
+1112
+00:58:56,760 --> 00:58:58,680
+process to proceed because it's a
+
+1113
+00:58:58,680 --> 00:59:00,660
+shortage shortest remaining job first
+
+1114
+00:59:00,660 --> 00:59:04,260
+the algorithm is a preemptive algorithms
+
+1115
+00:59:04,260 --> 00:59:08,000
+what if in that case yeah
+
+1116
+00:59:08,640 --> 00:59:11,760
+uh it's very good we tell the time it's
+
+1117
+00:59:11,760 --> 00:59:14,040
+it's been putting in the waiting queue
+
+1118
+00:59:14,040 --> 00:59:17,880
+until it's finished we we calculate the
+
+1119
+00:59:17,880 --> 00:59:21,359
+time we call it on time is it starts its
+
+1120
+00:59:21,359 --> 00:59:23,400
+arrival when it's after his arrivals
+
+1121
+00:59:23,400 --> 00:59:25,680
+okay after its arrive time we call him
+
+1122
+00:59:25,680 --> 00:59:27,599
+the total time it has been put in the
+
+1123
+00:59:27,599 --> 00:59:30,119
+waiting queue not just the time
+
+1124
+00:59:30,119 --> 00:59:32,700
+before it starts but also plus the time
+
+1125
+00:59:32,700 --> 00:59:34,619
+it's been if it is a preemptive
+
+1126
+00:59:34,619 --> 00:59:37,140
+algorithms it is going to be put back in
+
+1127
+00:59:37,140 --> 00:59:39,000
+the queue we're going to also calculate
+
+1128
+00:59:39,000 --> 00:59:41,700
+that time that is the waiting time
+
+1129
+00:59:41,700 --> 00:59:45,079
+right that is a waiting time
+
+1130
+00:59:45,240 --> 00:59:48,839
+how about the turnaround time
+
+1131
+00:59:48,839 --> 00:59:51,599
+how about two runtime for process
+
+1132
+00:59:51,599 --> 00:59:54,260
+yes
+
+1133
+01:00:05,640 --> 01:00:08,900
+the time gap between
+
+1134
+01:00:10,559 --> 01:00:14,700
+is arrival right it's arrival then is
+
+1135
+01:00:14,700 --> 01:00:16,200
+finished right
+
+1136
+01:00:16,200 --> 01:00:17,579
+that's the same thing the same thing
+
+1137
+01:00:17,579 --> 01:00:19,920
+about like
+
+1138
+01:00:19,920 --> 01:00:22,559
+for example it's arrived as one but it's
+
+1139
+01:00:22,559 --> 01:00:25,500
+finished at 1 15 then that will be the
+
+1140
+01:00:25,500 --> 01:00:27,720
+15 minutes it's the turnaround time for
+
+1141
+01:00:27,720 --> 01:00:29,280
+that process
+
+1142
+01:00:29,280 --> 01:00:31,440
+okay
+
+1143
+01:00:31,440 --> 01:00:36,480
+so turnaround time is time is time Gap
+
+1144
+01:00:36,480 --> 01:00:40,140
+time gap between its arrival and
+
+1145
+01:00:40,140 --> 01:00:42,859
+is finished
+
+1146
+01:00:44,400 --> 01:00:46,440
+okay then what is the service Hammer
+
+1147
+01:00:46,440 --> 01:00:48,660
+response time okay so service time means
+
+1148
+01:00:48,660 --> 01:00:50,940
+actually it's actually running the CPU
+
+1149
+01:00:50,940 --> 01:00:52,740
+that's a service time
+
+1150
+01:00:52,740 --> 01:00:55,020
+structures of this time
+
+1151
+01:00:55,020 --> 01:00:57,480
+so if you look at the waiting time plus
+
+1152
+01:00:57,480 --> 01:00:59,220
+the service time equals to the turn
+
+1153
+01:00:59,220 --> 01:01:01,500
+runtime and then what is the response
+
+1154
+01:01:01,500 --> 01:01:03,740
+time that response form is partially
+
+1155
+01:01:03,740 --> 01:01:06,540
+what is the responsive
+
+1156
+01:01:06,540 --> 01:01:08,819
+and you still know
+
+1157
+01:01:08,819 --> 01:01:12,540
+response is just part of the waiting
+
+1158
+01:01:12,540 --> 01:01:14,280
+time
+
+1159
+01:01:14,280 --> 01:01:16,640
+together
+
+1160
+01:01:17,280 --> 01:01:19,160
+well
+
+1161
+01:01:19,160 --> 01:01:21,720
+I don't know when to confuse you but the
+
+1162
+01:01:21,720 --> 01:01:23,160
+takeaway here is that you need to
+
+1163
+01:01:23,160 --> 01:01:25,440
+understand what is the queue
+
+1164
+01:01:25,440 --> 01:01:28,579
+waiting time
+
+1165
+01:01:29,579 --> 01:01:33,559
+and turn around time
+
+1166
+01:01:35,819 --> 01:01:38,339
+there's another time record service time
+
+1167
+01:01:38,339 --> 01:01:41,280
+service time means
+
+1168
+01:01:41,280 --> 01:01:43,920
+the time is actually running the CPU
+
+1169
+01:01:43,920 --> 01:01:47,339
+right so QA time plus the service time
+
+1170
+01:01:47,339 --> 01:01:49,619
+equals to the turnaround time
+
+1171
+01:01:49,619 --> 01:01:51,660
+right and then there's another time of
+
+1172
+01:01:51,660 --> 01:01:54,559
+course the response time
+
+1173
+01:01:55,920 --> 01:01:58,859
+with some response time means that what
+
+1174
+01:01:58,859 --> 01:02:01,559
+it arrival it arrival at this time and
+
+1175
+01:02:01,559 --> 01:02:04,740
+then it's just the it's it is being
+
+1176
+01:02:04,740 --> 01:02:07,619
+pulled into the CPU to run search the
+
+1177
+01:02:07,619 --> 01:02:09,420
+time Gap is the response time so
+
+1178
+01:02:09,420 --> 01:02:11,339
+response time is just a part of the QA
+
+1179
+01:02:11,339 --> 01:02:13,260
+time it's just a part of the Q a time
+
+1180
+01:02:13,260 --> 01:02:15,119
+it's just the first the very first what
+
+1181
+01:02:15,119 --> 01:02:16,819
+just
+
+1182
+01:02:16,819 --> 01:02:19,980
+said that is actually the response time
+
+1183
+01:02:19,980 --> 01:02:24,140
+okay so uh
+
+1184
+01:02:29,339 --> 01:02:32,480
+so we have the first come first serve
+
+1185
+01:02:32,480 --> 01:02:35,900
+scheduler let's see
+
+1186
+01:02:36,839 --> 01:02:40,859
+this is the yanju
+
+1187
+01:02:45,660 --> 01:02:50,339
+if a process is blocked that is the your
+
+1188
+01:02:50,339 --> 01:02:53,160
+question is that if if a block then that
+
+1189
+01:02:53,160 --> 01:02:55,680
+is the large surface time it's in the
+
+1190
+01:02:55,680 --> 01:02:58,799
+waiting time Services means the CPU is
+
+1191
+01:02:58,799 --> 01:03:01,619
+actually solving that okay so let's look
+
+1192
+01:03:01,619 --> 01:03:03,000
+at this okay if we have a first
+
+1193
+01:03:03,000 --> 01:03:05,280
+circumference of scheduler we have
+
+1194
+01:03:05,280 --> 01:03:07,260
+different process right they have
+
+1195
+01:03:07,260 --> 01:03:10,220
+different service times
+
+1196
+01:03:14,040 --> 01:03:16,079
+you see this service time is actually
+
+1197
+01:03:16,079 --> 01:03:19,020
+the CPU CPU running time right this is
+
+1198
+01:03:19,020 --> 01:03:22,700
+this from this you can see that yeah
+
+1199
+01:03:30,720 --> 01:03:33,000
+the block processes are in the waiting
+
+1200
+01:03:33,000 --> 01:03:35,819
+time if a process is blocked then it's
+
+1201
+01:03:35,819 --> 01:03:39,180
+all it in this level in the schedule we
+
+1202
+01:03:39,180 --> 01:03:41,579
+are not considering this situation like
+
+1203
+01:03:41,579 --> 01:03:44,099
+the block if it is blocked then there
+
+1204
+01:03:44,099 --> 01:03:45,359
+will be
+
+1205
+01:03:45,359 --> 01:03:48,480
+um a lot of diff like situation happens
+
+1206
+01:03:48,480 --> 01:03:50,700
+but if it is blocked you should
+
+1207
+01:03:50,700 --> 01:03:54,000
+calculating it as part of the
+
+1208
+01:03:54,000 --> 01:03:54,599
+um
+
+1209
+01:03:54,599 --> 01:03:57,740
+waiting time yeah
+
+1210
+01:04:00,180 --> 01:04:02,400
+where for now you remember that it's
+
+1211
+01:04:02,400 --> 01:04:04,859
+just the time is in the queue in the
+
+1212
+01:04:04,859 --> 01:04:07,619
+scheduling queuing see this
+
+1213
+01:04:07,619 --> 01:04:11,700
+here is the time in the in this in this
+
+1214
+01:04:11,700 --> 01:04:12,660
+place
+
+1215
+01:04:12,660 --> 01:04:15,200
+okay
+
+1216
+01:04:17,579 --> 01:04:20,760
+so let's look at this we have this
+
+1217
+01:04:20,760 --> 01:04:23,040
+process so it first come first the surf
+
+1218
+01:04:23,040 --> 01:04:26,400
+let's see then we are going to have P1
+
+1219
+01:04:26,400 --> 01:04:30,240
+P2 let's say P1 come first p2p3 P4 P5 so
+
+1220
+01:04:30,240 --> 01:04:31,980
+they are going to see Gathering us this
+
+1221
+01:04:31,980 --> 01:04:33,540
+order right
+
+1222
+01:04:33,540 --> 01:04:35,880
+now if the shortest job first we have
+
+1223
+01:04:35,880 --> 01:04:37,559
+and they arrive at the same time let's
+
+1224
+01:04:37,559 --> 01:04:39,299
+say they arrive at the same time
+
+1225
+01:04:39,299 --> 01:04:41,579
+then we're going to scattering based on
+
+1226
+01:04:41,579 --> 01:04:45,000
+their their service times right
+
+1227
+01:04:45,000 --> 01:04:47,880
+and if it is a round robin schedule we
+
+1228
+01:04:47,880 --> 01:04:50,400
+need to set a column now my question is
+
+1229
+01:04:50,400 --> 01:04:53,579
+that is it always to settle good a small
+
+1230
+01:04:53,579 --> 01:04:55,140
+cotton
+
+1231
+01:04:55,140 --> 01:04:59,040
+is it always too good to infusions to
+
+1232
+01:04:59,040 --> 01:05:01,980
+set a small cotton and then why why not
+
+1233
+01:05:01,980 --> 01:05:05,280
+if is it is it always good to set up a
+
+1234
+01:05:05,280 --> 01:05:09,140
+big Cotton white and white lot
+
+1235
+01:05:10,079 --> 01:05:12,180
+sound like
+
+1236
+01:05:12,180 --> 01:05:14,220
+we're doing context switches right so to
+
+1237
+01:05:14,220 --> 01:05:15,240
+be
+
+1238
+01:05:15,240 --> 01:05:19,260
+very low Quantum yeah but if it how
+
+1239
+01:05:19,260 --> 01:05:22,740
+about the larger quantum
+
+1240
+01:05:22,740 --> 01:05:24,540
+larger quantum
+
+1241
+01:05:24,540 --> 01:05:27,319
+yes
+
+1242
+01:05:32,780 --> 01:05:36,599
+a lot of CPU CPU waste time okay a lot
+
+1243
+01:05:36,599 --> 01:05:38,220
+of CPU waste time
+
+1244
+01:05:38,220 --> 01:05:40,880
+yes
+
+1245
+01:05:44,540 --> 01:05:48,059
+no actually no no for the wrong Robin
+
+1246
+01:05:48,059 --> 01:05:50,520
+schedule why we said the wrong lobbying
+
+1247
+01:05:50,520 --> 01:05:52,619
+schedule we want to avoid the situation
+
+1248
+01:05:52,619 --> 01:05:55,380
+of starvation right so which algorithms
+
+1249
+01:05:55,380 --> 01:05:58,380
+will cause starvation starvation which
+
+1250
+01:05:58,380 --> 01:05:59,640
+algorithm
+
+1251
+01:05:59,640 --> 01:06:02,280
+yes
+
+1252
+01:06:02,280 --> 01:06:04,740
+first come first serve very good very
+
+1253
+01:06:04,740 --> 01:06:07,020
+good that is the algorithm of course
+
+1254
+01:06:07,020 --> 01:06:10,380
+starvation so what algorithm is
+
+1255
+01:06:10,380 --> 01:06:12,780
+is to the best extent to ensure the
+
+1256
+01:06:12,780 --> 01:06:15,260
+failures
+
+1257
+01:06:17,640 --> 01:06:19,980
+what algorithms to the best extent to
+
+1258
+01:06:19,980 --> 01:06:22,940
+ensure the fairness
+
+1259
+01:06:24,859 --> 01:06:27,299
+yeah because it gives everyone a chance
+
+1260
+01:06:27,299 --> 01:06:30,299
+to to run right
+
+1261
+01:06:30,299 --> 01:06:32,760
+the very which kind of algorithm
+
+1262
+01:06:32,760 --> 01:06:36,799
+minimize the average term wrong time
+
+1263
+01:06:37,440 --> 01:06:40,079
+monjish
+
+1264
+01:06:40,079 --> 01:06:43,260
+SRT yeah very good it's minimize the
+
+1265
+01:06:43,260 --> 01:06:47,240
+average turnaround time right
+
+1266
+01:06:50,819 --> 01:06:54,059
+what algorithms are going to minimize
+
+1267
+01:06:54,059 --> 01:06:56,099
+the total
+
+1268
+01:06:56,099 --> 01:06:58,940
+turnaround time
+
+1269
+01:07:16,039 --> 01:07:17,880
+service time
+
+1270
+01:07:17,880 --> 01:07:19,680
+right
+
+1271
+01:07:19,680 --> 01:07:22,680
+uh
+
+1272
+01:07:25,619 --> 01:07:28,520
+okay emojis
+
+1273
+01:07:41,160 --> 01:07:43,559
+work
+
+1274
+01:07:43,559 --> 01:07:45,960
+yeah yeah um yeah my question is
+
+1275
+01:07:45,960 --> 01:07:48,480
+actually not quite accurate so um well I
+
+1276
+01:07:48,480 --> 01:07:51,420
+should say that okay think of that why
+
+1277
+01:07:51,420 --> 01:07:53,880
+we already have the shortest job time
+
+1278
+01:07:53,880 --> 01:07:55,799
+for we already have the shortest job
+
+1279
+01:07:55,799 --> 01:07:58,740
+time algorithms and we know that it can
+
+1280
+01:07:58,740 --> 01:08:01,200
+minimize the original runtime right we
+
+1281
+01:08:01,200 --> 01:08:03,299
+know that then why we still needs the
+
+1282
+01:08:03,299 --> 01:08:05,880
+shortest remaining job time algorithms
+
+1283
+01:08:05,880 --> 01:08:07,500
+why we need that
+
+1284
+01:08:07,500 --> 01:08:09,359
+think of the
+
+1285
+01:08:09,359 --> 01:08:12,559
+why we need that
+
+1286
+01:08:18,799 --> 01:08:22,080
+we might not that it might not be very
+
+1287
+01:08:22,080 --> 01:08:25,080
+good if they if like one of them if one
+
+1288
+01:08:25,080 --> 01:08:27,179
+of them runs while the others don't then
+
+1289
+01:08:27,179 --> 01:08:28,859
+like basically if you if we need them
+
+1290
+01:08:28,859 --> 01:08:31,210
+all equally then it's the better ideas
+
+1291
+01:08:31,210 --> 01:08:33,719
+[Music]
+
+1292
+01:08:33,719 --> 01:08:36,839
+but if if I if I if I want to make it
+
+1293
+01:08:36,839 --> 01:08:39,479
+equally I just use the round robin right
+
+1294
+01:08:39,479 --> 01:08:41,640
+my question is that we already have the
+
+1295
+01:08:41,640 --> 01:08:44,339
+shortest job first why we have the
+
+1296
+01:08:44,339 --> 01:08:48,380
+shortest remaining job first
+
+1297
+01:08:48,380 --> 01:08:51,920
+why we need that
+
+1298
+01:08:52,140 --> 01:08:55,400
+why we need that
+
+1299
+01:08:57,420 --> 01:09:00,060
+why we need that I need to be fast okay
+
+1300
+01:09:00,060 --> 01:09:02,339
+the answer is that stance is that
+
+1301
+01:09:02,339 --> 01:09:05,580
+because which is preemptive
+
+1302
+01:09:05,580 --> 01:09:09,080
+which is non-preemptive
+
+1303
+01:09:09,179 --> 01:09:11,640
+oh you forgot that preemptive and along
+
+1304
+01:09:11,640 --> 01:09:16,040
+preemptive which is preemptive yes
+
+1305
+01:09:17,399 --> 01:09:19,439
+this is preemptive right
+
+1306
+01:09:19,439 --> 01:09:22,140
+this is preemptive
+
+1307
+01:09:22,140 --> 01:09:24,420
+tremending means like the time it can
+
+1308
+01:09:24,420 --> 01:09:27,299
+take away right now this shortage job
+
+1309
+01:09:27,299 --> 01:09:30,920
+time is long preemptive right
+
+1310
+01:09:31,319 --> 01:09:33,000
+then why we need to show to The Dropper
+
+1311
+01:09:33,000 --> 01:09:35,100
+room show the remaining time job first
+
+1312
+01:09:35,100 --> 01:09:36,660
+so because that's when we run the
+
+1313
+01:09:36,660 --> 01:09:38,580
+shortest job first we found out some
+
+1314
+01:09:38,580 --> 01:09:44,179
+some job may may have very long
+
+1315
+01:09:44,179 --> 01:09:48,359
+sorry very long term wrong time
+
+1316
+01:09:48,359 --> 01:09:50,698
+they have very long story service time
+
+1317
+01:09:50,698 --> 01:09:52,500
+because we cannot predict their
+
+1318
+01:09:52,500 --> 01:09:54,719
+processing time
+
+1319
+01:09:54,719 --> 01:09:57,480
+we cannot exactly know where they are
+
+1320
+01:09:57,480 --> 01:10:00,719
+when they are running some some jobs may
+
+1321
+01:10:00,719 --> 01:10:02,400
+run very slow
+
+1322
+01:10:02,400 --> 01:10:04,380
+so even they have like for example I
+
+1323
+01:10:04,380 --> 01:10:06,900
+have a job I say that I only use five
+
+1324
+01:10:06,900 --> 01:10:08,640
+minutes to finish but actually one
+
+1325
+01:10:08,640 --> 01:10:11,219
+Nightline is in this specific
+
+1326
+01:10:11,219 --> 01:10:15,660
+laptop is texting me an hour then it
+
+1327
+01:10:15,660 --> 01:10:17,699
+will cause starvation of the rest of the
+
+1328
+01:10:17,699 --> 01:10:18,719
+jobs
+
+1329
+01:10:18,719 --> 01:10:20,760
+right it will cause the starvation of
+
+1330
+01:10:20,760 --> 01:10:22,340
+the rest of jobs then that will
+
+1331
+01:10:22,340 --> 01:10:24,420
+significantly increase the turnaround
+
+1332
+01:10:24,420 --> 01:10:26,699
+time so shortly the job time is not as
+
+1333
+01:10:26,699 --> 01:10:29,760
+efficiently as short shortest remaining
+
+1334
+01:10:29,760 --> 01:10:31,679
+job first time because this is the
+
+1335
+01:10:31,679 --> 01:10:33,900
+algorithm that can minimize the actual
+
+1336
+01:10:33,900 --> 01:10:36,000
+average turnaround timer you can save
+
+1337
+01:10:36,000 --> 01:10:38,580
+the average the term wrong time so think
+
+1338
+01:10:38,580 --> 01:10:40,739
+of that remember that long preemptive
+
+1339
+01:10:40,739 --> 01:10:43,640
+and preemptive
+
+1340
+01:10:46,020 --> 01:10:48,540
+okay then we talk about the new tax and
+
+1341
+01:10:48,540 --> 01:10:50,219
+some from inter-process communication
+
+1342
+01:10:50,219 --> 01:10:54,860
+and synchronization so you need to
+
+1343
+01:10:55,500 --> 01:10:57,560
+um
+
+1344
+01:11:00,179 --> 01:11:03,179
+so you need to understand
+
+1345
+01:11:03,179 --> 01:11:05,400
+if you read the code you you need to
+
+1346
+01:11:05,400 --> 01:11:07,380
+know how to write that right you need to
+
+1347
+01:11:07,380 --> 01:11:09,540
+know what is what part of the code
+
+1348
+01:11:09,540 --> 01:11:11,340
+should be put in the critical region
+
+1349
+01:11:11,340 --> 01:11:14,580
+what part of code you should set some
+
+1350
+01:11:14,580 --> 01:11:17,159
+phone and mute tags to protect to
+
+1351
+01:11:17,159 --> 01:11:21,380
+protect these shared variables okay
+
+1352
+01:11:25,340 --> 01:11:29,100
+we have the software solution disable
+
+1353
+01:11:29,100 --> 01:11:31,500
+interrupts new toxins some phone this is
+
+1354
+01:11:31,500 --> 01:11:33,120
+very important
+
+1355
+01:11:33,120 --> 01:11:35,100
+so when we are talking about this
+
+1356
+01:11:35,100 --> 01:11:36,659
+chapter we we're talking about the
+
+1357
+01:11:36,659 --> 01:11:38,520
+software resolution remember when we
+
+1358
+01:11:38,520 --> 01:11:40,860
+talk about the Peterson's QR Peterson
+
+1359
+01:11:40,860 --> 01:11:44,820
+solution we're first talking about the
+
+1360
+01:11:44,820 --> 01:11:47,460
+the lock alternative lock solution with
+
+1361
+01:11:47,460 --> 01:11:49,020
+a while loop
+
+1362
+01:11:49,020 --> 01:11:51,080
+some students I think mentioned that
+
+1363
+01:11:51,080 --> 01:11:54,900
+authorities lock with the while loop and
+
+1364
+01:11:54,900 --> 01:11:56,880
+then we introduce the Peterson's
+
+1365
+01:11:56,880 --> 01:11:58,500
+approach Peterson's approach instead of
+
+1366
+01:11:58,500 --> 01:12:00,719
+using just the two logs like true or
+
+1367
+01:12:00,719 --> 01:12:03,360
+false two locks it's using a ring of the
+
+1368
+01:12:03,360 --> 01:12:05,460
+locks that is a Peterson's approach so
+
+1369
+01:12:05,460 --> 01:12:06,960
+they all belonging to the software
+
+1370
+01:12:06,960 --> 01:12:09,300
+solution and there's a hardware solution
+
+1371
+01:12:09,300 --> 01:12:11,940
+we call it we just disabled interrupts
+
+1372
+01:12:11,940 --> 01:12:15,540
+whenever we use one hour a process goes
+
+1373
+01:12:15,540 --> 01:12:17,820
+to the critical region we use some
+
+1374
+01:12:17,820 --> 01:12:20,159
+aggregate we use some special Hardware
+
+1375
+01:12:20,159 --> 01:12:23,640
+to disabled interrupt and the
+
+1376
+01:12:23,640 --> 01:12:26,820
+circumstances that it will it will be
+
+1377
+01:12:26,820 --> 01:12:30,000
+very dangerous because the user user
+
+1378
+01:12:30,000 --> 01:12:33,239
+code May destroy the system so that's
+
+1379
+01:12:33,239 --> 01:12:34,679
+why we
+
+1380
+01:12:34,679 --> 01:12:38,940
+designed the mutex and a sample
+
+1381
+01:12:38,940 --> 01:12:41,400
+and we talk about the producer customer
+
+1382
+01:12:41,400 --> 01:12:43,440
+problem so you need to understand what
+
+1383
+01:12:43,440 --> 01:12:45,060
+is exactly producer and customer
+
+1384
+01:12:45,060 --> 01:12:47,540
+programs we also talk about
+
+1385
+01:12:47,540 --> 01:12:50,880
+philosophy dining problems
+
+1386
+01:12:50,880 --> 01:12:54,000
+um think of that if I have if I have
+
+1387
+01:12:54,000 --> 01:12:56,659
+five
+
+1388
+01:13:02,640 --> 01:13:06,000
+if I have a 5 if I have a five let's say
+
+1389
+01:13:06,000 --> 01:13:09,420
+if I have five philosophies so what is
+
+1390
+01:13:09,420 --> 01:13:11,880
+the maximum number
+
+1391
+01:13:11,880 --> 01:13:15,239
+what is the maximum number that they
+
+1392
+01:13:15,239 --> 01:13:18,120
+can they can run concurrently
+
+1393
+01:13:18,120 --> 01:13:19,800
+you still remember the philosophy
+
+1394
+01:13:19,800 --> 01:13:22,520
+dieting problem
+
+1395
+01:13:23,880 --> 01:13:27,540
+they have the frogs right
+
+1396
+01:13:27,540 --> 01:13:31,500
+each of them have Forks
+
+1397
+01:13:31,500 --> 01:13:33,840
+so we have five philosophies we have
+
+1398
+01:13:33,840 --> 01:13:35,640
+Five Forks there
+
+1399
+01:13:35,640 --> 01:13:38,760
+then when they did they have pasta in
+
+1400
+01:13:38,760 --> 01:13:39,960
+front of them
+
+1401
+01:13:39,960 --> 01:13:42,420
+in their face there's a pasta each
+
+1402
+01:13:42,420 --> 01:13:44,699
+philosophy needs to
+
+1403
+01:13:44,699 --> 01:13:47,400
+folks to eat the pasta
+
+1404
+01:13:47,400 --> 01:13:50,219
+that is the philosophy dining problem go
+
+1405
+01:13:50,219 --> 01:13:51,860
+back to the lectures
+
+1406
+01:13:51,860 --> 01:13:54,239
+look at that advent philosophy dining
+
+1407
+01:13:54,239 --> 01:13:57,120
+program so you need to understand how
+
+1408
+01:13:57,120 --> 01:14:00,239
+how we solve that in the like at the
+
+1409
+01:14:00,239 --> 01:14:02,600
+very beginning
+
+1410
+01:14:02,940 --> 01:14:05,460
+like after we suffer it towards the
+
+1411
+01:14:05,460 --> 01:14:07,739
+maximum number of this
+
+1412
+01:14:07,739 --> 01:14:09,360
+this guy
+
+1413
+01:14:09,360 --> 01:14:15,140
+can eat the pasta together tutu yeah
+
+1414
+01:14:20,460 --> 01:14:23,060
+okay
+
+1415
+01:14:30,780 --> 01:14:33,300
+dialogue
+
+1416
+01:14:33,300 --> 01:14:35,640
+okay we talk about dialogue in our last
+
+1417
+01:14:35,640 --> 01:14:38,219
+lecture there's four conditions for
+
+1418
+01:14:38,219 --> 01:14:40,800
+dialogue to happen what are they there
+
+1419
+01:14:40,800 --> 01:14:42,540
+are four conditions for dialogue to
+
+1420
+01:14:42,540 --> 01:14:43,980
+happen
+
+1421
+01:14:43,980 --> 01:14:47,360
+and Aaron
+
+1422
+01:14:47,580 --> 01:14:49,020
+yeah
+
+1423
+01:14:49,020 --> 01:14:51,800
+hold on wait
+
+1424
+01:14:51,960 --> 01:14:54,960
+non-preemption
+
+1425
+01:14:56,040 --> 01:14:57,780
+Circle as a circle circular chain
+
+1426
+01:14:57,780 --> 01:15:01,440
+relationship between between the inner
+
+1427
+01:15:01,440 --> 01:15:03,179
+resource allocation graph right the
+
+1428
+01:15:03,179 --> 01:15:05,400
+circular chain resource allocation graph
+
+1429
+01:15:05,400 --> 01:15:09,000
+so these four conditions so here's the
+
+1430
+01:15:09,000 --> 01:15:10,800
+true or false okay
+
+1431
+01:15:10,800 --> 01:15:12,360
+um
+
+1432
+01:15:12,360 --> 01:15:14,820
+we just need to satisfy one of the
+
+1433
+01:15:14,820 --> 01:15:17,219
+conditions of just one of the condition
+
+1434
+01:15:17,219 --> 01:15:19,679
+happens then that lock is highly
+
+1435
+01:15:19,679 --> 01:15:22,340
+possible to happen
+
+1436
+01:15:22,800 --> 01:15:24,780
+like these four conditions I will
+
+1437
+01:15:24,780 --> 01:15:25,920
+mention okay these are these four
+
+1438
+01:15:25,920 --> 01:15:28,800
+conditions if one or two of these
+
+1439
+01:15:28,800 --> 01:15:31,440
+conditions happen then it's highly
+
+1440
+01:15:31,440 --> 01:15:33,179
+possible dialogue may happen in the
+
+1441
+01:15:33,179 --> 01:15:34,980
+future is that true or false who think
+
+1442
+01:15:34,980 --> 01:15:37,080
+is true
+
+1443
+01:15:37,080 --> 01:15:39,420
+who think is false yeah it's forced
+
+1444
+01:15:39,420 --> 01:15:42,120
+right how about others I think it's a
+
+1445
+01:15:42,120 --> 01:15:45,420
+chore for answering yeah it's forced
+
+1446
+01:15:45,420 --> 01:15:48,060
+right the answer is the solution is what
+
+1447
+01:15:48,060 --> 01:15:50,699
+only in four conditions we satisfy the
+
+1448
+01:15:50,699 --> 01:15:52,800
+dialogue may happen the dialogue may
+
+1449
+01:15:52,800 --> 01:15:54,960
+happen
+
+1450
+01:15:54,960 --> 01:15:58,020
+then how to avoid how to how to handle
+
+1451
+01:15:58,020 --> 01:16:00,480
+the dialogue how to handle the dialogue
+
+1452
+01:16:00,480 --> 01:16:06,140
+we have several strategies what are they
+
+1453
+01:16:06,480 --> 01:16:08,100
+what are they
+
+1454
+01:16:08,100 --> 01:16:10,620
+we've been learning that in just two
+
+1455
+01:16:10,620 --> 01:16:11,760
+days ago
+
+1456
+01:16:11,760 --> 01:16:12,960
+come on
+
+1457
+01:16:12,960 --> 01:16:14,760
+yeah
+
+1458
+01:16:14,760 --> 01:16:17,699
+so oh forget it
+
+1459
+01:16:17,699 --> 01:16:21,500
+yeah Andrew I'm sorry Eric
+
+1460
+01:16:23,940 --> 01:16:26,840
+yeah very good
+
+1461
+01:16:28,260 --> 01:16:31,320
+no no not look at your slime okay
+
+1462
+01:16:31,320 --> 01:16:35,540
+okay you detach it and then
+
+1463
+01:16:40,440 --> 01:16:43,760
+any other students
+
+1464
+01:16:43,800 --> 01:16:46,460
+yes
+
+1465
+01:16:52,980 --> 01:16:55,260
+four strategies what are the four
+
+1466
+01:16:55,260 --> 01:16:57,420
+strategies tell me the name
+
+1467
+01:16:57,420 --> 01:17:00,000
+tell me the name and tell me what the
+
+1468
+01:17:00,000 --> 01:17:02,580
+key idea of each approach
+
+1469
+01:17:02,580 --> 01:17:04,800
+key idea of each approach four
+
+1470
+01:17:04,800 --> 01:17:07,020
+strategies we have the first Global
+
+1471
+01:17:07,020 --> 01:17:08,520
+problem then when we grow the problem
+
+1472
+01:17:08,520 --> 01:17:11,540
+what we are going to do
+
+1473
+01:17:12,000 --> 01:17:15,920
+we just do like see some reboots right
+
+1474
+01:17:15,920 --> 01:17:18,659
+we just kill the process and restart it
+
+1475
+01:17:18,659 --> 01:17:21,120
+if this system is hand there we just
+
+1476
+01:17:21,120 --> 01:17:23,100
+rebooting the system part of it and we
+
+1477
+01:17:23,100 --> 01:17:25,199
+put it that's the equal problem then how
+
+1478
+01:17:25,199 --> 01:17:26,880
+about the second one
+
+1479
+01:17:26,880 --> 01:17:29,340
+we go let's go from the most passive one
+
+1480
+01:17:29,340 --> 01:17:31,800
+to the most active one so the growth
+
+1481
+01:17:31,800 --> 01:17:34,260
+problem is the most passive one how
+
+1482
+01:17:34,260 --> 01:17:37,100
+about the next one
+
+1483
+01:17:37,739 --> 01:17:40,400
+yes
+
+1484
+01:17:40,400 --> 01:17:44,840
+avoidance or something what is something
+
+1485
+01:17:45,780 --> 01:17:48,239
+the bank is algorithms is part of the
+
+1486
+01:17:48,239 --> 01:17:50,400
+what kind of algorithm they worry about
+
+1487
+01:17:50,400 --> 01:17:53,340
+the second approach do we let it happen
+
+1488
+01:17:53,340 --> 01:17:55,500
+do we let the dialogue happen we let the
+
+1489
+01:17:55,500 --> 01:17:59,420
+deadlock happen then Andrew
+
+1490
+01:18:00,420 --> 01:18:02,760
+that is not the second solution the
+
+1491
+01:18:02,760 --> 01:18:05,600
+second strategy Andrew
+
+1492
+01:18:06,600 --> 01:18:09,260
+that is that is the fourth strategy to
+
+1493
+01:18:09,260 --> 01:18:12,300
+substance subcategory of the fourth
+
+1494
+01:18:12,300 --> 01:18:15,659
+strategy we do not come to that yet the
+
+1495
+01:18:15,659 --> 01:18:17,940
+second solution is we learn what's your
+
+1496
+01:18:17,940 --> 01:18:21,199
+name much
+
+1497
+01:18:22,560 --> 01:18:26,239
+we just killed the process or something
+
+1498
+01:18:26,820 --> 01:18:28,560
+or something yeah it does it is detox
+
+1499
+01:18:28,560 --> 01:18:31,199
+and Recovery detection recovery and how
+
+1500
+01:18:31,199 --> 01:18:34,199
+about the third one the third one
+
+1501
+01:18:34,199 --> 01:18:36,480
+how about the third one that is where
+
+1502
+01:18:36,480 --> 01:18:38,940
+the bank algorithm is
+
+1503
+01:18:38,940 --> 01:18:40,739
+yes
+
+1504
+01:18:40,739 --> 01:18:42,920
+yeah
+
+1505
+01:18:43,280 --> 01:18:45,780
+Dynamic avoidance is what is the key
+
+1506
+01:18:45,780 --> 01:18:47,880
+idea
+
+1507
+01:18:47,880 --> 01:18:50,820
+what is a key idea
+
+1508
+01:18:50,820 --> 01:18:52,500
+do we let it happen
+
+1509
+01:18:52,500 --> 01:18:55,380
+do we let the dialogue happen no we do
+
+1510
+01:18:55,380 --> 01:18:57,780
+not what we do is that we
+
+1511
+01:18:57,780 --> 01:19:00,060
+keep tracking the process their process
+
+1512
+01:19:00,060 --> 01:19:01,500
+and then
+
+1513
+01:19:01,500 --> 01:19:03,840
+doing some dynamical location the
+
+1514
+01:19:03,840 --> 01:19:05,760
+resource right and then the fourth
+
+1515
+01:19:05,760 --> 01:19:09,020
+approach the first approach
+
+1516
+01:19:09,780 --> 01:19:13,460
+the fourth approach yes
+
+1517
+01:19:14,940 --> 01:19:16,800
+make sure one of the condition never
+
+1518
+01:19:16,800 --> 01:19:18,540
+happens and we call that approach is
+
+1519
+01:19:18,540 --> 01:19:19,860
+prevention
+
+1520
+01:19:19,860 --> 01:19:21,719
+prevention that is the most active
+
+1521
+01:19:21,719 --> 01:19:25,380
+approach now now as a system designer
+
+1522
+01:19:25,380 --> 01:19:27,300
+when we're talking about that dialogue
+
+1523
+01:19:27,300 --> 01:19:29,940
+situation as a system designer
+
+1524
+01:19:29,940 --> 01:19:33,179
+which approach do they use
+
+1525
+01:19:33,179 --> 01:19:38,540
+the four strategies as a system designer
+
+1526
+01:19:39,120 --> 01:19:41,460
+which approach do they use
+
+1527
+01:19:41,460 --> 01:19:44,159
+if it is a data center very big data
+
+1528
+01:19:44,159 --> 01:19:46,560
+center or system administrator
+
+1529
+01:19:46,560 --> 01:19:49,320
+what kind of approach they are going to
+
+1530
+01:19:49,320 --> 01:19:51,500
+use
+
+1531
+01:19:52,679 --> 01:19:55,320
+it it depends depends right we will talk
+
+1532
+01:19:55,320 --> 01:19:57,179
+about that we talk about that we say
+
+1533
+01:19:57,179 --> 01:19:59,820
+that to prevent a deadlock is very
+
+1534
+01:19:59,820 --> 01:20:01,620
+expensive
+
+1535
+01:20:01,620 --> 01:20:04,380
+if the dialog only happens every five
+
+1536
+01:20:04,380 --> 01:20:06,960
+years one dialogue do we do that do we
+
+1537
+01:20:06,960 --> 01:20:09,000
+do the academic avoidance where like
+
+1538
+01:20:09,000 --> 01:20:10,980
+detection recovery
+
+1539
+01:20:10,980 --> 01:20:14,580
+we just let it happen but if the
+
+1540
+01:20:14,580 --> 01:20:17,040
+dialogue happens very frequently and if
+
+1541
+01:20:17,040 --> 01:20:20,540
+the if this system is very important the
+
+1542
+01:20:20,540 --> 01:20:24,179
+cost of recovering the system is very
+
+1543
+01:20:24,179 --> 01:20:26,340
+very expensive then we need to do
+
+1544
+01:20:26,340 --> 01:20:27,719
+prevention
+
+1545
+01:20:27,719 --> 01:20:30,719
+now come to the prevention how to avoid
+
+1546
+01:20:30,719 --> 01:20:34,020
+any of these four conditions
+
+1547
+01:20:34,020 --> 01:20:36,179
+the first condition is
+
+1548
+01:20:36,179 --> 01:20:38,820
+Mutual exclusion how to avoid a mutual
+
+1549
+01:20:38,820 --> 01:20:40,140
+exclusion
+
+1550
+01:20:40,140 --> 01:20:42,900
+how to avoid a non-preemption how to
+
+1551
+01:20:42,900 --> 01:20:45,900
+avoid Holden the weights how to avoid
+
+1552
+01:20:45,900 --> 01:20:49,380
+the circular chain in the resource
+
+1553
+01:20:49,380 --> 01:20:52,040
+allocation graph
+
+1554
+01:21:01,140 --> 01:21:04,219
+how to avoid it
+
+1555
+01:21:04,560 --> 01:21:07,199
+go back to your slides okay we have the
+
+1556
+01:21:07,199 --> 01:21:09,300
+supporting everything right that is
+
+1557
+01:21:09,300 --> 01:21:10,980
+covers
+
+1558
+01:21:10,980 --> 01:21:14,699
+avoid the mission exclusion we we allow
+
+1559
+01:21:14,699 --> 01:21:17,100
+them to
+
+1560
+01:21:17,100 --> 01:21:20,100
+take the resource away that is how we
+
+1561
+01:21:20,100 --> 01:21:22,260
+always learn preemption right and then
+
+1562
+01:21:22,260 --> 01:21:25,940
+we hold and waste how we just
+
+1563
+01:21:25,940 --> 01:21:28,679
+no we do not kill a process we remember
+
+1564
+01:21:28,679 --> 01:21:30,780
+hold on wait how how do we avoid the
+
+1565
+01:21:30,780 --> 01:21:33,060
+cold and weights
+
+1566
+01:21:33,060 --> 01:21:36,420
+if if I am a process I need
+
+1567
+01:21:36,420 --> 01:21:40,199
+three resources to to proceed how to
+
+1568
+01:21:40,199 --> 01:21:42,739
+avoid that
+
+1569
+01:21:45,239 --> 01:21:47,820
+very good the first process to allocate
+
+1570
+01:21:47,820 --> 01:21:50,760
+the resources at the very beginning as
+
+1571
+01:21:50,760 --> 01:21:53,580
+you can only get three resources
+
+1572
+01:21:53,580 --> 01:21:57,300
+together or you get long of the resource
+
+1573
+01:21:57,300 --> 01:21:59,820
+that is the way how we avoid the holding
+
+1574
+01:21:59,820 --> 01:22:02,640
+weights so no one can hold something and
+
+1575
+01:22:02,640 --> 01:22:05,699
+ask something and create it avoid the
+
+1576
+01:22:05,699 --> 01:22:07,739
+situation of creating a
+
+1577
+01:22:07,739 --> 01:22:10,199
+a chain a circle in the resource
+
+1578
+01:22:10,199 --> 01:22:12,480
+allocation graph right then how we
+
+1579
+01:22:12,480 --> 01:22:15,179
+avoid the force conditioner
+
+1580
+01:22:15,179 --> 01:22:17,840
+circulation
+
+1581
+01:22:22,020 --> 01:22:24,239
+yeah we order the results pneumatically
+
+1582
+01:22:24,239 --> 01:22:26,100
+right we order the resource numerically
+
+1583
+01:22:26,100 --> 01:22:28,140
+we now we have you can only gather
+
+1584
+01:22:28,140 --> 01:22:30,360
+resource in the order
+
+1585
+01:22:30,360 --> 01:22:32,040
+in the order
+
+1586
+01:22:32,040 --> 01:22:36,140
+okay now the uh
+
+1587
+01:22:39,960 --> 01:22:41,940
+so you need to understand how to detect
+
+1588
+01:22:41,940 --> 01:22:46,380
+uh detached based on the action of the
+
+1589
+01:22:46,380 --> 01:22:49,140
+like I say this process is ask resource
+
+1590
+01:22:49,140 --> 01:22:50,699
+requires some resource you need to have
+
+1591
+01:22:50,699 --> 01:22:52,679
+to you need to know how to draw the
+
+1592
+01:22:52,679 --> 01:22:55,140
+resource allocation graph and find out
+
+1593
+01:22:55,140 --> 01:22:57,300
+if there are locked inside of the graph
+
+1594
+01:22:57,300 --> 01:23:01,080
+okay uh
+
+1595
+01:23:04,980 --> 01:23:09,360
+okay that is basically what we have or
+
+1596
+01:23:09,360 --> 01:23:12,420
+my tips is that to go back to look at
+
+1597
+01:23:12,420 --> 01:23:15,000
+the slides if you do not understand it
+
+1598
+01:23:15,000 --> 01:23:17,159
+go to the tutor session we have tutor
+
+1599
+01:23:17,159 --> 01:23:18,960
+session ta session
+
+1600
+01:23:18,960 --> 01:23:22,920
+I also have my office hours
+
+1601
+01:23:22,920 --> 01:23:25,860
+and you have your textbook you have your
+
+1602
+01:23:25,860 --> 01:23:28,280
+textbook
+
+1603
+01:23:28,560 --> 01:23:30,900
+go back to read the slides this is the
+
+1604
+01:23:30,900 --> 01:23:33,840
+first thing and the second thing go back
+
+1605
+01:23:33,840 --> 01:23:35,900
+to redo your homework
+
+1606
+01:23:35,900 --> 01:23:39,780
+how many homework do you have now two
+
+1607
+01:23:39,780 --> 01:23:42,420
+or just one just an introduction you do
+
+1608
+01:23:42,420 --> 01:23:45,920
+not have homework assignment tool
+
+1609
+01:23:46,860 --> 01:23:50,239
+oh okay that's
+
+1610
+01:23:50,640 --> 01:23:53,760
+you do not have any homework of process
+
+1611
+01:23:53,760 --> 01:23:56,480
+and thread
+
+1612
+01:23:58,620 --> 01:24:02,300
+that's interesting
+
+1613
+01:24:02,880 --> 01:24:05,219
+you also have your homework soon okay
+
+1614
+01:24:05,219 --> 01:24:08,540
+today maybe
+
+1615
+01:24:08,960 --> 01:24:12,120
+yeah sorry about that but I'm going to
+
+1616
+01:24:12,120 --> 01:24:14,300
+eat 109.
+
+1617
+01:24:14,300 --> 01:24:17,520
+because I wanted you to look at what
+
+1618
+01:24:17,520 --> 01:24:20,400
+kind of example questions are and you're
+
+1619
+01:24:20,400 --> 01:24:22,140
+going to well okay I'm going to release
+
+1620
+01:24:22,140 --> 01:24:24,900
+two homeworks today okay the Denmark and
+
+1621
+01:24:24,900 --> 01:24:27,540
+the Denmark and the process and threads
+
+1622
+01:24:27,540 --> 01:24:28,920
+okay but you do not need to finish it
+
+1623
+01:24:28,920 --> 01:24:32,880
+before the midterm you can finish it
+
+1624
+01:24:32,880 --> 01:24:35,340
+yeah that's tricky that's really my ti
+
+1625
+01:24:35,340 --> 01:24:37,500
+should release that
+
+1626
+01:24:37,500 --> 01:24:39,620
+um
+
+1627
+01:24:42,960 --> 01:24:46,860
+okay yeah okay okay good luck okay good
+
+1628
+01:24:46,860 --> 01:24:48,659
+luck
+
+1629
+01:24:48,659 --> 01:24:51,560
+that's a problem
+
+1630
+01:25:09,239 --> 01:25:12,239
+desktop
+
+1631
+01:25:14,040 --> 01:25:15,719
+for some reason it's giving me this even
+
+1632
+01:25:15,719 --> 01:25:18,800
+though I have darker rice here
+
+1633
+01:25:18,800 --> 01:25:21,800
+yeah
+
+1634
+01:25:22,159 --> 01:25:26,040
+you need to ask for the RTA oh it's an
+
+1635
+01:25:26,040 --> 01:25:27,739
+email to Tia
+
+1636
+01:25:27,739 --> 01:25:31,260
+is not here using the TA session they
+
+1637
+01:25:31,260 --> 01:25:32,940
+have we have two sessions almost every
+
+1638
+01:25:32,940 --> 01:25:35,179
+day
+
+1639
+01:26:13,290 --> 01:26:16,430
+[Music]
+
+1640
+01:26:36,000 --> 01:26:38,000
+um
+
+1641
+01:27:04,739 --> 01:27:08,159
+tutor can you can you open a session
+
+1642
+01:27:08,159 --> 01:27:10,920
+more session before the meeting more
+
+1643
+01:27:10,920 --> 01:27:14,960
+sessions yeah yes
+
+1644
+01:27:15,139 --> 01:27:18,239
+four more time in the in in the city
+
+1645
+01:27:18,239 --> 01:27:19,860
+it's real more time we have in two
+
+1646
+01:27:19,860 --> 01:27:22,100
+sessions
+
+1647
+01:27:22,100 --> 01:27:26,159
+before the midterm because I is packed I
+
+1648
+01:27:26,159 --> 01:27:28,440
+will be here okay here I will be I will
+
+1649
+01:27:28,440 --> 01:27:30,900
+be here in uh Tuesday in I will be in
+
+1650
+01:27:30,900 --> 01:27:32,900
+Zoom to answer any questions
+
+1651
+01:27:32,900 --> 01:27:35,280
+on Tuesday but
+
+1652
+01:27:35,280 --> 01:27:35,940
+um
+
+1653
+01:27:35,940 --> 01:27:37,980
+it's better you cannot have some
+
+1654
+01:27:37,980 --> 01:27:41,100
+sessions in before like in Monday okay
+
+1655
+01:27:41,100 --> 01:27:45,600
+let's say in Monday yeah
+
+1656
+01:27:57,540 --> 01:28:00,719
+yeah can you like um adding more
+
+1657
+01:28:00,719 --> 01:28:02,420
+sessions
+
+1658
+01:28:02,420 --> 01:28:05,540
+I mean we have like how many buildings
+
+1659
+01:28:05,540 --> 01:28:08,219
+here and we don't have to you know we
+
+1660
+01:28:08,219 --> 01:28:11,100
+just want proper end I mean Eric was
+
+1661
+01:28:11,100 --> 01:28:13,639
+holding a session
+
+1662
+01:28:52,280 --> 01:28:55,639
+project questions
+
+1663
+01:28:59,719 --> 01:29:02,960
+12 times
+
+1664
+01:29:06,310 --> 01:29:09,529
+[Music]
+
+1665
+01:29:36,020 --> 01:29:39,069
+[Music]
+
+1666
+01:29:45,730 --> 01:29:52,770
+[Music]
+
+1667
+01:29:53,580 --> 01:29:56,580
+something
+

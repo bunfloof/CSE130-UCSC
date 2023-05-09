@@ -1,0 +1,6352 @@
+1
+00:00:00,780 --> 00:00:03,659
+or six PhD students and many Master's
+
+2
+00:00:03,659 --> 00:00:06,180
+students or you can find out in my
+
+3
+00:00:06,180 --> 00:00:08,700
+website all my all of my PhD students
+
+4
+00:00:08,700 --> 00:00:10,920
+and Master's students they all go to the
+
+5
+00:00:10,920 --> 00:00:13,679
+best software companies I will tell you
+
+6
+00:00:13,679 --> 00:00:15,780
+uh what are they the Microsoft Google
+
+7
+00:00:15,780 --> 00:00:18,000
+Mata
+
+8
+00:00:18,000 --> 00:00:20,520
+I think uh yeah another PhD student
+
+9
+00:00:20,520 --> 00:00:23,460
+become a faculty member in another
+
+10
+00:00:23,460 --> 00:00:26,699
+California University so and I have been
+
+11
+00:00:26,699 --> 00:00:28,320
+interned in
+
+12
+00:00:28,320 --> 00:00:29,939
+a lot of
+
+13
+00:00:29,939 --> 00:00:32,279
+um having internet I can tell you I've
+
+14
+00:00:32,279 --> 00:00:35,160
+been internally in VMware IBM twice
+
+15
+00:00:35,160 --> 00:00:40,200
+Microsoft once and uh uh what else
+
+16
+00:00:40,200 --> 00:00:42,300
+yeah I've been interned in this
+
+17
+00:00:42,300 --> 00:00:45,600
+companies and I know what what they want
+
+18
+00:00:45,600 --> 00:00:49,079
+I I understand what they want in the day
+
+19
+00:00:49,079 --> 00:00:52,320
+I hope that why I hope that my course
+
+20
+00:00:52,320 --> 00:00:55,620
+can help you prepare well prepared for
+
+21
+00:00:55,620 --> 00:00:58,620
+you to enter the workplace workplace in
+
+22
+00:00:58,620 --> 00:00:59,699
+the future
+
+23
+00:00:59,699 --> 00:01:02,820
+so if you just want to have a good grade
+
+24
+00:01:02,820 --> 00:01:05,339
+or if you just want to learn the same
+
+25
+00:01:05,339 --> 00:01:07,560
+thing as the other for professors teach
+
+26
+00:01:07,560 --> 00:01:10,140
+so you you should not take my course
+
+27
+00:01:10,140 --> 00:01:12,299
+because I will tell you it's different
+
+28
+00:01:12,299 --> 00:01:14,340
+the syllabus is different than the other
+
+29
+00:01:14,340 --> 00:01:17,040
+professors operating system course
+
+30
+00:01:17,040 --> 00:01:20,400
+for example in my OS course I will spend
+
+31
+00:01:20,400 --> 00:01:23,400
+many times making a lot of time on the
+
+32
+00:01:23,400 --> 00:01:26,280
+memory and file systems and I will tell
+
+33
+00:01:26,280 --> 00:01:28,200
+you why you know the big data right big
+
+34
+00:01:28,200 --> 00:01:29,939
+data is very hot
+
+35
+00:01:29,939 --> 00:01:32,159
+Big Data Systems there are many good Big
+
+36
+00:01:32,159 --> 00:01:35,400
+Data Systems like the very long time ago
+
+37
+00:01:35,400 --> 00:01:38,939
+the map reduce systems right working on
+
+38
+00:01:38,939 --> 00:01:42,299
+a batch data and then later we designed
+
+39
+00:01:42,299 --> 00:01:44,640
+what the stream processing systems we
+
+40
+00:01:44,640 --> 00:01:46,439
+have graph stream processing systems
+
+41
+00:01:46,439 --> 00:01:48,420
+events stream processing system micro
+
+42
+00:01:48,420 --> 00:01:51,780
+batch stream processing systems one of
+
+43
+00:01:51,780 --> 00:01:53,880
+it is very famous called spark streaming
+
+44
+00:01:53,880 --> 00:01:57,119
+and the CEOs of the spark streaming
+
+45
+00:01:57,119 --> 00:01:59,159
+later create the company which is very
+
+46
+00:01:59,159 --> 00:02:01,860
+famous data brick
+
+47
+00:02:01,860 --> 00:02:04,560
+so you know all these systems this data
+
+48
+00:02:04,560 --> 00:02:07,200
+analytics systems they are running on
+
+49
+00:02:07,200 --> 00:02:11,280
+top of the or a data storage systems and
+
+50
+00:02:11,280 --> 00:02:13,140
+the key idea of the data storage system
+
+51
+00:02:13,140 --> 00:02:17,040
+is distributed file systems if you do
+
+52
+00:02:17,040 --> 00:02:18,720
+not know file system how do you
+
+53
+00:02:18,720 --> 00:02:20,700
+understand the distributed file systems
+
+54
+00:02:20,700 --> 00:02:23,480
+and you know how many workplace
+
+55
+00:02:23,480 --> 00:02:26,520
+positions are about the Big Data
+
+56
+00:02:26,520 --> 00:02:29,819
+professionals related positions they are
+
+57
+00:02:29,819 --> 00:02:32,940
+a large number of it right that is why
+
+58
+00:02:32,940 --> 00:02:35,879
+in this course I put the chapter of file
+
+59
+00:02:35,879 --> 00:02:38,160
+systems in in it
+
+60
+00:02:38,160 --> 00:02:40,560
+okay uh
+
+61
+00:02:40,560 --> 00:02:43,440
+so if because I I also received several
+
+62
+00:02:43,440 --> 00:02:45,480
+emails about that querying about that if
+
+63
+00:02:45,480 --> 00:02:48,239
+if you just want to
+
+64
+00:02:48,239 --> 00:02:52,200
+like learn the previous OS course then
+
+65
+00:02:52,200 --> 00:02:54,060
+feel free to drop this one and take
+
+66
+00:02:54,060 --> 00:02:56,580
+another professors and because every
+
+67
+00:02:56,580 --> 00:02:59,459
+Professor have different styles what I
+
+68
+00:02:59,459 --> 00:03:02,700
+teach is is that what I think is very
+
+69
+00:03:02,700 --> 00:03:04,920
+important to my students
+
+70
+00:03:04,920 --> 00:03:08,040
+and the truth comes out like all of my
+
+71
+00:03:08,040 --> 00:03:10,560
+own students they all get very good jobs
+
+72
+00:03:10,560 --> 00:03:13,620
+they do not go into like very small tiny
+
+73
+00:03:13,620 --> 00:03:15,959
+companies they all go to like good
+
+74
+00:03:15,959 --> 00:03:17,519
+companies and
+
+75
+00:03:17,519 --> 00:03:21,239
+they do uh my first prg students is now
+
+76
+00:03:21,239 --> 00:03:24,780
+a research scientist in the Mata and
+
+77
+00:03:24,780 --> 00:03:27,599
+he's in the data processing group
+
+78
+00:03:27,599 --> 00:03:31,500
+uh I'll tell you like they we he's not
+
+79
+00:03:31,500 --> 00:03:33,360
+graduate from very high ranked
+
+80
+00:03:33,360 --> 00:03:36,780
+University but he is not the one who's
+
+81
+00:03:36,780 --> 00:03:39,659
+who's lay off by by the company he has
+
+82
+00:03:39,659 --> 00:03:42,120
+been going through too late of that list
+
+83
+00:03:42,120 --> 00:03:46,140
+but he survives because in his PhD he's
+
+84
+00:03:46,140 --> 00:03:48,720
+he's been working with me and uh
+
+85
+00:03:48,720 --> 00:03:51,599
+learning a lot of data processing expert
+
+86
+00:03:51,599 --> 00:03:54,720
+experimental system details okay that is
+
+87
+00:03:54,720 --> 00:03:56,879
+how I designed this course and how I
+
+88
+00:03:56,879 --> 00:03:59,220
+design my projects in your projects too
+
+89
+00:03:59,220 --> 00:04:01,560
+you are going to you are going to learn
+
+90
+00:04:01,560 --> 00:04:04,739
+my produce and you are going to code
+
+91
+00:04:04,739 --> 00:04:07,319
+your own mapreduce I think it's very
+
+92
+00:04:07,319 --> 00:04:09,659
+interesting okay this is about my course
+
+93
+00:04:09,659 --> 00:04:11,519
+and my style
+
+94
+00:04:11,519 --> 00:04:12,659
+um
+
+95
+00:04:12,659 --> 00:04:14,640
+so in um
+
+96
+00:04:14,640 --> 00:04:16,680
+okay and another thing is that about
+
+97
+00:04:16,680 --> 00:04:18,839
+your grade I know I know my course is
+
+98
+00:04:18,839 --> 00:04:21,720
+very different than the other professors
+
+99
+00:04:21,720 --> 00:04:23,580
+course so you may not have a lot of
+
+100
+00:04:23,580 --> 00:04:26,340
+materials to refer to that is why in the
+
+101
+00:04:26,340 --> 00:04:29,040
+syllabus I mentioned that my course are
+
+102
+00:04:29,040 --> 00:04:31,259
+going to be curved right the final your
+
+103
+00:04:31,259 --> 00:04:33,120
+final grades are going to be curved I
+
+104
+00:04:33,120 --> 00:04:35,520
+try to give at least half of the
+
+105
+00:04:35,520 --> 00:04:38,220
+students in my course a okay that is my
+
+106
+00:04:38,220 --> 00:04:40,979
+goal because I want I want everyone that
+
+107
+00:04:40,979 --> 00:04:43,979
+who who is willing to put efforts into
+
+108
+00:04:43,979 --> 00:04:46,020
+the course I want you all of you guys to
+
+109
+00:04:46,020 --> 00:04:49,320
+succeed okay I do not want to hurt you
+
+110
+00:04:49,320 --> 00:04:54,000
+okay so um in order to vary I think what
+
+111
+00:04:54,000 --> 00:04:56,220
+you learn in this course well
+
+112
+00:04:56,220 --> 00:04:58,500
+definitely benefits you in the future
+
+113
+00:04:58,500 --> 00:05:00,840
+okay
+
+114
+00:05:00,840 --> 00:05:03,240
+uh
+
+115
+00:05:03,240 --> 00:05:07,020
+so uh let's I finally find out how to
+
+116
+00:05:07,020 --> 00:05:10,500
+get this working okay let's let's take a
+
+117
+00:05:10,500 --> 00:05:12,900
+look out of a real life example to see
+
+118
+00:05:12,900 --> 00:05:16,940
+what is a race condition okay
+
+119
+00:05:23,820 --> 00:05:26,200
+yeah peace cookie right okay
+
+120
+00:05:26,200 --> 00:05:30,089
+[Music]
+
+121
+00:05:33,479 --> 00:05:36,060
+this cookie represents a shared variable
+
+122
+00:05:36,060 --> 00:05:39,259
+of four cookies
+
+123
+00:05:43,979 --> 00:05:47,600
+one and then I'll have three
+
+124
+00:05:48,300 --> 00:05:50,699
+okay well I need some cookies oh
+
+125
+00:05:50,699 --> 00:05:54,560
+fantastic I need two
+
+126
+00:05:59,340 --> 00:06:01,979
+hey Jason that cookie looks good hey any
+
+127
+00:06:01,979 --> 00:06:04,740
+more yeah um I've got three three left
+
+128
+00:06:04,740 --> 00:06:06,479
+over
+
+129
+00:06:06,479 --> 00:06:10,380
+or do you what what happened
+
+130
+00:06:10,380 --> 00:06:12,419
+zero
+
+131
+00:06:12,419 --> 00:06:14,960
+good good
+
+132
+00:06:16,500 --> 00:06:19,100
+peace
+
+133
+00:06:30,300 --> 00:06:33,419
+cookie represents a shared variable of
+
+134
+00:06:33,419 --> 00:06:35,960
+four cookies
+
+135
+00:07:03,139 --> 00:07:06,300
+oh great there's four cookies here I'm
+
+136
+00:07:06,300 --> 00:07:10,220
+gonna take one and then I'll have three
+
+137
+00:07:24,319 --> 00:07:27,180
+okay well I need some cookies oh
+
+138
+00:07:27,180 --> 00:07:29,780
+fantastic
+
+139
+00:07:36,139 --> 00:07:40,139
+two great
+
+140
+00:07:53,880 --> 00:07:56,340
+hey Jason that cookie looks good hey got
+
+141
+00:07:56,340 --> 00:07:58,979
+any more yeah um I've got three three
+
+142
+00:07:58,979 --> 00:08:01,460
+left over
+
+143
+00:08:10,639 --> 00:08:14,940
+oh Lord do you what what happened
+
+144
+00:08:14,940 --> 00:08:17,160
+there's zero
+
+145
+00:08:17,160 --> 00:08:20,180
+good okay
+
+146
+00:09:21,140 --> 00:09:24,300
+uh so this is your textbook textbooks
+
+147
+00:09:24,300 --> 00:09:28,279
+example so let's look at that
+
+148
+00:09:29,940 --> 00:09:32,820
+this is a support directory so it's a
+
+149
+00:09:32,820 --> 00:09:35,399
+you can think of is a printer's queue a
+
+150
+00:09:35,399 --> 00:09:37,200
+queue of the printer queue of the
+
+151
+00:09:37,200 --> 00:09:40,940
+printer Okay so
+
+152
+00:09:45,620 --> 00:09:49,260
+so if if you want printer print a file
+
+153
+00:09:49,260 --> 00:09:52,560
+you enter the file named in this in this
+
+154
+00:09:52,560 --> 00:09:56,279
+specific spoiler directory
+
+155
+00:09:56,279 --> 00:09:59,279
+and the printer process are going to
+
+156
+00:09:59,279 --> 00:10:01,440
+productively check if they are filed to
+
+157
+00:10:01,440 --> 00:10:03,660
+be printed and if they are it print them
+
+158
+00:10:03,660 --> 00:10:07,800
+and then removed remove their names from
+
+159
+00:10:07,800 --> 00:10:10,080
+the directory remove their names from
+
+160
+00:10:10,080 --> 00:10:12,480
+the directory so when race condition
+
+161
+00:10:12,480 --> 00:10:15,000
+happens
+
+162
+00:10:15,000 --> 00:10:15,600
+um
+
+163
+00:10:15,600 --> 00:10:17,940
+always condition happens I'll give you
+
+164
+00:10:17,940 --> 00:10:19,620
+some time to think about that okay I
+
+165
+00:10:19,620 --> 00:10:21,000
+will tell you
+
+166
+00:10:21,000 --> 00:10:23,700
+so we have the process a okay process a
+
+167
+00:10:23,700 --> 00:10:27,320
+who is continually
+
+168
+00:10:29,519 --> 00:10:31,320
+and process B
+
+169
+00:10:31,320 --> 00:10:34,740
+they are their A and B
+
+170
+00:10:34,740 --> 00:10:37,320
+are going to are going to change the
+
+171
+00:10:37,320 --> 00:10:39,300
+value okay change the value and there it
+
+172
+00:10:39,300 --> 00:10:40,320
+is
+
+173
+00:10:40,320 --> 00:10:43,740
+always some new files got in
+
+174
+00:10:43,740 --> 00:10:47,100
+okay whatever whenever
+
+175
+00:10:47,100 --> 00:10:51,320
+whatever you see you see there's
+
+176
+00:10:52,019 --> 00:10:54,180
+you see there's a file then you print it
+
+177
+00:10:54,180 --> 00:10:56,339
+out and changed the value of the in
+
+178
+00:10:56,339 --> 00:10:58,800
+means that the ink means that what is
+
+179
+00:10:58,800 --> 00:11:01,260
+the current position okay the Out means
+
+180
+00:11:01,260 --> 00:11:03,660
+that what is the print position okay
+
+181
+00:11:03,660 --> 00:11:05,279
+take a look at that I will tell you that
+
+182
+00:11:05,279 --> 00:11:07,500
+when race condition happens is that
+
+183
+00:11:07,500 --> 00:11:09,500
+um
+
+184
+00:11:09,899 --> 00:11:12,660
+waste condition happens a process a and
+
+185
+00:11:12,660 --> 00:11:14,940
+process B are going to be way there
+
+186
+00:11:14,940 --> 00:11:15,959
+forever
+
+187
+00:11:15,959 --> 00:11:18,180
+there will be no there will be no files
+
+188
+00:11:18,180 --> 00:11:20,660
+print out
+
+189
+00:11:22,980 --> 00:11:25,620
+think of that why that happened okay why
+
+190
+00:11:25,620 --> 00:11:27,899
+did that happen so give give you some
+
+191
+00:11:27,899 --> 00:11:30,860
+time to think of it
+
+192
+00:12:04,860 --> 00:12:07,040
+foreign
+
+193
+00:13:19,399 --> 00:13:23,120
+students want to try
+
+194
+00:13:25,380 --> 00:13:28,079
+yeah yeah
+
+195
+00:13:28,079 --> 00:13:32,180
+oh okay so uh
+
+196
+00:13:32,339 --> 00:13:36,540
+this is the share uh let me
+
+197
+00:13:36,540 --> 00:13:40,940
+let's make a question uh easy easy
+
+198
+00:13:49,040 --> 00:13:51,899
+this is your your printer this is your
+
+199
+00:13:51,899 --> 00:13:53,880
+printer
+
+200
+00:13:53,880 --> 00:13:57,420
+right so we we have we have the fire
+
+201
+00:13:57,420 --> 00:14:00,480
+continuous goes in and I find and the
+
+202
+00:14:00,480 --> 00:14:02,339
+printer are going to check
+
+203
+00:14:02,339 --> 00:14:05,519
+to check the file to check the file
+
+204
+00:14:05,519 --> 00:14:09,560
+what a file comes out okay
+
+205
+00:14:10,680 --> 00:14:13,920
+so so the the case is that if there's
+
+206
+00:14:13,920 --> 00:14:16,800
+only one process if there's only one
+
+207
+00:14:16,800 --> 00:14:18,480
+process
+
+208
+00:14:18,480 --> 00:14:21,959
+if there's only one process
+
+209
+00:14:21,959 --> 00:14:24,420
+working on this printer working on this
+
+210
+00:14:24,420 --> 00:14:27,540
+printer like
+
+211
+00:14:27,540 --> 00:14:30,540
+change this value like continually
+
+212
+00:14:30,540 --> 00:14:33,839
+insert the insert the new files or get
+
+213
+00:14:33,839 --> 00:14:36,420
+all the old files if there's only one
+
+214
+00:14:36,420 --> 00:14:37,680
+process
+
+215
+00:14:37,680 --> 00:14:40,940
+it will work well it will work good
+
+216
+00:14:40,940 --> 00:14:44,459
+perfectly however if there's more than
+
+217
+00:14:44,459 --> 00:14:45,720
+one process
+
+218
+00:14:45,720 --> 00:14:50,339
+more than one process P1 P2 P3
+
+219
+00:14:50,339 --> 00:14:52,620
+if they are continually
+
+220
+00:14:52,620 --> 00:14:55,139
+continually working on this working on
+
+221
+00:14:55,139 --> 00:14:58,079
+this printer for example when P1 is
+
+222
+00:14:58,079 --> 00:15:00,480
+inserting the files P2 are also
+
+223
+00:15:00,480 --> 00:15:03,899
+inserting the file P3 P4 if there are
+
+224
+00:15:03,899 --> 00:15:06,180
+more than one if they are more than one
+
+225
+00:15:06,180 --> 00:15:07,680
+process
+
+226
+00:15:07,680 --> 00:15:09,899
+are working on this
+
+227
+00:15:09,899 --> 00:15:14,040
+the race condition will happen so my
+
+228
+00:15:14,040 --> 00:15:16,880
+question is that
+
+229
+00:15:17,779 --> 00:15:20,639
+you do not need to understand right now
+
+230
+00:15:20,639 --> 00:15:22,920
+what is exactly race condition but
+
+231
+00:15:22,920 --> 00:15:24,779
+what I tell you is that race condition
+
+232
+00:15:24,779 --> 00:15:27,720
+will happen and if that happens the bad
+
+233
+00:15:27,720 --> 00:15:29,399
+thing will happen what is the bad thing
+
+234
+00:15:29,399 --> 00:15:32,300
+bad thing is that
+
+235
+00:15:32,579 --> 00:15:35,339
+at least one of the process are going to
+
+236
+00:15:35,339 --> 00:15:38,820
+wait here forever they will not get any
+
+237
+00:15:38,820 --> 00:15:43,019
+turn okay let's say p if at first P1
+
+238
+00:15:43,019 --> 00:15:46,380
+p2's P3 they are they are working in
+
+239
+00:15:46,380 --> 00:15:50,180
+order to import the files into that
+
+240
+00:15:50,180 --> 00:15:53,399
+to let the printer to print out their
+
+241
+00:15:53,399 --> 00:15:55,680
+their files
+
+242
+00:15:55,680 --> 00:15:56,820
+okay
+
+243
+00:15:56,820 --> 00:15:59,339
+the One race condition happens
+
+244
+00:15:59,339 --> 00:16:01,800
+if if race condition happens it may
+
+245
+00:16:01,800 --> 00:16:05,279
+happens once in 100 1000 times if it
+
+246
+00:16:05,279 --> 00:16:07,380
+happens at least
+
+247
+00:16:07,380 --> 00:16:09,779
+one or two of the process are going to
+
+248
+00:16:09,779 --> 00:16:12,120
+be waited here forever
+
+249
+00:16:12,120 --> 00:16:15,360
+the the bad situation will happen and my
+
+250
+00:16:15,360 --> 00:16:20,120
+question is that why my question is why
+
+251
+00:16:21,480 --> 00:16:24,199
+yeah yes
+
+252
+00:16:28,019 --> 00:16:31,980
+um no no not exactly no this is um
+
+253
+00:16:31,980 --> 00:16:36,800
+not quite relevance then there are yeah
+
+254
+00:16:49,440 --> 00:16:53,300
+yes very good very good yeah
+
+255
+00:16:58,940 --> 00:17:02,519
+yeah okay very good I will combine you
+
+256
+00:17:02,519 --> 00:17:05,640
+guys two answers Okay so
+
+257
+00:17:05,640 --> 00:17:10,619
+here the one p one one P1 is trying to
+
+258
+00:17:10,619 --> 00:17:13,799
+impose a file let's say P1 is trying to
+
+259
+00:17:13,799 --> 00:17:16,619
+import a file into seven
+
+260
+00:17:16,619 --> 00:17:19,039
+just
+
+261
+00:17:22,020 --> 00:17:24,599
+one P1 you're trying to import a file
+
+262
+00:17:24,599 --> 00:17:27,359
+into seven let's say
+
+263
+00:17:27,359 --> 00:17:30,960
+is p1's file okay p1's file
+
+264
+00:17:30,960 --> 00:17:33,919
+p1's file
+
+265
+00:17:36,360 --> 00:17:38,760
+so if in the best case what will happen
+
+266
+00:17:38,760 --> 00:17:41,580
+when P1 inputs the seven right in
+
+267
+00:17:41,580 --> 00:17:43,200
+position seven
+
+268
+00:17:43,200 --> 00:17:45,000
+the seven
+
+269
+00:17:45,000 --> 00:17:46,880
+the ying
+
+270
+00:17:46,880 --> 00:17:50,100
+should plus one write the in the point
+
+271
+00:17:50,100 --> 00:17:53,220
+of in should be equal to two sorry equal
+
+272
+00:17:53,220 --> 00:17:56,360
+to eight right
+
+273
+00:17:56,700 --> 00:17:57,840
+right
+
+274
+00:17:57,840 --> 00:18:00,780
+so so here's what happened okay when P1
+
+275
+00:18:00,780 --> 00:18:03,900
+input my file into the seven so for this
+
+276
+00:18:03,900 --> 00:18:05,820
+first operation is the first operation
+
+277
+00:18:05,820 --> 00:18:07,860
+is that
+
+278
+00:18:07,860 --> 00:18:10,260
+I import
+
+279
+00:18:10,260 --> 00:18:13,020
+P1 dot C
+
+280
+00:18:13,020 --> 00:18:14,340
+in
+
+281
+00:18:14,340 --> 00:18:17,100
+seven right and the second operation is
+
+282
+00:18:17,100 --> 00:18:17,880
+one
+
+283
+00:18:17,880 --> 00:18:19,559
+I adding
+
+284
+00:18:19,559 --> 00:18:22,220
+in
+
+285
+00:18:22,799 --> 00:18:26,580
+adding in of one value okay so in should
+
+286
+00:18:26,580 --> 00:18:29,760
+be equals to eight and then
+
+287
+00:18:29,760 --> 00:18:33,059
+the third operation is that in
+
+288
+00:18:33,059 --> 00:18:35,580
+conforming in equals to eight okay
+
+289
+00:18:35,580 --> 00:18:40,200
+confirming in equals to eight so
+
+290
+00:18:40,559 --> 00:18:44,220
+so if if it works if it works normally
+
+291
+00:18:44,220 --> 00:18:46,799
+what will happen is when P1 trying to
+
+292
+00:18:46,799 --> 00:18:49,320
+insert the file into that here one two
+
+293
+00:18:49,320 --> 00:18:51,360
+three one two three should happen should
+
+294
+00:18:51,360 --> 00:18:53,460
+finish and it should finish
+
+295
+00:18:53,460 --> 00:18:57,600
+after one two three finish then P2 has a
+
+296
+00:18:57,600 --> 00:18:58,320
+chance
+
+297
+00:18:58,320 --> 00:19:02,700
+to insert his file his file then P2 will
+
+298
+00:19:02,700 --> 00:19:04,799
+import the file
+
+299
+00:19:04,799 --> 00:19:07,620
+into this the Precision H right position
+
+300
+00:19:07,620 --> 00:19:09,480
+H then P2
+
+301
+00:19:09,480 --> 00:19:13,200
+plus C and then in equals to nine that
+
+302
+00:19:13,200 --> 00:19:15,539
+that should happen right this is the
+
+303
+00:19:15,539 --> 00:19:16,980
+normal condition normal condition
+
+304
+00:19:16,980 --> 00:19:19,200
+however however
+
+305
+00:19:19,200 --> 00:19:22,559
+however if we run this process if we do
+
+306
+00:19:22,559 --> 00:19:25,919
+not allow this P1 p2p3 communicate each
+
+307
+00:19:25,919 --> 00:19:28,940
+other if we do not put any protection
+
+308
+00:19:28,940 --> 00:19:32,940
+mechanisms onto these shared variables
+
+309
+00:19:32,940 --> 00:19:36,240
+they are all aware of each other's
+
+310
+00:19:36,240 --> 00:19:38,280
+operation and
+
+311
+00:19:38,280 --> 00:19:42,000
+what will happen is that when P P1 is
+
+312
+00:19:42,000 --> 00:19:45,960
+doing the operation of inputs P1 dot C
+
+313
+00:19:45,960 --> 00:19:49,559
+into the slots 7 in plus plus and E
+
+314
+00:19:49,559 --> 00:19:52,220
+equals to eight these three operations
+
+315
+00:19:52,220 --> 00:19:55,260
+these three operations this is very
+
+316
+00:19:55,260 --> 00:19:57,860
+tricky okay
+
+317
+00:19:58,260 --> 00:20:01,919
+in ending this is not or not
+
+318
+00:20:01,919 --> 00:20:03,840
+not
+
+319
+00:20:03,840 --> 00:20:06,840
+atomic
+
+320
+00:20:07,080 --> 00:20:09,980
+operation
+
+321
+00:20:10,700 --> 00:20:14,220
+this one two three this operation are
+
+322
+00:20:14,220 --> 00:20:16,440
+not atomical operation and what will
+
+323
+00:20:16,440 --> 00:20:18,620
+happen
+
+324
+00:20:18,780 --> 00:20:23,120
+contact context which happens in here
+
+325
+00:20:23,120 --> 00:20:27,419
+P1 do not have time to change
+
+326
+00:20:27,419 --> 00:20:31,620
+to change the ins value to be A's
+
+327
+00:20:31,620 --> 00:20:34,559
+between at these moments at this moment
+
+328
+00:20:34,559 --> 00:20:36,780
+contact switch happens
+
+329
+00:20:36,780 --> 00:20:40,220
+the cpu's Gathering is gathering
+
+330
+00:20:40,220 --> 00:20:43,740
+scattering is com computation components
+
+331
+00:20:43,740 --> 00:20:47,820
+to P2 sub to P2
+
+332
+00:20:47,820 --> 00:20:51,720
+so this is p1's wheel View
+
+333
+00:20:51,720 --> 00:20:55,880
+and then we have p2's View
+
+334
+00:20:57,360 --> 00:20:59,160
+so P1
+
+335
+00:20:59,160 --> 00:21:01,620
+we switch to P2
+
+336
+00:21:01,620 --> 00:21:04,799
+at that time when P2 sees this see this
+
+337
+00:21:04,799 --> 00:21:07,280
+variable
+
+338
+00:21:10,620 --> 00:21:13,799
+when P2 sees this variable in
+
+339
+00:21:13,799 --> 00:21:17,880
+is not equals to A's okay in steel
+
+340
+00:21:17,880 --> 00:21:20,220
+equals to seven
+
+341
+00:21:20,220 --> 00:21:22,919
+in still equals to seven
+
+342
+00:21:22,919 --> 00:21:27,299
+because P2 has P1 has to does not have a
+
+343
+00:21:27,299 --> 00:21:30,240
+chance to finish all this operation CPU
+
+344
+00:21:30,240 --> 00:21:32,480
+already is gathering the
+
+345
+00:21:32,480 --> 00:21:35,820
+computation components to P2
+
+346
+00:21:35,820 --> 00:21:37,740
+then
+
+347
+00:21:37,740 --> 00:21:40,679
+what would be the p p two subbu in
+
+348
+00:21:40,679 --> 00:21:45,679
+equals to 7 right E equals to 7 then
+
+349
+00:21:47,220 --> 00:21:49,500
+inputs
+
+350
+00:21:49,500 --> 00:21:52,980
+P2 the C in
+
+351
+00:21:52,980 --> 00:21:54,600
+position
+
+352
+00:21:54,600 --> 00:21:56,280
+seven
+
+353
+00:21:56,280 --> 00:21:59,460
+okay P2 will put this puts the file into
+
+354
+00:21:59,460 --> 00:22:03,659
+the position seven so position seven
+
+355
+00:22:03,659 --> 00:22:06,299
+or have two values we'll have two values
+
+356
+00:22:06,299 --> 00:22:10,740
+it's P1 dot C and p2.c but two P2 does c
+
+357
+00:22:10,740 --> 00:22:13,860
+are going to overwrite the value of P1
+
+358
+00:22:13,860 --> 00:22:15,840
+dot C
+
+359
+00:22:15,840 --> 00:22:21,120
+so it will be P two dot C
+
+360
+00:22:21,120 --> 00:22:26,340
+p 2. c okay so here and then
+
+361
+00:22:26,340 --> 00:22:30,059
+say it's finished okay in plus plus and
+
+362
+00:22:30,059 --> 00:22:31,500
+then in
+
+363
+00:22:31,500 --> 00:22:36,080
+equals to eight okay now
+
+364
+00:22:40,320 --> 00:22:43,080
+now the scheduling order comes back to
+
+365
+00:22:43,080 --> 00:22:44,580
+P1 okay
+
+366
+00:22:44,580 --> 00:22:46,980
+scheduling scheduling order come back to
+
+367
+00:22:46,980 --> 00:22:51,240
+P1 now rp1 will see P1 go pick pick up
+
+368
+00:22:51,240 --> 00:22:52,740
+where it is
+
+369
+00:22:52,740 --> 00:22:55,799
+P1 will pick up where it is it's going
+
+370
+00:22:55,799 --> 00:22:57,539
+to
+
+371
+00:22:57,539 --> 00:23:00,440
+is going to
+
+372
+00:23:02,100 --> 00:23:05,159
+do this okay do this because it because
+
+373
+00:23:05,159 --> 00:23:07,440
+because it's left over at this position
+
+374
+00:23:07,440 --> 00:23:09,659
+okay
+
+375
+00:23:09,659 --> 00:23:14,059
+so it will do this okay then
+
+376
+00:23:18,320 --> 00:23:22,440
+but however it will never get is is file
+
+377
+00:23:22,440 --> 00:23:24,720
+back okay it will never get it's back
+
+378
+00:23:24,720 --> 00:23:26,700
+file back you're not going to use this
+
+379
+00:23:26,700 --> 00:23:28,799
+operation and then runs this operation
+
+380
+00:23:28,799 --> 00:23:31,440
+runs this operation
+
+381
+00:23:31,440 --> 00:23:32,820
+okay
+
+382
+00:23:32,820 --> 00:23:36,600
+so P1 are going to lose his file losing
+
+383
+00:23:36,600 --> 00:23:38,820
+his file and the P1
+
+384
+00:23:38,820 --> 00:23:41,039
+then what will happen is that in your
+
+385
+00:23:41,039 --> 00:23:44,580
+textbooks there's actually uh several or
+
+386
+00:23:44,580 --> 00:23:47,159
+several Solutions of that row P1 but in
+
+387
+00:23:47,159 --> 00:23:49,559
+the textbook there's a P1 just the way
+
+388
+00:23:49,559 --> 00:23:51,659
+there because it's waiting for the its
+
+389
+00:23:51,659 --> 00:23:53,820
+people it's its own file but it will
+
+390
+00:23:53,820 --> 00:23:55,740
+never get hit
+
+391
+00:23:55,740 --> 00:23:58,919
+okay because P2 overwrite this file
+
+392
+00:23:58,919 --> 00:24:02,340
+okay so this is this happens very rarely
+
+393
+00:24:02,340 --> 00:24:04,260
+why this happens because
+
+394
+00:24:04,260 --> 00:24:06,419
+these three operations these three
+
+395
+00:24:06,419 --> 00:24:08,580
+operations when you change are valuable
+
+396
+00:24:08,580 --> 00:24:10,380
+when you're trying to change your shared
+
+397
+00:24:10,380 --> 00:24:13,080
+variable you need to read this Value
+
+398
+00:24:13,080 --> 00:24:16,740
+First in change this value and then
+
+399
+00:24:16,740 --> 00:24:19,980
+commit commit to the changes so these
+
+400
+00:24:19,980 --> 00:24:22,380
+three operations are very tiny
+
+401
+00:24:22,380 --> 00:24:24,179
+operations they are not Atomic
+
+402
+00:24:24,179 --> 00:24:26,400
+operations while all s is that they are
+
+403
+00:24:26,400 --> 00:24:29,159
+not Atomic corporations if if contact
+
+404
+00:24:29,159 --> 00:24:31,700
+switch happens during this operation
+
+405
+00:24:31,700 --> 00:24:34,980
+then unexpected
+
+406
+00:24:34,980 --> 00:24:37,260
+unexpected
+
+407
+00:24:37,260 --> 00:24:40,980
+results will happen so that is the data
+
+408
+00:24:40,980 --> 00:24:43,919
+races okay
+
+409
+00:24:43,919 --> 00:24:46,640
+foreign
+
+410
+00:24:47,520 --> 00:24:50,940
+so how to avoid the raises how to avoid
+
+411
+00:24:50,940 --> 00:24:53,400
+the races so we have the mutual
+
+412
+00:24:53,400 --> 00:24:56,340
+exclusion we only allow one process at a
+
+413
+00:24:56,340 --> 00:24:59,880
+time can use a shared valuable on file
+
+414
+00:24:59,880 --> 00:25:03,000
+okay only one process at time can use a
+
+415
+00:25:03,000 --> 00:25:06,440
+shared variable as a file
+
+416
+00:25:07,020 --> 00:25:09,780
+so the key to prevent trouble here is in
+
+417
+00:25:09,780 --> 00:25:12,539
+many situations involving the like share
+
+418
+00:25:12,539 --> 00:25:15,780
+memory shared files shell objects when
+
+419
+00:25:15,780 --> 00:25:18,179
+you are sharing anything with more than
+
+420
+00:25:18,179 --> 00:25:20,520
+one process then you need to have some
+
+421
+00:25:20,520 --> 00:25:24,120
+protection mechanisms okay so this
+
+422
+00:25:24,120 --> 00:25:26,400
+what we are going to do is that we are
+
+423
+00:25:26,400 --> 00:25:29,340
+going to put the parts of the shared
+
+424
+00:25:29,340 --> 00:25:30,419
+memory
+
+425
+00:25:30,419 --> 00:25:33,120
+to be something we call the critical
+
+426
+00:25:33,120 --> 00:25:37,080
+region critical region and then we for
+
+427
+00:25:37,080 --> 00:25:40,640
+that specific region we ensure some
+
+428
+00:25:40,640 --> 00:25:43,980
+mechanisms called Mutual exclusion so we
+
+429
+00:25:43,980 --> 00:25:47,460
+allow only one process at a time can can
+
+430
+00:25:47,460 --> 00:25:50,460
+use that shared variable so in the real
+
+431
+00:25:50,460 --> 00:25:53,520
+life example what will happen is that we
+
+432
+00:25:53,520 --> 00:25:55,980
+are going to have a
+
+433
+00:25:55,980 --> 00:25:58,140
+you can think of that we are not going
+
+434
+00:25:58,140 --> 00:25:59,760
+to put the cookie
+
+435
+00:25:59,760 --> 00:26:02,820
+in a public position we are going to put
+
+436
+00:26:02,820 --> 00:26:06,600
+the cookie in our ATM machine if we put
+
+437
+00:26:06,600 --> 00:26:08,940
+the cookie in the ATM machine every time
+
+438
+00:26:08,940 --> 00:26:10,140
+you
+
+439
+00:26:10,140 --> 00:26:13,500
+like the machine that you gather your
+
+440
+00:26:13,500 --> 00:26:15,539
+water your water right every time you
+
+441
+00:26:15,539 --> 00:26:18,720
+got the cookie right then the cookies
+
+442
+00:26:18,720 --> 00:26:20,940
+numbers are going to be changed and
+
+443
+00:26:20,940 --> 00:26:22,740
+everyone can see that
+
+444
+00:26:22,740 --> 00:26:26,760
+so if you put a cookie in some like a
+
+445
+00:26:26,760 --> 00:26:30,320
+log give a box or ATM machine
+
+446
+00:26:30,320 --> 00:26:32,880
+it can protect it that's the same thing
+
+447
+00:26:32,880 --> 00:26:34,919
+okay
+
+448
+00:26:34,919 --> 00:26:37,380
+so uh
+
+449
+00:26:37,380 --> 00:26:39,779
+so a property of a good solution is that
+
+450
+00:26:39,779 --> 00:26:44,640
+it should ensure or Mutual exclusion
+
+451
+00:26:44,640 --> 00:26:46,980
+and there should be no assumption about
+
+452
+00:26:46,980 --> 00:26:49,860
+the speed or the number of CPUs there
+
+453
+00:26:49,860 --> 00:26:54,480
+should be no any assumption about that
+
+454
+00:26:54,480 --> 00:26:56,039
+um
+
+455
+00:26:56,039 --> 00:26:58,260
+none of the process outside the critical
+
+456
+00:26:58,260 --> 00:27:00,720
+region can block other process and
+
+457
+00:27:00,720 --> 00:27:04,140
+there's no starvation no process Waits
+
+458
+00:27:04,140 --> 00:27:06,539
+forever to enter the critical region
+
+459
+00:27:06,539 --> 00:27:08,779
+okay
+
+460
+00:27:10,520 --> 00:27:14,100
+so let's look at this example so these
+
+461
+00:27:14,100 --> 00:27:15,720
+two let's say two process okay we only
+
+462
+00:27:15,720 --> 00:27:18,000
+have two process
+
+463
+00:27:18,000 --> 00:27:21,120
+process one and process two
+
+464
+00:27:21,120 --> 00:27:23,520
+it's a process a enter the critical
+
+465
+00:27:23,520 --> 00:27:25,799
+region and then leave the critical
+
+466
+00:27:25,799 --> 00:27:28,620
+region one process a is enter the
+
+467
+00:27:28,620 --> 00:27:31,260
+critical region and
+
+468
+00:27:31,260 --> 00:27:33,419
+change the variable here
+
+469
+00:27:33,419 --> 00:27:35,580
+process B
+
+470
+00:27:35,580 --> 00:27:38,580
+can trying to can trying to continually
+
+471
+00:27:38,580 --> 00:27:42,240
+try to enter in this critical region
+
+472
+00:27:42,240 --> 00:27:44,880
+but of course as B is not allowed to
+
+473
+00:27:44,880 --> 00:27:47,279
+enter it because process a has not yet
+
+474
+00:27:47,279 --> 00:27:50,159
+leave it okay and you should not assume
+
+475
+00:27:50,159 --> 00:27:52,320
+like they are processing speed there's
+
+476
+00:27:52,320 --> 00:27:54,059
+no assumption about their processing
+
+477
+00:27:54,059 --> 00:27:56,240
+speed
+
+478
+00:27:56,940 --> 00:28:00,299
+and after a finish then B enter into
+
+479
+00:28:00,299 --> 00:28:02,640
+that okay
+
+480
+00:28:02,640 --> 00:28:05,279
+so you you are the software engineering
+
+481
+00:28:05,279 --> 00:28:07,559
+okay so how to implement that how to
+
+482
+00:28:07,559 --> 00:28:09,360
+implement that write some code to
+
+483
+00:28:09,360 --> 00:28:11,520
+implement that
+
+484
+00:28:11,520 --> 00:28:15,120
+you can do that it's very simple
+
+485
+00:28:15,120 --> 00:28:18,080
+you won't try
+
+486
+00:28:24,480 --> 00:28:26,940
+um you write some code like what kind of
+
+487
+00:28:26,940 --> 00:28:29,179
+code
+
+488
+00:28:30,919 --> 00:28:34,080
+they're they're all trying to changing a
+
+489
+00:28:34,080 --> 00:28:38,640
+value of the variable of a right what
+
+490
+00:28:38,640 --> 00:28:40,559
+we're going to do
+
+491
+00:28:40,559 --> 00:28:44,059
+we yes
+
+492
+00:28:57,179 --> 00:28:59,580
+um you you only need to write several
+
+493
+00:28:59,580 --> 00:29:02,220
+lines of code to do that what kind of
+
+494
+00:29:02,220 --> 00:29:04,740
+code look it looks like
+
+495
+00:29:04,740 --> 00:29:07,320
+I want I want to have some someone to
+
+496
+00:29:07,320 --> 00:29:10,799
+speak about the pseudo code
+
+497
+00:29:10,799 --> 00:29:13,320
+you
+
+498
+00:29:13,320 --> 00:29:15,740
+yeah
+
+499
+00:29:20,279 --> 00:29:23,460
+very good what kind of vlog
+
+500
+00:29:23,460 --> 00:29:26,940
+no no we do not talk about mutex let's
+
+501
+00:29:26,940 --> 00:29:29,159
+let's forget anything about mutex some
+
+502
+00:29:29,159 --> 00:29:33,020
+of them let's forget about that okay
+
+503
+00:29:34,860 --> 00:29:37,380
+very good while loop so we use a while
+
+504
+00:29:37,380 --> 00:29:40,620
+loop we create a integer let's say uh
+
+505
+00:29:40,620 --> 00:29:43,020
+well a Boolean okay we're saying that oh
+
+506
+00:29:43,020 --> 00:29:45,600
+this is a lock this only have two values
+
+507
+00:29:45,600 --> 00:29:48,720
+true or false okay whatever whenever
+
+508
+00:29:48,720 --> 00:29:51,299
+some process is like a lock this lock
+
+509
+00:29:51,299 --> 00:29:53,340
+this lock equals to
+
+510
+00:29:53,340 --> 00:29:55,799
+it has a is inside of the while loop
+
+511
+00:29:55,799 --> 00:29:56,820
+okay
+
+512
+00:29:56,820 --> 00:29:59,640
+so let's look at this how it is looks
+
+513
+00:29:59,640 --> 00:30:01,760
+like
+
+514
+00:30:01,860 --> 00:30:04,140
+it looks like this okay looks like this
+
+515
+00:30:04,140 --> 00:30:06,840
+we have a wire Loop okay
+
+516
+00:30:06,840 --> 00:30:08,840
+okay
+
+517
+00:30:09,059 --> 00:30:11,460
+this is the trend this is Trend okay we
+
+518
+00:30:11,460 --> 00:30:13,559
+have let's say we have process a and
+
+519
+00:30:13,559 --> 00:30:16,700
+process B we
+
+520
+00:30:16,740 --> 00:30:18,179
+ever
+
+521
+00:30:18,179 --> 00:30:21,480
+we are going to whenever a entries into
+
+522
+00:30:21,480 --> 00:30:25,140
+that b are going to
+
+523
+00:30:25,140 --> 00:30:27,600
+continually checking it okay checking
+
+524
+00:30:27,600 --> 00:30:29,940
+that the lock what whether the lock
+
+525
+00:30:29,940 --> 00:30:32,820
+is released okay when a entering into
+
+526
+00:30:32,820 --> 00:30:34,380
+that it's
+
+527
+00:30:34,380 --> 00:30:37,380
+push the lock on right a under the
+
+528
+00:30:37,380 --> 00:30:40,740
+critical region then a puts a lock and
+
+529
+00:30:40,740 --> 00:30:43,080
+if a leaves the critical region then a
+
+530
+00:30:43,080 --> 00:30:45,240
+release the lock that is how how it
+
+531
+00:30:45,240 --> 00:30:49,460
+works this is the release lock okay
+
+532
+00:30:53,340 --> 00:30:56,539
+look at this code
+
+533
+00:30:59,640 --> 00:31:03,840
+so we first we first we first give each
+
+534
+00:31:03,840 --> 00:31:05,399
+process let's say we only have two
+
+535
+00:31:05,399 --> 00:31:09,080
+process a and a b okay
+
+536
+00:31:09,120 --> 00:31:11,340
+now while
+
+537
+00:31:11,340 --> 00:31:14,880
+turn not equals to zero is going to be
+
+538
+00:31:14,880 --> 00:31:17,279
+wait forever so you see this code it's
+
+539
+00:31:17,279 --> 00:31:19,679
+going to be waiting forever
+
+540
+00:31:19,679 --> 00:31:22,260
+right wait forever when turned equals to
+
+541
+00:31:22,260 --> 00:31:23,820
+zero
+
+542
+00:31:23,820 --> 00:31:27,059
+then that means it is process a string
+
+543
+00:31:27,059 --> 00:31:30,059
+so process a goes into the critical
+
+544
+00:31:30,059 --> 00:31:32,340
+region process a goes to the critical
+
+545
+00:31:32,340 --> 00:31:33,659
+region
+
+546
+00:31:33,659 --> 00:31:37,260
+if process I finish the critical region
+
+547
+00:31:37,260 --> 00:31:41,480
+things change back to the log to be one
+
+548
+00:31:41,640 --> 00:31:45,260
+okay and so does B okay b one b
+
+549
+00:31:45,260 --> 00:31:47,760
+what B is doing is that is continue
+
+550
+00:31:47,760 --> 00:31:50,940
+checking if it's Houston if this equals
+
+551
+00:31:50,940 --> 00:31:54,840
+to 1 if not then B is going to wait here
+
+552
+00:31:54,840 --> 00:31:56,159
+forever
+
+553
+00:31:56,159 --> 00:31:59,179
+wait here forever
+
+554
+00:31:59,820 --> 00:32:03,419
+but if if the turn equals to one if a
+
+555
+00:32:03,419 --> 00:32:06,000
+release the code a release the code then
+
+556
+00:32:06,000 --> 00:32:08,520
+it means is speech turn where process B
+
+557
+00:32:08,520 --> 00:32:10,320
+string so B can enter the critical
+
+558
+00:32:10,320 --> 00:32:12,799
+region
+
+559
+00:32:14,399 --> 00:32:17,460
+after you finish after you finish then
+
+560
+00:32:17,460 --> 00:32:20,039
+release the lock
+
+561
+00:32:20,039 --> 00:32:22,740
+okay so this is a solution this is the
+
+562
+00:32:22,740 --> 00:32:24,720
+software this is a very straightforward
+
+563
+00:32:24,720 --> 00:32:29,059
+simple solution for to implement a
+
+564
+00:32:29,059 --> 00:32:31,980
+implements the critical region for
+
+565
+00:32:31,980 --> 00:32:35,520
+protection for two process
+
+566
+00:32:35,520 --> 00:32:37,860
+to process
+
+567
+00:32:37,860 --> 00:32:39,720
+now what will be the problem of that
+
+568
+00:32:39,720 --> 00:32:43,100
+what will be the problem
+
+569
+00:32:50,659 --> 00:32:54,240
+the problem is that one
+
+570
+00:32:54,240 --> 00:32:57,840
+this this lines of code you can try that
+
+571
+00:32:57,840 --> 00:32:58,380
+um
+
+572
+00:32:58,380 --> 00:33:00,899
+after you finish this course you can uh
+
+573
+00:33:00,899 --> 00:33:02,940
+at home you can write some while loop
+
+574
+00:33:02,940 --> 00:33:05,100
+and while you write oh
+
+575
+00:33:05,100 --> 00:33:08,460
+um and run the while loop operation then
+
+576
+00:33:08,460 --> 00:33:10,740
+you see the CPU utilization we will
+
+577
+00:33:10,740 --> 00:33:12,120
+consistency periodation becoming
+
+578
+00:33:12,120 --> 00:33:15,360
+extremely high like to 80 or 90
+
+579
+00:33:15,360 --> 00:33:18,840
+percentage so it's a waste of CPU
+
+580
+00:33:18,840 --> 00:33:21,899
+resources but then okay let's forget
+
+581
+00:33:21,899 --> 00:33:24,840
+about the let's forget about the the
+
+582
+00:33:24,840 --> 00:33:26,820
+limitation
+
+583
+00:33:26,820 --> 00:33:29,039
+another limitation about that is that
+
+584
+00:33:29,039 --> 00:33:31,799
+this solution can only work for two
+
+585
+00:33:31,799 --> 00:33:34,559
+process right two process what if you
+
+586
+00:33:34,559 --> 00:33:36,720
+have three process
+
+587
+00:33:36,720 --> 00:33:39,919
+what you are going to do
+
+588
+00:33:40,080 --> 00:33:43,279
+oh you're going yeah
+
+589
+00:33:50,159 --> 00:33:53,299
+um yeah
+
+590
+00:33:59,519 --> 00:34:02,880
+yes very good so I can if there's three
+
+591
+00:34:02,880 --> 00:34:05,279
+process I can I can make it to be 20
+
+592
+00:34:05,279 --> 00:34:07,799
+equals to one turn equals to 2 20 equals
+
+593
+00:34:07,799 --> 00:34:10,139
+to three and this is actually assigned
+
+594
+00:34:10,139 --> 00:34:11,879
+to each process so each process can just
+
+595
+00:34:11,879 --> 00:34:13,800
+checking this right you can check in
+
+596
+00:34:13,800 --> 00:34:17,760
+this but this has a very uh big big
+
+597
+00:34:17,760 --> 00:34:21,719
+limitation the big limitation is that um
+
+598
+00:34:21,719 --> 00:34:25,679
+so it's you you need to you need to
+
+599
+00:34:25,679 --> 00:34:27,960
+um to gather a limitation about this
+
+600
+00:34:27,960 --> 00:34:29,219
+approach you need to understand the
+
+601
+00:34:29,219 --> 00:34:31,739
+computer architecture so they are trying
+
+602
+00:34:31,739 --> 00:34:34,260
+to they are trying to this all three
+
+603
+00:34:34,260 --> 00:34:36,599
+process if there's unprocessed they are
+
+604
+00:34:36,599 --> 00:34:39,480
+going to continually changing one cache
+
+605
+00:34:39,480 --> 00:34:42,418
+line one question one specific cash cash
+
+606
+00:34:42,418 --> 00:34:45,418
+now in the cash and this costs a lot of
+
+607
+00:34:45,418 --> 00:34:47,339
+locking
+
+608
+00:34:47,339 --> 00:34:49,739
+locking overhead it caused a lot of
+
+609
+00:34:49,739 --> 00:34:51,599
+locking overhead it's not I will tell
+
+610
+00:34:51,599 --> 00:34:54,839
+you that for the system it's not it is
+
+611
+00:34:54,839 --> 00:34:57,000
+not
+
+612
+00:34:57,000 --> 00:34:59,400
+um efficients it is not efficient it
+
+613
+00:34:59,400 --> 00:35:02,540
+costs a lot of overhead
+
+614
+00:35:02,820 --> 00:35:04,880
+um
+
+615
+00:35:06,000 --> 00:35:08,960
+let me show you
+
+616
+00:35:30,500 --> 00:35:34,440
+so the solution that student is proposed
+
+617
+00:35:34,440 --> 00:35:37,440
+is that we instead of using uh to turn
+
+618
+00:35:37,440 --> 00:35:41,520
+angles to one with zero one turn
+
+619
+00:35:41,520 --> 00:35:44,640
+can be equals to n rise m equals to n
+
+620
+00:35:44,640 --> 00:35:47,420
+the n
+
+621
+00:35:47,520 --> 00:35:53,280
+like P1 P2 P3 PN and each of them can
+
+622
+00:35:53,280 --> 00:35:56,040
+just check whether it's their turn for
+
+623
+00:35:56,040 --> 00:35:59,579
+example when P1 release it 1p1 when P1
+
+624
+00:35:59,579 --> 00:36:03,480
+finishes it can it can the P1 train is
+
+625
+00:36:03,480 --> 00:36:06,480
+is zero it can after you release it can
+
+626
+00:36:06,480 --> 00:36:08,579
+add in add one right at one then it
+
+627
+00:36:08,579 --> 00:36:10,500
+becomes p2's order then you become P
+
+628
+00:36:10,500 --> 00:36:12,960
+series order and then p2pn so everyone
+
+629
+00:36:12,960 --> 00:36:15,900
+can get it fairly right so the the
+
+630
+00:36:15,900 --> 00:36:17,760
+limitation about this approach is that
+
+631
+00:36:17,760 --> 00:36:20,339
+you can see that they all there will be
+
+632
+00:36:20,339 --> 00:36:24,140
+there will be unwired Loop
+
+633
+00:36:28,560 --> 00:36:32,880
+there will be a while while loop here
+
+634
+00:36:32,880 --> 00:36:36,480
+so it will be um process
+
+635
+00:36:36,480 --> 00:36:39,380
+they are going to
+
+636
+00:36:39,540 --> 00:36:42,359
+this is the this is your memory okay
+
+637
+00:36:42,359 --> 00:36:44,820
+this is your memory
+
+638
+00:36:44,820 --> 00:36:47,160
+and since we continually using this
+
+639
+00:36:47,160 --> 00:36:48,599
+value so this value we're going to be
+
+640
+00:36:48,599 --> 00:36:50,880
+pushing to the cache so let's say this
+
+641
+00:36:50,880 --> 00:36:52,140
+is the cache
+
+642
+00:36:52,140 --> 00:36:54,900
+the cat there's
+
+643
+00:36:54,900 --> 00:36:57,920
+this is the word this is the Casual
+
+644
+00:36:57,920 --> 00:37:03,440
+which is saving the trans value
+
+645
+00:37:04,980 --> 00:37:07,980
+so this end process are going to be
+
+646
+00:37:07,980 --> 00:37:10,200
+continually changing
+
+647
+00:37:10,200 --> 00:37:12,599
+this value changing this value
+
+648
+00:37:12,599 --> 00:37:15,119
+to continue changing this value
+
+649
+00:37:15,119 --> 00:37:17,760
+so you know of course a lot of course a
+
+650
+00:37:17,760 --> 00:37:20,119
+lot of
+
+651
+00:37:20,640 --> 00:37:24,540
+locking overhead
+
+652
+00:37:25,320 --> 00:37:27,540
+it's not inefficient I'll tell you it's
+
+653
+00:37:27,540 --> 00:37:29,040
+not I'm telling you it's not an
+
+654
+00:37:29,040 --> 00:37:31,500
+efficient so so from a software
+
+655
+00:37:31,500 --> 00:37:34,079
+engineering point of view how are you
+
+656
+00:37:34,079 --> 00:37:36,300
+going to improve that how I'm going to
+
+657
+00:37:36,300 --> 00:37:38,839
+improve that
+
+658
+00:37:39,599 --> 00:37:41,640
+improve this solution
+
+659
+00:37:41,640 --> 00:37:45,359
+we are going to have 100 process and we
+
+660
+00:37:45,359 --> 00:37:49,320
+they are going to concurrently
+
+661
+00:37:50,960 --> 00:37:53,099
+they're going to share a variable
+
+662
+00:37:53,099 --> 00:37:55,200
+concurrently changing this variable so
+
+663
+00:37:55,200 --> 00:37:57,540
+you need to protect the valuable you
+
+664
+00:37:57,540 --> 00:37:59,339
+need to help them
+
+665
+00:37:59,339 --> 00:38:02,040
+only you you need to ensure only one
+
+666
+00:38:02,040 --> 00:38:04,380
+process can enter this critical region
+
+667
+00:38:04,380 --> 00:38:05,900
+so
+
+668
+00:38:05,900 --> 00:38:09,660
+a simple solution is that we we use the
+
+669
+00:38:09,660 --> 00:38:13,200
+value we change the variable of n but I
+
+670
+00:38:13,200 --> 00:38:14,880
+will tell you that it's going to from
+
+671
+00:38:14,880 --> 00:38:17,099
+the system architecture point of view is
+
+672
+00:38:17,099 --> 00:38:19,320
+going to change the same cache the same
+
+673
+00:38:19,320 --> 00:38:20,339
+cache line
+
+674
+00:38:20,339 --> 00:38:23,579
+okay it's it's not efficiency especially
+
+675
+00:38:23,579 --> 00:38:25,619
+if you have multiple calls if you have
+
+676
+00:38:25,619 --> 00:38:28,260
+module core you are basically waste all
+
+677
+00:38:28,260 --> 00:38:30,960
+the the rest of the coins few coins so
+
+678
+00:38:30,960 --> 00:38:32,820
+it's not efficient what will be our
+
+679
+00:38:32,820 --> 00:38:35,820
+better solution
+
+680
+00:38:35,820 --> 00:38:39,440
+try that you can think of it
+
+681
+00:38:40,140 --> 00:38:41,820
+it's called Peterson's approach so
+
+682
+00:38:41,820 --> 00:38:45,000
+pixels designed that is
+
+683
+00:38:45,000 --> 00:38:48,660
+let's maybe 40 years ago he designed
+
+684
+00:38:48,660 --> 00:38:50,339
+that
+
+685
+00:38:50,339 --> 00:38:52,140
+and then he published a paper about it
+
+686
+00:38:52,140 --> 00:38:54,480
+so and becomes his approach but you can
+
+687
+00:38:54,480 --> 00:38:56,339
+think of that it's just the easy very
+
+688
+00:38:56,339 --> 00:38:59,839
+easy fix very easy fix
+
+689
+00:39:01,320 --> 00:39:04,140
+very easy fix
+
+690
+00:39:04,140 --> 00:39:07,040
+so give you hints instead of instead of
+
+691
+00:39:07,040 --> 00:39:11,900
+continually checking the
+
+692
+00:39:13,500 --> 00:39:15,720
+instead of continually checking the
+
+693
+00:39:15,720 --> 00:39:18,300
+share the variable in one cache line you
+
+694
+00:39:18,300 --> 00:39:20,339
+are going to
+
+695
+00:39:20,339 --> 00:39:23,040
+check many
+
+696
+00:39:23,040 --> 00:39:24,420
+many
+
+697
+00:39:24,420 --> 00:39:27,119
+cache lines together the multiple
+
+698
+00:39:27,119 --> 00:39:28,140
+process
+
+699
+00:39:28,140 --> 00:39:30,599
+do not there will be no IO button like
+
+700
+00:39:30,599 --> 00:39:33,780
+there will be no IO Bolton lock in one
+
+701
+00:39:33,780 --> 00:39:36,079
+position
+
+702
+00:39:37,079 --> 00:39:39,420
+there will be no IO broken luck in this
+
+703
+00:39:39,420 --> 00:39:41,520
+position
+
+704
+00:39:41,520 --> 00:39:43,920
+so the solution is that now if no one
+
+705
+00:39:43,920 --> 00:39:46,740
+going to want to try I'm going to give
+
+706
+00:39:46,740 --> 00:39:49,640
+you the solution okay
+
+707
+00:39:50,940 --> 00:39:52,800
+foreign
+
+708
+00:39:52,800 --> 00:39:55,680
+so the solution is that Peterson's
+
+709
+00:39:55,680 --> 00:39:57,960
+solution so take a look at the parents
+
+710
+00:39:57,960 --> 00:40:01,079
+solution it's very
+
+711
+00:40:01,079 --> 00:40:04,200
+very straightforward very easy just one
+
+712
+00:40:04,200 --> 00:40:06,060
+tricky one tricky
+
+713
+00:40:06,060 --> 00:40:08,040
+so instead of using one variable we're
+
+714
+00:40:08,040 --> 00:40:09,480
+using our array
+
+715
+00:40:09,480 --> 00:40:12,619
+we're using our array
+
+716
+00:40:13,619 --> 00:40:15,420
+right instead of changing the only
+
+717
+00:40:15,420 --> 00:40:18,180
+variable for n to represent the logs we
+
+718
+00:40:18,180 --> 00:40:21,599
+using if there's unlocked and processed
+
+719
+00:40:21,599 --> 00:40:24,480
+then we use an arrange a ring you see
+
+720
+00:40:24,480 --> 00:40:27,020
+that's there
+
+721
+00:40:29,099 --> 00:40:31,579
+here
+
+722
+00:40:33,480 --> 00:40:35,820
+we are going to give
+
+723
+00:40:35,820 --> 00:40:37,980
+each one each one or their
+
+724
+00:40:37,980 --> 00:40:40,020
+Interventional log and proceeding a
+
+725
+00:40:40,020 --> 00:40:43,560
+brain then instead of looking at each
+
+726
+00:40:43,560 --> 00:40:46,680
+only one question we can check multiple
+
+727
+00:40:46,680 --> 00:40:48,180
+cache lines together
+
+728
+00:40:48,180 --> 00:40:50,760
+okay so that's more efficient however
+
+729
+00:40:50,760 --> 00:40:53,540
+this approach still have problem
+
+730
+00:40:53,540 --> 00:40:57,560
+this approach still has problem
+
+731
+00:40:59,579 --> 00:41:02,099
+this is Peterson's approach if you're
+
+732
+00:41:02,099 --> 00:41:03,900
+interested you can take a look of your
+
+733
+00:41:03,900 --> 00:41:06,839
+textbook okay so the the only trick here
+
+734
+00:41:06,839 --> 00:41:09,300
+is that we're using our ring to save the
+
+735
+00:41:09,300 --> 00:41:11,579
+logs instead of using one variable we're
+
+736
+00:41:11,579 --> 00:41:14,280
+using our array
+
+737
+00:41:14,280 --> 00:41:16,760
+thank you
+
+738
+00:41:17,420 --> 00:41:21,180
+okay this is the software approach so I
+
+739
+00:41:21,180 --> 00:41:23,220
+will tell you these are the this
+
+740
+00:41:23,220 --> 00:41:27,180
+solution is they are not good because it
+
+741
+00:41:27,180 --> 00:41:29,460
+this solution
+
+742
+00:41:29,460 --> 00:41:33,720
+still has raised condition
+
+743
+00:41:33,720 --> 00:41:35,820
+has raised condition where the race
+
+744
+00:41:35,820 --> 00:41:37,500
+condition happens is actually happens
+
+745
+00:41:37,500 --> 00:41:40,380
+here happens when you entering or
+
+746
+00:41:40,380 --> 00:41:41,940
+leaving the
+
+747
+00:41:41,940 --> 00:41:43,079
+um
+
+748
+00:41:43,079 --> 00:41:46,020
+the critical region so just to memorize
+
+749
+00:41:46,020 --> 00:41:49,940
+that it still has race condition
+
+750
+00:41:49,980 --> 00:41:51,720
+then how are we going to fix that
+
+751
+00:41:51,720 --> 00:41:54,240
+someone think of that or maybe we can
+
+752
+00:41:54,240 --> 00:41:56,820
+design some design
+
+753
+00:41:56,820 --> 00:41:59,880
+maybe we can design some other Solutions
+
+754
+00:41:59,880 --> 00:42:02,599
+like Hardware Solutions
+
+755
+00:42:02,599 --> 00:42:06,440
+the hardware solution
+
+756
+00:42:09,020 --> 00:42:11,520
+the hardware solution the hardware
+
+757
+00:42:11,520 --> 00:42:14,599
+solution is that
+
+758
+00:42:15,060 --> 00:42:17,820
+we are going to we are going to
+
+759
+00:42:17,820 --> 00:42:21,599
+use a lock into the register and the
+
+760
+00:42:21,599 --> 00:42:23,820
+okay so we are going to use a hardware
+
+761
+00:42:23,820 --> 00:42:27,180
+lock Hardware lock so for example when a
+
+762
+00:42:27,180 --> 00:42:30,599
+process is entering the critical region
+
+763
+00:42:30,599 --> 00:42:33,420
+we are going to use a hardware approach
+
+764
+00:42:33,420 --> 00:42:36,480
+to disable all the interrupts we're
+
+765
+00:42:36,480 --> 00:42:38,640
+going to disable all interrupts if we
+
+766
+00:42:38,640 --> 00:42:41,760
+disable or interrupt then none of the
+
+767
+00:42:41,760 --> 00:42:43,560
+other process can enter the critical
+
+768
+00:42:43,560 --> 00:42:46,079
+region so this can solve the problem
+
+769
+00:42:46,079 --> 00:42:49,140
+this this is the hardware solution can
+
+770
+00:42:49,140 --> 00:42:52,680
+solve the problem however it's
+
+771
+00:42:52,680 --> 00:42:55,560
+um it is not good for all us because now
+
+772
+00:42:55,560 --> 00:42:58,859
+OS has to give the very important kernel
+
+773
+00:42:58,859 --> 00:43:01,200
+operations the authority of Kernel
+
+774
+00:43:01,200 --> 00:43:04,380
+operations to the or give it to user
+
+775
+00:43:04,380 --> 00:43:09,200
+it's easy to get a mass okay
+
+776
+00:43:13,260 --> 00:43:16,020
+and then we have the solution of the um
+
+777
+00:43:16,020 --> 00:43:19,020
+tax sample so we are going you are going
+
+778
+00:43:19,020 --> 00:43:22,680
+to practice that on your project too
+
+779
+00:43:22,680 --> 00:43:23,339
+um
+
+780
+00:43:23,339 --> 00:43:25,560
+so to introduce the
+
+781
+00:43:25,560 --> 00:43:28,800
+to introduce the solution of some
+
+782
+00:43:28,800 --> 00:43:31,859
+formula text of this let's look at this
+
+783
+00:43:31,859 --> 00:43:34,800
+example okay this is a very very classic
+
+784
+00:43:34,800 --> 00:43:37,079
+very classic example of producer
+
+785
+00:43:37,079 --> 00:43:39,000
+customer problem you might heard of that
+
+786
+00:43:39,000 --> 00:43:40,319
+right
+
+787
+00:43:40,319 --> 00:43:41,940
+anyone
+
+788
+00:43:41,940 --> 00:43:44,599
+no
+
+789
+00:44:47,700 --> 00:44:51,740
+it's not right so uh
+
+790
+00:45:01,319 --> 00:45:03,859
+foreign
+
+791
+00:45:16,920 --> 00:45:19,560
+okay so let's look at the producer
+
+792
+00:45:19,560 --> 00:45:21,720
+customer problem okay
+
+793
+00:45:21,720 --> 00:45:24,000
+so I'll give you some time to read the
+
+794
+00:45:24,000 --> 00:45:26,220
+code so all the problem is that there's
+
+795
+00:45:26,220 --> 00:45:29,339
+a producer there's a there's a there's a
+
+796
+00:45:29,339 --> 00:45:32,460
+shared valuable the shared valuable and
+
+797
+00:45:32,460 --> 00:45:36,560
+so you can think of that it is a um
+
+798
+00:45:36,599 --> 00:45:39,380
+it's a box
+
+799
+00:45:40,740 --> 00:45:43,560
+okay please describe us what is producer
+
+800
+00:45:43,560 --> 00:45:44,940
+customer program
+
+801
+00:45:44,940 --> 00:45:47,700
+you've been talking all the class this
+
+802
+00:45:47,700 --> 00:45:50,579
+is not good okay you've been talking all
+
+803
+00:45:50,579 --> 00:45:52,800
+the class okay what is the producer
+
+804
+00:45:52,800 --> 00:45:55,400
+customer program
+
+805
+00:45:55,440 --> 00:45:57,780
+this is our tutors our tutors of this
+
+806
+00:45:57,780 --> 00:46:00,240
+class okay I think they have a lot of
+
+807
+00:46:00,240 --> 00:46:03,740
+good things to share with us
+
+808
+00:46:05,060 --> 00:46:09,440
+what is the producer customer problem
+
+809
+00:46:11,040 --> 00:46:13,640
+what
+
+810
+00:46:16,160 --> 00:46:19,339
+speak louder
+
+811
+00:46:19,980 --> 00:46:23,760
+you read producer read the
+
+812
+00:46:23,760 --> 00:46:27,740
+producer read the bounded buffer
+
+813
+00:46:36,440 --> 00:46:40,200
+okay so we have a buffer first we have a
+
+814
+00:46:40,200 --> 00:46:42,599
+buffer producers are going to produce
+
+815
+00:46:42,599 --> 00:46:44,099
+items
+
+816
+00:46:44,099 --> 00:46:47,040
+produce items like insert items into the
+
+817
+00:46:47,040 --> 00:46:48,540
+buffer
+
+818
+00:46:48,540 --> 00:46:51,660
+the customers are going to consume
+
+819
+00:46:51,660 --> 00:46:55,440
+consume the items from the buffer
+
+820
+00:46:55,440 --> 00:46:58,260
+so what customer one consumer did is
+
+821
+00:46:58,260 --> 00:47:00,000
+that it's need to check right if the
+
+822
+00:47:00,000 --> 00:47:02,520
+buffer is zero what it will do you're
+
+823
+00:47:02,520 --> 00:47:04,800
+going to sleep right because there's low
+
+824
+00:47:04,800 --> 00:47:07,920
+items there's no items so they cannot
+
+825
+00:47:07,920 --> 00:47:10,980
+take any items out what producer did is
+
+826
+00:47:10,980 --> 00:47:14,480
+that producers are going to check what
+
+827
+00:47:15,180 --> 00:47:17,099
+the powerful lesson the buffer has a
+
+828
+00:47:17,099 --> 00:47:22,020
+size of N and equals to 100 the producer
+
+829
+00:47:22,020 --> 00:47:24,359
+what the producer needs to do
+
+830
+00:47:24,359 --> 00:47:26,280
+yes
+
+831
+00:47:26,280 --> 00:47:28,680
+yeah check it for evidence forward or if
+
+832
+00:47:28,680 --> 00:47:32,579
+it is four producer needs to do our goes
+
+833
+00:47:32,579 --> 00:47:34,140
+to sleep right
+
+834
+00:47:34,140 --> 00:47:37,260
+okay so one producer goes to sleep who
+
+835
+00:47:37,260 --> 00:47:40,740
+can wake it up he cannot wait sleep
+
+836
+00:47:40,740 --> 00:47:42,180
+forever
+
+837
+00:47:42,180 --> 00:47:44,720
+try
+
+838
+00:47:46,619 --> 00:47:48,359
+yeah
+
+839
+00:47:48,359 --> 00:47:50,579
+a consumer weighted Hub when consumer
+
+840
+00:47:50,579 --> 00:47:54,260
+waking up consumer find out
+
+841
+00:47:56,060 --> 00:47:59,339
+it's not when producers sleep if if the
+
+842
+00:47:59,339 --> 00:48:02,480
+if if the item yes
+
+843
+00:48:03,359 --> 00:48:05,900
+what
+
+844
+00:48:06,119 --> 00:48:08,760
+if there's no space in the buffer if
+
+845
+00:48:08,760 --> 00:48:11,460
+there's no items in the buffer right and
+
+846
+00:48:11,460 --> 00:48:13,200
+if there's no no item in the bathroom
+
+847
+00:48:13,200 --> 00:48:17,040
+consumer cannot consume any items right
+
+848
+00:48:17,040 --> 00:48:20,040
+and then if the producer is still sleep
+
+849
+00:48:20,040 --> 00:48:22,740
+so consumer needs to wake it up to
+
+850
+00:48:22,740 --> 00:48:26,040
+produce the item the same thing happens
+
+851
+00:48:26,040 --> 00:48:29,760
+of the who are going who can wake up the
+
+852
+00:48:29,760 --> 00:48:32,460
+consumer if consumer is sleep consumers
+
+853
+00:48:32,460 --> 00:48:34,500
+see okay there's low items so I'm going
+
+854
+00:48:34,500 --> 00:48:37,280
+to go to sleep
+
+855
+00:48:41,880 --> 00:48:44,700
+s the producer the producer will produce
+
+856
+00:48:44,700 --> 00:48:47,579
+the first items then if it find out the
+
+857
+00:48:47,579 --> 00:48:50,040
+customers is in the Sleep stage so it's
+
+858
+00:48:50,040 --> 00:48:51,660
+going to
+
+859
+00:48:51,660 --> 00:48:54,359
+wake up the customer now look at this
+
+860
+00:48:54,359 --> 00:48:56,640
+code look at this code it has
+
+861
+00:48:56,640 --> 00:48:59,220
+um you can see that right
+
+862
+00:48:59,220 --> 00:49:02,220
+so we see we see
+
+863
+00:49:02,220 --> 00:49:04,740
+this is the producer the producer okay
+
+864
+00:49:04,740 --> 00:49:07,619
+the if the if the
+
+865
+00:49:07,619 --> 00:49:10,680
+buffer is for right if the
+
+866
+00:49:10,680 --> 00:49:15,319
+if a buffer is four it goes to sleep
+
+867
+00:49:17,940 --> 00:49:23,599
+if the buffer is four go to sleep right
+
+868
+00:49:28,140 --> 00:49:31,020
+if counts equals to one means that
+
+869
+00:49:31,020 --> 00:49:33,599
+there's items out so it needs to wake up
+
+870
+00:49:33,599 --> 00:49:36,060
+the consumer all right something
+
+871
+00:49:36,060 --> 00:49:38,220
+happened here consumers find out more
+
+872
+00:49:38,220 --> 00:49:43,099
+items about this empty goes to sleep
+
+873
+00:49:45,900 --> 00:49:48,680
+foreign
+
+874
+00:49:52,700 --> 00:49:56,400
+buffer is empty goes to sleep if not
+
+875
+00:49:56,400 --> 00:49:58,740
+then it's wake up the producer now I
+
+876
+00:49:58,740 --> 00:50:02,060
+have a question here I have a question
+
+877
+00:50:06,480 --> 00:50:09,200
+so here
+
+878
+00:50:22,500 --> 00:50:26,760
+so it's checks its checks versus checks
+
+879
+00:50:26,760 --> 00:50:30,119
+uh let me make it easy okay look at this
+
+880
+00:50:30,119 --> 00:50:32,359
+code
+
+881
+00:50:33,720 --> 00:50:37,380
+if the buffer is for the the producer
+
+882
+00:50:37,380 --> 00:50:40,980
+the one the producer did is that if the
+
+883
+00:50:40,980 --> 00:50:43,920
+if the buffer is full means there's no
+
+884
+00:50:43,920 --> 00:50:47,220
+empty slots left so producer is going to
+
+885
+00:50:47,220 --> 00:50:48,960
+go to sleep
+
+886
+00:50:48,960 --> 00:50:51,599
+why I use the code why I use the code of
+
+887
+00:50:51,599 --> 00:50:56,099
+equal to n why do not use the code of
+
+888
+00:50:56,099 --> 00:50:58,940
+like
+
+889
+00:51:00,540 --> 00:51:02,819
+like a greater
+
+890
+00:51:02,819 --> 00:51:05,660
+greater
+
+891
+00:51:06,059 --> 00:51:08,819
+greater than equals to n
+
+892
+00:51:08,819 --> 00:51:14,359
+or I should greater than M plus one
+
+893
+00:51:17,640 --> 00:51:20,880
+I just check the is equal to and this is
+
+894
+00:51:20,880 --> 00:51:24,319
+just a tricky very tricky question
+
+895
+00:51:25,859 --> 00:51:28,940
+anyone think of that
+
+896
+00:51:29,579 --> 00:51:33,559
+right why we cannot use this code
+
+897
+00:51:38,180 --> 00:51:41,760
+okay so saying the same the same thing
+
+898
+00:51:41,760 --> 00:51:45,000
+happens here why it's a lot to count one
+
+899
+00:51:45,000 --> 00:51:46,079
+count
+
+900
+00:51:46,079 --> 00:51:49,200
+what counts is why not it's just y count
+
+901
+00:51:49,200 --> 00:51:51,119
+is
+
+902
+00:51:51,119 --> 00:51:54,900
+larger and equal than one
+
+903
+00:51:54,900 --> 00:51:57,180
+well we can now say that the counter is
+
+904
+00:51:57,180 --> 00:52:00,500
+larger and equal
+
+905
+00:52:02,220 --> 00:52:04,980
+larger and equal to one right we can say
+
+906
+00:52:04,980 --> 00:52:07,500
+like larger and equal to one
+
+907
+00:52:07,500 --> 00:52:10,380
+larger and equals to one whatever it is
+
+908
+00:52:10,380 --> 00:52:13,260
+larger and equals to one you can wake up
+
+909
+00:52:13,260 --> 00:52:14,940
+the consumer
+
+910
+00:52:14,940 --> 00:52:16,859
+all right
+
+911
+00:52:16,859 --> 00:52:19,020
+can I write a code like that
+
+912
+00:52:19,020 --> 00:52:21,619
+yes
+
+913
+00:52:23,280 --> 00:52:26,720
+okay what are two answers
+
+914
+00:52:44,640 --> 00:52:47,700
+okay let's go the first okay so why why
+
+915
+00:52:47,700 --> 00:52:50,400
+because if we adding this we're adding
+
+916
+00:52:50,400 --> 00:52:52,980
+this is if from the combine or point of
+
+917
+00:52:52,980 --> 00:52:55,920
+view is actually two operations
+
+918
+00:52:55,920 --> 00:52:58,380
+okay you need to you you have a actual
+
+919
+00:52:58,380 --> 00:53:01,200
+operations to check it's not efficient
+
+920
+00:53:01,200 --> 00:53:03,059
+it's not efficient that's why you see
+
+921
+00:53:03,059 --> 00:53:04,920
+the taxable and taxable why this code
+
+922
+00:53:04,920 --> 00:53:07,559
+write this code is make it very com
+
+923
+00:53:07,559 --> 00:53:10,559
+efficient very efficient okay so it's
+
+924
+00:53:10,559 --> 00:53:12,780
+just just because of that okay it
+
+925
+00:53:12,780 --> 00:53:15,000
+actually if you go to the compiler code
+
+926
+00:53:15,000 --> 00:53:17,280
+it's actually two two operations it's
+
+927
+00:53:17,280 --> 00:53:19,740
+going to check two check two check equal
+
+928
+00:53:19,740 --> 00:53:22,740
+and check larger okay but however it
+
+929
+00:53:22,740 --> 00:53:25,260
+works if it works even you change my
+
+930
+00:53:25,260 --> 00:53:27,839
+change the code like what I propose the
+
+931
+00:53:27,839 --> 00:53:30,059
+code still works okay
+
+932
+00:53:30,059 --> 00:53:32,520
+now what will be the problem of this
+
+933
+00:53:32,520 --> 00:53:34,700
+code
+
+934
+00:53:35,700 --> 00:53:38,220
+race conditions VR happens race
+
+935
+00:53:38,220 --> 00:53:39,960
+condition still happens
+
+936
+00:53:39,960 --> 00:53:42,540
+even we write this Pro write this code
+
+937
+00:53:42,540 --> 00:53:44,640
+like that race condition still happens
+
+938
+00:53:44,640 --> 00:53:47,280
+when race condition happens
+
+939
+00:53:47,280 --> 00:53:49,619
+the producer will not produce anything
+
+940
+00:53:49,619 --> 00:53:53,119
+in the customer or not consume anything
+
+941
+00:53:53,119 --> 00:53:56,460
+they or both of them are wait for each
+
+942
+00:53:56,460 --> 00:53:59,040
+other forever both of them are going to
+
+943
+00:53:59,040 --> 00:54:02,400
+wait for each other forever so look take
+
+944
+00:54:02,400 --> 00:54:05,700
+a look at this code and tell me what
+
+945
+00:54:05,700 --> 00:54:07,559
+lines of the code that the race
+
+946
+00:54:07,559 --> 00:54:09,240
+condition happens
+
+947
+00:54:09,240 --> 00:54:11,099
+one line of the code the race condition
+
+948
+00:54:11,099 --> 00:54:13,460
+happened
+
+949
+00:54:22,260 --> 00:54:24,720
+you can discuss you can discuss or I'll
+
+950
+00:54:24,720 --> 00:54:27,500
+give several minutes
+
+951
+00:55:36,240 --> 00:55:40,260
+I will give you a hint okay a hint okay
+
+952
+00:55:40,260 --> 00:55:41,280
+so
+
+953
+00:55:41,280 --> 00:55:44,220
+annual this any of these lines will make
+
+954
+00:55:44,220 --> 00:55:46,980
+the race condition happen but let's look
+
+955
+00:55:46,980 --> 00:55:49,140
+at the example of just this line of code
+
+956
+00:55:49,140 --> 00:55:51,960
+okay this line of code but I can tell
+
+957
+00:55:51,960 --> 00:55:54,660
+you any lie of this code this one two
+
+958
+00:55:54,660 --> 00:55:56,460
+three four
+
+959
+00:55:56,460 --> 00:55:59,099
+any of these four lines any of these
+
+960
+00:55:59,099 --> 00:56:01,020
+four lines can make the raise condition
+
+961
+00:56:01,020 --> 00:56:03,480
+happen but let's take just take a look
+
+962
+00:56:03,480 --> 00:56:07,220
+at this take a look at this
+
+963
+00:56:08,579 --> 00:56:12,180
+risk condition happens in this line
+
+964
+00:56:12,180 --> 00:56:14,640
+and remember that this is actually not
+
+965
+00:56:14,640 --> 00:56:17,700
+Atomic operation they are not Atomic
+
+966
+00:56:17,700 --> 00:56:19,500
+operation
+
+967
+00:56:19,500 --> 00:56:22,140
+if its operation sleep is an operation
+
+968
+00:56:22,140 --> 00:56:24,839
+there are at least two operations where
+
+969
+00:56:24,839 --> 00:56:26,220
+there at least two operations they are
+
+970
+00:56:26,220 --> 00:56:28,500
+not Atomic and whatever is condition
+
+971
+00:56:28,500 --> 00:56:29,700
+happens
+
+972
+00:56:29,700 --> 00:56:32,240
+right
+
+973
+00:56:33,839 --> 00:56:38,780
+so yeah any student want to try
+
+974
+00:56:52,800 --> 00:56:55,800
+yes
+
+975
+00:57:04,400 --> 00:57:06,780
+the producer
+
+976
+00:57:06,780 --> 00:57:09,480
+counter equals to zero right when we see
+
+977
+00:57:09,480 --> 00:57:11,339
+counter customers see the counter equals
+
+978
+00:57:11,339 --> 00:57:12,680
+to zero
+
+979
+00:57:12,680 --> 00:57:16,079
+cons consumer does not have a chance to
+
+980
+00:57:16,079 --> 00:57:19,859
+go to sleep before consumers have goes
+
+981
+00:57:19,859 --> 00:57:22,140
+to sleep contacts which happens
+
+982
+00:57:22,140 --> 00:57:25,380
+and the producer produce an item into
+
+983
+00:57:25,380 --> 00:57:26,940
+that right
+
+984
+00:57:26,940 --> 00:57:29,400
+then what will happen is producer will
+
+985
+00:57:29,400 --> 00:57:31,319
+not goes to sleep
+
+986
+00:57:31,319 --> 00:57:35,099
+producer producer items into the buffer
+
+987
+00:57:35,099 --> 00:57:36,900
+cost producers since the item is the
+
+988
+00:57:36,900 --> 00:57:39,540
+buffer is zero right
+
+989
+00:57:39,540 --> 00:57:43,099
+so it's going to to what
+
+990
+00:57:43,800 --> 00:57:46,440
+producer produce an item is going to
+
+991
+00:57:46,440 --> 00:57:49,680
+wake up the customers right
+
+992
+00:57:49,680 --> 00:57:51,720
+way to take effects
+
+993
+00:57:51,720 --> 00:57:54,859
+will it take in fact
+
+994
+00:57:55,500 --> 00:57:58,859
+no customer has not yet goes to sleep so
+
+995
+00:57:58,859 --> 00:58:01,920
+you are trying to wake up a person who
+
+996
+00:58:01,920 --> 00:58:02,700
+is
+
+997
+00:58:02,700 --> 00:58:06,599
+nurture sleep so the wake up single is
+
+998
+00:58:06,599 --> 00:58:09,660
+lost here it's lost here
+
+999
+00:58:09,660 --> 00:58:12,900
+is going to be lost
+
+1000
+00:58:12,900 --> 00:58:14,760
+it's going to be lost
+
+1001
+00:58:14,760 --> 00:58:16,920
+you're going to be lost and then what
+
+1002
+00:58:16,920 --> 00:58:18,480
+happened
+
+1003
+00:58:18,480 --> 00:58:20,579
+and then the contact speech goes back to
+
+1004
+00:58:20,579 --> 00:58:23,819
+goes back to home
+
+1005
+00:58:23,819 --> 00:58:26,940
+to the consumer right then consumer
+
+1006
+00:58:26,940 --> 00:58:29,819
+consumer is I was adding here I was
+
+1007
+00:58:29,819 --> 00:58:32,160
+adding here right then consumers were
+
+1008
+00:58:32,160 --> 00:58:35,579
+doing what what goes to sleep
+
+1009
+00:58:35,579 --> 00:58:38,520
+so the wake up single
+
+1010
+00:58:38,520 --> 00:58:41,819
+is released before customer goes to
+
+1011
+00:58:41,819 --> 00:58:44,280
+sleep then what will happen customer
+
+1012
+00:58:44,280 --> 00:58:47,880
+will never be wake up because it means
+
+1013
+00:58:47,880 --> 00:58:49,920
+that the thing the wake up single the
+
+1014
+00:58:49,920 --> 00:58:51,960
+wake-up single was happening here
+
+1015
+00:58:51,960 --> 00:58:54,599
+happening here before the customer goes
+
+1016
+00:58:54,599 --> 00:58:55,799
+to sleep
+
+1017
+00:58:55,799 --> 00:58:58,140
+so customers are going to sleep forever
+
+1018
+00:58:58,140 --> 00:59:01,619
+going to sleep forever and producer are
+
+1019
+00:59:01,619 --> 00:59:03,660
+going to produce the
+
+1020
+00:59:03,660 --> 00:59:06,420
+um items until the buffer comes full
+
+1021
+00:59:06,420 --> 00:59:08,760
+when producer sees the buffer goes to
+
+1022
+00:59:08,760 --> 00:59:10,700
+four producers are going to sleep
+
+1023
+00:59:10,700 --> 00:59:13,440
+because customer already goes to sleep
+
+1024
+00:59:13,440 --> 00:59:16,260
+no one wake up customer so both of them
+
+1025
+00:59:16,260 --> 00:59:17,640
+are going to
+
+1026
+00:59:17,640 --> 00:59:20,400
+going to in a sleep State forever
+
+1027
+00:59:20,400 --> 00:59:21,839
+okay
+
+1028
+00:59:21,839 --> 00:59:24,780
+okay so so so so we gotta
+
+1029
+00:59:24,780 --> 00:59:28,020
+so this right the contact switching
+
+1030
+00:59:28,020 --> 00:59:31,140
+happens here happens here happens here
+
+1031
+00:59:31,140 --> 00:59:34,079
+right so the buffer is empty the
+
+1032
+00:59:34,079 --> 00:59:36,119
+customer has just reached the counter to
+
+1033
+00:59:36,119 --> 00:59:39,059
+see it's zero at that instant the
+
+1034
+00:59:39,059 --> 00:59:42,059
+schedule CPU scheduler decides to stop
+
+1035
+00:59:42,059 --> 00:59:44,700
+running the customer temporarily and the
+
+1036
+00:59:44,700 --> 00:59:47,819
+contact switch to run the producer
+
+1037
+00:59:47,819 --> 00:59:49,319
+process
+
+1038
+00:59:49,319 --> 00:59:51,780
+the producer inserts an item in the
+
+1039
+00:59:51,780 --> 00:59:55,020
+buffer in the buffer increase increments
+
+1040
+00:59:55,020 --> 00:59:57,960
+the buffer to be one
+
+1041
+00:59:57,960 --> 01:00:01,859
+and the notice that it is 1 so it's
+
+1042
+01:00:01,859 --> 01:00:03,960
+going to wake up the customer is going
+
+1043
+01:00:03,960 --> 01:00:06,240
+to sync to producer sync the customers
+
+1044
+01:00:06,240 --> 01:00:09,000
+was in the Sleep States but actually not
+
+1045
+01:00:09,000 --> 01:00:10,619
+actually not because at this time the
+
+1046
+01:00:10,619 --> 01:00:12,720
+camera switch happens so it's going to
+
+1047
+01:00:12,720 --> 01:00:15,480
+wake up the customer however the
+
+1048
+01:00:15,480 --> 01:00:18,599
+customer is in the wake up state so the
+
+1049
+01:00:18,599 --> 01:00:20,700
+wake up single are going to be dismissed
+
+1050
+01:00:20,700 --> 01:00:23,579
+dismissed so what will happen the
+
+1051
+01:00:23,579 --> 01:00:25,920
+customer are going to sleep goes back to
+
+1052
+01:00:25,920 --> 01:00:28,500
+sleep stays right goes back to sleep
+
+1053
+01:00:28,500 --> 01:00:31,319
+States and then customer going to in
+
+1054
+01:00:31,319 --> 01:00:35,839
+sleep States waiting for another another
+
+1055
+01:00:35,839 --> 01:00:39,180
+customers single right the produce a
+
+1056
+01:00:39,180 --> 01:00:40,980
+single wake up single but it will not
+
+1057
+01:00:40,980 --> 01:00:44,400
+wait it will not either not
+
+1058
+01:00:44,400 --> 01:00:47,099
+wait why because this is the command
+
+1059
+01:00:47,099 --> 01:00:50,640
+okay if count equals equal to one is
+
+1060
+01:00:50,640 --> 01:00:51,839
+wake up
+
+1061
+01:00:51,839 --> 01:00:53,520
+okay
+
+1062
+01:00:53,520 --> 01:00:55,980
+that is why I asked a question earlier
+
+1063
+01:00:55,980 --> 01:00:59,339
+like if we change it to be
+
+1064
+01:00:59,339 --> 01:01:00,900
+this
+
+1065
+01:01:00,900 --> 01:01:03,660
+if you change it to be this right it
+
+1066
+01:01:03,660 --> 01:01:06,119
+can't avoid this situation right however
+
+1067
+01:01:06,119 --> 01:01:08,540
+is it efficient it's not it's going to
+
+1068
+01:01:08,540 --> 01:01:14,000
+send a lot of wake up singles right
+
+1069
+01:01:15,359 --> 01:01:17,960
+yes
+
+1070
+01:01:29,240 --> 01:01:31,500
+you are going to
+
+1071
+01:01:31,500 --> 01:01:33,859
+um what
+
+1072
+01:01:37,380 --> 01:01:40,040
+yes
+
+1073
+01:01:51,780 --> 01:01:54,200
+yeah
+
+1074
+01:01:54,200 --> 01:01:57,180
+so what do you want to do so it's so
+
+1075
+01:01:57,180 --> 01:01:59,240
+this is the producer and customers
+
+1076
+01:01:59,240 --> 01:02:02,480
+mechanisms right
+
+1077
+01:02:02,760 --> 01:02:06,180
+it's like yes it's exactly like strict
+
+1078
+01:02:06,180 --> 01:02:07,500
+alteration
+
+1079
+01:02:07,500 --> 01:02:10,799
+right we I've been so it's just to check
+
+1080
+01:02:10,799 --> 01:02:12,720
+right to check you check is if it is
+
+1081
+01:02:12,720 --> 01:02:14,640
+four then you can sleep if if it is
+
+1082
+01:02:14,640 --> 01:02:17,160
+empty you start producing same as the
+
+1083
+01:02:17,160 --> 01:02:19,799
+customers if you customers see that if
+
+1084
+01:02:19,799 --> 01:02:21,140
+it is
+
+1085
+01:02:21,140 --> 01:02:24,839
+Amity is going to wake up the
+
+1086
+01:02:24,839 --> 01:02:27,480
+if it is empty it's going to go to sleep
+
+1087
+01:02:27,480 --> 01:02:31,200
+right if it is if if it is
+
+1088
+01:02:31,200 --> 01:02:32,160
+um
+
+1089
+01:02:32,160 --> 01:02:35,160
+right if it is empty buffer is empty
+
+1090
+01:02:35,160 --> 01:02:37,140
+goes to sleep because there's no items
+
+1091
+01:02:37,140 --> 01:02:41,099
+right but if the buffer is is four right
+
+1092
+01:02:41,099 --> 01:02:44,040
+then it goes to wake up the producer so
+
+1093
+01:02:44,040 --> 01:02:46,020
+the race condition still happening so
+
+1094
+01:02:46,020 --> 01:02:48,839
+why because this this operation is not
+
+1095
+01:02:48,839 --> 01:02:51,920
+Atomic operation
+
+1096
+01:02:53,099 --> 01:02:56,460
+this operation is not Atomic operation
+
+1097
+01:02:56,460 --> 01:02:59,640
+so what we can do is that we why not we
+
+1098
+01:02:59,640 --> 01:03:02,280
+make them Atomic why not we make them
+
+1099
+01:03:02,280 --> 01:03:05,400
+Atomic then that is why operating system
+
+1100
+01:03:05,400 --> 01:03:08,520
+designed some phone and new text okay
+
+1101
+01:03:08,520 --> 01:03:11,660
+let's look at what exactly it is
+
+1102
+01:03:11,660 --> 01:03:15,599
+some phones are in integer variables
+
+1103
+01:03:15,599 --> 01:03:19,380
+okay it's used to sleeping process and
+
+1104
+01:03:19,380 --> 01:03:22,980
+the wake-up process okay
+
+1105
+01:03:22,980 --> 01:03:26,880
+it has two operations down and up down
+
+1106
+01:03:26,880 --> 01:03:30,180
+and up down checks sample if it's not
+
+1107
+01:03:30,180 --> 01:03:32,880
+zero then
+
+1108
+01:03:32,880 --> 01:03:35,700
+minus it one okay if it is zero the
+
+1109
+01:03:35,700 --> 01:03:38,640
+producer goes to sleep up increments the
+
+1110
+01:03:38,640 --> 01:03:41,339
+sum from if more than one processor
+
+1111
+01:03:41,339 --> 01:03:43,799
+sleep one is chosen randomly and under
+
+1112
+01:03:43,799 --> 01:03:47,240
+the critical region so it's Atomic
+
+1113
+01:03:47,240 --> 01:03:50,339
+implementation Atomic implementation so
+
+1114
+01:03:50,339 --> 01:03:53,339
+the interrupts is disabled okay this is
+
+1115
+01:03:53,339 --> 01:03:55,819
+very tricky here so
+
+1116
+01:03:55,819 --> 01:04:00,119
+interrupts is so we actually here
+
+1117
+01:04:00,119 --> 01:04:04,020
+actually we actually leveraging OS help
+
+1118
+01:04:04,020 --> 01:04:07,500
+to disable the interrupts when we
+
+1119
+01:04:07,500 --> 01:04:09,960
+using the library of some phone and
+
+1120
+01:04:09,960 --> 01:04:12,900
+mutex so we disabling this the
+
+1121
+01:04:12,900 --> 01:04:15,119
+interrupts okay we are not asking user
+
+1122
+01:04:15,119 --> 01:04:17,180
+to disable the
+
+1123
+01:04:17,180 --> 01:04:21,900
+interlocked okay with Os or S provides
+
+1124
+01:04:21,900 --> 01:04:24,359
+the library the OS Library code of some
+
+1125
+01:04:24,359 --> 01:04:26,160
+formula text to program languages
+
+1126
+01:04:26,160 --> 01:04:28,740
+program language different program
+
+1127
+01:04:28,740 --> 01:04:31,260
+language have different implementations
+
+1128
+01:04:31,260 --> 01:04:34,500
+of some form and new text like Java Java
+
+1129
+01:04:34,500 --> 01:04:36,000
+have the synchronized command you may
+
+1130
+01:04:36,000 --> 01:04:38,400
+heard of that and see they'll have their
+
+1131
+01:04:38,400 --> 01:04:40,500
+own Library they each of them have their
+
+1132
+01:04:40,500 --> 01:04:42,839
+own library but they are actually using
+
+1133
+01:04:42,839 --> 01:04:45,839
+the OS code so why OS designed this code
+
+1134
+01:04:45,839 --> 01:04:49,380
+because OS wants to provide user some
+
+1135
+01:04:49,380 --> 01:04:52,260
+Atomic operations so help users to
+
+1136
+01:04:52,260 --> 01:04:54,900
+protect their shared variables different
+
+1137
+01:04:54,900 --> 01:04:56,940
+processors
+
+1138
+01:04:56,940 --> 01:04:59,880
+can share some variables together so
+
+1139
+01:04:59,880 --> 01:05:02,280
+someone okay it's an individual variable
+
+1140
+01:05:02,280 --> 01:05:04,740
+here this is the takeaway
+
+1141
+01:05:04,740 --> 01:05:07,859
+it is of integer it's integer it can be
+
+1142
+01:05:07,859 --> 01:05:11,280
+one it can be 100 it cannot be active it
+
+1143
+01:05:11,280 --> 01:05:15,740
+cannot be active Okay it can only
+
+1144
+01:05:15,780 --> 01:05:17,640
+zero
+
+1145
+01:05:17,640 --> 01:05:20,400
+more or equals zero okay there are two
+
+1146
+01:05:20,400 --> 01:05:22,920
+operations only two operations down and
+
+1147
+01:05:22,920 --> 01:05:26,119
+up down and up
+
+1148
+01:05:30,559 --> 01:05:33,420
+is down operation the up operation is
+
+1149
+01:05:33,420 --> 01:05:36,480
+that one more than one
+
+1150
+01:05:36,480 --> 01:05:39,599
+pours us asleep wines chosen randomly to
+
+1151
+01:05:39,599 --> 01:05:41,760
+enter the critical region okay and the
+
+1152
+01:05:41,760 --> 01:05:44,420
+critical region
+
+1153
+01:05:45,900 --> 01:05:47,400
+um
+
+1154
+01:05:47,400 --> 01:05:49,559
+so let's look at the producer customer
+
+1155
+01:05:49,559 --> 01:05:51,780
+problem solution with some functional
+
+1156
+01:05:51,780 --> 01:05:54,660
+texts we have we have three cellophones
+
+1157
+01:05:54,660 --> 01:05:55,859
+okay
+
+1158
+01:05:55,859 --> 01:05:58,440
+four empty animal attacks so what is new
+
+1159
+01:05:58,440 --> 01:06:01,680
+text mutex is a special sum phone it's
+
+1160
+01:06:01,680 --> 01:06:03,240
+special something from so remember
+
+1161
+01:06:03,240 --> 01:06:06,119
+someone is a integer right integer it
+
+1162
+01:06:06,119 --> 01:06:07,500
+only has
+
+1163
+01:06:07,500 --> 01:06:09,900
+um it can it can be
+
+1164
+01:06:09,900 --> 01:06:13,079
+zero one two three to n very large value
+
+1165
+01:06:13,079 --> 01:06:16,020
+but new text is a lock it's a lock it
+
+1166
+01:06:16,020 --> 01:06:19,440
+only has two values one or zero one or
+
+1167
+01:06:19,440 --> 01:06:21,660
+zero so it is a lock
+
+1168
+01:06:21,660 --> 01:06:23,640
+later on our Discord I will show the
+
+1169
+01:06:23,640 --> 01:06:26,220
+differences between mutax under some
+
+1170
+01:06:26,220 --> 01:06:28,680
+form but let's look at let's remember
+
+1171
+01:06:28,680 --> 01:06:31,400
+this for now
+
+1172
+01:06:32,640 --> 01:06:35,700
+so no tax product variables which and
+
+1173
+01:06:35,700 --> 01:06:38,880
+which contains the item produced and uh
+
+1174
+01:06:38,880 --> 01:06:42,599
+consumer okay let's see mutex
+
+1175
+01:06:42,599 --> 01:06:45,119
+so do not always lead to counting the
+
+1176
+01:06:45,119 --> 01:06:47,640
+operations of something just Mutual
+
+1177
+01:06:47,640 --> 01:06:50,220
+exclusion Parts Mutual exclusion parts
+
+1178
+01:06:50,220 --> 01:06:53,400
+so how you're going to use the new text
+
+1179
+01:06:53,400 --> 01:06:55,920
+so remember new text is a lock it's a
+
+1180
+01:06:55,920 --> 01:06:56,700
+lock
+
+1181
+01:06:56,700 --> 01:07:00,539
+is a lock so whenever
+
+1182
+01:07:00,539 --> 01:07:04,079
+whenever process wants to enter the
+
+1183
+01:07:04,079 --> 01:07:06,240
+critical region it will need to fetch
+
+1184
+01:07:06,240 --> 01:07:08,940
+the mutex mutex fetch the lock fetch the
+
+1185
+01:07:08,940 --> 01:07:11,520
+lock but somehow is you can think of
+
+1186
+01:07:11,520 --> 01:07:15,000
+some form it suggests a value that shows
+
+1187
+01:07:15,000 --> 01:07:18,240
+the number of shared variables shared
+
+1188
+01:07:18,240 --> 01:07:20,839
+resources
+
+1189
+01:07:21,720 --> 01:07:26,299
+so let's take a look at the uh
+
+1190
+01:07:36,839 --> 01:07:39,839
+foreign
+
+1191
+01:08:12,230 --> 01:08:14,280
+[Music]
+
+1192
+01:08:14,280 --> 01:08:17,000
+awful
+
+1193
+01:08:17,939 --> 01:08:19,080
+hi
+
+1194
+01:08:19,080 --> 01:08:21,238
+in this video I will explain difference
+
+1195
+01:08:21,238 --> 01:08:24,540
+between mutex and Sema 4. so in order to
+
+1196
+01:08:24,540 --> 01:08:26,698
+show this difference we are going to
+
+1197
+01:08:26,698 --> 01:08:28,560
+take one example we are taking here
+
+1198
+01:08:28,560 --> 01:08:30,839
+toilet key example so let's assume we
+
+1199
+01:08:30,839 --> 01:08:33,719
+are having a toilet and these three
+
+1200
+01:08:33,719 --> 01:08:36,359
+person they want to use this toilet and
+
+1201
+01:08:36,359 --> 01:08:38,339
+this door is locked and there is only
+
+1202
+01:08:38,339 --> 01:08:42,060
+one key so at a time only one person can
+
+1203
+01:08:42,060 --> 01:08:44,279
+own that key he can enter he can occupy
+
+1204
+01:08:44,279 --> 01:08:47,399
+a toilet and once he's done he will give
+
+1205
+01:08:47,399 --> 01:08:49,920
+this key to another person so this
+
+1206
+01:08:49,920 --> 01:08:52,859
+scenario will work like this one
+
+1207
+01:08:52,859 --> 01:08:56,000
+so he will go well it will be occupied
+
+1208
+01:08:56,000 --> 01:08:58,738
+and after once he's done he will give
+
+1209
+01:08:58,738 --> 01:09:01,859
+this P2 others so mutates also works as
+
+1210
+01:09:01,859 --> 01:09:05,880
+same mutex are object that owned by a
+
+1211
+01:09:05,880 --> 01:09:09,420
+chat at a time only by one thread so one
+
+1212
+01:09:09,420 --> 01:09:11,759
+once that thread is done that thread
+
+1213
+01:09:11,759 --> 01:09:14,399
+will release the new text
+
+1214
+01:09:14,399 --> 01:09:17,219
+so there is a ownership in case of new
+
+1215
+01:09:17,219 --> 01:09:19,140
+text a thread will be there if that
+
+1216
+01:09:19,140 --> 01:09:21,120
+thread wants to access a
+
+1217
+01:09:21,120 --> 01:09:24,060
+critical section that thread actually
+
+1218
+01:09:24,060 --> 01:09:27,238
+has to own new text he has to lock the
+
+1219
+01:09:27,238 --> 01:09:30,238
+mutex one it is done it will unlock the
+
+1220
+01:09:30,238 --> 01:09:32,640
+new text now it might be possible while
+
+1221
+01:09:32,640 --> 01:09:35,399
+this mutex object is owned by some other
+
+1222
+01:09:35,399 --> 01:09:37,859
+thread and uh
+
+1223
+01:09:37,859 --> 01:09:40,979
+another thread try to access that
+
+1224
+01:09:40,979 --> 01:09:42,839
+critical section so in that case it will
+
+1225
+01:09:42,839 --> 01:09:45,779
+return error so let's see the actual
+
+1226
+01:09:45,779 --> 01:09:49,738
+scenario here so this is our resource
+
+1227
+01:09:49,738 --> 01:09:51,779
+and these three object are trying to
+
+1228
+01:09:51,779 --> 01:09:53,819
+access this resource so it can be a
+
+1229
+01:09:53,819 --> 01:09:56,219
+simultaneous axis or it can be a
+
+1230
+01:09:56,219 --> 01:09:58,679
+sequential axis so let's assume
+
+1231
+01:09:58,679 --> 01:10:00,900
+This Thread one
+
+1232
+01:10:00,900 --> 01:10:03,840
+all thread having this code they will
+
+1233
+01:10:03,840 --> 01:10:06,780
+first lock the mutex then they will do
+
+1234
+01:10:06,780 --> 01:10:09,120
+their work and then they will unlock the
+
+1235
+01:10:09,120 --> 01:10:11,880
+button so third one actually start its
+
+1236
+01:10:11,880 --> 01:10:15,239
+execution first so what this chart one
+
+1237
+01:10:15,239 --> 01:10:17,580
+will do it will first of all log the
+
+1238
+01:10:17,580 --> 01:10:19,199
+mutex
+
+1239
+01:10:19,199 --> 01:10:22,260
+so let's say this resources this one is
+
+1240
+01:10:22,260 --> 01:10:24,420
+representing a mutex object so it is
+
+1241
+01:10:24,420 --> 01:10:27,239
+locked and this thread is having that
+
+1242
+01:10:27,239 --> 01:10:31,260
+mutex object and it is doing its work
+
+1243
+01:10:31,260 --> 01:10:33,239
+so we can say mutex object held by
+
+1244
+01:10:33,239 --> 01:10:36,260
+thread one
+
+1245
+01:10:36,300 --> 01:10:38,400
+now meanwhile thread 2 also trying to
+
+1246
+01:10:38,400 --> 01:10:41,280
+access resources so thread 2 also will
+
+1247
+01:10:41,280 --> 01:10:44,340
+execute the same code so thread to also
+
+1248
+01:10:44,340 --> 01:10:47,760
+trying to occupy mutex object but that
+
+1249
+01:10:47,760 --> 01:10:51,360
+mutex is already held by thread one so
+
+1250
+01:10:51,360 --> 01:10:53,340
+this mutex object can be held by only
+
+1251
+01:10:53,340 --> 01:10:56,640
+one thread at a time if another thread
+
+1252
+01:10:56,640 --> 01:10:59,340
+try to occupy it whatever what will
+
+1253
+01:10:59,340 --> 01:11:00,179
+happen
+
+1254
+01:11:00,179 --> 01:11:04,739
+there will be one error so a chat two
+
+1255
+01:11:04,739 --> 01:11:08,640
+attempt will return one error
+
+1256
+01:11:08,640 --> 01:11:12,120
+so this is the way how mutex work mutex
+
+1257
+01:11:12,120 --> 01:11:14,940
+is a object whenever a thread wants to
+
+1258
+01:11:14,940 --> 01:11:17,040
+access a
+
+1259
+01:11:17,040 --> 01:11:19,440
+resources that thread first of all
+
+1260
+01:11:19,440 --> 01:11:22,620
+occupy the mutex object and once that
+
+1261
+01:11:22,620 --> 01:11:24,719
+work is done it will release the object
+
+1262
+01:11:24,719 --> 01:11:26,699
+so there is your ownership
+
+1263
+01:11:26,699 --> 01:11:29,880
+now if we have a look on SEMA 4
+
+1264
+01:11:29,880 --> 01:11:33,900
+so let's generalize our new text example
+
+1265
+01:11:33,900 --> 01:11:36,060
+so now let's say we are having four
+
+1266
+01:11:36,060 --> 01:11:39,179
+toilet and these four toilets are having
+
+1267
+01:11:39,179 --> 01:11:42,120
+four identical keys so one key can be
+
+1268
+01:11:42,120 --> 01:11:45,120
+used in any toilet and total person we
+
+1269
+01:11:45,120 --> 01:11:45,900
+are having
+
+1270
+01:11:45,900 --> 01:11:48,780
+five so here we are keeping total number
+
+1271
+01:11:48,780 --> 01:11:51,360
+of keys available
+
+1272
+01:11:51,360 --> 01:11:54,900
+so let's say this person wants to use
+
+1273
+01:11:54,900 --> 01:11:57,060
+toilet facility so he will come here he
+
+1274
+01:11:57,060 --> 01:11:59,699
+will pick one key and he will go to the
+
+1275
+01:11:59,699 --> 01:12:03,060
+toilet so when he will pick the key the
+
+1276
+01:12:03,060 --> 01:12:05,940
+total number of keys left are three
+
+1277
+01:12:05,940 --> 01:12:09,120
+so same after him let's say two more
+
+1278
+01:12:09,120 --> 01:12:11,040
+person came and they
+
+1279
+01:12:11,040 --> 01:12:12,239
+used
+
+1280
+01:12:12,239 --> 01:12:14,520
+these two objects so finally we are
+
+1281
+01:12:14,520 --> 01:12:17,760
+having with one key so this variable
+
+1282
+01:12:17,760 --> 01:12:19,679
+this variable actually specifying how
+
+1283
+01:12:19,679 --> 01:12:22,820
+many keys are available
+
+1284
+01:12:22,860 --> 01:12:25,140
+so at last when we are having no keys
+
+1285
+01:12:25,140 --> 01:12:27,600
+available and If at this point of time
+
+1286
+01:12:27,600 --> 01:12:30,480
+if this person trying to access
+
+1287
+01:12:30,480 --> 01:12:33,719
+uh any of these toilet it will have to
+
+1288
+01:12:33,719 --> 01:12:35,400
+wait because there is no keys available
+
+1289
+01:12:35,400 --> 01:12:36,480
+so
+
+1290
+01:12:36,480 --> 01:12:40,040
+variable can be used to see whether any
+
+1291
+01:12:40,040 --> 01:12:42,659
+whether there will be a waiting or there
+
+1292
+01:12:42,659 --> 01:12:45,960
+will be a access to the facility so Sima
+
+1293
+01:12:45,960 --> 01:12:47,460
+for
+
+1294
+01:12:47,460 --> 01:12:49,980
+so in case if there is no key this
+
+1295
+01:12:49,980 --> 01:12:53,040
+person has to wait so SEMA for SEMA 4
+
+1296
+01:12:53,040 --> 01:12:55,380
+actually used to provide how many number
+
+1297
+01:12:55,380 --> 01:12:58,560
+of simultaneous axes can be allowed
+
+1298
+01:12:58,560 --> 01:13:01,560
+and there is no ownership relationship
+
+1299
+01:13:01,560 --> 01:13:03,780
+here this is actually a signaling
+
+1300
+01:13:03,780 --> 01:13:06,239
+mechanism
+
+1301
+01:13:06,239 --> 01:13:09,719
+so if we going to see our same example
+
+1302
+01:13:09,719 --> 01:13:12,000
+with help of seamaphor so let's say the
+
+1303
+01:13:12,000 --> 01:13:14,699
+sigma 4 is having a variable s and the
+
+1304
+01:13:14,699 --> 01:13:16,800
+value of Sigma 4 is 2 so it actually
+
+1305
+01:13:16,800 --> 01:13:18,900
+specifying how many number of thread can
+
+1306
+01:13:18,900 --> 01:13:21,300
+simultaneously access this resource
+
+1307
+01:13:21,300 --> 01:13:23,640
+whenever a thread tried to
+
+1308
+01:13:23,640 --> 01:13:25,320
+access a
+
+1309
+01:13:25,320 --> 01:13:27,659
+shared resource first
+
+1310
+01:13:27,659 --> 01:13:30,179
+thread has to decrement value of schema
+
+1311
+01:13:30,179 --> 01:13:32,880
+and after decrementing this value the
+
+1312
+01:13:32,880 --> 01:13:34,679
+value is less than zero
+
+1313
+01:13:34,679 --> 01:13:37,500
+This Thread has to fit so what this
+
+1314
+01:13:37,500 --> 01:13:38,820
+thread will do it will decrease this
+
+1315
+01:13:38,820 --> 01:13:41,880
+value this value become 1 and in that
+
+1316
+01:13:41,880 --> 01:13:44,159
+case this value is not less than zero so
+
+1317
+01:13:44,159 --> 01:13:46,140
+this axis will be allowed now let's
+
+1318
+01:13:46,140 --> 01:13:48,179
+assume This Thread also wants to access
+
+1319
+01:13:48,179 --> 01:13:51,300
+the source so this thread also
+
+1320
+01:13:51,300 --> 01:13:53,400
+decrease the value of x
+
+1321
+01:13:53,400 --> 01:13:55,140
+and after decreasing this value this
+
+1322
+01:13:55,140 --> 01:13:58,080
+value becomes 0 and this one is not less
+
+1323
+01:13:58,080 --> 01:14:00,659
+than zero so in that case this thread
+
+1324
+01:14:00,659 --> 01:14:02,699
+also will be having access to resources
+
+1325
+01:14:02,699 --> 01:14:05,400
+but now if there is another thread wants
+
+1326
+01:14:05,400 --> 01:14:07,320
+to access that thread will come here and
+
+1327
+01:14:07,320 --> 01:14:09,480
+this value become minus 1 after
+
+1328
+01:14:09,480 --> 01:14:12,420
+decrementing or sorry after decreasing
+
+1329
+01:14:12,420 --> 01:14:14,820
+so
+
+1330
+01:14:14,820 --> 01:14:18,120
+that thread has to wait that side cannot
+
+1331
+01:14:18,120 --> 01:14:20,040
+access this resource because a
+
+1332
+01:14:20,040 --> 01:14:22,500
+simultaneous access only two
+
+1333
+01:14:22,500 --> 01:14:25,199
+allowed and whenever
+
+1334
+01:14:25,199 --> 01:14:27,480
+one of these thread is done they will
+
+1335
+01:14:27,480 --> 01:14:30,000
+increase this value and as soon as this
+
+1336
+01:14:30,000 --> 01:14:32,159
+value is increased the third thread
+
+1337
+01:14:32,159 --> 01:14:35,219
+starts execution system 4 is actually a
+
+1338
+01:14:35,219 --> 01:14:36,960
+signaling mechanism there is no
+
+1339
+01:14:36,960 --> 01:14:39,420
+ownership here but in case of mutex
+
+1340
+01:14:39,420 --> 01:14:43,100
+there is a ownership
+
+1341
+01:14:43,320 --> 01:14:45,480
+so we can
+
+1342
+01:14:45,480 --> 01:14:47,760
+same beauty mutex is a object which
+
+1343
+01:14:47,760 --> 01:14:49,739
+owned by thread and third which is
+
+1344
+01:14:49,739 --> 01:14:53,340
+having this muted subject he can access
+
+1345
+01:14:53,340 --> 01:14:55,440
+that resource he can enter in the
+
+1346
+01:14:55,440 --> 01:14:58,020
+critical action whereas in SEMA 4 Sigma
+
+1347
+01:14:58,020 --> 01:15:01,140
+4 is a signaling signaling mechanism and
+
+1348
+01:15:01,140 --> 01:15:04,560
+it allows how many uh maximum number of
+
+1349
+01:15:04,560 --> 01:15:07,679
+simultaneous access can be allowed
+
+1350
+01:15:07,679 --> 01:15:11,600
+thank you very much for watching Okay so
+
+1351
+01:15:12,719 --> 01:15:16,080
+so here's turquoise is that full text is
+
+1352
+01:15:16,080 --> 01:15:19,080
+has ownership has ownership okay only
+
+1353
+01:15:19,080 --> 01:15:21,420
+has two values zero or one so it's like
+
+1354
+01:15:21,420 --> 01:15:24,239
+a lock it's like a lock
+
+1355
+01:15:24,239 --> 01:15:26,699
+we also we
+
+1356
+01:15:26,699 --> 01:15:29,640
+if one person if there we have a share
+
+1357
+01:15:29,640 --> 01:15:31,860
+of variables right and we have we have
+
+1358
+01:15:31,860 --> 01:15:33,900
+shared variables they are in the it is
+
+1359
+01:15:33,900 --> 01:15:35,820
+in the critical region we have multiple
+
+1360
+01:15:35,820 --> 01:15:39,020
+threats who will process we want to
+
+1361
+01:15:39,020 --> 01:15:43,080
+access this critical region then each of
+
+1362
+01:15:43,080 --> 01:15:45,120
+them one before they enter into that
+
+1363
+01:15:45,120 --> 01:15:47,280
+they need to get a what get a new text
+
+1364
+01:15:47,280 --> 01:15:50,280
+they need to gather new text
+
+1365
+01:15:50,280 --> 01:15:52,560
+okay because it has ownership because
+
+1366
+01:15:52,560 --> 01:15:55,020
+only one process remember the mutual
+
+1367
+01:15:55,020 --> 01:15:57,540
+exclusion definition only one process
+
+1368
+01:15:57,540 --> 01:16:00,060
+can enter the critical region so we use
+
+1369
+01:16:00,060 --> 01:16:03,320
+mutex as a log to protect the excess
+
+1370
+01:16:03,320 --> 01:16:06,780
+protect them to access to the same
+
+1371
+01:16:06,780 --> 01:16:10,500
+shared variable okay so remember this so
+
+1372
+01:16:10,500 --> 01:16:13,980
+in that case in that case
+
+1373
+01:16:13,980 --> 01:16:16,500
+in the producer customer example one
+
+1374
+01:16:16,500 --> 01:16:19,140
+producer wants to change anything it
+
+1375
+01:16:19,140 --> 01:16:21,780
+needs to get a change the buffer right
+
+1376
+01:16:21,780 --> 01:16:25,140
+one producer needs to access the buffer
+
+1377
+01:16:25,140 --> 01:16:27,000
+it's new to get a new text right because
+
+1378
+01:16:27,000 --> 01:16:28,920
+there are there may be many producers
+
+1379
+01:16:28,920 --> 01:16:31,620
+many many producers want to change the
+
+1380
+01:16:31,620 --> 01:16:34,920
+buffer simultaneously so we need to each
+
+1381
+01:16:34,920 --> 01:16:36,600
+of them needs to get a new text for the
+
+1382
+01:16:36,600 --> 01:16:38,580
+buffer the same as the customer customer
+
+1383
+01:16:38,580 --> 01:16:40,920
+One customer consume the items from the
+
+1384
+01:16:40,920 --> 01:16:42,900
+buffer so also needs to get another new
+
+1385
+01:16:42,900 --> 01:16:45,900
+text right so and what is some form okay
+
+1386
+01:16:45,900 --> 01:16:48,600
+some form is not a lock it's a single
+
+1387
+01:16:48,600 --> 01:16:50,820
+mechanisms remember to produce a
+
+1388
+01:16:50,820 --> 01:16:54,000
+customer problems we have the wake up
+
+1389
+01:16:54,000 --> 01:16:57,300
+and sleep operations rights so we use
+
+1390
+01:16:57,300 --> 01:17:00,840
+sample whatever we need to wake up and
+
+1391
+01:17:00,840 --> 01:17:03,179
+whenever we need the Sleep operation we
+
+1392
+01:17:03,179 --> 01:17:05,640
+use some of them so let's look at how we
+
+1393
+01:17:05,640 --> 01:17:07,980
+we use the new text and some form to fix
+
+1394
+01:17:07,980 --> 01:17:11,540
+the producer customer problem
+
+1395
+01:17:15,300 --> 01:17:18,300
+foreign
+
+1396
+01:17:32,400 --> 01:17:35,400
+so
+
+1397
+01:18:06,440 --> 01:18:08,880
+take a look at this that this is the
+
+1398
+01:18:08,880 --> 01:18:11,280
+mutex right
+
+1399
+01:18:11,280 --> 01:18:13,739
+see before you enter the critical region
+
+1400
+01:18:13,739 --> 01:18:16,080
+you need to use some text right fashion
+
+1401
+01:18:16,080 --> 01:18:19,460
+attacks right
+
+1402
+01:18:20,760 --> 01:18:23,780
+same as here
+
+1403
+01:18:25,679 --> 01:18:27,300
+yeah
+
+1404
+01:18:27,300 --> 01:18:29,820
+this is the operation that whenever you
+
+1405
+01:18:29,820 --> 01:18:31,980
+enter the critical region when a
+
+1406
+01:18:31,980 --> 01:18:33,480
+customer enter the critical region when
+
+1407
+01:18:33,480 --> 01:18:35,280
+producing under the critical region they
+
+1408
+01:18:35,280 --> 01:18:37,920
+all each to get their own mutex
+
+1409
+01:18:37,920 --> 01:18:40,400
+right
+
+1410
+01:18:43,380 --> 01:18:47,600
+and then and then we have
+
+1411
+01:18:47,600 --> 01:18:52,080
+we set up we Define n equals to 106
+
+1412
+01:18:52,080 --> 01:18:55,560
+number of slot in the buffer and then we
+
+1413
+01:18:55,560 --> 01:18:57,540
+have from a text Matrix just a log
+
+1414
+01:18:57,540 --> 01:18:59,820
+controlled access to the critical region
+
+1415
+01:18:59,820 --> 01:19:03,719
+okay and then we have two samples okay
+
+1416
+01:19:03,719 --> 01:19:06,900
+this is one is for Amity Wines for four
+
+1417
+01:19:06,900 --> 01:19:09,480
+why we need two sumphones because we
+
+1418
+01:19:09,480 --> 01:19:12,600
+need to each of the sum frontal
+
+1419
+01:19:12,600 --> 01:19:14,400
+single
+
+1420
+01:19:14,400 --> 01:19:18,000
+difference type of process one type of
+
+1421
+01:19:18,000 --> 01:19:20,580
+process is producer one type of process
+
+1422
+01:19:20,580 --> 01:19:23,640
+is customer this is why we need to
+
+1423
+01:19:23,640 --> 01:19:27,380
+search different samples
+
+1424
+01:19:41,820 --> 01:19:45,540
+so um when Pro when the producer goes
+
+1425
+01:19:45,540 --> 01:19:47,520
+sleep the producer goes to sleep when it
+
+1426
+01:19:47,520 --> 01:19:50,159
+is four right when it is four
+
+1427
+01:19:50,159 --> 01:19:54,500
+so we will see when it is four
+
+1428
+01:19:56,400 --> 01:20:00,120
+we produce the item right producers item
+
+1429
+01:20:00,120 --> 01:20:03,300
+and down the empty this is the mean the
+
+1430
+01:20:03,300 --> 01:20:06,600
+empty slots empty empty slots right
+
+1431
+01:20:06,600 --> 01:20:09,440
+right
+
+1432
+01:20:10,080 --> 01:20:13,260
+so remember the down operation the down
+
+1433
+01:20:13,260 --> 01:20:15,739
+operation
+
+1434
+01:20:16,880 --> 01:20:20,880
+equal or larger than zero when it comes
+
+1435
+01:20:20,880 --> 01:20:23,880
+zero it goes to sleep right it goes to
+
+1436
+01:20:23,880 --> 01:20:26,940
+sleep so when Mt equals to zero means
+
+1437
+01:20:26,940 --> 01:20:30,239
+there's no empty atoms then the producer
+
+1438
+01:20:30,239 --> 01:20:32,460
+goes to sleep here
+
+1439
+01:20:32,460 --> 01:20:34,860
+there's operation not not showing here
+
+1440
+01:20:34,860 --> 01:20:36,840
+because it's Atomic operation is already
+
+1441
+01:20:36,840 --> 01:20:40,199
+inside of it it's already inside of this
+
+1442
+01:20:40,199 --> 01:20:43,980
+operation down down remember that let me
+
+1443
+01:20:43,980 --> 01:20:46,520
+look at this
+
+1444
+01:20:54,600 --> 01:20:58,100
+where where is that
+
+1445
+01:20:58,380 --> 01:21:00,600
+some phones it has two operations down
+
+1446
+01:21:00,600 --> 01:21:05,280
+under Opera if zero producers this this
+
+1447
+01:21:05,280 --> 01:21:07,440
+process goes to sleep
+
+1448
+01:21:07,440 --> 01:21:10,140
+remember that right
+
+1449
+01:21:10,140 --> 01:21:13,620
+so now let's look at the code
+
+1450
+01:21:13,620 --> 01:21:17,640
+so if it is zero if empty here the empty
+
+1451
+01:21:17,640 --> 01:21:21,360
+was 100 at first but then
+
+1452
+01:21:21,360 --> 01:21:24,780
+is going to every time it's creation new
+
+1453
+01:21:24,780 --> 01:21:27,780
+items is going to
+
+1454
+01:21:27,780 --> 01:21:30,360
+do your manners right when it becomes
+
+1455
+01:21:30,360 --> 01:21:32,280
+zero it goes to sleep it's already
+
+1456
+01:21:32,280 --> 01:21:34,440
+inside of it it's Atomic operation some
+
+1457
+01:21:34,440 --> 01:21:36,480
+of our Atomic operation so it goes to
+
+1458
+01:21:36,480 --> 01:21:38,719
+sleep
+
+1459
+01:21:41,420 --> 01:21:44,880
+here uh sorry not this one not this Live
+
+1460
+01:21:44,880 --> 01:21:49,260
+code so it's empty it goes to sleep
+
+1461
+01:21:49,260 --> 01:21:53,159
+why needs why is when there's at least
+
+1462
+01:21:53,159 --> 01:21:57,120
+one atom in the buffer it's going to it
+
+1463
+01:21:57,120 --> 01:22:00,780
+is going to wake up at least one
+
+1464
+01:22:00,780 --> 01:22:03,239
+customer right this is also Atomic
+
+1465
+01:22:03,239 --> 01:22:05,219
+operation the wake up here the wake-up
+
+1466
+01:22:05,219 --> 01:22:08,940
+code is inside of it inside of it look
+
+1467
+01:22:08,940 --> 01:22:11,540
+at this call
+
+1468
+01:22:12,540 --> 01:22:15,840
+up increments sample if more than one
+
+1469
+01:22:15,840 --> 01:22:18,600
+processor sleep one is chosen randomly
+
+1470
+01:22:18,600 --> 01:22:21,300
+and enter the critical region so it's
+
+1471
+01:22:21,300 --> 01:22:24,800
+going to wake up one customer
+
+1472
+01:22:34,080 --> 01:22:36,900
+is going to wake up one customer
+
+1473
+01:22:36,900 --> 01:22:40,500
+same thing let's look at here
+
+1474
+01:22:40,500 --> 01:22:43,199
+with down the four okay
+
+1475
+01:22:43,199 --> 01:22:47,360
+down to four the four was
+
+1476
+01:22:49,040 --> 01:22:51,540
+first so
+
+1477
+01:22:51,540 --> 01:22:53,400
+we're going to do
+
+1478
+01:22:53,400 --> 01:22:56,280
+if this speak if it's zero if it's zero
+
+1479
+01:22:56,280 --> 01:22:58,320
+it's going to go to sleep it means
+
+1480
+01:22:58,320 --> 01:23:00,960
+there's no item in the buffer so it goes
+
+1481
+01:23:00,960 --> 01:23:04,679
+goes to sleep the customer goes to sleep
+
+1482
+01:23:04,679 --> 01:23:06,659
+but
+
+1483
+01:23:06,659 --> 01:23:09,179
+who always hit up this one this one
+
+1484
+01:23:09,179 --> 01:23:10,440
+right
+
+1485
+01:23:10,440 --> 01:23:12,659
+it will wake it up whenever there's one
+
+1486
+01:23:12,659 --> 01:23:14,940
+item is going to wake up him
+
+1487
+01:23:14,940 --> 01:23:17,340
+and then
+
+1488
+01:23:17,340 --> 01:23:21,360
+if it's empty if it is empty here up M
+
+1489
+01:23:21,360 --> 01:23:25,080
+empty if the empties value if empties
+
+1490
+01:23:25,080 --> 01:23:26,760
+value
+
+1491
+01:23:26,760 --> 01:23:28,440
+is
+
+1492
+01:23:28,440 --> 01:23:31,800
+is larger than one then it's going to
+
+1493
+01:23:31,800 --> 01:23:34,080
+wake up
+
+1494
+01:23:34,080 --> 01:23:36,179
+it's going to wake up
+
+1495
+01:23:36,179 --> 01:23:37,620
+producer
+
+1496
+01:23:37,620 --> 01:23:41,040
+okay if it's find out that there's no
+
+1497
+01:23:41,040 --> 01:23:44,159
+items here it's going to wake up
+
+1498
+01:23:44,159 --> 01:23:47,040
+wake up the producer right
+
+1499
+01:23:47,040 --> 01:23:50,640
+so that is the um how we use some of our
+
+1500
+01:23:50,640 --> 01:23:53,159
+new text to solve the producer customer
+
+1501
+01:23:53,159 --> 01:23:55,679
+problems like we said that there's a
+
+1502
+01:23:55,679 --> 01:23:58,260
+buffer producer it's not just one
+
+1503
+01:23:58,260 --> 01:24:00,060
+producer there are multiple producers
+
+1504
+01:24:00,060 --> 01:24:02,760
+there are multiple customers okay they
+
+1505
+01:24:02,760 --> 01:24:05,960
+are con they are sharing this buffer
+
+1506
+01:24:05,960 --> 01:24:09,179
+producers are impose the item into that
+
+1507
+01:24:09,179 --> 01:24:11,699
+customers and output the item onto that
+
+1508
+01:24:11,699 --> 01:24:18,239
+so this is the code to help us solve the
+
+1509
+01:24:18,239 --> 01:24:21,719
+produce a customer problem okay and we
+
+1510
+01:24:21,719 --> 01:24:22,620
+can
+
+1511
+01:24:22,620 --> 01:24:26,179
+avoid the race condition
+
+1512
+01:24:31,199 --> 01:24:34,199
+uh
+
+1513
+01:24:34,260 --> 01:24:36,840
+okay let's skip that
+
+1514
+01:24:36,840 --> 01:24:39,659
+then another important concept with OS
+
+1515
+01:24:39,659 --> 01:24:42,120
+is the barrier barrier so what exactly
+
+1516
+01:24:42,120 --> 01:24:43,260
+barrier
+
+1517
+01:24:43,260 --> 01:24:45,260
+um
+
+1518
+01:24:45,719 --> 01:24:48,239
+so some applications can be divided into
+
+1519
+01:24:48,239 --> 01:24:51,000
+phrases and uh
+
+1520
+01:24:51,000 --> 01:24:53,219
+so
+
+1521
+01:24:53,219 --> 01:24:55,500
+process was stress they may have
+
+1522
+01:24:55,500 --> 01:24:57,780
+different speed they may have different
+
+1523
+01:24:57,780 --> 01:25:00,540
+processing speed so battery or what we
+
+1524
+01:25:00,540 --> 01:25:03,060
+do barrier is that
+
+1525
+01:25:03,060 --> 01:25:07,340
+we want to ensure Ensure
+
+1526
+01:25:07,340 --> 01:25:11,100
+they reach to the same States then start
+
+1527
+01:25:11,100 --> 01:25:13,800
+the next processing if we want to have
+
+1528
+01:25:13,800 --> 01:25:16,199
+this operation then we set a barrier to
+
+1529
+01:25:16,199 --> 01:25:18,420
+do that a burial is you can think of it
+
+1530
+01:25:18,420 --> 01:25:20,580
+that is another library of code that all
+
+1531
+01:25:20,580 --> 01:25:24,199
+us can provide to to us
+
+1532
+01:25:25,920 --> 01:25:28,020
+okay so this is about the race condition
+
+1533
+01:25:28,020 --> 01:25:31,860
+let's do a very simple rehearsal then we
+
+1534
+01:25:31,860 --> 01:25:33,960
+do the um
+
+1535
+01:25:33,960 --> 01:25:36,420
+oh have no time left
+
+1536
+01:25:36,420 --> 01:25:38,960
+okay
+
+1537
+01:25:41,699 --> 01:25:44,760
+I need to I need to my ta asked me to do
+
+1538
+01:25:44,760 --> 01:25:47,699
+some um introduction about mapreduce
+
+1539
+01:25:47,699 --> 01:25:50,760
+because your second project will be will
+
+1540
+01:25:50,760 --> 01:25:52,400
+be mapreduce so you are going to
+
+1541
+01:25:52,400 --> 01:25:55,500
+practice uh process synchronization
+
+1542
+01:25:55,500 --> 01:25:57,600
+using a map reduce example so what
+
+1543
+01:25:57,600 --> 01:25:59,760
+exactly map reduce anyone heard of that
+
+1544
+01:25:59,760 --> 01:26:02,300
+map reduce
+
+1545
+01:26:06,300 --> 01:26:08,480
+foreign
+
+1546
+01:26:34,560 --> 01:26:37,320
+[Applause]
+
+1547
+01:26:37,320 --> 01:26:41,719
+into your canvas so
+
+1548
+01:26:46,679 --> 01:26:50,420
+just a one minute let's Okay one minutes
+
+1549
+01:26:50,820 --> 01:26:53,159
+so what is the map reduce okay map
+
+1550
+01:26:53,159 --> 01:26:55,860
+produce is a divider conqueror um
+
+1551
+01:26:55,860 --> 01:26:59,159
+conquer mastered okay or this the thing
+
+1552
+01:26:59,159 --> 01:27:01,380
+is that if I found out something that
+
+1553
+01:27:01,380 --> 01:27:04,620
+that you guys can do to empower
+
+1554
+01:27:04,620 --> 01:27:06,060
+um
+
+1555
+01:27:06,060 --> 01:27:10,520
+so the history of mapreduce is like this
+
+1556
+01:27:10,980 --> 01:27:14,580
+I have a I do not have a very super high
+
+1557
+01:27:14,580 --> 01:27:16,679
+performance motion I do not have that
+
+1558
+01:27:16,679 --> 01:27:19,560
+but I have let's say this task is that I
+
+1559
+01:27:19,560 --> 01:27:23,760
+want to combine the my word con I have a
+
+1560
+01:27:23,760 --> 01:27:26,580
+lot of tens of thousands of work
+
+1561
+01:27:26,580 --> 01:27:29,460
+documents I want combined convert it to
+
+1562
+01:27:29,460 --> 01:27:31,020
+be PDF
+
+1563
+01:27:31,020 --> 01:27:33,000
+but I do not have a super high
+
+1564
+01:27:33,000 --> 01:27:35,400
+performance performance motion
+
+1565
+01:27:35,400 --> 01:27:38,219
+but luckily I have many students like
+
+1566
+01:27:38,219 --> 01:27:40,380
+you so what I'm going to do is that I'm
+
+1567
+01:27:40,380 --> 01:27:43,500
+going to divide the my oh I'm asking my
+
+1568
+01:27:43,500 --> 01:27:47,100
+ta to have all these documents divided
+
+1569
+01:27:47,100 --> 01:27:50,699
+into many small batches and send each of
+
+1570
+01:27:50,699 --> 01:27:54,540
+you to help me combine to PDF after each
+
+1571
+01:27:54,540 --> 01:27:57,659
+of you finish that for example some of
+
+1572
+01:27:57,659 --> 01:28:00,900
+you may do some uh one chapter of the
+
+1573
+01:28:00,900 --> 01:28:03,540
+book right you are doing chapter a you
+
+1574
+01:28:03,540 --> 01:28:05,760
+are doing chapter B of the same book
+
+1575
+01:28:05,760 --> 01:28:08,040
+then after you guys all finish that I'm
+
+1576
+01:28:08,040 --> 01:28:10,320
+going to combine the all together to
+
+1577
+01:28:10,320 --> 01:28:11,699
+another
+
+1578
+01:28:11,699 --> 01:28:14,520
+class another class of students I asked
+
+1579
+01:28:14,520 --> 01:28:17,040
+them okay to find out which chapters are
+
+1580
+01:28:17,040 --> 01:28:18,900
+from the same book then combined
+
+1581
+01:28:18,900 --> 01:28:21,120
+together so you're doing to we're doing
+
+1582
+01:28:21,120 --> 01:28:24,719
+the Divide first and doing the reduce
+
+1583
+01:28:24,719 --> 01:28:27,600
+seconds that is the key idea for map
+
+1584
+01:28:27,600 --> 01:28:29,520
+reduce okay we are going to talk about
+
+1585
+01:28:29,520 --> 01:28:33,620
+more in our next class
+
+1586
+01:28:34,199 --> 01:28:36,000
+so after the first project we are going
+
+1587
+01:28:36,000 --> 01:28:38,340
+to release this second project okay so
+
+1588
+01:28:38,340 --> 01:28:41,719
+this is today's course thank you
+

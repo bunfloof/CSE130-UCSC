@@ -1,0 +1,6612 @@
+1
+00:00:00,299 --> 00:00:03,299
+is
+
+2
+00:00:32,880 --> 00:00:35,880
+okay so if you have any questions about
+
+3
+00:00:35,880 --> 00:00:39,180
+your exams or your grade
+
+4
+00:00:39,180 --> 00:00:41,579
+Grace if you have any question about the
+
+5
+00:00:41,579 --> 00:00:43,500
+grading of your project assignments or
+
+6
+00:00:43,500 --> 00:00:45,960
+exams you need to send email to my heart
+
+7
+00:00:45,960 --> 00:00:49,320
+here okay you can send email to any of
+
+8
+00:00:49,320 --> 00:00:51,780
+the Tas it doesn't matter but then and
+
+9
+00:00:51,780 --> 00:00:54,300
+then if they cannot handle that they
+
+10
+00:00:54,300 --> 00:00:57,000
+will send me email so the reason is that
+
+11
+00:00:57,000 --> 00:00:59,820
+we uh I'm not the one who's creating
+
+12
+00:00:59,820 --> 00:01:02,460
+your homework or projects they are the
+
+13
+00:01:02,460 --> 00:01:04,559
+ones who create your projects or
+
+14
+00:01:04,559 --> 00:01:06,119
+homework and they can
+
+15
+00:01:06,119 --> 00:01:10,320
+help you regret if you have any concerns
+
+16
+00:01:10,320 --> 00:01:13,320
+about that so if you do not know their
+
+17
+00:01:13,320 --> 00:01:16,260
+emails you need to take pictures and
+
+18
+00:01:16,260 --> 00:01:20,600
+these slides are in our canvas okay
+
+19
+00:01:21,240 --> 00:01:23,580
+I received many many emails about that
+
+20
+00:01:23,580 --> 00:01:26,759
+about the great issues uh what I did is
+
+21
+00:01:26,759 --> 00:01:29,220
+that I will I will just forward it to my
+
+22
+00:01:29,220 --> 00:01:31,740
+head here but I suggest you directly
+
+23
+00:01:31,740 --> 00:01:35,100
+send email to my hatia to get a promotes
+
+24
+00:01:35,100 --> 00:01:36,600
+reply
+
+25
+00:01:36,600 --> 00:01:38,720
+um
+
+26
+00:01:39,479 --> 00:01:42,000
+okay and I know I know many of you are
+
+27
+00:01:42,000 --> 00:01:44,400
+not happy with your project once great
+
+28
+00:01:44,400 --> 00:01:46,560
+uh
+
+29
+00:01:46,560 --> 00:01:51,180
+um well uh so the thing is that um we
+
+30
+00:01:51,180 --> 00:01:53,399
+cannot regret the projects every time
+
+31
+00:01:53,399 --> 00:01:56,280
+okay but for this time I'm I'm going to
+
+32
+00:01:56,280 --> 00:02:00,780
+ask my ta to do an exception so to
+
+33
+00:02:00,780 --> 00:02:03,479
+if you want to so today will announce
+
+34
+00:02:03,479 --> 00:02:05,460
+that about how to do that if you are not
+
+35
+00:02:05,460 --> 00:02:07,439
+satisfied with your grades you have a
+
+36
+00:02:07,439 --> 00:02:10,679
+chance only one chance to uh redo that
+
+37
+00:02:10,679 --> 00:02:13,560
+okay but this is just a warm-up for the
+
+38
+00:02:13,560 --> 00:02:16,440
+other projects to you you do not have
+
+39
+00:02:16,440 --> 00:02:17,700
+that opportunities
+
+40
+00:02:17,700 --> 00:02:19,860
+okay the only exception that is that you
+
+41
+00:02:19,860 --> 00:02:22,140
+you may find out some if you receive a
+
+42
+00:02:22,140 --> 00:02:24,959
+comments like suspected plagarisms then
+
+43
+00:02:24,959 --> 00:02:27,599
+you do not have any chance to redo that
+
+44
+00:02:27,599 --> 00:02:30,060
+that means you failed in that project
+
+45
+00:02:30,060 --> 00:02:32,520
+you will receive zero and if that
+
+46
+00:02:32,520 --> 00:02:35,520
+happens again you automatically cut F in
+
+47
+00:02:35,520 --> 00:02:38,599
+my class so are we sure about that
+
+48
+00:02:38,599 --> 00:02:42,260
+we do we if you got the comments about
+
+49
+00:02:42,260 --> 00:02:44,879
+suspected algorithms that means we have
+
+50
+00:02:44,879 --> 00:02:47,700
+enough evidence to to prove that you did
+
+51
+00:02:47,700 --> 00:02:50,519
+cheating okay no matter so what is the
+
+52
+00:02:50,519 --> 00:02:51,480
+cheating
+
+53
+00:02:51,480 --> 00:02:52,379
+um
+
+54
+00:02:52,379 --> 00:02:55,379
+borrow code from a report from someone
+
+55
+00:02:55,379 --> 00:02:58,140
+reading previous Solutions giving codes
+
+56
+00:02:58,140 --> 00:03:01,019
+or reports to someone copying called a
+
+57
+00:03:01,019 --> 00:03:03,360
+report from anyone including from the
+
+58
+00:03:03,360 --> 00:03:04,319
+internet
+
+59
+00:03:04,319 --> 00:03:07,019
+howling someone to write your code or
+
+60
+00:03:07,019 --> 00:03:09,480
+your report submitting someone else code
+
+61
+00:03:09,480 --> 00:03:11,819
+or reporters you own look at everyone
+
+62
+00:03:11,819 --> 00:03:14,159
+else code or report
+
+63
+00:03:14,159 --> 00:03:16,620
+so okay so uh
+
+64
+00:03:16,620 --> 00:03:19,680
+so in summary so for your project one
+
+65
+00:03:19,680 --> 00:03:21,599
+you have
+
+66
+00:03:21,599 --> 00:03:23,459
+um this is the only one-time exception
+
+67
+00:03:23,459 --> 00:03:27,720
+we I'm going to ask my ti to announce
+
+68
+00:03:27,720 --> 00:03:30,480
+some directions for you to redo that
+
+69
+00:03:30,480 --> 00:03:32,760
+project if you are not satisfied with
+
+70
+00:03:32,760 --> 00:03:34,860
+your grades so you have one chance to do
+
+71
+00:03:34,860 --> 00:03:37,260
+that but the exception is that if you
+
+72
+00:03:37,260 --> 00:03:40,019
+receive a comment saying that you
+
+73
+00:03:40,019 --> 00:03:42,540
+TI is expecting you paragraphisms or
+
+74
+00:03:42,540 --> 00:03:45,959
+cheating or copying the code then you'll
+
+75
+00:03:45,959 --> 00:03:49,260
+have no chance to reduce it to redo the
+
+76
+00:03:49,260 --> 00:03:50,819
+project one
+
+77
+00:03:50,819 --> 00:03:54,120
+you got zero on that project
+
+78
+00:03:54,120 --> 00:03:57,239
+and uh remember if you did that
+
+79
+00:03:57,239 --> 00:03:59,400
+repeatedly
+
+80
+00:03:59,400 --> 00:04:01,440
+you are automatically fail in the class
+
+81
+00:04:01,440 --> 00:04:04,260
+and I will not talk to you I will not
+
+82
+00:04:04,260 --> 00:04:06,659
+discuss with you I just directly reports
+
+83
+00:04:06,659 --> 00:04:09,540
+to the school okay
+
+84
+00:04:09,540 --> 00:04:13,280
+so I hope we are clear about that
+
+85
+00:04:18,139 --> 00:04:22,820
+uh okay so this is the
+
+86
+00:04:22,860 --> 00:04:25,139
+so another thing that we all have our
+
+87
+00:04:25,139 --> 00:04:27,919
+midterm we will have our midterm in the
+
+88
+00:04:27,919 --> 00:04:30,259
+next next
+
+89
+00:04:30,259 --> 00:04:31,979
+Thursday
+
+90
+00:04:31,979 --> 00:04:34,259
+next Thursday so it is your
+
+91
+00:04:34,259 --> 00:04:36,960
+responsibility to attend the midterm or
+
+92
+00:04:36,960 --> 00:04:39,660
+final The Only Exception we can make so
+
+93
+00:04:39,660 --> 00:04:42,000
+I need to be fair to everyone I will not
+
+94
+00:04:42,000 --> 00:04:44,940
+release or schedule anytime earlier than
+
+95
+00:04:44,940 --> 00:04:47,580
+the final midterm for one or two
+
+96
+00:04:47,580 --> 00:04:49,680
+individual this is unfair because I do
+
+97
+00:04:49,680 --> 00:04:52,919
+not want my exam papers released before
+
+98
+00:04:52,919 --> 00:04:55,440
+the actual exam day so I hope you guys
+
+99
+00:04:55,440 --> 00:04:57,600
+can understand that and the only
+
+100
+00:04:57,600 --> 00:04:59,820
+exception that I can make is like urgent
+
+101
+00:04:59,820 --> 00:05:03,540
+situation like medical situation and we
+
+102
+00:05:03,540 --> 00:05:06,000
+need the doctor notes about that like
+
+103
+00:05:06,000 --> 00:05:07,740
+for example you go to an emergency room
+
+104
+00:05:07,740 --> 00:05:10,020
+something like that then I'm going to
+
+105
+00:05:10,020 --> 00:05:12,780
+schedule a makeup and the makeup exam
+
+106
+00:05:12,780 --> 00:05:15,840
+will be different than the uh the others
+
+107
+00:05:15,840 --> 00:05:18,000
+exams I have two separate papers and
+
+108
+00:05:18,000 --> 00:05:19,500
+there's no guarantee that they are in
+
+109
+00:05:19,500 --> 00:05:22,380
+the same difficulty level
+
+110
+00:05:22,380 --> 00:05:23,220
+um
+
+111
+00:05:23,220 --> 00:05:26,639
+so in the um the exactly
+
+112
+00:05:26,639 --> 00:05:29,880
+final dates of the the final exam day
+
+113
+00:05:29,880 --> 00:05:32,280
+and Midterm will be you can see that in
+
+114
+00:05:32,280 --> 00:05:34,440
+the converse okay it's um the next
+
+115
+00:05:34,440 --> 00:05:36,419
+Thursday the next Thursday we'll have
+
+116
+00:05:36,419 --> 00:05:38,000
+our
+
+117
+00:05:38,000 --> 00:05:40,680
+midterm we will not have any class in
+
+118
+00:05:40,680 --> 00:05:42,720
+the Tuesday the Tuesday is for you I
+
+119
+00:05:42,720 --> 00:05:44,820
+will be in the zoom to answer you for
+
+120
+00:05:44,820 --> 00:05:46,919
+any questions about exams but we will
+
+121
+00:05:46,919 --> 00:05:50,160
+not have any class in Us in the Tuesday
+
+122
+00:05:50,160 --> 00:05:52,560
+okay and in the Thursday the same time
+
+123
+00:05:52,560 --> 00:05:55,620
+we will have our midterm here
+
+124
+00:05:55,620 --> 00:05:58,139
+okay so are we clear about that the
+
+125
+00:05:58,139 --> 00:06:00,120
+midterm we were testing the introduction
+
+126
+00:06:00,120 --> 00:06:02,639
+the um what we have learned so far
+
+127
+00:06:02,639 --> 00:06:05,580
+before the midterm before the midterm
+
+128
+00:06:05,580 --> 00:06:07,560
+like the process threat dialogue
+
+129
+00:06:07,560 --> 00:06:09,240
+dialogue is what we are talking about
+
+130
+00:06:09,240 --> 00:06:12,500
+today okay
+
+131
+00:06:39,780 --> 00:06:42,380
+oh
+
+132
+00:06:58,400 --> 00:07:03,720
+my God that's what seems not working
+
+133
+00:07:03,720 --> 00:07:05,900
+foreign
+
+134
+00:07:40,639 --> 00:07:43,319
+okay so today we are going to start
+
+135
+00:07:43,319 --> 00:07:47,520
+learning another new chapter dialogue
+
+136
+00:07:47,520 --> 00:07:49,580
+um
+
+137
+00:07:56,580 --> 00:08:01,460
+so before we go to the dialogue section
+
+138
+00:08:01,500 --> 00:08:02,759
+the chapter
+
+139
+00:08:02,759 --> 00:08:04,020
+uh
+
+140
+00:08:04,020 --> 00:08:07,319
+so any questions about your projects as
+
+141
+00:08:07,319 --> 00:08:10,740
+homework assignments grading
+
+142
+00:08:10,740 --> 00:08:13,380
+midterm final
+
+143
+00:08:13,380 --> 00:08:16,220
+any questions
+
+144
+00:08:25,440 --> 00:08:27,660
+oh that's very good question you are
+
+145
+00:08:27,660 --> 00:08:29,160
+going to on there are some coding
+
+146
+00:08:29,160 --> 00:08:30,660
+questions there you're going to write
+
+147
+00:08:30,660 --> 00:08:32,820
+the code there are also some multiple
+
+148
+00:08:32,820 --> 00:08:35,279
+choice single choice questions uh I
+
+149
+00:08:35,279 --> 00:08:37,200
+think there will be no no multiple
+
+150
+00:08:37,200 --> 00:08:39,719
+choice or in single choice questions and
+
+151
+00:08:39,719 --> 00:08:42,179
+there are some uh
+
+152
+00:08:42,179 --> 00:08:44,820
+some short answers some short answers so
+
+153
+00:08:44,820 --> 00:08:48,060
+it's a mix mixing mixing
+
+154
+00:08:48,060 --> 00:08:50,760
+uh questions mixing there's different or
+
+155
+00:08:50,760 --> 00:08:53,339
+different formats there are also some
+
+156
+00:08:53,339 --> 00:08:55,680
+algorithms questions that may need you
+
+157
+00:08:55,680 --> 00:08:56,700
+to
+
+158
+00:08:56,700 --> 00:08:59,459
+to do some math math remember what we
+
+159
+00:08:59,459 --> 00:09:03,300
+did in our last class we calculating the
+
+160
+00:09:03,300 --> 00:09:05,100
+scheduling right and we also calculating
+
+161
+00:09:05,100 --> 00:09:07,440
+the average turn run time the QA time
+
+162
+00:09:07,440 --> 00:09:09,240
+something like that
+
+163
+00:09:09,240 --> 00:09:10,140
+um
+
+164
+00:09:10,140 --> 00:09:12,899
+yeah there will be uh
+
+165
+00:09:12,899 --> 00:09:15,000
+there will be different formats not just
+
+166
+00:09:15,000 --> 00:09:18,420
+not just I know some of them I know some
+
+167
+00:09:18,420 --> 00:09:21,680
+some exams just have the
+
+168
+00:09:21,680 --> 00:09:23,640
+single choice or multiple choice
+
+169
+00:09:23,640 --> 00:09:25,680
+questions it's easy to grade but it's
+
+170
+00:09:25,680 --> 00:09:28,800
+not easy it's not good for you because I
+
+171
+00:09:28,800 --> 00:09:31,080
+want you to um
+
+172
+00:09:31,080 --> 00:09:35,339
+understand what we have learned yeah
+
+173
+00:09:35,339 --> 00:09:37,560
+what
+
+174
+00:09:37,560 --> 00:09:42,560
+what what what do you mean by that 30
+
+175
+00:09:45,480 --> 00:09:48,800
+someone tell you what
+
+176
+00:09:52,980 --> 00:09:55,940
+ah
+
+177
+00:09:56,100 --> 00:09:58,320
+well I can I'm gonna try to give you
+
+178
+00:09:58,320 --> 00:10:00,959
+some hints in our next class
+
+179
+00:10:00,959 --> 00:10:03,120
+yeah and it will be closed the loads
+
+180
+00:10:03,120 --> 00:10:04,440
+closed book
+
+181
+00:10:04,440 --> 00:10:07,140
+uh you cannot bring anything you need to
+
+182
+00:10:07,140 --> 00:10:12,240
+bring your uh uclc card and we we I I
+
+183
+00:10:12,240 --> 00:10:14,760
+I'm going to ask all my graders or my
+
+184
+00:10:14,760 --> 00:10:17,459
+Tutors or my Tas to come here to
+
+185
+00:10:17,459 --> 00:10:19,560
+to help with the exam so they will check
+
+186
+00:10:19,560 --> 00:10:22,620
+the your identity the only thing you can
+
+187
+00:10:22,620 --> 00:10:24,899
+bring is uh
+
+188
+00:10:24,899 --> 00:10:28,860
+is is the is is the ID card and the pen
+
+189
+00:10:28,860 --> 00:10:31,500
+and we are going to give you the papers
+
+190
+00:10:31,500 --> 00:10:34,140
+the papers so you have a empty paper
+
+191
+00:10:34,140 --> 00:10:37,279
+that you can do the math
+
+192
+00:10:39,480 --> 00:10:43,019
+Okay so
+
+193
+00:10:43,140 --> 00:10:45,800
+yeah
+
+194
+00:10:48,140 --> 00:10:54,019
+you gotta yeah it's one um yes
+
+195
+00:10:59,420 --> 00:11:03,000
+no calculator no you do not need to with
+
+196
+00:11:03,000 --> 00:11:05,579
+the calculator to do that you should be
+
+197
+00:11:05,579 --> 00:11:08,519
+able to do the math by yourself
+
+198
+00:11:08,519 --> 00:11:11,040
+yeah because in some calculator we know
+
+199
+00:11:11,040 --> 00:11:13,079
+that some calculator can
+
+200
+00:11:13,079 --> 00:11:16,500
+memorize something we want to know what
+
+201
+00:11:16,500 --> 00:11:18,600
+that happens yeah
+
+202
+00:11:18,600 --> 00:11:20,399
+because we have not some very smart
+
+203
+00:11:20,399 --> 00:11:23,339
+calculator I heard of that
+
+204
+00:11:23,339 --> 00:11:25,680
+yeah the math should not be a problem
+
+205
+00:11:25,680 --> 00:11:29,060
+the math should not be a problem
+
+206
+00:11:32,040 --> 00:11:34,920
+okay so uh
+
+207
+00:11:34,920 --> 00:11:37,940
+okay so um
+
+208
+00:11:39,060 --> 00:11:41,220
+here my suggestion for you you start to
+
+209
+00:11:41,220 --> 00:11:43,440
+go over my slides especially what we
+
+210
+00:11:43,440 --> 00:11:46,079
+have discussed in the class because and
+
+211
+00:11:46,079 --> 00:11:48,380
+uh
+
+212
+00:11:48,720 --> 00:11:50,760
+review your homework review your
+
+213
+00:11:50,760 --> 00:11:52,380
+homework
+
+214
+00:11:52,380 --> 00:11:53,700
+um
+
+215
+00:11:53,700 --> 00:11:56,399
+in this in in the next chapter's
+
+216
+00:11:56,399 --> 00:11:58,320
+homework we are going to give you some
+
+217
+00:11:58,320 --> 00:12:01,260
+coding questions and the midterm may not
+
+218
+00:12:01,260 --> 00:12:03,120
+exactly the same but it will be the same
+
+219
+00:12:03,120 --> 00:12:05,760
+style so if you understand if you can
+
+220
+00:12:05,760 --> 00:12:07,920
+finish your homework by yourself and in
+
+221
+00:12:07,920 --> 00:12:10,440
+a good way then you should be okay with
+
+222
+00:12:10,440 --> 00:12:11,880
+the midterm
+
+223
+00:12:11,880 --> 00:12:13,980
+I do not want to challenge you give you
+
+224
+00:12:13,980 --> 00:12:17,040
+a bad time hard time like I'm only going
+
+225
+00:12:17,040 --> 00:12:19,920
+to test what I have thoughts in the
+
+226
+00:12:19,920 --> 00:12:20,640
+class
+
+227
+00:12:20,640 --> 00:12:23,700
+okay yeah so everything is in the slides
+
+228
+00:12:23,700 --> 00:12:26,180
+that's everything
+
+229
+00:12:26,459 --> 00:12:28,800
+okay so uh today we are going to learn
+
+230
+00:12:28,800 --> 00:12:31,220
+dialogue
+
+231
+00:12:31,220 --> 00:12:34,320
+here the takeaways you need to remember
+
+232
+00:12:34,320 --> 00:12:36,360
+you need to understand the condition
+
+233
+00:12:36,360 --> 00:12:38,760
+what is dialogue the conditions for
+
+234
+00:12:38,760 --> 00:12:40,500
+dialogue there's four conditions for
+
+235
+00:12:40,500 --> 00:12:42,720
+deadlock to happen so what that means
+
+236
+00:12:42,720 --> 00:12:45,240
+means that all link all in four
+
+237
+00:12:45,240 --> 00:12:48,620
+conditions concurrently happen
+
+238
+00:12:48,620 --> 00:12:51,899
+dialogue will happen if only three
+
+239
+00:12:51,899 --> 00:12:54,360
+conditions happen in one condition is
+
+240
+00:12:54,360 --> 00:12:56,639
+not satisfied then the Denmark or not
+
+241
+00:12:56,639 --> 00:12:59,220
+happen so we and you need to understand
+
+242
+00:12:59,220 --> 00:13:02,220
+what are these four conditions and then
+
+243
+00:13:02,220 --> 00:13:03,899
+correspondingly there's
+
+244
+00:13:03,899 --> 00:13:04,440
+um
+
+245
+00:13:04,440 --> 00:13:06,959
+for strategies to handling the dialogue
+
+246
+00:13:06,959 --> 00:13:09,779
+deal with the dialogue okay that is the
+
+247
+00:13:09,779 --> 00:13:12,060
+takeaway so let's start from the
+
+248
+00:13:12,060 --> 00:13:16,399
+beginning what is the dialogue okay
+
+249
+00:13:16,980 --> 00:13:19,800
+so before we go to the deadlock
+
+250
+00:13:19,800 --> 00:13:23,880
+the deadlock uh definition let's do some
+
+251
+00:13:23,880 --> 00:13:26,880
+review about what we have learned a pre
+
+252
+00:13:26,880 --> 00:13:29,579
+-emptible resource and a non-premital
+
+253
+00:13:29,579 --> 00:13:34,079
+resource okay so the resource um
+
+254
+00:13:34,079 --> 00:13:37,260
+the resource has two types preemptable
+
+255
+00:13:37,260 --> 00:13:40,399
+and non-preemptable
+
+256
+00:13:40,980 --> 00:13:42,899
+so here in the slides if you look at
+
+257
+00:13:42,899 --> 00:13:46,279
+that so what is preemptable
+
+258
+00:13:48,120 --> 00:13:52,200
+what is preemptable means preemptable
+
+259
+00:13:52,200 --> 00:13:55,100
+emojis
+
+260
+00:13:58,160 --> 00:14:02,040
+you can cancel out of the uh you can
+
+261
+00:14:02,040 --> 00:14:05,040
+cancel out of a process when another
+
+262
+00:14:05,040 --> 00:14:07,920
+process enters and another and another
+
+263
+00:14:07,920 --> 00:14:09,540
+one dot Edge one of them is preemptible
+
+264
+00:14:09,540 --> 00:14:11,820
+one of them is not predictable I
+
+265
+00:14:11,820 --> 00:14:16,440
+the uh preemptable is the one where you
+
+266
+00:14:16,440 --> 00:14:18,839
+and it's like cancel out of the process
+
+267
+00:14:18,839 --> 00:14:21,959
+but I I might I might be mixing it up
+
+268
+00:14:21,959 --> 00:14:24,180
+yeah it is it's actually there is like
+
+269
+00:14:24,180 --> 00:14:26,399
+one is like the resource can be taken
+
+270
+00:14:26,399 --> 00:14:30,000
+away taken away by whom so here we also
+
+271
+00:14:30,000 --> 00:14:33,660
+process and stress interchangeably okay
+
+272
+00:14:33,660 --> 00:14:36,000
+use processors interchangeably we have
+
+273
+00:14:36,000 --> 00:14:37,560
+so what that means we have a lot of
+
+274
+00:14:37,560 --> 00:14:39,959
+process we have a lot of stress think of
+
+275
+00:14:39,959 --> 00:14:42,060
+that the same same meaning in in this
+
+276
+00:14:42,060 --> 00:14:44,339
+definition we have many processors that
+
+277
+00:14:44,339 --> 00:14:46,800
+share the resources so the preemptible
+
+278
+00:14:46,800 --> 00:14:50,040
+means that it's if the resource can be
+
+279
+00:14:50,040 --> 00:14:52,380
+taken away like can be taken away from
+
+280
+00:14:52,380 --> 00:14:55,139
+one process to another process like I'm
+
+281
+00:14:55,139 --> 00:14:58,079
+the process a I'm running I'm using the
+
+282
+00:14:58,079 --> 00:15:01,620
+CPU now and then someone can take take
+
+283
+00:15:01,620 --> 00:15:04,260
+the CPU resources from my
+
+284
+00:15:04,260 --> 00:15:07,500
+from my end to his end to her and that
+
+285
+00:15:07,500 --> 00:15:09,720
+means this is preemptable so CPU is a
+
+286
+00:15:09,720 --> 00:15:12,860
+preemptable resources
+
+287
+00:15:14,760 --> 00:15:18,240
+um so how does CPU take away between the
+
+288
+00:15:18,240 --> 00:15:20,880
+process we have learned that how this
+
+289
+00:15:20,880 --> 00:15:23,639
+will take away
+
+290
+00:15:23,639 --> 00:15:26,820
+pitch any anyone still remember or
+
+291
+00:15:26,820 --> 00:15:28,680
+there's three states
+
+292
+00:15:28,680 --> 00:15:32,339
+three stage of the of a process
+
+293
+00:15:32,339 --> 00:15:36,199
+three states what are they
+
+294
+00:15:37,680 --> 00:15:39,660
+three
+
+295
+00:15:39,660 --> 00:15:42,199
+yeah what's your name Andrew Andrew
+
+296
+00:15:42,199 --> 00:15:44,760
+you you're another Angel okay boss
+
+297
+00:15:44,760 --> 00:15:48,380
+Andrew okay yeah
+
+298
+00:15:48,720 --> 00:15:51,180
+blocked already blocked and running and
+
+299
+00:15:51,180 --> 00:15:53,880
+already so um
+
+300
+00:15:53,880 --> 00:15:57,180
+blocked running and the rally right so
+
+301
+00:15:57,180 --> 00:15:59,880
+you remember like one week when when we
+
+302
+00:15:59,880 --> 00:16:01,800
+are running right one process is running
+
+303
+00:16:01,800 --> 00:16:04,199
+there's a chance
+
+304
+00:16:04,199 --> 00:16:08,600
+that is goes to the block stage right
+
+305
+00:16:08,639 --> 00:16:11,760
+block State and that means it's why why
+
+306
+00:16:11,760 --> 00:16:14,639
+they go to the brook States
+
+307
+00:16:14,639 --> 00:16:17,160
+because it may receive some IO interrupt
+
+308
+00:16:17,160 --> 00:16:19,139
+request
+
+309
+00:16:19,139 --> 00:16:21,899
+they asked him to wait some IO requires
+
+310
+00:16:21,899 --> 00:16:26,160
+then start running again right and then
+
+311
+00:16:26,160 --> 00:16:28,620
+there is an example about it it is taken
+
+312
+00:16:28,620 --> 00:16:30,480
+away the CPU okay
+
+313
+00:16:30,480 --> 00:16:33,360
+and non-preemptable what are the
+
+314
+00:16:33,360 --> 00:16:37,139
+resources of long preemptable the disk
+
+315
+00:16:37,139 --> 00:16:41,339
+files okay disk files new text from your
+
+316
+00:16:41,339 --> 00:16:42,240
+text
+
+317
+00:16:42,240 --> 00:16:44,779
+sorry
+
+318
+00:16:46,259 --> 00:16:49,139
+this files in the text they are
+
+319
+00:16:49,139 --> 00:16:50,759
+non-preemitable
+
+320
+00:16:50,759 --> 00:16:52,759
+um
+
+321
+00:16:54,360 --> 00:16:57,480
+for example if that means it cannot take
+
+322
+00:16:57,480 --> 00:16:58,220
+away
+
+323
+00:16:58,220 --> 00:17:01,259
+for example if you have a file in a disk
+
+324
+00:17:01,259 --> 00:17:04,500
+you you have a file in your disk
+
+325
+00:17:04,500 --> 00:17:07,919
+only you can only can
+
+326
+00:17:07,919 --> 00:17:11,520
+like delete the file right only you will
+
+327
+00:17:11,520 --> 00:17:13,679
+also write the owner the other process
+
+328
+00:17:13,679 --> 00:17:15,839
+these are the other process without your
+
+329
+00:17:15,839 --> 00:17:18,119
+permission they cannot delete the file
+
+330
+00:17:18,119 --> 00:17:20,760
+for you and relieve the space
+
+331
+00:17:20,760 --> 00:17:23,299
+okay
+
+332
+00:17:25,199 --> 00:17:29,880
+then let's go to the other definition
+
+333
+00:17:40,919 --> 00:17:43,820
+and then another definition is request
+
+334
+00:17:43,820 --> 00:17:48,059
+request use and release
+
+335
+00:17:48,059 --> 00:17:51,780
+so request means process a proportions
+
+336
+00:17:51,780 --> 00:17:54,179
+away once the CPU freedom of the spill
+
+337
+00:17:54,179 --> 00:17:57,419
+time or the memory memory space is
+
+338
+00:17:57,419 --> 00:18:00,480
+requested you request that requested
+
+339
+00:18:00,480 --> 00:18:03,299
+once it requires the guard satisfied got
+
+340
+00:18:03,299 --> 00:18:05,280
+committed then it can use the resource
+
+341
+00:18:05,280 --> 00:18:07,200
+and what is the release release means
+
+342
+00:18:07,200 --> 00:18:10,620
+that it it releases the space right
+
+343
+00:18:10,620 --> 00:18:13,740
+release the resource to other
+
+344
+00:18:13,740 --> 00:18:15,960
+and another definition is establation
+
+345
+00:18:15,960 --> 00:18:18,600
+starvation means the process waits in
+
+346
+00:18:18,600 --> 00:18:21,480
+feet indefinitely and it is and it is
+
+347
+00:18:21,480 --> 00:18:25,080
+waiting so if we have many process they
+
+348
+00:18:25,080 --> 00:18:28,980
+are sharing with some resources like for
+
+349
+00:18:28,980 --> 00:18:32,120
+example if if several process entered a
+
+350
+00:18:32,120 --> 00:18:35,039
+share resource we put a critical region
+
+351
+00:18:35,039 --> 00:18:37,740
+like prop to product the resource and if
+
+352
+00:18:37,740 --> 00:18:40,559
+process a is entering that critical
+
+353
+00:18:40,559 --> 00:18:43,320
+region and runs for quite a long time
+
+354
+00:18:43,320 --> 00:18:45,780
+then the other processor goes to a
+
+355
+00:18:45,780 --> 00:18:48,000
+starvation why because mutex cannot be
+
+356
+00:18:48,000 --> 00:18:49,799
+taken away so some non preemptable
+
+357
+00:18:49,799 --> 00:18:52,500
+resource so you have to wait outside the
+
+358
+00:18:52,500 --> 00:18:54,840
+critical region and the result is that
+
+359
+00:18:54,840 --> 00:18:57,179
+you are going to be very hungry you will
+
+360
+00:18:57,179 --> 00:18:59,280
+not get the result that's that's a
+
+361
+00:18:59,280 --> 00:19:01,200
+situation that scenario we call it
+
+362
+00:19:01,200 --> 00:19:03,980
+starvation
+
+363
+00:19:05,340 --> 00:19:09,559
+and that lock what is Deadlock
+
+364
+00:19:10,740 --> 00:19:13,919
+so dialogue is a set of process
+
+365
+00:19:13,919 --> 00:19:16,860
+it's a it's a subtle process have a
+
+366
+00:19:16,860 --> 00:19:18,900
+dialogue if each process is waiting for
+
+367
+00:19:18,900 --> 00:19:21,179
+an event there are only another process
+
+368
+00:19:21,179 --> 00:19:24,500
+in the search can cause
+
+369
+00:19:25,140 --> 00:19:27,539
+I'm gonna try to understand that okay
+
+370
+00:19:27,539 --> 00:19:30,559
+try to understand that
+
+371
+00:19:31,140 --> 00:19:33,780
+so uh what I'm thinking the dialogue is
+
+372
+00:19:33,780 --> 00:19:36,120
+that well you you a process let's say
+
+373
+00:19:36,120 --> 00:19:39,480
+process a and process B process a
+
+374
+00:19:39,480 --> 00:19:43,380
+holding some resources and request
+
+375
+00:19:43,380 --> 00:19:45,539
+process a holding some resources
+
+376
+00:19:45,539 --> 00:19:47,820
+requires another resources from process
+
+377
+00:19:47,820 --> 00:19:51,299
+B while process B is holding the
+
+378
+00:19:51,299 --> 00:19:55,799
+resources that process a wants and he
+
+379
+00:19:55,799 --> 00:19:58,440
+he refused to release to process a and
+
+380
+00:19:58,440 --> 00:20:01,320
+in the meantime he is also requesting
+
+381
+00:20:01,320 --> 00:20:04,440
+the resources that process a holds so
+
+382
+00:20:04,440 --> 00:20:06,840
+they have a loop you will see like they
+
+383
+00:20:06,840 --> 00:20:09,059
+they were they were they will create a
+
+384
+00:20:09,059 --> 00:20:12,480
+loop and we call it if that happens we
+
+385
+00:20:12,480 --> 00:20:15,120
+call it or that then knock scenario
+
+386
+00:20:15,120 --> 00:20:17,460
+because none of them can guard
+
+387
+00:20:17,460 --> 00:20:19,260
+successfully
+
+388
+00:20:19,260 --> 00:20:21,660
+proceed so this is process a this is
+
+389
+00:20:21,660 --> 00:20:23,580
+process B so it
+
+390
+00:20:23,580 --> 00:20:27,140
+will look at that later okay
+
+391
+00:20:31,380 --> 00:20:33,539
+so preemptable and alarm Preamble
+
+392
+00:20:33,539 --> 00:20:36,000
+resources sequence of events required to
+
+393
+00:20:36,000 --> 00:20:38,400
+use the resources well again this is
+
+394
+00:20:38,400 --> 00:20:40,260
+definition but you need to request to
+
+395
+00:20:40,260 --> 00:20:42,059
+Resource use resource and release the
+
+396
+00:20:42,059 --> 00:20:44,580
+resource let's look at the real life
+
+397
+00:20:44,580 --> 00:20:47,100
+example
+
+398
+00:20:47,100 --> 00:20:51,559
+Let's uh look at this
+
+399
+00:20:52,740 --> 00:20:57,480
+process a is holding resource R right
+
+400
+00:20:57,480 --> 00:21:01,080
+or you need to know how to draw this
+
+401
+00:21:01,080 --> 00:21:03,660
+resource allocation graph okay because
+
+402
+00:21:03,660 --> 00:21:06,059
+this is the audio header we can we can
+
+403
+00:21:06,059 --> 00:21:07,919
+manually find out if there's any
+
+404
+00:21:07,919 --> 00:21:10,140
+dialogues in our system so you need to
+
+405
+00:21:10,140 --> 00:21:12,299
+learn how to draw that we use a circle
+
+406
+00:21:12,299 --> 00:21:15,179
+we use a circle to represent a process
+
+407
+00:21:15,179 --> 00:21:18,960
+we use a square to represent a resource
+
+408
+00:21:18,960 --> 00:21:24,660
+and if resource if process a is holding
+
+409
+00:21:24,660 --> 00:21:26,940
+a resource then we use this
+
+410
+00:21:26,940 --> 00:21:30,919
+array this array
+
+411
+00:21:36,120 --> 00:21:38,039
+so since this is not showing very
+
+412
+00:21:38,039 --> 00:21:41,840
+clearly there's a direction here
+
+413
+00:21:43,260 --> 00:21:46,860
+then this means process a process a is
+
+414
+00:21:46,860 --> 00:21:50,340
+holding the resource R its resource r
+
+415
+00:21:50,340 --> 00:21:53,580
+so process B requires the resource as
+
+416
+00:21:53,580 --> 00:21:56,220
+process B requests
+
+417
+00:21:56,220 --> 00:21:59,340
+process B we use a circle to represent a
+
+418
+00:21:59,340 --> 00:22:01,559
+process we use a square to represent a
+
+419
+00:22:01,559 --> 00:22:03,900
+resource process B requesting the
+
+420
+00:22:03,900 --> 00:22:06,780
+resource s so it is the direction like
+
+421
+00:22:06,780 --> 00:22:10,200
+this okay now a circle in a resource
+
+422
+00:22:10,200 --> 00:22:12,720
+allocation graph then that calls the
+
+423
+00:22:12,720 --> 00:22:15,980
+dialog that causes a dialog
+
+424
+00:22:15,980 --> 00:22:19,799
+if a let's see for example a requests
+
+425
+00:22:19,799 --> 00:22:22,860
+for S right a requested for S while
+
+426
+00:22:22,860 --> 00:22:26,400
+holding r a's holding R right is holding
+
+427
+00:22:26,400 --> 00:22:30,840
+r and the B is holding as B holding s
+
+428
+00:22:30,840 --> 00:22:33,419
+and the requesting for R so you can see
+
+429
+00:22:33,419 --> 00:22:36,299
+if you look at this this picture you can
+
+430
+00:22:36,299 --> 00:22:38,340
+see that one of them
+
+431
+00:22:38,340 --> 00:22:40,919
+now none of them
+
+432
+00:22:40,919 --> 00:22:44,600
+can get what they want
+
+433
+00:22:46,380 --> 00:22:50,299
+so this is like the uh
+
+434
+00:22:50,580 --> 00:22:52,500
+what we have learned in our last class
+
+435
+00:22:52,500 --> 00:22:55,559
+if we remember the philosophy dying
+
+436
+00:22:55,559 --> 00:22:56,760
+problem right
+
+437
+00:22:56,760 --> 00:22:59,640
+um the philosopher leads the two forks
+
+438
+00:22:59,640 --> 00:23:00,600
+to
+
+439
+00:23:00,600 --> 00:23:04,260
+to start eating the pasta pasta so it's
+
+440
+00:23:04,260 --> 00:23:08,100
+like the a needs the resource S and R to
+
+441
+00:23:08,100 --> 00:23:12,240
+run and B also requires resource SNR to
+
+442
+00:23:12,240 --> 00:23:15,000
+successfully running but
+
+443
+00:23:15,000 --> 00:23:17,640
+they each just got one right you
+
+444
+00:23:17,640 --> 00:23:20,340
+remember the philosophy that are dining
+
+445
+00:23:20,340 --> 00:23:22,740
+problems we have six philosophies we
+
+446
+00:23:22,740 --> 00:23:26,520
+have six folks right and the the extreme
+
+447
+00:23:26,520 --> 00:23:28,500
+case is that is that each of the
+
+448
+00:23:28,500 --> 00:23:30,720
+philosophical one folk and none of them
+
+449
+00:23:30,720 --> 00:23:33,539
+can start eating the pasta so that it
+
+450
+00:23:33,539 --> 00:23:36,260
+causes that look
+
+451
+00:23:44,360 --> 00:23:49,039
+I'm doing let's look at this example
+
+452
+00:23:49,620 --> 00:23:52,799
+so we have the process a we use a circle
+
+453
+00:23:52,799 --> 00:23:55,500
+to represent the process okay we have a
+
+454
+00:23:55,500 --> 00:23:59,720
+process a process a
+
+455
+00:23:59,940 --> 00:24:03,860
+and process B okay
+
+456
+00:24:06,480 --> 00:24:08,880
+so this process and what they need to do
+
+457
+00:24:08,880 --> 00:24:11,460
+is they'll copy the file from the tape
+
+458
+00:24:11,460 --> 00:24:15,480
+to the disk and print the file to the to
+
+459
+00:24:15,480 --> 00:24:16,679
+the printer
+
+460
+00:24:16,679 --> 00:24:17,820
+so
+
+461
+00:24:17,820 --> 00:24:21,000
+so both of the process needs to do these
+
+462
+00:24:21,000 --> 00:24:23,400
+things they need to they need to look at
+
+463
+00:24:23,400 --> 00:24:26,460
+they need to get the tape and copy the
+
+464
+00:24:26,460 --> 00:24:29,100
+needs to each of them needs to get three
+
+465
+00:24:29,100 --> 00:24:31,799
+resources together the tape the disk
+
+466
+00:24:31,799 --> 00:24:33,120
+printer
+
+467
+00:24:33,120 --> 00:24:37,039
+then what they need to do is that
+
+468
+00:24:37,440 --> 00:24:40,260
+what they need to do is that they the
+
+469
+00:24:40,260 --> 00:24:41,580
+process
+
+470
+00:24:41,580 --> 00:24:44,940
+copied a file from the tape to the disk
+
+471
+00:24:44,940 --> 00:24:46,740
+to disk energy
+
+472
+00:24:46,740 --> 00:24:49,559
+print the file from the disk to the
+
+473
+00:24:49,559 --> 00:24:50,760
+printer
+
+474
+00:24:50,760 --> 00:24:53,580
+but the the so there are three resources
+
+475
+00:24:53,580 --> 00:24:55,500
+what are three resources the tape the
+
+476
+00:24:55,500 --> 00:24:58,820
+disk the printer printer
+
+477
+00:24:59,700 --> 00:25:01,919
+so here we can see a deadlock happens
+
+478
+00:25:01,919 --> 00:25:05,039
+why it happens like a holds the table in
+
+479
+00:25:05,039 --> 00:25:07,260
+the disk right hold the table disk then
+
+480
+00:25:07,260 --> 00:25:10,320
+requests a printer where B holds the
+
+481
+00:25:10,320 --> 00:25:13,500
+printer holds the printer and requested
+
+482
+00:25:13,500 --> 00:25:16,880
+tape and the disk
+
+483
+00:25:18,440 --> 00:25:21,780
+what are the resource allocation Circle
+
+484
+00:25:21,780 --> 00:25:24,740
+in this graph
+
+485
+00:25:25,080 --> 00:25:27,360
+how many we have
+
+486
+00:25:27,360 --> 00:25:30,500
+how many we have
+
+487
+00:25:32,220 --> 00:25:35,520
+how many Circle we have in the graph
+
+488
+00:25:35,520 --> 00:25:36,840
+two right
+
+489
+00:25:36,840 --> 00:25:38,700
+yeah we can see it from
+
+490
+00:25:38,700 --> 00:25:40,620
+this is one right
+
+491
+00:25:40,620 --> 00:25:42,779
+this is one
+
+492
+00:25:42,779 --> 00:25:45,240
+but this is one right
+
+493
+00:25:45,240 --> 00:25:49,520
+and now another one is from here
+
+494
+00:25:50,100 --> 00:25:52,580
+right
+
+495
+00:25:59,000 --> 00:26:02,760
+so uh let's look at again the dialogue
+
+496
+00:26:02,760 --> 00:26:05,820
+definition we have a several process is
+
+497
+00:26:05,820 --> 00:26:07,919
+dialogue if each process in the set
+
+498
+00:26:07,919 --> 00:26:10,140
+waiting for an event and the third
+
+499
+00:26:10,140 --> 00:26:12,840
+events can be caused only by another
+
+500
+00:26:12,840 --> 00:26:15,000
+process
+
+501
+00:26:15,000 --> 00:26:18,299
+so there is a dialogue definition okay
+
+502
+00:26:18,299 --> 00:26:19,860
+dialogue definition
+
+503
+00:26:19,860 --> 00:26:21,960
+so the condition so remember the
+
+504
+00:26:21,960 --> 00:26:23,700
+takeaway of today's class is four
+
+505
+00:26:23,700 --> 00:26:25,980
+conditions and four strategies so we
+
+506
+00:26:25,980 --> 00:26:29,340
+look at the first condition uh the the
+
+507
+00:26:29,340 --> 00:26:32,039
+first takeaway is four conditions
+
+508
+00:26:32,039 --> 00:26:34,880
+so four conditions that must hold
+
+509
+00:26:34,880 --> 00:26:36,919
+concurrently
+
+510
+00:26:36,919 --> 00:26:39,440
+this is very important
+
+511
+00:26:39,440 --> 00:26:42,659
+owning four countries can currently
+
+512
+00:26:42,659 --> 00:26:45,539
+happen then there's a Deadlock
+
+513
+00:26:45,539 --> 00:26:49,380
+okay so we have the mutual exclusion
+
+514
+00:26:49,380 --> 00:26:51,960
+Mutual exclusion presumption
+
+515
+00:26:51,960 --> 00:26:55,080
+one meter exclusion means that each
+
+516
+00:26:55,080 --> 00:26:57,960
+resource is assigned to exactly one
+
+517
+00:26:57,960 --> 00:27:00,720
+process each resource is is assigned to
+
+518
+00:27:00,720 --> 00:27:03,980
+exactly one process
+
+519
+00:27:05,159 --> 00:27:07,260
+so
+
+520
+00:27:07,260 --> 00:27:10,500
+if there is some memory if we coils
+
+521
+00:27:10,500 --> 00:27:12,720
+memory then memory may be not mutual
+
+522
+00:27:12,720 --> 00:27:15,059
+exclusion why because mining process can
+
+523
+00:27:15,059 --> 00:27:17,460
+share memory right they cannot share
+
+524
+00:27:17,460 --> 00:27:22,620
+they may not Shield exactly the very the
+
+525
+00:27:22,620 --> 00:27:25,080
+units like the page of the memory but
+
+526
+00:27:25,080 --> 00:27:27,059
+they can show but they can share the
+
+527
+00:27:27,059 --> 00:27:29,820
+whole memory so mutual occlusion means
+
+528
+00:27:29,820 --> 00:27:32,400
+that this is the units the units of the
+
+529
+00:27:32,400 --> 00:27:34,500
+resource is atomic it can only be
+
+530
+00:27:34,500 --> 00:27:37,679
+assigned to exactly one process
+
+531
+00:27:37,679 --> 00:27:39,299
+and another
+
+532
+00:27:39,299 --> 00:27:41,700
+another definition is hold on the weight
+
+533
+00:27:41,700 --> 00:27:44,960
+so what is the hold on weight
+
+534
+00:27:47,880 --> 00:27:51,240
+Holden weight means that process holds
+
+535
+00:27:51,240 --> 00:27:55,200
+resource can request new resource for
+
+536
+00:27:55,200 --> 00:27:57,900
+example resource can
+
+537
+00:27:57,900 --> 00:28:00,740
+request new resource
+
+538
+00:28:00,740 --> 00:28:04,400
+and then what is non-preemption
+
+539
+00:28:04,400 --> 00:28:07,200
+means the result cannot be taken away we
+
+540
+00:28:07,200 --> 00:28:09,240
+have been talking about that a lot of
+
+541
+00:28:09,240 --> 00:28:11,340
+times okay and a circular chain
+
+542
+00:28:11,340 --> 00:28:13,620
+condition means that there's uh the
+
+543
+00:28:13,620 --> 00:28:15,419
+resource allocation graph there's a
+
+544
+00:28:15,419 --> 00:28:19,159
+circle in the resource allocation graph
+
+545
+00:28:26,100 --> 00:28:29,580
+so let's again to review that the
+
+546
+00:28:29,580 --> 00:28:34,140
+conditions for dialogue Mutual exclusion
+
+547
+00:28:34,140 --> 00:28:38,299
+hold on the weight hold down the weight
+
+548
+00:28:40,919 --> 00:28:43,200
+there's some process that today hold the
+
+549
+00:28:43,200 --> 00:28:44,760
+request that they can they are not
+
+550
+00:28:44,760 --> 00:28:47,340
+allowed to request new resources then if
+
+551
+00:28:47,340 --> 00:28:49,260
+in that case in that presumption then
+
+552
+00:28:49,260 --> 00:28:51,059
+there's no dialogue okay
+
+553
+00:28:51,059 --> 00:28:53,520
+so you need we need to satisfy all these
+
+554
+00:28:53,520 --> 00:28:55,799
+presumptions like Mutual exclusion means
+
+555
+00:28:55,799 --> 00:28:58,679
+that well you you the resource can only
+
+556
+00:28:58,679 --> 00:29:02,220
+be assigned to the one process hold on
+
+557
+00:29:02,220 --> 00:29:03,900
+with a non-preemption the resource
+
+558
+00:29:03,900 --> 00:29:05,520
+cannot be taken away
+
+559
+00:29:05,520 --> 00:29:06,960
+the results cannot be taken away
+
+560
+00:29:06,960 --> 00:29:09,840
+uncircular chain requests there's a
+
+561
+00:29:09,840 --> 00:29:12,960
+circle there's a low circle so here the
+
+562
+00:29:12,960 --> 00:29:13,679
+um
+
+563
+00:29:13,679 --> 00:29:16,500
+one thing that is very tricky I used to
+
+564
+00:29:16,500 --> 00:29:19,740
+test that in my previous exam is that I
+
+565
+00:29:19,740 --> 00:29:22,260
+ask a student to give the resource
+
+566
+00:29:22,260 --> 00:29:24,360
+allocation graph and I ask students
+
+567
+00:29:24,360 --> 00:29:27,779
+whether there's uh there's uh I asked
+
+568
+00:29:27,779 --> 00:29:31,320
+them whether there's a dialogue
+
+569
+00:29:31,320 --> 00:29:35,600
+and the answer is that the answer
+
+570
+00:29:36,299 --> 00:29:39,120
+is that it's uncertain it's uncertain
+
+571
+00:29:39,120 --> 00:29:40,679
+why because you do not know whether
+
+572
+00:29:40,679 --> 00:29:43,860
+three conditions can be satisfied
+
+573
+00:29:43,860 --> 00:29:46,820
+so
+
+574
+00:29:48,779 --> 00:29:51,740
+that's something you may need to
+
+575
+00:29:51,740 --> 00:29:54,360
+especially notice that okay
+
+576
+00:29:54,360 --> 00:29:59,059
+so let's do something okay uh
+
+577
+00:29:59,220 --> 00:30:02,159
+let's do a dialogue motoring a practice
+
+578
+00:30:02,159 --> 00:30:03,419
+okay
+
+579
+00:30:03,419 --> 00:30:05,539
+um
+
+580
+00:30:07,919 --> 00:30:11,940
+so uh where again we use a circle to
+
+581
+00:30:11,940 --> 00:30:15,480
+represent a resource sorry a process we
+
+582
+00:30:15,480 --> 00:30:19,340
+use a square to represent this is a
+
+583
+00:30:19,340 --> 00:30:21,720
+resource resource we use the direction
+
+584
+00:30:21,720 --> 00:30:22,580
+direction
+
+585
+00:30:22,580 --> 00:30:27,419
+of the row to represents whether he's
+
+586
+00:30:27,419 --> 00:30:29,399
+she's holding the resource or she's
+
+587
+00:30:29,399 --> 00:30:32,039
+requesting the resource now
+
+588
+00:30:32,039 --> 00:30:33,000
+um
+
+589
+00:30:33,000 --> 00:30:35,480
+now could you could you try
+
+590
+00:30:35,480 --> 00:30:38,720
+let me see
+
+591
+00:30:41,460 --> 00:30:43,919
+it's there
+
+592
+00:30:43,919 --> 00:30:46,679
+yes let's do this let's do this example
+
+593
+00:30:46,679 --> 00:30:48,779
+okay the example of the system is it
+
+594
+00:30:48,779 --> 00:30:50,880
+dialogue let's do that let's try this
+
+595
+00:30:50,880 --> 00:30:54,299
+okay so yeah I'll give you uh some time
+
+596
+00:30:54,299 --> 00:30:57,440
+to do that okay
+
+597
+00:32:04,440 --> 00:32:06,679
+foreign
+
+598
+00:32:42,960 --> 00:32:45,960
+something
+
+599
+00:32:49,860 --> 00:32:52,080
+well enable this
+
+600
+00:32:52,080 --> 00:32:54,080
+is
+
+601
+00:33:46,279 --> 00:33:50,299
+how many circles they are
+
+602
+00:33:51,480 --> 00:33:52,740
+one
+
+603
+00:33:52,740 --> 00:33:55,640
+a little
+
+604
+00:33:58,440 --> 00:34:01,320
+let's see okay I think this is not
+
+605
+00:34:01,320 --> 00:34:02,700
+difficult okay
+
+606
+00:34:02,700 --> 00:34:05,640
+so do you want us to do it together
+
+607
+00:34:05,640 --> 00:34:08,040
+or you can just
+
+608
+00:34:08,040 --> 00:34:10,679
+you want me to do it
+
+609
+00:34:10,679 --> 00:34:14,040
+oh well let's do it so we have the a
+
+610
+00:34:14,040 --> 00:34:19,159
+holds R right oh not here no
+
+611
+00:34:25,219 --> 00:34:28,980
+so we have the it's signal process a
+
+612
+00:34:28,980 --> 00:34:32,879
+holds our process a holds R once s once
+
+613
+00:34:32,879 --> 00:34:35,399
+that's so it won't S then
+
+614
+00:34:35,399 --> 00:34:38,580
+s right then we have process B holds
+
+615
+00:34:38,580 --> 00:34:40,619
+nothing so process B
+
+616
+00:34:40,619 --> 00:34:43,320
+holds nothing so nothing's there now
+
+617
+00:34:43,320 --> 00:34:46,260
+since they are and once G so process B
+
+618
+00:34:46,260 --> 00:34:48,239
+wants t
+
+619
+00:34:48,239 --> 00:34:51,379
+is there and then we go process C
+
+620
+00:34:51,379 --> 00:34:54,359
+process C
+
+621
+00:34:54,359 --> 00:34:56,879
+holds nothing so it's a process so it
+
+622
+00:34:56,879 --> 00:34:59,880
+holds nothing and the ones s so it wants
+
+623
+00:34:59,880 --> 00:35:02,820
+s so C holds nothing so there's nothing
+
+624
+00:35:02,820 --> 00:35:03,839
+here
+
+625
+00:35:03,839 --> 00:35:07,820
+process they holds you
+
+626
+00:35:08,280 --> 00:35:11,400
+process d
+
+627
+00:35:11,400 --> 00:35:13,200
+holds you
+
+628
+00:35:13,200 --> 00:35:18,660
+how you wants s and t Okay horses
+
+629
+00:35:18,660 --> 00:35:21,900
+D holds U is one
+
+630
+00:35:21,900 --> 00:35:23,579
+PC see how
+
+631
+00:35:23,579 --> 00:35:27,660
+do you wants s it won't
+
+632
+00:35:27,660 --> 00:35:29,820
+s right
+
+633
+00:35:29,820 --> 00:35:31,320
+and T
+
+634
+00:35:31,320 --> 00:35:33,900
+well it's holding you
+
+635
+00:35:33,900 --> 00:35:36,859
+holding you
+
+636
+00:35:37,320 --> 00:35:42,859
+you use the resource right and then
+
+637
+00:35:43,880 --> 00:35:47,460
+process e holds t
+
+638
+00:35:47,460 --> 00:35:51,060
+where's the person e
+
+639
+00:35:51,060 --> 00:35:53,520
+hold t
+
+640
+00:35:53,520 --> 00:35:57,660
+process e holds T so it's holds T So T
+
+641
+00:35:57,660 --> 00:36:02,000
+super point out to this and once we
+
+642
+00:36:04,020 --> 00:36:08,220
+we right once we process F holds W
+
+643
+00:36:08,220 --> 00:36:11,400
+process F holds w
+
+644
+00:36:11,400 --> 00:36:17,780
+we need to point F here this whole w
+
+645
+00:36:17,780 --> 00:36:20,880
+once s is one's s
+
+646
+00:36:20,880 --> 00:36:27,380
+process G holds V this is U process G
+
+647
+00:36:27,380 --> 00:36:32,180
+holds so we have a process G
+
+648
+00:36:32,180 --> 00:36:34,440
+holds V
+
+649
+00:36:34,440 --> 00:36:37,500
+holds V right yeah
+
+650
+00:36:37,500 --> 00:36:40,160
+oh
+
+651
+00:36:43,640 --> 00:36:47,099
+he wants U is once U
+
+652
+00:36:47,099 --> 00:36:50,099
+it's like this looks like this
+
+653
+00:36:50,099 --> 00:36:53,160
+looks like this so we have um so the
+
+654
+00:36:53,160 --> 00:36:56,780
+question is that is it the lock
+
+655
+00:36:59,339 --> 00:37:01,200
+is it the locks who thinks it's
+
+656
+00:37:01,200 --> 00:37:02,660
+deadlocked
+
+657
+00:37:02,660 --> 00:37:05,160
+so if you think it's that locked please
+
+658
+00:37:05,160 --> 00:37:07,800
+raise your hand
+
+659
+00:37:07,800 --> 00:37:09,599
+if you think anyone think he's not
+
+660
+00:37:09,599 --> 00:37:12,660
+deadlocked raise your hands
+
+661
+00:37:12,660 --> 00:37:14,520
+Andrew why you think it's not that
+
+662
+00:37:14,520 --> 00:37:16,940
+locked
+
+663
+00:37:17,780 --> 00:37:20,579
+yeah I just talked about that one minute
+
+664
+00:37:20,579 --> 00:37:23,640
+ago I remember that so this is very
+
+665
+00:37:23,640 --> 00:37:25,859
+cheeky you do not know the other three
+
+666
+00:37:25,859 --> 00:37:28,200
+conditions it's satisfied or not right
+
+667
+00:37:28,200 --> 00:37:29,880
+what are these three conditions the four
+
+668
+00:37:29,880 --> 00:37:31,260
+conditions
+
+669
+00:37:31,260 --> 00:37:34,880
+there are four conditions right
+
+670
+00:37:36,240 --> 00:37:38,220
+one two three four
+
+671
+00:37:38,220 --> 00:37:41,839
+what are the four conditions
+
+672
+00:37:42,119 --> 00:37:44,720
+yes
+
+673
+00:37:47,099 --> 00:37:51,000
+Mutual exclusion very good Mutual
+
+674
+00:37:51,000 --> 00:37:53,579
+Mutual Acts
+
+675
+00:37:53,579 --> 00:37:55,320
+conclusion
+
+676
+00:37:55,320 --> 00:37:59,599
+keyword Mutual exclusion
+
+677
+00:38:02,880 --> 00:38:06,800
+you if you can then yeah
+
+678
+00:38:07,579 --> 00:38:12,320
+preemption right prayer preemption
+
+679
+00:38:17,940 --> 00:38:20,960
+what else
+
+680
+00:38:21,000 --> 00:38:23,540
+yeah
+
+681
+00:38:23,579 --> 00:38:27,079
+hold on what is a hold down weight
+
+682
+00:38:32,599 --> 00:38:35,040
+that is not the definition of Holden
+
+683
+00:38:35,040 --> 00:38:37,700
+weight yeah
+
+684
+00:38:51,599 --> 00:38:56,220
+hold on what Holden weight is the
+
+685
+00:38:56,220 --> 00:39:00,060
+so here media's many systems that they
+
+686
+00:39:00,060 --> 00:39:02,339
+have a policy they say that you want
+
+687
+00:39:02,339 --> 00:39:04,920
+these three resources to get started if
+
+688
+00:39:04,920 --> 00:39:07,200
+you do not have this all together you
+
+689
+00:39:07,200 --> 00:39:10,200
+are not allowed to get started many risk
+
+690
+00:39:10,200 --> 00:39:11,540
+many many
+
+691
+00:39:11,540 --> 00:39:14,099
+systems actually have this policy and
+
+692
+00:39:14,099 --> 00:39:15,839
+when they implement this policy they
+
+693
+00:39:15,839 --> 00:39:18,420
+like they use a barrier right
+
+694
+00:39:18,420 --> 00:39:20,640
+if the gamers are not ready then we do
+
+695
+00:39:20,640 --> 00:39:23,040
+not start a game something like that so
+
+696
+00:39:23,040 --> 00:39:25,560
+hold on with means that this systems
+
+697
+00:39:25,560 --> 00:39:28,260
+allows you to hold some resource and
+
+698
+00:39:28,260 --> 00:39:30,180
+wait for another resource it give you
+
+699
+00:39:30,180 --> 00:39:33,900
+the option it gives you the option
+
+700
+00:39:33,900 --> 00:39:36,060
+since there's an option that you can
+
+701
+00:39:36,060 --> 00:39:37,680
+hold the resource and Away the other
+
+702
+00:39:37,680 --> 00:39:40,079
+resources like for a long time then that
+
+703
+00:39:40,079 --> 00:39:42,000
+creates the scenario that a dialogue may
+
+704
+00:39:42,000 --> 00:39:44,099
+happen and one last one
+
+705
+00:39:44,099 --> 00:39:47,119
+of a Deadlock
+
+706
+00:39:58,920 --> 00:40:03,260
+secular chain of the request right
+
+707
+00:40:04,619 --> 00:40:08,040
+so it's a circle okay so cool so cool
+
+708
+00:40:08,040 --> 00:40:10,200
+there's a circle of that so that is the
+
+709
+00:40:10,200 --> 00:40:12,720
+four conditions so is it a dialogue so
+
+710
+00:40:12,720 --> 00:40:15,000
+if you find this answer if you find this
+
+711
+00:40:15,000 --> 00:40:16,619
+question
+
+712
+00:40:16,619 --> 00:40:19,020
+so if they ask you like they ask you to
+
+713
+00:40:19,020 --> 00:40:20,940
+draw the resource allocation graph and
+
+714
+00:40:20,940 --> 00:40:23,040
+ask you if it's their logs then the
+
+715
+00:40:23,040 --> 00:40:24,480
+answer should be
+
+716
+00:40:24,480 --> 00:40:27,300
+um it's uncertain right we cannot we do
+
+717
+00:40:27,300 --> 00:40:29,640
+not know if it is it will be dialogued
+
+718
+00:40:29,640 --> 00:40:32,040
+one notch right only if this or four
+
+719
+00:40:32,040 --> 00:40:33,300
+conditions there's other three
+
+720
+00:40:33,300 --> 00:40:35,460
+conditions are also satisfied and we can
+
+721
+00:40:35,460 --> 00:40:37,140
+say that okay this system will be
+
+722
+00:40:37,140 --> 00:40:41,000
+dialogued will be deadlocked
+
+723
+00:40:41,099 --> 00:40:44,060
+Andrew
+
+724
+00:40:47,480 --> 00:40:50,520
+no in the diagram is actually
+
+725
+00:40:50,520 --> 00:40:54,060
+do not tell you anything do you you may
+
+726
+00:40:54,060 --> 00:40:55,920
+get some you you can get some
+
+727
+00:40:55,920 --> 00:40:58,079
+presumption about hold with but you you
+
+728
+00:40:58,079 --> 00:41:00,180
+do not get anything about the
+
+729
+00:41:00,180 --> 00:41:02,520
+preemption or Mutual exclusion from the
+
+730
+00:41:02,520 --> 00:41:04,800
+graph you can what you can only be sure
+
+731
+00:41:04,800 --> 00:41:07,079
+to get get information from a graph is
+
+732
+00:41:07,079 --> 00:41:09,420
+the secretion of the uh the the
+
+733
+00:41:09,420 --> 00:41:12,240
+relationship and the hold and weights
+
+734
+00:41:12,240 --> 00:41:14,160
+you can get this is what you can get but
+
+735
+00:41:14,160 --> 00:41:15,900
+you cannot know if it is mutual
+
+736
+00:41:15,900 --> 00:41:19,460
+exclusion or laundry I'm sure
+
+737
+00:41:35,000 --> 00:41:38,940
+so we have the strategies to deal with
+
+738
+00:41:38,940 --> 00:41:41,599
+the deadlock
+
+739
+00:41:42,180 --> 00:41:45,420
+the first strategy is to uh we just
+
+740
+00:41:45,420 --> 00:41:47,420
+ignore the problem
+
+741
+00:41:47,420 --> 00:41:51,500
+we think it's a
+
+742
+00:41:53,400 --> 00:41:55,800
+we think it's used as Fort and we just
+
+743
+00:41:55,800 --> 00:41:59,660
+say growth program and then uh
+
+744
+00:41:59,660 --> 00:42:03,359
+restart the system okay another is
+
+745
+00:42:03,359 --> 00:42:05,820
+detection and Recovery that means that
+
+746
+00:42:05,820 --> 00:42:08,880
+we let the problems be there and if the
+
+747
+00:42:08,880 --> 00:42:10,560
+problem is
+
+748
+00:42:10,560 --> 00:42:13,560
+the problem happens problem happens then
+
+749
+00:42:13,560 --> 00:42:15,780
+we fix it so it's like a very passive
+
+750
+00:42:15,780 --> 00:42:19,680
+approach because dialogue is it's like a
+
+751
+00:42:19,680 --> 00:42:22,020
+race condition race condition when race
+
+752
+00:42:22,020 --> 00:42:23,760
+condition happens it's not like when we
+
+753
+00:42:23,760 --> 00:42:25,800
+when we run the system many times then
+
+754
+00:42:25,800 --> 00:42:27,119
+we may find out the race condition
+
+755
+00:42:27,119 --> 00:42:29,099
+happens same as dialogue we meet right
+
+756
+00:42:29,099 --> 00:42:31,740
+for a long time then a deadlock may
+
+757
+00:42:31,740 --> 00:42:34,440
+happen the system hunts and there's no
+
+758
+00:42:34,440 --> 00:42:37,920
+response so the detection recovery means
+
+759
+00:42:37,920 --> 00:42:39,599
+that you just
+
+760
+00:42:39,599 --> 00:42:40,260
+um
+
+761
+00:42:40,260 --> 00:42:42,780
+which on the other until the problem
+
+762
+00:42:42,780 --> 00:42:45,060
+happens and then you fix that
+
+763
+00:42:45,060 --> 00:42:48,060
+and another another solution is dynamic
+
+764
+00:42:48,060 --> 00:42:51,300
+avoidance so Dynamic avoidance means the
+
+765
+00:42:51,300 --> 00:42:51,839
+um
+
+766
+00:42:51,839 --> 00:42:55,079
+it's a very active approach
+
+767
+00:42:55,079 --> 00:42:57,480
+so Dynamic avoidance is large I keep
+
+768
+00:42:57,480 --> 00:43:00,240
+tracking I keep tracking
+
+769
+00:43:00,240 --> 00:43:03,839
+the process each process schedules when
+
+770
+00:43:03,839 --> 00:43:06,000
+they are running I keep tracking it and
+
+771
+00:43:06,000 --> 00:43:09,119
+I do some dynamically resource
+
+772
+00:43:09,119 --> 00:43:11,160
+allocation I do some Dynamic resource
+
+773
+00:43:11,160 --> 00:43:12,660
+allocation
+
+774
+00:43:12,660 --> 00:43:13,859
+um
+
+775
+00:43:13,859 --> 00:43:16,020
+and the third one is prevention the
+
+776
+00:43:16,020 --> 00:43:18,000
+third one is prevention that is if we
+
+777
+00:43:18,000 --> 00:43:19,680
+can
+
+778
+00:43:19,680 --> 00:43:21,660
+just avoid
+
+779
+00:43:21,660 --> 00:43:25,319
+we can just if we can like
+
+780
+00:43:25,319 --> 00:43:27,660
+look at the four conditions if we can
+
+781
+00:43:27,660 --> 00:43:30,119
+obey any of the one of the conditions
+
+782
+00:43:30,119 --> 00:43:31,800
+then we can avoid the deadlock because
+
+783
+00:43:31,800 --> 00:43:33,660
+that one dialogue happens there is other
+
+784
+00:43:33,660 --> 00:43:37,020
+only they need to satisfy all these four
+
+785
+00:43:37,020 --> 00:43:40,079
+conditions so the most active ways is
+
+786
+00:43:40,079 --> 00:43:43,079
+that we do not we we just pick one
+
+787
+00:43:43,079 --> 00:43:45,660
+condition and then we prevent it from
+
+788
+00:43:45,660 --> 00:43:48,660
+happening forever then we can avoid we
+
+789
+00:43:48,660 --> 00:43:51,660
+can definitely avoid the uh
+
+790
+00:43:51,660 --> 00:43:55,500
+the dialogue okay so um think of that
+
+791
+00:43:55,500 --> 00:43:57,780
+what will be the first uh the the
+
+792
+00:43:57,780 --> 00:43:59,520
+solution that you example any real life
+
+793
+00:43:59,520 --> 00:44:03,140
+example about the equal problem
+
+794
+00:44:15,380 --> 00:44:19,640
+is actually very very
+
+795
+00:44:19,640 --> 00:44:22,140
+straightforward right we can just reboot
+
+796
+00:44:22,140 --> 00:44:24,599
+the system we can remove the device and
+
+797
+00:44:24,599 --> 00:44:27,780
+then reinsert that if the like device
+
+798
+00:44:27,780 --> 00:44:31,079
+driver locks up if a kitchen house role
+
+799
+00:44:31,079 --> 00:44:32,819
+responding we just kill the application
+
+800
+00:44:32,819 --> 00:44:34,339
+restarted
+
+801
+00:44:34,339 --> 00:44:37,140
+if application runs for a while and then
+
+802
+00:44:37,140 --> 00:44:39,300
+hungry checkpoint the application change
+
+803
+00:44:39,300 --> 00:44:41,579
+the environment restarted from the
+
+804
+00:44:41,579 --> 00:44:43,319
+previous checkpoints
+
+805
+00:44:43,319 --> 00:44:45,780
+this is what we have do we have done it
+
+806
+00:44:45,780 --> 00:44:49,700
+every day every day okay
+
+807
+00:44:51,839 --> 00:44:54,359
+so engineering will ask how often the
+
+808
+00:44:54,359 --> 00:44:56,339
+problem is impacted how often the system
+
+809
+00:44:56,339 --> 00:44:59,040
+crashes or other reasons and how serious
+
+810
+00:44:59,040 --> 00:45:02,220
+that look is so if if the dialog is
+
+811
+00:45:02,220 --> 00:45:05,400
+occurs on um like very rarely very
+
+812
+00:45:05,400 --> 00:45:07,980
+rarely like only happens once in every
+
+813
+00:45:07,980 --> 00:45:11,060
+five years then
+
+814
+00:45:11,900 --> 00:45:16,500
+then and then the circumstances is very
+
+815
+00:45:16,500 --> 00:45:19,260
+minimal right then what we can do is
+
+816
+00:45:19,260 --> 00:45:22,200
+just let it happen and then we restart
+
+817
+00:45:22,200 --> 00:45:24,800
+the system
+
+818
+00:45:25,859 --> 00:45:28,079
+so most Engineers would not be willing
+
+819
+00:45:28,079 --> 00:45:30,839
+to pay a large penalty in performance or
+
+820
+00:45:30,839 --> 00:45:33,780
+com uh convenience to animate the
+
+821
+00:45:33,780 --> 00:45:37,640
+dialogues that is why if you look at you
+
+822
+00:45:37,640 --> 00:45:40,140
+we should be very familiar with like
+
+823
+00:45:40,140 --> 00:45:42,060
+that
+
+824
+00:45:42,060 --> 00:45:46,560
+Rhino does OS is very mature and very uh
+
+825
+00:45:46,560 --> 00:45:49,800
+well designed but still the applications
+
+826
+00:45:49,800 --> 00:45:53,579
+May runs right the system not responding
+
+827
+00:45:53,579 --> 00:45:56,220
+then you just restart it it fixed all
+
+828
+00:45:56,220 --> 00:45:59,960
+problems most of times
+
+829
+00:46:04,140 --> 00:46:06,420
+okay then let's look at the second
+
+830
+00:46:06,420 --> 00:46:08,520
+solution the second solution detection
+
+831
+00:46:08,520 --> 00:46:12,359
+and Recovery the detection
+
+832
+00:46:12,359 --> 00:46:16,079
+and recovery so remember this is a very
+
+833
+00:46:16,079 --> 00:46:18,599
+passive approach this maybe not as
+
+834
+00:46:18,599 --> 00:46:20,760
+passive as a global problem but it's
+
+835
+00:46:20,760 --> 00:46:23,579
+still very passive approach it what it
+
+836
+00:46:23,579 --> 00:46:26,339
+did is that you are going to scan the
+
+837
+00:46:26,339 --> 00:46:28,020
+resource graph
+
+838
+00:46:28,020 --> 00:46:30,780
+can the resource Source allocation graph
+
+839
+00:46:30,780 --> 00:46:33,660
+detect the circles detect the circles
+
+840
+00:46:33,660 --> 00:46:37,440
+and then we know that we we scan the
+
+841
+00:46:37,440 --> 00:46:39,420
+resource graph and we found the circles
+
+842
+00:46:39,420 --> 00:46:43,800
+right like what we did before then
+
+843
+00:46:45,300 --> 00:46:48,900
+we just let the system runs for a while
+
+844
+00:46:48,900 --> 00:46:52,560
+for a while and one once the dialogue
+
+845
+00:46:52,560 --> 00:46:55,319
+happens happens we just kill the process
+
+846
+00:46:55,319 --> 00:46:57,480
+we can just secure the process and roll
+
+847
+00:46:57,480 --> 00:47:00,420
+back the action no back from the
+
+848
+00:47:00,420 --> 00:47:02,280
+beginning
+
+849
+00:47:02,280 --> 00:47:06,440
+and do it again okay do it again
+
+850
+00:47:06,480 --> 00:47:09,720
+so it is not always good right white is
+
+851
+00:47:09,720 --> 00:47:12,560
+not always good
+
+852
+00:47:13,079 --> 00:47:16,940
+why it is not always good
+
+853
+00:47:17,819 --> 00:47:20,480
+yes
+
+854
+00:47:21,960 --> 00:47:26,180
+it will still let it happen yeah
+
+855
+00:47:29,520 --> 00:47:33,000
+yeah that's it yeah so so here's the
+
+856
+00:47:33,000 --> 00:47:35,280
+thing so can you it means the question
+
+857
+00:47:35,280 --> 00:47:39,500
+asked can can we always well
+
+858
+00:47:43,619 --> 00:47:46,560
+can you always do this like a clear
+
+859
+00:47:46,560 --> 00:47:48,720
+process rather than the low back the
+
+860
+00:47:48,720 --> 00:47:51,300
+actions of that lock thread so
+
+861
+00:47:51,300 --> 00:47:54,180
+many times many times it's
+
+862
+00:47:54,180 --> 00:47:57,660
+one system hands like
+
+863
+00:47:57,660 --> 00:48:01,319
+We Care process we can cure it it's no
+
+864
+00:48:01,319 --> 00:48:04,260
+problem but we can it's not it's it's
+
+865
+00:48:04,260 --> 00:48:07,800
+not possible that we low back from the
+
+866
+00:48:07,800 --> 00:48:11,280
+like from the Arrow where the arrow
+
+867
+00:48:11,280 --> 00:48:13,319
+happens so look at the think of that
+
+868
+00:48:13,319 --> 00:48:15,420
+think of the tape disk printer example
+
+869
+00:48:15,420 --> 00:48:16,880
+think of that
+
+870
+00:48:16,880 --> 00:48:19,380
+after we've been printed for a while
+
+871
+00:48:19,380 --> 00:48:21,839
+then we found out there's that lock then
+
+872
+00:48:21,839 --> 00:48:25,020
+you carry you can process then you
+
+873
+00:48:25,020 --> 00:48:27,000
+restart the system but you cannot
+
+874
+00:48:27,000 --> 00:48:29,520
+continue print it right you have that
+
+875
+00:48:29,520 --> 00:48:32,819
+experiment right I I do have that I used
+
+876
+00:48:32,819 --> 00:48:34,980
+to print printer papers and then the
+
+877
+00:48:34,980 --> 00:48:37,380
+printer just not working then what what
+
+878
+00:48:37,380 --> 00:48:40,020
+we need to do is that we pull out the
+
+879
+00:48:40,020 --> 00:48:42,960
+paper and then print the whole paper
+
+880
+00:48:42,960 --> 00:48:45,420
+again we cannot print we cannot print
+
+881
+00:48:45,420 --> 00:48:48,440
+from the where the error happens
+
+882
+00:48:48,440 --> 00:48:52,079
+it is okay for just the printer paper or
+
+883
+00:48:52,079 --> 00:48:54,900
+short file but in the real life it is if
+
+884
+00:48:54,900 --> 00:48:56,540
+it is a very large
+
+885
+00:48:56,540 --> 00:49:00,960
+heavy long workflow it may not be worthy
+
+886
+00:49:00,960 --> 00:49:03,420
+to do that so detection recovery is not
+
+887
+00:49:03,420 --> 00:49:05,819
+good for this situation right
+
+888
+00:49:05,819 --> 00:49:08,700
+that so let's look take a look at how
+
+889
+00:49:08,700 --> 00:49:10,500
+the detection how the detection
+
+890
+00:49:10,500 --> 00:49:12,839
+detection recovery works in the code
+
+891
+00:49:12,839 --> 00:49:14,760
+okay so this will already finish the
+
+892
+00:49:14,760 --> 00:49:17,960
+code right we found out that
+
+893
+00:49:19,980 --> 00:49:22,500
+so the algorithms the algorithm to
+
+894
+00:49:22,500 --> 00:49:24,359
+detect the dialogues
+
+895
+00:49:24,359 --> 00:49:26,420
+um
+
+896
+00:49:26,520 --> 00:49:29,339
+so I want you to try that because you
+
+897
+00:49:29,339 --> 00:49:31,380
+are a good software engineering okay you
+
+898
+00:49:31,380 --> 00:49:33,240
+you need now now already give you the
+
+899
+00:49:33,240 --> 00:49:35,339
+you have the you have this graph right
+
+900
+00:49:35,339 --> 00:49:37,619
+now write an algorithm to find out that
+
+901
+00:49:37,619 --> 00:49:41,780
+that the circle in the graph
+
+902
+00:49:43,980 --> 00:49:46,020
+you learn the algorithms and data
+
+903
+00:49:46,020 --> 00:49:48,920
+structure class right
+
+904
+00:49:48,960 --> 00:49:51,780
+yeah the design design algorithms
+
+905
+00:49:51,780 --> 00:49:54,839
+through design algorithms to to detect
+
+906
+00:49:54,839 --> 00:49:57,440
+the deadlock
+
+907
+00:49:58,740 --> 00:50:01,380
+so you first need a data structure to
+
+908
+00:50:01,380 --> 00:50:04,520
+rapidly to
+
+909
+00:50:35,099 --> 00:50:37,520
+yourself
+
+910
+00:51:18,720 --> 00:51:20,760
+okay so let's look at how the textbook
+
+911
+00:51:20,760 --> 00:51:23,520
+data so you first need to see what kind
+
+912
+00:51:23,520 --> 00:51:26,960
+of you want to try okay man just
+
+913
+00:51:29,099 --> 00:51:30,900
+looks like it would be a basic wrap
+
+914
+00:51:30,900 --> 00:51:32,339
+algorithm where you'd have like some
+
+915
+00:51:32,339 --> 00:51:34,859
+sort of stack and but the main way that
+
+916
+00:51:34,859 --> 00:51:36,540
+would work at least efficiently is if
+
+917
+00:51:36,540 --> 00:51:39,300
+you could ID everything like ID that you
+
+918
+00:51:39,300 --> 00:51:42,119
+Traverse to be or Traverse to T like
+
+919
+00:51:42,119 --> 00:51:43,079
+yeah
+
+920
+00:51:43,079 --> 00:51:45,119
+yeah detects the loop that
+
+921
+00:51:45,119 --> 00:51:47,160
+that yeah like my first instinct would
+
+922
+00:51:47,160 --> 00:51:48,540
+be graph algorithm
+
+923
+00:51:48,540 --> 00:51:50,760
+yeah well kind of data structures do you
+
+924
+00:51:50,760 --> 00:51:51,900
+want to use
+
+925
+00:51:51,900 --> 00:51:55,160
+to implement that
+
+926
+00:51:56,400 --> 00:51:58,319
+yeah Lincoln is very good any other
+
+927
+00:51:58,319 --> 00:52:00,859
+options
+
+928
+00:52:01,500 --> 00:52:04,020
+yes back
+
+929
+00:52:04,020 --> 00:52:06,260
+yeah
+
+930
+00:52:07,800 --> 00:52:10,280
+what
+
+931
+00:52:11,280 --> 00:52:14,359
+is a start
+
+932
+00:52:16,680 --> 00:52:17,940
+okay
+
+933
+00:52:17,940 --> 00:52:21,500
+we do not talk about python
+
+934
+00:52:23,579 --> 00:52:25,920
+Let's do let's to see let's do three
+
+935
+00:52:25,920 --> 00:52:28,400
+okay see
+
+936
+00:52:29,180 --> 00:52:33,359
+what is that set in C Raptor what it can
+
+937
+00:52:33,359 --> 00:52:37,099
+be a vector it can be a ring right
+
+938
+00:52:43,319 --> 00:52:45,180
+okay so here's the thing what is the
+
+939
+00:52:45,180 --> 00:52:46,859
+python python language is a very
+
+940
+00:52:46,859 --> 00:52:48,900
+beautiful language but um
+
+941
+00:52:48,900 --> 00:52:51,059
+uh the problem is that the Python
+
+942
+00:52:51,059 --> 00:52:53,099
+language is actually wrapping a lot of
+
+943
+00:52:53,099 --> 00:52:54,480
+the
+
+944
+00:52:54,480 --> 00:52:55,559
+um
+
+945
+00:52:55,559 --> 00:52:57,359
+like low level or language programming
+
+946
+00:52:57,359 --> 00:53:00,420
+languages libraries right
+
+947
+00:53:00,420 --> 00:53:02,339
+they give the
+
+948
+00:53:02,339 --> 00:53:04,260
+they make you do not need to worry about
+
+949
+00:53:04,260 --> 00:53:07,440
+a lot of like libraries interfaces and
+
+950
+00:53:07,440 --> 00:53:09,780
+the complex this complicated data
+
+951
+00:53:09,780 --> 00:53:13,559
+structures but what I'm asking is uh
+
+952
+00:53:13,559 --> 00:53:15,420
+here's the takeaway is that you can use
+
+953
+00:53:15,420 --> 00:53:18,000
+any data structure to implement the I
+
+954
+00:53:18,000 --> 00:53:19,980
+mean the data structure what I refer to
+
+955
+00:53:19,980 --> 00:53:22,559
+is like see like in the C if you use the
+
+956
+00:53:22,559 --> 00:53:25,440
+Heap right you can use the arraylist you
+
+957
+00:53:25,440 --> 00:53:28,619
+can use the some Vector to represent the
+
+958
+00:53:28,619 --> 00:53:30,359
+Matrix right you can you can use
+
+959
+00:53:30,359 --> 00:53:31,319
+anything
+
+960
+00:53:31,319 --> 00:53:35,220
+okay so let's look at how the system did
+
+961
+00:53:35,220 --> 00:53:37,920
+how the textbook did okay I think I have
+
+962
+00:53:37,920 --> 00:53:39,839
+the algorithms here yeah yeah they use
+
+963
+00:53:39,839 --> 00:53:41,520
+this
+
+964
+00:53:41,520 --> 00:53:44,280
+so for
+
+965
+00:53:44,280 --> 00:53:47,460
+each node in in a graph performance
+
+966
+00:53:47,460 --> 00:53:49,559
+following five steps with a starting
+
+967
+00:53:49,559 --> 00:53:53,880
+starting notes okay initialize R to L to
+
+968
+00:53:53,880 --> 00:53:56,700
+empty list so if you use on release okay
+
+969
+00:53:56,700 --> 00:53:59,480
+and
+
+970
+00:54:00,559 --> 00:54:03,599
+as a marker and adding the current mode
+
+971
+00:54:03,599 --> 00:54:05,819
+to the end of our check to see if the
+
+972
+00:54:05,819 --> 00:54:08,520
+node now appears in our two times right
+
+973
+00:54:08,520 --> 00:54:10,800
+if so the graph contains a circle and
+
+974
+00:54:10,800 --> 00:54:13,319
+algorithms terminates there's a actually
+
+975
+00:54:13,319 --> 00:54:16,020
+there's a code in the in your textbook I
+
+976
+00:54:16,020 --> 00:54:18,000
+show how to implement that
+
+977
+00:54:18,000 --> 00:54:20,220
+so from giving notes if there's any
+
+978
+00:54:20,220 --> 00:54:23,040
+unmarked outgoing uncles if so goes to
+
+979
+00:54:23,040 --> 00:54:26,280
+Pro step 5 Notch goes to step six so
+
+980
+00:54:26,280 --> 00:54:28,619
+step five we pick the unmarked outgoing
+
+981
+00:54:28,619 --> 00:54:30,240
+uh
+
+982
+00:54:30,240 --> 00:54:33,119
+to add a random then Mark it then for
+
+983
+00:54:33,119 --> 00:54:35,099
+the new current snow then go to step
+
+984
+00:54:35,099 --> 00:54:37,440
+three if this is the initial notes the
+
+985
+00:54:37,440 --> 00:54:39,240
+graph does not contain circles
+
+986
+00:54:39,240 --> 00:54:42,059
+algorithms terminates otherwise the
+
+987
+00:54:42,059 --> 00:54:45,079
+third and the end
+
+988
+00:54:50,700 --> 00:54:52,380
+and this
+
+989
+00:54:52,380 --> 00:54:53,660
+um
+
+990
+00:54:53,660 --> 00:54:56,880
+Advanced version of that of this is that
+
+991
+00:54:56,880 --> 00:54:59,339
+if if there's multiple resources of each
+
+992
+00:54:59,339 --> 00:55:02,099
+type if the the multiple resources each
+
+993
+00:55:02,099 --> 00:55:05,460
+type then how they use that how they
+
+994
+00:55:05,460 --> 00:55:06,960
+detect that okay
+
+995
+00:55:06,960 --> 00:55:09,859
+let's keep that
+
+996
+00:55:11,880 --> 00:55:14,160
+so that is detection that is detection
+
+997
+00:55:14,160 --> 00:55:17,520
+well the takeaway here is that you
+
+998
+00:55:17,520 --> 00:55:21,180
+you can Implement any I believe you will
+
+999
+00:55:21,180 --> 00:55:23,460
+have a homework about a project about
+
+1000
+00:55:23,460 --> 00:55:26,280
+that like user implements are in data
+
+1001
+00:55:26,280 --> 00:55:28,859
+structures or algorithms to detect the
+
+1002
+00:55:28,859 --> 00:55:30,780
+and if there are any circles in a
+
+1003
+00:55:30,780 --> 00:55:32,700
+resource or location graph and then how
+
+1004
+00:55:32,700 --> 00:55:34,800
+to do the recovery recovery there's
+
+1005
+00:55:34,800 --> 00:55:37,040
+possible method of doing the recovery
+
+1006
+00:55:37,040 --> 00:55:40,319
+with the
+
+1007
+00:55:40,319 --> 00:55:43,200
+what we can do is that we just do a
+
+1008
+00:55:43,200 --> 00:55:45,300
+preemption preemption means that we take
+
+1009
+00:55:45,300 --> 00:55:48,599
+the resource away okay and then we Rose
+
+1010
+00:55:48,599 --> 00:55:51,300
+back another another approach is that
+
+1011
+00:55:51,300 --> 00:55:53,099
+we're loading back loading back means
+
+1012
+00:55:53,099 --> 00:55:54,480
+that okay this dialogue happens we're
+
+1013
+00:55:54,480 --> 00:55:57,119
+loading one step or two steps before and
+
+1014
+00:55:57,119 --> 00:55:58,859
+then try it again because not every time
+
+1015
+00:55:58,859 --> 00:56:00,540
+it has a Deadlock
+
+1016
+00:56:00,540 --> 00:56:03,000
+as long as we can keep the
+
+1017
+00:56:03,000 --> 00:56:05,099
+keep the
+
+1018
+00:56:05,099 --> 00:56:06,660
+the sequences
+
+1019
+00:56:06,660 --> 00:56:08,700
+and then the killing process healing
+
+1020
+00:56:08,700 --> 00:56:10,740
+process do it very beginning okay so
+
+1021
+00:56:10,740 --> 00:56:12,720
+this is the opposite approach of
+
+1022
+00:56:12,720 --> 00:56:16,160
+detection and Recovery
+
+1023
+00:56:18,240 --> 00:56:21,260
+so avoidance
+
+1024
+00:56:22,099 --> 00:56:24,300
+dynamically avoidance dynamically
+
+1025
+00:56:24,300 --> 00:56:26,720
+avoidance is a
+
+1026
+00:56:26,720 --> 00:56:30,240
+it's a active algorithm this is an
+
+1027
+00:56:30,240 --> 00:56:32,760
+active strategy for handling the
+
+1028
+00:56:32,760 --> 00:56:35,300
+dialogues
+
+1029
+00:56:37,859 --> 00:56:40,260
+and there's a very famous algorithm
+
+1030
+00:56:40,260 --> 00:56:44,339
+called the bank Bankers algorithms it is
+
+1031
+00:56:44,339 --> 00:56:46,260
+designed by the
+
+1032
+00:56:46,260 --> 00:56:48,720
+at this gesture it's just really heard
+
+1033
+00:56:48,720 --> 00:56:51,800
+of this I he developed a very famous
+
+1034
+00:56:51,800 --> 00:56:54,839
+algorithm right and you still know that
+
+1035
+00:56:54,839 --> 00:56:57,859
+the shortest
+
+1036
+00:56:58,319 --> 00:57:00,540
+yeah yeah yeah
+
+1037
+00:57:00,540 --> 00:57:03,119
+we find there's there's others map right
+
+1038
+00:57:03,119 --> 00:57:05,640
+we have we have many Source node and the
+
+1039
+00:57:05,640 --> 00:57:07,760
+destination nodes in the digestral
+
+1040
+00:57:07,760 --> 00:57:10,619
+implements our algorithms to calculate
+
+1041
+00:57:10,619 --> 00:57:13,260
+like from amine source to any
+
+1042
+00:57:13,260 --> 00:57:15,480
+destination what is the shortest path
+
+1043
+00:57:15,480 --> 00:57:17,700
+right shortest path
+
+1044
+00:57:17,700 --> 00:57:20,400
+yeah in the
+
+1045
+00:57:20,400 --> 00:57:22,920
+or he also designed this anchors
+
+1046
+00:57:22,920 --> 00:57:27,079
+algorithms okay so the key idea
+
+1047
+00:57:30,480 --> 00:57:32,760
+so you need to the key idea about the
+
+1048
+00:57:32,760 --> 00:57:34,200
+algorithms that
+
+1049
+00:57:34,200 --> 00:57:35,300
+um
+
+1050
+00:57:35,300 --> 00:57:39,240
+the the details of the algorithms is in
+
+1051
+00:57:39,240 --> 00:57:41,339
+your textbook I will not go to the very
+
+1052
+00:57:41,339 --> 00:57:43,680
+detailed but I will tell this is a very
+
+1053
+00:57:43,680 --> 00:57:45,359
+uh
+
+1054
+00:57:45,359 --> 00:57:47,280
+it's called dynamically avoidance
+
+1055
+00:57:47,280 --> 00:57:49,619
+ceramic avoidance so it's going it is
+
+1056
+00:57:49,619 --> 00:57:51,480
+going to Dynamic change the resource
+
+1057
+00:57:51,480 --> 00:57:54,859
+allocation so
+
+1058
+00:57:56,460 --> 00:57:58,980
+so you see they use they use stories so
+
+1059
+00:57:58,980 --> 00:58:01,920
+they use the credits to to represent the
+
+1060
+00:58:01,920 --> 00:58:04,440
+resource and then dynamically dividing
+
+1061
+00:58:04,440 --> 00:58:07,619
+the credits a long difference processes
+
+1062
+00:58:07,619 --> 00:58:11,339
+and the the trick here is that
+
+1063
+00:58:11,339 --> 00:58:14,880
+it will not it will not passively detect
+
+1064
+00:58:14,880 --> 00:58:17,640
+whether the
+
+1065
+00:58:17,640 --> 00:58:21,359
+the um there's a deadlock it will it the
+
+1066
+00:58:21,359 --> 00:58:25,079
+key idea is to let it let it runs for a
+
+1067
+00:58:25,079 --> 00:58:25,980
+while
+
+1068
+00:58:25,980 --> 00:58:28,619
+and then check then check if there is a
+
+1069
+00:58:28,619 --> 00:58:31,559
+possibility of the dialogue if it is
+
+1070
+00:58:31,559 --> 00:58:34,079
+then you know going to dynamically
+
+1071
+00:58:34,079 --> 00:58:37,140
+changing the water and the resource
+
+1072
+00:58:37,140 --> 00:58:41,240
+allocation between the process okay
+
+1073
+00:58:43,740 --> 00:58:46,460
+Dot
+
+1074
+00:58:48,359 --> 00:58:51,839
+okay and another approach okay this is
+
+1075
+00:58:51,839 --> 00:58:54,780
+more important because most of
+
+1076
+00:58:54,780 --> 00:58:57,359
+most of the in the real world
+
+1077
+00:58:57,359 --> 00:59:01,140
+most of times what we did to if we do
+
+1078
+00:59:01,140 --> 00:59:03,480
+really want to prevent the dialogue we
+
+1079
+00:59:03,480 --> 00:59:06,240
+choose the force approach dialogue
+
+1080
+00:59:06,240 --> 00:59:09,059
+prevention that is the most active most
+
+1081
+00:59:09,059 --> 00:59:12,140
+active approach
+
+1082
+00:59:12,839 --> 00:59:15,660
+so we just assured that at least one of
+
+1083
+00:59:15,660 --> 00:59:18,420
+the condition is Never Satisfied is
+
+1084
+00:59:18,420 --> 00:59:21,319
+never satisfied
+
+1085
+00:59:23,240 --> 00:59:26,280
+you guys can think creatively about how
+
+1086
+00:59:26,280 --> 00:59:29,940
+we can how we can do that how we can do
+
+1087
+00:59:29,940 --> 00:59:32,119
+that
+
+1088
+00:59:35,579 --> 00:59:38,339
+so mutual exclusion what a mutual
+
+1089
+00:59:38,339 --> 00:59:40,920
+Absolution means that a resource can
+
+1090
+00:59:40,920 --> 00:59:43,319
+only be given one person so how can we
+
+1091
+00:59:43,319 --> 00:59:46,819
+how can we avoid that
+
+1092
+00:59:47,280 --> 00:59:50,900
+how can we avoid that
+
+1093
+00:59:56,160 --> 00:59:58,640
+yes
+
+1094
+01:00:05,839 --> 01:00:08,760
+will quickly put it on the kill right
+
+1095
+01:00:08,760 --> 01:00:10,140
+and then the printer will print each
+
+1096
+01:00:10,140 --> 01:00:12,599
+item in the queue right so it's not no
+
+1097
+01:00:12,599 --> 01:00:14,520
+longer like mutually exclusive that one
+
+1098
+01:00:14,520 --> 01:00:17,040
+process can print at a time this is
+
+1099
+01:00:17,040 --> 01:00:20,880
+actually not this situation the the
+
+1100
+01:00:20,880 --> 01:00:23,700
+queue adding the papers in the queue of
+
+1101
+01:00:23,700 --> 01:00:26,180
+the printer
+
+1102
+01:00:30,000 --> 01:00:32,099
+okay then how about we do this we do
+
+1103
+01:00:32,099 --> 01:00:34,559
+this first hold and wait
+
+1104
+01:00:34,559 --> 01:00:38,480
+how can we avoid the Holden weight
+
+1105
+01:00:40,619 --> 01:00:45,000
+like a like um process one needs a tape
+
+1106
+01:00:45,000 --> 01:00:48,599
+or disk printer to start the process and
+
+1107
+01:00:48,599 --> 01:00:51,299
+it's hold the tape and the filter and
+
+1108
+01:00:51,299 --> 01:00:52,980
+the requests for the
+
+1109
+01:00:52,980 --> 01:00:56,059
+disk yes
+
+1110
+01:00:56,819 --> 01:01:00,180
+very good actually it is the answer if
+
+1111
+01:01:00,180 --> 01:01:02,760
+you do not you if only in the situation
+
+1112
+01:01:02,760 --> 01:01:04,980
+that I hold some resources and request
+
+1113
+01:01:04,980 --> 01:01:06,900
+them for resources then just to kill
+
+1114
+01:01:06,900 --> 01:01:08,940
+kill this process because
+
+1115
+01:01:08,940 --> 01:01:11,940
+we do not allow you to wait if you find
+
+1116
+01:01:11,940 --> 01:01:13,859
+you do not have enough resources to
+
+1117
+01:01:13,859 --> 01:01:16,740
+start you just we just let the OS to
+
+1118
+01:01:16,740 --> 01:01:19,260
+kill it kill it then we start a new one
+
+1119
+01:01:19,260 --> 01:01:21,480
+a new one may request some other
+
+1120
+01:01:21,480 --> 01:01:24,540
+resources that can it it can like it may
+
+1121
+01:01:24,540 --> 01:01:26,339
+just request one resources to get
+
+1122
+01:01:26,339 --> 01:01:28,980
+started right it's a hold on this is how
+
+1123
+01:01:28,980 --> 01:01:34,280
+we how we how we um how we um
+
+1124
+01:01:34,920 --> 01:01:37,440
+prevents the holding weight how we
+
+1125
+01:01:37,440 --> 01:01:40,799
+prevents the non-preemption
+
+1126
+01:01:40,799 --> 01:01:45,200
+how we prevent the lung preemption
+
+1127
+01:01:52,559 --> 01:01:56,099
+who prevent the non-preemtion prevents
+
+1128
+01:01:56,099 --> 01:01:59,000
+non-preemption
+
+1129
+01:02:02,400 --> 01:02:05,040
+yeah we just let it can be taken away
+
+1130
+01:02:05,040 --> 01:02:07,200
+right
+
+1131
+01:02:07,200 --> 01:02:10,319
+preemption means that
+
+1132
+01:02:10,319 --> 01:02:12,000
+preemption means that you can take away
+
+1133
+01:02:12,000 --> 01:02:13,799
+non-preemption means that the resource
+
+1134
+01:02:13,799 --> 01:02:16,680
+once you gather resources we cannot
+
+1135
+01:02:16,680 --> 01:02:19,740
+we get away right then we just allow for
+
+1136
+01:02:19,740 --> 01:02:22,079
+example if that is the case in the tape
+
+1137
+01:02:22,079 --> 01:02:25,140
+for this situation there's a
+
+1138
+01:02:25,140 --> 01:02:29,339
+Circle in the resource location graph
+
+1139
+01:02:29,339 --> 01:02:32,760
+we just let one of the process to
+
+1140
+01:02:32,760 --> 01:02:34,920
+um like admit
+
+1141
+01:02:34,920 --> 01:02:38,520
+like to let go right Let It Go
+
+1142
+01:02:38,520 --> 01:02:40,980
+make it to a surrounder and give the
+
+1143
+01:02:40,980 --> 01:02:42,960
+resource to others so that is long
+
+1144
+01:02:42,960 --> 01:02:44,339
+preemption and the circular ways
+
+1145
+01:02:44,339 --> 01:02:46,440
+circular ways so how we avoid the
+
+1146
+01:02:46,440 --> 01:02:48,900
+circular weights so let's look at let's
+
+1147
+01:02:48,900 --> 01:02:54,440
+look at the how did okay so um
+
+1148
+01:03:02,579 --> 01:03:05,579
+okay
+
+1149
+01:03:12,839 --> 01:03:15,660
+so the mutual exclusion what with this
+
+1150
+01:03:15,660 --> 01:03:17,760
+that we are going to uh support
+
+1151
+01:03:17,760 --> 01:03:20,760
+everything so support everything for the
+
+1152
+01:03:20,760 --> 01:03:22,140
+whole done ways we are going to request
+
+1153
+01:03:22,140 --> 01:03:24,599
+all resource initially
+
+1154
+01:03:24,599 --> 01:03:27,059
+for non-preemption we just allow you to
+
+1155
+01:03:27,059 --> 01:03:29,040
+take them take the resource away from
+
+1156
+01:03:29,040 --> 01:03:31,319
+circular weight which what we do is that
+
+1157
+01:03:31,319 --> 01:03:34,799
+we order the resource a new market
+
+1158
+01:03:34,799 --> 01:03:36,599
+um this is something tricky this is
+
+1159
+01:03:36,599 --> 01:03:41,599
+something tricky so I I'm going to uh
+
+1160
+01:03:52,380 --> 01:03:54,599
+so what is how have we avoided a
+
+1161
+01:03:54,599 --> 01:03:56,400
+circular weight circular weight how to
+
+1162
+01:03:56,400 --> 01:03:59,160
+avoid the circular weight
+
+1163
+01:03:59,160 --> 01:04:02,180
+how to
+
+1164
+01:04:03,059 --> 01:04:04,440
+avoid
+
+1165
+01:04:04,440 --> 01:04:06,119
+so if you
+
+1166
+01:04:06,119 --> 01:04:07,920
+flower weight
+
+1167
+01:04:07,920 --> 01:04:11,099
+out of white circles so we ordered the
+
+1168
+01:04:11,099 --> 01:04:14,160
+resource numerically numerically
+
+1169
+01:04:14,160 --> 01:04:17,900
+order the resource
+
+1170
+01:04:19,440 --> 01:04:21,839
+so in this situation in this situation
+
+1171
+01:04:21,839 --> 01:04:24,180
+who are the results
+
+1172
+01:04:24,180 --> 01:04:26,700
+the square resource right
+
+1173
+01:04:26,700 --> 01:04:28,680
+what we are going to do is that we gave
+
+1174
+01:04:28,680 --> 01:04:30,960
+them number we gave them number let's
+
+1175
+01:04:30,960 --> 01:04:36,740
+starting from this okay A B C D E F G
+
+1176
+01:04:37,440 --> 01:04:42,680
+yeah how about the a b c d e f g
+
+1177
+01:04:43,859 --> 01:04:47,760
+e f g one two
+
+1178
+01:04:47,760 --> 01:04:50,540
+Hy
+
+1179
+01:04:59,819 --> 01:05:02,579
+oh r s t
+
+1180
+01:05:02,579 --> 01:05:05,480
+u v
+
+1181
+01:05:09,000 --> 01:05:13,740
+r r r s r s
+
+1182
+01:05:13,740 --> 01:05:17,420
+I'm really bad at this
+
+1183
+01:05:19,500 --> 01:05:21,240
+so we're going to give them a number
+
+1184
+01:05:21,240 --> 01:05:26,000
+give them number and we
+
+1185
+01:05:26,760 --> 01:05:28,559
+we ask uh
+
+1186
+01:05:28,559 --> 01:05:31,440
+forces we also a process
+
+1187
+01:05:31,440 --> 01:05:34,440
+you can only get the resource in a
+
+1188
+01:05:34,440 --> 01:05:36,839
+sequence in a sequence
+
+1189
+01:05:36,839 --> 01:05:40,319
+for example if the a if a
+
+1190
+01:05:40,319 --> 01:05:42,240
+is holding
+
+1191
+01:05:42,240 --> 01:05:45,660
+if a is holding r r means the number
+
+1192
+01:05:45,660 --> 01:05:49,740
+three right and requesting four
+
+1193
+01:05:49,740 --> 01:05:52,859
+right then a is allowed to go
+
+1194
+01:05:52,859 --> 01:05:56,160
+a can succeed okay so a
+
+1195
+01:05:56,160 --> 01:05:58,859
+because he's doing something requesting
+
+1196
+01:05:58,859 --> 01:06:01,980
+records pneumatically three and four
+
+1197
+01:06:01,980 --> 01:06:04,079
+right three and a four okay then let's
+
+1198
+01:06:04,079 --> 01:06:08,819
+see let's see f f is holding eight
+
+1199
+01:06:08,819 --> 01:06:11,940
+holding age and requesting for four
+
+1200
+01:06:11,940 --> 01:06:13,260
+so
+
+1201
+01:06:13,260 --> 01:06:17,220
+do we allow F to succeed
+
+1202
+01:06:17,220 --> 01:06:20,220
+sorry
+
+1203
+01:06:20,579 --> 01:06:23,280
+f is f is another resource so f is a
+
+1204
+01:06:23,280 --> 01:06:25,859
+process okay it has this number it's
+
+1205
+01:06:25,859 --> 01:06:29,039
+holding the W and request of four
+
+1206
+01:06:29,039 --> 01:06:31,680
+we do not allow allow you to succeed why
+
+1207
+01:06:31,680 --> 01:06:34,940
+you can only request resource
+
+1208
+01:06:34,940 --> 01:06:37,440
+sequentially sequentially
+
+1209
+01:06:37,440 --> 01:06:40,920
+like a you can request the resource of
+
+1210
+01:06:40,920 --> 01:06:43,559
+three and then holding three and request
+
+1211
+01:06:43,559 --> 01:06:46,740
+for four but F can match holding A's and
+
+1212
+01:06:46,740 --> 01:06:49,880
+requesting four
+
+1213
+01:06:49,880 --> 01:06:53,220
+request a holding is and requesting some
+
+1214
+01:06:53,220 --> 01:06:55,680
+resource that has a marker saying that's
+
+1215
+01:06:55,680 --> 01:06:57,420
+nine will turn something like this okay
+
+1216
+01:06:57,420 --> 01:07:00,240
+then let's look at the D right these are
+
+1217
+01:07:00,240 --> 01:07:03,180
+holding four is holding four right this
+
+1218
+01:07:03,180 --> 01:07:05,700
+holding five and
+
+1219
+01:07:05,700 --> 01:07:09,420
+sorry these holding six and they
+
+1220
+01:07:09,420 --> 01:07:11,880
+requesting for one of five so it's not
+
+1221
+01:07:11,880 --> 01:07:14,400
+it will not happen okay we are going to
+
+1222
+01:07:14,400 --> 01:07:17,039
+delete this because you cannot holding
+
+1223
+01:07:17,039 --> 01:07:19,440
+something larger than what you have you
+
+1224
+01:07:19,440 --> 01:07:20,819
+need to request the resource
+
+1225
+01:07:20,819 --> 01:07:23,520
+sequentially then that is how the how
+
+1226
+01:07:23,520 --> 01:07:26,460
+are we going to how the algorithms can
+
+1227
+01:07:26,460 --> 01:07:29,400
+avoid the circular the uh the the
+
+1228
+01:07:29,400 --> 01:07:32,220
+circular weights problem right now let's
+
+1229
+01:07:32,220 --> 01:07:34,319
+say t right T
+
+1230
+01:07:34,319 --> 01:07:35,940
+oh sorry
+
+1231
+01:07:35,940 --> 01:07:40,680
+e is the holding holding t five and then
+
+1232
+01:07:40,680 --> 01:07:43,500
+one seven right it has succeed okay we
+
+1233
+01:07:43,500 --> 01:07:46,079
+allow this to succeed we allow this
+
+1234
+01:07:46,079 --> 01:07:47,160
+succeed
+
+1235
+01:07:47,160 --> 01:07:48,420
+okay
+
+1236
+01:07:48,420 --> 01:07:50,700
+and same thing let's see
+
+1237
+01:07:50,700 --> 01:07:52,740
+g g is
+
+1238
+01:07:52,740 --> 01:07:55,200
+holding
+
+1239
+01:07:55,200 --> 01:08:00,059
+seven and request for six so G
+
+1240
+01:08:00,059 --> 01:08:03,599
+G is not g converter right
+
+1241
+01:08:03,599 --> 01:08:07,440
+right the same as d d cannot hold six
+
+1242
+01:08:07,440 --> 01:08:10,140
+and then requesting four and five so are
+
+1243
+01:08:10,140 --> 01:08:13,380
+we in the same page yeah okay so that is
+
+1244
+01:08:13,380 --> 01:08:15,660
+how we're going to avoid a circular
+
+1245
+01:08:15,660 --> 01:08:16,920
+weight problem
+
+1246
+01:08:16,920 --> 01:08:18,299
+okay
+
+1247
+01:08:18,299 --> 01:08:20,299
+um
+
+1248
+01:08:22,319 --> 01:08:25,040
+yeah yeah
+
+1249
+01:08:31,439 --> 01:08:36,238
+so if you just avoid trying to uh avoid
+
+1250
+01:08:36,238 --> 01:08:38,640
+the number four condition
+
+1251
+01:08:38,640 --> 01:08:40,799
+yeah that's this case you can hold
+
+1252
+01:08:40,799 --> 01:08:43,020
+something and request something but the
+
+1253
+01:08:43,020 --> 01:08:44,759
+thing is that you need to order the
+
+1254
+01:08:44,759 --> 01:08:47,339
+resource pneumatically you can you can
+
+1255
+01:08:47,339 --> 01:08:48,899
+hold the resource and request a new
+
+1256
+01:08:48,899 --> 01:08:51,179
+resource but the resource you hold needs
+
+1257
+01:08:51,179 --> 01:08:53,640
+to be have a number smaller than the
+
+1258
+01:08:53,640 --> 01:08:56,839
+resource that you want yeah
+
+1259
+01:08:58,080 --> 01:08:59,759
+oh
+
+1260
+01:08:59,759 --> 01:09:02,219
+you can number it in any way you want
+
+1261
+01:09:02,219 --> 01:09:04,679
+what I do is just
+
+1262
+01:09:04,679 --> 01:09:09,660
+like in the order of ABCD effigy yeah
+
+1263
+01:09:09,660 --> 01:09:11,698
+then it doesn't matter it doesn't matter
+
+1264
+01:09:11,698 --> 01:09:13,738
+you can order it in any way
+
+1265
+01:09:13,738 --> 01:09:17,520
+you can order it any way you want and uh
+
+1266
+01:09:17,520 --> 01:09:20,580
+if you if you follow this rule it will
+
+1267
+01:09:20,580 --> 01:09:22,859
+not happen yeah not happen the the the
+
+1268
+01:09:22,859 --> 01:09:25,859
+resource
+
+1269
+01:09:26,160 --> 01:09:28,279
+um
+
+1270
+01:09:33,299 --> 01:09:37,439
+a very interesting question uh very
+
+1271
+01:09:37,439 --> 01:09:39,000
+interesting let me show you okay what is
+
+1272
+01:09:39,000 --> 01:09:40,859
+that
+
+1273
+01:09:40,859 --> 01:09:45,620
+okay so uh here
+
+1274
+01:09:49,380 --> 01:09:52,920
+okay a computer has six tapes six tapes
+
+1275
+01:09:52,920 --> 01:09:55,440
+with unprocessed Computing for the image
+
+1276
+01:09:55,440 --> 01:09:58,080
+process may need up to two drives for
+
+1277
+01:09:58,080 --> 01:10:00,239
+each value of n is the system guaranteed
+
+1278
+01:10:00,239 --> 01:10:04,280
+to be dialog free please explain
+
+1279
+01:10:09,000 --> 01:10:12,920
+for each value of um
+
+1280
+01:10:21,300 --> 01:10:25,760
+which value of an N can be
+
+1281
+01:10:34,860 --> 01:10:37,100
+oh you don't you do not need any
+
+1282
+01:10:37,100 --> 01:10:40,199
+calculator or formula to answer this
+
+1283
+01:10:40,199 --> 01:10:42,679
+okay
+
+1284
+01:10:44,540 --> 01:10:48,260
+or using your paper
+
+1285
+01:11:04,860 --> 01:11:07,199
+into some across the Zone there's some
+
+1286
+01:11:07,199 --> 01:11:10,760
+processes only mean one drive
+
+1287
+01:11:14,100 --> 01:11:18,080
+with some processes only need one
+
+1288
+01:11:18,239 --> 01:11:19,620
+yeah
+
+1289
+01:11:19,620 --> 01:11:21,420
+yeah you need to have the Assumption
+
+1290
+01:11:21,420 --> 01:11:25,560
+some process may need just the one
+
+1291
+01:11:25,560 --> 01:11:28,080
+but each process may lead up to two up
+
+1292
+01:11:28,080 --> 01:11:31,460
+to two Okay up to two
+
+1293
+01:11:32,400 --> 01:11:36,020
+for which value of n
+
+1294
+01:11:36,360 --> 01:11:38,520
+the system is guaranteed to be dialogue
+
+1295
+01:11:38,520 --> 01:11:40,820
+free
+
+1296
+01:11:46,080 --> 01:11:48,659
+it's guaranteed to be deadlock free so
+
+1297
+01:11:48,659 --> 01:11:51,300
+you need to think of the worst case you
+
+1298
+01:11:51,300 --> 01:11:54,800
+need to think of the worst case
+
+1299
+01:12:02,340 --> 01:12:04,320
+are we or are we assuming that you can
+
+1300
+01:12:04,320 --> 01:12:06,540
+make any assumption you can make any
+
+1301
+01:12:06,540 --> 01:12:08,280
+assumption but I'll tell you that each
+
+1302
+01:12:08,280 --> 01:12:11,580
+process may need up to two drives yeah
+
+1303
+01:12:11,580 --> 01:12:13,820
+Andrew
+
+1304
+01:12:14,659 --> 01:12:17,280
+there's only one process
+
+1305
+01:12:17,280 --> 01:12:20,239
+as if there's two there could be
+
+1306
+01:12:20,239 --> 01:12:22,800
+formed into a dead box
+
+1307
+01:12:22,800 --> 01:12:24,960
+so your answer is one
+
+1308
+01:12:24,960 --> 01:12:29,179
+where you you said n equals to one
+
+1309
+01:12:30,900 --> 01:12:32,820
+how about we said that only equals to
+
+1310
+01:12:32,820 --> 01:12:35,820
+one equals to single n equals to one who
+
+1311
+01:12:35,820 --> 01:12:37,199
+have the same answer
+
+1312
+01:12:37,199 --> 01:12:40,040
+raise your hand
+
+1313
+01:12:40,080 --> 01:12:43,199
+we'll have one one okay how about n
+
+1314
+01:12:43,199 --> 01:12:45,719
+equals to two
+
+1315
+01:12:45,719 --> 01:12:48,420
+I'm not just using n equals to how about
+
+1316
+01:12:48,420 --> 01:12:51,440
+n equals to three
+
+1317
+01:12:51,540 --> 01:12:53,820
+and equals to three one two three four
+
+1318
+01:12:53,820 --> 01:12:57,800
+five how about n equals to four
+
+1319
+01:13:00,420 --> 01:13:04,340
+no one thinks n equals to four
+
+1320
+01:13:05,520 --> 01:13:09,199
+how about n equals to five
+
+1321
+01:13:11,400 --> 01:13:12,840
+one
+
+1322
+01:13:12,840 --> 01:13:16,340
+about n equals to six
+
+1323
+01:13:24,659 --> 01:13:26,760
+n equals to seven it is single n equals
+
+1324
+01:13:26,760 --> 01:13:28,380
+to six now
+
+1325
+01:13:28,380 --> 01:13:32,120
+we guaranteed the other three conditions
+
+1326
+01:13:32,760 --> 01:13:35,520
+guaranteed to be deadlock free using the
+
+1327
+01:13:35,520 --> 01:13:38,120
+uh
+
+1328
+01:13:40,020 --> 01:13:42,420
+that's only think about that the the one
+
+1329
+01:13:42,420 --> 01:13:44,100
+condition that's the closing okay in
+
+1330
+01:13:44,100 --> 01:13:46,380
+this case
+
+1331
+01:13:46,380 --> 01:13:49,500
+n equals to six whole thing n equals to
+
+1332
+01:13:49,500 --> 01:13:51,860
+six
+
+1333
+01:13:57,420 --> 01:14:02,300
+so let's make it simple okay
+
+1334
+01:14:13,980 --> 01:14:17,820
+each process needs two drives this are
+
+1335
+01:14:17,820 --> 01:14:19,679
+exchangeable drives
+
+1336
+01:14:19,679 --> 01:14:21,960
+it's like change your drives each person
+
+1337
+01:14:21,960 --> 01:14:25,040
+may need to drive to
+
+1338
+01:14:27,719 --> 01:14:31,400
+which forces leads to drive
+
+1339
+01:14:48,480 --> 01:14:50,880
+so these are same drives the processor
+
+1340
+01:14:50,880 --> 01:14:54,980
+the same the unprocessor the same
+
+1341
+01:15:04,400 --> 01:15:06,780
+non-preemptive we assume this is
+
+1342
+01:15:06,780 --> 01:15:08,820
+non-preemptive we assume this Mutual
+
+1343
+01:15:08,820 --> 01:15:11,640
+exclusion we must we assume this Holden
+
+1344
+01:15:11,640 --> 01:15:12,840
+weight
+
+1345
+01:15:12,840 --> 01:15:15,120
+we assume all three conditions are
+
+1346
+01:15:15,120 --> 01:15:17,880
+satisfied in this case
+
+1347
+01:15:17,880 --> 01:15:21,600
+we just ask you like for which value of
+
+1348
+01:15:21,600 --> 01:15:23,580
+n the system guarantees to be dialog
+
+1349
+01:15:23,580 --> 01:15:24,900
+free
+
+1350
+01:15:24,900 --> 01:15:28,440
+so anyone thinks equals to six
+
+1351
+01:15:28,440 --> 01:15:30,800
+seven
+
+1352
+01:15:31,800 --> 01:15:34,739
+eight nine ten
+
+1353
+01:15:34,739 --> 01:15:37,980
+five who thinks is equal to five one
+
+1354
+01:15:37,980 --> 01:15:40,320
+student
+
+1355
+01:15:40,320 --> 01:15:41,640
+four
+
+1356
+01:15:41,640 --> 01:15:44,340
+no one thinks four
+
+1357
+01:15:44,340 --> 01:15:46,699
+three
+
+1358
+01:15:47,280 --> 01:15:49,280
+two
+
+1359
+01:15:50,280 --> 01:15:52,280
+one
+
+1360
+01:15:59,880 --> 01:16:03,600
+n equals to one so let's first go go
+
+1361
+01:16:03,600 --> 01:16:07,500
+look at this okay it's it's very it's
+
+1362
+01:16:07,500 --> 01:16:10,140
+not that difficult to try right it's not
+
+1363
+01:16:10,140 --> 01:16:12,179
+difficult to try that uh
+
+1364
+01:16:12,179 --> 01:16:14,520
+let's see
+
+1365
+01:16:14,520 --> 01:16:17,400
+we have we have six tapes it has six
+
+1366
+01:16:17,400 --> 01:16:20,960
+tapes these are six tapes
+
+1367
+01:16:24,179 --> 01:16:26,880
+six tapes right and we have
+
+1368
+01:16:26,880 --> 01:16:29,760
+um process we have unprocess so let's
+
+1369
+01:16:29,760 --> 01:16:32,280
+say if n equals to one we have only one
+
+1370
+01:16:32,280 --> 01:16:34,199
+process so P1
+
+1371
+01:16:34,199 --> 01:16:37,860
+P1 and P1 needs how many P1 this P1
+
+1372
+01:16:37,860 --> 01:16:40,140
+needs to two drives to get started right
+
+1373
+01:16:40,140 --> 01:16:42,719
+two drives up to two drives to get
+
+1374
+01:16:42,719 --> 01:16:44,280
+started right
+
+1375
+01:16:44,280 --> 01:16:47,400
+so there's no dialogue right
+
+1376
+01:16:47,400 --> 01:16:49,560
+and if n equals to one there's no
+
+1377
+01:16:49,560 --> 01:16:51,120
+dialogue right
+
+1378
+01:16:51,120 --> 01:16:53,820
+so because for example P1 can get any
+
+1379
+01:16:53,820 --> 01:16:57,300
+two any two no one is fighting the
+
+1380
+01:16:57,300 --> 01:16:59,159
+resource with it and P1 can get the
+
+1381
+01:16:59,159 --> 01:17:01,980
+resource and then successfully run it
+
+1382
+01:17:01,980 --> 01:17:05,159
+right so but how about p e n equals to
+
+1383
+01:17:05,159 --> 01:17:08,219
+two so we have P1 and P2 is there any
+
+1384
+01:17:08,219 --> 01:17:10,080
+dialogue
+
+1385
+01:17:10,080 --> 01:17:13,380
+is there any dialogue
+
+1386
+01:17:13,380 --> 01:17:16,020
+is there any dialogue yes they are aware
+
+1387
+01:17:16,020 --> 01:17:18,800
+why there are
+
+1388
+01:17:19,080 --> 01:17:21,300
+yeah what's your name
+
+1389
+01:17:21,300 --> 01:17:23,280
+March
+
+1390
+01:17:23,280 --> 01:17:26,060
+mache
+
+1391
+01:17:34,020 --> 01:17:36,600
+can only take two requesting take one so
+
+1392
+01:17:36,600 --> 01:17:38,520
+the question answers you that which
+
+1393
+01:17:38,520 --> 01:17:40,260
+value then the system guaranteed to be
+
+1394
+01:17:40,260 --> 01:17:42,659
+dialogue free so this the tapes are the
+
+1395
+01:17:42,659 --> 01:17:44,460
+same
+
+1396
+01:17:44,460 --> 01:17:46,500
+the table are the same the table are the
+
+1397
+01:17:46,500 --> 01:17:47,280
+same
+
+1398
+01:17:47,280 --> 01:17:48,900
+so let's say I know what you are talking
+
+1399
+01:17:48,900 --> 01:17:52,080
+about you you said P1 holds P one
+
+1400
+01:17:52,080 --> 01:17:56,880
+um getting one and two and then P2 needs
+
+1401
+01:17:56,880 --> 01:17:58,500
+two and three something like that right
+
+1402
+01:17:58,500 --> 01:18:01,500
+but I'm talking that these are the same
+
+1403
+01:18:01,500 --> 01:18:03,360
+type these are the same thing they are
+
+1404
+01:18:03,360 --> 01:18:06,620
+empty they are available
+
+1405
+01:18:11,100 --> 01:18:13,320
+it'll know which ones are being used or
+
+1406
+01:18:13,320 --> 01:18:14,659
+not
+
+1407
+01:18:14,659 --> 01:18:17,699
+the question answer for which value of
+
+1408
+01:18:17,699 --> 01:18:19,679
+the system guaranteed to be deadlock
+
+1409
+01:18:19,679 --> 01:18:21,840
+free guaranteed to be guaranteed to be
+
+1410
+01:18:21,840 --> 01:18:25,800
+download free so it's not across
+
+1411
+01:18:25,800 --> 01:18:27,600
+es or it is
+
+1412
+01:18:27,600 --> 01:18:29,060
+well
+
+1413
+01:18:29,060 --> 01:18:31,199
+so I
+
+1414
+01:18:31,199 --> 01:18:33,179
+let's see let's see if for one process
+
+1415
+01:18:33,179 --> 01:18:35,219
+there's it is guaranteed to be dialogue
+
+1416
+01:18:35,219 --> 01:18:37,500
+free so any can you can equal to one
+
+1417
+01:18:37,500 --> 01:18:39,600
+right what is the post what possible
+
+1418
+01:18:39,600 --> 01:18:41,940
+value of the question answered yeah I
+
+1419
+01:18:41,940 --> 01:18:43,440
+ask is that what are all the possible
+
+1420
+01:18:43,440 --> 01:18:46,980
+value of an right the max value of n so
+
+1421
+01:18:46,980 --> 01:18:49,860
+if P if n equals to 1 that is guaranteed
+
+1422
+01:18:49,860 --> 01:18:50,640
+to be
+
+1423
+01:18:50,640 --> 01:18:53,580
+dialog free but if n equals to two we
+
+1424
+01:18:53,580 --> 01:18:56,040
+have two process so P1 can get any of
+
+1425
+01:18:56,040 --> 01:18:58,260
+the two process P2 can also get any of
+
+1426
+01:18:58,260 --> 01:19:00,239
+the two processes so they can
+
+1427
+01:19:00,239 --> 01:19:02,760
+successfully finish their job there's no
+
+1428
+01:19:02,760 --> 01:19:06,000
+dialogue right even even let's say P1
+
+1429
+01:19:06,000 --> 01:19:08,460
+got one and two and P two one one and
+
+1430
+01:19:08,460 --> 01:19:11,400
+two also or two and three but P2 can
+
+1431
+01:19:11,400 --> 01:19:13,280
+wait it for a while and then try another
+
+1432
+01:19:13,280 --> 01:19:17,280
+approach okay it can get other resources
+
+1433
+01:19:17,280 --> 01:19:19,800
+so they can still finish their job they
+
+1434
+01:19:19,800 --> 01:19:22,679
+can still finish their job
+
+1435
+01:19:22,679 --> 01:19:25,020
+you see that they can still finish their
+
+1436
+01:19:25,020 --> 01:19:28,260
+job why because even P2 let's say P1 got
+
+1437
+01:19:28,260 --> 01:19:31,199
+one two one p two one two and three or
+
+1438
+01:19:31,199 --> 01:19:33,960
+P1 can eventually finish
+
+1439
+01:19:33,960 --> 01:19:36,780
+then P2 can go to another three
+
+1440
+01:19:36,780 --> 01:19:38,880
+let's think of that right so any how
+
+1441
+01:19:38,880 --> 01:19:40,980
+about n equals to three
+
+1442
+01:19:40,980 --> 01:19:43,980
+so we have P1 P2 P3
+
+1443
+01:19:43,980 --> 01:19:45,480
+right
+
+1444
+01:19:45,480 --> 01:19:48,020
+yeah
+
+1445
+01:19:51,199 --> 01:19:53,580
+six copies of the same resource rather
+
+1446
+01:19:53,580 --> 01:19:56,400
+than 60 degree sources yeah we think
+
+1447
+01:19:56,400 --> 01:19:58,560
+yeah they are in the they are the same
+
+1448
+01:19:58,560 --> 01:20:00,900
+tape right the same six tape drivers
+
+1449
+01:20:00,900 --> 01:20:04,640
+drivers they are just to drive
+
+1450
+01:20:15,000 --> 01:20:17,580
+even uh here's the trick even they are
+
+1451
+01:20:17,580 --> 01:20:19,679
+unique even you said they are unique the
+
+1452
+01:20:19,679 --> 01:20:22,140
+they're not still will not happening in
+
+1453
+01:20:22,140 --> 01:20:25,080
+n equals to two let's say P1 definitely
+
+1454
+01:20:25,080 --> 01:20:28,219
+need one and two
+
+1455
+01:20:28,320 --> 01:20:30,420
+right and the P2 will definitely need
+
+1456
+01:20:30,420 --> 01:20:31,739
+one on the two
+
+1457
+01:20:31,739 --> 01:20:35,420
+but P1 will finish right
+
+1458
+01:20:36,900 --> 01:20:39,000
+this is think think of Dar think over
+
+1459
+01:20:39,000 --> 01:20:41,640
+there okay so let's keep doing okay n
+
+1460
+01:20:41,640 --> 01:20:44,760
+equals to three p one p two P3 so and
+
+1461
+01:20:44,760 --> 01:20:47,580
+they they can still as long as as long
+
+1462
+01:20:47,580 --> 01:20:49,620
+as you have the resources they can start
+
+1463
+01:20:49,620 --> 01:20:52,800
+finish okay and n equals to four things
+
+1464
+01:20:52,800 --> 01:20:55,380
+for the same thing right
+
+1465
+01:20:55,380 --> 01:20:57,780
+oh this is something tricky
+
+1466
+01:20:57,780 --> 01:21:01,739
+let's directly go to n equals to 5.
+
+1467
+01:21:01,739 --> 01:21:04,199
+let's go to this let's go to this okay
+
+1468
+01:21:04,199 --> 01:21:08,100
+let's sorry let's close this I know this
+
+1469
+01:21:08,100 --> 01:21:11,120
+is a little tricky
+
+1470
+01:21:11,880 --> 01:21:14,300
+okay
+
+1471
+01:21:16,860 --> 01:21:19,320
+what if n equals to six let's directory
+
+1472
+01:21:19,320 --> 01:21:22,380
+go to a equals to six
+
+1473
+01:21:22,380 --> 01:21:25,500
+we said that this the
+
+1474
+01:21:25,500 --> 01:21:28,440
+each Force has many two drives to get
+
+1475
+01:21:28,440 --> 01:21:31,980
+started if n equals to six if n equals
+
+1476
+01:21:31,980 --> 01:21:33,540
+to six
+
+1477
+01:21:33,540 --> 01:21:36,120
+wait a bit that look
+
+1478
+01:21:36,120 --> 01:21:38,280
+no
+
+1479
+01:21:38,280 --> 01:21:42,420
+n equals to six there's six tables right
+
+1480
+01:21:42,420 --> 01:21:45,960
+each process get one tape
+
+1481
+01:21:45,960 --> 01:21:48,239
+each process got one tape
+
+1482
+01:21:48,239 --> 01:21:51,120
+concurrently
+
+1483
+01:21:51,120 --> 01:21:52,920
+each process got one type con
+
+1484
+01:21:52,920 --> 01:21:54,420
+concurrently
+
+1485
+01:21:54,420 --> 01:21:57,600
+and they are waiting for another
+
+1486
+01:21:57,600 --> 01:22:00,239
+tape to get started they holding ways
+
+1487
+01:22:00,239 --> 01:22:04,199
+right they hold this they hold this
+
+1488
+01:22:04,199 --> 01:22:06,840
+they hold some they hold the tape they
+
+1489
+01:22:06,840 --> 01:22:09,960
+hold the tape right here the same yeah
+
+1490
+01:22:09,960 --> 01:22:12,300
+let's do this hold they hold the tape
+
+1491
+01:22:12,300 --> 01:22:15,060
+these are four a tapes each of them hold
+
+1492
+01:22:15,060 --> 01:22:17,659
+one tape
+
+1493
+01:22:18,000 --> 01:22:21,719
+each of them hold one tape and they are
+
+1494
+01:22:21,719 --> 01:22:24,480
+they want another tape
+
+1495
+01:22:24,480 --> 01:22:26,460
+then because they need two tapes to get
+
+1496
+01:22:26,460 --> 01:22:27,900
+started
+
+1497
+01:22:27,900 --> 01:22:31,199
+once they once we break the we break the
+
+1498
+01:22:31,199 --> 01:22:33,540
+so-called then if any process is
+
+1499
+01:22:33,540 --> 01:22:35,280
+finished then it can release the
+
+1500
+01:22:35,280 --> 01:22:37,980
+resource right request hold and release
+
+1501
+01:22:37,980 --> 01:22:39,960
+the results request to use and release
+
+1502
+01:22:39,960 --> 01:22:42,360
+the results so if n equals to six
+
+1503
+01:22:42,360 --> 01:22:44,580
+there's a deadlock right it definitely
+
+1504
+01:22:44,580 --> 01:22:47,340
+has a deadlock right because if they
+
+1505
+01:22:47,340 --> 01:22:49,580
+each of them
+
+1506
+01:22:49,580 --> 01:22:53,159
+concurrently requesting sorry holding a
+
+1507
+01:22:53,159 --> 01:22:55,199
+resource and they are requesting any
+
+1508
+01:22:55,199 --> 01:22:57,600
+other tape
+
+1509
+01:22:57,600 --> 01:22:59,880
+then none of them none of them can get
+
+1510
+01:22:59,880 --> 01:23:02,760
+proceed none of them can get proceed
+
+1511
+01:23:02,760 --> 01:23:04,920
+right so n equals to six they are
+
+1512
+01:23:04,920 --> 01:23:06,840
+definitely a deadlock but how about n
+
+1513
+01:23:06,840 --> 01:23:10,260
+equals to five and equals to five
+
+1514
+01:23:10,260 --> 01:23:12,780
+and equal to five
+
+1515
+01:23:12,780 --> 01:23:15,060
+then the worst case is that the first
+
+1516
+01:23:15,060 --> 01:23:18,060
+the first five four sorry English to
+
+1517
+01:23:18,060 --> 01:23:20,640
+five the first
+
+1518
+01:23:20,640 --> 01:23:23,699
+the first four process each of them hold
+
+1519
+01:23:23,699 --> 01:23:26,699
+one resource hold one resource but the
+
+1520
+01:23:26,699 --> 01:23:29,219
+last suppose I still have two resources
+
+1521
+01:23:29,219 --> 01:23:30,900
+to get started
+
+1522
+01:23:30,900 --> 01:23:33,000
+the lasso process still have two
+
+1523
+01:23:33,000 --> 01:23:36,179
+resources to get started
+
+1524
+01:23:36,179 --> 01:23:38,780
+right
+
+1525
+01:23:39,840 --> 01:23:41,280
+so think over
+
+1526
+01:23:41,280 --> 01:23:43,860
+all this all this let's say we divide
+
+1527
+01:23:43,860 --> 01:23:46,500
+the resources to each the tapes to each
+
+1528
+01:23:46,500 --> 01:23:49,440
+of the process and then we have one tape
+
+1529
+01:23:49,440 --> 01:23:52,140
+rest one tape or the rest right we have
+
+1530
+01:23:52,140 --> 01:23:55,340
+one tip whoops yes
+
+1531
+01:23:59,100 --> 01:24:01,440
+yeah that is that you remember the
+
+1532
+01:24:01,440 --> 01:24:03,480
+definition with dialogue right I hold
+
+1533
+01:24:03,480 --> 01:24:05,159
+the resource I request another resource
+
+1534
+01:24:05,159 --> 01:24:07,560
+who is hold by someone else and she
+
+1535
+01:24:07,560 --> 01:24:10,320
+she's also waiting for my resources that
+
+1536
+01:24:10,320 --> 01:24:13,280
+is how the deadlock
+
+1537
+01:24:13,620 --> 01:24:16,400
+formed
+
+1538
+01:24:18,480 --> 01:24:21,600
+a sequential sequential sequential one
+
+1539
+01:24:21,600 --> 01:24:23,940
+with pneumatically ordering the
+
+1540
+01:24:23,940 --> 01:24:27,300
+resources that is our solution
+
+1541
+01:24:27,300 --> 01:24:29,460
+you mixing this concept
+
+1542
+01:24:29,460 --> 01:24:32,400
+that is our solution to avoid dialogue
+
+1543
+01:24:32,400 --> 01:24:34,440
+you remember let's let's come again okay
+
+1544
+01:24:34,440 --> 01:24:35,880
+what's the four conditions of the
+
+1545
+01:24:35,880 --> 01:24:38,100
+dialogue Mutual exclusion run hold on
+
+1546
+01:24:38,100 --> 01:24:40,440
+weights preemption sorry non-preemption
+
+1547
+01:24:40,440 --> 01:24:41,340
+and
+
+1548
+01:24:41,340 --> 01:24:43,620
+and the circular chain right and what's
+
+1549
+01:24:43,620 --> 01:24:47,520
+our four four strategies to handle that
+
+1550
+01:24:47,520 --> 01:24:50,580
+lock ignored problem right and then
+
+1551
+01:24:50,580 --> 01:24:53,520
+detox recovery a passive approach right
+
+1552
+01:24:53,520 --> 01:24:55,320
+and the third approach dynamical
+
+1553
+01:24:55,320 --> 01:24:57,179
+avoidance we talk about the bankers
+
+1554
+01:24:57,179 --> 01:25:00,300
+algorithms the digest chart design that
+
+1555
+01:25:00,300 --> 01:25:01,860
+algorithms and the first approach
+
+1556
+01:25:01,860 --> 01:25:05,000
+prevention problem and under the fourth
+
+1557
+01:25:05,000 --> 01:25:08,340
+strategy prevention problem we we think
+
+1558
+01:25:08,340 --> 01:25:10,739
+that the strategy is to avoid any of
+
+1559
+01:25:10,739 --> 01:25:13,500
+these conditions satisfied so for the to
+
+1560
+01:25:13,500 --> 01:25:15,239
+avoid the
+
+1561
+01:25:15,239 --> 01:25:18,540
+avoid the mutual exclusion what our
+
+1562
+01:25:18,540 --> 01:25:21,060
+Solutions do what to Spring everything
+
+1563
+01:25:21,060 --> 01:25:23,880
+right to avoid the Holden weights what
+
+1564
+01:25:23,880 --> 01:25:26,100
+we do is that we request the resource
+
+1565
+01:25:26,100 --> 01:25:28,679
+initially right to avoid the situation
+
+1566
+01:25:28,679 --> 01:25:31,679
+of preemption we
+
+1567
+01:25:31,679 --> 01:25:33,840
+we can allow them to take the resource
+
+1568
+01:25:33,840 --> 01:25:36,300
+away to avoid the solution to the
+
+1569
+01:25:36,300 --> 01:25:38,580
+situation of circular chain the circle
+
+1570
+01:25:38,580 --> 01:25:40,920
+the circle in we
+
+1571
+01:25:40,920 --> 01:25:43,320
+ordering the resources that is our
+
+1572
+01:25:43,320 --> 01:25:45,360
+solution right remember that we wouldn't
+
+1573
+01:25:45,360 --> 01:25:48,179
+we give the like for example we gave the
+
+1574
+01:25:48,179 --> 01:25:50,100
+watering number to this and we ask them
+
+1575
+01:25:50,100 --> 01:25:52,980
+you can only ordering the number but
+
+1576
+01:25:52,980 --> 01:25:55,620
+this is not uh this is not ask that okay
+
+1577
+01:25:55,620 --> 01:25:58,860
+this is asking you for what number of um
+
+1578
+01:25:58,860 --> 01:26:00,900
+it is guaranteed to be download free
+
+1579
+01:26:00,900 --> 01:26:02,760
+okay so first I tell you the answer okay
+
+1580
+01:26:02,760 --> 01:26:06,060
+n can be this value
+
+1581
+01:26:06,060 --> 01:26:08,940
+one can be one two three four five and
+
+1582
+01:26:08,940 --> 01:26:11,040
+can be this value so n cannot be
+
+1583
+01:26:11,040 --> 01:26:13,739
+anything larger than six larger or equal
+
+1584
+01:26:13,739 --> 01:26:16,560
+than six so it's actually so look at the
+
+1585
+01:26:16,560 --> 01:26:19,800
+six one one six one one there's six
+
+1586
+01:26:19,800 --> 01:26:22,560
+process then each of them hold one tape
+
+1587
+01:26:22,560 --> 01:26:24,480
+and they hold it forever
+
+1588
+01:26:24,480 --> 01:26:27,360
+they need to
+
+1589
+01:26:27,360 --> 01:26:29,040
+right they're holding forever they need
+
+1590
+01:26:29,040 --> 01:26:31,739
+to wait at least one process to receive
+
+1591
+01:26:31,739 --> 01:26:33,659
+what do you want to say Andrew
+
+1592
+01:26:33,659 --> 01:26:35,760
+I'm just like so the first example you
+
+1593
+01:26:35,760 --> 01:26:38,400
+gave was with the two like there's the
+
+1594
+01:26:38,400 --> 01:26:40,320
+three resources for the printer and then
+
+1595
+01:26:40,320 --> 01:26:42,300
+two processes and there is still a
+
+1596
+01:26:42,300 --> 01:26:43,800
+deadlock there even though there was
+
+1597
+01:26:43,800 --> 01:26:46,639
+less
+
+1598
+01:26:47,520 --> 01:26:49,620
+one of the processes can finish and then
+
+1599
+01:26:49,620 --> 01:26:51,900
+the process can go but this is
+
+1600
+01:26:51,900 --> 01:26:53,400
+guaranteed for no deadlock but the
+
+1601
+01:26:53,400 --> 01:26:54,719
+example she gave there was a deadlock
+
+1602
+01:26:54,719 --> 01:26:57,179
+right it doesn't well it says so things
+
+1603
+01:26:57,179 --> 01:26:59,880
+seems that uh
+
+1604
+01:26:59,880 --> 01:27:02,460
+and that's a good question okay so in
+
+1605
+01:27:02,460 --> 01:27:06,000
+this case you think of that these are
+
+1606
+01:27:06,000 --> 01:27:08,940
+different from that example these are
+
+1607
+01:27:08,940 --> 01:27:11,639
+they are the same resources okay the
+
+1608
+01:27:11,639 --> 01:27:14,040
+tape drives are the same okay the tape
+
+1609
+01:27:14,040 --> 01:27:16,679
+drives are the same and the things is
+
+1610
+01:27:16,679 --> 01:27:21,239
+the things is that that each of them so
+
+1611
+01:27:21,239 --> 01:27:24,360
+we asking for watch which value of and
+
+1612
+01:27:24,360 --> 01:27:27,060
+the maximum possible value of the end
+
+1613
+01:27:27,060 --> 01:27:28,800
+that the system guarantees to be
+
+1614
+01:27:28,800 --> 01:27:30,120
+dialogue free
+
+1615
+01:27:30,120 --> 01:27:31,800
+okay
+
+1616
+01:27:31,800 --> 01:27:35,159
+yeah the example you gave satisfied that
+
+1617
+01:27:35,159 --> 01:27:37,860
+condition but still showed a Deadlock
+
+1618
+01:27:37,860 --> 01:27:39,960
+so I'm I'm just like confused is it was
+
+1619
+01:27:39,960 --> 01:27:41,940
+it just like an example for example's
+
+1620
+01:27:41,940 --> 01:27:43,980
+sake or was it just like
+
+1621
+01:27:43,980 --> 01:27:48,080
+let me let me open that okay
+
+1622
+01:28:01,800 --> 01:28:04,460
+the other one
+
+1623
+01:28:05,179 --> 01:28:08,219
+actually you are you you let me use this
+
+1624
+01:28:08,219 --> 01:28:10,820
+okay you
+
+1625
+01:28:12,480 --> 01:28:14,820
+so think of that think of what I did oh
+
+1626
+01:28:14,820 --> 01:28:15,780
+sorry
+
+1627
+01:28:15,780 --> 01:28:17,400
+basically you're asking the same
+
+1628
+01:28:17,400 --> 01:28:20,239
+question like this
+
+1629
+01:28:20,680 --> 01:28:23,820
+[Applause]
+
+1630
+01:28:23,820 --> 01:28:26,760
+we have owning two resources right we
+
+1631
+01:28:26,760 --> 01:28:28,679
+have 22 resources
+
+1632
+01:28:28,679 --> 01:28:33,480
+p is holding p p is holding
+
+1633
+01:28:33,480 --> 01:28:38,880
+two and asking for one P1 P2 is
+
+1634
+01:28:38,880 --> 01:28:41,880
+holding one and asking for two
+
+1635
+01:28:41,880 --> 01:28:44,520
+right that is dialogue right but here in
+
+1636
+01:28:44,520 --> 01:28:47,040
+the case in the case there's a six there
+
+1637
+01:28:47,040 --> 01:28:48,900
+are six of them
+
+1638
+01:28:48,900 --> 01:28:51,000
+there are six of them so and they are
+
+1639
+01:28:51,000 --> 01:28:52,800
+same they are the same so it's
+
+1640
+01:28:52,800 --> 01:28:54,780
+guaranteed if the question answers that
+
+1641
+01:28:54,780 --> 01:28:56,880
+it's guaranteed to be dialogue free so
+
+1642
+01:28:56,880 --> 01:29:00,360
+P2 can get it from someone else you see
+
+1643
+01:29:00,360 --> 01:29:02,880
+that in this case it's only two it's
+
+1644
+01:29:02,880 --> 01:29:06,679
+only two available resources
+
+1645
+01:29:13,920 --> 01:29:16,100
+um
+
+1646
+01:29:21,320 --> 01:29:23,880
+what I want to say is that the drive are
+
+1647
+01:29:23,880 --> 01:29:25,560
+the same the drive are the same yeah
+
+1648
+01:29:25,560 --> 01:29:30,560
+yeah you got what I'm saying okay
+
+1649
+01:29:37,500 --> 01:29:40,380
+okay so this is today's class so if you
+
+1650
+01:29:40,380 --> 01:29:42,360
+have any questions you can feel free to
+
+1651
+01:29:42,360 --> 01:29:45,179
+comfortable and ever help you okay thank
+
+1652
+01:29:45,179 --> 01:29:47,360
+you
+
+1653
+01:29:59,880 --> 01:30:02,600
+hey
+

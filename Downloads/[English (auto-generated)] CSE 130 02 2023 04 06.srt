@@ -1,0 +1,6636 @@
+1
+00:00:00,000 --> 00:00:02,520
+Google has already capturing and
+
+2
+00:00:02,520 --> 00:00:04,680
+recorded that I will not do I will not
+
+3
+00:00:04,680 --> 00:00:07,620
+upload my own version but since today's
+
+4
+00:00:07,620 --> 00:00:12,000
+course I have already recorded okay
+
+5
+00:00:12,000 --> 00:00:14,880
+so any questions oh and one final thing
+
+6
+00:00:14,880 --> 00:00:17,400
+about a waiting list I I do not handle
+
+7
+00:00:17,400 --> 00:00:20,100
+waiting this uh link also does not
+
+8
+00:00:20,100 --> 00:00:21,980
+handle waiting lists so we already
+
+9
+00:00:21,980 --> 00:00:25,080
+discourse this class is already full we
+
+10
+00:00:25,080 --> 00:00:26,580
+have no seat available
+
+11
+00:00:26,580 --> 00:00:28,740
+but if you are in the waiting list and
+
+12
+00:00:28,740 --> 00:00:32,460
+if the other students they decide to a
+
+13
+00:00:32,460 --> 00:00:35,100
+job this course you can be automatically
+
+14
+00:00:35,100 --> 00:00:37,920
+got in but that is out of my control so
+
+15
+00:00:37,920 --> 00:00:39,120
+I cannot give
+
+16
+00:00:39,120 --> 00:00:42,719
+any one priority saying that you can get
+
+17
+00:00:42,719 --> 00:00:45,660
+this special code something like that
+
+18
+00:00:45,660 --> 00:00:46,739
+yeah
+
+19
+00:00:46,739 --> 00:00:49,079
+yeah so uh
+
+20
+00:00:49,079 --> 00:00:51,600
+I cannot help yeah unfortunately because
+
+21
+00:00:51,600 --> 00:00:53,940
+we have very limited ta and the tutor
+
+22
+00:00:53,940 --> 00:00:57,360
+and reader and the class is already full
+
+23
+00:00:57,360 --> 00:00:59,360
+um
+
+24
+00:01:00,539 --> 00:01:03,780
+okay so uh so let's start today's course
+
+25
+00:01:03,780 --> 00:01:06,119
+so before we start today's course I want
+
+26
+00:01:06,119 --> 00:01:09,060
+to get a quick review about what we have
+
+27
+00:01:09,060 --> 00:01:11,939
+learned in our last lecture so I'm going
+
+28
+00:01:11,939 --> 00:01:14,400
+to ask you questions then you can raise
+
+29
+00:01:14,400 --> 00:01:16,799
+your hands and uh answer the question
+
+30
+00:01:16,799 --> 00:01:18,780
+it's all that we have learned in our
+
+31
+00:01:18,780 --> 00:01:21,659
+last lecture okay so what is operating
+
+32
+00:01:21,659 --> 00:01:24,360
+systems in our last lecture
+
+33
+00:01:24,360 --> 00:01:27,420
+that we talk about operating systems and
+
+34
+00:01:27,420 --> 00:01:29,659
+uh
+
+35
+00:01:29,880 --> 00:01:33,119
+especially I gave two keywords to
+
+36
+00:01:33,119 --> 00:01:36,540
+describe the operating system rule yes
+
+37
+00:01:36,540 --> 00:01:38,820
+it has very good abstraction and
+
+38
+00:01:38,820 --> 00:01:40,799
+Resource Management so can anyone
+
+39
+00:01:40,799 --> 00:01:43,680
+describe to us what is exactly an
+
+40
+00:01:43,680 --> 00:01:46,280
+abstraction
+
+41
+00:01:48,060 --> 00:01:50,659
+you again
+
+42
+00:01:57,360 --> 00:02:00,060
+yes very good very good okay and uh
+
+43
+00:02:00,060 --> 00:02:02,759
+Resource Management resource manager you
+
+44
+00:02:02,759 --> 00:02:06,680
+can take say to resource manager
+
+45
+00:02:06,960 --> 00:02:09,419
+yes
+
+46
+00:02:09,419 --> 00:02:12,200
+what
+
+47
+00:02:13,200 --> 00:02:14,819
+yeah very good that's my next question
+
+48
+00:02:14,819 --> 00:02:18,060
+yes so resource manager what is resource
+
+49
+00:02:18,060 --> 00:02:20,459
+manager resource manager is managing
+
+50
+00:02:20,459 --> 00:02:24,239
+resource so what is the resource
+
+51
+00:02:24,239 --> 00:02:26,340
+resource is the hardware right the
+
+52
+00:02:26,340 --> 00:02:29,459
+hardware the system has okay right now
+
+53
+00:02:29,459 --> 00:02:31,980
+if you are working on your laptop you
+
+54
+00:02:31,980 --> 00:02:34,440
+may not have that feeling but
+
+55
+00:02:34,440 --> 00:02:38,220
+long long time ago long time ago the os1
+
+56
+00:02:38,220 --> 00:02:40,020
+OS is designed
+
+57
+00:02:40,020 --> 00:02:42,599
+the computer is very expensive and we
+
+58
+00:02:42,599 --> 00:02:44,099
+call that computer is like high
+
+59
+00:02:44,099 --> 00:02:46,200
+performance servers we call it a server
+
+60
+00:02:46,200 --> 00:02:48,900
+and not only one user is using that
+
+61
+00:02:48,900 --> 00:02:51,239
+server many users users they have their
+
+62
+00:02:51,239 --> 00:02:55,140
+own program on it that is why we need a
+
+63
+00:02:55,140 --> 00:02:58,800
+resource manager and even for now you
+
+64
+00:02:58,800 --> 00:03:01,319
+are the own owner of your laptop let's
+
+65
+00:03:01,319 --> 00:03:03,720
+say that but you are not using one
+
+66
+00:03:03,720 --> 00:03:06,000
+program not running one program on top
+
+67
+00:03:06,000 --> 00:03:08,160
+of it okay
+
+68
+00:03:08,160 --> 00:03:09,120
+um
+
+69
+00:03:09,120 --> 00:03:12,360
+while you use your word you also listen
+
+70
+00:03:12,360 --> 00:03:15,659
+to the music the NPC right the music or
+
+71
+00:03:15,659 --> 00:03:18,180
+watch the Youtube then that is all
+
+72
+00:03:18,180 --> 00:03:20,580
+concurrent running program and resource
+
+73
+00:03:20,580 --> 00:03:23,040
+manager means that
+
+74
+00:03:23,040 --> 00:03:27,319
+the OS operating system needs to design
+
+75
+00:03:27,319 --> 00:03:31,379
+who got what kind of resource
+
+76
+00:03:31,379 --> 00:03:34,920
+so there's two type of sharings one is
+
+77
+00:03:34,920 --> 00:03:38,700
+time sharing and one is space sharing so
+
+78
+00:03:38,700 --> 00:03:40,739
+for memory
+
+79
+00:03:40,739 --> 00:03:43,799
+memory one multiple programs
+
+80
+00:03:43,799 --> 00:03:46,620
+are concurrently using the memory is it
+
+81
+00:03:46,620 --> 00:03:49,560
+time sharing or space sharing
+
+82
+00:03:49,560 --> 00:03:51,840
+it's face sharing yeah
+
+83
+00:03:51,840 --> 00:03:54,980
+how about printer
+
+84
+00:03:56,159 --> 00:03:58,860
+printer if
+
+85
+00:03:58,860 --> 00:04:01,200
+yeah printer is time right because you
+
+86
+00:04:01,200 --> 00:04:03,959
+cannot print two PDF at the same time it
+
+87
+00:04:03,959 --> 00:04:06,840
+will be messy right only one user can
+
+88
+00:04:06,840 --> 00:04:08,879
+use the printer at one time that is time
+
+89
+00:04:08,879 --> 00:04:12,780
+sharing so same thing a CPU is also time
+
+90
+00:04:12,780 --> 00:04:14,879
+sharing okay that is what we have
+
+91
+00:04:14,879 --> 00:04:18,000
+learned in our last uh first lecture and
+
+92
+00:04:18,000 --> 00:04:20,780
+another questions
+
+93
+00:04:21,180 --> 00:04:23,580
+okay so this is OS if we can see that
+
+94
+00:04:23,580 --> 00:04:25,919
+the OS is between the sitting between
+
+95
+00:04:25,919 --> 00:04:28,020
+the um
+
+96
+00:04:28,020 --> 00:04:30,840
+so hardware and the software okay the
+
+97
+00:04:30,840 --> 00:04:34,020
+software so OS has two mode the user
+
+98
+00:04:34,020 --> 00:04:36,060
+mode and the kernel moves right so
+
+99
+00:04:36,060 --> 00:04:37,919
+what's the differences between these two
+
+100
+00:04:37,919 --> 00:04:41,479
+nodes two modes
+
+101
+00:04:48,419 --> 00:04:50,580
+what are the differences what are the
+
+102
+00:04:50,580 --> 00:04:52,699
+difference
+
+103
+00:04:58,520 --> 00:05:02,360
+so and yeah
+
+104
+00:05:08,900 --> 00:05:11,880
+it comes
+
+105
+00:05:11,880 --> 00:05:15,500
+up I'm more familiar with the
+
+106
+00:05:18,900 --> 00:05:21,180
+that's a good question why they name it
+
+107
+00:05:21,180 --> 00:05:24,780
+like that Colonel mode
+
+108
+00:05:24,780 --> 00:05:27,720
+but we first needs to know why we need
+
+109
+00:05:27,720 --> 00:05:31,259
+to Define two modes kernel mode and user
+
+110
+00:05:31,259 --> 00:05:33,360
+mode why we need to Define that why we
+
+111
+00:05:33,360 --> 00:05:37,160
+need to distinguish these two modes
+
+112
+00:05:48,620 --> 00:05:51,300
+I set up
+
+113
+00:05:51,300 --> 00:05:53,940
+very good very good thank you yeah very
+
+114
+00:05:53,940 --> 00:05:58,259
+good so why we need kernel modes because
+
+115
+00:05:58,259 --> 00:06:00,720
+there's some operations we know OS is
+
+116
+00:06:00,720 --> 00:06:03,060
+managing its abstraction and resource
+
+117
+00:06:03,060 --> 00:06:04,740
+manager right it's actually for resource
+
+118
+00:06:04,740 --> 00:06:07,500
+manager always needs to design
+
+119
+00:06:07,500 --> 00:06:10,800
+who it has some special resources like
+
+120
+00:06:10,800 --> 00:06:13,380
+CPU memory this is a very special
+
+121
+00:06:13,380 --> 00:06:17,520
+resources and Os needs to design do a
+
+122
+00:06:17,520 --> 00:06:20,340
+very fair distribution of these
+
+123
+00:06:20,340 --> 00:06:23,340
+resources to multiple programs
+
+124
+00:06:23,340 --> 00:06:27,960
+you do not want any normal user to
+
+125
+00:06:27,960 --> 00:06:31,319
+change or ask this decision
+
+126
+00:06:31,319 --> 00:06:35,340
+so for example if there's no user mode
+
+127
+00:06:35,340 --> 00:06:37,800
+and the kernel mode everything is in one
+
+128
+00:06:37,800 --> 00:06:41,759
+mode and we say it user mode then I when
+
+129
+00:06:41,759 --> 00:06:44,819
+I write a program I can easily managing
+
+130
+00:06:44,819 --> 00:06:46,560
+the memory
+
+131
+00:06:46,560 --> 00:06:50,460
+I can allocate a lot of memory and a lot
+
+132
+00:06:50,460 --> 00:06:53,340
+of CPU time to my program
+
+133
+00:06:53,340 --> 00:06:56,160
+and then the other programs will not
+
+134
+00:06:56,160 --> 00:06:58,880
+have enough time
+
+135
+00:06:59,100 --> 00:07:01,919
+so think of that think of that
+
+136
+00:07:01,919 --> 00:07:04,800
+your parents is using using the experts
+
+137
+00:07:04,800 --> 00:07:06,539
+computer science experts and using your
+
+138
+00:07:06,539 --> 00:07:09,380
+laptop and he changing your OS he
+
+139
+00:07:09,380 --> 00:07:11,940
+especially changed at the limits the
+
+140
+00:07:11,940 --> 00:07:14,580
+time that you can play the games
+
+141
+00:07:14,580 --> 00:07:17,460
+whenever you play the games the CPU just
+
+142
+00:07:17,460 --> 00:07:19,259
+do not run link that's not running or
+
+143
+00:07:19,259 --> 00:07:20,880
+memory that's not allocating enough
+
+144
+00:07:20,880 --> 00:07:23,539
+resources
+
+145
+00:07:24,380 --> 00:07:29,539
+so from many special special
+
+146
+00:07:29,539 --> 00:07:31,440
+instructions
+
+147
+00:07:31,440 --> 00:07:33,960
+it's easy to understand right you do not
+
+148
+00:07:33,960 --> 00:07:37,139
+want to the normal user the average user
+
+149
+00:07:37,139 --> 00:07:39,539
+to change it then you put that in the
+
+150
+00:07:39,539 --> 00:07:43,319
+kernel mode so many many operations and
+
+151
+00:07:43,319 --> 00:07:45,620
+what we will learn in this course
+
+152
+00:07:45,620 --> 00:07:49,620
+they're all in the Chronos they're all
+
+153
+00:07:49,620 --> 00:07:51,960
+in the chronomous what you have learned
+
+154
+00:07:51,960 --> 00:07:55,199
+in other courses for example if you
+
+155
+00:07:55,199 --> 00:07:58,259
+learned in programming languages or the
+
+156
+00:07:58,259 --> 00:07:58,880
+um
+
+157
+00:07:58,880 --> 00:08:03,120
+algorithms machine learnings AI courses
+
+158
+00:08:03,120 --> 00:08:05,639
+the operations you did
+
+159
+00:08:05,639 --> 00:08:08,759
+only stands in the user mode okay
+
+160
+00:08:08,759 --> 00:08:10,740
+so what we are going to learn now is
+
+161
+00:08:10,740 --> 00:08:13,740
+that what kind of os provides to
+
+162
+00:08:13,740 --> 00:08:17,780
+managing the resources in a kernel mode
+
+163
+00:08:21,120 --> 00:08:23,580
+or hidden when we are talking about this
+
+164
+00:08:23,580 --> 00:08:26,340
+we especially talk about the
+
+165
+00:08:26,340 --> 00:08:27,840
+um
+
+166
+00:08:27,840 --> 00:08:30,539
+if you still remember we talk about the
+
+167
+00:08:30,539 --> 00:08:31,500
+data
+
+168
+00:08:31,500 --> 00:08:33,659
+pass transfers between different
+
+169
+00:08:33,659 --> 00:08:36,360
+components in the computer hardware
+
+170
+00:08:36,360 --> 00:08:39,360
+right
+
+171
+00:08:40,380 --> 00:08:43,860
+so I'll show you a question if
+
+172
+00:08:43,860 --> 00:08:46,740
+let's say I'm I'm
+
+173
+00:08:46,740 --> 00:08:48,920
+I just program our
+
+174
+00:08:48,920 --> 00:08:52,500
+very simple program okay A plus b one
+
+175
+00:08:52,500 --> 00:08:55,560
+plus two plus three so
+
+176
+00:08:55,560 --> 00:08:57,660
+I finished that
+
+177
+00:08:57,660 --> 00:09:00,959
+I'm going to save that in the disk
+
+178
+00:09:00,959 --> 00:09:03,839
+and then run it okay
+
+179
+00:09:03,839 --> 00:09:07,920
+okay anyone tells me the data pass
+
+180
+00:09:07,920 --> 00:09:11,959
+between these different components
+
+181
+00:09:14,220 --> 00:09:16,560
+this is something we learned in our last
+
+182
+00:09:16,560 --> 00:09:20,779
+lecture okay I will start from this
+
+183
+00:09:23,899 --> 00:09:26,399
+so let's say I'm using keyboards right
+
+184
+00:09:26,399 --> 00:09:29,220
+I'm using keyboards
+
+185
+00:09:29,220 --> 00:09:31,019
+I'm using keyboards to write some
+
+186
+00:09:31,019 --> 00:09:33,300
+programs okay it shows up in the monitor
+
+187
+00:09:33,300 --> 00:09:37,680
+right and then and then before I save it
+
+188
+00:09:37,680 --> 00:09:39,899
+before I say for it the program is in
+
+189
+00:09:39,899 --> 00:09:42,899
+them well memory right memory after I
+
+190
+00:09:42,899 --> 00:09:44,880
+save it this goes to the
+
+191
+00:09:44,880 --> 00:09:48,540
+disk and then I designed to combine and
+
+192
+00:09:48,540 --> 00:09:50,760
+run it so it goes to memory again and
+
+193
+00:09:50,760 --> 00:09:52,980
+that and then
+
+194
+00:09:52,980 --> 00:09:56,760
+CPU going to run it right so if you get
+
+195
+00:09:56,760 --> 00:09:59,760
+it from memory not from disk okay
+
+196
+00:09:59,760 --> 00:10:01,560
+whatever
+
+197
+00:10:01,560 --> 00:10:04,500
+in this picture learn this this is very
+
+198
+00:10:04,500 --> 00:10:07,740
+important okay CPU whatever you run
+
+199
+00:10:07,740 --> 00:10:10,680
+anything you run anything is always
+
+200
+00:10:10,680 --> 00:10:13,620
+loaded into memory first it's loaded
+
+201
+00:10:13,620 --> 00:10:16,440
+into the memory first and memory in
+
+202
+00:10:16,440 --> 00:10:18,300
+memory we have
+
+203
+00:10:18,300 --> 00:10:21,600
+um memory let's say memory 664 gigabytes
+
+204
+00:10:21,600 --> 00:10:26,279
+6 1 16 1 6 Cube 16 gigabytes right no
+
+205
+00:10:26,279 --> 00:10:28,200
+matter how large they are
+
+206
+00:10:28,200 --> 00:10:31,019
+no matter how large they are
+
+207
+00:10:31,019 --> 00:10:34,260
+since many multiple programs needs to
+
+208
+00:10:34,260 --> 00:10:37,080
+share the memory
+
+209
+00:10:37,080 --> 00:10:39,720
+and so each programs or gather special
+
+210
+00:10:39,720 --> 00:10:43,560
+space in the memory and we call it a
+
+211
+00:10:43,560 --> 00:10:47,640
+dress space or the dress space
+
+212
+00:10:47,640 --> 00:10:50,640
+so after the program is loaded in his
+
+213
+00:10:50,640 --> 00:10:52,680
+address space
+
+214
+00:10:52,680 --> 00:10:57,540
+the CPU can get it and run okay let's
+
+215
+00:10:57,540 --> 00:11:00,440
+review that again
+
+216
+00:11:17,940 --> 00:11:20,420
+okay
+
+217
+00:11:20,880 --> 00:11:23,480
+foreign
+
+218
+00:11:35,060 --> 00:11:37,500
+code right
+
+219
+00:11:37,500 --> 00:11:40,160
+and then
+
+220
+00:11:42,120 --> 00:11:44,640
+let's say the path to run this Java
+
+221
+00:11:44,640 --> 00:11:47,540
+program okay
+
+222
+00:11:48,120 --> 00:11:52,200
+owning the code the code itself
+
+223
+00:11:52,200 --> 00:11:54,779
+we call it a program we call the program
+
+224
+00:11:54,779 --> 00:11:58,920
+however when we executed it when it is
+
+225
+00:11:58,920 --> 00:12:02,279
+in our execution State then it become a
+
+226
+00:12:02,279 --> 00:12:04,620
+process but right now it is still a
+
+227
+00:12:04,620 --> 00:12:08,959
+program okay this is still a program
+
+228
+00:12:09,120 --> 00:12:11,279
+so this is the code and the first thing
+
+229
+00:12:11,279 --> 00:12:13,380
+what I'm going to do is that
+
+230
+00:12:13,380 --> 00:12:16,620
+I'm going to combine into some SQL
+
+231
+00:12:16,620 --> 00:12:19,140
+execution ball files right
+
+232
+00:12:19,140 --> 00:12:21,660
+let's say this so we come I'm going to
+
+233
+00:12:21,660 --> 00:12:23,120
+combine it
+
+234
+00:12:23,120 --> 00:12:27,200
+okay to this file
+
+235
+00:12:31,320 --> 00:12:33,540
+and then what's next how to run that
+
+236
+00:12:33,540 --> 00:12:34,620
+program
+
+237
+00:12:34,620 --> 00:12:37,519
+what's next
+
+238
+00:12:39,420 --> 00:12:41,820
+something I didn't talk in our last
+
+239
+00:12:41,820 --> 00:12:45,240
+lecture I'll describe it now okay
+
+240
+00:12:45,240 --> 00:12:50,220
+this program may be very large right
+
+241
+00:12:50,220 --> 00:12:52,760
+so
+
+242
+00:12:54,360 --> 00:12:56,160
+you are going to
+
+243
+00:12:56,160 --> 00:13:01,320
+divide it into many pieces
+
+244
+00:13:04,800 --> 00:13:07,440
+OS will help you do that okay how else
+
+245
+00:13:07,440 --> 00:13:10,339
+will help you do that
+
+246
+00:13:11,040 --> 00:13:15,480
+and then loaded the active
+
+247
+00:13:15,480 --> 00:13:18,120
+active only the active
+
+248
+00:13:18,120 --> 00:13:20,940
+piece only the active piece
+
+249
+00:13:20,940 --> 00:13:23,579
+this is the active
+
+250
+00:13:23,579 --> 00:13:25,860
+active piece
+
+251
+00:13:25,860 --> 00:13:28,560
+is maybe the entry of your program if
+
+252
+00:13:28,560 --> 00:13:30,600
+your program is very large it will be
+
+253
+00:13:30,600 --> 00:13:32,639
+the entry of your program into where
+
+254
+00:13:32,639 --> 00:13:35,480
+memory
+
+255
+00:13:48,060 --> 00:13:51,500
+so this is a memory
+
+256
+00:13:54,500 --> 00:13:58,040
+is using
+
+257
+00:13:59,579 --> 00:14:02,700
+memory memory is using space sharing
+
+258
+00:14:02,700 --> 00:14:05,880
+right we just learned that so here's why
+
+259
+00:14:05,880 --> 00:14:08,760
+it's called space sharing
+
+260
+00:14:08,760 --> 00:14:12,800
+you have this active pieces
+
+261
+00:14:15,839 --> 00:14:18,839
+so many programs are share the memory
+
+262
+00:14:18,839 --> 00:14:20,820
+together with this program so this
+
+263
+00:14:20,820 --> 00:14:23,880
+program can only get us a science space
+
+264
+00:14:23,880 --> 00:14:28,459
+and we call it the drive space
+
+265
+00:14:29,459 --> 00:14:31,380
+memories of the draft space we are going
+
+266
+00:14:31,380 --> 00:14:33,600
+to learn that in memory chapter but you
+
+267
+00:14:33,600 --> 00:14:35,519
+first need to get a view about what will
+
+268
+00:14:35,519 --> 00:14:36,480
+happen
+
+269
+00:14:36,480 --> 00:14:39,000
+so we loaded that the active pieces into
+
+270
+00:14:39,000 --> 00:14:42,980
+the address space of the memory
+
+271
+00:14:43,079 --> 00:14:45,660
+so any students know why we only loaded
+
+272
+00:14:45,660 --> 00:14:49,760
+the active spaces in address memory
+
+273
+00:14:50,519 --> 00:14:53,760
+I will give you a real life example any
+
+274
+00:14:53,760 --> 00:14:55,320
+students play
+
+275
+00:14:55,320 --> 00:14:57,779
+League of Legends
+
+276
+00:14:57,779 --> 00:14:59,959
+foreign
+
+277
+00:15:06,260 --> 00:15:11,459
+okay so this is a joke okay so so uh so
+
+278
+00:15:11,459 --> 00:15:14,220
+um League of Legends we know I am
+
+279
+00:15:14,220 --> 00:15:15,839
+um
+
+280
+00:15:15,839 --> 00:15:18,060
+yeah I'm a very low rank I've been
+
+281
+00:15:18,060 --> 00:15:20,339
+playing for nine years but I'm still in
+
+282
+00:15:20,339 --> 00:15:24,720
+the I think it's Aaron or bros you can
+
+283
+00:15:24,720 --> 00:15:26,940
+see it's a loyal one yeah I'm not a good
+
+284
+00:15:26,940 --> 00:15:29,459
+player but oh well this is a very large
+
+285
+00:15:29,459 --> 00:15:30,360
+program
+
+286
+00:15:30,360 --> 00:15:32,459
+um I think it's
+
+287
+00:15:32,459 --> 00:15:34,560
+um you know it takes like two gigabytes
+
+288
+00:15:34,560 --> 00:15:37,740
+in memory but when you actually loaded
+
+289
+00:15:37,740 --> 00:15:40,500
+that loaded that there's
+
+290
+00:15:40,500 --> 00:15:41,639
+um
+
+291
+00:15:41,639 --> 00:15:44,279
+how many champions this game has I think
+
+292
+00:15:44,279 --> 00:15:46,980
+it's around 146.
+
+293
+00:15:46,980 --> 00:15:51,660
+but when we start to run that games
+
+294
+00:15:51,660 --> 00:15:55,920
+the OS will not load every champion
+
+295
+00:15:55,920 --> 00:15:57,600
+in the memory
+
+296
+00:15:57,600 --> 00:16:00,600
+it will not load every champion in the
+
+297
+00:16:00,600 --> 00:16:02,339
+memory it will only load the champion
+
+298
+00:16:02,339 --> 00:16:05,760
+that you select okay the same thing the
+
+299
+00:16:05,760 --> 00:16:07,380
+same thing is that another game okay
+
+300
+00:16:07,380 --> 00:16:09,839
+pubg I think many of you guys heard of
+
+301
+00:16:09,839 --> 00:16:11,040
+that
+
+302
+00:16:11,040 --> 00:16:14,399
+um why you play that game so the game is
+
+303
+00:16:14,399 --> 00:16:17,399
+very interesting it's like 100 person in
+
+304
+00:16:17,399 --> 00:16:20,519
+a airplane right then they jump and then
+
+305
+00:16:20,519 --> 00:16:22,620
+well only one can survive and they jump
+
+306
+00:16:22,620 --> 00:16:26,100
+on a one big big city uh I think a lot
+
+307
+00:16:26,100 --> 00:16:28,560
+of City yeah but they only jump on one
+
+308
+00:16:28,560 --> 00:16:29,760
+space
+
+309
+00:16:29,760 --> 00:16:32,459
+so in that case
+
+310
+00:16:32,459 --> 00:16:35,399
+every this 100 person they all have
+
+311
+00:16:35,399 --> 00:16:38,100
+their own OS right they are os or only
+
+312
+00:16:38,100 --> 00:16:39,540
+loaded
+
+313
+00:16:39,540 --> 00:16:42,240
+their vision of the map in the memory
+
+314
+00:16:42,240 --> 00:16:44,940
+they were not load the whole map in the
+
+315
+00:16:44,940 --> 00:16:48,540
+memory that is the active pieces that
+
+316
+00:16:48,540 --> 00:16:50,519
+means active physics the active means
+
+317
+00:16:50,519 --> 00:16:53,339
+pieces means that when you when the OS
+
+318
+00:16:53,339 --> 00:16:55,920
+when you also the OS help you load and
+
+319
+00:16:55,920 --> 00:16:58,920
+start running the program
+
+320
+00:16:58,920 --> 00:17:01,920
+only the programs that you are currently
+
+321
+00:17:01,920 --> 00:17:04,319
+using the pieces you are currently using
+
+322
+00:17:04,319 --> 00:17:07,199
+is going to blow it into the memory why
+
+323
+00:17:07,199 --> 00:17:10,140
+because we know memory is very expensive
+
+324
+00:17:10,140 --> 00:17:12,540
+and many programs are concurrent using
+
+325
+00:17:12,540 --> 00:17:15,299
+memory so that is why they have a
+
+326
+00:17:15,299 --> 00:17:18,480
+concept of address space
+
+327
+00:17:18,480 --> 00:17:21,020
+okay
+
+328
+00:17:21,299 --> 00:17:23,459
+and then when we talk about that we talk
+
+329
+00:17:23,459 --> 00:17:25,740
+about another new Concepts we call the
+
+330
+00:17:25,740 --> 00:17:29,360
+paging right page
+
+331
+00:17:30,960 --> 00:17:34,140
+Os or divide the large memory into many
+
+332
+00:17:34,140 --> 00:17:38,340
+small Pages pages and then the active
+
+333
+00:17:38,340 --> 00:17:40,520
+pieces of the program will choose
+
+334
+00:17:40,520 --> 00:17:43,559
+several pages okay it can be there it
+
+335
+00:17:43,559 --> 00:17:45,120
+can be there
+
+336
+00:17:45,120 --> 00:17:47,820
+it can be anywhere it does not need to
+
+337
+00:17:47,820 --> 00:17:50,460
+need to be connected together it can be
+
+338
+00:17:50,460 --> 00:17:52,500
+anywhere
+
+339
+00:17:52,500 --> 00:17:55,559
+that is the OS job OS which job is to
+
+340
+00:17:55,559 --> 00:17:57,660
+distinguish this to distribute that
+
+341
+00:17:57,660 --> 00:18:00,000
+distribute that
+
+342
+00:18:00,000 --> 00:18:02,520
+okay after it's loaded into the memory
+
+343
+00:18:02,520 --> 00:18:06,440
+one next one next
+
+344
+00:18:08,539 --> 00:18:12,380
+so CPU have
+
+345
+00:18:13,260 --> 00:18:17,160
+CPU will have loaded the code into
+
+346
+00:18:17,160 --> 00:18:19,679
+a register
+
+347
+00:18:19,679 --> 00:18:24,000
+you learn that in your actual courses if
+
+348
+00:18:24,000 --> 00:18:26,400
+you have taken architectural courses
+
+349
+00:18:26,400 --> 00:18:27,720
+before
+
+350
+00:18:27,720 --> 00:18:28,860
+um
+
+351
+00:18:28,860 --> 00:18:32,460
+right there's a program counter register
+
+352
+00:18:32,460 --> 00:18:33,780
+right
+
+353
+00:18:33,780 --> 00:18:37,500
+it will it will point to
+
+354
+00:18:37,500 --> 00:18:40,760
+where it is right and another
+
+355
+00:18:40,760 --> 00:18:43,320
+register there's several rules of the
+
+356
+00:18:43,320 --> 00:18:46,380
+register they were they were they were
+
+357
+00:18:46,380 --> 00:18:49,340
+catch though
+
+358
+00:18:49,500 --> 00:18:50,940
+Stars
+
+359
+00:18:50,940 --> 00:18:55,039
+Starship dress and they will gather
+
+360
+00:18:55,559 --> 00:18:58,860
+the distances the jumps okay the jumps
+
+361
+00:18:58,860 --> 00:19:01,860
+and then CPU loading that code the first
+
+362
+00:19:01,860 --> 00:19:03,960
+line of the code loading into its
+
+363
+00:19:03,960 --> 00:19:06,179
+register
+
+364
+00:19:06,179 --> 00:19:09,240
+let's say CPU has three components any
+
+365
+00:19:09,240 --> 00:19:12,000
+student remember that we use the Burger
+
+366
+00:19:12,000 --> 00:19:14,940
+King example to describe that
+
+367
+00:19:14,940 --> 00:19:17,700
+three components so CPU got the code the
+
+368
+00:19:17,700 --> 00:19:19,799
+first line of the code is loaded into
+
+369
+00:19:19,799 --> 00:19:24,020
+its three components
+
+370
+00:19:31,400 --> 00:19:35,100
+yeah yeah very good very good so I think
+
+371
+00:19:35,100 --> 00:19:38,539
+it's uh encode decode and excuse right
+
+372
+00:19:38,539 --> 00:19:41,600
+you need to need to you need to gather
+
+373
+00:19:41,600 --> 00:19:44,100
+and the CPU
+
+374
+00:19:44,100 --> 00:19:46,860
+when CPU is X searching the code and
+
+375
+00:19:46,860 --> 00:19:49,100
+executing it it does not activate
+
+376
+00:19:49,100 --> 00:19:52,559
+seriously does not do it
+
+377
+00:19:52,559 --> 00:19:56,640
+one by one because it's very slow so
+
+378
+00:19:56,640 --> 00:19:59,460
+even CPU is going to load just one line
+
+379
+00:19:59,460 --> 00:20:02,820
+but it's going to be put this put this
+
+380
+00:20:02,820 --> 00:20:05,700
+in the first components and then fetch
+
+381
+00:20:05,700 --> 00:20:07,919
+the next and the one the first is goes
+
+382
+00:20:07,919 --> 00:20:10,320
+to the next components the next can do
+
+383
+00:20:10,320 --> 00:20:13,440
+the can go to the first components so
+
+384
+00:20:13,440 --> 00:20:15,080
+that is how CPU
+
+385
+00:20:15,080 --> 00:20:18,059
+analyzing this code so after this will
+
+386
+00:20:18,059 --> 00:20:19,559
+finish that
+
+387
+00:20:19,559 --> 00:20:22,320
+what what it will be then it will goes
+
+388
+00:20:22,320 --> 00:20:22,980
+back
+
+389
+00:20:22,980 --> 00:20:26,160
+together the second lines of the code
+
+390
+00:20:26,160 --> 00:20:28,559
+now it comes to another sharing approach
+
+391
+00:20:28,559 --> 00:20:31,260
+called time sharing so why we need time
+
+392
+00:20:31,260 --> 00:20:33,740
+sharing
+
+393
+00:20:36,840 --> 00:20:39,600
+so CPU
+
+394
+00:20:39,600 --> 00:20:41,820
+as the resource manager
+
+395
+00:20:41,820 --> 00:20:46,260
+it is unfair for him to just working on
+
+396
+00:20:46,260 --> 00:20:49,559
+these pieces of code of your program you
+
+397
+00:20:49,559 --> 00:20:51,840
+may while you for example when you do
+
+398
+00:20:51,840 --> 00:20:55,140
+the writing something in the office you
+
+399
+00:20:55,140 --> 00:20:56,340
+may also
+
+400
+00:20:56,340 --> 00:20:59,700
+watch some video so CPU needs to give
+
+401
+00:20:59,700 --> 00:21:03,960
+the time to another to another program
+
+402
+00:21:03,960 --> 00:21:05,760
+in another
+
+403
+00:21:05,760 --> 00:21:09,440
+memory address space
+
+404
+00:21:12,000 --> 00:21:15,299
+that is the time sharing okay so next
+
+405
+00:21:15,299 --> 00:21:18,000
+time okay let's say CPUs already spent
+
+406
+00:21:18,000 --> 00:21:20,340
+10 nanoseconds in your program active
+
+407
+00:21:20,340 --> 00:21:22,860
+program now CPU designed to
+
+408
+00:21:22,860 --> 00:21:25,980
+execute another program another program
+
+409
+00:21:25,980 --> 00:21:28,740
+so it's going to a switch
+
+410
+00:21:28,740 --> 00:21:32,280
+before cpu2 did this switch
+
+411
+00:21:32,280 --> 00:21:36,659
+follow me guys before I did the switch
+
+412
+00:21:36,659 --> 00:21:39,240
+CPU going to memorize something any
+
+413
+00:21:39,240 --> 00:21:43,220
+students know what is going to memorize
+
+414
+00:21:44,940 --> 00:21:47,700
+yes every process has its own address
+
+415
+00:21:47,700 --> 00:21:48,780
+space
+
+416
+00:21:48,780 --> 00:21:50,640
+every process will have its own address
+
+417
+00:21:50,640 --> 00:21:52,559
+phase
+
+418
+00:21:52,559 --> 00:21:55,200
+you have like every one of you have your
+
+419
+00:21:55,200 --> 00:21:57,240
+own apartment your apartment number is
+
+420
+00:21:57,240 --> 00:21:59,159
+your address space the same thing as the
+
+421
+00:21:59,159 --> 00:22:02,580
+process whenever it is active it's
+
+422
+00:22:02,580 --> 00:22:05,340
+running in the Os Os will give him their
+
+423
+00:22:05,340 --> 00:22:07,919
+own address space
+
+424
+00:22:07,919 --> 00:22:10,520
+yes
+
+425
+00:22:11,340 --> 00:22:14,280
+very good memorize it where it was in
+
+426
+00:22:14,280 --> 00:22:16,919
+that program and put it into their
+
+427
+00:22:16,919 --> 00:22:19,020
+register because there's another
+
+428
+00:22:19,020 --> 00:22:23,220
+register for that CPU I think CPU have
+
+429
+00:22:23,220 --> 00:22:26,820
+a lot registers okay then but that comes
+
+430
+00:22:26,820 --> 00:22:30,360
+to our next uh next concept so let's go
+
+431
+00:22:30,360 --> 00:22:33,900
+over it for this one okay that so CPU
+
+432
+00:22:33,900 --> 00:22:35,820
+are going to memorize it where it was
+
+433
+00:22:35,820 --> 00:22:38,820
+mine writes where it was and then switch
+
+434
+00:22:38,820 --> 00:22:41,580
+to the next put start the new address in
+
+435
+00:22:41,580 --> 00:22:44,400
+his program counter register
+
+436
+00:22:44,400 --> 00:22:47,220
+and then start running that and we call
+
+437
+00:22:47,220 --> 00:22:48,480
+this process
+
+438
+00:22:48,480 --> 00:22:50,460
+we call it there's a name of this
+
+439
+00:22:50,460 --> 00:22:52,820
+process
+
+440
+00:22:54,179 --> 00:22:58,460
+you should heard of that in yes
+
+441
+00:23:09,900 --> 00:23:12,419
+well here's the thing okay let me I'm
+
+442
+00:23:12,419 --> 00:23:16,140
+for uh describe it in more detail
+
+443
+00:23:16,140 --> 00:23:18,900
+so this is a memory right this is your
+
+444
+00:23:18,900 --> 00:23:21,059
+memory
+
+445
+00:23:21,059 --> 00:23:23,820
+the memory let's say is 60 gigabytes
+
+446
+00:23:23,820 --> 00:23:25,020
+so
+
+447
+00:23:25,020 --> 00:23:27,659
+it's a dress
+
+448
+00:23:27,659 --> 00:23:30,260
+okay sure
+
+449
+00:23:34,320 --> 00:23:36,600
+memory right
+
+450
+00:23:36,600 --> 00:23:38,640
+so how you define memory address just
+
+451
+00:23:38,640 --> 00:23:40,919
+from let's say it's just 16 and the
+
+452
+00:23:40,919 --> 00:23:43,799
+sixth one 16 gigabytes
+
+453
+00:23:43,799 --> 00:23:47,480
+it's maybe a very large large number
+
+454
+00:23:48,419 --> 00:23:50,220
+then that is the
+
+455
+00:23:50,220 --> 00:23:51,780
+address
+
+456
+00:23:51,780 --> 00:23:55,400
+in the memory okay whenever a process
+
+457
+00:23:55,400 --> 00:23:58,799
+whenever a process is loaded into the
+
+458
+00:23:58,799 --> 00:24:02,460
+memory os are going to OS is going to
+
+459
+00:24:02,460 --> 00:24:06,419
+give give her some memory address let's
+
+460
+00:24:06,419 --> 00:24:10,559
+say it's from is this is one to 200 then
+
+461
+00:24:10,559 --> 00:24:14,720
+the one to two hundred this
+
+462
+00:24:15,419 --> 00:24:17,940
+is the P let's say this process is
+
+463
+00:24:17,940 --> 00:24:23,100
+called P1 then this 1 to 200 is p once
+
+464
+00:24:23,100 --> 00:24:26,100
+foreign
+
+465
+00:24:30,120 --> 00:24:33,120
+space
+
+466
+00:24:33,299 --> 00:24:37,020
+okay we are going to learn that in uh
+
+467
+00:24:37,020 --> 00:24:38,159
+our
+
+468
+00:24:38,159 --> 00:24:40,980
+um memory chapter but let's go over it
+
+469
+00:24:40,980 --> 00:24:45,020
+okay so if you are going to memorize it
+
+470
+00:24:46,860 --> 00:24:49,919
+is a memory address yes
+
+471
+00:24:49,919 --> 00:24:53,340
+then that is P2 okay this is P2
+
+472
+00:24:53,340 --> 00:24:57,480
+okay so every process has a individual
+
+473
+00:24:57,480 --> 00:24:59,940
+address space
+
+474
+00:24:59,940 --> 00:25:01,799
+any more questions
+
+475
+00:25:01,799 --> 00:25:03,720
+if not then wait let's switch back to
+
+476
+00:25:03,720 --> 00:25:06,419
+this okay so CPU decides to do a time
+
+477
+00:25:06,419 --> 00:25:08,880
+sharing to come to a second process so
+
+478
+00:25:08,880 --> 00:25:11,100
+it's jump to a second process or just
+
+479
+00:25:11,100 --> 00:25:14,220
+phase and we call this we call this this
+
+480
+00:25:14,220 --> 00:25:17,100
+has this has a very famous name
+
+481
+00:25:17,100 --> 00:25:20,419
+you've heard of it yeah
+
+482
+00:25:25,559 --> 00:25:28,460
+one
+
+483
+00:25:35,640 --> 00:25:37,860
+it is happening right now I do not get a
+
+484
+00:25:37,860 --> 00:25:40,039
+question
+
+485
+00:25:43,679 --> 00:25:48,080
+one I cannot hear you can use
+
+486
+00:25:53,220 --> 00:25:56,159
+yes yes but maybe there will be many
+
+487
+00:25:56,159 --> 00:25:57,840
+process they all have their active
+
+488
+00:25:57,840 --> 00:25:59,940
+pieces they are loaded into the memory
+
+489
+00:25:59,940 --> 00:26:04,100
+they are sharing the memory yes
+
+490
+00:26:05,580 --> 00:26:09,200
+they will have different addresses
+
+491
+00:26:09,679 --> 00:26:13,980
+any active program record process every
+
+492
+00:26:13,980 --> 00:26:16,320
+process when it is loaded into the
+
+493
+00:26:16,320 --> 00:26:18,419
+memory it will have its own address
+
+494
+00:26:18,419 --> 00:26:20,460
+space that is why when you write up your
+
+495
+00:26:20,460 --> 00:26:22,200
+programs it gives you the error of
+
+496
+00:26:22,200 --> 00:26:23,940
+segmentation for it
+
+497
+00:26:23,940 --> 00:26:26,220
+you'll hold over that right then that
+
+498
+00:26:26,220 --> 00:26:27,659
+means you
+
+499
+00:26:27,659 --> 00:26:29,640
+do not use your
+
+500
+00:26:29,640 --> 00:26:32,039
+correct address space you are using
+
+501
+00:26:32,039 --> 00:26:34,700
+someone else
+
+502
+00:26:34,700 --> 00:26:36,419
+okay
+
+503
+00:26:36,419 --> 00:26:38,340
+any more questions
+
+504
+00:26:38,340 --> 00:26:41,700
+so let's let's uh let me
+
+505
+00:26:41,700 --> 00:26:43,740
+my question is that okay I'll give you
+
+506
+00:26:43,740 --> 00:26:46,020
+this question the CPU is going to change
+
+507
+00:26:46,020 --> 00:26:48,840
+let's say this is from P1 this is from
+
+508
+00:26:48,840 --> 00:26:52,500
+P2 now CPU spends 10 nanoseconds in P1
+
+509
+00:26:52,500 --> 00:26:55,380
+under the memorize p1's address space
+
+510
+00:26:55,380 --> 00:26:59,640
+savor it in his register and then loaded
+
+511
+00:26:59,640 --> 00:27:05,299
+the next code next code in the P2
+
+512
+00:27:07,279 --> 00:27:11,279
+decide to run this P2 so this process
+
+513
+00:27:11,279 --> 00:27:13,279
+the process of
+
+514
+00:27:13,279 --> 00:27:17,820
+switching from P1 to P2 we have a name
+
+515
+00:27:17,820 --> 00:27:20,299
+of that
+
+516
+00:27:21,480 --> 00:27:23,840
+what
+
+517
+00:27:23,880 --> 00:27:26,039
+no
+
+518
+00:27:26,039 --> 00:27:28,279
+no I mean
+
+519
+00:27:28,279 --> 00:27:31,200
+what is RPC
+
+520
+00:27:31,200 --> 00:27:34,860
+the Discord will have 300 Concepts okay
+
+521
+00:27:34,860 --> 00:27:37,679
+new Concepts IPC is one of the concepts
+
+522
+00:27:37,679 --> 00:27:40,740
+but do not mix them together ipcs into
+
+523
+00:27:40,740 --> 00:27:42,900
+process communication right in the
+
+524
+00:27:42,900 --> 00:27:44,880
+process communication right but this
+
+525
+00:27:44,880 --> 00:27:46,440
+they are not communicated with each
+
+526
+00:27:46,440 --> 00:27:48,720
+other in the process communication is
+
+527
+00:27:48,720 --> 00:27:50,520
+process communicates with another
+
+528
+00:27:50,520 --> 00:27:52,980
+process that is inter process
+
+529
+00:27:52,980 --> 00:27:55,620
+communication but here
+
+530
+00:27:55,620 --> 00:27:59,100
+CPU is switching decide to switching is
+
+531
+00:27:59,100 --> 00:28:02,100
+scheduling order from P1 to P2 and
+
+532
+00:28:02,100 --> 00:28:03,960
+memorize the states
+
+533
+00:28:03,960 --> 00:28:06,419
+the context of P1
+
+534
+00:28:06,419 --> 00:28:10,020
+then switch to the context of P2
+
+535
+00:28:10,020 --> 00:28:12,779
+you heard over there is called Contact
+
+536
+00:28:12,779 --> 00:28:15,779
+switch contact switch holds many times
+
+537
+00:28:15,779 --> 00:28:17,520
+but you may not understand the reason
+
+538
+00:28:17,520 --> 00:28:19,440
+that is the contact switch
+
+539
+00:28:19,440 --> 00:28:21,779
+okay that is the contact switch
+
+540
+00:28:21,779 --> 00:28:25,140
+so we always say that when you
+
+541
+00:28:25,140 --> 00:28:28,520
+um I do not know how many of you are
+
+542
+00:28:28,520 --> 00:28:30,419
+decides to
+
+543
+00:28:30,419 --> 00:28:32,940
+go to a master or PhD degree but when
+
+544
+00:28:32,940 --> 00:28:35,779
+you do that then essentially if you are
+
+545
+00:28:35,779 --> 00:28:38,880
+pursuing a system research
+
+546
+00:28:38,880 --> 00:28:40,260
+You're Building let's say you're
+
+547
+00:28:40,260 --> 00:28:42,299
+building a system like for us my lab
+
+548
+00:28:42,299 --> 00:28:44,220
+building stream processing system like
+
+549
+00:28:44,220 --> 00:28:46,080
+one hour after we build a stream
+
+550
+00:28:46,080 --> 00:28:48,299
+processing systems we need to measuring
+
+551
+00:28:48,299 --> 00:28:50,580
+its overhead overhead means that how
+
+552
+00:28:50,580 --> 00:28:53,279
+much resources take to run this program
+
+553
+00:28:53,279 --> 00:28:56,580
+to run our system in the one specific
+
+554
+00:28:56,580 --> 00:28:59,820
+metric is contact switch like how how
+
+555
+00:28:59,820 --> 00:29:02,940
+much contact switches crosses because if
+
+556
+00:29:02,940 --> 00:29:05,039
+if my program costs a lot of contact
+
+557
+00:29:05,039 --> 00:29:06,779
+switch
+
+558
+00:29:06,779 --> 00:29:10,020
+that means it has a lot of overhead to
+
+559
+00:29:10,020 --> 00:29:11,640
+the CPU
+
+560
+00:29:11,640 --> 00:29:14,880
+write the system or not stable
+
+561
+00:29:14,880 --> 00:29:17,039
+well think of that that is called a
+
+562
+00:29:17,039 --> 00:29:20,059
+contact switch okay
+
+563
+00:29:28,200 --> 00:29:31,380
+okay so this is the concepts of time
+
+564
+00:29:31,380 --> 00:29:34,620
+sharing and this is the address one
+
+565
+00:29:34,620 --> 00:29:36,840
+different process they share in the
+
+566
+00:29:36,840 --> 00:29:42,200
+memory is the called the space sharing
+
+567
+00:29:49,980 --> 00:29:51,659
+foreign
+
+568
+00:29:51,659 --> 00:29:54,480
+okay so let's come to a little further
+
+569
+00:29:54,480 --> 00:29:57,020
+okay
+
+570
+00:29:58,380 --> 00:30:02,039
+when CPU is
+
+571
+00:30:02,039 --> 00:30:04,740
+concurrency running different programs
+
+572
+00:30:04,740 --> 00:30:07,799
+like doing the decoding code and high
+
+573
+00:30:07,799 --> 00:30:10,380
+skills we call it pipeline
+
+574
+00:30:10,380 --> 00:30:15,440
+pipeline right CPU pipeline
+
+575
+00:30:19,740 --> 00:30:21,960
+pipeline I need students
+
+576
+00:30:21,960 --> 00:30:26,059
+pipeline what is exactly pipeline
+
+577
+00:30:34,320 --> 00:30:36,720
+so pipeline you uh
+
+578
+00:30:36,720 --> 00:30:39,360
+here you have the search decode and the
+
+579
+00:30:39,360 --> 00:30:42,740
+SQL to write fetch
+
+580
+00:30:45,620 --> 00:30:50,059
+let me show you using an example okay
+
+581
+00:30:52,919 --> 00:30:56,299
+so CPU pipeline
+
+582
+00:31:04,520 --> 00:31:07,980
+CPU pipeline okay
+
+583
+00:31:07,980 --> 00:31:10,760
+foreign
+
+584
+00:31:32,279 --> 00:31:35,059
+decode
+
+585
+00:31:40,320 --> 00:31:42,720
+so we when we are talking about pipeline
+
+586
+00:31:42,720 --> 00:31:44,820
+we use the real life for example of the
+
+587
+00:31:44,820 --> 00:31:46,080
+Burger King when you order the Burger
+
+588
+00:31:46,080 --> 00:31:48,120
+King you you pay the money and then you
+
+589
+00:31:48,120 --> 00:31:49,919
+summarize helping you prepare the food
+
+590
+00:31:49,919 --> 00:31:51,840
+like this right and then you get the
+
+591
+00:31:51,840 --> 00:31:53,220
+food
+
+592
+00:31:53,220 --> 00:31:55,980
+so in the same thing happens here if in
+
+593
+00:31:55,980 --> 00:31:59,460
+the OS we have multiple process
+
+594
+00:31:59,460 --> 00:32:01,620
+concurrency coming they join the system
+
+595
+00:32:01,620 --> 00:32:03,480
+right if
+
+596
+00:32:03,480 --> 00:32:07,020
+without pipeline what will happen
+
+597
+00:32:07,020 --> 00:32:11,039
+when P1 one CPU is fetching P1 it's
+
+598
+00:32:11,039 --> 00:32:12,120
+called
+
+599
+00:32:12,120 --> 00:32:15,419
+P2 and P3 are waiting here
+
+600
+00:32:15,419 --> 00:32:16,799
+and then
+
+601
+00:32:16,799 --> 00:32:19,820
+P1 finished fetching we finished fetch
+
+602
+00:32:19,820 --> 00:32:23,880
+fetching p1's code and we come to p1s
+
+603
+00:32:23,880 --> 00:32:27,000
+come to the encode operation right P2 is
+
+604
+00:32:27,000 --> 00:32:29,899
+still waiting
+
+605
+00:32:30,539 --> 00:32:34,020
+and then we come to the P1 comes to the
+
+606
+00:32:34,020 --> 00:32:36,840
+decode operation where then P2 is still
+
+607
+00:32:36,840 --> 00:32:39,539
+waiting is it good this is not good why
+
+608
+00:32:39,539 --> 00:32:42,840
+because it hurts the throughputs of the
+
+609
+00:32:42,840 --> 00:32:43,620
+system
+
+610
+00:32:43,620 --> 00:32:46,740
+CPU can do much more things than just
+
+611
+00:32:46,740 --> 00:32:48,240
+processing P1
+
+612
+00:32:48,240 --> 00:32:51,120
+so we call the pipeline what is pipeline
+
+613
+00:32:51,120 --> 00:32:52,440
+one
+
+614
+00:32:52,440 --> 00:32:55,159
+after
+
+615
+00:32:55,200 --> 00:32:58,320
+P1 goes to the second phrase in code
+
+616
+00:32:58,320 --> 00:33:02,880
+phrase P2 can join P2 can CPU can
+
+617
+00:33:02,880 --> 00:33:06,120
+fetching p2's code concurrently working
+
+618
+00:33:06,120 --> 00:33:09,600
+on P1 okay and one
+
+619
+00:33:09,600 --> 00:33:14,100
+P1 goes to the decode version P2 can
+
+620
+00:33:14,100 --> 00:33:17,700
+come to the encode version and P3 can
+
+621
+00:33:17,700 --> 00:33:20,519
+join the system so at one time this
+
+622
+00:33:20,519 --> 00:33:24,240
+throughputs will become three operations
+
+623
+00:33:24,240 --> 00:33:27,600
+per second okay three operations
+
+624
+00:33:27,600 --> 00:33:29,039
+per second
+
+625
+00:33:29,039 --> 00:33:33,299
+instead of one operation per second
+
+626
+00:33:33,299 --> 00:33:35,880
+that is pipeline why we need pipeline
+
+627
+00:33:35,880 --> 00:33:38,580
+because
+
+628
+00:33:38,580 --> 00:33:40,620
+because we want to improve the
+
+629
+00:33:40,620 --> 00:33:44,120
+throughputs of the system
+
+630
+00:33:44,279 --> 00:33:46,880
+foreign
+
+631
+00:33:51,419 --> 00:33:54,380
+so memory
+
+632
+00:33:57,080 --> 00:34:00,000
+after we talk about CPU pipeline we
+
+633
+00:34:00,000 --> 00:34:02,640
+talked something about pipe the memory
+
+634
+00:34:02,640 --> 00:34:04,500
+hierarchical structure any student
+
+635
+00:34:04,500 --> 00:34:06,059
+remember that
+
+636
+00:34:06,059 --> 00:34:08,879
+what is the first lever
+
+637
+00:34:08,879 --> 00:34:12,020
+in the hierarchical yeah
+
+638
+00:34:12,719 --> 00:34:16,759
+registers very good the second one
+
+639
+00:34:16,918 --> 00:34:20,460
+cash where is cash
+
+640
+00:34:20,460 --> 00:34:22,440
+oil is cash
+
+641
+00:34:22,440 --> 00:34:27,139
+we do not talk that in the um
+
+642
+00:34:27,980 --> 00:34:31,460
+where is cash
+
+643
+00:34:34,918 --> 00:34:38,479
+any other sort
+
+644
+00:34:42,000 --> 00:34:44,760
+very good very good so cash happens in
+
+645
+00:34:44,760 --> 00:34:47,460
+two places okay some very expensive
+
+646
+00:34:47,460 --> 00:34:49,859
+caches come goes to the CPU and some
+
+647
+00:34:49,859 --> 00:34:53,760
+caches is in the memory
+
+648
+00:34:53,760 --> 00:34:57,720
+so in our last lecture I I have asked
+
+649
+00:34:57,720 --> 00:35:00,359
+you a question about what is tlb you
+
+650
+00:35:00,359 --> 00:35:02,780
+still remember
+
+651
+00:35:04,380 --> 00:35:06,980
+yes
+
+652
+00:35:07,020 --> 00:35:09,599
+translation look Hazard buffer that is a
+
+653
+00:35:09,599 --> 00:35:11,820
+cache cue that is you can think of that
+
+654
+00:35:11,820 --> 00:35:14,400
+is a cache where it is
+
+655
+00:35:14,400 --> 00:35:17,579
+translation look outside buffer
+
+656
+00:35:17,579 --> 00:35:21,060
+tlb is still it's in a memory okay and
+
+657
+00:35:21,060 --> 00:35:23,099
+then what the third level of the memory
+
+658
+00:35:23,099 --> 00:35:24,839
+hierarchical structure oh it's there is
+
+659
+00:35:24,839 --> 00:35:28,079
+already a memory okay and then we have
+
+660
+00:35:28,079 --> 00:35:32,220
+the access Theory the SSD and the
+
+661
+00:35:32,220 --> 00:35:34,500
+a disk
+
+662
+00:35:34,500 --> 00:35:37,079
+the reason why we do not why we have
+
+663
+00:35:37,079 --> 00:35:39,000
+this hierarchical structure is because
+
+664
+00:35:39,000 --> 00:35:40,740
+we do not have
+
+665
+00:35:40,740 --> 00:35:43,260
+um because of it is expensive to keep
+
+666
+00:35:43,260 --> 00:35:45,480
+everything in the register and register
+
+667
+00:35:45,480 --> 00:35:48,300
+is very expensive or in the cash
+
+668
+00:35:48,300 --> 00:35:52,160
+okay so um main memory
+
+669
+00:35:52,980 --> 00:35:55,579
+yes
+
+670
+00:35:56,220 --> 00:35:59,599
+pipeline yeah what
+
+671
+00:36:07,320 --> 00:36:09,900
+oh yeah yeah it's sorry it's a fetch
+
+672
+00:36:09,900 --> 00:36:12,800
+decoder excuse
+
+673
+00:36:23,160 --> 00:36:26,280
+um no no we do not care about what the
+
+674
+00:36:26,280 --> 00:36:28,320
+architecture causes
+
+675
+00:36:28,320 --> 00:36:30,720
+um no well since the thing we are more
+
+676
+00:36:30,720 --> 00:36:33,839
+architecture attack chokes connected you
+
+677
+00:36:33,839 --> 00:36:36,980
+more with the hardware
+
+678
+00:36:37,980 --> 00:36:40,260
+no no no different textbooks have
+
+679
+00:36:40,260 --> 00:36:43,140
+different explanations okay that is why
+
+680
+00:36:43,140 --> 00:36:45,900
+I tell do not do not mime or do not just
+
+681
+00:36:45,900 --> 00:36:48,540
+memorize it try to understand it every
+
+682
+00:36:48,540 --> 00:36:51,060
+different textbook I have used several
+
+683
+00:36:51,060 --> 00:36:53,880
+textbooks for now every book have
+
+684
+00:36:53,880 --> 00:36:55,800
+different picture for this they have
+
+685
+00:36:55,800 --> 00:36:57,060
+different pictures they have different
+
+686
+00:36:57,060 --> 00:36:59,339
+names and even if you look at the OS
+
+687
+00:36:59,339 --> 00:37:01,920
+what is the OS running now the modern OS
+
+688
+00:37:01,920 --> 00:37:05,460
+they have maybe have more con units than
+
+689
+00:37:05,460 --> 00:37:08,700
+this okay but you understand the that is
+
+690
+00:37:08,700 --> 00:37:10,740
+just the first to understand the CPU
+
+691
+00:37:10,740 --> 00:37:12,300
+pipeline
+
+692
+00:37:12,300 --> 00:37:14,520
+mm-hmm
+
+693
+00:37:14,520 --> 00:37:18,780
+so memory okay let's come to this
+
+694
+00:37:18,780 --> 00:37:24,380
+I am is I am is what is I am
+
+695
+00:37:25,160 --> 00:37:27,839
+Random Access Memory very good so what's
+
+696
+00:37:27,839 --> 00:37:32,359
+the differences between the IAM and ROM
+
+697
+00:37:37,880 --> 00:37:41,839
+what we are using yeah
+
+698
+00:37:45,420 --> 00:37:49,500
+no no it's not that different okay when
+
+699
+00:37:49,500 --> 00:37:53,599
+I while we are using now
+
+700
+00:37:53,640 --> 00:37:57,200
+is I am or om
+
+701
+00:38:01,260 --> 00:38:02,640
+yeah
+
+702
+00:38:02,640 --> 00:38:05,579
+yeah I am we're using I am we call it
+
+703
+00:38:05,579 --> 00:38:08,880
+Ram right we call it Ram right we are
+
+704
+00:38:08,880 --> 00:38:12,140
+using IM okay
+
+705
+00:38:13,320 --> 00:38:16,380
+so what is the key feature of I am
+
+706
+00:38:16,380 --> 00:38:19,040
+everything
+
+707
+00:38:19,560 --> 00:38:23,579
+so I am the the memory will not help you
+
+708
+00:38:23,579 --> 00:38:26,339
+destroy the scenes if you turn off the
+
+709
+00:38:26,339 --> 00:38:28,560
+my turn off the machine you if it is
+
+710
+00:38:28,560 --> 00:38:31,740
+power of everything in the memory will
+
+711
+00:38:31,740 --> 00:38:35,220
+just disappear it's not like this
+
+712
+00:38:35,220 --> 00:38:37,619
+it's not like this everything you put in
+
+713
+00:38:37,619 --> 00:38:40,920
+the disk it will be there forever
+
+714
+00:38:40,920 --> 00:38:45,680
+and then we call it caches okay disk
+
+715
+00:38:45,680 --> 00:38:50,660
+okay so let's start from this
+
+716
+00:38:58,200 --> 00:39:03,200
+device driver what is device driver
+
+717
+00:39:03,240 --> 00:39:05,820
+what is device driver we used to have a
+
+718
+00:39:05,820 --> 00:39:07,560
+project I do not know if my tier going
+
+719
+00:39:07,560 --> 00:39:09,420
+to design these projects in this course
+
+720
+00:39:09,420 --> 00:39:11,940
+but I use her to
+
+721
+00:39:11,940 --> 00:39:13,920
+um I used to design projects for my
+
+722
+00:39:13,920 --> 00:39:16,440
+previous students is I asked them to um
+
+723
+00:39:16,440 --> 00:39:18,900
+to write our own driver
+
+724
+00:39:18,900 --> 00:39:22,380
+um so what is a device driver
+
+725
+00:39:22,380 --> 00:39:24,900
+let's have an intuition
+
+726
+00:39:24,900 --> 00:39:27,119
+intuition understanding the device
+
+727
+00:39:27,119 --> 00:39:29,599
+driver
+
+728
+00:39:30,599 --> 00:39:34,579
+any student device driver
+
+729
+00:39:35,300 --> 00:39:38,640
+so if you read the things it's not that
+
+730
+00:39:38,640 --> 00:39:41,220
+easy to understand it's not good to
+
+731
+00:39:41,220 --> 00:39:43,680
+memorize in this okay guys you need to
+
+732
+00:39:43,680 --> 00:39:46,740
+understand it what is exactly driver
+
+733
+00:39:46,740 --> 00:39:48,480
+well one of the book
+
+734
+00:39:48,480 --> 00:39:50,900
+anywhere
+
+735
+00:39:54,420 --> 00:39:57,900
+yeah but what it is I know this this is
+
+736
+00:39:57,900 --> 00:40:00,240
+yeah or you need give us an intuition
+
+737
+00:40:00,240 --> 00:40:03,000
+like a racial line behind why we need a
+
+738
+00:40:03,000 --> 00:40:05,240
+driver
+
+739
+00:40:08,880 --> 00:40:15,079
+user needs to give commands to the OS
+
+740
+00:40:15,480 --> 00:40:18,720
+but then why you need a driver you just
+
+741
+00:40:18,720 --> 00:40:21,000
+call that right you just talk to the
+
+742
+00:40:21,000 --> 00:40:23,359
+yeah
+
+743
+00:40:26,640 --> 00:40:28,440
+very good very good is another
+
+744
+00:40:28,440 --> 00:40:32,160
+abstraction so device driver device
+
+745
+00:40:32,160 --> 00:40:34,440
+driver let's say why we need this device
+
+746
+00:40:34,440 --> 00:40:38,540
+driver okay let me show you a picture
+
+747
+00:40:44,579 --> 00:40:48,000
+why we need a device driver
+
+748
+00:40:48,000 --> 00:40:52,260
+okay I'm a company I design my USB
+
+749
+00:40:52,260 --> 00:40:54,960
+how to draw USB
+
+750
+00:40:54,960 --> 00:40:57,839
+this is my USB okay
+
+751
+00:40:57,839 --> 00:41:00,500
+foreign
+
+752
+00:41:00,560 --> 00:41:05,700
+company a I'm designing a USB
+
+753
+00:41:05,700 --> 00:41:08,280
+this is my USB
+
+754
+00:41:08,280 --> 00:41:10,800
+as USB
+
+755
+00:41:10,800 --> 00:41:14,280
+okay I claim it I claim it
+
+756
+00:41:14,280 --> 00:41:19,760
+very very fast I climate very very fast
+
+757
+00:41:22,440 --> 00:41:27,420
+why it is very fast let me yeah
+
+758
+00:41:27,420 --> 00:41:29,900
+huh
+
+759
+00:41:30,300 --> 00:41:32,520
+what
+
+760
+00:41:32,520 --> 00:41:35,119
+to me
+
+761
+00:41:36,180 --> 00:41:39,079
+it's better
+
+762
+00:41:43,320 --> 00:41:46,740
+did let's say I'm a company I designed a
+
+763
+00:41:46,740 --> 00:41:50,160
+USB and then I claim it very fast why I
+
+764
+00:41:50,160 --> 00:41:52,260
+claim it very fast because when I design
+
+765
+00:41:52,260 --> 00:41:56,880
+my USB let's say I just use one layer
+
+766
+00:41:56,880 --> 00:41:58,800
+but you do not need to care about what
+
+767
+00:41:58,800 --> 00:42:00,839
+layer it is right from right now okay I
+
+768
+00:42:00,839 --> 00:42:02,760
+just use one one layer I put everything
+
+769
+00:42:02,760 --> 00:42:06,180
+there and I put a special file special
+
+770
+00:42:06,180 --> 00:42:09,180
+act special data structure to organize
+
+771
+00:42:09,180 --> 00:42:12,240
+these things okay let's see let's say
+
+772
+00:42:12,240 --> 00:42:14,700
+that I'm using
+
+773
+00:42:14,700 --> 00:42:17,700
+I'm using a data structure like
+
+774
+00:42:17,700 --> 00:42:20,640
+double array
+
+775
+00:42:20,640 --> 00:42:24,420
+to store everything just in one layer
+
+776
+00:42:24,420 --> 00:42:29,160
+and then I claim it I am very fast
+
+777
+00:42:29,160 --> 00:42:33,359
+the way that I you if you use my USB you
+
+778
+00:42:33,359 --> 00:42:36,720
+can accessing this this data very fast
+
+779
+00:42:36,720 --> 00:42:39,540
+because I'm using only one layer and now
+
+780
+00:42:39,540 --> 00:42:41,160
+using a
+
+781
+00:42:41,160 --> 00:42:43,680
+this kind of data structure to store the
+
+782
+00:42:43,680 --> 00:42:46,140
+data okay then another another company
+
+783
+00:42:46,140 --> 00:42:48,660
+another company and this company is
+
+784
+00:42:48,660 --> 00:42:52,440
+called b b's USB and Bill uses saying
+
+785
+00:42:52,440 --> 00:42:55,500
+that okay and maybe not the first one
+
+786
+00:42:55,500 --> 00:42:58,020
+when you search it but maybe not the
+
+787
+00:42:58,020 --> 00:42:59,940
+first one when you search it but I'm
+
+788
+00:42:59,940 --> 00:43:02,220
+definitely the best one when you read it
+
+789
+00:43:02,220 --> 00:43:03,480
+why
+
+790
+00:43:03,480 --> 00:43:06,180
+so it's like the this is the fastest
+
+791
+00:43:06,180 --> 00:43:07,740
+search
+
+792
+00:43:07,740 --> 00:43:09,720
+this is the first reading this is just
+
+793
+00:43:09,720 --> 00:43:11,280
+an example you do not need to memorize
+
+794
+00:43:11,280 --> 00:43:13,460
+it just an example to help you design
+
+795
+00:43:13,460 --> 00:43:16,260
+understand what is driver why really the
+
+796
+00:43:16,260 --> 00:43:18,300
+driver and then why not decide this
+
+797
+00:43:18,300 --> 00:43:21,240
+piece USB I'm not using the double array
+
+798
+00:43:21,240 --> 00:43:23,880
+architecture data structure I'm using
+
+799
+00:43:23,880 --> 00:43:26,900
+I'm using a bitmap
+
+800
+00:43:26,900 --> 00:43:29,880
+please build map okay and put everything
+
+801
+00:43:29,880 --> 00:43:32,400
+together they are connected to each
+
+802
+00:43:32,400 --> 00:43:33,660
+other
+
+803
+00:43:33,660 --> 00:43:35,099
+so you understand the differences
+
+804
+00:43:35,099 --> 00:43:37,079
+between these two data structures right
+
+805
+00:43:37,079 --> 00:43:39,480
+if this this data structure is good for
+
+806
+00:43:39,480 --> 00:43:40,680
+searching
+
+807
+00:43:40,680 --> 00:43:43,200
+right of course it's all and you can you
+
+808
+00:43:43,200 --> 00:43:45,300
+do not need but you do not need to put
+
+809
+00:43:45,300 --> 00:43:47,700
+everything The Continuous contents
+
+810
+00:43:47,700 --> 00:43:50,220
+together but in the build map you can
+
+811
+00:43:50,220 --> 00:43:51,660
+put everything together it's not the
+
+812
+00:43:51,660 --> 00:43:53,520
+best for searching because whenever you
+
+813
+00:43:53,520 --> 00:43:55,200
+search your account let's say you want
+
+814
+00:43:55,200 --> 00:43:57,780
+you put a movie into the USB if you want
+
+815
+00:43:57,780 --> 00:44:01,140
+to go to the 30 seconds of the movie you
+
+816
+00:44:01,140 --> 00:44:02,760
+have to go from the very beginning and
+
+817
+00:44:02,760 --> 00:44:05,460
+find out the 30 seconds
+
+818
+00:44:05,460 --> 00:44:07,680
+okay that is the best USB then what is
+
+819
+00:44:07,680 --> 00:44:09,260
+driver
+
+820
+00:44:09,260 --> 00:44:13,680
+without a driver without driver OS
+
+821
+00:44:13,680 --> 00:44:18,200
+without a driver OS needs to understand
+
+822
+00:44:18,200 --> 00:44:21,720
+every company strategy about their how
+
+823
+00:44:21,720 --> 00:44:25,700
+they're organizing their data
+
+824
+00:44:25,800 --> 00:44:27,900
+without driver
+
+825
+00:44:27,900 --> 00:44:31,020
+with this is the driver without the
+
+826
+00:44:31,020 --> 00:44:34,260
+driver then OS need to understand
+
+827
+00:44:34,260 --> 00:44:38,280
+whenever a new company designs USB OS
+
+828
+00:44:38,280 --> 00:44:40,020
+needs to
+
+829
+00:44:40,020 --> 00:44:43,200
+pushing updates to its current version
+
+830
+00:44:43,200 --> 00:44:45,960
+about to understand how its reads or
+
+831
+00:44:45,960 --> 00:44:49,200
+read or write the data and then
+
+832
+00:44:49,200 --> 00:44:52,079
+adding that it's all in in its OS
+
+833
+00:44:52,079 --> 00:44:54,480
+Resource Management code but with the
+
+834
+00:44:54,480 --> 00:44:57,240
+driver driver is that the A's company
+
+835
+00:44:57,240 --> 00:45:00,359
+and these company are going to create a
+
+836
+00:45:00,359 --> 00:45:02,280
+new abstraction
+
+837
+00:45:02,280 --> 00:45:05,700
+this obstruction separates abstraction a
+
+838
+00:45:05,700 --> 00:45:07,980
+code and
+
+839
+00:45:07,980 --> 00:45:13,319
+just exports to the OS about the read
+
+840
+00:45:13,319 --> 00:45:17,819
+and write wise it gave the OS of the
+
+841
+00:45:17,819 --> 00:45:21,839
+interface of read and write
+
+842
+00:45:21,839 --> 00:45:24,540
+and the driver do all the dirty things
+
+843
+00:45:24,540 --> 00:45:27,240
+about how to read data how to write data
+
+844
+00:45:27,240 --> 00:45:28,980
+how to search data
+
+845
+00:45:28,980 --> 00:45:31,800
+the driver going to help the OS design
+
+846
+00:45:31,800 --> 00:45:34,800
+the order Generations happening in this
+
+847
+00:45:34,800 --> 00:45:38,520
+to be accomplished in these two USBS
+
+848
+00:45:38,520 --> 00:45:42,000
+the OS only needs to getting this
+
+849
+00:45:42,000 --> 00:45:44,220
+interface okay so driver is actually
+
+850
+00:45:44,220 --> 00:45:46,099
+just um
+
+851
+00:45:46,099 --> 00:45:49,440
+abstraction it's another obstruction but
+
+852
+00:45:49,440 --> 00:45:52,819
+that is why we need driver
+
+853
+00:45:56,660 --> 00:46:01,339
+driver is not part of the OS
+
+854
+00:46:03,000 --> 00:46:05,040
+Lo not here
+
+855
+00:46:05,040 --> 00:46:08,060
+give me one seconds
+
+856
+00:49:07,700 --> 00:49:10,920
+uh so device driver is just another
+
+857
+00:49:10,920 --> 00:49:13,760
+abstraction
+
+858
+00:49:15,780 --> 00:49:19,940
+and its users abstraction
+
+859
+00:49:20,160 --> 00:49:23,180
+so user
+
+860
+00:49:24,420 --> 00:49:27,839
+doing Rider driver and then combined and
+
+861
+00:49:27,839 --> 00:49:31,319
+just you can ask the OS to load it load
+
+862
+00:49:31,319 --> 00:49:35,579
+that then after that OS can read
+
+863
+00:49:35,579 --> 00:49:38,460
+and write your devices okay and there's
+
+864
+00:49:38,460 --> 00:49:41,460
+three mode of communication so
+
+865
+00:49:41,460 --> 00:49:43,440
+communication means data transfer
+
+866
+00:49:43,440 --> 00:49:46,140
+communication between
+
+867
+00:49:46,140 --> 00:49:48,599
+the OS operating system under your
+
+868
+00:49:48,599 --> 00:49:51,140
+driver there's three kind of Opera
+
+869
+00:49:51,140 --> 00:49:54,960
+Communications what are these three
+
+870
+00:49:54,960 --> 00:49:57,680
+operations
+
+871
+00:50:00,780 --> 00:50:04,619
+they are pulling interrupts and dma so
+
+872
+00:50:04,619 --> 00:50:06,720
+we talk about dma in our last selection
+
+873
+00:50:06,720 --> 00:50:09,740
+what is dma
+
+874
+00:50:18,359 --> 00:50:20,280
+yes
+
+875
+00:50:20,280 --> 00:50:23,280
+DMI
+
+876
+00:50:25,400 --> 00:50:27,960
+so let's start from the first one
+
+877
+00:50:27,960 --> 00:50:30,660
+pulling okay pulling all these pulling
+
+878
+00:50:30,660 --> 00:50:34,160
+three modes of communication
+
+879
+00:50:34,200 --> 00:50:36,720
+before we go to these three concepts I
+
+880
+00:50:36,720 --> 00:50:38,880
+need I need you guys to not just
+
+881
+00:50:38,880 --> 00:50:41,520
+memorize it understand it okay I'm
+
+882
+00:50:41,520 --> 00:50:43,500
+asking you a question
+
+883
+00:50:43,500 --> 00:50:44,400
+um
+
+884
+00:50:44,400 --> 00:50:47,579
+if you are going to if if you are
+
+885
+00:50:47,579 --> 00:50:50,880
+students you need to you need to create
+
+886
+00:50:50,880 --> 00:50:53,119
+um Wells Fargo Bank
+
+887
+00:50:53,119 --> 00:50:56,819
+West Park Wells Fargo student card so
+
+888
+00:50:56,819 --> 00:51:00,240
+you come to the bank then what you can
+
+889
+00:51:00,240 --> 00:51:02,420
+do
+
+890
+00:51:03,180 --> 00:51:06,319
+what you can do
+
+891
+00:51:06,480 --> 00:51:09,480
+you need to CR you need you need to
+
+892
+00:51:09,480 --> 00:51:12,480
+apply for a card and then
+
+893
+00:51:12,480 --> 00:51:14,579
+you need to apply for card and then
+
+894
+00:51:14,579 --> 00:51:17,460
+deposit some a lot of money into that
+
+895
+00:51:17,460 --> 00:51:20,700
+like 10 000 into that you bring their
+
+896
+00:51:20,700 --> 00:51:23,700
+money okay and then you bring that money
+
+897
+00:51:23,700 --> 00:51:26,339
+you come to the you are already in front
+
+898
+00:51:26,339 --> 00:51:29,819
+of the bank the West Fargo bank so
+
+899
+00:51:29,819 --> 00:51:32,700
+there's several options the several
+
+900
+00:51:32,700 --> 00:51:36,000
+options the first option is that
+
+901
+00:51:36,000 --> 00:51:38,280
+the first option is that you are going
+
+902
+00:51:38,280 --> 00:51:40,500
+to
+
+903
+00:51:40,500 --> 00:51:43,440
+you you are going to
+
+904
+00:51:43,440 --> 00:51:46,980
+just come in come in the bank and then
+
+905
+00:51:46,980 --> 00:51:49,079
+you find out the different registers
+
+906
+00:51:49,079 --> 00:51:50,220
+right
+
+907
+00:51:50,220 --> 00:51:52,859
+you find there's different registers and
+
+908
+00:51:52,859 --> 00:51:55,200
+there's many people maybe ahead of you
+
+909
+00:51:55,200 --> 00:51:58,819
+so you are waiting there
+
+910
+00:52:08,819 --> 00:52:12,660
+so this is me okay this is me
+
+911
+00:52:12,660 --> 00:52:17,240
+it's me okay I have
+
+912
+00:52:17,240 --> 00:52:21,900
+100K okay and I need to store it now I'm
+
+913
+00:52:21,900 --> 00:52:24,540
+in I might have several options now I
+
+914
+00:52:24,540 --> 00:52:26,460
+come come to the bank okay this is the
+
+915
+00:52:26,460 --> 00:52:28,640
+bank
+
+916
+00:52:36,059 --> 00:52:38,099
+the difference of registers they are
+
+917
+00:52:38,099 --> 00:52:40,740
+like agents they are right and many
+
+918
+00:52:40,740 --> 00:52:44,839
+people may be ahead of me
+
+919
+00:52:45,720 --> 00:52:49,260
+then I'm going to wait here wait here I
+
+920
+00:52:49,260 --> 00:52:51,300
+choose a line I choose a line I'm
+
+921
+00:52:51,300 --> 00:52:52,440
+waiting here
+
+922
+00:52:52,440 --> 00:52:55,859
+I'm waiting here and then until it's my
+
+923
+00:52:55,859 --> 00:52:58,440
+turn it's my turn so it's if it is my
+
+924
+00:52:58,440 --> 00:53:01,140
+turn then I'm going to ask the guy
+
+925
+00:53:01,140 --> 00:53:03,900
+saying that okay you need help me apply
+
+926
+00:53:03,900 --> 00:53:05,460
+for a credit card
+
+927
+00:53:05,460 --> 00:53:07,319
+you need to help me apply for a credit
+
+928
+00:53:07,319 --> 00:53:09,839
+card I need to apply for credit card and
+
+929
+00:53:09,839 --> 00:53:12,059
+then the men are going to import asking
+
+930
+00:53:12,059 --> 00:53:16,500
+my name and whatever what I have then
+
+931
+00:53:16,500 --> 00:53:18,540
+he's already serving me he's only
+
+932
+00:53:18,540 --> 00:53:19,859
+serving me
+
+933
+00:53:19,859 --> 00:53:22,800
+until I have successfully deposited this
+
+934
+00:53:22,800 --> 00:53:26,520
+100K into the new credit card this is
+
+935
+00:53:26,520 --> 00:53:27,839
+one option
+
+936
+00:53:27,839 --> 00:53:30,420
+this is one option another option is
+
+937
+00:53:30,420 --> 00:53:33,960
+that another option is that
+
+938
+00:53:33,960 --> 00:53:38,099
+I come into the bank and then I'm I'm
+
+939
+00:53:38,099 --> 00:53:42,300
+saying hey I have 100K anyone who wants
+
+940
+00:53:42,300 --> 00:53:44,160
+to serve me and then there will be a
+
+941
+00:53:44,160 --> 00:53:46,500
+manager comes out he's from Office
+
+942
+00:53:46,500 --> 00:53:49,380
+saying that okay I can serve you letting
+
+943
+00:53:49,380 --> 00:53:51,540
+come here come to my office then let's
+
+944
+00:53:51,540 --> 00:53:53,460
+do that together that is another option
+
+945
+00:53:53,460 --> 00:53:54,480
+right
+
+946
+00:53:54,480 --> 00:53:57,300
+and the third option the third option is
+
+947
+00:53:57,300 --> 00:53:58,680
+that
+
+948
+00:53:58,680 --> 00:54:01,920
+I come into the bank coming to the bank
+
+949
+00:54:01,920 --> 00:54:04,559
+the manager serves me by manager saying
+
+950
+00:54:04,559 --> 00:54:06,079
+that okay
+
+951
+00:54:06,079 --> 00:54:09,480
+you you go to my room and you're fill in
+
+952
+00:54:09,480 --> 00:54:11,460
+this form one
+
+953
+00:54:11,460 --> 00:54:14,579
+you feeling this form I'm going to serve
+
+954
+00:54:14,579 --> 00:54:17,520
+another guy who has 10 000 K so you
+
+955
+00:54:17,520 --> 00:54:19,260
+waiting here you finish your form after
+
+956
+00:54:19,260 --> 00:54:21,240
+you finish that you call me then I come
+
+957
+00:54:21,240 --> 00:54:24,300
+back so that's the three options so this
+
+958
+00:54:24,300 --> 00:54:26,880
+happens in our real life it comes to
+
+959
+00:54:26,880 --> 00:54:29,540
+same thing
+
+960
+00:54:29,640 --> 00:54:31,859
+not this one
+
+961
+00:54:31,859 --> 00:54:33,780
+it's come to the same thing into three
+
+962
+00:54:33,780 --> 00:54:36,780
+modes of communications polling
+
+963
+00:54:36,780 --> 00:54:39,960
+interrupts and dma okay let's look at
+
+964
+00:54:39,960 --> 00:54:42,119
+exactly it's maybe not the same but the
+
+965
+00:54:42,119 --> 00:54:44,160
+concept is the similar concept is
+
+966
+00:54:44,160 --> 00:54:46,740
+similar okay let's look at how they
+
+967
+00:54:46,740 --> 00:54:49,339
+communicate
+
+968
+00:54:49,380 --> 00:54:52,819
+so IO by pulling the device device
+
+969
+00:54:52,819 --> 00:54:55,920
+issued command to the controller you can
+
+970
+00:54:55,920 --> 00:54:57,599
+think of that is a
+
+971
+00:54:57,599 --> 00:55:01,740
+part of the driver and then driver ports
+
+972
+00:55:01,740 --> 00:55:05,819
+the device until it is ready
+
+973
+00:55:05,819 --> 00:55:09,119
+for the device until it is ready
+
+974
+00:55:09,119 --> 00:55:11,940
+or what that means
+
+975
+00:55:11,940 --> 00:55:15,319
+so it's see
+
+976
+00:55:18,839 --> 00:55:20,940
+this is the same thing
+
+977
+00:55:20,940 --> 00:55:24,300
+same theme of my first example you're
+
+978
+00:55:24,300 --> 00:55:26,579
+waiting in a queue until you see your
+
+979
+00:55:26,579 --> 00:55:28,559
+term now it is your term
+
+980
+00:55:28,559 --> 00:55:31,980
+so the right the agents who's serving
+
+981
+00:55:31,980 --> 00:55:35,400
+you is the CPU and tell the agents I
+
+982
+00:55:35,400 --> 00:55:38,940
+have this data I need and you need to I
+
+983
+00:55:38,940 --> 00:55:40,920
+need to transfer data to you
+
+984
+00:55:40,920 --> 00:55:44,940
+so the agent is going to serve me
+
+985
+00:55:44,940 --> 00:55:47,160
+only serve me that is why it's called
+
+986
+00:55:47,160 --> 00:55:50,339
+Big use of CPU because CPU only served
+
+987
+00:55:50,339 --> 00:55:52,740
+this device the device
+
+988
+00:55:52,740 --> 00:55:54,480
+the driver you should come also
+
+989
+00:55:54,480 --> 00:55:57,359
+Controller driver post device until it
+
+990
+00:55:57,359 --> 00:55:58,260
+is ready
+
+991
+00:55:58,260 --> 00:56:02,040
+the CPU are going to monitoring the data
+
+992
+00:56:02,040 --> 00:56:04,859
+transfer one Base by one bits is going
+
+993
+00:56:04,859 --> 00:56:07,500
+to be there do nothing it's going to be
+
+994
+00:56:07,500 --> 00:56:10,920
+there do nothing okay
+
+995
+00:56:10,920 --> 00:56:13,680
+now another another
+
+996
+00:56:13,680 --> 00:56:16,020
+see this is the first one pouring okay
+
+997
+00:56:16,020 --> 00:56:19,020
+pulling you see this
+
+998
+00:56:19,020 --> 00:56:22,740
+this is a big waste of CPU big waste of
+
+999
+00:56:22,740 --> 00:56:26,460
+CPU another method is that IO by
+
+1000
+00:56:26,460 --> 00:56:30,000
+interacts IO by interrupt
+
+1001
+00:56:30,000 --> 00:56:33,000
+so what is IO by interrupt
+
+1002
+00:56:33,000 --> 00:56:35,460
+what is the io by interrupt this is
+
+1003
+00:56:35,460 --> 00:56:37,980
+something like my second administered
+
+1004
+00:56:37,980 --> 00:56:41,700
+example okay saying that okay you come
+
+1005
+00:56:41,700 --> 00:56:43,140
+into the bank
+
+1006
+00:56:43,140 --> 00:56:46,740
+then you do not lead the wage agents
+
+1007
+00:56:46,740 --> 00:56:49,500
+waiting for you on like when you are one
+
+1008
+00:56:49,500 --> 00:56:51,780
+manager waiting for you while you are
+
+1009
+00:56:51,780 --> 00:56:53,460
+filling your forms
+
+1010
+00:56:53,460 --> 00:56:56,220
+you can say that hey I'm going to create
+
+1011
+00:56:56,220 --> 00:57:00,599
+a I'm going to transfer data to you
+
+1012
+00:57:00,599 --> 00:57:04,980
+so it sends an interrupt operation we
+
+1013
+00:57:04,980 --> 00:57:06,720
+are going to talk about later what is
+
+1014
+00:57:06,720 --> 00:57:09,119
+exactly interrupts but right now it only
+
+1015
+00:57:09,119 --> 00:57:12,000
+needs to know that this drive the drive
+
+1016
+00:57:12,000 --> 00:57:16,079
+this controller is going to interrupt
+
+1017
+00:57:16,079 --> 00:57:19,380
+the CPU interrupt CPU saying that
+
+1018
+00:57:19,380 --> 00:57:22,380
+hey you need to stop the work come to
+
+1019
+00:57:22,380 --> 00:57:25,140
+serve me and then CPU comes to serve you
+
+1020
+00:57:25,140 --> 00:57:27,960
+and then find out okay you need to
+
+1021
+00:57:27,960 --> 00:57:29,700
+transfer data there's people saying that
+
+1022
+00:57:29,700 --> 00:57:31,920
+I'll give you on CPU are going to give
+
+1023
+00:57:31,920 --> 00:57:34,440
+me an address for me to transfer the
+
+1024
+00:57:34,440 --> 00:57:38,220
+data then CPU can leave and do something
+
+1025
+00:57:38,220 --> 00:57:39,660
+else
+
+1026
+00:57:39,660 --> 00:57:43,200
+after I finish the data transfer I send
+
+1027
+00:57:43,200 --> 00:57:46,319
+an interrupt again to the CPU saying I
+
+1028
+00:57:46,319 --> 00:57:48,839
+finish so you come back
+
+1029
+00:57:48,839 --> 00:57:51,780
+that is the io by interrupt I over
+
+1030
+00:57:51,780 --> 00:57:53,280
+interrupt
+
+1031
+00:57:53,280 --> 00:57:57,900
+so what is exactly interrupt
+
+1032
+00:58:02,460 --> 00:58:06,240
+what happens once I when the OS handle
+
+1033
+00:58:06,240 --> 00:58:08,900
+the interrupt
+
+1034
+00:58:15,420 --> 00:58:18,140
+okay
+
+1035
+00:58:28,319 --> 00:58:32,280
+so interrupts this right now I'm talking
+
+1036
+00:58:32,280 --> 00:58:34,500
+about what is interrupts you may follow
+
+1037
+00:58:34,500 --> 00:58:36,420
+that many times
+
+1038
+00:58:36,420 --> 00:58:40,760
+what is exactly interrupts
+
+1039
+00:58:41,599 --> 00:58:43,520
+interrupts
+
+1040
+00:58:43,520 --> 00:58:46,619
+who do you interrupt right when we are
+
+1041
+00:58:46,619 --> 00:58:48,480
+saying interrupts
+
+1042
+00:58:48,480 --> 00:58:52,200
+the object of the interrupts is always
+
+1043
+00:58:52,200 --> 00:58:55,140
+or as the CPU okay CPU okay we are
+
+1044
+00:58:55,140 --> 00:58:59,099
+interrupting CPU so CPU is the one we
+
+1045
+00:58:59,099 --> 00:59:01,140
+are interrupting why we need to
+
+1046
+00:59:01,140 --> 00:59:02,819
+interrupt CPU
+
+1047
+00:59:02,819 --> 00:59:05,480
+because at one time see if you can only
+
+1048
+00:59:05,480 --> 00:59:08,700
+do one operation can only serve one
+
+1049
+00:59:08,700 --> 00:59:11,040
+program why you need to interrupt the
+
+1050
+00:59:11,040 --> 00:59:14,579
+CPU because you want the CPU to help you
+
+1051
+00:59:14,579 --> 00:59:17,400
+to do something to do something so you
+
+1052
+00:59:17,400 --> 00:59:20,220
+send the interrupt single to them there
+
+1053
+00:59:20,220 --> 00:59:23,220
+are many kind of singers but interrupts
+
+1054
+00:59:23,220 --> 00:59:26,819
+is one single okay in your project you
+
+1055
+00:59:26,819 --> 00:59:29,160
+you're going to practice many other
+
+1056
+00:59:29,160 --> 00:59:32,819
+singles so I'm going to interrupt CPU so
+
+1057
+00:59:32,819 --> 00:59:35,160
+what happens when I'm interrupts the CPU
+
+1058
+00:59:35,160 --> 00:59:38,540
+so this is a thing
+
+1059
+00:59:38,540 --> 00:59:42,420
+interrupts can happen in many operations
+
+1060
+00:59:42,420 --> 00:59:46,020
+for example I'm great in this example
+
+1061
+00:59:46,020 --> 00:59:49,380
+okay I need to transfer data from my
+
+1062
+00:59:49,380 --> 00:59:52,140
+devices to the disk I need to transform
+
+1063
+00:59:52,140 --> 00:59:54,960
+the data from my USB to disk so I need
+
+1064
+00:59:54,960 --> 00:59:57,319
+to send the interrupt operation
+
+1065
+00:59:57,319 --> 01:00:00,540
+interrupt the operation to the OS so
+
+1066
+01:00:00,540 --> 01:00:04,400
+this interrupts is from
+
+1067
+01:00:04,559 --> 01:00:07,740
+this is an operation Operation okay this
+
+1068
+01:00:07,740 --> 01:00:11,420
+is from user mode
+
+1069
+01:00:11,760 --> 01:00:13,799
+normal
+
+1070
+01:00:13,799 --> 01:00:15,980
+foreign
+
+1071
+01:00:21,380 --> 01:00:24,540
+to jump from the user mode to Kernel
+
+1072
+01:00:24,540 --> 01:00:27,660
+mode because in remember what I need to
+
+1073
+01:00:27,660 --> 01:00:30,299
+do I need to transfer data from my
+
+1074
+01:00:30,299 --> 01:00:34,440
+driver my USB right this is in
+
+1075
+01:00:34,440 --> 01:00:36,660
+in my devices you can think of this is
+
+1076
+01:00:36,660 --> 01:00:39,240
+in your user mode right this is your
+
+1077
+01:00:39,240 --> 01:00:42,299
+devices your user mode but the disk or
+
+1078
+01:00:42,299 --> 01:00:44,760
+memory when you transfer data from the
+
+1079
+01:00:44,760 --> 01:00:47,220
+something USB to the disk and go to the
+
+1080
+01:00:47,220 --> 01:00:49,740
+memory right this is something that OS
+
+1081
+01:00:49,740 --> 01:00:51,059
+is managing
+
+1082
+01:00:51,059 --> 01:00:55,099
+so that is in the kernel mode yes
+
+1083
+01:00:59,940 --> 01:01:02,579
+yeah well here's the thing okay try to
+
+1084
+01:01:02,579 --> 01:01:03,660
+try
+
+1085
+01:01:03,660 --> 01:01:06,359
+to answer your question what is the
+
+1086
+01:01:06,359 --> 01:01:09,059
+controller okay controller is slightly
+
+1087
+01:01:09,059 --> 01:01:12,180
+different with the driver controller is
+
+1088
+01:01:12,180 --> 01:01:15,000
+part of the OS it helps the inter in
+
+1089
+01:01:15,000 --> 01:01:18,780
+interrupt into prints the operations
+
+1090
+01:01:18,780 --> 01:01:20,400
+okay
+
+1091
+01:01:20,400 --> 01:01:23,339
+here when you read when you learn all as
+
+1092
+01:01:23,339 --> 01:01:25,680
+this course when you learn OS discourse
+
+1093
+01:01:25,680 --> 01:01:29,040
+even what I hope that you guys can
+
+1094
+01:01:29,040 --> 01:01:31,799
+understand the concepts not memorizing
+
+1095
+01:01:31,799 --> 01:01:33,599
+these keywords right whenever you
+
+1096
+01:01:33,599 --> 01:01:35,579
+understand it then you read the textbook
+
+1097
+01:01:35,579 --> 01:01:38,579
+it's very easy so for example for this
+
+1098
+01:01:38,579 --> 01:01:39,720
+controller
+
+1099
+01:01:39,720 --> 01:01:41,839
+different textbooks have different names
+
+1100
+01:01:41,839 --> 01:01:44,520
+they even do not require the controller
+
+1101
+01:01:44,520 --> 01:01:46,619
+right so you want to tell you this is
+
+1102
+01:01:46,619 --> 01:01:48,480
+controller you learn that but then when
+
+1103
+01:01:48,480 --> 01:01:50,400
+you read that different textbook you may
+
+1104
+01:01:50,400 --> 01:01:52,319
+it's different smellings they give
+
+1105
+01:01:52,319 --> 01:01:54,299
+different names the same thing as the
+
+1106
+01:01:54,299 --> 01:01:56,400
+CPU pipeline you you just need to
+
+1107
+01:01:56,400 --> 01:01:58,260
+understand why we need pipeline the
+
+1108
+01:01:58,260 --> 01:02:00,540
+benefits of pipeline but you there's no
+
+1109
+01:02:00,540 --> 01:02:03,359
+need to understand why it is just three
+
+1110
+01:02:03,359 --> 01:02:05,460
+components not four comparison or five
+
+1111
+01:02:05,460 --> 01:02:06,960
+components because different textbooks
+
+1112
+01:02:06,960 --> 01:02:09,960
+they have different explanations okay so
+
+1113
+01:02:09,960 --> 01:02:11,819
+for this let's come back to this
+
+1114
+01:02:11,819 --> 01:02:15,299
+interrupt okay why we need interrupt
+
+1115
+01:02:15,299 --> 01:02:20,099
+because we need asked all as we need to
+
+1116
+01:02:20,099 --> 01:02:23,040
+ask OS to give us some control of the
+
+1117
+01:02:23,040 --> 01:02:26,960
+CPU time to help us do some
+
+1118
+01:02:26,960 --> 01:02:30,900
+priority operation priority operation so
+
+1119
+01:02:30,900 --> 01:02:33,480
+we need go from the user mode to the
+
+1120
+01:02:33,480 --> 01:02:35,700
+kernel mode and array interrupts will go
+
+1121
+01:02:35,700 --> 01:02:38,280
+from the user mode to the kernel mode so
+
+1122
+01:02:38,280 --> 01:02:40,440
+for example right now I need to transfer
+
+1123
+01:02:40,440 --> 01:02:43,440
+data from the USB to the disk so I need
+
+1124
+01:02:43,440 --> 01:02:45,660
+to transfer from from the memory first
+
+1125
+01:02:45,660 --> 01:02:49,140
+the memory is put transfer to the disk
+
+1126
+01:02:49,140 --> 01:02:52,200
+so what it will do is that here this is
+
+1127
+01:02:52,200 --> 01:02:54,440
+the
+
+1128
+01:02:55,799 --> 01:03:00,319
+this is the your current instruction
+
+1129
+01:03:01,740 --> 01:03:04,079
+your currency instruction this is the
+
+1130
+01:03:04,079 --> 01:03:06,619
+next instruction
+
+1131
+01:03:06,960 --> 01:03:09,420
+okay so the for the current instruction
+
+1132
+01:03:09,420 --> 01:03:12,780
+you saying that help me create a file
+
+1133
+01:03:12,780 --> 01:03:15,660
+how many creates a buffer then let me
+
+1134
+01:03:15,660 --> 01:03:17,520
+send your data to the buffer so this
+
+1135
+01:03:17,520 --> 01:03:20,579
+kind of operation is uh it should runs
+
+1136
+01:03:20,579 --> 01:03:22,680
+in the kernel mode you cannot control
+
+1137
+01:03:22,680 --> 01:03:24,359
+that this OS will help you control
+
+1138
+01:03:24,359 --> 01:03:26,400
+because you are creating a buffer in the
+
+1139
+01:03:26,400 --> 01:03:29,160
+memory so it is something you cannot do
+
+1140
+01:03:29,160 --> 01:03:31,980
+you cannot do then it's asked it has a
+
+1141
+01:03:31,980 --> 01:03:35,579
+interrupt to the kernel modes okay so
+
+1142
+01:03:35,579 --> 01:03:39,359
+whatever who will reach that interrupts
+
+1143
+01:03:39,359 --> 01:03:43,079
+there will be uh interrupt Handler
+
+1144
+01:03:43,079 --> 01:03:45,900
+no matter what kind of
+
+1145
+01:03:45,900 --> 01:03:48,260
+OS that you are learning there always
+
+1146
+01:03:48,260 --> 01:03:51,480
+interrupts Handler that is a special
+
+1147
+01:03:51,480 --> 01:03:54,720
+code for every kind of interrupt for
+
+1148
+01:03:54,720 --> 01:03:57,299
+example if this is a crazy buffer this
+
+1149
+01:03:57,299 --> 01:03:58,980
+interrupt they have an interrupts
+
+1150
+01:03:58,980 --> 01:04:02,460
+Handler they have an ID and the OS will
+
+1151
+01:04:02,460 --> 01:04:05,099
+find out the ID corresponding to this
+
+1152
+01:04:05,099 --> 01:04:07,200
+operation and find out the interrupts
+
+1153
+01:04:07,200 --> 01:04:11,760
+Handler to handle that interrupts
+
+1154
+01:04:11,760 --> 01:04:13,260
+foreign
+
+1155
+01:04:13,260 --> 01:04:15,480
+this is the code let's say we run this
+
+1156
+01:04:15,480 --> 01:04:18,900
+code okay after OS runs this code in the
+
+1157
+01:04:18,900 --> 01:04:21,599
+Chrome mode so it will go back to the
+
+1158
+01:04:21,599 --> 01:04:24,720
+next operation okay next operation so
+
+1159
+01:04:24,720 --> 01:04:27,299
+this is um interrupt this is an
+
+1160
+01:04:27,299 --> 01:04:29,700
+interrupt this is the key idea of
+
+1161
+01:04:29,700 --> 01:04:31,859
+interrupts so key
+
+1162
+01:04:31,859 --> 01:04:36,200
+interrupts are very important in OS
+
+1163
+01:04:44,280 --> 01:04:47,940
+okay I I have a question for you what
+
+1164
+01:04:47,940 --> 01:04:49,740
+can you make an example about the
+
+1165
+01:04:49,740 --> 01:04:53,960
+interrupt operations in your real life
+
+1166
+01:04:57,680 --> 01:05:02,839
+real life example of the interrupt
+
+1167
+01:05:06,540 --> 01:05:08,460
+real life example of the interrupt
+
+1168
+01:05:08,460 --> 01:05:10,880
+operation
+
+1169
+01:05:13,319 --> 01:05:15,859
+yes
+
+1170
+01:05:19,859 --> 01:05:22,099
+foreign
+
+1171
+01:05:29,780 --> 01:05:33,380
+no I'm asking
+
+1172
+01:05:33,380 --> 01:05:37,319
+that's that's cool okay I'm asking what
+
+1173
+01:05:37,319 --> 01:05:40,140
+is the interrupts operation in the
+
+1174
+01:05:40,140 --> 01:05:42,980
+happening in the OS when you are
+
+1175
+01:05:42,980 --> 01:05:45,599
+interacting with OS what are the
+
+1176
+01:05:45,599 --> 01:05:48,299
+examples of interrupts
+
+1177
+01:05:48,299 --> 01:05:50,760
+yes
+
+1178
+01:05:50,760 --> 01:05:53,299
+what
+
+1179
+01:05:53,700 --> 01:05:56,299
+keyboard
+
+1180
+01:05:56,640 --> 01:05:58,140
+very good
+
+1181
+01:05:58,140 --> 01:06:00,839
+others how about others
+
+1182
+01:06:00,839 --> 01:06:03,440
+yeah
+
+1183
+01:06:09,359 --> 01:06:13,400
+yeah yeah yeah okay okay so so here
+
+1184
+01:06:13,400 --> 01:06:16,559
+interrupts has two kind of interrupts
+
+1185
+01:06:16,559 --> 01:06:18,900
+Hardware interrupts and software will
+
+1186
+01:06:18,900 --> 01:06:22,440
+interrupts so um that students What's
+
+1187
+01:06:22,440 --> 01:06:24,900
+Your Name by the way
+
+1188
+01:06:24,900 --> 01:06:27,720
+Andrew Andrew just gave us a good
+
+1189
+01:06:27,720 --> 01:06:30,119
+example of Hardware interrupts so
+
+1190
+01:06:30,119 --> 01:06:32,039
+there's many software interrupts
+
+1191
+01:06:32,039 --> 01:06:34,500
+software interrupt when one example is
+
+1192
+01:06:34,500 --> 01:06:36,660
+just what I mentioned that when you're
+
+1193
+01:06:36,660 --> 01:06:39,660
+trying to need to like create a buffer
+
+1194
+01:06:39,660 --> 01:06:42,480
+in memory let's say like do some
+
+1195
+01:06:42,480 --> 01:06:45,000
+memory operations like allocation memory
+
+1196
+01:06:45,000 --> 01:06:46,680
+rights address space that is an
+
+1197
+01:06:46,680 --> 01:06:48,539
+interrupt that you it will cause an
+
+1198
+01:06:48,539 --> 01:06:51,799
+interrupt what else
+
+1199
+01:06:56,900 --> 01:06:59,819
+are all Hardware but what are the
+
+1200
+01:06:59,819 --> 01:07:04,220
+software I'm curious yes
+
+1201
+01:07:04,579 --> 01:07:07,859
+very good yes that was one I'm waiting
+
+1202
+01:07:07,859 --> 01:07:10,020
+for throwing an exception this is also
+
+1203
+01:07:10,020 --> 01:07:12,720
+interrupt what else
+
+1204
+01:07:12,720 --> 01:07:16,220
+a silverware interrupt
+
+1205
+01:07:16,380 --> 01:07:19,380
+yes
+
+1206
+01:07:19,819 --> 01:07:22,500
+shut down it's it's a hardware
+
+1207
+01:07:22,500 --> 01:07:25,339
+interrupts
+
+1208
+01:07:25,920 --> 01:07:27,780
+software
+
+1209
+01:07:27,780 --> 01:07:31,440
+it will open a file right this is a
+
+1210
+01:07:31,440 --> 01:07:33,900
+interrupt it will cause interrupts why
+
+1211
+01:07:33,900 --> 01:07:36,420
+because when you open a file what os1
+
+1212
+01:07:36,420 --> 01:07:38,760
+needs to do it needs to
+
+1213
+01:07:38,760 --> 01:07:40,920
+create a buffer some buffer in the
+
+1214
+01:07:40,920 --> 01:07:42,900
+memory right
+
+1215
+01:07:42,900 --> 01:07:45,119
+the OS need to manage his memory
+
+1216
+01:07:45,119 --> 01:07:47,339
+resources
+
+1217
+01:07:47,339 --> 01:07:49,940
+yes
+
+1218
+01:07:51,299 --> 01:07:54,480
+break of what
+
+1219
+01:07:54,480 --> 01:07:57,359
+break stem or that is in your
+
+1220
+01:07:57,359 --> 01:07:59,359
+um
+
+1221
+01:08:00,299 --> 01:08:02,819
+yeah that is kind of interrupt too yeah
+
+1222
+01:08:02,819 --> 01:08:08,099
+well I mean all the Trap operations are
+
+1223
+01:08:08,099 --> 01:08:11,039
+also kind of software inter software
+
+1224
+01:08:11,039 --> 01:08:12,780
+well interrupts we are going to talk
+
+1225
+01:08:12,780 --> 01:08:15,599
+about that later okay but you need to
+
+1226
+01:08:15,599 --> 01:08:18,080
+hear the takeaway here that
+
+1227
+01:08:18,080 --> 01:08:21,620
+interrupts means
+
+1228
+01:08:21,738 --> 01:08:23,880
+interrupts means
+
+1229
+01:08:23,880 --> 01:08:27,238
+the control the control or goes from the
+
+1230
+01:08:27,238 --> 01:08:29,839
+user mode to the kernel mode
+
+1231
+01:08:29,839 --> 01:08:32,880
+interrupts always happens
+
+1232
+01:08:32,880 --> 01:08:35,698
+interrupts means that the operation
+
+1233
+01:08:35,698 --> 01:08:38,399
+needs to jump from the user mode to the
+
+1234
+01:08:38,399 --> 01:08:40,620
+kernel modes you give your control
+
+1235
+01:08:40,620 --> 01:08:45,120
+control of your programs to the OS so if
+
+1236
+01:08:45,120 --> 01:08:48,560
+we come back to the textbook textbook
+
+1237
+01:08:48,560 --> 01:08:52,259
+example we see this is example about the
+
+1238
+01:08:52,259 --> 01:08:54,299
+interrupts is that
+
+1239
+01:08:54,299 --> 01:08:56,460
+in the taxable if I still remember
+
+1240
+01:08:56,460 --> 01:08:58,380
+correctly in the castbook the textbook
+
+1241
+01:08:58,380 --> 01:09:01,198
+they they give you the example of the
+
+1242
+01:09:01,198 --> 01:09:03,779
+file operations it's saying that okay
+
+1243
+01:09:03,779 --> 01:09:05,698
+you call the file you call the crazy
+
+1244
+01:09:05,698 --> 01:09:08,339
+file then when you
+
+1245
+01:09:08,339 --> 01:09:10,920
+one when the OS is running the create
+
+1246
+01:09:10,920 --> 01:09:13,920
+file this language jumps to directly to
+
+1247
+01:09:13,920 --> 01:09:16,439
+here then create file operation because
+
+1248
+01:09:16,439 --> 01:09:17,640
+you need to
+
+1249
+01:09:17,640 --> 01:09:19,920
+use the library right the library the
+
+1250
+01:09:19,920 --> 01:09:22,080
+library is actually you may familiar
+
+1251
+01:09:22,080 --> 01:09:24,359
+with Java or C plus plus or C but
+
+1252
+01:09:24,359 --> 01:09:26,640
+there's a library right you are using
+
+1253
+01:09:26,640 --> 01:09:28,439
+the file crease or something library
+
+1254
+01:09:28,439 --> 01:09:30,960
+right but what actually happens in the
+
+1255
+01:09:30,960 --> 01:09:32,939
+library is that they are calling the OS
+
+1256
+01:09:32,939 --> 01:09:35,279
+Handler to help you create a file so
+
+1257
+01:09:35,279 --> 01:09:37,859
+that it jumps to the OS code
+
+1258
+01:09:37,859 --> 01:09:41,580
+when you create a file this operation is
+
+1259
+01:09:41,580 --> 01:09:44,339
+exactly code does not run in your
+
+1260
+01:09:44,339 --> 01:09:47,698
+program it's running in the Chrome mode
+
+1261
+01:09:47,698 --> 01:09:50,460
+in the OS program so you are actually
+
+1262
+01:09:50,460 --> 01:09:53,939
+using the interfaces that OS providing
+
+1263
+01:09:53,939 --> 01:09:56,460
+to you remember that the first course
+
+1264
+01:09:56,460 --> 01:09:58,980
+we're talking about OS is an abstraction
+
+1265
+01:09:58,980 --> 01:10:03,239
+OS translates the ugly operations of the
+
+1266
+01:10:03,239 --> 01:10:05,880
+hardware into some beautiful interfaces
+
+1267
+01:10:05,880 --> 01:10:09,540
+that is the interfaces OS give to you
+
+1268
+01:10:09,540 --> 01:10:12,480
+right so example of textbook for example
+
+1269
+01:10:12,480 --> 01:10:15,179
+of the file crease and the file delete
+
+1270
+01:10:15,179 --> 01:10:18,420
+is actually running inside of the OS
+
+1271
+01:10:18,420 --> 01:10:21,360
+it's not running even you are like
+
+1272
+01:10:21,360 --> 01:10:23,880
+import the Java Library where the C plus
+
+1273
+01:10:23,880 --> 01:10:26,699
+library is it's not they are underlying
+
+1274
+01:10:26,699 --> 01:10:28,560
+this Library code they are still using
+
+1275
+01:10:28,560 --> 01:10:32,120
+the OS code yes
+
+1276
+01:10:38,280 --> 01:10:42,360
+about using the using the using the ram
+
+1277
+01:10:42,360 --> 01:10:45,360
+in your program that depends okay that's
+
+1278
+01:10:45,360 --> 01:10:47,940
+depends that depends on what kind of
+
+1279
+01:10:47,940 --> 01:10:50,280
+operations you are using
+
+1280
+01:10:50,280 --> 01:10:52,620
+we can talk about that in our memory
+
+1281
+01:10:52,620 --> 01:10:54,860
+chapter
+
+1282
+01:10:59,760 --> 01:11:03,840
+and then this is the interrupt so still
+
+1283
+01:11:03,840 --> 01:11:05,400
+we are talking about the i o
+
+1284
+01:11:05,400 --> 01:11:07,560
+Communications between different devices
+
+1285
+01:11:07,560 --> 01:11:10,140
+under the OS right we have the i o by
+
+1286
+01:11:10,140 --> 01:11:13,860
+pouring IO by interrupt and IO by dma
+
+1287
+01:11:13,860 --> 01:11:17,400
+now it's come to dma direct memory
+
+1288
+01:11:17,400 --> 01:11:21,960
+access direct memory access oh
+
+1289
+01:11:21,960 --> 01:11:23,760
+I know this I know it's it's kind of
+
+1290
+01:11:23,760 --> 01:11:25,560
+burning because we kind of learn a lot
+
+1291
+01:11:25,560 --> 01:11:28,080
+of concept but that is Os Os course is
+
+1292
+01:11:28,080 --> 01:11:31,380
+like this okay always because it's like
+
+1293
+01:11:31,380 --> 01:11:33,540
+just to tell explain to you every
+
+1294
+01:11:33,540 --> 01:11:36,300
+concept it has okay so what is the
+
+1295
+01:11:36,300 --> 01:11:38,340
+direct memory access
+
+1296
+01:11:38,340 --> 01:11:41,159
+so what's the difference is between IO
+
+1297
+01:11:41,159 --> 01:11:44,100
+interrupt IO by interrupts okay anyone
+
+1298
+01:11:44,100 --> 01:11:46,080
+see it from the picture
+
+1299
+01:11:46,080 --> 01:11:49,040
+what is that
+
+1300
+01:11:52,280 --> 01:11:55,440
+so you see you see it's a voice using
+
+1301
+01:11:55,440 --> 01:11:58,199
+the i o as past a CPU as the part of the
+
+1302
+01:11:58,199 --> 01:11:59,400
+transfer
+
+1303
+01:11:59,400 --> 01:12:02,280
+so it does not need to interrupt the CPU
+
+1304
+01:12:02,280 --> 01:12:05,400
+and then interrupts view when it begins
+
+1305
+01:12:05,400 --> 01:12:08,100
+and interrupts if you want finished does
+
+1306
+01:12:08,100 --> 01:12:11,900
+not need to do that yes
+
+1307
+01:12:23,219 --> 01:12:25,140
+um we are talking about that yeah the
+
+1308
+01:12:25,140 --> 01:12:28,739
+well what is dma so you can think of dma
+
+1309
+01:12:28,739 --> 01:12:34,440
+is a special CPU it's a special CPU not
+
+1310
+01:12:34,440 --> 01:12:39,060
+not all the Hardware can support you dma
+
+1311
+01:12:39,060 --> 01:12:42,900
+but if it can support you DMI means that
+
+1312
+01:12:42,900 --> 01:12:45,719
+you either get this device needs to
+
+1313
+01:12:45,719 --> 01:12:48,480
+transfer a lot of data so it has that
+
+1314
+01:12:48,480 --> 01:12:51,540
+because dma when you start dma it's very
+
+1315
+01:12:51,540 --> 01:12:53,880
+expensive it's deals a lot of overhead
+
+1316
+01:12:53,880 --> 01:12:56,400
+but dma is like you can think of it is a
+
+1317
+01:12:56,400 --> 01:12:59,280
+device a special a special Hardware
+
+1318
+01:12:59,280 --> 01:13:02,040
+device that can that can replace the
+
+1319
+01:13:02,040 --> 01:13:04,140
+lower of the CPU
+
+1320
+01:13:04,140 --> 01:13:06,840
+so you do not need to interrupt the CPU
+
+1321
+01:13:06,840 --> 01:13:08,460
+against if you can do everything they
+
+1322
+01:13:08,460 --> 01:13:12,600
+want when the dma is replacing that dma
+
+1323
+01:13:12,600 --> 01:13:15,060
+is doing that
+
+1324
+01:13:15,060 --> 01:13:18,360
+it helps connecting the devices to the
+
+1325
+01:13:18,360 --> 01:13:19,440
+memory
+
+1326
+01:13:19,440 --> 01:13:20,820
+okay
+
+1327
+01:13:20,820 --> 01:13:23,040
+and that is the only exception when you
+
+1328
+01:13:23,040 --> 01:13:25,320
+transfer data I do not need to interrupt
+
+1329
+01:13:25,320 --> 01:13:29,179
+the CM CPU okay
+
+1330
+01:13:30,000 --> 01:13:33,000
+so in real life it is like you I need to
+
+1331
+01:13:33,000 --> 01:13:35,940
+deposit ten thousand dollars into my in
+
+1332
+01:13:35,940 --> 01:13:38,460
+into my my credit card right I I do not
+
+1333
+01:13:38,460 --> 01:13:40,739
+need for bordering the agents I do not
+
+1334
+01:13:40,739 --> 01:13:42,780
+need to bothering the manager I do not
+
+1335
+01:13:42,780 --> 01:13:45,080
+need to ask them to wait for me or
+
+1336
+01:13:45,080 --> 01:13:47,940
+interrupt them and ask them to serve
+
+1337
+01:13:47,940 --> 01:13:50,340
+anyone else I do not need to interact
+
+1338
+01:13:50,340 --> 01:13:54,840
+with them I just do it online I create
+
+1339
+01:13:54,840 --> 01:13:58,140
+um crazy accounts and deposits online I
+
+1340
+01:13:58,140 --> 01:13:59,400
+do that I
+
+1341
+01:13:59,400 --> 01:14:02,219
+just yeah that is like the amazing it's
+
+1342
+01:14:02,219 --> 01:14:04,380
+very but it's very expensive okay it's
+
+1343
+01:14:04,380 --> 01:14:07,199
+very expensive it's if you just have a
+
+1344
+01:14:07,199 --> 01:14:10,920
+little part of data a few data you're
+
+1345
+01:14:10,920 --> 01:14:13,140
+using the i o by pulling or using the io
+
+1346
+01:14:13,140 --> 01:14:15,480
+by interrupt
+
+1347
+01:14:15,480 --> 01:14:17,400
+this is very
+
+1348
+01:14:17,400 --> 01:14:21,000
+very slow but it's very
+
+1349
+01:14:21,000 --> 01:14:23,400
+it's very slow but it costs very little
+
+1350
+01:14:23,400 --> 01:14:26,580
+overhead this is slightly fast but you
+
+1351
+01:14:26,580 --> 01:14:29,280
+need and it's cost always ask the
+
+1352
+01:14:29,280 --> 01:14:31,380
+pouring wall with us view to wait
+
+1353
+01:14:31,380 --> 01:14:34,620
+interrupt CPU can do something else
+
+1354
+01:14:34,620 --> 01:14:37,500
+dma CPU
+
+1355
+01:14:37,500 --> 01:14:40,620
+do not need to be interrupted CPU can do
+
+1356
+01:14:40,620 --> 01:14:43,159
+his own things okay that's uh that's a
+
+1357
+01:14:43,159 --> 01:14:45,540
+differences between different these
+
+1358
+01:14:45,540 --> 01:14:48,320
+three approaches
+
+1359
+01:14:48,900 --> 01:14:51,360
+now we're talking about in the in our
+
+1360
+01:14:51,360 --> 01:14:52,080
+last
+
+1361
+01:14:52,080 --> 01:14:54,659
+in we also talk a little about the
+
+1362
+01:14:54,659 --> 01:14:56,760
+process so today let's talk more about
+
+1363
+01:14:56,760 --> 01:15:00,120
+that so you still remember process is a
+
+1364
+01:15:00,120 --> 01:15:03,600
+running program right so a process is a
+
+1365
+01:15:03,600 --> 01:15:06,199
+running program
+
+1366
+01:15:06,600 --> 01:15:10,920
+so if you are you are the ois designer
+
+1367
+01:15:10,920 --> 01:15:14,400
+now you need to code on OS what kind of
+
+1368
+01:15:14,400 --> 01:15:16,800
+data structures you are going to provide
+
+1369
+01:15:16,800 --> 01:15:18,239
+for process
+
+1370
+01:15:18,239 --> 01:15:21,480
+let's say I create a object across a
+
+1371
+01:15:21,480 --> 01:15:23,580
+class for the process right and what I'm
+
+1372
+01:15:23,580 --> 01:15:25,800
+going to put into that
+
+1373
+01:15:25,800 --> 01:15:29,600
+yesterday we mentioned that
+
+1374
+01:15:30,360 --> 01:15:32,219
+yes
+
+1375
+01:15:32,219 --> 01:15:35,159
+yeah very good you remember I just face
+
+1376
+01:15:35,159 --> 01:15:37,560
+yes what else
+
+1377
+01:15:37,560 --> 01:15:41,699
+person's name right process ID right
+
+1378
+01:15:41,699 --> 01:15:44,460
+the owner of the process right decrease
+
+1379
+01:15:44,460 --> 01:15:47,219
+time right
+
+1380
+01:15:47,219 --> 01:15:51,420
+the group ID right so what is group
+
+1381
+01:15:51,420 --> 01:15:53,760
+what is a group why the processor needs
+
+1382
+01:15:53,760 --> 01:15:55,560
+to group so these come the concepts of
+
+1383
+01:15:55,560 --> 01:15:57,239
+the process tree
+
+1384
+01:15:57,239 --> 01:16:00,480
+process can create one or more other
+
+1385
+01:16:00,480 --> 01:16:05,120
+processes we call it child process
+
+1386
+01:16:06,360 --> 01:16:09,239
+okay and the process trees looks like
+
+1387
+01:16:09,239 --> 01:16:11,480
+that
+
+1388
+01:16:15,000 --> 01:16:17,159
+so how they process
+
+1389
+01:16:17,159 --> 01:16:19,320
+communicates with each other
+
+1390
+01:16:19,320 --> 01:16:20,940
+how they communicate with each other
+
+1391
+01:16:20,940 --> 01:16:23,280
+there's a word
+
+1392
+01:16:23,280 --> 01:16:24,540
+yeah
+
+1393
+01:16:24,540 --> 01:16:27,060
+yeah that is the IPC yeah that is the
+
+1394
+01:16:27,060 --> 01:16:29,040
+IPC so
+
+1395
+01:16:29,040 --> 01:16:31,020
+um
+
+1396
+01:16:31,020 --> 01:16:33,120
+the communication is called interprocess
+
+1397
+01:16:33,120 --> 01:16:35,840
+communication
+
+1398
+01:16:36,239 --> 01:16:39,980
+yeah what lights
+
+1399
+01:16:40,860 --> 01:16:43,140
+okay another file we're talking about
+
+1400
+01:16:43,140 --> 01:16:45,840
+fire a major function of the operating
+
+1401
+01:16:45,840 --> 01:16:47,760
+system is to
+
+1402
+01:16:47,760 --> 01:16:49,760
+um
+
+1403
+01:16:49,800 --> 01:16:52,140
+it's to give the abstraction of the disk
+
+1404
+01:16:52,140 --> 01:16:54,780
+and other i o devices and present the
+
+1405
+01:16:54,780 --> 01:16:57,360
+programmer with a nice curling abstract
+
+1406
+01:16:57,360 --> 01:17:01,820
+model of the device independent files
+
+1407
+01:17:02,280 --> 01:17:06,300
+so so when I loaded that into the you
+
+1408
+01:17:06,300 --> 01:17:09,239
+see you have a USB you plug in
+
+1409
+01:17:09,239 --> 01:17:11,699
+they gave you a vision you can directly
+
+1410
+01:17:11,699 --> 01:17:14,640
+click that right and then go to the USB
+
+1411
+01:17:14,640 --> 01:17:17,219
+right same as your disk right your disk
+
+1412
+01:17:17,219 --> 01:17:19,320
+is actually there are all files there
+
+1413
+01:17:19,320 --> 01:17:21,360
+are files
+
+1414
+01:17:21,360 --> 01:17:24,600
+right if you are familiar with Ubuntu so
+
+1415
+01:17:24,600 --> 01:17:26,699
+um they are loot file or also loot file
+
+1416
+01:17:26,699 --> 01:17:29,040
+and then there there is a I think it's
+
+1417
+01:17:29,040 --> 01:17:31,739
+called Etc fire and then device file
+
+1418
+01:17:31,739 --> 01:17:34,560
+right and then home user
+
+1419
+01:17:34,560 --> 01:17:39,900
+this is all files so so the OS as long
+
+1420
+01:17:39,900 --> 01:17:43,440
+as it is a storage devices or as going
+
+1421
+01:17:43,440 --> 01:17:46,980
+to translate it into a file as long as
+
+1422
+01:17:46,980 --> 01:17:50,100
+it is a storage devices remember that as
+
+1423
+01:17:50,100 --> 01:17:53,159
+long as it is a storage devices it are
+
+1424
+01:17:53,159 --> 01:17:54,780
+going to translate to the new
+
+1425
+01:17:54,780 --> 01:17:58,560
+obstruction called file and then
+
+1426
+01:17:58,560 --> 01:18:00,719
+files
+
+1427
+01:18:00,719 --> 01:18:02,760
+are stored in the file folders right
+
+1428
+01:18:02,760 --> 01:18:06,239
+this file folder is called a directory
+
+1429
+01:18:06,239 --> 01:18:09,179
+directory is actually also a file it's a
+
+1430
+01:18:09,179 --> 01:18:11,460
+special file but if you look at the OS
+
+1431
+01:18:11,460 --> 01:18:13,920
+code the directory and the file they use
+
+1432
+01:18:13,920 --> 01:18:16,020
+the same code they use the game same
+
+1433
+01:18:16,020 --> 01:18:18,600
+code they are actually very similar this
+
+1434
+01:18:18,600 --> 01:18:21,900
+is just a special file and the file
+
+1435
+01:18:21,900 --> 01:18:24,900
+file
+
+1436
+01:18:29,699 --> 01:18:32,100
+okay there's uh something is very
+
+1437
+01:18:32,100 --> 01:18:35,900
+interesting I didn't put that in
+
+1438
+01:18:39,300 --> 01:18:41,699
+mentioned we mentioned that the pipe
+
+1439
+01:18:41,699 --> 01:18:45,659
+right so if if pipe is we can single
+
+1440
+01:18:45,659 --> 01:18:48,480
+pipe is a special file it helps the
+
+1441
+01:18:48,480 --> 01:18:50,340
+process to communicate with each other
+
+1442
+01:18:50,340 --> 01:18:53,219
+but it's not IPC okay they're using
+
+1443
+01:18:53,219 --> 01:18:54,480
+different they're using different
+
+1444
+01:18:54,480 --> 01:18:58,380
+abstractions but five pipe pipe is a
+
+1445
+01:18:58,380 --> 01:19:01,440
+file so it's using the file obstruction
+
+1446
+01:19:01,440 --> 01:19:04,140
+to help process communicate with each
+
+1447
+01:19:04,140 --> 01:19:05,820
+other
+
+1448
+01:19:05,820 --> 01:19:08,780
+foreign
+
+1449
+01:19:13,940 --> 01:19:19,460
+we come to the system course Okay so
+
+1450
+01:19:20,280 --> 01:19:22,260
+so we have seen that
+
+1451
+01:19:22,260 --> 01:19:24,780
+operating system have four are two main
+
+1452
+01:19:24,780 --> 01:19:27,360
+functions providing abstraction to user
+
+1453
+01:19:27,360 --> 01:19:29,940
+programs and managing the computer's
+
+1454
+01:19:29,940 --> 01:19:32,580
+resources so for the most of the part
+
+1455
+01:19:32,580 --> 01:19:34,679
+the interaction between user program and
+
+1456
+01:19:34,679 --> 01:19:36,800
+operating system deal with the
+
+1457
+01:19:36,800 --> 01:19:40,380
+abstraction like creating file reading
+
+1458
+01:19:40,380 --> 01:19:42,120
+file deleting on fire
+
+1459
+01:19:42,120 --> 01:19:45,480
+creating a buffer deleting a buffer so
+
+1460
+01:19:45,480 --> 01:19:48,420
+the resource management part is
+
+1461
+01:19:48,420 --> 01:19:50,760
+it's transparent to the user and then
+
+1462
+01:19:50,760 --> 01:19:52,080
+automatically
+
+1463
+01:19:52,080 --> 01:19:55,199
+so how they do it how they do it so
+
+1464
+01:19:55,199 --> 01:19:56,699
+there's a
+
+1465
+01:19:56,699 --> 01:20:00,540
+there's a few words here is called we
+
+1466
+01:20:00,540 --> 01:20:03,960
+between the act with OS we need a core
+
+1467
+01:20:03,960 --> 01:20:06,780
+and this is a system core okay system
+
+1468
+01:20:06,780 --> 01:20:10,800
+code so making a system course like
+
+1469
+01:20:10,800 --> 01:20:13,320
+making a special kind of procedure core
+
+1470
+01:20:13,320 --> 01:20:16,380
+or in the system core enter into the
+
+1471
+01:20:16,380 --> 01:20:19,260
+kernel okay Enter to the kernel so that
+
+1472
+01:20:19,260 --> 01:20:22,739
+says very very similar to the interrupts
+
+1473
+01:20:22,739 --> 01:20:25,699
+very very similar to the interrupt just
+
+1474
+01:20:25,699 --> 01:20:28,440
+interrupts has two system core
+
+1475
+01:20:28,440 --> 01:20:30,120
+interrupts has two kind right the
+
+1476
+01:20:30,120 --> 01:20:31,380
+hardware Interruption software
+
+1477
+01:20:31,380 --> 01:20:33,900
+interrupts right so system core is like
+
+1478
+01:20:33,900 --> 01:20:36,659
+very similar to the software interrupts
+
+1479
+01:20:36,659 --> 01:20:38,580
+it's called it's part of the software
+
+1480
+01:20:38,580 --> 01:20:41,219
+interrupts so we clear about that is
+
+1481
+01:20:41,219 --> 01:20:44,100
+part of the software interrupts so it
+
+1482
+01:20:44,100 --> 01:20:45,900
+also needs to
+
+1483
+01:20:45,900 --> 01:20:48,900
+jump from the username mode to the
+
+1484
+01:20:48,900 --> 01:20:51,360
+kernel modes okay
+
+1485
+01:20:51,360 --> 01:20:55,080
+so what happens in the system core
+
+1486
+01:20:55,080 --> 01:20:57,840
+so the system core issues by the user
+
+1487
+01:20:57,840 --> 01:21:01,980
+program we use a library called okay for
+
+1488
+01:21:01,980 --> 01:21:03,840
+this is an example about the this is
+
+1489
+01:21:03,840 --> 01:21:06,780
+just a software interrupt okay I'm like
+
+1490
+01:21:06,780 --> 01:21:09,120
+I'm creating a file I'm creating a file
+
+1491
+01:21:09,120 --> 01:21:11,760
+file creates this operation is issued by
+
+1492
+01:21:11,760 --> 01:21:13,739
+my user program and then the library
+
+1493
+01:21:13,739 --> 01:21:17,040
+routing puts them put into the kernel
+
+1494
+01:21:17,040 --> 01:21:19,800
+modes by issuing a special instruction
+
+1495
+01:21:19,800 --> 01:21:22,800
+and find the actual loading to the
+
+1496
+01:21:22,800 --> 01:21:26,340
+system in a table there's a system
+
+1497
+01:21:26,340 --> 01:21:29,219
+called handling table and then
+
+1498
+01:21:29,219 --> 01:21:31,679
+run the system core then return the
+
+1499
+01:21:31,679 --> 01:21:33,860
+program
+
+1500
+01:21:34,440 --> 01:21:37,140
+so this is an example okay then let's
+
+1501
+01:21:37,140 --> 01:21:40,380
+look at this so this is your users user
+
+1502
+01:21:40,380 --> 01:21:42,780
+score right now
+
+1503
+01:21:42,780 --> 01:21:45,560
+you see that
+
+1504
+01:21:46,980 --> 01:21:50,040
+I'm creating let's say I'm read the file
+
+1505
+01:21:50,040 --> 01:21:52,679
+right this um this is the
+
+1506
+01:21:52,679 --> 01:21:54,960
+file descriptor right
+
+1507
+01:21:54,960 --> 01:21:58,159
+this is what is that
+
+1508
+01:21:59,219 --> 01:22:01,760
+yeah
+
+1509
+01:22:01,860 --> 01:22:05,100
+yes very good very good so the amounts
+
+1510
+01:22:05,100 --> 01:22:07,860
+of the bytes okay amount of guys you put
+
+1511
+01:22:07,860 --> 01:22:09,960
+put in the buffer and so we read that
+
+1512
+01:22:09,960 --> 01:22:12,360
+and this is the file descriptor okay so
+
+1513
+01:22:12,360 --> 01:22:14,880
+read it then what you're going to do
+
+1514
+01:22:14,880 --> 01:22:17,340
+when you actually run this operation
+
+1515
+01:22:17,340 --> 01:22:19,260
+when you actually run this operation you
+
+1516
+01:22:19,260 --> 01:22:21,600
+call the read right let's say this
+
+1517
+01:22:21,600 --> 01:22:24,600
+letter form from this
+
+1518
+01:22:24,600 --> 01:22:29,040
+we push we push what is push means
+
+1519
+01:22:29,040 --> 01:22:30,840
+what does push means
+
+1520
+01:22:30,840 --> 01:22:32,640
+see here
+
+1521
+01:22:32,640 --> 01:22:35,100
+what does push means
+
+1522
+01:22:35,100 --> 01:22:38,100
+very good and then this
+
+1523
+01:22:38,100 --> 01:22:40,800
+still push it in the stacker then push
+
+1524
+01:22:40,800 --> 01:22:43,460
+it stack then what we do we call
+
+1525
+01:22:43,460 --> 01:22:47,340
+recorder read operation right
+
+1526
+01:22:47,340 --> 01:22:50,280
+put code for reading register and then
+
+1527
+01:22:50,280 --> 01:22:53,040
+here this is very important trap to the
+
+1528
+01:22:53,040 --> 01:22:55,320
+kernel right because this reader
+
+1529
+01:22:55,320 --> 01:22:58,020
+operation this read operation will not
+
+1530
+01:22:58,020 --> 01:23:02,400
+the user cannot handle that it is some
+
+1531
+01:23:02,400 --> 01:23:05,219
+special operation user cannot handle
+
+1532
+01:23:05,219 --> 01:23:08,179
+that so starting
+
+1533
+01:23:10,500 --> 01:23:12,840
+starting from here
+
+1534
+01:23:12,840 --> 01:23:15,960
+starting from here we trap to the CR to
+
+1535
+01:23:15,960 --> 01:23:17,219
+the kernel
+
+1536
+01:23:17,219 --> 01:23:19,980
+and then find out the system core
+
+1537
+01:23:19,980 --> 01:23:21,120
+Handler
+
+1538
+01:23:21,120 --> 01:23:23,280
+to handle it
+
+1539
+01:23:23,280 --> 01:23:25,620
+that is you see this operation is very
+
+1540
+01:23:25,620 --> 01:23:27,540
+similar to interrupts right that is why
+
+1541
+01:23:27,540 --> 01:23:29,940
+I say system core is just a
+
+1542
+01:23:29,940 --> 01:23:34,640
+special case of the software interrupt
+
+1543
+01:23:35,760 --> 01:23:38,659
+so there's many see some cool examples
+
+1544
+01:23:38,659 --> 01:23:43,260
+like for cooperation weight PID wait for
+
+1545
+01:23:43,260 --> 01:23:44,179
+child
+
+1546
+01:23:44,179 --> 01:23:47,100
+process to terminate
+
+1547
+01:23:47,100 --> 01:23:50,760
+replace a process core images
+
+1548
+01:23:50,760 --> 01:23:55,020
+open close read write files
+
+1549
+01:23:55,020 --> 01:23:57,300
+so we are going to we are going to
+
+1550
+01:23:57,300 --> 01:24:00,900
+practice that in your project or this
+
+1551
+01:24:00,900 --> 01:24:03,540
+system course when you when we are
+
+1552
+01:24:03,540 --> 01:24:07,980
+learning come to the process uh
+
+1553
+01:24:07,980 --> 01:24:12,179
+chapter we are going to learn that I
+
+1554
+01:24:12,179 --> 01:24:14,340
+think you very soon you will got your
+
+1555
+01:24:14,340 --> 01:24:17,159
+first assignments so two I think it's a
+
+1556
+01:24:17,159 --> 01:24:19,380
+write-on assignments and then the
+
+1557
+01:24:19,380 --> 01:24:21,540
+projects assignment your first Project's
+
+1558
+01:24:21,540 --> 01:24:23,699
+assignments will be help you familiar
+
+1559
+01:24:23,699 --> 01:24:28,760
+with C uh warm up with C okay
+
+1560
+01:24:30,360 --> 01:24:32,280
+so linking
+
+1561
+01:24:32,280 --> 01:24:35,460
+okay let's let's skip that so operating
+
+1562
+01:24:35,460 --> 01:24:38,659
+system structure
+
+1563
+01:24:39,360 --> 01:24:43,219
+operating system structure
+
+1564
+01:24:44,360 --> 01:24:47,820
+this is the history of operating system
+
+1565
+01:24:47,820 --> 01:24:52,199
+um which costs like 10 pages in the in
+
+1566
+01:24:52,199 --> 01:24:54,600
+the model brain system textbook I'm the
+
+1567
+01:24:54,600 --> 01:24:57,060
+reviewer I review this book twice I mean
+
+1568
+01:24:57,060 --> 01:24:59,219
+I was invited to review this book when
+
+1569
+01:24:59,219 --> 01:25:02,159
+the books was designed so um because I I
+
+1570
+01:25:02,159 --> 01:25:04,920
+use that book for many of my courses and
+
+1571
+01:25:04,920 --> 01:25:07,620
+then uh I found out they changed they
+
+1572
+01:25:07,620 --> 01:25:09,480
+may change it a little bit
+
+1573
+01:25:09,480 --> 01:25:11,159
+um so
+
+1574
+01:25:11,159 --> 01:25:14,460
+operating system history is it stands
+
+1575
+01:25:14,460 --> 01:25:16,739
+for a very very long history
+
+1576
+01:25:16,739 --> 01:25:18,000
+um
+
+1577
+01:25:18,000 --> 01:25:20,880
+at the very beginning we
+
+1578
+01:25:20,880 --> 01:25:23,940
+we do not have this big OS we we call it
+
+1579
+01:25:23,940 --> 01:25:27,900
+Michael kernels this will be uh
+
+1580
+01:25:27,900 --> 01:25:30,179
+before you were born yeah definitely
+
+1581
+01:25:30,179 --> 01:25:32,280
+before you were born I think when I
+
+1582
+01:25:32,280 --> 01:25:34,560
+learned that I think you are more most
+
+1583
+01:25:34,560 --> 01:25:37,980
+about 20 right yeah it's when I come to
+
+1584
+01:25:37,980 --> 01:25:40,500
+the college what I learned at that time
+
+1585
+01:25:40,500 --> 01:25:42,780
+the osdf papers there there's a paper
+
+1586
+01:25:42,780 --> 01:25:45,960
+about Michael kernel what they did is
+
+1587
+01:25:45,960 --> 01:25:48,060
+that they tried to remove everything
+
+1588
+01:25:48,060 --> 01:25:50,280
+from the kernel modes they asked the
+
+1589
+01:25:50,280 --> 01:25:52,380
+user to do the resource management they
+
+1590
+01:25:52,380 --> 01:25:54,239
+asked the user to do the abstraction
+
+1591
+01:25:54,239 --> 01:25:57,780
+they just put very very tiny things in
+
+1592
+01:25:57,780 --> 01:25:59,940
+the kernels so and we call it Michael
+
+1593
+01:25:59,940 --> 01:26:02,159
+kernels
+
+1594
+01:26:02,159 --> 01:26:05,580
+recording Michael kernels but it's it's
+
+1595
+01:26:05,580 --> 01:26:07,860
+it's the good thing about that the good
+
+1596
+01:26:07,860 --> 01:26:09,300
+thing about that
+
+1597
+01:26:09,300 --> 01:26:12,540
+where if you put if you write a lot of
+
+1598
+01:26:12,540 --> 01:26:13,560
+code
+
+1599
+01:26:13,560 --> 01:26:15,719
+it was easy to have bugs right and
+
+1600
+01:26:15,719 --> 01:26:18,000
+whenever you do a new operation you need
+
+1601
+01:26:18,000 --> 01:26:20,280
+to change your noise so the reason why
+
+1602
+01:26:20,280 --> 01:26:21,659
+they do Michael kernel is that they
+
+1603
+01:26:21,659 --> 01:26:23,699
+found out that okay I just write this
+
+1604
+01:26:23,699 --> 01:26:27,000
+this tiny tiny course just maybe
+
+1605
+01:26:27,000 --> 01:26:29,940
+thousands of lines of code to to
+
+1606
+01:26:29,940 --> 01:26:32,159
+managing the hardware resources and gave
+
+1607
+01:26:32,159 --> 01:26:33,900
+a lot of
+
+1608
+01:26:33,900 --> 01:26:36,659
+access to the hardware to users then I
+
+1609
+01:26:36,659 --> 01:26:39,540
+find out that it's easy to minimizing
+
+1610
+01:26:39,540 --> 01:26:43,440
+the uh to minimize the the Box
+
+1611
+01:26:43,440 --> 01:26:45,780
+okay but then
+
+1612
+01:26:45,780 --> 01:26:48,060
+then and then per day they found out
+
+1613
+01:26:48,060 --> 01:26:50,219
+that it's like a printer it's like your
+
+1614
+01:26:50,219 --> 01:26:52,679
+printer but it's only to the print since
+
+1615
+01:26:52,679 --> 01:26:56,219
+you don't not do anything else and then
+
+1616
+01:26:56,219 --> 01:26:58,980
+the operating system become larger and
+
+1617
+01:26:58,980 --> 01:27:01,860
+larger and then right now the operating
+
+1618
+01:27:01,860 --> 01:27:05,300
+system is more like um
+
+1619
+01:27:06,679 --> 01:27:09,840
+trying to get everything inside try to
+
+1620
+01:27:09,840 --> 01:27:11,460
+get everything inside so it's more like
+
+1621
+01:27:11,460 --> 01:27:12,840
+a
+
+1622
+01:27:12,840 --> 01:27:15,540
+printer machine where you can do the tax
+
+1623
+01:27:15,540 --> 01:27:18,900
+faxing it can do a phone call you can do
+
+1624
+01:27:18,900 --> 01:27:21,600
+it can save a lot of documents can go
+
+1625
+01:27:21,600 --> 01:27:23,360
+through everything together
+
+1626
+01:27:23,360 --> 01:27:27,900
+that is what we have now but
+
+1627
+01:27:27,900 --> 01:27:29,820
+well
+
+1628
+01:27:29,820 --> 01:27:32,580
+operating system now is come to a new
+
+1629
+01:27:32,580 --> 01:27:36,600
+new age that we we are not focusing on
+
+1630
+01:27:36,600 --> 01:27:39,000
+the old as itself so we are going to
+
+1631
+01:27:39,000 --> 01:27:42,420
+talk during our hot topics at the end of
+
+1632
+01:27:42,420 --> 01:27:44,699
+this course we have one week for Hot
+
+1633
+01:27:44,699 --> 01:27:46,500
+Topic so I'm going to discuss with you
+
+1634
+01:27:46,500 --> 01:27:49,679
+what happening very hard in the OS for
+
+1635
+01:27:49,679 --> 01:27:52,080
+example virtual machines that you may
+
+1636
+01:27:52,080 --> 01:27:53,880
+familiar with the virtual machines right
+
+1637
+01:27:53,880 --> 01:27:55,500
+containers
+
+1638
+01:27:55,500 --> 01:27:58,199
+right and the serverless serverless
+
+1639
+01:27:58,199 --> 01:27:59,340
+functions
+
+1640
+01:27:59,340 --> 01:28:01,760
+for example right now if you you you you
+
+1641
+01:28:01,760 --> 01:28:04,199
+I don't know if you are familiar with
+
+1642
+01:28:04,199 --> 01:28:07,260
+Amazon ec2 but everyone can using your
+
+1643
+01:28:07,260 --> 01:28:11,580
+Amazon account to create a free tiny
+
+1644
+01:28:11,580 --> 01:28:14,400
+virtual machine in the Amazon
+
+1645
+01:28:14,400 --> 01:28:16,560
+um and you that is a little virtual
+
+1646
+01:28:16,560 --> 01:28:18,780
+machine so when you log in you can feel
+
+1647
+01:28:18,780 --> 01:28:22,260
+that it's the same as your the real
+
+1648
+01:28:22,260 --> 01:28:25,440
+Merchant but they are virtual okay so
+
+1649
+01:28:25,440 --> 01:28:27,000
+well that is what we are going to learn
+
+1650
+01:28:27,000 --> 01:28:30,659
+in in the last of the course so well
+
+1651
+01:28:30,659 --> 01:28:33,840
+here's the takeaways
+
+1652
+01:28:33,840 --> 01:28:35,820
+and uh
+
+1653
+01:28:35,820 --> 01:28:37,940
+um so my tier are going to
+
+1654
+01:28:37,940 --> 01:28:40,260
+publish your assignments and your
+
+1655
+01:28:40,260 --> 01:28:42,840
+projects soon you first um you know you
+
+1656
+01:28:42,840 --> 01:28:45,000
+have uh
+
+1657
+01:28:45,000 --> 01:28:47,280
+yeah you have I think you have one or
+
+1658
+01:28:47,280 --> 01:28:50,760
+two weeks to finish that okay okay thank
+
+1659
+01:28:50,760 --> 01:28:52,940
+you
+
