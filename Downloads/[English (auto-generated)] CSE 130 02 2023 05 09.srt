@@ -1,0 +1,6816 @@
+1
+00:00:00,000 --> 00:00:02,420
+foreign
+
+2
+00:00:15,379 --> 00:00:17,580
+we cannot
+
+3
+00:00:17,580 --> 00:00:21,300
+scheduling for you for makeup the exam
+
+4
+00:00:21,300 --> 00:00:24,900
+for any travel reasons for example you
+
+5
+00:00:24,900 --> 00:00:27,000
+said you want to you need to travel from
+
+6
+00:00:27,000 --> 00:00:30,359
+to some place or you have any travel
+
+7
+00:00:30,359 --> 00:00:31,380
+plans
+
+8
+00:00:31,380 --> 00:00:34,500
+that is something I cannot do anything
+
+9
+00:00:34,500 --> 00:00:36,660
+so you need to schedule it in advance
+
+10
+00:00:36,660 --> 00:00:41,100
+like make sure that you are there in the
+
+11
+00:00:41,100 --> 00:00:43,980
+exam day so I cannot schedule any makeup
+
+12
+00:00:43,980 --> 00:00:46,379
+exam for the travel reasons travel or
+
+13
+00:00:46,379 --> 00:00:48,719
+commentation reasons this is the first
+
+14
+00:00:48,719 --> 00:00:51,420
+thing and the second thing later you're
+
+15
+00:00:51,420 --> 00:00:54,360
+gonna you maybe hopefully this week
+
+16
+00:00:54,360 --> 00:00:56,699
+maybe next week you'll get your grades
+
+17
+00:00:56,699 --> 00:00:59,760
+for midterm there's there's no
+
+18
+00:00:59,760 --> 00:01:03,899
+opportunity for retaking the exams
+
+19
+00:01:03,899 --> 00:01:07,260
+so um you got a grade if you find out
+
+20
+00:01:07,260 --> 00:01:09,900
+there's problem with your grades then
+
+21
+00:01:09,900 --> 00:01:14,220
+you can ask the our TA and Tao
+
+22
+00:01:14,220 --> 00:01:15,780
+um
+
+23
+00:01:15,780 --> 00:01:18,659
+or look look forward for you okay but
+
+24
+00:01:18,659 --> 00:01:21,299
+yes no
+
+25
+00:01:21,299 --> 00:01:26,220
+retaking exam okay you cannot retake the
+
+26
+00:01:26,220 --> 00:01:28,680
+exam that's the second thing another
+
+27
+00:01:28,680 --> 00:01:31,619
+thing in case of any emergency happens
+
+28
+00:01:31,619 --> 00:01:33,840
+in the exam day
+
+29
+00:01:33,840 --> 00:01:35,040
+let's say
+
+30
+00:01:35,040 --> 00:01:37,979
+you like some
+
+31
+00:01:37,979 --> 00:01:39,600
+for example
+
+32
+00:01:39,600 --> 00:01:42,540
+um you have some urgents medical issues
+
+33
+00:01:42,540 --> 00:01:45,240
+you need to go to the Urgent Care you
+
+34
+00:01:45,240 --> 00:01:46,500
+need to go to
+
+35
+00:01:46,500 --> 00:01:47,280
+um
+
+36
+00:01:47,280 --> 00:01:49,439
+like the hospital or something like that
+
+37
+00:01:49,439 --> 00:01:52,140
+we we need some documents you do not
+
+38
+00:01:52,140 --> 00:01:55,680
+need to tell me exactly what you have I
+
+39
+00:01:55,680 --> 00:01:57,720
+do not need to know that your privacy
+
+40
+00:01:57,720 --> 00:02:01,500
+but I need some me or TA or the school
+
+41
+00:02:01,500 --> 00:02:04,560
+may need some documents to
+
+42
+00:02:04,560 --> 00:02:08,280
+uh to prove that you have this situation
+
+43
+00:02:08,280 --> 00:02:09,660
+um
+
+44
+00:02:09,660 --> 00:02:12,200
+okay
+
+45
+00:02:12,300 --> 00:02:15,080
+uh
+
+46
+00:02:15,780 --> 00:02:17,940
+okay so that is a photo of final our
+
+47
+00:02:17,940 --> 00:02:22,080
+final will be in the June 15th June 15th
+
+48
+00:02:22,080 --> 00:02:24,780
+it's already there in the uh seller base
+
+49
+00:02:24,780 --> 00:02:27,360
+so you can see that okay it will be the
+
+50
+00:02:27,360 --> 00:02:30,379
+June 15th
+
+51
+00:02:33,239 --> 00:02:37,080
+okay so any questions for example
+
+52
+00:02:37,080 --> 00:02:39,239
+okay so then we can start with our
+
+53
+00:02:39,239 --> 00:02:41,519
+memory management chapter so
+
+54
+00:02:41,519 --> 00:02:44,180
+uh
+
+55
+00:02:51,480 --> 00:02:54,480
+some memories memory management let's
+
+56
+00:02:54,480 --> 00:02:57,599
+starting with some basic concepts okay
+
+57
+00:02:57,599 --> 00:02:59,040
+um
+
+58
+00:02:59,040 --> 00:03:01,800
+so in this chapter we are going to study
+
+59
+00:03:01,800 --> 00:03:03,660
+how the operating system creates
+
+60
+00:03:03,660 --> 00:03:06,599
+abstractions from memory and how they
+
+61
+00:03:06,599 --> 00:03:09,260
+managing them
+
+62
+00:03:10,920 --> 00:03:13,500
+so um
+
+63
+00:03:13,500 --> 00:03:16,700
+give me one second
+
+64
+00:03:34,260 --> 00:03:37,260
+here
+
+65
+00:03:42,239 --> 00:03:44,840
+okay
+
+66
+00:03:47,879 --> 00:03:50,280
+so first let's review the memory
+
+67
+00:03:50,280 --> 00:03:52,860
+hierarchical structure we have learned
+
+68
+00:03:52,860 --> 00:03:54,480
+that so in the memory hierarchical
+
+69
+00:03:54,480 --> 00:03:57,239
+structure we have the in the top is
+
+70
+00:03:57,239 --> 00:03:59,400
+actually the register and then we have
+
+71
+00:03:59,400 --> 00:04:01,440
+cache we have the main memory and we
+
+72
+00:04:01,440 --> 00:04:04,760
+have the disk so
+
+73
+00:04:06,120 --> 00:04:08,220
+so the register is usually very
+
+74
+00:04:08,220 --> 00:04:10,799
+expensive but it's very fast cash is
+
+75
+00:04:10,799 --> 00:04:13,920
+fast main memory is a medium and in this
+
+76
+00:04:13,920 --> 00:04:15,360
+case is slow
+
+77
+00:04:15,360 --> 00:04:18,180
+um during the recent years we have
+
+78
+00:04:18,180 --> 00:04:20,639
+developed the SSD right it's it's also
+
+79
+00:04:20,639 --> 00:04:22,380
+very fast so it's between the memory
+
+80
+00:04:22,380 --> 00:04:25,320
+main memory and the disk so it will be
+
+81
+00:04:25,320 --> 00:04:28,320
+much faster than the um
+
+82
+00:04:28,320 --> 00:04:30,840
+the old disk
+
+83
+00:04:30,840 --> 00:04:34,500
+so that is the memory hierarchical uh
+
+84
+00:04:34,500 --> 00:04:36,720
+structure why we need the memory
+
+85
+00:04:36,720 --> 00:04:39,180
+hierarchical structure the reason is
+
+86
+00:04:39,180 --> 00:04:41,720
+that we do not have we do not have
+
+87
+00:04:41,720 --> 00:04:46,440
+inference Ram okay Ram is any anyone
+
+88
+00:04:46,440 --> 00:04:50,340
+knows that this Ram what Ram means
+
+89
+00:04:50,340 --> 00:04:52,080
+yes
+
+90
+00:04:52,080 --> 00:04:55,440
+yeah random access memory so uh so
+
+91
+00:04:55,440 --> 00:04:57,419
+what's the difference between IAM and
+
+92
+00:04:57,419 --> 00:04:59,660
+ROM
+
+93
+00:05:01,040 --> 00:05:04,860
+and ROM what's what is difference
+
+94
+00:05:04,860 --> 00:05:07,520
+yes
+
+95
+00:05:11,280 --> 00:05:13,800
+oh yeah yeah very good so
+
+96
+00:05:13,800 --> 00:05:16,620
+um so for the Rams Although our main
+
+97
+00:05:16,620 --> 00:05:18,180
+memory when we're talking about main
+
+98
+00:05:18,180 --> 00:05:21,060
+memory we usually means that it is a ram
+
+99
+00:05:21,060 --> 00:05:23,479
+okay
+
+100
+00:05:23,759 --> 00:05:27,479
+so the thing is that it is when we power
+
+101
+00:05:27,479 --> 00:05:30,060
+it off it'll go into clear everything it
+
+102
+00:05:30,060 --> 00:05:32,880
+will not remember every anything but for
+
+103
+00:05:32,880 --> 00:05:33,840
+the
+
+104
+00:05:33,840 --> 00:05:38,160
+om I am which like
+
+105
+00:05:38,160 --> 00:05:41,280
+like the disk what what they do is that
+
+106
+00:05:41,280 --> 00:05:45,360
+even we power it off it's still there
+
+107
+00:05:45,360 --> 00:05:47,400
+and the main memory the memory
+
+108
+00:05:47,400 --> 00:05:50,280
+obstruction the main memory abstractions
+
+109
+00:05:50,280 --> 00:05:53,699
+means the uh in this part okay in this
+
+110
+00:05:53,699 --> 00:05:55,259
+part in the
+
+111
+00:05:55,259 --> 00:05:58,940
+REM okay I am
+
+112
+00:06:07,979 --> 00:06:10,800
+so um so one
+
+113
+00:06:10,800 --> 00:06:14,340
+here this chapter in this chapter I will
+
+114
+00:06:14,340 --> 00:06:18,300
+not directly tells tell you what exactly
+
+115
+00:06:18,300 --> 00:06:21,120
+the our modern operating system
+
+116
+00:06:21,120 --> 00:06:23,400
+did
+
+117
+00:06:23,400 --> 00:06:27,000
+it could because it's well here's the
+
+118
+00:06:27,000 --> 00:06:29,639
+thing even I tell you what they did you
+
+119
+00:06:29,639 --> 00:06:32,340
+may not understand it
+
+120
+00:06:32,340 --> 00:06:35,039
+for everywhere why because the my the
+
+121
+00:06:35,039 --> 00:06:37,440
+system computer systems changes every
+
+122
+00:06:37,440 --> 00:06:39,960
+day it may change this year next year I
+
+123
+00:06:39,960 --> 00:06:42,120
+made using different structure so what
+
+124
+00:06:42,120 --> 00:06:43,800
+we are going to learn in this chapter is
+
+125
+00:06:43,800 --> 00:06:45,900
+that we are going to learn from the very
+
+126
+00:06:45,900 --> 00:06:49,259
+beginning the old memory memory is
+
+127
+00:06:49,259 --> 00:06:52,139
+somehow the old memory system do and
+
+128
+00:06:52,139 --> 00:06:55,020
+what and then eventually learn what our
+
+129
+00:06:55,020 --> 00:06:58,199
+modern operating system did form to
+
+130
+00:06:58,199 --> 00:07:02,900
+creating the memory abstraction so
+
+131
+00:07:03,000 --> 00:07:05,400
+the concept that you may heard of the
+
+132
+00:07:05,400 --> 00:07:07,500
+urban you may not understand it quite
+
+133
+00:07:07,500 --> 00:07:11,419
+well it's the tlb paging page map
+
+134
+00:07:11,419 --> 00:07:13,979
+mapping virtual memory virtual memory
+
+135
+00:07:13,979 --> 00:07:15,240
+address
+
+136
+00:07:15,240 --> 00:07:18,780
+address space all these concepts are in
+
+137
+00:07:18,780 --> 00:07:21,180
+the category of model operating system
+
+138
+00:07:21,180 --> 00:07:23,460
+so before we go to the model operating
+
+139
+00:07:23,460 --> 00:07:26,699
+systems we're starting from see what all
+
+140
+00:07:26,699 --> 00:07:28,680
+the system did for the memory management
+
+141
+00:07:28,680 --> 00:07:33,000
+okay so here so think of that now you
+
+142
+00:07:33,000 --> 00:07:37,259
+are the software engineering now you
+
+143
+00:07:37,259 --> 00:07:40,800
+when you run only one program at a time
+
+144
+00:07:40,800 --> 00:07:42,720
+in memory how are you going to do that
+
+145
+00:07:42,720 --> 00:07:44,819
+okay
+
+146
+00:07:44,819 --> 00:07:47,400
+the simple the simple let's see the
+
+147
+00:07:47,400 --> 00:07:50,960
+simplest yes sure
+
+148
+00:08:00,539 --> 00:08:02,520
+oh yeah yeah that is from what you can
+
+149
+00:08:02,520 --> 00:08:05,580
+see there in uh in this picture so
+
+150
+00:08:05,580 --> 00:08:08,099
+here's the thing let's starting from the
+
+151
+00:08:08,099 --> 00:08:12,240
+simplest implementation so we have
+
+152
+00:08:12,240 --> 00:08:15,180
+let's say we just have one program what
+
+153
+00:08:15,180 --> 00:08:18,300
+we can do is that why is why why why why
+
+154
+00:08:18,300 --> 00:08:22,979
+they give this three pictures right you
+
+155
+00:08:22,979 --> 00:08:24,660
+need to you only needs to design because
+
+156
+00:08:24,660 --> 00:08:27,539
+we only have one program right one we
+
+157
+00:08:27,539 --> 00:08:29,639
+you have to you have the program you
+
+158
+00:08:29,639 --> 00:08:31,259
+need to loading that into the memory
+
+159
+00:08:31,259 --> 00:08:32,640
+processes
+
+160
+00:08:32,640 --> 00:08:35,539
+so you only need to design where each
+
+161
+00:08:35,539 --> 00:08:39,539
+resides where the program is
+
+162
+00:08:39,539 --> 00:08:42,179
+then you design where the OS is because
+
+163
+00:08:42,179 --> 00:08:44,520
+when we're loading loading booting up
+
+164
+00:08:44,520 --> 00:08:46,200
+the computer right the first thing the
+
+165
+00:08:46,200 --> 00:08:48,480
+OS needs to booting up then you have one
+
+166
+00:08:48,480 --> 00:08:50,880
+program so the only thing you need to
+
+167
+00:08:50,880 --> 00:08:53,519
+decide is that where I put my OS code
+
+168
+00:08:53,519 --> 00:08:56,519
+where I put my own program code that is
+
+169
+00:08:56,519 --> 00:08:59,779
+why they give you
+
+170
+00:09:00,779 --> 00:09:04,980
+these three structures so
+
+171
+00:09:04,980 --> 00:09:07,620
+the first choice that you can have you
+
+172
+00:09:07,620 --> 00:09:09,959
+can have the OS code here right at the
+
+173
+00:09:09,959 --> 00:09:11,580
+beginning of the memory at the beginning
+
+174
+00:09:11,580 --> 00:09:13,320
+of the bottom of the beginning of the
+
+175
+00:09:13,320 --> 00:09:15,720
+memory address space you can have it at
+
+176
+00:09:15,720 --> 00:09:17,459
+the
+
+177
+00:09:17,459 --> 00:09:19,560
+starting from the end right at the top
+
+178
+00:09:19,560 --> 00:09:22,080
+of it or
+
+179
+00:09:22,080 --> 00:09:25,620
+you can push the OS code at the bottom
+
+180
+00:09:25,620 --> 00:09:28,080
+and the device drivers code
+
+181
+00:09:28,080 --> 00:09:33,060
+in the ROM and in the top okay
+
+182
+00:09:33,060 --> 00:09:35,640
+so what are the disadvantage what a
+
+183
+00:09:35,640 --> 00:09:38,160
+disadvantage of this approach
+
+184
+00:09:38,160 --> 00:09:40,740
+think of that over the disadvantage of
+
+185
+00:09:40,740 --> 00:09:42,660
+this approach
+
+186
+00:09:42,660 --> 00:09:45,440
+yeah sure
+
+187
+00:10:12,779 --> 00:10:15,500
+foreign
+
+188
+00:10:29,600 --> 00:10:32,580
+let me rephrase it a little bit so
+
+189
+00:10:32,580 --> 00:10:34,680
+here's the thing if we know exactly
+
+190
+00:10:34,680 --> 00:10:37,140
+where the OS code is no matter if it is
+
+191
+00:10:37,140 --> 00:10:39,779
+here where it is here or it is here no
+
+192
+00:10:39,779 --> 00:10:41,160
+matter where is it
+
+193
+00:10:41,160 --> 00:10:43,800
+if we know if any programmer know where
+
+194
+00:10:43,800 --> 00:10:46,079
+the OS code is then it's easy for them
+
+195
+00:10:46,079 --> 00:10:48,000
+to change it
+
+196
+00:10:48,000 --> 00:10:51,959
+it will be easy for them to change it so
+
+197
+00:10:51,959 --> 00:10:53,820
+um
+
+198
+00:10:53,820 --> 00:10:56,880
+so like what Cheryl said that if we it
+
+199
+00:10:56,880 --> 00:10:59,399
+is not safe okay Joseph it's not it will
+
+200
+00:10:59,399 --> 00:11:02,480
+cause a lot of bugs
+
+201
+00:11:03,600 --> 00:11:06,300
+and another disadvantage is that if we
+
+202
+00:11:06,300 --> 00:11:09,360
+only have one programs in memory at a
+
+203
+00:11:09,360 --> 00:11:11,579
+time if we
+
+204
+00:11:11,579 --> 00:11:13,079
+we
+
+205
+00:11:13,079 --> 00:11:15,779
+How about if in the case that if we want
+
+206
+00:11:15,779 --> 00:11:18,480
+to run multiple programs more than one
+
+207
+00:11:18,480 --> 00:11:20,160
+if we want to run
+
+208
+00:11:20,160 --> 00:11:24,079
+more than one programs all right
+
+209
+00:11:25,560 --> 00:11:27,540
+so what we need to do we need to wait
+
+210
+00:11:27,540 --> 00:11:29,399
+until the old one finished because you
+
+211
+00:11:29,399 --> 00:11:31,440
+can only support one program at a time
+
+212
+00:11:31,440 --> 00:11:33,959
+in memory then you need to wait it to
+
+213
+00:11:33,959 --> 00:11:37,440
+finish it then swap it out put the
+
+214
+00:11:37,440 --> 00:11:39,839
+results into the disk and then load the
+
+215
+00:11:39,839 --> 00:11:42,420
+new one that is not really concurrence
+
+216
+00:11:42,420 --> 00:11:45,720
+so that is not really concurrence then
+
+217
+00:11:45,720 --> 00:11:48,180
+how people did so think of that how
+
+218
+00:11:48,180 --> 00:11:51,060
+people did then right a natural way to
+
+219
+00:11:51,060 --> 00:11:52,140
+do that is
+
+220
+00:11:52,140 --> 00:11:56,339
+is we divide the memory into many parts
+
+221
+00:11:56,339 --> 00:11:59,700
+right memory is a it's a space sharing
+
+222
+00:11:59,700 --> 00:12:02,640
+approach I want multiple programs use
+
+223
+00:12:02,640 --> 00:12:05,100
+the memory dish using the space sharing
+
+224
+00:12:05,100 --> 00:12:06,720
+it's not like CPU they use the time
+
+225
+00:12:06,720 --> 00:12:08,940
+sharing but for memory they use space
+
+226
+00:12:08,940 --> 00:12:12,540
+sharing so we only have this
+
+227
+00:12:12,540 --> 00:12:14,279
+we only have let's say we only have
+
+228
+00:12:14,279 --> 00:12:15,959
+these one rooms but we have so many
+
+229
+00:12:15,959 --> 00:12:17,940
+students I cannot just teach one student
+
+230
+00:12:17,940 --> 00:12:20,220
+unless one student in room so what I did
+
+231
+00:12:20,220 --> 00:12:22,680
+is that I divided the space into many
+
+232
+00:12:22,680 --> 00:12:25,019
+parts like each one of you can get a
+
+233
+00:12:25,019 --> 00:12:28,079
+seat so I at the same time I can support
+
+234
+00:12:28,079 --> 00:12:30,660
+I can teach many students in the
+
+235
+00:12:30,660 --> 00:12:32,880
+classroom that's the same idea in the
+
+236
+00:12:32,880 --> 00:12:34,920
+memory in the memory but the difference
+
+237
+00:12:34,920 --> 00:12:38,339
+is that some of you may be very huge and
+
+238
+00:12:38,339 --> 00:12:40,500
+big some of you may be very tiny and
+
+239
+00:12:40,500 --> 00:12:41,700
+small
+
+240
+00:12:41,700 --> 00:12:44,339
+so it's it it will be difficult for me
+
+241
+00:12:44,339 --> 00:12:46,019
+to decide
+
+242
+00:12:46,019 --> 00:12:48,779
+who are there and who is other back who
+
+243
+00:12:48,779 --> 00:12:50,459
+is at the front
+
+244
+00:12:50,459 --> 00:12:53,880
+and some of you may live very soon some
+
+245
+00:12:53,880 --> 00:12:57,360
+of you may stay very longer so it's very
+
+246
+00:12:57,360 --> 00:13:00,300
+difficult for memory to manage them then
+
+247
+00:13:00,300 --> 00:13:02,519
+that is what we are going to learn in
+
+248
+00:13:02,519 --> 00:13:04,620
+this chapter okay
+
+249
+00:13:04,620 --> 00:13:06,480
+so the first concept we are going to
+
+250
+00:13:06,480 --> 00:13:09,800
+learn is that address space
+
+251
+00:13:13,320 --> 00:13:15,600
+so what is the address space
+
+252
+00:13:15,600 --> 00:13:18,600
+we are going to create abstract memory
+
+253
+00:13:18,600 --> 00:13:21,839
+space for programs to exist in to each
+
+254
+00:13:21,839 --> 00:13:25,620
+program each program has its own set of
+
+255
+00:13:25,620 --> 00:13:27,899
+address right what this addresses the
+
+256
+00:13:27,899 --> 00:13:31,200
+memory address and the address is
+
+257
+00:13:31,200 --> 00:13:33,959
+recorded address space okay the address
+
+258
+00:13:33,959 --> 00:13:37,200
+phase a difference for each program so
+
+259
+00:13:37,200 --> 00:13:39,060
+each program they have
+
+260
+00:13:39,060 --> 00:13:42,060
+their own address space
+
+261
+00:13:42,060 --> 00:13:44,760
+so we call it all draft space so that is
+
+262
+00:13:44,760 --> 00:13:47,220
+the concept of address space so it's
+
+263
+00:13:47,220 --> 00:13:48,779
+very easy to understand the address
+
+264
+00:13:48,779 --> 00:13:50,880
+phase is just
+
+265
+00:13:50,880 --> 00:13:53,700
+the address the minor address that the
+
+266
+00:13:53,700 --> 00:13:56,579
+program resides in the memory so since
+
+267
+00:13:56,579 --> 00:13:58,920
+different programs have different
+
+268
+00:13:58,920 --> 00:14:02,339
+start an ending address like address in
+
+269
+00:14:02,339 --> 00:14:04,139
+the memory so they will have different
+
+270
+00:14:04,139 --> 00:14:07,040
+address space
+
+271
+00:14:14,639 --> 00:14:18,120
+now to now to represent a program's
+
+272
+00:14:18,120 --> 00:14:20,899
+address space
+
+273
+00:14:21,000 --> 00:14:23,220
+what are the units of that what we
+
+274
+00:14:23,220 --> 00:14:25,160
+should do like you want to see some
+
+275
+00:14:25,160 --> 00:14:27,899
+designer right now you have you have
+
+276
+00:14:27,899 --> 00:14:30,180
+your program you know the size of the
+
+277
+00:14:30,180 --> 00:14:31,440
+programs
+
+278
+00:14:31,440 --> 00:14:32,760
+now
+
+279
+00:14:32,760 --> 00:14:36,420
+how do you use like variables to
+
+280
+00:14:36,420 --> 00:14:40,700
+represent its memory address space yeah
+
+281
+00:14:41,040 --> 00:14:42,540
+I think
+
+282
+00:14:42,540 --> 00:14:44,820
+um no no no you not not about the units
+
+283
+00:14:44,820 --> 00:14:46,980
+not about the units it's maybe buy
+
+284
+00:14:46,980 --> 00:14:49,920
+things maybe or it may be different
+
+285
+00:14:49,920 --> 00:14:54,980
+no we I'm asking for example
+
+286
+00:14:56,100 --> 00:14:59,519
+we have uh like
+
+287
+00:14:59,519 --> 00:15:01,860
+we have the address the memory address
+
+288
+00:15:01,860 --> 00:15:05,160
+like this right like this
+
+289
+00:15:05,160 --> 00:15:07,339
+is from 0 to
+
+290
+00:15:07,339 --> 00:15:11,519
+0xff is very large value okay then each
+
+291
+00:15:11,519 --> 00:15:14,100
+we have several we may have several user
+
+292
+00:15:14,100 --> 00:15:16,500
+programs they each of them have their
+
+293
+00:15:16,500 --> 00:15:19,680
+own address space right so then what
+
+294
+00:15:19,680 --> 00:15:21,660
+kind of variable you the OS is just
+
+295
+00:15:21,660 --> 00:15:24,600
+called a code like your project is part
+
+296
+00:15:24,600 --> 00:15:27,779
+of the code so in the code you let's say
+
+297
+00:15:27,779 --> 00:15:30,360
+I can create a class saying okay this is
+
+298
+00:15:30,360 --> 00:15:32,220
+the address space so in the class what
+
+299
+00:15:32,220 --> 00:15:36,560
+kind of variables I need to set
+
+300
+00:15:36,959 --> 00:15:39,180
+to represent this program's address
+
+301
+00:15:39,180 --> 00:15:41,600
+space
+
+302
+00:15:43,620 --> 00:15:46,620
+emergence
+
+303
+00:15:55,139 --> 00:15:57,660
+you need to you need to wear this user
+
+304
+00:15:57,660 --> 00:16:00,120
+program is right but how to represent
+
+305
+00:16:00,120 --> 00:16:02,220
+this address these user programs address
+
+306
+00:16:02,220 --> 00:16:05,220
+yes
+
+307
+00:16:05,519 --> 00:16:07,980
+something what's inside of the address
+
+308
+00:16:07,980 --> 00:16:11,339
+table what inside of that
+
+309
+00:16:11,339 --> 00:16:13,440
+yes
+
+310
+00:16:13,440 --> 00:16:15,060
+no that's
+
+311
+00:16:15,060 --> 00:16:17,480
+Andrew
+
+312
+00:16:19,320 --> 00:16:21,300
+yeah very well let's say we use
+
+313
+00:16:21,300 --> 00:16:24,600
+variables but how can I how how can I
+
+314
+00:16:24,600 --> 00:16:26,639
+use variables to represent the address
+
+315
+00:16:26,639 --> 00:16:28,800
+of this
+
+316
+00:16:28,800 --> 00:16:32,240
+yes munchies
+
+317
+00:16:33,800 --> 00:16:39,000
+yeah there's specific location yeah
+
+318
+00:16:42,540 --> 00:16:44,880
+okay then let's say I'm I'm following
+
+319
+00:16:44,880 --> 00:16:47,820
+you okay so let's say we just used like
+
+320
+00:16:47,820 --> 00:16:49,980
+some variable like a to represent the
+
+321
+00:16:49,980 --> 00:16:54,120
+address of the these programs burden
+
+322
+00:16:54,120 --> 00:16:56,880
+these programs maybe maybe very long or
+
+323
+00:16:56,880 --> 00:16:58,920
+maybe very short this I tell you right
+
+324
+00:16:58,920 --> 00:17:01,079
+this program may be very long or maybe
+
+325
+00:17:01,079 --> 00:17:02,820
+very short
+
+326
+00:17:02,820 --> 00:17:05,339
+let's say this the starting address of a
+
+327
+00:17:05,339 --> 00:17:08,959
+this address of B
+
+328
+00:17:09,359 --> 00:17:12,119
+what if it is very long
+
+329
+00:17:12,119 --> 00:17:14,659
+yeah
+
+330
+00:17:15,660 --> 00:17:19,260
+yes very cool that is how the um
+
+331
+00:17:19,260 --> 00:17:23,040
+old people did they haven't start and
+
+332
+00:17:23,040 --> 00:17:25,500
+the end they have to start address and
+
+333
+00:17:25,500 --> 00:17:27,179
+the ending on address this is what I'm
+
+334
+00:17:27,179 --> 00:17:29,460
+asking you can use the start of the
+
+335
+00:17:29,460 --> 00:17:33,080
+dress or the size of the size of the um
+
+336
+00:17:33,080 --> 00:17:36,380
+programs right and that is just the
+
+337
+00:17:36,380 --> 00:17:38,400
+differences of
+
+338
+00:17:38,400 --> 00:17:43,640
+of the like the start and ending okay
+
+339
+00:17:43,980 --> 00:17:46,500
+so we have we're using what we are using
+
+340
+00:17:46,500 --> 00:17:49,320
+so the first generation of operating
+
+341
+00:17:49,320 --> 00:17:52,260
+systems that you're using base and the
+
+342
+00:17:52,260 --> 00:17:55,260
+limits registered so they set a base
+
+343
+00:17:55,260 --> 00:17:57,840
+a base variable and the limits variable
+
+344
+00:17:57,840 --> 00:18:01,020
+to represent the starting address of the
+
+345
+00:18:01,020 --> 00:18:03,720
+memory oh sorry the program and the
+
+346
+00:18:03,720 --> 00:18:06,900
+ending address of that program will use
+
+347
+00:18:06,900 --> 00:18:09,240
+and push these two variables in the base
+
+348
+00:18:09,240 --> 00:18:13,280
+register and limits register
+
+349
+00:18:15,539 --> 00:18:18,120
+so the base contains the beginning
+
+350
+00:18:18,120 --> 00:18:21,419
+address of a program the limits contains
+
+351
+00:18:21,419 --> 00:18:23,940
+the length of the program okay the
+
+352
+00:18:23,940 --> 00:18:26,460
+limits that is what Andrew did said okay
+
+353
+00:18:26,460 --> 00:18:29,100
+the base and the limits and we push that
+
+354
+00:18:29,100 --> 00:18:32,340
+into two registers into two register the
+
+355
+00:18:32,340 --> 00:18:34,799
+registering the CPU okay then we're
+
+356
+00:18:34,799 --> 00:18:37,559
+using Dash we're using darts to
+
+357
+00:18:37,559 --> 00:18:39,840
+represents where
+
+358
+00:18:39,840 --> 00:18:41,580
+this program
+
+359
+00:18:41,580 --> 00:18:44,580
+is in the memory the position the
+
+360
+00:18:44,580 --> 00:18:46,740
+location
+
+361
+00:18:46,740 --> 00:18:50,179
+in the memory okay
+
+362
+00:18:53,100 --> 00:18:55,620
+so the disadvantage of this this
+
+363
+00:18:55,620 --> 00:18:58,080
+approach is that the addition and
+
+364
+00:18:58,080 --> 00:19:00,179
+compression have to be done on every
+
+365
+00:19:00,179 --> 00:19:02,880
+instruction so let's see look let's look
+
+366
+00:19:02,880 --> 00:19:05,900
+at it why okay
+
+367
+00:19:10,919 --> 00:19:14,179
+let me show you example
+
+368
+00:19:58,980 --> 00:20:01,620
+this is your memory okay this is your
+
+369
+00:20:01,620 --> 00:20:03,919
+memory
+
+370
+00:20:09,480 --> 00:20:12,480
+foreign
+
+371
+00:20:17,760 --> 00:20:20,400
+so we divide the memory this this is the
+
+372
+00:20:20,400 --> 00:20:22,799
+memory okay the whole memory okay it's
+
+373
+00:20:22,799 --> 00:20:24,600
+it's very long okay let's start into
+
+374
+00:20:24,600 --> 00:20:27,480
+from zero okay from zero to
+
+375
+00:20:27,480 --> 00:20:29,280
+um
+
+376
+00:20:29,280 --> 00:20:32,940
+let's say each each unit says just so
+
+377
+00:20:32,940 --> 00:20:35,700
+okay let's say four units the units can
+
+378
+00:20:35,700 --> 00:20:37,440
+be word can be biased can be whatever
+
+379
+00:20:37,440 --> 00:20:40,200
+okay the page uh you you can use any
+
+380
+00:20:40,200 --> 00:20:42,539
+units but let's say just the four okay
+
+381
+00:20:42,539 --> 00:20:45,200
+four
+
+382
+00:20:45,360 --> 00:20:49,400
+so eight twelve
+
+383
+00:20:50,039 --> 00:20:52,520
+no
+
+384
+00:21:07,380 --> 00:21:10,440
+no so we have the address we have it's
+
+385
+00:21:10,440 --> 00:21:12,660
+the memory the whole memory the whole
+
+386
+00:21:12,660 --> 00:21:15,960
+memory from 0 to 64. okay so the size of
+
+387
+00:21:15,960 --> 00:21:19,500
+the memory is 64. right 64. okay now
+
+388
+00:21:19,500 --> 00:21:21,299
+what is the
+
+389
+00:21:21,299 --> 00:21:26,000
+a dress space a program's address space
+
+390
+00:21:27,059 --> 00:21:30,120
+program or program can be any size right
+
+391
+00:21:30,120 --> 00:21:33,299
+the program can be any size let's say
+
+392
+00:21:33,299 --> 00:21:35,880
+let's say the program has the size of
+
+393
+00:21:35,880 --> 00:21:38,700
+has a size of eight have the size of
+
+394
+00:21:38,700 --> 00:21:42,600
+eight then we use the limits name it's
+
+395
+00:21:42,600 --> 00:21:45,539
+Ace represents the size of the program
+
+396
+00:21:45,539 --> 00:21:49,400
+and we have to start
+
+397
+00:21:50,700 --> 00:21:53,340
+this is called a base
+
+398
+00:21:53,340 --> 00:21:56,820
+let's say the base of the program is on
+
+399
+00:21:56,820 --> 00:22:00,900
+the 16th okay 16 okay 16. then where
+
+400
+00:22:00,900 --> 00:22:03,900
+this program is then we use these two
+
+401
+00:22:03,900 --> 00:22:08,039
+variables two variables to represent the
+
+402
+00:22:08,039 --> 00:22:10,860
+address space memory address space for
+
+403
+00:22:10,860 --> 00:22:12,360
+this program
+
+404
+00:22:12,360 --> 00:22:16,280
+so the program P ones
+
+405
+00:22:18,059 --> 00:22:21,840
+address memory address space
+
+406
+00:22:21,840 --> 00:22:23,940
+so are we clear about that part the
+
+407
+00:22:23,940 --> 00:22:27,240
+first difference difference so different
+
+408
+00:22:27,240 --> 00:22:29,940
+programs they have different address
+
+409
+00:22:29,940 --> 00:22:31,980
+space it's different they have different
+
+410
+00:22:31,980 --> 00:22:35,880
+base they have different limits and they
+
+411
+00:22:35,880 --> 00:22:38,640
+are non-overlapping they cannot overlap
+
+412
+00:22:38,640 --> 00:22:40,260
+with each other
+
+413
+00:22:40,260 --> 00:22:43,440
+so if also
+
+414
+00:22:43,440 --> 00:22:46,200
+so if for this program for this program
+
+415
+00:22:46,200 --> 00:22:49,860
+let me down
+
+416
+00:22:50,580 --> 00:22:53,039
+so if for this program so if for this
+
+417
+00:22:53,039 --> 00:22:55,740
+program it has the base of 16 and limits
+
+418
+00:22:55,740 --> 00:22:58,799
+of the age so it will going from here on
+
+419
+00:22:58,799 --> 00:23:02,580
+this side zero so that's it
+
+420
+00:23:02,580 --> 00:23:06,000
+zero this is four I think that's it it
+
+421
+00:23:06,000 --> 00:23:08,460
+will go from here
+
+422
+00:23:08,460 --> 00:23:09,539
+right
+
+423
+00:23:09,539 --> 00:23:12,539
+so this this will be the
+
+424
+00:23:12,539 --> 00:23:16,260
+P1 p1's memory address space so P1 would
+
+425
+00:23:16,260 --> 00:23:20,840
+resize here P1 will resize here
+
+426
+00:23:21,360 --> 00:23:24,419
+right then think of that what is the
+
+427
+00:23:24,419 --> 00:23:26,159
+disadvantage of this approach the
+
+428
+00:23:26,159 --> 00:23:30,140
+disadvantage of this approach is that
+
+429
+00:23:31,440 --> 00:23:34,340
+whatever yeah
+
+430
+00:23:35,760 --> 00:23:38,580
+yeah it's very good whatever you need to
+
+431
+00:23:38,580 --> 00:23:41,940
+the programs may be very long right and
+
+432
+00:23:41,940 --> 00:23:44,400
+right now you see the limit is eight so
+
+433
+00:23:44,400 --> 00:23:47,940
+it has at least eight uses a slice of
+
+434
+00:23:47,940 --> 00:23:49,860
+the code has eight slice of the code so
+
+435
+00:23:49,860 --> 00:23:52,500
+whenever you do one instruction whenever
+
+436
+00:23:52,500 --> 00:23:55,320
+you do one instruction let's say I point
+
+437
+00:23:55,320 --> 00:23:58,620
+to this point to this whenever I do any
+
+438
+00:23:58,620 --> 00:24:01,799
+instruction of the code points to this I
+
+439
+00:24:01,799 --> 00:24:04,980
+always need to add in adding the base
+
+440
+00:24:04,980 --> 00:24:08,340
+okay we need to add in that
+
+441
+00:24:08,340 --> 00:24:11,179
+we need to
+
+442
+00:24:12,059 --> 00:24:15,059
+add it so let's look at the how the uh
+
+443
+00:24:15,059 --> 00:24:18,860
+here this has a simulation
+
+444
+00:24:27,059 --> 00:24:30,740
+but this is a good example
+
+445
+00:24:39,600 --> 00:24:42,059
+so one approach process is run the base
+
+446
+00:24:42,059 --> 00:24:43,860
+registers loaded with the physical
+
+447
+00:24:43,860 --> 00:24:46,440
+address where this program begins in
+
+448
+00:24:46,440 --> 00:24:48,360
+memory and the limits right this is
+
+449
+00:24:48,360 --> 00:24:50,940
+loaded with the length of the program
+
+450
+00:24:50,940 --> 00:24:53,760
+with the lens of the program so let's
+
+451
+00:24:53,760 --> 00:24:56,960
+say if this is the
+
+452
+00:24:57,600 --> 00:25:02,760
+what is jump one problem saying John 28
+
+453
+00:25:02,760 --> 00:25:04,860
+so this is the program's code one
+
+454
+00:25:04,860 --> 00:25:07,380
+program saying jump 28 for example is
+
+455
+00:25:07,380 --> 00:25:10,799
+saying like you need to
+
+456
+00:25:10,799 --> 00:25:13,919
+push that valuable into this array
+
+457
+00:25:13,919 --> 00:25:15,539
+something like that then you need to
+
+458
+00:25:15,539 --> 00:25:17,580
+jump to that line of the code when you
+
+459
+00:25:17,580 --> 00:25:20,700
+say in the John 28th because this is the
+
+460
+00:25:20,700 --> 00:25:23,100
+start of the program start of the
+
+461
+00:25:23,100 --> 00:25:26,039
+program when you say jam 28 you cannot
+
+462
+00:25:26,039 --> 00:25:30,059
+directly jump to the 28th it's another
+
+463
+00:25:30,059 --> 00:25:34,320
+accurate you need to add in the 28
+
+464
+00:25:34,320 --> 00:25:39,419
+with the base register to adding it
+
+465
+00:25:39,419 --> 00:25:41,940
+add it and then find out okay that is
+
+466
+00:25:41,940 --> 00:25:46,460
+the jump to here something like this
+
+467
+00:25:47,100 --> 00:25:50,400
+okay that is why so we need to add in
+
+468
+00:25:50,400 --> 00:25:55,260
+this the start the Base address 228 and
+
+469
+00:25:55,260 --> 00:25:57,779
+the resulting jump to this for every
+
+470
+00:25:57,779 --> 00:26:00,179
+instruction you need to do that this is
+
+471
+00:26:00,179 --> 00:26:03,020
+very very
+
+472
+00:26:03,020 --> 00:26:06,980
+coastery that is very costly
+
+473
+00:26:12,539 --> 00:26:15,620
+so you may not
+
+474
+00:26:19,679 --> 00:26:22,860
+yeah in my notes are strange forward how
+
+475
+00:26:22,860 --> 00:26:25,919
+costly it is but if think of that you
+
+476
+00:26:25,919 --> 00:26:26,940
+have
+
+477
+00:26:26,940 --> 00:26:29,340
+you have this we have different process
+
+478
+00:26:29,340 --> 00:26:31,080
+programs right we have different
+
+479
+00:26:31,080 --> 00:26:33,059
+programs like different programs they
+
+480
+00:26:33,059 --> 00:26:35,700
+have their own let's say P2 is there
+
+481
+00:26:35,700 --> 00:26:39,120
+they have the orange stars in the the
+
+482
+00:26:39,120 --> 00:26:40,919
+space and the limits they have their own
+
+483
+00:26:40,919 --> 00:26:43,440
+base and limits so for any instruction
+
+484
+00:26:43,440 --> 00:26:46,559
+each process did like P2 they're saying
+
+485
+00:26:46,559 --> 00:26:49,200
+like jump if if in their code they just
+
+486
+00:26:49,200 --> 00:26:51,960
+want to jump to some Discord the next
+
+487
+00:26:51,960 --> 00:26:54,600
+code is jump to this position it can
+
+488
+00:26:54,600 --> 00:26:58,340
+it's not jump to
+
+489
+00:26:58,559 --> 00:27:02,640
+jump two this needs to
+
+490
+00:27:02,640 --> 00:27:05,640
+adding tool with the 32 with their base
+
+491
+00:27:05,640 --> 00:27:09,539
+so for every process whenever they do a
+
+492
+00:27:09,539 --> 00:27:11,940
+new instruction they need to add it to
+
+493
+00:27:11,940 --> 00:27:14,640
+their base it will be very
+
+494
+00:27:14,640 --> 00:27:18,720
+closely very closely for the OS
+
+495
+00:27:18,720 --> 00:27:21,659
+so this approach may not good then in
+
+496
+00:27:21,659 --> 00:27:23,880
+Singapore are there any better
+
+497
+00:27:23,880 --> 00:27:26,600
+approaches
+
+498
+00:27:30,360 --> 00:27:33,320
+okay
+
+499
+00:27:37,880 --> 00:27:43,320
+now uh after we we we we know this space
+
+500
+00:27:43,320 --> 00:27:46,200
+and the limits registers okay so this is
+
+501
+00:27:46,200 --> 00:27:49,440
+the old obstruction now think of that
+
+502
+00:27:49,440 --> 00:27:53,279
+here we we may run multiple programs
+
+503
+00:27:53,279 --> 00:27:55,679
+multiple programs inside of the memory
+
+504
+00:27:55,679 --> 00:27:58,679
+at the same time right you write at the
+
+505
+00:27:58,679 --> 00:28:01,039
+same time
+
+506
+00:28:06,960 --> 00:28:09,960
+how to ensure that you can run as many
+
+507
+00:28:09,960 --> 00:28:12,360
+programs as possible in the main memory
+
+508
+00:28:12,360 --> 00:28:16,980
+at once how to make sure you can do that
+
+509
+00:28:16,980 --> 00:28:19,740
+how to make sure you can do that
+
+510
+00:28:19,740 --> 00:28:23,299
+so the question is like this
+
+511
+00:28:23,340 --> 00:28:26,640
+we have P1 P2 right I may have another
+
+512
+00:28:26,640 --> 00:28:28,799
+is P3
+
+513
+00:28:28,799 --> 00:28:33,419
+P3 and another is P4
+
+514
+00:28:33,419 --> 00:28:36,120
+it's like a bing packing problems
+
+515
+00:28:36,120 --> 00:28:38,220
+for the OS we need to improve the
+
+516
+00:28:38,220 --> 00:28:40,799
+throughputs so
+
+517
+00:28:40,799 --> 00:28:43,679
+let's say we've already uh
+
+518
+00:28:43,679 --> 00:28:47,700
+design the limits base and limits
+
+519
+00:28:47,700 --> 00:28:50,520
+instruction obstructions for each
+
+520
+00:28:50,520 --> 00:28:54,659
+programs now I need to hold as many as
+
+521
+00:28:54,659 --> 00:28:56,340
+possible programs in the memory
+
+522
+00:28:56,340 --> 00:28:59,340
+simultaneously
+
+523
+00:28:59,820 --> 00:29:02,700
+the first question is that
+
+524
+00:29:02,700 --> 00:29:06,120
+how do you design which programs resize
+
+525
+00:29:06,120 --> 00:29:09,059
+in which place the first question second
+
+526
+00:29:09,059 --> 00:29:12,720
+question is that how do you track their
+
+527
+00:29:12,720 --> 00:29:15,360
+values for example one process is
+
+528
+00:29:15,360 --> 00:29:18,299
+donated it's not live okay you need to
+
+529
+00:29:18,299 --> 00:29:20,340
+remove it from the memory so how are you
+
+530
+00:29:20,340 --> 00:29:22,320
+going to track that how are we going to
+
+531
+00:29:22,320 --> 00:29:24,419
+make the best tracking of the
+
+532
+00:29:24,419 --> 00:29:27,600
+you remove it then there will be an
+
+533
+00:29:27,600 --> 00:29:30,179
+empty hole there right
+
+534
+00:29:30,179 --> 00:29:34,100
+okay my Josh you have
+
+535
+00:29:41,460 --> 00:29:42,799
+yeah
+
+536
+00:29:42,799 --> 00:29:45,419
+okay this process is at this place this
+
+537
+00:29:45,419 --> 00:29:48,899
+process is in this place so yeah you
+
+538
+00:29:48,899 --> 00:29:51,240
+probably want to find a way to implement
+
+539
+00:29:51,240 --> 00:29:54,380
+a process table
+
+540
+00:29:54,600 --> 00:29:57,120
+s yeah um well I'm not asking uh
+
+541
+00:29:57,120 --> 00:29:59,520
+obstruction right now I'm asking a
+
+542
+00:29:59,520 --> 00:30:01,340
+resource management
+
+543
+00:30:01,340 --> 00:30:03,620
+mechanisms for that Resource Management
+
+544
+00:30:03,620 --> 00:30:06,539
+mechanism for that so simply this you
+
+545
+00:30:06,539 --> 00:30:08,460
+have the I have the memory this memory
+
+546
+00:30:08,460 --> 00:30:11,220
+may be very large now I have I know that
+
+547
+00:30:11,220 --> 00:30:14,039
+many importances are coming many process
+
+548
+00:30:14,039 --> 00:30:16,740
+is coming they may come at the same time
+
+549
+00:30:16,740 --> 00:30:18,659
+they may come at a different time so I
+
+550
+00:30:18,659 --> 00:30:20,820
+think over as the process different
+
+551
+00:30:20,820 --> 00:30:22,679
+process keep coming and they have
+
+552
+00:30:22,679 --> 00:30:24,240
+different size they have different
+
+553
+00:30:24,240 --> 00:30:27,360
+service times now how can how can you
+
+554
+00:30:27,360 --> 00:30:30,539
+make the best uses of these resources to
+
+555
+00:30:30,539 --> 00:30:33,240
+ensure many processes can resize in them
+
+556
+00:30:33,240 --> 00:30:37,760
+need as much as possible
+
+557
+00:30:45,539 --> 00:30:48,120
+yeah very good yeah try to try to feel
+
+558
+00:30:48,120 --> 00:30:50,760
+all the holes in the memory and what if
+
+559
+00:30:50,760 --> 00:30:52,860
+at the first study has a very large
+
+560
+00:30:52,860 --> 00:30:53,880
+process
+
+561
+00:30:53,880 --> 00:30:57,419
+comes in right it takes all the holes
+
+562
+00:30:57,419 --> 00:30:59,520
+and then
+
+563
+00:30:59,520 --> 00:31:02,520
+there's only little horse left the only
+
+564
+00:31:02,520 --> 00:31:04,919
+little processes can resize in then the
+
+565
+00:31:04,919 --> 00:31:07,799
+other long process needs to wait forever
+
+566
+00:31:07,799 --> 00:31:11,039
+how to handle that no think take this in
+
+567
+00:31:11,039 --> 00:31:12,539
+mind take this in mind because we are
+
+568
+00:31:12,539 --> 00:31:15,320
+going to learn that in our later
+
+569
+00:31:15,320 --> 00:31:19,520
+uh section okay
+
+570
+00:31:20,100 --> 00:31:22,080
+so the question is how to run more
+
+571
+00:31:22,080 --> 00:31:24,960
+programs than fit in memory at once okay
+
+572
+00:31:24,960 --> 00:31:27,779
+we cannot keep all the process in the
+
+573
+00:31:27,779 --> 00:31:30,120
+memory because there are too many they
+
+574
+00:31:30,120 --> 00:31:32,940
+are too big so there's two approaches
+
+575
+00:31:32,940 --> 00:31:35,399
+swap under virtual memory so we are not
+
+576
+00:31:35,399 --> 00:31:36,960
+talking about virtual memory right now
+
+577
+00:31:36,960 --> 00:31:38,940
+we only look take a look at the swap
+
+578
+00:31:38,940 --> 00:31:42,539
+swap is the first generation OSD the
+
+579
+00:31:42,539 --> 00:31:45,059
+swap the swap is bringing programs in
+
+580
+00:31:45,059 --> 00:31:47,399
+and running for a while and then swap a
+
+581
+00:31:47,399 --> 00:31:49,919
+new program so this is what the
+
+582
+00:31:49,919 --> 00:31:51,980
+um
+
+583
+00:31:52,260 --> 00:31:54,299
+what's your name Irene
+
+584
+00:31:54,299 --> 00:31:57,179
+Aaron yeah this is wearing a propose is
+
+585
+00:31:57,179 --> 00:31:59,580
+that we pack them we pack them we pack
+
+586
+00:31:59,580 --> 00:32:02,820
+them like a bin parking put them in the
+
+587
+00:32:02,820 --> 00:32:03,600
+memory
+
+588
+00:32:03,600 --> 00:32:05,880
+then let's look at the water potential
+
+589
+00:32:05,880 --> 00:32:08,220
+problems of this approach the swapping
+
+590
+00:32:08,220 --> 00:32:11,580
+approach okay so we wrap them and put
+
+591
+00:32:11,580 --> 00:32:14,419
+them in a memory
+
+592
+00:32:15,419 --> 00:32:18,899
+so let's say so this is a this is the
+
+593
+00:32:18,899 --> 00:32:22,200
+first uh Comfort server pouch okay so
+
+594
+00:32:22,200 --> 00:32:24,960
+let's say we have the poor program a
+
+595
+00:32:24,960 --> 00:32:27,659
+comes right program a comes we put it in
+
+596
+00:32:27,659 --> 00:32:28,740
+the memory
+
+597
+00:32:28,740 --> 00:32:31,860
+then program B comes we put it
+
+598
+00:32:31,860 --> 00:32:34,260
+so we're starting from this right base
+
+599
+00:32:34,260 --> 00:32:35,640
+the base
+
+600
+00:32:35,640 --> 00:32:38,460
+we're starting from the base okay
+
+601
+00:32:38,460 --> 00:32:41,520
+so this this is the address space and
+
+602
+00:32:41,520 --> 00:32:43,620
+then the OS resizing here
+
+603
+00:32:43,620 --> 00:32:45,840
+then we're starting from the this
+
+604
+00:32:45,840 --> 00:32:48,659
+address to put a after we feel a then
+
+605
+00:32:48,659 --> 00:32:51,840
+process becomes then B
+
+606
+00:32:51,840 --> 00:32:53,880
+resides here
+
+607
+00:32:53,880 --> 00:32:57,240
+process C comes we put C there
+
+608
+00:32:57,240 --> 00:33:00,000
+then as time goes as time goes on
+
+609
+00:33:00,000 --> 00:33:03,539
+process a leaves process a leaves
+
+610
+00:33:03,539 --> 00:33:06,120
+because we already finished that or we
+
+611
+00:33:06,120 --> 00:33:08,100
+already it's not alive it's not active
+
+612
+00:33:08,100 --> 00:33:11,000
+yeah
+
+613
+00:33:15,659 --> 00:33:18,960
+the or the most recent or the most
+
+614
+00:33:18,960 --> 00:33:23,519
+recently freed um freed up uh thought in
+
+615
+00:33:23,519 --> 00:33:25,440
+the memory right
+
+616
+00:33:25,440 --> 00:33:27,419
+um let's think about that later so let's
+
+617
+00:33:27,419 --> 00:33:30,059
+look at the strange forward approach why
+
+618
+00:33:30,059 --> 00:33:32,279
+do a straightforward approach did we
+
+619
+00:33:32,279 --> 00:33:34,620
+have the memory right memory we have the
+
+620
+00:33:34,620 --> 00:33:37,620
+OS code here then we a comes we put a
+
+621
+00:33:37,620 --> 00:33:40,080
+here then B comes with B here and then
+
+622
+00:33:40,080 --> 00:33:42,059
+after a
+
+623
+00:33:42,059 --> 00:33:45,299
+it's not active after a finish okay then
+
+624
+00:33:45,299 --> 00:33:48,360
+we let it go then we put this there
+
+625
+00:33:48,360 --> 00:33:52,260
+okay then B after B finish B leaves and
+
+626
+00:33:52,260 --> 00:33:54,240
+then we can load a again okay this is
+
+627
+00:33:54,240 --> 00:33:56,159
+the approach this is called a swapping a
+
+628
+00:33:56,159 --> 00:33:57,960
+big picture of a swapping
+
+629
+00:33:57,960 --> 00:34:00,500
+now
+
+630
+00:34:05,340 --> 00:34:08,280
+of that it's not just a b c d f g true
+
+631
+00:34:08,280 --> 00:34:10,679
+it's huge number of
+
+632
+00:34:10,679 --> 00:34:13,440
+the process they are using this first
+
+633
+00:34:13,440 --> 00:34:15,839
+circum first serve approach and whenever
+
+634
+00:34:15,839 --> 00:34:18,540
+they finish they we just swap it out and
+
+635
+00:34:18,540 --> 00:34:22,320
+let the new process comes in what is
+
+636
+00:34:22,320 --> 00:34:24,719
+what are the disadvantage of this
+
+637
+00:34:24,719 --> 00:34:26,960
+approach the most
+
+638
+00:34:26,960 --> 00:34:31,820
+disadvantage of this approach yeah
+
+639
+00:34:31,980 --> 00:34:34,560
+from E to G like a has to wait until B
+
+640
+00:34:34,560 --> 00:34:37,280
+is done before it can enter Because
+
+641
+00:34:37,280 --> 00:34:40,700
+by that space
+
+642
+00:34:40,918 --> 00:34:43,139
+yeah but what is the disadvantage that
+
+643
+00:34:43,139 --> 00:34:45,119
+is that is the truth that is the truth
+
+644
+00:34:45,119 --> 00:34:47,219
+right what is the disadvantage of this
+
+645
+00:34:47,219 --> 00:34:49,440
+approach single from the system side
+
+646
+00:34:49,440 --> 00:34:52,500
+this is what happens right we we can see
+
+647
+00:34:52,500 --> 00:34:53,940
+it we can see what happens in the
+
+648
+00:34:53,940 --> 00:34:57,300
+picture but that is not a disadvantage
+
+649
+00:34:57,300 --> 00:34:59,040
+this is the
+
+650
+00:34:59,040 --> 00:35:02,220
+choose right the facts this is how the
+
+651
+00:35:02,220 --> 00:35:04,520
+algorithms goes the swapping technology
+
+652
+00:35:04,520 --> 00:35:07,680
+runs what is the disadvantage of the
+
+653
+00:35:07,680 --> 00:35:08,760
+approach
+
+654
+00:35:08,760 --> 00:35:11,280
+think of that not just the ABCDEFG
+
+655
+00:35:11,280 --> 00:35:15,440
+eventually let's say we ranked for
+
+656
+00:35:16,200 --> 00:35:18,780
+a whole day let's say we run for whole
+
+657
+00:35:18,780 --> 00:35:20,700
+day there's thousands of the program
+
+658
+00:35:20,700 --> 00:35:23,220
+program thousands of programs different
+
+659
+00:35:23,220 --> 00:35:26,280
+sides different size different process
+
+660
+00:35:26,280 --> 00:35:29,400
+time any disadvantage of the pro of this
+
+661
+00:35:29,400 --> 00:35:32,420
+of this approach
+
+662
+00:35:52,260 --> 00:35:54,599
+yeah process map
+
+663
+00:35:54,599 --> 00:35:57,980
+probably stops but
+
+664
+00:35:57,980 --> 00:36:01,740
+this advantage of that
+
+665
+00:36:01,740 --> 00:36:06,240
+what kind of process going to be stopped
+
+666
+00:36:06,240 --> 00:36:08,060
+in your example
+
+667
+00:36:08,060 --> 00:36:09,960
+question like what the difference
+
+668
+00:36:09,960 --> 00:36:13,500
+between starvation and the dialogue in
+
+669
+00:36:13,500 --> 00:36:15,000
+the return we have that how you answer
+
+670
+00:36:15,000 --> 00:36:17,300
+that
+
+671
+00:36:19,400 --> 00:36:22,320
+just take up too much memory and because
+
+672
+00:36:22,320 --> 00:36:23,880
+it has to fit in like a certain amount
+
+673
+00:36:23,880 --> 00:36:26,339
+of space that's available that process
+
+674
+00:36:26,339 --> 00:36:30,020
+will never actually be used
+
+675
+00:36:32,760 --> 00:36:35,099
+you are very close you're very close
+
+676
+00:36:35,099 --> 00:36:37,640
+emojis
+
+677
+00:36:40,920 --> 00:36:44,520
+it's not that long I'm just sinking over
+
+678
+00:36:44,520 --> 00:36:46,920
+the dialogue okay starvation is in this
+
+679
+00:36:46,920 --> 00:36:49,099
+case
+
+680
+00:36:51,599 --> 00:36:54,839
+yeah so um well so the thing is that the
+
+681
+00:36:54,839 --> 00:36:57,119
+things that think of that we run if we
+
+682
+00:36:57,119 --> 00:36:59,339
+run for a long time
+
+683
+00:36:59,339 --> 00:37:02,640
+the there will be the memory will be
+
+684
+00:37:02,640 --> 00:37:06,720
+full of little holes four little holes
+
+685
+00:37:06,720 --> 00:37:08,880
+that is the answer think of why think of
+
+686
+00:37:08,880 --> 00:37:11,940
+why there will not be a very large holes
+
+687
+00:37:11,940 --> 00:37:14,640
+if we call it the continually address
+
+688
+00:37:14,640 --> 00:37:18,420
+space is uh is a whole then eventually
+
+689
+00:37:18,420 --> 00:37:20,579
+if we're using this swapping approach
+
+690
+00:37:20,579 --> 00:37:23,460
+the memory will be full of little holes
+
+691
+00:37:23,460 --> 00:37:25,260
+what what is the little holes okay let
+
+692
+00:37:25,260 --> 00:37:27,800
+me show you
+
+693
+00:37:30,440 --> 00:37:33,240
+this is a memory at first that is so
+
+694
+00:37:33,240 --> 00:37:35,280
+this is the OS code the rest is empty
+
+695
+00:37:35,280 --> 00:37:37,260
+right memory Mt so at the beginning we
+
+696
+00:37:37,260 --> 00:37:40,079
+have a big hole we have big hole and
+
+697
+00:37:40,079 --> 00:37:42,240
+then if we're using the swapping
+
+698
+00:37:42,240 --> 00:37:44,520
+approach let's say the new process goes
+
+699
+00:37:44,520 --> 00:37:47,700
+in and goes out goes in and goes out so
+
+700
+00:37:47,700 --> 00:37:50,460
+at first we may have we we may have
+
+701
+00:37:50,460 --> 00:37:52,560
+let's say a big
+
+702
+00:37:52,560 --> 00:37:55,680
+some big processes they take this space
+
+703
+00:37:55,680 --> 00:37:58,260
+they say they take this space right some
+
+704
+00:37:58,260 --> 00:38:01,740
+big process take this space and then the
+
+705
+00:38:01,740 --> 00:38:04,500
+big process goes out and eventually
+
+706
+00:38:04,500 --> 00:38:06,420
+there are small process goes in and
+
+707
+00:38:06,420 --> 00:38:10,280
+taking the space taking the space
+
+708
+00:38:12,180 --> 00:38:15,119
+so as time goes by or time goes by more
+
+709
+00:38:15,119 --> 00:38:17,099
+and more there may be more and more
+
+710
+00:38:17,099 --> 00:38:19,980
+small persons taking this space and
+
+711
+00:38:19,980 --> 00:38:21,900
+creating many little
+
+712
+00:38:21,900 --> 00:38:25,500
+horse so this is the little
+
+713
+00:38:25,500 --> 00:38:27,900
+horse so I need a horse
+
+714
+00:38:27,900 --> 00:38:31,440
+happens when needle holes happens no big
+
+715
+00:38:31,440 --> 00:38:35,220
+no big process can get in because it's
+
+716
+00:38:35,220 --> 00:38:37,859
+it's just this empty space no big
+
+717
+00:38:37,859 --> 00:38:40,140
+process can get in they have to wait
+
+718
+00:38:40,140 --> 00:38:42,359
+there for a long time so that's the
+
+719
+00:38:42,359 --> 00:38:45,000
+course many big process in our
+
+720
+00:38:45,000 --> 00:38:48,119
+starvation status right in Starvation
+
+721
+00:38:48,119 --> 00:38:51,359
+status but so come back to the midterm
+
+722
+00:38:51,359 --> 00:38:53,220
+starvation does not mean or dialogue
+
+723
+00:38:53,220 --> 00:38:54,900
+right
+
+724
+00:38:54,900 --> 00:38:57,480
+the starvation starvation dialogue is
+
+725
+00:38:57,480 --> 00:38:59,579
+dialogue right you made salvation for a
+
+726
+00:38:59,579 --> 00:39:01,859
+long time but you may not in the
+
+727
+00:39:01,859 --> 00:39:04,320
+dialogue situation right the download
+
+728
+00:39:04,320 --> 00:39:08,280
+situation is you we need to ensure right
+
+729
+00:39:08,280 --> 00:39:10,200
+the circulation the lung preemption the
+
+730
+00:39:10,200 --> 00:39:13,079
+holding ways right the mutual exclusion
+
+731
+00:39:13,079 --> 00:39:15,720
+by starvation
+
+732
+00:39:15,720 --> 00:39:17,760
+does not mean that they're locked okay
+
+733
+00:39:17,760 --> 00:39:21,000
+so in this case the big process my
+
+734
+00:39:21,000 --> 00:39:23,339
+starvation for a long time and we create
+
+735
+00:39:23,339 --> 00:39:25,740
+so many holes this is a disadvantage of
+
+736
+00:39:25,740 --> 00:39:28,140
+the swapping technology so we are going
+
+737
+00:39:28,140 --> 00:39:31,700
+to go back there later
+
+738
+00:39:35,180 --> 00:39:38,280
+okay so let's have let's think of the
+
+739
+00:39:38,280 --> 00:39:40,500
+approach okay let's see let's continue
+
+740
+00:39:40,500 --> 00:39:43,079
+and continue this story this is the
+
+741
+00:39:43,079 --> 00:39:45,900
+first generation of operations from the
+
+742
+00:39:45,900 --> 00:39:47,640
+right
+
+743
+00:39:47,640 --> 00:39:49,260
+in summary
+
+744
+00:39:49,260 --> 00:39:51,540
+the first generation what we have
+
+745
+00:39:51,540 --> 00:39:53,520
+learned in summary we have what we have
+
+746
+00:39:53,520 --> 00:39:56,099
+learned so far is that we do not have
+
+747
+00:39:56,099 --> 00:39:58,800
+used any obstruction OS abstraction we
+
+748
+00:39:58,800 --> 00:40:02,339
+just put the OS in the memory and then
+
+749
+00:40:02,339 --> 00:40:05,460
+we gave each process a base and the
+
+750
+00:40:05,460 --> 00:40:08,040
+limits to represent their address space
+
+751
+00:40:08,040 --> 00:40:11,339
+and since the memory is a space sharing
+
+752
+00:40:11,339 --> 00:40:13,740
+approach we want to hold as many process
+
+753
+00:40:13,740 --> 00:40:16,859
+as possible so we put them together in
+
+754
+00:40:16,859 --> 00:40:19,800
+the memory and we use a first come first
+
+755
+00:40:19,800 --> 00:40:23,480
+serve approach plus the swapping
+
+756
+00:40:23,480 --> 00:40:26,940
+process swapping
+
+757
+00:40:26,940 --> 00:40:30,300
+to managing this to managing this memory
+
+758
+00:40:30,300 --> 00:40:34,079
+to manage this memory now the now let's
+
+759
+00:40:34,079 --> 00:40:36,599
+say we already have this design so far
+
+760
+00:40:36,599 --> 00:40:39,180
+it will continue following this design
+
+761
+00:40:39,180 --> 00:40:42,060
+let's keep thinking what what the other
+
+762
+00:40:42,060 --> 00:40:44,280
+disadvantage okay
+
+763
+00:40:44,280 --> 00:40:46,859
+after I use the first come first
+
+764
+00:40:46,859 --> 00:40:49,200
+software approach plus swapping approach
+
+765
+00:40:49,200 --> 00:40:54,000
+plus bass and limits to represent
+
+766
+00:40:54,000 --> 00:40:56,839
+to represents the memory address space
+
+767
+00:40:56,839 --> 00:41:00,420
+after I using I create these Up
+
+768
+00:41:00,420 --> 00:41:03,720
+structures these obstructions then the
+
+769
+00:41:03,720 --> 00:41:05,460
+next thing I need to think of that is
+
+770
+00:41:05,460 --> 00:41:09,240
+that how can I keep track of this empty
+
+771
+00:41:09,240 --> 00:41:11,820
+spaces even there's many holes how can I
+
+772
+00:41:11,820 --> 00:41:15,119
+keep track of them why do why why do I
+
+773
+00:41:15,119 --> 00:41:17,220
+keep why do I need to keep track of them
+
+774
+00:41:17,220 --> 00:41:19,079
+why do I need to keep track of them
+
+775
+00:41:19,079 --> 00:41:22,440
+because while a due process comes in I
+
+776
+00:41:22,440 --> 00:41:25,320
+can easily find out where it is where
+
+777
+00:41:25,320 --> 00:41:27,480
+should it be right
+
+778
+00:41:27,480 --> 00:41:30,300
+how do I keep track of these empty
+
+779
+00:41:30,300 --> 00:41:34,260
+spaces empty spaces there are many
+
+780
+00:41:34,260 --> 00:41:36,780
+approaches but use your creativity to
+
+781
+00:41:36,780 --> 00:41:38,640
+think about what data structure you are
+
+782
+00:41:38,640 --> 00:41:41,220
+going to prefer to keep track of this
+
+783
+00:41:41,220 --> 00:41:44,480
+empty spaces
+
+784
+00:41:55,859 --> 00:41:58,440
+I thought it should be more difficult to
+
+785
+00:41:58,440 --> 00:42:00,000
+answer
+
+786
+00:42:00,000 --> 00:42:02,579
+right this is the memory I give you the
+
+787
+00:42:02,579 --> 00:42:05,040
+memory you know this is the input okay
+
+788
+00:42:05,040 --> 00:42:07,380
+you know the size of the memory you know
+
+789
+00:42:07,380 --> 00:42:10,400
+the size of the memory
+
+790
+00:42:11,640 --> 00:42:15,240
+this is the input the size of the memory
+
+791
+00:42:15,240 --> 00:42:16,680
+okay you
+
+792
+00:42:16,680 --> 00:42:19,740
+the size of the memory you I give you I
+
+793
+00:42:19,740 --> 00:42:22,380
+gave you a flow of process each process
+
+794
+00:42:22,380 --> 00:42:24,660
+they use two variables the base and
+
+795
+00:42:24,660 --> 00:42:27,000
+limits the base
+
+796
+00:42:27,000 --> 00:42:29,880
+and the limits to represents
+
+797
+00:42:29,880 --> 00:42:32,339
+to represent where it should be resizing
+
+798
+00:42:32,339 --> 00:42:36,599
+the memory in the size memory now what
+
+799
+00:42:36,599 --> 00:42:38,700
+when they resizing in the memory there
+
+800
+00:42:38,700 --> 00:42:40,920
+are many empty spaces right how are you
+
+801
+00:42:40,920 --> 00:42:42,660
+going to keep track of these empty
+
+802
+00:42:42,660 --> 00:42:45,140
+spaces
+
+803
+00:42:45,420 --> 00:42:48,500
+how you can do that
+
+804
+00:42:50,339 --> 00:42:52,800
+how we can keep track of these empty
+
+805
+00:42:52,800 --> 00:42:56,000
+spaces in the memory
+
+806
+00:43:03,500 --> 00:43:06,060
+many there are many importers is
+
+807
+00:43:06,060 --> 00:43:08,520
+hundreds thousands of them we do not
+
+808
+00:43:08,520 --> 00:43:11,520
+have thousands of registers to to to to
+
+809
+00:43:11,520 --> 00:43:15,240
+to remember every process based on the
+
+810
+00:43:15,240 --> 00:43:16,440
+limits
+
+811
+00:43:16,440 --> 00:43:19,880
+so I only need to yeah
+
+812
+00:43:20,579 --> 00:43:22,859
+English is a very good what others
+
+813
+00:43:22,859 --> 00:43:25,400
+options
+
+814
+00:43:26,819 --> 00:43:28,800
+so there's two approaches so one is the
+
+815
+00:43:28,800 --> 00:43:31,440
+bitmaps one is linked list okay this is
+
+816
+00:43:31,440 --> 00:43:33,780
+the textbook gives us so let's first
+
+817
+00:43:33,780 --> 00:43:36,900
+look at bitmaps okay so you let's say I
+
+818
+00:43:36,900 --> 00:43:38,579
+give you the solution bitmaps how you
+
+819
+00:43:38,579 --> 00:43:41,040
+going to design using a bitmaps to
+
+820
+00:43:41,040 --> 00:43:43,940
+yeah Mojo
+
+821
+00:43:47,040 --> 00:43:50,579
+very good if the space is taken you mark
+
+822
+00:43:50,579 --> 00:43:54,960
+it with one if space is not taken you
+
+823
+00:43:54,960 --> 00:43:57,900
+mark it with zero so that is how the
+
+824
+00:43:57,900 --> 00:44:02,240
+build map approach do so if here
+
+825
+00:44:02,280 --> 00:44:04,740
+with the beam map okay with the memory
+
+826
+00:44:04,740 --> 00:44:07,020
+is divided into allocation units a small
+
+827
+00:44:07,020 --> 00:44:09,980
+a few words and us
+
+828
+00:44:09,980 --> 00:44:12,420
+corresponding to each allocation units
+
+829
+00:44:12,420 --> 00:44:15,780
+in the in the base in the bitmap 0
+
+830
+00:44:15,780 --> 00:44:17,160
+represents
+
+831
+00:44:17,160 --> 00:44:20,099
+zero represents the space is free okay
+
+832
+00:44:20,099 --> 00:44:23,099
+the unit is free one represents the
+
+833
+00:44:23,099 --> 00:44:27,619
+units is taken the memory units is taken
+
+834
+00:44:29,520 --> 00:44:32,040
+so take a look at this we have the this
+
+835
+00:44:32,040 --> 00:44:34,800
+is the B okay this is the
+
+836
+00:44:34,800 --> 00:44:37,740
+disability approach is the B map okay so
+
+837
+00:44:37,740 --> 00:44:39,060
+we have the
+
+838
+00:44:39,060 --> 00:44:41,339
+we have the memory so this is the memory
+
+839
+00:44:41,339 --> 00:44:45,000
+right we have one two three four five we
+
+840
+00:44:45,000 --> 00:44:48,180
+have five process they are recite they
+
+841
+00:44:48,180 --> 00:44:51,200
+resize in the memory
+
+842
+00:44:54,420 --> 00:44:58,079
+so for process one is one one one right
+
+843
+00:44:58,079 --> 00:45:00,359
+it's good it's because it's taken right
+
+844
+00:45:00,359 --> 00:45:03,960
+process a and then zero zero zero means
+
+845
+00:45:03,960 --> 00:45:06,420
+that there's empty space and then we
+
+846
+00:45:06,420 --> 00:45:08,040
+have B
+
+847
+00:45:08,040 --> 00:45:09,599
+so B has
+
+848
+00:45:09,599 --> 00:45:12,800
+this started with the a so it has the
+
+849
+00:45:12,800 --> 00:45:17,640
+sixth age 10 units okay 10 units
+
+850
+00:45:17,640 --> 00:45:20,520
+oh sorry it's the
+
+851
+00:45:20,520 --> 00:45:24,800
+still has a one two three Ace
+
+852
+00:45:25,800 --> 00:45:28,619
+this one two three this represents this
+
+853
+00:45:28,619 --> 00:45:30,780
+represents the process B
+
+854
+00:45:30,780 --> 00:45:33,599
+process B and this represent these four
+
+855
+00:45:33,599 --> 00:45:35,880
+represent the process C and we have two
+
+856
+00:45:35,880 --> 00:45:41,300
+empty spaces then two empty spaces
+
+857
+00:45:42,720 --> 00:45:46,160
+this is the empty spaces
+
+858
+00:45:47,339 --> 00:45:50,540
+empty spaces
+
+859
+00:45:50,819 --> 00:45:52,980
+empty spaces
+
+860
+00:45:52,980 --> 00:45:55,500
+so the main problem of this approach now
+
+861
+00:45:55,500 --> 00:45:57,300
+you understand how the bitmap works
+
+862
+00:45:57,300 --> 00:45:59,700
+right and so how to beat Map works yeah
+
+863
+00:45:59,700 --> 00:46:03,740
+yeah what question and question yeah
+
+864
+00:46:08,579 --> 00:46:11,280
+no no this is just that this this here
+
+865
+00:46:11,280 --> 00:46:12,540
+look at this
+
+866
+00:46:12,540 --> 00:46:14,880
+this is the beam map the link array is
+
+867
+00:46:14,880 --> 00:46:17,900
+another approach yeah
+
+868
+00:46:26,040 --> 00:46:28,680
+no here here's the here's the thing they
+
+869
+00:46:28,680 --> 00:46:31,200
+only use one beam a very large B map to
+
+870
+00:46:31,200 --> 00:46:32,940
+represent the whole memory
+
+871
+00:46:32,940 --> 00:46:35,099
+to represent the whole memory you will
+
+872
+00:46:35,099 --> 00:46:38,339
+use a one big big map to represent the
+
+873
+00:46:38,339 --> 00:46:41,700
+whole memory this is the whole memory
+
+874
+00:46:41,700 --> 00:46:45,000
+so that is it it may be a vector that's
+
+875
+00:46:45,000 --> 00:46:46,560
+very very long
+
+876
+00:46:46,560 --> 00:46:49,520
+very very large
+
+877
+00:46:50,460 --> 00:46:51,599
+hmm
+
+878
+00:46:51,599 --> 00:46:53,940
+it's not 2D or right no no no not think
+
+879
+00:46:53,940 --> 00:46:55,859
+of the this this can be wait this can be
+
+880
+00:46:55,859 --> 00:46:59,240
+any it can be it can be um
+
+881
+00:46:59,240 --> 00:47:01,140
+what this is based on your
+
+882
+00:47:01,140 --> 00:47:02,780
+implementation right
+
+883
+00:47:02,780 --> 00:47:07,079
+in this skill can be just a one one line
+
+884
+00:47:07,079 --> 00:47:10,619
+one row it can be multiple rows it
+
+885
+00:47:10,619 --> 00:47:12,960
+doesn't matter the approach is that we
+
+886
+00:47:12,960 --> 00:47:14,700
+use a bitmap up
+
+887
+00:47:14,700 --> 00:47:17,460
+structure data structure to represents
+
+888
+00:47:17,460 --> 00:47:20,460
+the whole memory the whole memory
+
+889
+00:47:20,460 --> 00:47:24,560
+yeah everyone what's your question
+
+890
+00:47:33,800 --> 00:47:36,480
+yeah yeah there's no my question
+
+891
+00:47:36,480 --> 00:47:39,140
+remember
+
+892
+00:47:39,900 --> 00:47:42,599
+how do you manage in the free memory my
+
+893
+00:47:42,599 --> 00:47:44,460
+question is that how do you manage the
+
+894
+00:47:44,460 --> 00:47:46,980
+free memory I'm not asking you how to
+
+895
+00:47:46,980 --> 00:47:49,619
+track the the other process I'm asking
+
+896
+00:47:49,619 --> 00:47:52,800
+you how do you manage in the free memory
+
+897
+00:47:52,800 --> 00:47:55,859
+yeah so they just use a bitmap that is
+
+898
+00:47:55,859 --> 00:47:58,980
+why they do not differentiate so if that
+
+899
+00:47:58,980 --> 00:48:01,440
+this is taken by a or if this is taken
+
+900
+00:48:01,440 --> 00:48:05,060
+by B this is just approach
+
+901
+00:48:06,540 --> 00:48:08,099
+to
+
+902
+00:48:08,099 --> 00:48:12,560
+tracking the free memory yes
+
+903
+00:48:19,220 --> 00:48:23,099
+you can just use one joint integer
+
+904
+00:48:23,099 --> 00:48:24,540
+you know it's
+
+905
+00:48:24,540 --> 00:48:26,640
+it is very it's very lightweight it's
+
+906
+00:48:26,640 --> 00:48:29,220
+not heavy it's not heavy right but if
+
+907
+00:48:29,220 --> 00:48:31,680
+you if you are using another like
+
+908
+00:48:31,680 --> 00:48:34,440
+Advanced data structure to represent the
+
+909
+00:48:34,440 --> 00:48:36,839
+bitmap like a vector hash table it may
+
+910
+00:48:36,839 --> 00:48:38,700
+be a heavy but you think of that just
+
+911
+00:48:38,700 --> 00:48:40,859
+using an integer or drawing the integer
+
+912
+00:48:40,859 --> 00:48:42,359
+it's not that
+
+913
+00:48:42,359 --> 00:48:45,060
+or you can use several integers to
+
+914
+00:48:45,060 --> 00:48:46,800
+represent several parts of the memory
+
+915
+00:48:46,800 --> 00:48:49,200
+it's not that heavy right so the
+
+916
+00:48:49,200 --> 00:48:51,359
+disadvantage is more like that what is
+
+917
+00:48:51,359 --> 00:48:53,520
+the disadvantage of this approach so
+
+918
+00:48:53,520 --> 00:48:56,220
+we're using the bitmap to represent the
+
+919
+00:48:56,220 --> 00:48:59,400
+free map to track the free memory yes
+
+920
+00:48:59,400 --> 00:49:01,400
+um
+
+921
+00:49:09,240 --> 00:49:12,180
+find the net the net uh to find to find
+
+922
+00:49:12,180 --> 00:49:14,819
+out like like to find out that where
+
+923
+00:49:14,819 --> 00:49:16,200
+yeah it's kind of hard for me to say but
+
+924
+00:49:16,200 --> 00:49:18,720
+to find out the entire size of a yeah
+
+925
+00:49:18,720 --> 00:49:22,260
+finding out the entire size of a size
+
+926
+00:49:22,260 --> 00:49:25,020
+of the space that's taken would be like
+
+927
+00:49:25,020 --> 00:49:27,900
+order n and finding that finding the
+
+928
+00:49:27,900 --> 00:49:30,180
+next and finding the next
+
+929
+00:49:30,180 --> 00:49:32,520
+um not taken state from like fighting
+
+930
+00:49:32,520 --> 00:49:33,780
+throughout all the empty spaces
+
+931
+00:49:33,780 --> 00:49:35,400
+basically finding the size of something
+
+932
+00:49:35,400 --> 00:49:37,980
+would go in linear time and that could
+
+933
+00:49:37,980 --> 00:49:39,480
+be inefficient which I'm going to get
+
+934
+00:49:39,480 --> 00:49:41,280
+from cover by the link
+
+935
+00:49:41,280 --> 00:49:44,040
+yeah very good so the so the digital
+
+936
+00:49:44,040 --> 00:49:45,900
+Advantage is that because you you will
+
+937
+00:49:45,900 --> 00:49:48,480
+never know how many continuous zero will
+
+938
+00:49:48,480 --> 00:49:49,619
+be there
+
+939
+00:49:49,619 --> 00:49:52,200
+so let's say if I want to find out 1000
+
+940
+00:49:52,200 --> 00:49:55,440
+continually zero zero right empty space
+
+941
+00:49:55,440 --> 00:49:58,260
+one thousand I have to go from the very
+
+942
+00:49:58,260 --> 00:50:00,060
+beginning to search that because in the
+
+943
+00:50:00,060 --> 00:50:01,920
+bitmap there's no
+
+944
+00:50:01,920 --> 00:50:04,560
+no signature or no pointer to point out
+
+945
+00:50:04,560 --> 00:50:06,900
+like the the size of the zero the size
+
+946
+00:50:06,900 --> 00:50:09,960
+of the continuity zero consequently zero
+
+947
+00:50:09,960 --> 00:50:13,560
+in each place all right I need to search
+
+948
+00:50:13,560 --> 00:50:16,380
+it every time so the main problem is
+
+949
+00:50:16,380 --> 00:50:18,780
+that wine come you need to when it has
+
+950
+00:50:18,780 --> 00:50:21,359
+been decided to bring a k unit process
+
+951
+00:50:21,359 --> 00:50:24,060
+into the memory so the memory manager
+
+952
+00:50:24,060 --> 00:50:27,599
+Master search the bitmap to find out uh
+
+953
+00:50:27,599 --> 00:50:31,640
+run or account sequencive consecutive
+
+954
+00:50:31,640 --> 00:50:35,640
+consecutive zero beats in the bmap it
+
+955
+00:50:35,640 --> 00:50:36,780
+it's not
+
+956
+00:50:36,780 --> 00:50:39,480
+it's not that easy because every time
+
+957
+00:50:39,480 --> 00:50:41,460
+you need to search it every time you
+
+958
+00:50:41,460 --> 00:50:43,740
+search that you may take that space so
+
+959
+00:50:43,740 --> 00:50:45,599
+every time the second time you may need
+
+960
+00:50:45,599 --> 00:50:47,640
+to search it again and search it again
+
+961
+00:50:47,640 --> 00:50:50,400
+so it's not that in patience the reason
+
+962
+00:50:50,400 --> 00:50:53,700
+why we think of the approach about the
+
+963
+00:50:53,700 --> 00:50:56,339
+link release so the link list approach
+
+964
+00:50:56,339 --> 00:50:58,880
+is that
+
+965
+00:51:00,660 --> 00:51:03,900
+is it will use the P to represent it a
+
+966
+00:51:03,900 --> 00:51:06,059
+process or not and using the edge
+
+967
+00:51:06,059 --> 00:51:07,680
+represent the whole the whole mean
+
+968
+00:51:07,680 --> 00:51:10,440
+starch is it's a it's an empty memory
+
+969
+00:51:10,440 --> 00:51:12,839
+space and using the zero to represent
+
+970
+00:51:12,839 --> 00:51:14,099
+water
+
+971
+00:51:14,099 --> 00:51:16,859
+the starting right the base the base of
+
+972
+00:51:16,859 --> 00:51:19,319
+our process using here another variable
+
+973
+00:51:19,319 --> 00:51:21,660
+to represent the limits right the base
+
+974
+00:51:21,660 --> 00:51:24,380
+and the limits
+
+975
+00:51:24,720 --> 00:51:26,880
+so take a look out of this linked list
+
+976
+00:51:26,880 --> 00:51:29,880
+and think of that one of the good thing
+
+977
+00:51:29,880 --> 00:51:31,619
+and what the best thing about linked
+
+978
+00:51:31,619 --> 00:51:34,220
+list approach
+
+979
+00:51:35,819 --> 00:51:38,480
+ES
+
+980
+00:51:41,160 --> 00:51:43,020
+paper of your frame the next hole is
+
+981
+00:51:43,020 --> 00:51:44,400
+also Constantine
+
+982
+00:51:44,400 --> 00:51:46,940
+is
+
+983
+00:51:47,940 --> 00:51:51,599
+yeah that could be very uh memory yeah
+
+984
+00:51:51,599 --> 00:51:54,300
+that could be less memory efficient than
+
+985
+00:51:54,300 --> 00:51:58,260
+like the than the um
+
+986
+00:51:58,260 --> 00:52:00,420
+it's got to be more
+
+987
+00:52:00,420 --> 00:52:02,780
+music
+
+988
+00:52:04,700 --> 00:52:06,540
+you're basically
+
+989
+00:52:06,540 --> 00:52:08,400
+um got a correct sound so yeah beam map
+
+990
+00:52:08,400 --> 00:52:10,380
+is very lightweight build map is very
+
+991
+00:52:10,380 --> 00:52:12,240
+lightweight it's very efficient very
+
+992
+00:52:12,240 --> 00:52:13,859
+compact way increasing a way to keep
+
+993
+00:52:13,859 --> 00:52:16,859
+track of the free memory resource
+
+994
+00:52:16,859 --> 00:52:19,260
+let's let's say we're just using a very
+
+995
+00:52:19,260 --> 00:52:21,300
+long integer to represent that this
+
+996
+00:52:21,300 --> 00:52:23,579
+right and for the but for the linked
+
+997
+00:52:23,579 --> 00:52:25,020
+list it is
+
+998
+00:52:25,020 --> 00:52:26,220
+um
+
+999
+00:52:26,220 --> 00:52:29,720
+the good thing about the linked list
+
+1000
+00:52:29,720 --> 00:52:32,220
+the P map is a compound way of keep
+
+1001
+00:52:32,220 --> 00:52:33,960
+track of the memory the bad thing is
+
+1002
+00:52:33,960 --> 00:52:35,700
+that you need to search memory 4K
+
+1003
+00:52:35,700 --> 00:52:38,099
+conspusive zero to bring your file okay
+
+1004
+00:52:38,099 --> 00:52:40,559
+you need to know right so you need to do
+
+1005
+00:52:40,559 --> 00:52:43,020
+it every time so and then that is the
+
+1006
+00:52:43,020 --> 00:52:46,140
+advantage of the link list for for link
+
+1007
+00:52:46,140 --> 00:52:48,780
+release is very easy for searching you
+
+1008
+00:52:48,780 --> 00:52:53,359
+can easily you just needs to search it
+
+1009
+00:52:54,359 --> 00:52:56,460
+you just don't need to search the linked
+
+1010
+00:52:56,460 --> 00:52:59,160
+list right like if if you need let's say
+
+1011
+00:52:59,160 --> 00:53:01,380
+I need to find out the three available
+
+1012
+00:53:01,380 --> 00:53:03,780
+resources so what I did is that if it's
+
+1013
+00:53:03,780 --> 00:53:06,000
+p then I go to the next then if it's
+
+1014
+00:53:06,000 --> 00:53:08,040
+Edge then I just check the size of the
+
+1015
+00:53:08,040 --> 00:53:09,119
+edge
+
+1016
+00:53:09,119 --> 00:53:11,460
+I'm looking for let's say if I'm looking
+
+1017
+00:53:11,460 --> 00:53:14,400
+for a size of the uh the first size of
+
+1018
+00:53:14,400 --> 00:53:18,000
+five then um this has only size of three
+
+1019
+00:53:18,000 --> 00:53:19,920
+so it will not working so I go to the
+
+1020
+00:53:19,920 --> 00:53:22,200
+next one is p so because it's already
+
+1021
+00:53:22,200 --> 00:53:24,720
+taken p means taken so it's not working
+
+1022
+00:53:24,720 --> 00:53:27,119
+so I go to another it's a render P it's
+
+1023
+00:53:27,119 --> 00:53:29,400
+not it's not working go to the next okay
+
+1024
+00:53:29,400 --> 00:53:32,400
+it's h here H then I see the size of the
+
+1025
+00:53:32,400 --> 00:53:34,800
+edge this two so it's not working so I
+
+1026
+00:53:34,800 --> 00:53:37,200
+go to key I go to P now go to the edge
+
+1027
+00:53:37,200 --> 00:53:39,359
+so something like that it's very easy
+
+1028
+00:53:39,359 --> 00:53:43,460
+it's very easy to search
+
+1029
+00:53:44,839 --> 00:53:48,300
+disadvantages that is
+
+1030
+00:53:48,300 --> 00:53:52,819
+is more highways and more heavy weights
+
+1031
+00:53:54,059 --> 00:53:56,660
+now
+
+1032
+00:54:03,180 --> 00:54:05,579
+so this is the link list okay this is
+
+1033
+00:54:05,579 --> 00:54:08,819
+the linked list so the now think of that
+
+1034
+00:54:08,819 --> 00:54:09,920
+the
+
+1035
+00:54:09,920 --> 00:54:14,599
+disadvantage of the linked list is that
+
+1036
+00:54:16,559 --> 00:54:19,200
+is very heavy ways right very hard way
+
+1037
+00:54:19,200 --> 00:54:21,960
+but look at this approach this let's try
+
+1038
+00:54:21,960 --> 00:54:24,059
+to improve the algorithm let's try to
+
+1039
+00:54:24,059 --> 00:54:26,460
+improve the algorithms a little bit we
+
+1040
+00:54:26,460 --> 00:54:28,500
+still are using the leaked list we still
+
+1041
+00:54:28,500 --> 00:54:30,839
+using the link crease we're still using
+
+1042
+00:54:30,839 --> 00:54:33,059
+the linked list to find out the
+
+1043
+00:54:33,059 --> 00:54:34,260
+available
+
+1044
+00:54:34,260 --> 00:54:36,660
+the available memory space available
+
+1045
+00:54:36,660 --> 00:54:40,260
+memory space so for the
+
+1046
+00:54:40,260 --> 00:54:42,420
+for very light for strength forward
+
+1047
+00:54:42,420 --> 00:54:44,880
+approach for example I say
+
+1048
+00:54:44,880 --> 00:54:48,240
+I need to find an edge with some minimum
+
+1049
+00:54:48,240 --> 00:54:52,140
+size of five so in this picture you may
+
+1050
+00:54:52,140 --> 00:54:53,940
+there's no solution because every Arch
+
+1051
+00:54:53,940 --> 00:54:57,599
+has a old that's like three just less
+
+1052
+00:54:57,599 --> 00:55:01,020
+than three so if but the link list may
+
+1053
+00:55:01,020 --> 00:55:03,180
+be very long now my question is that
+
+1054
+00:55:03,180 --> 00:55:07,200
+okay I need to find out the
+
+1055
+00:55:07,200 --> 00:55:09,660
+the hole that is larger than five the
+
+1056
+00:55:09,660 --> 00:55:11,460
+whole is larger than five
+
+1057
+00:55:11,460 --> 00:55:14,160
+then you can search the link list right
+
+1058
+00:55:14,160 --> 00:55:16,200
+you can search the link list let's try
+
+1059
+00:55:16,200 --> 00:55:18,660
+to improve it a little bit the strength
+
+1060
+00:55:18,660 --> 00:55:21,000
+forward approach is that I gave you I
+
+1061
+00:55:21,000 --> 00:55:24,180
+give to you is that I always search from
+
+1062
+00:55:24,180 --> 00:55:26,220
+the very beginning search the very
+
+1063
+00:55:26,220 --> 00:55:29,339
+beginning and find out the the first one
+
+1064
+00:55:29,339 --> 00:55:31,260
+that fits my needs the first one that
+
+1065
+00:55:31,260 --> 00:55:33,839
+fits my needs so any other approaches
+
+1066
+00:55:33,839 --> 00:55:36,540
+any other approaches
+
+1067
+00:55:36,540 --> 00:55:38,520
+but this is all design questions it's
+
+1068
+00:55:38,520 --> 00:55:40,859
+made it all boring but that is how the
+
+1069
+00:55:40,859 --> 00:55:44,160
+OS designed the system they in the OS we
+
+1070
+00:55:44,160 --> 00:55:47,700
+actually have many policies and we we
+
+1071
+00:55:47,700 --> 00:55:50,040
+are not only using one policy to manage
+
+1072
+00:55:50,040 --> 00:55:51,300
+the memory we are using different
+
+1073
+00:55:51,300 --> 00:55:53,880
+vertices for different types of the
+
+1074
+00:55:53,880 --> 00:55:57,359
+process okay now singular if we're using
+
+1075
+00:55:57,359 --> 00:56:01,619
+the link release how are we going to
+
+1076
+00:56:01,619 --> 00:56:03,839
+the search algorithm is like that I
+
+1077
+00:56:03,839 --> 00:56:06,480
+search it one by one to find out the
+
+1078
+00:56:06,480 --> 00:56:10,079
+best fits the final the first phase the
+
+1079
+00:56:10,079 --> 00:56:13,020
+first hole that matches my needs like
+
+1080
+00:56:13,020 --> 00:56:16,260
+larger or you call them five now and in
+
+1081
+00:56:16,260 --> 00:56:20,240
+better Solutions any better Solutions
+
+1082
+00:56:21,540 --> 00:56:24,140
+yes
+
+1083
+00:56:26,760 --> 00:56:30,300
+most appropriate right so that is the
+
+1084
+00:56:30,300 --> 00:56:32,700
+the first algorithmic propose so in
+
+1085
+00:56:32,700 --> 00:56:36,119
+several find out the first the first the
+
+1086
+00:56:36,119 --> 00:56:38,400
+first solution that matches my leads
+
+1087
+00:56:38,400 --> 00:56:42,960
+let's say I am after this I find out a
+
+1088
+00:56:42,960 --> 00:56:46,260
+size of Ash that has a size of 99 in
+
+1089
+00:56:46,260 --> 00:56:49,500
+several of 15.99 I searched the whole
+
+1090
+00:56:49,500 --> 00:56:52,760
+link list and find out who has exactly
+
+1091
+00:56:52,760 --> 00:56:56,520
+exactly size of the hole equal the money
+
+1092
+00:56:56,520 --> 00:56:58,980
+it's like I'm requesting five then I
+
+1093
+00:56:58,980 --> 00:57:01,619
+need to find out the size of five then
+
+1094
+00:57:01,619 --> 00:57:03,720
+the advantage of this approach let me
+
+1095
+00:57:03,720 --> 00:57:06,000
+records of course the optimal face yeah
+
+1096
+00:57:06,000 --> 00:57:09,200
+the advantage of the approach
+
+1097
+00:57:16,619 --> 00:57:20,599
+reduce we come to the maximum reduce the
+
+1098
+00:57:20,599 --> 00:57:23,280
+holes the mini holes we call it a
+
+1099
+00:57:23,280 --> 00:57:25,800
+fragmentation we can minimize the
+
+1100
+00:57:25,800 --> 00:57:29,700
+fragmentations fragmentations
+
+1101
+00:57:30,000 --> 00:57:31,680
+okay can you get this point
+
+1102
+00:57:31,680 --> 00:57:35,720
+fragmentation is very important concept
+
+1103
+00:57:45,780 --> 00:57:49,619
+so this is the best faith approach okay
+
+1104
+00:57:49,619 --> 00:57:52,740
+the faster phase approach that is uh we
+
+1105
+00:57:52,740 --> 00:57:55,680
+call the best fish approach the idea of
+
+1106
+00:57:55,680 --> 00:57:58,200
+the best feature approach is that the
+
+1107
+00:57:58,200 --> 00:58:00,180
+idea of the best piece approach is that
+
+1108
+00:58:00,180 --> 00:58:02,339
+we have
+
+1109
+00:58:02,339 --> 00:58:05,300
+this memory
+
+1110
+00:58:07,260 --> 00:58:10,579
+we have this memory
+
+1111
+00:58:12,420 --> 00:58:15,119
+we have this memory right and then we
+
+1112
+00:58:15,119 --> 00:58:17,420
+always
+
+1113
+00:58:20,640 --> 00:58:23,099
+these are process these are process okay
+
+1114
+00:58:23,099 --> 00:58:25,880
+this is a process
+
+1115
+00:58:27,480 --> 00:58:30,180
+the process
+
+1116
+00:58:30,180 --> 00:58:32,099
+so there are there are many holes right
+
+1117
+00:58:32,099 --> 00:58:35,000
+these are the holes
+
+1118
+00:58:36,839 --> 00:58:39,059
+so the best surface approach means that
+
+1119
+00:58:39,059 --> 00:58:41,880
+we always trying to find out the
+
+1120
+00:58:41,880 --> 00:58:44,940
+smallest hole that fits the smallest
+
+1121
+00:58:44,940 --> 00:58:47,339
+hole that fits the smallest holder fits
+
+1122
+00:58:47,339 --> 00:58:50,460
+then it is very slow why this is very
+
+1123
+00:58:50,460 --> 00:58:52,200
+slow why because I need to search from
+
+1124
+00:58:52,200 --> 00:58:54,119
+the beginning to the end
+
+1125
+00:58:54,119 --> 00:58:56,160
+we need to search the beginning from the
+
+1126
+00:58:56,160 --> 00:58:59,220
+end unless you you find out the exactly
+
+1127
+00:58:59,220 --> 00:59:01,680
+space if not then you need to
+
+1128
+00:59:01,680 --> 00:59:04,260
+search from the beginning to the end to
+
+1129
+00:59:04,260 --> 00:59:06,780
+find out the best fits
+
+1130
+00:59:06,780 --> 00:59:10,200
+the smallest hole that fits your needs
+
+1131
+00:59:10,200 --> 00:59:13,559
+so it's very slow it's very slow
+
+1132
+00:59:13,559 --> 00:59:14,760
+but
+
+1133
+00:59:14,760 --> 00:59:19,079
+it can it can minimize the
+
+1134
+00:59:19,079 --> 00:59:21,720
+right fragmentation right and then
+
+1135
+00:59:21,720 --> 00:59:24,540
+there's a other approaches we call the
+
+1136
+00:59:24,540 --> 00:59:27,059
+next feed towards the fees and the Quick
+
+1137
+00:59:27,059 --> 00:59:30,000
+Fix can you make a guess what the other
+
+1138
+00:59:30,000 --> 00:59:32,099
+the approach that I'm using at the
+
+1139
+00:59:32,099 --> 00:59:33,900
+beginning is called first of each okay
+
+1140
+00:59:33,900 --> 00:59:35,940
+first week so we already know that what
+
+1141
+00:59:35,940 --> 00:59:38,160
+the first phase means the first means
+
+1142
+00:59:38,160 --> 00:59:40,079
+the first of it means that I always
+
+1143
+00:59:40,079 --> 00:59:42,240
+start from the beginning I find out the
+
+1144
+00:59:42,240 --> 00:59:44,460
+first hole that fits my list that is
+
+1145
+00:59:44,460 --> 00:59:46,380
+called first of it and we have the best
+
+1146
+00:59:46,380 --> 00:59:51,559
+fits now what is the next fit means
+
+1147
+00:59:52,380 --> 00:59:55,380
+okay the next phase means
+
+1148
+00:59:55,380 --> 00:59:57,900
+the next phase means we start searching
+
+1149
+00:59:57,900 --> 01:00:01,079
+by other itches wherever it is so that
+
+1150
+01:00:01,079 --> 01:00:04,520
+is the uh
+
+1151
+01:00:04,980 --> 01:00:08,240
+that is approach
+
+1152
+01:00:09,119 --> 01:00:12,299
+improved from the first fit so let's say
+
+1153
+01:00:12,299 --> 01:00:14,280
+the first phase I already searched half
+
+1154
+01:00:14,280 --> 01:00:17,160
+of the memory and for the next first of
+
+1155
+01:00:17,160 --> 01:00:19,260
+all if I'm using the next phase approach
+
+1156
+01:00:19,260 --> 01:00:22,319
+so for the first requirements the query
+
+1157
+01:00:22,319 --> 01:00:24,420
+I started from the beginning then for
+
+1158
+01:00:24,420 --> 01:00:28,020
+the second query I leave it there I
+
+1159
+01:00:28,020 --> 01:00:30,299
+start in search the rest
+
+1160
+01:00:30,299 --> 01:00:33,059
+so I'm not going back the points are not
+
+1161
+01:00:33,059 --> 01:00:34,920
+going to be back at the beginning either
+
+1162
+01:00:34,920 --> 01:00:37,500
+going to search wherever it was
+
+1163
+01:00:37,500 --> 01:00:40,020
+okay
+
+1164
+01:00:40,020 --> 01:00:43,020
+pass the phase means we trying to find
+
+1165
+01:00:43,020 --> 01:00:46,319
+the smallest holes that fits the worst
+
+1166
+01:00:46,319 --> 01:00:49,200
+surface means that we trying to
+
+1167
+01:00:49,200 --> 01:00:51,420
+find out the largest holder fees where
+
+1168
+01:00:51,420 --> 01:00:53,640
+the water feeds like its name is called
+
+1169
+01:00:53,640 --> 01:00:56,160
+the worst surface is the worst okay the
+
+1170
+01:00:56,160 --> 01:00:57,839
+button my question is
+
+1171
+01:00:57,839 --> 01:01:00,599
+why you need the worst
+
+1172
+01:01:00,599 --> 01:01:04,400
+why you need the worst modules
+
+1173
+01:01:06,119 --> 01:01:10,880
+why you need that then why you need that
+
+1174
+01:01:14,520 --> 01:01:18,020
+then you can fix the the
+
+1175
+01:01:18,660 --> 01:01:21,480
+largest hole maybe and also I would
+
+1176
+01:01:21,480 --> 01:01:23,900
+assume
+
+1177
+01:01:25,020 --> 01:01:26,700
+so basically it's just good to know
+
+1178
+01:01:26,700 --> 01:01:28,680
+where the largest thing is because you
+
+1179
+01:01:28,680 --> 01:01:30,119
+could probably pitch the most processes
+
+1180
+01:01:30,119 --> 01:01:33,440
+in the largest bowl oh yeah
+
+1181
+01:01:38,339 --> 01:01:40,200
+like it would create a very small hole
+
+1182
+01:01:40,200 --> 01:01:42,240
+that we can fit no process into but with
+
+1183
+01:01:42,240 --> 01:01:44,460
+the worst fit if you fit in a very large
+
+1184
+01:01:44,460 --> 01:01:47,880
+hole you're much more likely to have a
+
+1185
+01:01:47,880 --> 01:01:51,500
+hole still in your memory to fit another
+
+1186
+01:01:52,680 --> 01:01:55,319
+Place yeah so what I said this thingies
+
+1187
+01:01:55,319 --> 01:01:58,380
+are it's uh it's not like the Arabic the
+
+1188
+01:01:58,380 --> 01:02:01,020
+scenes that you we don't know let's have
+
+1189
+01:02:01,020 --> 01:02:03,000
+we need to have this in the same page
+
+1190
+01:02:03,000 --> 01:02:05,460
+okay we do not want to create a lot of
+
+1191
+01:02:05,460 --> 01:02:08,640
+mini mini holes a huge number of
+
+1192
+01:02:08,640 --> 01:02:11,339
+fragmentations no one wants that
+
+1193
+01:02:11,339 --> 01:02:14,180
+right you do not want your memory have
+
+1194
+01:02:14,180 --> 01:02:18,420
+not infusions in the OS there's a tool
+
+1195
+01:02:18,420 --> 01:02:19,859
+that is called the
+
+1196
+01:02:19,859 --> 01:02:21,900
+um I think it's the diesel tool this
+
+1197
+01:02:21,900 --> 01:02:24,119
+tool optimization tool you may be able
+
+1198
+01:02:24,119 --> 01:02:26,099
+to use that you can download that it
+
+1199
+01:02:26,099 --> 01:02:27,780
+will help you to
+
+1200
+01:02:27,780 --> 01:02:30,299
+minimize the fragmentation in the disk
+
+1201
+01:02:30,299 --> 01:02:32,579
+that's the same idea they are going to
+
+1202
+01:02:32,579 --> 01:02:35,640
+move the files together because to
+
+1203
+01:02:35,640 --> 01:02:38,400
+minimize the small holes in the memory
+
+1204
+01:02:38,400 --> 01:02:40,200
+the same thing we do not want to create
+
+1205
+01:02:40,200 --> 01:02:42,059
+many small holes because it's very
+
+1206
+01:02:42,059 --> 01:02:44,099
+inefficient why it is inefficient
+
+1207
+01:02:44,099 --> 01:02:46,920
+because while new process comes
+
+1208
+01:02:46,920 --> 01:02:50,579
+it may be medium it may be large if it
+
+1209
+01:02:50,579 --> 01:02:53,280
+is medium it's large or it's small it
+
+1210
+01:02:53,280 --> 01:02:55,680
+cannot fit in the tiny holes
+
+1211
+01:02:55,680 --> 01:02:56,760
+up
+
+1212
+01:02:56,760 --> 01:03:00,240
+in on the opposite we do not have any
+
+1213
+01:03:00,240 --> 01:03:02,640
+holes we just everything is compact with
+
+1214
+01:03:02,640 --> 01:03:04,380
+each other everything compared to each
+
+1215
+01:03:04,380 --> 01:03:06,480
+other another tiny horse can be
+
+1216
+01:03:06,480 --> 01:03:08,760
+aggregated together to become a small
+
+1217
+01:03:08,760 --> 01:03:11,160
+horse or medium hose to be able to fit
+
+1218
+01:03:11,160 --> 01:03:13,799
+more process our goal is to make the
+
+1219
+01:03:13,799 --> 01:03:16,440
+best use of memory so we need to be in
+
+1220
+01:03:16,440 --> 01:03:18,420
+the same page is that we do not want to
+
+1221
+01:03:18,420 --> 01:03:21,240
+create many tiny holes then the worst
+
+1222
+01:03:21,240 --> 01:03:23,339
+fish approach that is the opposite it
+
+1223
+01:03:23,339 --> 01:03:26,400
+will create many tiny mini holes and
+
+1224
+01:03:26,400 --> 01:03:28,680
+everywhere and everywhere why because
+
+1225
+01:03:28,680 --> 01:03:30,839
+it's always finders largest hole that
+
+1226
+01:03:30,839 --> 01:03:32,880
+fits okay it's always find out the
+
+1227
+01:03:32,880 --> 01:03:34,740
+largest holder fits and the process made
+
+1228
+01:03:34,740 --> 01:03:37,260
+ones for a very long time and eventually
+
+1229
+01:03:37,260 --> 01:03:39,960
+all the largest spaces are going to be
+
+1230
+01:03:39,960 --> 01:03:42,059
+taken and creating many small mini
+
+1231
+01:03:42,059 --> 01:03:45,180
+spaces and the large space is let's say
+
+1232
+01:03:45,180 --> 01:03:48,240
+a larger process is leaves only the
+
+1233
+01:03:48,240 --> 01:03:50,579
+process that is smaller than the larger
+
+1234
+01:03:50,579 --> 01:03:53,460
+can fit in and eventually the large
+
+1235
+01:03:53,460 --> 01:03:56,700
+space will be many many small process no
+
+1236
+01:03:56,700 --> 01:03:59,579
+big process can get in then why we still
+
+1237
+01:03:59,579 --> 01:04:02,339
+need the word surface that is because we
+
+1238
+01:04:02,339 --> 01:04:05,040
+do not want our approach to be like that
+
+1239
+01:04:05,040 --> 01:04:07,559
+we need to have the upper bounds and the
+
+1240
+01:04:07,559 --> 01:04:10,440
+lower bounds because this is for the
+
+1241
+01:04:10,440 --> 01:04:12,900
+research respective when you are
+
+1242
+01:04:12,900 --> 01:04:14,819
+designing an algorithm you want to know
+
+1243
+01:04:14,819 --> 01:04:17,400
+the algorithms is good or not you first
+
+1244
+01:04:17,400 --> 01:04:20,220
+have a optimal choice right you then you
+
+1245
+01:04:20,220 --> 01:04:22,740
+have the Baseline choice so the worst
+
+1246
+01:04:22,740 --> 01:04:25,680
+fees are like the Baseline
+
+1247
+01:04:25,680 --> 01:04:28,079
+if I'm designed approach I'm just the
+
+1248
+01:04:28,079 --> 01:04:30,780
+one percentage improvements
+
+1249
+01:04:30,780 --> 01:04:32,940
+compared to the word surface then that
+
+1250
+01:04:32,940 --> 01:04:35,339
+means my solution is bad
+
+1251
+01:04:35,339 --> 01:04:37,500
+okay so that is just a baseline yeah
+
+1252
+01:04:37,500 --> 01:04:40,099
+magician
+
+1253
+01:04:44,700 --> 01:04:48,660
+oh yeah yeah so okay the most okay you
+
+1254
+01:04:48,660 --> 01:04:51,059
+know in current operating systems most
+
+1255
+01:04:51,059 --> 01:04:53,220
+approach that we use is actually Quick
+
+1256
+01:04:53,220 --> 01:04:55,619
+Fix it's very smart idea it's very smart
+
+1257
+01:04:55,619 --> 01:04:59,099
+idea so anyone want to make a guess
+
+1258
+01:04:59,099 --> 01:05:03,540
+about the Quick Fix looks work quick fix
+
+1259
+01:05:03,540 --> 01:05:06,000
+well what date
+
+1260
+01:05:06,000 --> 01:05:07,440
+yeah
+
+1261
+01:05:07,440 --> 01:05:10,680
+a list of common sizes
+
+1262
+01:05:10,680 --> 01:05:13,380
+what are the common sizes what are the
+
+1263
+01:05:13,380 --> 01:05:16,040
+common sizes
+
+1264
+01:05:20,160 --> 01:05:22,799
+which side shows up the most like if
+
+1265
+01:05:22,799 --> 01:05:24,299
+each side maybe has a counter we have a
+
+1266
+01:05:24,299 --> 01:05:27,660
+priority queue of like of sight of like
+
+1267
+01:05:27,660 --> 01:05:32,400
+locations in the of locations of holes
+
+1268
+01:05:32,400 --> 01:05:33,540
+or something yeah using that priority
+
+1269
+01:05:33,540 --> 01:05:35,900
+view Maybe
+
+1270
+01:05:36,180 --> 01:05:39,319
+which side is
+
+1271
+01:05:40,260 --> 01:05:42,119
+yeah using a counter in a priority queue
+
+1272
+01:05:42,119 --> 01:05:44,480
+that's
+
+1273
+01:05:44,819 --> 01:05:47,640
+yeah so uh sort of quick fix approach is
+
+1274
+01:05:47,640 --> 01:05:50,700
+that we we so here's the the idea is
+
+1275
+01:05:50,700 --> 01:05:55,140
+that how how do you find out the um
+
+1276
+01:05:55,140 --> 01:05:58,440
+the horse to put the new process right
+
+1277
+01:05:58,440 --> 01:06:01,380
+put the new process the first surface is
+
+1278
+01:06:01,380 --> 01:06:03,059
+that I always find out the first one
+
+1279
+01:06:03,059 --> 01:06:05,280
+that fits the next phase means that I
+
+1280
+01:06:05,280 --> 01:06:07,380
+starting from the where towards the
+
+1281
+01:06:07,380 --> 01:06:09,359
+pointer we do not send the point at the
+
+1282
+01:06:09,359 --> 01:06:11,819
+beginning we start where it was okay the
+
+1283
+01:06:11,819 --> 01:06:13,920
+best surface is that I searched from the
+
+1284
+01:06:13,920 --> 01:06:15,839
+beginning to the end to find out the
+
+1285
+01:06:15,839 --> 01:06:18,480
+hole that matches exactly the same size
+
+1286
+01:06:18,480 --> 01:06:21,960
+of my process and the worst fee says
+
+1287
+01:06:21,960 --> 01:06:24,599
+that I go to obviously I find if I'm the
+
+1288
+01:06:24,599 --> 01:06:26,940
+size of like very tidy then I find out
+
+1289
+01:06:26,940 --> 01:06:29,579
+the largest host I always find out the
+
+1290
+01:06:29,579 --> 01:06:32,579
+largest holes for that for my process I
+
+1291
+01:06:32,579 --> 01:06:34,799
+do not look at the smallest that fit my
+
+1292
+01:06:34,799 --> 01:06:37,020
+list I look at the largest to fit my
+
+1293
+01:06:37,020 --> 01:06:39,480
+list the Quick Fix means that it's going
+
+1294
+01:06:39,480 --> 01:06:42,299
+to use several pointers to keep track of
+
+1295
+01:06:42,299 --> 01:06:44,640
+the common sizes what are common sizes
+
+1296
+01:06:44,640 --> 01:06:47,640
+common sizes for example you know in
+
+1297
+01:06:47,640 --> 01:06:49,440
+this in the textbook it gave a solution
+
+1298
+01:06:49,440 --> 01:06:53,160
+that it keeps tracks of every host that
+
+1299
+01:06:53,160 --> 01:06:56,460
+is have the size of two and going to
+
+1300
+01:06:56,460 --> 01:06:58,680
+have the pointer to point out the
+
+1301
+01:06:58,680 --> 01:07:01,200
+addresses for every holes the size of
+
+1302
+01:07:01,200 --> 01:07:04,500
+four and every hole says size of A's and
+
+1303
+01:07:04,500 --> 01:07:08,160
+every hole size of 16. so starting from
+
+1304
+01:07:08,160 --> 01:07:10,859
+the small one to the big one so they
+
+1305
+01:07:10,859 --> 01:07:13,559
+track all the common sizes in different
+
+1306
+01:07:13,559 --> 01:07:15,839
+categories and whenever a new process
+
+1307
+01:07:15,839 --> 01:07:18,780
+comes in is looking at this
+
+1308
+01:07:18,780 --> 01:07:21,480
+different category to find out what the
+
+1309
+01:07:21,480 --> 01:07:24,539
+best category that can fit in so that is
+
+1310
+01:07:24,539 --> 01:07:27,299
+is actually uh our model operating
+
+1311
+01:07:27,299 --> 01:07:30,660
+system using this approach is very our
+
+1312
+01:07:30,660 --> 01:07:33,660
+it's kind of find out the trade-off from
+
+1313
+01:07:33,660 --> 01:07:35,579
+the
+
+1314
+01:07:35,579 --> 01:07:38,460
+Simplicity like how easy it can be
+
+1315
+01:07:38,460 --> 01:07:41,160
+implemented and then the efficiency it's
+
+1316
+01:07:41,160 --> 01:07:43,319
+a trade-off it's Trader of choice so
+
+1317
+01:07:43,319 --> 01:07:46,520
+that is the Quick Fix okay
+
+1318
+01:07:48,480 --> 01:07:50,520
+now this is
+
+1319
+01:07:50,520 --> 01:07:52,980
+this is over all the approaches this is
+
+1320
+01:07:52,980 --> 01:07:55,500
+all other approaches well
+
+1321
+01:07:55,500 --> 01:07:57,299
+so in summary
+
+1322
+01:07:57,299 --> 01:07:59,760
+we have learned
+
+1323
+01:07:59,760 --> 01:08:02,280
+what people did like
+
+1324
+01:08:02,280 --> 01:08:03,539
+maybe
+
+1325
+01:08:03,539 --> 01:08:04,319
+um
+
+1326
+01:08:04,319 --> 01:08:08,400
+is actually maybe 15 years ago 15 50
+
+1327
+01:08:08,400 --> 01:08:10,160
+years ago
+
+1328
+01:08:10,160 --> 01:08:13,319
+115 to 100 years ago that is the first
+
+1329
+01:08:13,319 --> 01:08:16,738
+raw generation of operating systems you
+
+1330
+01:08:16,738 --> 01:08:19,979
+you are very young are you you anyone
+
+1331
+01:08:19,979 --> 01:08:22,319
+heard of MS-DOS
+
+1332
+01:08:22,319 --> 01:08:25,859
+Ms stores no no one
+
+1333
+01:08:25,859 --> 01:08:28,859
+MS-DOS
+
+1334
+01:08:30,120 --> 01:08:32,520
+this
+
+1335
+01:08:32,520 --> 01:08:35,040
+no one no one heard of that you heard of
+
+1336
+01:08:35,040 --> 01:08:37,279
+that
+
+1337
+01:08:38,520 --> 01:08:40,580
+yeah yeah it's Bill Gates yeah yeah
+
+1338
+01:08:40,580 --> 01:08:43,140
+initially there's no UI the operating
+
+1339
+01:08:43,140 --> 01:08:46,319
+system no there's no UI it's just uh you
+
+1340
+01:08:46,319 --> 01:08:49,679
+type you're facing your type so and
+
+1341
+01:08:49,679 --> 01:08:54,000
+the MS stores age that is the how they
+
+1342
+01:08:54,000 --> 01:08:58,020
+use this the swapping swapping approach
+
+1343
+01:08:58,020 --> 01:09:00,420
+swapping swapping approach to managing
+
+1344
+01:09:00,420 --> 01:09:03,719
+the memory now we know that
+
+1345
+01:09:03,719 --> 01:09:06,120
+so this is the history of my memory the
+
+1346
+01:09:06,120 --> 01:09:08,580
+history of memory we have learned these
+
+1347
+01:09:08,580 --> 01:09:09,839
+Concepts okay
+
+1348
+01:09:09,839 --> 01:09:13,738
+address space we use the base and limits
+
+1349
+01:09:13,738 --> 01:09:16,799
+to represent the way the process is then
+
+1350
+01:09:16,799 --> 01:09:19,259
+we use different data structures to
+
+1351
+01:09:19,259 --> 01:09:21,839
+track the free resources in the memory
+
+1352
+01:09:21,839 --> 01:09:24,179
+we have the bitmap approach we have the
+
+1353
+01:09:24,179 --> 01:09:26,698
+linked list approach so you need to
+
+1354
+01:09:26,698 --> 01:09:28,500
+understand the good thing about beam map
+
+1355
+01:09:28,500 --> 01:09:30,179
+and the best thing about me map the good
+
+1356
+01:09:30,179 --> 01:09:31,679
+thing about linked list and the best
+
+1357
+01:09:31,679 --> 01:09:33,899
+thing about linked list so let's say we
+
+1358
+01:09:33,899 --> 01:09:35,698
+use the linked list approach to track
+
+1359
+01:09:35,698 --> 01:09:37,520
+the free memory
+
+1360
+01:09:37,520 --> 01:09:40,380
+then for
+
+1361
+01:09:40,380 --> 01:09:43,500
+how to choose how to choose the best
+
+1362
+01:09:43,500 --> 01:09:46,679
+holes to fear my new process there are
+
+1363
+01:09:46,679 --> 01:09:48,960
+several approaches the first feat was
+
+1364
+01:09:48,960 --> 01:09:52,500
+the fees a second feeds best face quick
+
+1365
+01:09:52,500 --> 01:09:55,260
+fees there are many approaches you need
+
+1366
+01:09:55,260 --> 01:09:56,699
+to understand the differences about
+
+1367
+01:09:56,699 --> 01:09:58,920
+these approaches now come to the
+
+1368
+01:09:58,920 --> 01:10:04,040
+beginning swapping is that good swap
+
+1369
+01:10:04,140 --> 01:10:07,500
+swap is not good it's not good I will
+
+1370
+01:10:07,500 --> 01:10:09,780
+tell you why it is not good because it
+
+1371
+01:10:09,780 --> 01:10:13,020
+basically has no obstruction has no
+
+1372
+01:10:13,020 --> 01:10:15,179
+abstractions has no obstruction for the
+
+1373
+01:10:15,179 --> 01:10:17,280
+memory it's just use the physical
+
+1374
+01:10:17,280 --> 01:10:21,120
+resources of the memory it has it has
+
+1375
+01:10:21,120 --> 01:10:23,699
+very simple resource management
+
+1376
+01:10:23,699 --> 01:10:26,460
+to managing the hardware resources it
+
+1377
+01:10:26,460 --> 01:10:29,460
+has no obstruction of the memory the
+
+1378
+01:10:29,460 --> 01:10:32,699
+swap technology is not good now the
+
+1379
+01:10:32,699 --> 01:10:34,620
+modern operating system they design a
+
+1380
+01:10:34,620 --> 01:10:37,159
+new approach required virtual memory
+
+1381
+01:10:37,159 --> 01:10:41,719
+virtual memory then that is the
+
+1382
+01:10:43,800 --> 01:10:46,020
+that is the um
+
+1383
+01:10:46,020 --> 01:10:49,080
+key Concept in this chapter the virtual
+
+1384
+01:10:49,080 --> 01:10:51,480
+memory so let's first look at the
+
+1385
+01:10:51,480 --> 01:10:53,580
+virtual memory history why we need
+
+1386
+01:10:53,580 --> 01:10:55,620
+virtual memory
+
+1387
+01:10:55,620 --> 01:10:57,659
+so and you still don't want to make a
+
+1388
+01:10:57,659 --> 01:10:59,880
+guess about what exactly virtual memory
+
+1389
+01:10:59,880 --> 01:11:02,460
+is what exactly virtual memory is
+
+1390
+01:11:02,460 --> 01:11:05,179
+munchies
+
+1391
+01:11:08,760 --> 01:11:11,280
+well that is why I writing the slides
+
+1392
+01:11:11,280 --> 01:11:13,739
+but I did a lot of virtual library
+
+1393
+01:11:13,739 --> 01:11:17,100
+it's it's actually ask you the um
+
+1394
+01:11:17,100 --> 01:11:19,679
+is the motivation of the virtual memory
+
+1395
+01:11:19,679 --> 01:11:24,860
+uh it's not a it's not a
+
+1396
+01:11:25,380 --> 01:11:29,900
+it's not a key conception yes
+
+1397
+01:11:33,300 --> 01:11:35,760
+virtual memory right so it looks the
+
+1398
+01:11:35,760 --> 01:11:38,280
+program like a contiguous like
+
+1399
+01:11:38,280 --> 01:11:40,620
+like you know block of memory but in
+
+1400
+01:11:40,620 --> 01:11:42,239
+reality it's chalked up it's a little
+
+1401
+01:11:42,239 --> 01:11:45,739
+slices but throughout the
+
+1402
+01:11:47,219 --> 01:11:49,940
+very close very close so I will continue
+
+1403
+01:11:49,940 --> 01:11:52,699
+what's your name
+
+1404
+01:11:52,699 --> 01:11:57,300
+is marching orders one matcher okay so
+
+1405
+01:11:57,300 --> 01:11:59,640
+here's the one Marshall I mentioned that
+
+1406
+01:11:59,640 --> 01:12:02,159
+virtual memory is that if you will give
+
+1407
+01:12:02,159 --> 01:12:04,980
+you you have a process and give you the
+
+1408
+01:12:04,980 --> 01:12:07,560
+illusion that you you seems you have a
+
+1409
+01:12:07,560 --> 01:12:10,920
+whole memory address space
+
+1410
+01:12:10,920 --> 01:12:15,140
+but actually you just have yeah
+
+1411
+01:12:25,739 --> 01:12:27,420
+that is how we implement the virtual
+
+1412
+01:12:27,420 --> 01:12:30,420
+memory but it's not the it's not the
+
+1413
+01:12:30,420 --> 01:12:31,739
+um
+
+1414
+01:12:31,739 --> 01:12:33,780
+intuition about the virtual memory the
+
+1415
+01:12:33,780 --> 01:12:36,360
+key idea of the virtual memory let's get
+
+1416
+01:12:36,360 --> 01:12:38,340
+a key idea first okay what exactly
+
+1417
+01:12:38,340 --> 01:12:40,440
+virtual memory we are going to we are
+
+1418
+01:12:40,440 --> 01:12:41,820
+going to look at the details the
+
+1419
+01:12:41,820 --> 01:12:44,520
+technical details later but let's get to
+
+1420
+01:12:44,520 --> 01:12:48,440
+the key idea of the virtual memory yes
+
+1421
+01:12:57,900 --> 01:13:00,020
+oh
+
+1422
+01:13:00,020 --> 01:13:04,199
+uh no no I will make a real life example
+
+1423
+01:13:04,199 --> 01:13:05,640
+okay so
+
+1424
+01:13:05,640 --> 01:13:07,640
+um
+
+1425
+01:13:08,280 --> 01:13:10,620
+what exactly version might make a real
+
+1426
+01:13:10,620 --> 01:13:12,960
+life example okay
+
+1427
+01:13:12,960 --> 01:13:17,060
+okay this is uh uh okay
+
+1428
+01:13:25,560 --> 01:13:28,620
+okay so so here's the thing okay I I
+
+1429
+01:13:28,620 --> 01:13:31,440
+play this is using the same example I
+
+1430
+01:13:31,440 --> 01:13:34,199
+play A League of Legends okay so this is
+
+1431
+01:13:34,199 --> 01:13:35,580
+very large
+
+1432
+01:13:35,580 --> 01:13:37,560
+how large is it and you still don't know
+
+1433
+01:13:37,560 --> 01:13:39,360
+how large is it
+
+1434
+01:13:39,360 --> 01:13:42,960
+when you downloaded that how large is it
+
+1435
+01:13:42,960 --> 01:13:46,860
+I think it's around four gigabytes
+
+1436
+01:13:46,860 --> 01:13:49,860
+four gigabytes it's very large very
+
+1437
+01:13:49,860 --> 01:13:52,320
+large you download that you downloaded
+
+1438
+01:13:52,320 --> 01:13:54,780
+that the software is four gigabytes so
+
+1439
+01:13:54,780 --> 01:13:57,600
+that's four gigabytes we it's it has a
+
+1440
+01:13:57,600 --> 01:14:00,060
+client right LOL I think it's called iOS
+
+1441
+01:14:00,060 --> 01:14:01,380
+clients
+
+1442
+01:14:01,380 --> 01:14:03,120
+so you create the clients basically
+
+1443
+01:14:03,120 --> 01:14:06,060
+launch that program right so when we
+
+1444
+01:14:06,060 --> 01:14:08,280
+downloaded that this is just a program
+
+1445
+01:14:08,280 --> 01:14:10,679
+we have not yet run it so it's just a
+
+1446
+01:14:10,679 --> 01:14:12,659
+program it's a it's that it's not even
+
+1447
+01:14:12,659 --> 01:14:15,719
+live so it's not process right but if we
+
+1448
+01:14:15,719 --> 01:14:17,820
+if we click it we log in and we're
+
+1449
+01:14:17,820 --> 01:14:19,739
+starting this process then it's become a
+
+1450
+01:14:19,739 --> 01:14:21,840
+process right in your
+
+1451
+01:14:21,840 --> 01:14:24,719
+if you look at your um the current
+
+1452
+01:14:24,719 --> 01:14:27,420
+running active process you can show it
+
+1453
+01:14:27,420 --> 01:14:30,360
+it has a lol.agents like the clients
+
+1454
+01:14:30,360 --> 01:14:33,679
+running there okay
+
+1455
+01:14:35,840 --> 01:14:38,820
+is as large as four gigabytes it's
+
+1456
+01:14:38,820 --> 01:14:41,640
+larger than four gigabytes and then the
+
+1457
+01:14:41,640 --> 01:14:46,040
+largest and large it I logic okay
+
+1458
+01:14:47,520 --> 01:14:49,980
+so the first question is that these four
+
+1459
+01:14:49,980 --> 01:14:52,080
+gigabytes
+
+1460
+01:14:52,080 --> 01:14:54,360
+4 gigabytes of the code
+
+1461
+01:14:54,360 --> 01:14:57,540
+then we launch it in May it may become
+
+1462
+01:14:57,540 --> 01:15:00,239
+even larger because it's dynamically
+
+1463
+01:15:00,239 --> 01:15:02,280
+allocates more memory resources right
+
+1464
+01:15:02,280 --> 01:15:04,440
+let's say let's just say it's just a
+
+1465
+01:15:04,440 --> 01:15:06,239
+four gigabytes
+
+1466
+01:15:06,239 --> 01:15:09,060
+this is a program okay my first question
+
+1467
+01:15:09,060 --> 01:15:11,940
+is that when I logic I have the ROI
+
+1468
+01:15:11,940 --> 01:15:13,560
+clients process
+
+1469
+01:15:13,560 --> 01:15:15,600
+are we going to put all these four
+
+1470
+01:15:15,600 --> 01:15:18,719
+gigabytes of code in the memory
+
+1471
+01:15:18,719 --> 01:15:21,420
+no we are not going to put the order in
+
+1472
+01:15:21,420 --> 01:15:24,140
+a memory right
+
+1473
+01:15:24,600 --> 01:15:27,600
+why because why think of a why why we
+
+1474
+01:15:27,600 --> 01:15:29,400
+are not going to put all four gigabytes
+
+1475
+01:15:29,400 --> 01:15:31,880
+in the memory
+
+1476
+01:15:33,719 --> 01:15:36,239
+how large is your memory is
+
+1477
+01:15:36,239 --> 01:15:38,659
+yeah
+
+1478
+01:15:41,820 --> 01:15:44,219
+yeah the other processor the OS may
+
+1479
+01:15:44,219 --> 01:15:45,659
+already taken
+
+1480
+01:15:45,659 --> 01:15:48,060
+several gigabytes two gigabytes right
+
+1481
+01:15:48,060 --> 01:15:50,600
+much
+
+1482
+01:15:56,219 --> 01:15:59,520
+yeah many times we do not need that but
+
+1483
+01:15:59,520 --> 01:16:01,980
+why we if let's say if you have an
+
+1484
+01:16:01,980 --> 01:16:05,219
+inference of memory if I have influenced
+
+1485
+01:16:05,219 --> 01:16:08,420
+amounts of memory
+
+1486
+01:16:08,699 --> 01:16:11,040
+are you going to lower all this in the
+
+1487
+01:16:11,040 --> 01:16:13,260
+memory
+
+1488
+01:16:13,260 --> 01:16:17,300
+are you going to yes or no if you
+
+1489
+01:16:18,000 --> 01:16:20,340
+if you have an infinite amount of memory
+
+1490
+01:16:20,340 --> 01:16:21,960
+are you going to put that in the memory
+
+1491
+01:16:21,960 --> 01:16:24,239
+or not yes or no
+
+1492
+01:16:24,239 --> 01:16:27,120
+no anyone thinks yes
+
+1493
+01:16:27,120 --> 01:16:30,360
+yeah Andrew you think yes yes
+
+1494
+01:16:30,360 --> 01:16:32,880
+if I have impedance of memory I'm going
+
+1495
+01:16:32,880 --> 01:16:34,920
+to put order in the memory if I have
+
+1496
+01:16:34,920 --> 01:16:38,280
+inference I have 1 000 10 000 gigabytes
+
+1497
+01:16:38,280 --> 01:16:41,040
+of memory I'm going to put everything in
+
+1498
+01:16:41,040 --> 01:16:42,960
+the memory why because memory
+
+1499
+01:16:42,960 --> 01:16:45,420
+hierarchical structure tells us
+
+1500
+01:16:45,420 --> 01:16:48,360
+memory is faster than the disk
+
+1501
+01:16:48,360 --> 01:16:51,060
+why you think this is slow in the first
+
+1502
+01:16:51,060 --> 01:16:53,880
+slide we talk about as cash is fast
+
+1503
+01:16:53,880 --> 01:16:55,800
+memory is fast
+
+1504
+01:16:55,800 --> 01:16:59,100
+disk is slow cat register is super fast
+
+1505
+01:16:59,100 --> 01:17:01,679
+if I have impedance of the memory I'm
+
+1506
+01:17:01,679 --> 01:17:03,840
+going to put 4 gigabytes in the memory
+
+1507
+01:17:03,840 --> 01:17:06,960
+right but the truth is that you are not
+
+1508
+01:17:06,960 --> 01:17:10,020
+or start reach okay you can only have
+
+1509
+01:17:10,020 --> 01:17:12,960
+eight gigabyte for memory you are for
+
+1510
+01:17:12,960 --> 01:17:15,060
+students you do only have eight
+
+1511
+01:17:15,060 --> 01:17:19,040
+gigabytes of memory so you sold Os Os
+
+1512
+01:17:19,040 --> 01:17:22,140
+facing one Bill Gates they're facing all
+
+1513
+01:17:22,140 --> 01:17:23,400
+the
+
+1514
+01:17:23,400 --> 01:17:25,920
+students they do not have that they are
+
+1515
+01:17:25,920 --> 01:17:28,800
+not that rich to House of 1000 of
+
+1516
+01:17:28,800 --> 01:17:31,199
+gigabytes of memory so they they are
+
+1517
+01:17:31,199 --> 01:17:34,080
+always when they design the OS
+
+1518
+01:17:34,080 --> 01:17:36,360
+they are designed based on okay as long
+
+1519
+01:17:36,360 --> 01:17:38,540
+as you have eight gigabytes of memory
+
+1520
+01:17:38,540 --> 01:17:42,360
+you can play these games you can play
+
+1521
+01:17:42,360 --> 01:17:44,699
+these games mean while watching the TV
+
+1522
+01:17:44,699 --> 01:17:46,380
+mean watching the YouTube video
+
+1523
+01:17:46,380 --> 01:17:50,100
+meanwhile using your Microsoft documents
+
+1524
+01:17:50,100 --> 01:17:51,960
+like Microsoft I think Microsoft reward
+
+1525
+01:17:51,960 --> 01:17:53,640
+how large it is maybe also four
+
+1526
+01:17:53,640 --> 01:17:56,400
+gigabytes I forget right you can do
+
+1527
+01:17:56,400 --> 01:17:58,560
+everything together you can do
+
+1528
+01:17:58,560 --> 01:18:01,020
+everything together
+
+1529
+01:18:01,020 --> 01:18:03,900
+and I think I have many other process
+
+1530
+01:18:03,900 --> 01:18:06,840
+right the OS the OS may take other two
+
+1531
+01:18:06,840 --> 01:18:10,080
+gigabytes then you have other like UI
+
+1532
+01:18:10,080 --> 01:18:12,659
+the drivers they also take several like
+
+1533
+01:18:12,659 --> 01:18:15,600
+one gigabytes so we cannot hold
+
+1534
+01:18:15,600 --> 01:18:17,940
+everything in the memory because we have
+
+1535
+01:18:17,940 --> 01:18:21,239
+the very limited size of the memory
+
+1536
+01:18:21,239 --> 01:18:24,300
+then we design virtual memory then what
+
+1537
+01:18:24,300 --> 01:18:26,400
+exactly virtual memory anyone maker can
+
+1538
+01:18:26,400 --> 01:18:27,719
+make a guess
+
+1539
+01:18:27,719 --> 01:18:31,040
+anyone can make a guess
+
+1540
+01:18:38,880 --> 01:18:41,760
+or this is the what this word means like
+
+1541
+01:18:41,760 --> 01:18:43,620
+it's not a physical so this is the
+
+1542
+01:18:43,620 --> 01:18:45,420
+physical the 80 gigabytes is physical
+
+1543
+01:18:45,420 --> 01:18:48,260
+right
+
+1544
+01:18:51,659 --> 01:18:54,840
+then where are the maps
+
+1545
+01:18:54,840 --> 01:18:58,520
+the wire is virtual space
+
+1546
+01:19:09,500 --> 01:19:12,060
+in the next internet internet is not in
+
+1547
+01:19:12,060 --> 01:19:13,199
+the internet
+
+1548
+01:19:13,199 --> 01:19:15,900
+in the cloud not in the cloud okay not
+
+1549
+01:19:15,900 --> 01:19:19,159
+in the cloud where the
+
+1550
+01:19:19,260 --> 01:19:22,140
+very good natural disk okay this is the
+
+1551
+01:19:22,140 --> 01:19:24,000
+concept of the virtual memory student
+
+1552
+01:19:24,000 --> 01:19:26,580
+that's the concept of virtual memory I
+
+1553
+01:19:26,580 --> 01:19:29,340
+have a very large six software while
+
+1554
+01:19:29,340 --> 01:19:32,280
+software I can load load everything
+
+1555
+01:19:32,280 --> 01:19:34,500
+inside of the memory at the same time
+
+1556
+01:19:34,500 --> 01:19:36,659
+why because I have very limited meaning
+
+1557
+01:19:36,659 --> 01:19:40,260
+limited memory size so what the OS can
+
+1558
+01:19:40,260 --> 01:19:43,320
+do for me is that it gave me the
+
+1559
+01:19:43,320 --> 01:19:45,780
+illusion that I have already loaded
+
+1560
+01:19:45,780 --> 01:19:48,420
+everything the memory but actually not
+
+1561
+01:19:48,420 --> 01:19:52,620
+actually not it gives me so this is what
+
+1562
+01:19:52,620 --> 01:19:55,679
+I face okay the four gigabyte memory I
+
+1563
+01:19:55,679 --> 01:19:58,620
+may only use one gigabytes or less than
+
+1564
+01:19:58,620 --> 01:20:01,860
+that okay the other three gigabytes they
+
+1565
+01:20:01,860 --> 01:20:04,260
+are in the disk they are still in the
+
+1566
+01:20:04,260 --> 01:20:06,600
+disk okay the three gigabytes in the
+
+1567
+01:20:06,600 --> 01:20:09,060
+disk and then one gigabyte in memory so
+
+1568
+01:20:09,060 --> 01:20:13,159
+for this is my game but but it gave me
+
+1569
+01:20:13,159 --> 01:20:18,719
+the illusion that I have all of them in
+
+1570
+01:20:18,719 --> 01:20:21,780
+memory all of them in the memory so how
+
+1571
+01:20:21,780 --> 01:20:23,820
+they give me the illusion that I have
+
+1572
+01:20:23,820 --> 01:20:25,920
+all of them in the memory
+
+1573
+01:20:25,920 --> 01:20:29,460
+or us give me a new obstruction called
+
+1574
+01:20:29,460 --> 01:20:32,280
+virtual memory this software the LD of
+
+1575
+01:20:32,280 --> 01:20:35,100
+Legends 4 gigabytes right it gives me a
+
+1576
+01:20:35,100 --> 01:20:36,840
+virtual address he says that deleting
+
+1577
+01:20:36,840 --> 01:20:39,600
+this is your memory it's one to four
+
+1578
+01:20:39,600 --> 01:20:41,699
+gigabytes I gave it to you load your
+
+1579
+01:20:41,699 --> 01:20:44,940
+process into that virtual memory it's
+
+1580
+01:20:44,940 --> 01:20:47,040
+not real it's not real it's fake it's
+
+1581
+01:20:47,040 --> 01:20:48,060
+fake
+
+1582
+01:20:48,060 --> 01:20:50,159
+they gave me or you can think of just
+
+1583
+01:20:50,159 --> 01:20:51,780
+gave you a data structure give you
+
+1584
+01:20:51,780 --> 01:20:54,780
+illusion that you have used all this the
+
+1585
+01:20:54,780 --> 01:20:57,060
+virtual the memory you have
+
+1586
+01:20:57,060 --> 01:21:00,659
+puts everything in a fake memory in a
+
+1587
+01:21:00,659 --> 01:21:03,360
+fake memory okay I post my game in the
+
+1588
+01:21:03,360 --> 01:21:05,640
+fake memory the fake my but the fake
+
+1589
+01:21:05,640 --> 01:21:07,500
+memory is actually some part of the fake
+
+1590
+01:21:07,500 --> 01:21:10,440
+memory is in a disk it's some in the
+
+1591
+01:21:10,440 --> 01:21:13,199
+disk and this other part of it in the
+
+1592
+01:21:13,199 --> 01:21:15,600
+real memory in the physical memory then
+
+1593
+01:21:15,600 --> 01:21:16,980
+what OS did
+
+1594
+01:21:16,980 --> 01:21:19,199
+okay you are playing these games right
+
+1595
+01:21:19,199 --> 01:21:20,760
+but you are not playing all the
+
+1596
+01:21:20,760 --> 01:21:23,159
+Champions you are not playing all the
+
+1597
+01:21:23,159 --> 01:21:25,739
+game types right you only just you may
+
+1598
+01:21:25,739 --> 01:21:28,500
+at one time you may only use third part
+
+1599
+01:21:28,500 --> 01:21:29,640
+of the code
+
+1600
+01:21:29,640 --> 01:21:32,120
+right I'm playing around
+
+1601
+01:21:32,120 --> 01:21:33,679
+48
+
+1602
+01:21:33,679 --> 01:21:36,239
+148 Champion probably only one Champion
+
+1603
+01:21:36,239 --> 01:21:38,699
+then just put this part of the Champions
+
+1604
+01:21:38,699 --> 01:21:41,219
+that I'm using in the memory and for you
+
+1605
+01:21:41,219 --> 01:21:42,900
+you play different Champions you play
+
+1606
+01:21:42,900 --> 01:21:44,520
+different you put different part in the
+
+1607
+01:21:44,520 --> 01:21:47,400
+memory everyone have their own contents
+
+1608
+01:21:47,400 --> 01:21:49,199
+in the memory have all their own content
+
+1609
+01:21:49,199 --> 01:21:51,960
+in the disk who decide that
+
+1610
+01:21:51,960 --> 01:21:55,320
+all us decided so always what kind of or
+
+1611
+01:21:55,320 --> 01:21:58,620
+how the OS decide that they're using a
+
+1612
+01:21:58,620 --> 01:22:00,840
+lot of key Concepts
+
+1613
+01:22:00,840 --> 01:22:03,000
+in the mom or even what are these kids
+
+1614
+01:22:03,000 --> 01:22:06,420
+can separate that is Page table page
+
+1615
+01:22:06,420 --> 01:22:07,500
+table
+
+1616
+01:22:07,500 --> 01:22:09,600
+where you just mentioned that right the
+
+1617
+01:22:09,600 --> 01:22:12,360
+page table to mapping mapping firmware
+
+1618
+01:22:12,360 --> 01:22:15,179
+from virtual memory to physical memory
+
+1619
+01:22:15,179 --> 01:22:16,679
+right
+
+1620
+01:22:16,679 --> 01:22:18,840
+because you we have the 4 gigabytes of
+
+1621
+01:22:18,840 --> 01:22:20,760
+the code right then I need to only I can
+
+1622
+01:22:20,760 --> 01:22:22,380
+use only one gigabytes of the real
+
+1623
+01:22:22,380 --> 01:22:25,199
+memory then you OS help me design what
+
+1624
+01:22:25,199 --> 01:22:27,179
+part of the code is in the memory what
+
+1625
+01:22:27,179 --> 01:22:30,659
+part of code not in the memory
+
+1626
+01:22:30,659 --> 01:22:33,000
+and then
+
+1627
+01:22:33,000 --> 01:22:35,699
+so page table May takes a lot of memory
+
+1628
+01:22:35,699 --> 01:22:38,580
+than what we have we have tlv what is
+
+1629
+01:22:38,580 --> 01:22:40,679
+tlb translation look outside buffer
+
+1630
+01:22:40,679 --> 01:22:43,260
+translation local side buffer is just
+
+1631
+01:22:43,260 --> 01:22:46,140
+the cache of the page table you think of
+
+1632
+01:22:46,140 --> 01:22:49,679
+as just the cache of a page favorable it
+
+1633
+01:22:49,679 --> 01:22:53,219
+contains the most frequently mappings of
+
+1634
+01:22:53,219 --> 01:22:54,600
+the page table we are going to talk
+
+1635
+01:22:54,600 --> 01:22:57,179
+about that in our last chapter but
+
+1636
+01:22:57,179 --> 01:22:59,460
+before that we need to get the key idea
+
+1637
+01:22:59,460 --> 01:23:02,400
+of the why we need a virtual memory
+
+1638
+01:23:02,400 --> 01:23:06,199
+and what else so we have the page table
+
+1639
+01:23:06,199 --> 01:23:09,420
+tlb and we have the concept while the
+
+1640
+01:23:09,420 --> 01:23:12,199
+page frame
+
+1641
+01:23:12,360 --> 01:23:15,179
+page frame and we have the mapping you
+
+1642
+01:23:15,179 --> 01:23:17,400
+need to understand what is mapping and
+
+1643
+01:23:17,400 --> 01:23:19,980
+when we think about mapping there are
+
+1644
+01:23:19,980 --> 01:23:23,400
+some parameters to decide whether the
+
+1645
+01:23:23,400 --> 01:23:25,500
+page is dirty where the page is not
+
+1646
+01:23:25,500 --> 01:23:27,540
+dirty and we have we need to handle the
+
+1647
+01:23:27,540 --> 01:23:30,140
+page forward
+
+1648
+01:23:30,300 --> 01:23:33,480
+so these are our all new Concepts in the
+
+1649
+01:23:33,480 --> 01:23:35,400
+virtual memory in the virtual under the
+
+1650
+01:23:35,400 --> 01:23:37,380
+virtual memory but before we understand
+
+1651
+01:23:37,380 --> 01:23:39,300
+the version we need to understand that
+
+1652
+01:23:39,300 --> 01:23:42,000
+the key idea of the virtual memory is
+
+1653
+01:23:42,000 --> 01:23:43,980
+that
+
+1654
+01:23:43,980 --> 01:23:46,500
+they gave you the illusion that you have
+
+1655
+01:23:46,500 --> 01:23:49,140
+the whole size of the memory but it
+
+1656
+01:23:49,140 --> 01:23:52,739
+actually not you actually not okay you
+
+1657
+01:23:52,739 --> 01:23:55,100
+have
+
+1658
+01:23:59,820 --> 01:24:02,780
+so let
+
+1659
+01:24:06,000 --> 01:24:08,100
+okay so the
+
+1660
+01:24:08,100 --> 01:24:10,080
+so
+
+1661
+01:24:10,080 --> 01:24:12,360
+the motivation is that why we need
+
+1662
+01:24:12,360 --> 01:24:14,760
+virtual memory called because we want to
+
+1663
+01:24:14,760 --> 01:24:16,920
+we need to
+
+1664
+01:24:16,920 --> 01:24:20,159
+there's a needs okay you want to run the
+
+1665
+01:24:20,159 --> 01:24:21,840
+multiple programs
+
+1666
+01:24:21,840 --> 01:24:24,780
+in memory but each of the programs they
+
+1667
+01:24:24,780 --> 01:24:26,760
+might be very large they may be very
+
+1668
+01:24:26,760 --> 01:24:29,340
+large so we cannot fix them all together
+
+1669
+01:24:29,340 --> 01:24:32,100
+into the memory then we have the concept
+
+1670
+01:24:32,100 --> 01:24:36,440
+of the the virtual memory
+
+1671
+01:24:36,600 --> 01:24:38,640
+the virtual memory can help us to do
+
+1672
+01:24:38,640 --> 01:24:41,880
+that okay the virtual memory is that the
+
+1673
+01:24:41,880 --> 01:24:43,500
+basic idea of the virtual memory is that
+
+1674
+01:24:43,500 --> 01:24:46,860
+each program has its own address space
+
+1675
+01:24:46,860 --> 01:24:50,820
+and then we divide the address space we
+
+1676
+01:24:50,820 --> 01:24:53,640
+do not save any more about their face
+
+1677
+01:24:53,640 --> 01:24:56,640
+and their limits instead we are going to
+
+1678
+01:24:56,640 --> 01:24:59,520
+divide their address space into many
+
+1679
+01:24:59,520 --> 01:25:01,500
+pages
+
+1680
+01:25:01,500 --> 01:25:04,679
+like you guys if you are processed some
+
+1681
+01:25:04,679 --> 01:25:08,940
+of use maybe big huge you take forces
+
+1682
+01:25:08,940 --> 01:25:12,000
+five six some of you may just take one
+
+1683
+01:25:12,000 --> 01:25:14,699
+six or two seats okay so I'm going to
+
+1684
+01:25:14,699 --> 01:25:17,340
+divide my classroom into many seats okay
+
+1685
+01:25:17,340 --> 01:25:21,000
+you some of you you take more seats some
+
+1686
+01:25:21,000 --> 01:25:23,400
+of you may take glasses so in the memory
+
+1687
+01:25:23,400 --> 01:25:26,580
+I'm going to divide my process into many
+
+1688
+01:25:26,580 --> 01:25:29,460
+pages into many pages right now the
+
+1689
+01:25:29,460 --> 01:25:32,580
+default size of the pages for four
+
+1690
+01:25:32,580 --> 01:25:34,440
+kilobytes
+
+1691
+01:25:34,440 --> 01:25:38,340
+and then and then we mapping that we
+
+1692
+01:25:38,340 --> 01:25:41,280
+mapping the active page into the memory
+
+1693
+01:25:41,280 --> 01:25:44,760
+and push the rest of the page in the
+
+1694
+01:25:44,760 --> 01:25:46,739
+disk but you still have the inclusion
+
+1695
+01:25:46,739 --> 01:25:48,840
+about everything is in the memory so
+
+1696
+01:25:48,840 --> 01:25:51,840
+that is the idea key sounds concept of
+
+1697
+01:25:51,840 --> 01:25:53,699
+the virtual memory okay so we are going
+
+1698
+01:25:53,699 --> 01:25:56,280
+to discuss that later in our in surgery
+
+1699
+01:25:56,280 --> 01:25:59,239
+class thank you
+
+1700
+01:26:14,940 --> 01:26:17,719
+hi
+
+1701
+01:26:23,219 --> 01:26:25,679
+page four page four
+
+1702
+01:26:25,679 --> 01:26:27,139
+oh
+
+1703
+01:26:27,139 --> 01:26:31,820
+f-a-u-l-t page Force yeah
+
+1704
+01:27:00,420 --> 01:27:02,600
+foreign
+

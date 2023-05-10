@@ -1,17 +1,20 @@
 // clang-format off
 /*********************************************************************************
- * 
+ * Joey Ma
  * 2023 Spring CSE130 project3
  * dining.c
  * dining reception library
  *
  * Notes:
- * - Do not attempt to check output because the exact order of operations depend on the scheduling decisions made by the operating system's scheduler.
  * - Addresses concurrency-related errors such as race conditions, deadlocks, and livelocks.
  * - Extra credit part only addresses whether the cleaning service can enter without waiting indefinitely and not in tracking individual students or cleaning services; Using simple counts for students and cleaning services with condition variables to manage waiting, should suffice.
+ * - Extra credit part prioritizes cleaners: The dining->cleaning_waiting var give priority to cleaners over students. If there are cleaners waiting, students will not enter dining hall
  *
  * Usage:
  * See comments above functions.
+ *
+ * Checks:
+ * - Do not attempt to check output as the exact order of operations depend on the scheduling decisions made by the operating system's scheduler.
  *
  * Citations:
  * (1) Caccamo, M., &amp; Fagen, W. (2013, March 3). Synchronization and Semaphores. CS 241. https://courses.engr.illinois.edu/cs241/sp2013/lecture/21-Condition_Var_sol.pdf 
@@ -46,6 +49,7 @@ dining_t *dining_init(int capacity) {
   dining->capacity = capacity;
   dining->current_students = 0;
   dining->cleaning_waiting = 0;
+  dining->current_cleaners = 0; // Initialize this field
   pthread_mutex_init(&dining->lock, NULL);  // initialize mutex
   pthread_cond_init(&dining->student_allowed, NULL);  // initialize student_allowed cond var
   pthread_cond_init(&dining->cleaning_allowed, NULL);  // initialize cleaning_allowed cond var
@@ -66,7 +70,6 @@ void dining_destroy(dining_t **dining) {
 void dining_student_enter(dining_t *dining) {
   // TODO: Your code goes here
   pthread_mutex_lock(&dining->lock);  // lock mutex to protect shared vars
-  // ❗ busy waiting?
   while (dining->current_students >= dining->capacity || dining->cleaning_waiting > 0) { // wait until there's room in dining hall and no cleaning is waiting
     pthread_cond_wait(&dining->student_allowed, &dining->lock); // wait on student_allowed cond var and release mutex; once signaled, mutex will be re-acquired before continuing
   }
@@ -90,8 +93,7 @@ void dining_cleaning_enter(dining_t *dining) {
   // TODO: Your code goes here
   pthread_mutex_lock(&dining->lock); // lock the mutex to protect shared vars
   dining->cleaning_waiting++;  // 🍃 extra credit addition: increment cleaning_waiting counter
-  // ❗ busy waiting?
-  while (dining->current_students > 0 || dining->current_cleaners > 0) {  // wait until no students are in dining hall
+  while (dining->current_students > 0 || dining->current_cleaners > 0) {  // wait until no students are in dining hall and (project3-slug-dining.wiki revision (700679655c05ac311cf505bc53edd4400f83deb1) no current cleaners in dining hall
     pthread_cond_wait(&dining->cleaning_allowed, &dining->lock); // wait on cleaning_allowed cond var and release mutex; once signaled, mutex will be re-acquired before continuing
   }
   dining->current_cleaners++; // increment the number of cleaners currently in the dining hall
@@ -100,9 +102,9 @@ void dining_cleaning_enter(dining_t *dining) {
 // void dining_cleaning_leave(dining_t* dining) called when cleaning is complete.
 void dining_cleaning_leave(dining_t *dining) {
   // TODO: Your code goes here
-  dining->cleaning_waiting--;  // 🍃 extra credit addition: decrement cleaning_waiting counter
-  dining->current_cleaners--; // revision: decrement the number of cleaners currently in the dining hall
+  dining->cleaning_waiting--;  // extra credit addition: decrement cleaning_waiting counter
+  dining->current_cleaners--; // project3-slug-dining.wiki revision (700679655c05ac311cf505bc53edd4400f83deb1): decrement the number of cleaners currently in the dining hall
   if (dining->cleaning_waiting > 0) pthread_cond_signal(&dining->cleaning_allowed); // signal the next cleaner to start if any are waiting
-  pthread_cond_broadcast(&dining->student_allowed);  // 🍃 extra credit addition: signal students that they can enter by broadcasting to all waiting threads on student_allowed cond var to unblock all student threads waiting to enter dining hall
+  pthread_cond_broadcast(&dining->student_allowed);  // extra credit addition: signal students that they can enter by broadcasting to all waiting threads on student_allowed cond var to unblock all student threads waiting to enter dining hall
   pthread_mutex_unlock(&dining->lock); // unlock mutex
 }
