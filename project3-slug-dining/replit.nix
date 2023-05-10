@@ -1,8 +1,8 @@
 { pkgs }: {
-	deps = [
-		pkgs.clang_12
-		pkgs.ccls
-		pkgs.gdb
-		pkgs.gnumake
-	];
+  deps = [
+    pkgs.lsb-release
+    pkgs.llvmPackages_14.clangUseLLVM
+    pkgs.gnumake
+    pkgs.valgrind
+  ];
 }
