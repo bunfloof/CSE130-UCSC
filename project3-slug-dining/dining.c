@@ -68,7 +68,9 @@ dining_t *dining_init(int capacity) {
   dining->capacity = capacity;
   dining->current_students = 0;
   dining->cleaning_waiting = 0;
-  dining->current_cleaners = 0;             // Initialize this field
+  dining->current_cleaners = 0;  // project3-slug-dining.wiki revision
+                                 // (700679655c05ac311cf505bc53edd4400f83deb1)
+                                 // new init and fix memory error
   pthread_mutex_init(&dining->lock, NULL);  // initialize mutex
   pthread_cond_init(&dining->student_allowed,
                     NULL);  // initialize student_allowed cond var
