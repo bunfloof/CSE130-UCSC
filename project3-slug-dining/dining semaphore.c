@@ -7,6 +7,7 @@
  *
  * Notes:
  * - Semaphore implementation inspired by other students
+ * - Extra credit clarification: cleaning staff doesn't wait indefinitely when capacity is zero
  *
  * Usage:
  * See comments above functions.
@@ -69,10 +70,12 @@ void dining_student_leave(dining_t *dining) {
 }
 
 void dining_cleaning_enter(dining_t *dining) {
-  // exxtra credit: cleaning staff can enter only if no students are present in the dining hall
+  // extra credit: cleaning staff can enter only if no students are present in the dining hall
   pthread_mutex_lock(&dining->cleaning_mtx);
-  for (int i = 0; i < dining->capacity; i++) {
-    sem_wait(dining->student_sem);
+  if (dining->capacity > 0) {  // if capacity is 0, cleaners can enter directly
+    for (int i = 0; i < dining->capacity; i++) {
+      sem_wait(dining->student_sem);
+    }
   }
   dining->cleaning_in_progress = 1;
   pthread_mutex_unlock(&dining->cleaning_mtx);
