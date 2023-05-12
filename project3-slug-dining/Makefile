@@ -1,17 +1,18 @@
 CC=clang
 CFLAGS=-Wall -Wextra -Werror -std=c11 -pedantic -Wno-unused-parameter
 
-all: example1 example2
+all: example1 example2 test
 
 example1: example1.o dining.o utils.o
 example2: example2.o dining.o utils.o
+test: test.o dining.o utils.o
 
 %.o : %.c
 	$(CC) $(CFLAGS) $< -c
 
 .PHONY: clean
 clean:
-	- rm -f *.o example1 example2
+	- rm -f *.o example1 example2 test
 
 .PHONY: format
 format:
