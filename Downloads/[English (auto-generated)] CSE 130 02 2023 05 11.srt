@@ -1,0 +1,6956 @@
+1
+00:00:00,060 --> 00:00:02,940
+hierarchical structure so in in the
+
+2
+00:00:02,940 --> 00:00:04,440
+introduction section we mentioned that
+
+3
+00:00:04,440 --> 00:00:07,200
+because we do not have we have we do not
+
+4
+00:00:07,200 --> 00:00:09,559
+have in love
+
+5
+00:00:09,559 --> 00:00:13,440
+to support everything in cash or in
+
+6
+00:00:13,440 --> 00:00:15,960
+memory so we need the hierarchical
+
+7
+00:00:15,960 --> 00:00:18,900
+structure then we put the most important
+
+8
+00:00:18,900 --> 00:00:21,240
+things in the register and then the
+
+9
+00:00:21,240 --> 00:00:23,580
+cache and then the memory and so on and
+
+10
+00:00:23,580 --> 00:00:25,260
+so forth so that is why we needed a
+
+11
+00:00:25,260 --> 00:00:28,380
+memory hierarchical structure then
+
+12
+00:00:28,380 --> 00:00:32,660
+we're talking about the address space
+
+13
+00:00:35,579 --> 00:00:37,920
+the address space when we are talking
+
+14
+00:00:37,920 --> 00:00:40,140
+about address space we specially
+
+15
+00:00:40,140 --> 00:00:42,960
+mentioned that each process has their
+
+16
+00:00:42,960 --> 00:00:45,480
+own address page so what is exactly the
+
+17
+00:00:45,480 --> 00:00:48,020
+address space
+
+18
+00:00:56,579 --> 00:01:00,120
+so what is exactly the address space
+
+19
+00:01:00,120 --> 00:01:03,440
+or does it means
+
+20
+00:01:08,340 --> 00:01:11,159
+the addresses in memory that belongs to
+
+21
+00:01:11,159 --> 00:01:15,060
+a process right so the memory can be
+
+22
+00:01:15,060 --> 00:01:18,060
+very large it can be very large has like
+
+23
+00:01:18,060 --> 00:01:21,960
+16 gigabytes 64 gigabytes and 128
+
+24
+00:01:21,960 --> 00:01:23,820
+gigabytes so it can be very large
+
+25
+00:01:23,820 --> 00:01:26,220
+continually addressed
+
+26
+00:01:26,220 --> 00:01:29,280
+space right and we allocate some part of
+
+27
+00:01:29,280 --> 00:01:33,720
+it to a process and then this is called
+
+28
+00:01:33,720 --> 00:01:37,740
+this process address space so then we're
+
+29
+00:01:37,740 --> 00:01:40,740
+talking about so to
+
+30
+00:01:40,740 --> 00:01:44,700
+how to how to identify the location of
+
+31
+00:01:44,700 --> 00:01:46,799
+that process in the memory
+
+32
+00:01:46,799 --> 00:01:51,060
+so we use two parameters to identify the
+
+33
+00:01:51,060 --> 00:01:53,759
+location of that process in the memory
+
+34
+00:01:53,759 --> 00:01:56,280
+so any student remember what these two
+
+35
+00:01:56,280 --> 00:01:58,200
+parameters are
+
+36
+00:01:58,200 --> 00:02:01,460
+yeah Aaron
+
+37
+00:02:02,220 --> 00:02:04,860
+the base
+
+38
+00:02:04,860 --> 00:02:07,680
+the base right the base we call it the
+
+39
+00:02:07,680 --> 00:02:08,940
+um
+
+40
+00:02:08,940 --> 00:02:13,140
+we put that in the is the base we put
+
+41
+00:02:13,140 --> 00:02:15,980
+that in a bit yeah
+
+42
+00:02:17,040 --> 00:02:20,040
+yeah the limits it's also called the
+
+43
+00:02:20,040 --> 00:02:22,560
+size the size of that process right
+
+44
+00:02:22,560 --> 00:02:25,020
+and we put them in the base register and
+
+45
+00:02:25,020 --> 00:02:26,700
+the limits register
+
+46
+00:02:26,700 --> 00:02:29,300
+so
+
+47
+00:02:31,020 --> 00:02:33,300
+so basically what it does is that we
+
+48
+00:02:33,300 --> 00:02:35,840
+have a
+
+49
+00:02:40,800 --> 00:02:44,720
+so this is the physical memory right
+
+50
+00:02:45,540 --> 00:02:47,640
+physical memory
+
+51
+00:02:47,640 --> 00:02:50,360
+so it
+
+52
+00:03:03,599 --> 00:03:08,000
+so if we have a process called P1
+
+53
+00:03:08,160 --> 00:03:12,060
+then we we can allocate allocate this
+
+54
+00:03:12,060 --> 00:03:14,819
+part of the memory to this process this
+
+55
+00:03:14,819 --> 00:03:17,099
+process and we call it this part of the
+
+56
+00:03:17,099 --> 00:03:20,459
+space is the p1's address space memory
+
+57
+00:03:20,459 --> 00:03:22,319
+address space
+
+58
+00:03:22,319 --> 00:03:25,860
+and then so this this place is belonging
+
+59
+00:03:25,860 --> 00:03:28,319
+it's belonging to P1
+
+60
+00:03:28,319 --> 00:03:31,340
+and the P2
+
+61
+00:03:34,379 --> 00:03:37,379
+may also have
+
+62
+00:03:37,379 --> 00:03:38,819
+her own
+
+63
+00:03:38,819 --> 00:03:42,540
+address memory address space
+
+64
+00:03:42,540 --> 00:03:46,200
+they also have P2 also have its base and
+
+65
+00:03:46,200 --> 00:03:49,500
+limits right base and limits
+
+66
+00:03:49,500 --> 00:03:51,000
+in the
+
+67
+00:03:51,000 --> 00:03:51,840
+um
+
+68
+00:03:51,840 --> 00:03:54,120
+and we're talking about a disadvantage
+
+69
+00:03:54,120 --> 00:03:56,760
+of for of doing that a disadvantage of
+
+70
+00:03:56,760 --> 00:03:59,299
+doing that
+
+71
+00:04:00,060 --> 00:04:02,940
+the disadvantage of doing that and any
+
+72
+00:04:02,940 --> 00:04:05,340
+student remember or is a disadvantage of
+
+73
+00:04:05,340 --> 00:04:07,440
+using this kind of swapping technology
+
+74
+00:04:07,440 --> 00:04:09,840
+what we call it swapping because like
+
+75
+00:04:09,840 --> 00:04:12,180
+whenever new process comes in we find
+
+76
+00:04:12,180 --> 00:04:14,939
+the empty space for it and the update is
+
+77
+00:04:14,939 --> 00:04:17,519
+based and limits then puts the process
+
+78
+00:04:17,519 --> 00:04:20,100
+in and after you finish it we swap it
+
+79
+00:04:20,100 --> 00:04:22,919
+out and let the new process comes in so
+
+80
+00:04:22,919 --> 00:04:25,199
+that is the swap technology right swap
+
+81
+00:04:25,199 --> 00:04:26,479
+technology
+
+82
+00:04:26,479 --> 00:04:30,060
+and we use the limits parameters based
+
+83
+00:04:30,060 --> 00:04:32,220
+from based on limits parameters
+
+84
+00:04:32,220 --> 00:04:34,740
+represents the address space of that
+
+85
+00:04:34,740 --> 00:04:37,800
+process in the memory so a disadvantage
+
+86
+00:04:37,800 --> 00:04:40,259
+of this approach is that there's a
+
+87
+00:04:40,259 --> 00:04:43,580
+disadvantage of this approach
+
+88
+00:04:46,500 --> 00:04:49,500
+foreign
+
+89
+00:04:57,979 --> 00:05:01,740
+space but the but the chunks of empty
+
+90
+00:05:01,740 --> 00:05:04,620
+space if that makes sense are to
+
+91
+00:05:04,620 --> 00:05:06,479
+um are to
+
+92
+00:05:06,479 --> 00:05:09,600
+are too small to into the to throw the
+
+93
+00:05:09,600 --> 00:05:11,720
+whole process in
+
+94
+00:05:11,720 --> 00:05:14,960
+yeah sure
+
+95
+00:05:21,960 --> 00:05:24,800
+uh it's not
+
+96
+00:05:26,340 --> 00:05:28,979
+it's not oh yeah yeah okay so uh let's
+
+97
+00:05:28,979 --> 00:05:30,360
+talking about the swapping the
+
+98
+00:05:30,360 --> 00:05:32,160
+disadvantage of the swapping technology
+
+99
+00:05:32,160 --> 00:05:33,479
+so
+
+100
+00:05:33,479 --> 00:05:35,479
+um
+
+101
+00:05:38,160 --> 00:05:40,560
+so the the disadvantage of the swiping
+
+102
+00:05:40,560 --> 00:05:43,199
+technologies that when it runs for a
+
+103
+00:05:43,199 --> 00:05:46,199
+long time a new process comes in all the
+
+104
+00:05:46,199 --> 00:05:49,259
+processes swapped out we were we were
+
+105
+00:05:49,259 --> 00:05:51,780
+this approach will generates a lot of
+
+106
+00:05:51,780 --> 00:05:54,840
+memory fragmentations we
+
+107
+00:05:54,840 --> 00:05:57,240
+we call it holes but we most certain
+
+108
+00:05:57,240 --> 00:06:01,039
+times we call it a fragmentation
+
+109
+00:06:02,160 --> 00:06:05,100
+it'll cause a lot of fragmentations so
+
+110
+00:06:05,100 --> 00:06:07,139
+it's very little holes
+
+111
+00:06:07,139 --> 00:06:09,479
+and it's very inefficient very
+
+112
+00:06:09,479 --> 00:06:12,380
+inefficient
+
+113
+00:06:38,220 --> 00:06:40,800
+um diffractive fragmentation is for the
+
+114
+00:06:40,800 --> 00:06:43,440
+uh for the storage system it's not for
+
+115
+00:06:43,440 --> 00:06:45,060
+memory okay
+
+116
+00:06:45,060 --> 00:06:47,880
+so let's continue so when we are talking
+
+117
+00:06:47,880 --> 00:06:50,100
+about the um after we're talking about
+
+118
+00:06:50,100 --> 00:06:52,860
+fragmentation then
+
+119
+00:06:52,860 --> 00:06:55,620
+we're still continuing the design of
+
+120
+00:06:55,620 --> 00:06:57,840
+memory management system based on the
+
+121
+00:06:57,840 --> 00:06:59,639
+swapping technology we're talking about
+
+122
+00:06:59,639 --> 00:07:01,199
+the
+
+123
+00:07:01,199 --> 00:07:03,960
+most important issue is that how can you
+
+124
+00:07:03,960 --> 00:07:07,199
+keep track of the free memory
+
+125
+00:07:07,199 --> 00:07:10,620
+slots right the free memory address so
+
+126
+00:07:10,620 --> 00:07:12,840
+we talk about two technologies it's the
+
+127
+00:07:12,840 --> 00:07:15,780
+using the bitmap and also using the
+
+128
+00:07:15,780 --> 00:07:18,319
+linked list
+
+129
+00:07:20,220 --> 00:07:24,000
+so big bitmap bitmap when we are talking
+
+130
+00:07:24,000 --> 00:07:25,800
+about bitmap the
+
+131
+00:07:25,800 --> 00:07:27,780
+um
+
+132
+00:07:27,780 --> 00:07:30,000
+the key idea what is the key idea of the
+
+133
+00:07:30,000 --> 00:07:32,419
+bin map
+
+134
+00:07:36,060 --> 00:07:37,680
+yeah Magic
+
+135
+00:07:37,680 --> 00:07:41,280
+it's lightweight and uh yeah it's
+
+136
+00:07:41,280 --> 00:07:43,319
+lightweight and it can the key idea
+
+137
+00:07:43,319 --> 00:07:45,560
+first
+
+138
+00:07:49,139 --> 00:07:52,020
+so it's using our
+
+139
+00:07:52,020 --> 00:07:55,259
+bitmap data structure right one bit to
+
+140
+00:07:55,259 --> 00:07:58,080
+represent whether this memory
+
+141
+00:07:58,080 --> 00:08:01,440
+this memory units is taken or not I use
+
+142
+00:08:01,440 --> 00:08:04,380
+what one bit okay if it's one that means
+
+143
+00:08:04,380 --> 00:08:06,479
+it's taken if zero means it's not taken
+
+144
+00:08:06,479 --> 00:08:10,080
+it's free so it can use a bitmap data
+
+145
+00:08:10,080 --> 00:08:13,199
+structure to track keep track of the
+
+146
+00:08:13,199 --> 00:08:17,360
+free available memory
+
+147
+00:08:17,880 --> 00:08:21,300
+address so the advantage of the bitmap
+
+148
+00:08:21,300 --> 00:08:24,240
+is that once the advantage of the beam
+
+149
+00:08:24,240 --> 00:08:27,020
+map approach
+
+150
+00:08:31,020 --> 00:08:33,000
+yeah
+
+151
+00:08:33,000 --> 00:08:36,360
+it is very compact yes Compact and uh so
+
+152
+00:08:36,360 --> 00:08:38,099
+the in the slides we call the compact
+
+153
+00:08:38,099 --> 00:08:40,559
+way to keep track of the memory but the
+
+154
+00:08:40,559 --> 00:08:42,779
+award means by compact
+
+155
+00:08:42,779 --> 00:08:47,120
+why do you think it's compact means
+
+156
+00:08:47,640 --> 00:08:51,019
+yeah yeah lady
+
+157
+00:08:55,500 --> 00:08:57,959
+you're very simple to implement it's
+
+158
+00:08:57,959 --> 00:09:00,959
+very it's very lightweight right this
+
+159
+00:09:00,959 --> 00:09:02,820
+data structure is very lightweight it's
+
+160
+00:09:02,820 --> 00:09:04,620
+very it costs
+
+161
+00:09:04,620 --> 00:09:07,620
+little memory over hard
+
+162
+00:09:07,620 --> 00:09:09,420
+to support this data structure because
+
+163
+00:09:09,420 --> 00:09:11,459
+it's just you think of that you can use
+
+164
+00:09:11,459 --> 00:09:13,920
+a long integer to represent the bitmap
+
+165
+00:09:13,920 --> 00:09:17,160
+okay and then what is a disadvantage of
+
+166
+00:09:17,160 --> 00:09:20,040
+the Adobe map the key disadvantage of
+
+167
+00:09:20,040 --> 00:09:21,240
+that
+
+168
+00:09:21,240 --> 00:09:24,019
+yes
+
+169
+00:09:28,019 --> 00:09:32,339
+yeah whatever you want to find the K
+
+170
+00:09:32,339 --> 00:09:33,680
+let's say
+
+171
+00:09:33,680 --> 00:09:36,600
+consequencive empty slots whatever
+
+172
+00:09:36,600 --> 00:09:39,060
+because you do not know it has no way to
+
+173
+00:09:39,060 --> 00:09:43,140
+tell you where exactly the k k
+
+174
+00:09:43,140 --> 00:09:45,660
+consequence consequence if memory
+
+175
+00:09:45,660 --> 00:09:47,580
+slotted it so you every time you have to
+
+176
+00:09:47,580 --> 00:09:50,459
+search from beginning and find out it so
+
+177
+00:09:50,459 --> 00:09:52,380
+that is a um
+
+178
+00:09:52,380 --> 00:09:55,260
+that is the very best thing then we talk
+
+179
+00:09:55,260 --> 00:09:57,480
+about linked list so what is the key
+
+180
+00:09:57,480 --> 00:10:00,500
+idea of the linked list
+
+181
+00:10:01,080 --> 00:10:03,779
+yes
+
+182
+00:10:03,779 --> 00:10:06,420
+please list
+
+183
+00:10:06,420 --> 00:10:08,459
+portions of the memory or the program
+
+184
+00:10:08,459 --> 00:10:10,800
+that are being used and then
+
+185
+00:10:10,800 --> 00:10:13,320
+the different nodes that show you
+
+186
+00:10:13,320 --> 00:10:14,940
+show you how much of the memory is being
+
+187
+00:10:14,940 --> 00:10:17,060
+used
+
+188
+00:10:18,300 --> 00:10:21,660
+yeah so it's it's a linked list to
+
+189
+00:10:21,660 --> 00:10:25,320
+represents either a process or a hole in
+
+190
+00:10:25,320 --> 00:10:27,720
+a memory right so
+
+191
+00:10:27,720 --> 00:10:31,260
+it can be used as like one linked list
+
+192
+00:10:31,260 --> 00:10:34,620
+or double link crease okay so in the
+
+193
+00:10:34,620 --> 00:10:37,019
+when we talk about linked list there are
+
+194
+00:10:37,019 --> 00:10:39,779
+several algorithms to
+
+195
+00:10:39,779 --> 00:10:41,820
+to help you
+
+196
+00:10:41,820 --> 00:10:45,180
+like what what we use the link list to
+
+197
+00:10:45,180 --> 00:10:47,640
+track the available resources in memory
+
+198
+00:10:47,640 --> 00:10:50,220
+right and then what a new process is
+
+199
+00:10:50,220 --> 00:10:52,320
+joined in the memory you need to find a
+
+200
+00:10:52,320 --> 00:10:55,200
+way to put that new process so we have
+
+201
+00:10:55,200 --> 00:10:58,440
+several algorithms to find out the empty
+
+202
+00:10:58,440 --> 00:11:00,000
+space
+
+203
+00:11:00,000 --> 00:11:03,060
+for that process by using the linked
+
+204
+00:11:03,060 --> 00:11:05,700
+lists data structure so the algorithms
+
+205
+00:11:05,700 --> 00:11:10,019
+we have the first feeds pass the feeds
+
+206
+00:11:10,019 --> 00:11:13,500
+worse the feet next feeds
+
+207
+00:11:13,500 --> 00:11:17,519
+quick fits right so
+
+208
+00:11:17,519 --> 00:11:19,380
+what is that
+
+209
+00:11:19,380 --> 00:11:21,839
+the characteristics of each approach
+
+210
+00:11:21,839 --> 00:11:24,120
+let's say the first of it
+
+211
+00:11:24,120 --> 00:11:27,899
+what advantage of the first repeat
+
+212
+00:11:27,899 --> 00:11:31,320
+is very fast okay then how about the
+
+213
+00:11:31,320 --> 00:11:33,660
+best defeat what is the advantage of the
+
+214
+00:11:33,660 --> 00:11:34,860
+best fit
+
+215
+00:11:34,860 --> 00:11:37,500
+the best surface is always find out
+
+216
+00:11:37,500 --> 00:11:38,820
+stuff
+
+217
+00:11:38,820 --> 00:11:43,940
+small is the hole that fits the process
+
+218
+00:11:46,320 --> 00:11:48,420
+first of fate
+
+219
+00:11:48,420 --> 00:11:50,839
+okay
+
+220
+00:11:52,620 --> 00:11:55,760
+there's the feet
+
+221
+00:11:56,279 --> 00:11:59,420
+where's the feet
+
+222
+00:12:10,980 --> 00:12:13,500
+so first of the feet is very fast right
+
+223
+00:12:13,500 --> 00:12:16,380
+the best stuff is you always find out
+
+224
+00:12:16,380 --> 00:12:19,680
+the smallest holes the smallest holes
+
+225
+00:12:19,680 --> 00:12:20,700
+that
+
+226
+00:12:20,700 --> 00:12:23,640
+feeds the process so it's slow
+
+227
+00:12:23,640 --> 00:12:27,240
+right however it can minimize the I
+
+228
+00:12:27,240 --> 00:12:29,339
+think they also typo in my slides I will
+
+229
+00:12:29,339 --> 00:12:33,060
+fix that later this will minimize the me
+
+230
+00:12:33,060 --> 00:12:34,800
+minimize
+
+231
+00:12:34,800 --> 00:12:38,000
+the fragmentation
+
+232
+00:12:38,640 --> 00:12:40,740
+because it's always fine trying to find
+
+233
+00:12:40,740 --> 00:12:43,800
+out the optimal size of holes that fits
+
+234
+00:12:43,800 --> 00:12:46,139
+the process so every time it was
+
+235
+00:12:46,139 --> 00:12:47,940
+searched from the beginning to the end
+
+236
+00:12:47,940 --> 00:12:50,820
+so to find out the exactly sides that
+
+237
+00:12:50,820 --> 00:12:52,800
+can fit the process and we have the
+
+238
+00:12:52,800 --> 00:12:55,079
+worst fees what we the worst physics is
+
+239
+00:12:55,079 --> 00:12:56,940
+that every time you find out the largest
+
+240
+00:12:56,940 --> 00:13:00,420
+hole that fits the process okay you
+
+241
+00:13:00,420 --> 00:13:02,880
+always find out the largest
+
+242
+00:13:02,880 --> 00:13:07,079
+right so the it is not good as the name
+
+243
+00:13:07,079 --> 00:13:09,240
+is called the words but why we need that
+
+244
+00:13:09,240 --> 00:13:11,480
+because we need to know when we design
+
+245
+00:13:11,480 --> 00:13:13,920
+algorithms we need to know our upper
+
+246
+00:13:13,920 --> 00:13:15,899
+bounds and lower bounds so this is like
+
+247
+00:13:15,899 --> 00:13:17,579
+all our lower your balance the best of
+
+248
+00:13:17,579 --> 00:13:20,220
+it made like our optimal feeds right we
+
+249
+00:13:20,220 --> 00:13:21,660
+have our
+
+250
+00:13:21,660 --> 00:13:25,380
+upper bounds then to do the so we use
+
+251
+00:13:25,380 --> 00:13:27,480
+the word surface mostly for the
+
+252
+00:13:27,480 --> 00:13:30,420
+experiments to evaluate whether our the
+
+253
+00:13:30,420 --> 00:13:32,160
+performance algorithm isn't good or not
+
+254
+00:13:32,160 --> 00:13:34,800
+and then what is the key idea of the
+
+255
+00:13:34,800 --> 00:13:37,160
+quick fix
+
+256
+00:13:38,040 --> 00:13:41,000
+quick fit
+
+257
+00:13:43,019 --> 00:13:45,720
+so the idea of the Quick Fix is that
+
+258
+00:13:45,720 --> 00:13:46,740
+it's
+
+259
+00:13:46,740 --> 00:13:49,139
+what is the key idea of the quick fit
+
+260
+00:13:49,139 --> 00:13:52,100
+yes Magic
+
+261
+00:14:03,779 --> 00:14:07,500
+show what quick fix this is that it's it
+
+262
+00:14:07,500 --> 00:14:09,360
+it can
+
+263
+00:14:09,360 --> 00:14:12,959
+you can use the table or you can use um
+
+264
+00:14:12,959 --> 00:14:15,360
+several pointers if you are going to
+
+265
+00:14:15,360 --> 00:14:19,680
+keep track of some common sizes like the
+
+266
+00:14:19,680 --> 00:14:24,300
+for example the size of 2 4 is the 16th
+
+267
+00:14:24,300 --> 00:14:28,500
+13 264 like this okay
+
+268
+00:14:28,500 --> 00:14:31,019
+these are going to keep track of any
+
+269
+00:14:31,019 --> 00:14:35,720
+sizes fitting this category
+
+270
+00:14:35,760 --> 00:14:37,740
+the idea structure is very similar to
+
+271
+00:14:37,740 --> 00:14:39,779
+what we have learned like the the
+
+272
+00:14:39,779 --> 00:14:42,720
+priority queue right priority queue so
+
+273
+00:14:42,720 --> 00:14:46,260
+it has different sizes and each then we
+
+274
+00:14:46,260 --> 00:14:47,339
+can track
+
+275
+00:14:47,339 --> 00:14:52,260
+the location of each empty spaces we
+
+276
+00:14:52,260 --> 00:14:54,779
+just keep track of them keep track of
+
+277
+00:14:54,779 --> 00:14:57,180
+them then whatever you think of that
+
+278
+00:14:57,180 --> 00:14:59,820
+whatever new process comes in right it
+
+279
+00:14:59,820 --> 00:15:02,459
+can always fits in any
+
+280
+00:15:02,459 --> 00:15:06,019
+of these common sizes
+
+281
+00:15:06,180 --> 00:15:09,000
+right if let's say a new process comes
+
+282
+00:15:09,000 --> 00:15:12,000
+in it has the size of 30 then we can
+
+283
+00:15:12,000 --> 00:15:15,600
+push it in the 32 to 30 the
+
+284
+00:15:15,600 --> 00:15:18,240
+the empty holes that fit in the 32
+
+285
+00:15:18,240 --> 00:15:22,339
+category so that is a quick fix
+
+286
+00:15:22,560 --> 00:15:24,899
+okay so that is what we have learned in
+
+287
+00:15:24,899 --> 00:15:27,920
+our our
+
+288
+00:15:29,760 --> 00:15:32,100
+last class so today we are going to talk
+
+289
+00:15:32,100 --> 00:15:35,040
+about the virtual memory so what exactly
+
+290
+00:15:35,040 --> 00:15:37,980
+virtual memory is what exactly virtual
+
+291
+00:15:37,980 --> 00:15:39,240
+memory is
+
+292
+00:15:39,240 --> 00:15:41,959
+sure
+
+293
+00:15:48,840 --> 00:15:49,199
+[Music]
+
+294
+00:15:49,199 --> 00:15:50,360
+um
+
+295
+00:15:50,360 --> 00:15:54,500
+no what is exactly version memory it so
+
+296
+00:15:54,500 --> 00:15:57,360
+you do not need to remember the exactly
+
+297
+00:15:57,360 --> 00:15:59,940
+keywords so talk about the key idea of
+
+298
+00:15:59,940 --> 00:16:02,779
+the virtual memory really
+
+299
+00:16:08,880 --> 00:16:11,339
+if you ever go to up
+
+300
+00:16:11,339 --> 00:16:13,680
+starting
+
+301
+00:16:13,680 --> 00:16:15,779
+the technical in the virtual memory how
+
+302
+00:16:15,779 --> 00:16:17,100
+is how they did
+
+303
+00:16:17,100 --> 00:16:20,839
+so we have yeah magician
+
+304
+00:16:26,220 --> 00:16:28,860
+different like empty slot but you can
+
+305
+00:16:28,860 --> 00:16:31,199
+keep track of all of them with the with
+
+306
+00:16:31,199 --> 00:16:33,600
+the page table or with some sort of
+
+307
+00:16:33,600 --> 00:16:35,279
+pager or something like
+
+308
+00:16:35,279 --> 00:16:37,440
+that okay so I I would just say we're
+
+309
+00:16:37,440 --> 00:16:40,980
+using a very simple example to
+
+310
+00:16:40,980 --> 00:16:42,660
+to this
+
+311
+00:16:42,660 --> 00:16:45,120
+describe the key idea of the virtual
+
+312
+00:16:45,120 --> 00:16:46,740
+memory okay the key are you don't need
+
+313
+00:16:46,740 --> 00:16:49,920
+to remember the key idea so the key idea
+
+314
+00:16:49,920 --> 00:16:52,199
+of the virtual memory is that so I have
+
+315
+00:16:52,199 --> 00:16:54,120
+a process right
+
+316
+00:16:54,120 --> 00:16:56,940
+this is my process
+
+317
+00:16:56,940 --> 00:17:00,420
+I gave it some virtual memory address
+
+318
+00:17:00,420 --> 00:17:02,519
+space it's not real it's not real it's
+
+319
+00:17:02,519 --> 00:17:06,240
+fake okay I gave it a little virtual
+
+320
+00:17:06,240 --> 00:17:09,079
+memory
+
+321
+00:17:11,880 --> 00:17:14,040
+address virtual memory address space
+
+322
+00:17:14,040 --> 00:17:15,959
+okay
+
+323
+00:17:15,959 --> 00:17:20,640
+so let's say this process it's a frog
+
+324
+00:17:20,640 --> 00:17:24,059
+4GB okay 4GB so I'm going to give it a
+
+325
+00:17:24,059 --> 00:17:27,359
+virtual memory address space from
+
+326
+00:17:27,359 --> 00:17:28,679
+zero
+
+327
+00:17:28,679 --> 00:17:30,600
+to 4GB
+
+328
+00:17:30,600 --> 00:17:33,240
+so this is the process one process one
+
+329
+00:17:33,240 --> 00:17:35,700
+for GP
+
+330
+00:17:35,700 --> 00:17:39,059
+one when I loaded that into the memory
+
+331
+00:17:39,059 --> 00:17:41,520
+when I compile this this process before
+
+332
+00:17:41,520 --> 00:17:43,500
+the before it's running it is still a
+
+333
+00:17:43,500 --> 00:17:45,780
+program right a code we call it program
+
+334
+00:17:45,780 --> 00:17:48,299
+then we combine it
+
+335
+00:17:48,299 --> 00:17:51,299
+then
+
+336
+00:17:52,080 --> 00:17:55,020
+they also components called mmu memory
+
+337
+00:17:55,020 --> 00:17:56,700
+management units we are talking about
+
+338
+00:17:56,700 --> 00:17:59,340
+that later okay it's going to transfer
+
+339
+00:17:59,340 --> 00:18:01,380
+this
+
+340
+00:18:01,380 --> 00:18:03,660
+to a process and gave it a virtual
+
+341
+00:18:03,660 --> 00:18:06,240
+memory address space is fake and it's
+
+342
+00:18:06,240 --> 00:18:09,120
+not loaded in the memory or it has not
+
+343
+00:18:09,120 --> 00:18:12,600
+yet loaded into the memory okay 0 to 4
+
+344
+00:18:12,600 --> 00:18:15,720
+gigabytes then then
+
+345
+00:18:15,720 --> 00:18:17,940
+the idea of the virtual memory is
+
+346
+00:18:17,940 --> 00:18:21,240
+virtual memory is now I gave it the
+
+347
+00:18:21,240 --> 00:18:24,000
+this is the fake right this is fake but
+
+348
+00:18:24,000 --> 00:18:26,940
+here I have the rear right the rear
+
+349
+00:18:26,940 --> 00:18:28,980
+memory is a physical memory right
+
+350
+00:18:28,980 --> 00:18:31,380
+physical
+
+351
+00:18:31,380 --> 00:18:34,020
+physical memory
+
+352
+00:18:34,020 --> 00:18:36,120
+so in the physical memory there is a
+
+353
+00:18:36,120 --> 00:18:37,500
+real memory
+
+354
+00:18:37,500 --> 00:18:40,020
+real address space right the real
+
+355
+00:18:40,020 --> 00:18:45,120
+address phase so what next next CPU data
+
+356
+00:18:45,120 --> 00:18:47,520
+is that it's going to it's going to
+
+357
+00:18:47,520 --> 00:18:48,960
+divide
+
+358
+00:18:48,960 --> 00:18:52,140
+divide this process the virtual memory
+
+359
+00:18:52,140 --> 00:18:56,880
+address space into many small parts
+
+360
+00:18:56,880 --> 00:18:59,640
+small parts and we call each part each
+
+361
+00:18:59,640 --> 00:19:03,000
+fragments we call it a page page and
+
+362
+00:19:03,000 --> 00:19:07,799
+each page is 4 KB each page is 4 KB so I
+
+363
+00:19:07,799 --> 00:19:09,600
+divide this process right this process
+
+364
+00:19:09,600 --> 00:19:13,140
+you loaded that you you just first you
+
+365
+00:19:13,140 --> 00:19:15,419
+gave it a virtual address space no
+
+366
+00:19:15,419 --> 00:19:17,940
+matter how large they need no matter how
+
+367
+00:19:17,940 --> 00:19:20,760
+large they need if they want 4GB 4GB
+
+368
+00:19:20,760 --> 00:19:24,600
+then OS gave it 4GB if you want 8GB I
+
+369
+00:19:24,600 --> 00:19:27,780
+gave you the OS gave you AGB so no
+
+370
+00:19:27,780 --> 00:19:31,260
+matter how large you want OS can always
+
+371
+00:19:31,260 --> 00:19:33,840
+give it to you that is the virtual
+
+372
+00:19:33,840 --> 00:19:36,720
+memory address space then it's going to
+
+373
+00:19:36,720 --> 00:19:39,780
+the OS the CPU are going to divided that
+
+374
+00:19:39,780 --> 00:19:43,260
+into many many parts small parts each
+
+375
+00:19:43,260 --> 00:19:45,900
+part is 4 KB 4kb
+
+376
+00:19:45,900 --> 00:19:48,240
+then what is the next step the next step
+
+377
+00:19:48,240 --> 00:19:50,580
+is that the physical memory is already
+
+378
+00:19:50,580 --> 00:19:54,179
+divided into many small
+
+379
+00:19:54,179 --> 00:19:57,360
+frames we call it a page frame page
+
+380
+00:19:57,360 --> 00:19:59,720
+frame
+
+381
+00:20:01,679 --> 00:20:04,320
+page frame so it's the the physical
+
+382
+00:20:04,320 --> 00:20:07,919
+memory so far has no process it has no
+
+383
+00:20:07,919 --> 00:20:10,200
+processes you understand the differences
+
+384
+00:20:10,200 --> 00:20:12,539
+between a photo and a photo frame right
+
+385
+00:20:12,539 --> 00:20:14,700
+a photo and a photo frame you understand
+
+386
+00:20:14,700 --> 00:20:16,320
+that right
+
+387
+00:20:16,320 --> 00:20:19,260
+a photo you insert a photo into a photo
+
+388
+00:20:19,260 --> 00:20:22,380
+frame right the same idea comes to here
+
+389
+00:20:22,380 --> 00:20:24,720
+the physical memory is like a
+
+390
+00:20:24,720 --> 00:20:28,140
+lot of photo frames a lot of Amity photo
+
+391
+00:20:28,140 --> 00:20:30,960
+frames now here the virtual memory the
+
+392
+00:20:30,960 --> 00:20:32,940
+virtual memory address space for this
+
+393
+00:20:32,940 --> 00:20:34,980
+process for the P1
+
+394
+00:20:34,980 --> 00:20:38,580
+it's like I divided that process into
+
+395
+00:20:38,580 --> 00:20:40,620
+many
+
+396
+00:20:40,620 --> 00:20:44,100
+Pages many pages that is Pages like many
+
+397
+00:20:44,100 --> 00:20:46,260
+photos like this processes single
+
+398
+00:20:46,260 --> 00:20:47,880
+varieties process
+
+399
+00:20:47,880 --> 00:20:50,580
+so like Hue has a lot of photos personal
+
+400
+00:20:50,580 --> 00:20:51,720
+photos
+
+401
+00:20:51,720 --> 00:20:54,539
+and then the physical memories like the
+
+402
+00:20:54,539 --> 00:20:58,080
+photo frames has are limited size of
+
+403
+00:20:58,080 --> 00:21:01,140
+photo frames now here's the thing if I
+
+404
+00:21:01,140 --> 00:21:04,980
+have if this program this process has
+
+405
+00:21:04,980 --> 00:21:07,039
+let's say
+
+406
+00:21:07,039 --> 00:21:11,460
+800 Pages 800 like your 800 photos but
+
+407
+00:21:11,460 --> 00:21:13,919
+the page frames The Limited the physical
+
+408
+00:21:13,919 --> 00:21:16,799
+memory page frames can have only 100
+
+409
+00:21:16,799 --> 00:21:20,760
+page frames so what we need to do we
+
+410
+00:21:20,760 --> 00:21:24,240
+need to pick the pages what pick the
+
+411
+00:21:24,240 --> 00:21:26,760
+pages that
+
+412
+00:21:26,760 --> 00:21:30,000
+that currently is mostly importance into
+
+413
+00:21:30,000 --> 00:21:32,039
+the physical memory right we need to
+
+414
+00:21:32,039 --> 00:21:34,440
+pick the pages put it into the memory
+
+415
+00:21:34,440 --> 00:21:38,039
+and then CPU can process it remember we
+
+416
+00:21:38,039 --> 00:21:40,860
+call we learned that in our first
+
+417
+00:21:40,860 --> 00:21:43,919
+chapter owning CPU can
+
+418
+00:21:43,919 --> 00:21:46,799
+load the data from the memory right CPU
+
+419
+00:21:46,799 --> 00:21:49,380
+cannot load data from the disk whatever
+
+420
+00:21:49,380 --> 00:21:51,600
+you have you have the
+
+421
+00:21:51,600 --> 00:21:54,120
+code or programs you need to load it to
+
+422
+00:21:54,120 --> 00:21:58,440
+the memory and the CPU can load to it
+
+423
+00:21:58,440 --> 00:22:01,799
+and this process we call it mapping we
+
+424
+00:22:01,799 --> 00:22:04,440
+call the page mapping okay page mapping
+
+425
+00:22:04,440 --> 00:22:08,159
+and so who is doing the page mapping
+
+426
+00:22:08,159 --> 00:22:10,559
+the page table the page table so page
+
+427
+00:22:10,559 --> 00:22:14,039
+table are going to decide right decide
+
+428
+00:22:14,039 --> 00:22:16,440
+it's going to decide which Pages let's
+
+429
+00:22:16,440 --> 00:22:20,100
+say this page is mapping to display then
+
+430
+00:22:20,100 --> 00:22:24,780
+on this page this page is Peak to this
+
+431
+00:22:24,780 --> 00:22:27,780
+physical memory okay then this one is
+
+432
+00:22:27,780 --> 00:22:31,799
+also mapped to this we put this Pages
+
+433
+00:22:31,799 --> 00:22:35,460
+pick that to the page frames okay and
+
+434
+00:22:35,460 --> 00:22:37,679
+then who decided the mapping there's a
+
+435
+00:22:37,679 --> 00:22:39,299
+page table
+
+436
+00:22:39,299 --> 00:22:41,580
+page table
+
+437
+00:22:41,580 --> 00:22:46,039
+inside the mapping so that is the
+
+438
+00:22:46,380 --> 00:22:49,860
+what you do to learn about virtual
+
+439
+00:22:49,860 --> 00:22:53,059
+memory virtual memory
+
+440
+00:23:00,360 --> 00:23:02,880
+so in the textbook there are maybe a lot
+
+441
+00:23:02,880 --> 00:23:03,780
+of
+
+442
+00:23:03,780 --> 00:23:08,700
+a lot of contents about this but
+
+443
+00:23:08,700 --> 00:23:11,280
+think of the key concept think of the
+
+444
+00:23:11,280 --> 00:23:12,720
+key concept
+
+445
+00:23:12,720 --> 00:23:14,700
+I will repeat again okay I will repeat
+
+446
+00:23:14,700 --> 00:23:15,780
+again
+
+447
+00:23:15,780 --> 00:23:18,179
+you have a program right a program you
+
+448
+00:23:18,179 --> 00:23:20,220
+write some code it's very large very
+
+449
+00:23:20,220 --> 00:23:23,100
+large it's a program you have not loaded
+
+450
+00:23:23,100 --> 00:23:25,799
+that in your memory yet then we combine
+
+451
+00:23:25,799 --> 00:23:28,100
+it we combine the code it's
+
+452
+00:23:28,100 --> 00:23:31,860
+code binary code right and then we load
+
+453
+00:23:31,860 --> 00:23:34,620
+it out in this view can loaded that
+
+454
+00:23:34,620 --> 00:23:36,840
+Things become a process the first thing
+
+455
+00:23:36,840 --> 00:23:39,659
+people are going to do is that
+
+456
+00:23:39,659 --> 00:23:42,600
+provides the virtual address space to
+
+457
+00:23:42,600 --> 00:23:43,919
+that process
+
+458
+00:23:43,919 --> 00:23:47,039
+so if that process is as large as four
+
+459
+00:23:47,039 --> 00:23:49,620
+four GB it will going to give the
+
+460
+00:23:49,620 --> 00:23:52,020
+virtual address space of 4GB if it is
+
+461
+00:23:52,020 --> 00:23:54,600
+8GB then you are going to give the you
+
+462
+00:23:54,600 --> 00:23:56,820
+know it is going to give the virtual
+
+463
+00:23:56,820 --> 00:24:00,000
+address space as 8 GB why because it's
+
+464
+00:24:00,000 --> 00:24:02,340
+fake so you basically you how much you
+
+465
+00:24:02,340 --> 00:24:05,280
+ask I give to you okay no matter how
+
+466
+00:24:05,280 --> 00:24:08,039
+much you'll ask I give it to you that is
+
+467
+00:24:08,039 --> 00:24:10,320
+a virtual that is why it is virtual
+
+468
+00:24:10,320 --> 00:24:12,600
+ok so these parts are let's say this
+
+469
+00:24:12,600 --> 00:24:15,120
+process is 4kb so it then I gave the
+
+470
+00:24:15,120 --> 00:24:18,240
+virtual address space from 0 to 4 GB I
+
+471
+00:24:18,240 --> 00:24:20,760
+will it always starts from zero the
+
+472
+00:24:20,760 --> 00:24:23,760
+virtual address for every process is
+
+473
+00:24:23,760 --> 00:24:26,940
+always start from zero so if it is AGB
+
+474
+00:24:26,940 --> 00:24:30,840
+then it will become 0 to 8 GB from 0 to
+
+475
+00:24:30,840 --> 00:24:34,620
+8GB right but the the thing is that the
+
+476
+00:24:34,620 --> 00:24:36,419
+difficulty is that the challenge that we
+
+477
+00:24:36,419 --> 00:24:38,460
+have only limited size of the memory
+
+478
+00:24:38,460 --> 00:24:41,159
+right we have the limited size of memory
+
+479
+00:24:41,159 --> 00:24:43,919
+we cannot hold everything over process
+
+480
+00:24:43,919 --> 00:24:48,000
+into the memory because we have limited
+
+481
+00:24:48,000 --> 00:24:50,640
+size of memory our memory needs to share
+
+482
+00:24:50,640 --> 00:24:51,659
+the
+
+483
+00:24:51,659 --> 00:24:54,299
+by difference process
+
+484
+00:24:54,299 --> 00:24:57,659
+not we cannot just support one process
+
+485
+00:24:57,659 --> 00:25:02,159
+we have many processes that waiting this
+
+486
+00:25:02,159 --> 00:25:06,480
+has process P2 P3
+
+487
+00:25:06,780 --> 00:25:09,720
+they are waiting to map to the to to be
+
+488
+00:25:09,720 --> 00:25:12,059
+allocated by the
+
+489
+00:25:12,059 --> 00:25:14,820
+memory the our physical memory then what
+
+490
+00:25:14,820 --> 00:25:17,039
+we can do what we can do we need to pick
+
+491
+00:25:17,039 --> 00:25:20,100
+Peak from the virtual address space
+
+492
+00:25:20,100 --> 00:25:22,440
+where you can only pick parts of the
+
+493
+00:25:22,440 --> 00:25:25,799
+virtual address space the p1's virtual
+
+494
+00:25:25,799 --> 00:25:27,960
+address space picked some important
+
+495
+00:25:27,960 --> 00:25:29,880
+contents and put start in the physical
+
+496
+00:25:29,880 --> 00:25:31,620
+memory to run it
+
+497
+00:25:31,620 --> 00:25:34,380
+most of times we call it is the active
+
+498
+00:25:34,380 --> 00:25:37,580
+Pages active pages
+
+499
+00:25:39,059 --> 00:25:42,480
+but the problem is that we there we need
+
+500
+00:25:42,480 --> 00:25:45,720
+to define a unit we need to Define units
+
+501
+00:25:45,720 --> 00:25:48,240
+so we can better manage them manage them
+
+502
+00:25:48,240 --> 00:25:51,000
+we can not we cannot
+
+503
+00:25:51,000 --> 00:25:52,520
+like
+
+504
+00:25:52,520 --> 00:25:55,380
+independently decide how much protein do
+
+505
+00:25:55,380 --> 00:25:56,460
+that because
+
+506
+00:25:56,460 --> 00:25:59,820
+it's not easy to to manage it what we
+
+507
+00:25:59,820 --> 00:26:01,799
+did is that for the physical memory
+
+508
+00:26:01,799 --> 00:26:03,900
+think of that is similar to your photo
+
+509
+00:26:03,900 --> 00:26:06,360
+frames we have many photo frames that's
+
+510
+00:26:06,360 --> 00:26:08,820
+the same size they are both empty photo
+
+511
+00:26:08,820 --> 00:26:11,640
+frames we have 100 Floor frames like
+
+512
+00:26:11,640 --> 00:26:14,100
+this he's called page frames page frame
+
+513
+00:26:14,100 --> 00:26:16,500
+so page frame has the same size of page
+
+514
+00:26:16,500 --> 00:26:20,279
+it's also 4kb it's also 4kb so one page
+
+515
+00:26:20,279 --> 00:26:23,580
+frames can hold one page one page then
+
+516
+00:26:23,580 --> 00:26:25,860
+this empty page frames
+
+517
+00:26:25,860 --> 00:26:29,400
+are there they are there they need they
+
+518
+00:26:29,400 --> 00:26:32,700
+are waiting for the CPU to design which
+
+519
+00:26:32,700 --> 00:26:36,000
+page which page of which process to map
+
+520
+00:26:36,000 --> 00:26:39,480
+to this to Maple to this okay then this
+
+521
+00:26:39,480 --> 00:26:40,620
+mapping
+
+522
+00:26:40,620 --> 00:26:42,419
+we call it the
+
+523
+00:26:42,419 --> 00:26:43,500
+um
+
+524
+00:26:43,500 --> 00:26:46,559
+page mapping okay and the mm you use a
+
+525
+00:26:46,559 --> 00:26:49,679
+page table to design the page mapping so
+
+526
+00:26:49,679 --> 00:26:53,220
+after we after we select the important
+
+527
+00:26:53,220 --> 00:26:56,820
+pages of the P1 to map it to the memory
+
+528
+00:26:56,820 --> 00:27:01,140
+this is then we can select what we think
+
+529
+00:27:01,140 --> 00:27:04,020
+is important for P2
+
+530
+00:27:04,020 --> 00:27:08,520
+P2 and also P3 to map to the map to map
+
+531
+00:27:08,520 --> 00:27:11,039
+the into memory so you see P1 we're
+
+532
+00:27:11,039 --> 00:27:13,260
+already mapping these three pages into
+
+533
+00:27:13,260 --> 00:27:15,480
+this physical page frames right so we
+
+534
+00:27:15,480 --> 00:27:16,440
+have still
+
+535
+00:27:16,440 --> 00:27:19,740
+several left okay so P2 we can map in
+
+536
+00:27:19,740 --> 00:27:23,220
+the 2B here that to be here
+
+537
+00:27:23,220 --> 00:27:25,260
+like here
+
+538
+00:27:25,260 --> 00:27:27,000
+right
+
+539
+00:27:27,000 --> 00:27:31,500
+then P3 we can map it to here
+
+540
+00:27:31,500 --> 00:27:33,600
+to here
+
+541
+00:27:33,600 --> 00:27:37,080
+then by doing that we can by doing that
+
+542
+00:27:37,080 --> 00:27:40,380
+we can implement the abstraction for
+
+543
+00:27:40,380 --> 00:27:43,440
+space sharing of the memory right then
+
+544
+00:27:43,440 --> 00:27:45,919
+these
+
+545
+00:27:46,400 --> 00:27:51,059
+this memory memory here the memory can
+
+546
+00:27:51,059 --> 00:27:54,620
+is able to
+
+547
+00:27:54,740 --> 00:27:59,100
+concurrently supporting many process P1
+
+548
+00:27:59,100 --> 00:28:02,039
+P2 and P3
+
+549
+00:28:02,039 --> 00:28:04,799
+right so what we need to do that because
+
+550
+00:28:04,799 --> 00:28:07,440
+we have limited size of the memory and
+
+551
+00:28:07,440 --> 00:28:09,840
+for every process when we run it we do
+
+552
+00:28:09,840 --> 00:28:12,299
+not run them
+
+553
+00:28:12,299 --> 00:28:14,400
+as a whole we only run part of them
+
+554
+00:28:14,400 --> 00:28:17,760
+almost of every process like your office
+
+555
+00:28:17,760 --> 00:28:20,580
+your office office has many
+
+556
+00:28:20,580 --> 00:28:23,580
+products rights most alarms we only use
+
+557
+00:28:23,580 --> 00:28:27,000
+the word right we do not use the PDF or
+
+558
+00:28:27,000 --> 00:28:28,890
+we do not use the
+
+559
+00:28:28,890 --> 00:28:29,220
+[Music]
+
+560
+00:28:29,220 --> 00:28:30,779
+um
+
+561
+00:28:30,779 --> 00:28:33,840
+like the the other products the the
+
+562
+00:28:33,840 --> 00:28:36,659
+Powerpoints most of time we just use one
+
+563
+00:28:36,659 --> 00:28:38,520
+product then we'll use one product you
+
+564
+00:28:38,520 --> 00:28:40,440
+only pick the
+
+565
+00:28:40,440 --> 00:28:43,140
+process the process the pages that
+
+566
+00:28:43,140 --> 00:28:45,419
+relates to that process loaded in memory
+
+567
+00:28:45,419 --> 00:28:49,140
+and then the thing is that when
+
+568
+00:28:49,140 --> 00:28:52,080
+there's a lot of issues a lot of issues
+
+569
+00:28:52,080 --> 00:28:57,380
+after this mapping technology yes
+
+570
+00:29:00,600 --> 00:29:03,000
+what do you mean locality this is a very
+
+571
+00:29:03,000 --> 00:29:05,539
+fancy word
+
+572
+00:29:15,840 --> 00:29:18,840
+or at the locality first let's define
+
+573
+00:29:18,840 --> 00:29:22,260
+what exactly locality is locality
+
+574
+00:29:22,260 --> 00:29:24,000
+you think of that because locality
+
+575
+00:29:24,000 --> 00:29:25,620
+locally can
+
+576
+00:29:25,620 --> 00:29:28,679
+can have different meanings in different
+
+577
+00:29:28,679 --> 00:29:31,260
+situations right in your situation what
+
+578
+00:29:31,260 --> 00:29:34,340
+do you mean by locality
+
+579
+00:29:42,299 --> 00:29:44,220
+very good very good that is what we are
+
+580
+00:29:44,220 --> 00:29:46,260
+going to learn in the so where you are
+
+581
+00:29:46,260 --> 00:29:47,760
+what are you well I think why do you
+
+582
+00:29:47,760 --> 00:29:49,380
+mentioned that correct me if I'm wrong
+
+583
+00:29:49,380 --> 00:29:51,179
+when you mentioned there's like for
+
+584
+00:29:51,179 --> 00:29:53,460
+example if I have a mind if I have a
+
+585
+00:29:53,460 --> 00:29:55,500
+process right this process has some data
+
+586
+00:29:55,500 --> 00:29:58,980
+a large amount of input data so you you
+
+587
+00:29:58,980 --> 00:30:02,100
+may want to that inputs data to be put
+
+588
+00:30:02,100 --> 00:30:04,860
+in the continuous phases of memory
+
+589
+00:30:04,860 --> 00:30:07,440
+spaces so when when we access it they
+
+590
+00:30:07,440 --> 00:30:11,120
+can be concurrently accesses instead of
+
+591
+00:30:11,120 --> 00:30:13,679
+jumping to different places to access
+
+592
+00:30:13,679 --> 00:30:18,120
+them so in that case we we discuss that
+
+593
+00:30:18,120 --> 00:30:20,520
+in our later chapter about the
+
+594
+00:30:20,520 --> 00:30:23,039
+fragmentation fragment that is after the
+
+595
+00:30:23,039 --> 00:30:26,039
+paging that after paging okay so there's
+
+596
+00:30:26,039 --> 00:30:28,799
+many issues that you we may consider
+
+597
+00:30:28,799 --> 00:30:32,220
+about this or any student can guess make
+
+598
+00:30:32,220 --> 00:30:35,159
+a guess what are the issues
+
+599
+00:30:35,159 --> 00:30:37,200
+so I already tell you this is the
+
+600
+00:30:37,200 --> 00:30:40,880
+virtual memory yeah
+
+601
+00:30:42,899 --> 00:30:45,140
+yeah if it's full
+
+602
+00:30:45,140 --> 00:30:48,480
+it is four if the physical memory is a
+
+603
+00:30:48,480 --> 00:30:51,299
+four it's four we need to kick out some
+
+604
+00:30:51,299 --> 00:30:53,940
+kick outs the pages right kick out the
+
+605
+00:30:53,940 --> 00:30:56,700
+pages then that is the page replacement
+
+606
+00:30:56,700 --> 00:30:58,740
+algorithms right there are many page
+
+607
+00:30:58,740 --> 00:31:00,419
+replacement algorithms we are going to
+
+608
+00:31:00,419 --> 00:31:03,299
+learn what are the issues what are the
+
+609
+00:31:03,299 --> 00:31:05,659
+issues
+
+610
+00:31:06,480 --> 00:31:08,419
+think of the artist says there's another
+
+611
+00:31:08,419 --> 00:31:12,919
+storage this is called a disk
+
+612
+00:31:15,899 --> 00:31:20,600
+other issues are what are other issues
+
+613
+00:31:22,500 --> 00:31:26,340
+so let's say when when my system got
+
+614
+00:31:26,340 --> 00:31:29,580
+started I only have P1 P2 P3 process
+
+615
+00:31:29,580 --> 00:31:31,919
+right and I have an initial page table
+
+616
+00:31:31,919 --> 00:31:35,039
+that can tells me the mapping of this
+
+617
+00:31:35,039 --> 00:31:37,620
+page to this this page we select these
+
+618
+00:31:37,620 --> 00:31:40,020
+three of these seven pages to map into
+
+619
+00:31:40,020 --> 00:31:42,539
+the physical memory
+
+620
+00:31:42,539 --> 00:31:46,799
+then also time goes by right we
+
+621
+00:31:46,799 --> 00:31:49,799
+the physical memory may become full so
+
+622
+00:31:49,799 --> 00:31:52,500
+the first issue is that if it becomes
+
+623
+00:31:52,500 --> 00:31:53,580
+four
+
+624
+00:31:53,580 --> 00:31:56,159
+then you need to design who whose
+
+625
+00:31:56,159 --> 00:31:58,200
+kickoffs and whose goes in right that is
+
+626
+00:31:58,200 --> 00:32:00,059
+a page replacement algorithm so what
+
+627
+00:32:00,059 --> 00:32:00,840
+else
+
+628
+00:32:00,840 --> 00:32:04,520
+what else yeah Andrew
+
+629
+00:32:09,179 --> 00:32:13,200
+if you want to access the memory you
+
+630
+00:32:13,200 --> 00:32:16,620
+want to but what is the problem
+
+631
+00:32:16,620 --> 00:32:19,440
+performers
+
+632
+00:32:19,440 --> 00:32:22,260
+I'm not quite good at
+
+633
+00:32:22,260 --> 00:32:24,120
+any other
+
+634
+00:32:24,120 --> 00:32:26,659
+gas
+
+635
+00:32:28,740 --> 00:32:31,860
+so what do you what if what if the page
+
+636
+00:32:31,860 --> 00:32:35,640
+that I want let's rephrase what you what
+
+637
+00:32:35,640 --> 00:32:37,740
+you mentioned a little bit right what if
+
+638
+00:32:37,740 --> 00:32:39,539
+the page that I want
+
+639
+00:32:39,539 --> 00:32:42,179
+is not in the physical memory it's not
+
+640
+00:32:42,179 --> 00:32:44,279
+in in the physical memory
+
+641
+00:32:44,279 --> 00:32:46,559
+what if the page that I want is not in
+
+642
+00:32:46,559 --> 00:32:49,200
+the physical memory if it is not in the
+
+643
+00:32:49,200 --> 00:32:50,820
+physical map means like for example I
+
+644
+00:32:50,820 --> 00:32:53,820
+need this page I need this page but
+
+645
+00:32:53,820 --> 00:32:56,159
+there's no mapping from this page to the
+
+646
+00:32:56,159 --> 00:32:57,299
+physical memory right the physical
+
+647
+00:32:57,299 --> 00:33:00,360
+memory still has spaces but there's no
+
+648
+00:33:00,360 --> 00:33:02,520
+space for this
+
+649
+00:33:02,520 --> 00:33:04,440
+for this page
+
+650
+00:33:04,440 --> 00:33:05,820
+this
+
+651
+00:33:05,820 --> 00:33:10,740
+well right now the remember what I teach
+
+652
+00:33:10,740 --> 00:33:12,960
+you last in our last section right and
+
+653
+00:33:12,960 --> 00:33:15,059
+virtual memory is just so we put some in
+
+654
+00:33:15,059 --> 00:33:16,860
+the physical memory the rest of them is
+
+655
+00:33:16,860 --> 00:33:19,200
+in the disk right the rest of them is in
+
+656
+00:33:19,200 --> 00:33:23,779
+disk so this page May in the disk really
+
+657
+00:33:24,179 --> 00:33:25,919
+you have a go to the wrong way you need
+
+658
+00:33:25,919 --> 00:33:28,080
+to go to the disk right go to the disk
+
+659
+00:33:28,080 --> 00:33:31,620
+and find out the pages then updates the
+
+660
+00:33:31,620 --> 00:33:33,240
+map the page table
+
+661
+00:33:33,240 --> 00:33:35,820
+because there's no mapping of this right
+
+662
+00:33:35,820 --> 00:33:38,880
+you need to maybe add one mapping of
+
+663
+00:33:38,880 --> 00:33:40,679
+that because you you need to find out
+
+664
+00:33:40,679 --> 00:33:42,960
+the page the page is not in the memory
+
+665
+00:33:42,960 --> 00:33:45,000
+you need to mapping that into the memory
+
+666
+00:33:45,000 --> 00:33:47,940
+so you need to update the page table
+
+667
+00:33:47,940 --> 00:33:50,760
+about the mapping so that is the core
+
+668
+00:33:50,760 --> 00:33:54,779
+page for the handling page fault
+
+669
+00:33:54,779 --> 00:33:58,100
+page fault handling
+
+670
+00:33:58,200 --> 00:34:01,140
+okay page Force handling and then page
+
+671
+00:34:01,140 --> 00:34:04,620
+replacement algorithms
+
+672
+00:34:05,880 --> 00:34:08,339
+the reason why we are going to learn
+
+673
+00:34:08,339 --> 00:34:11,219
+in today's class okay but let's have a
+
+674
+00:34:11,219 --> 00:34:13,379
+brief idea first
+
+675
+00:34:13,379 --> 00:34:15,918
+page for handling page replacement
+
+676
+00:34:15,918 --> 00:34:19,560
+algorithms what else
+
+677
+00:34:19,560 --> 00:34:22,220
+or else
+
+678
+00:34:37,320 --> 00:34:38,940
+what else
+
+679
+00:34:38,940 --> 00:34:42,179
+well if I make changes to the pages to
+
+680
+00:34:42,179 --> 00:34:44,520
+the contents what if I make changes to
+
+681
+00:34:44,520 --> 00:34:45,839
+the pages
+
+682
+00:34:45,839 --> 00:34:48,659
+in the memory
+
+683
+00:34:48,659 --> 00:34:50,460
+and you still don't want to make a guess
+
+684
+00:34:50,460 --> 00:34:52,619
+what if I make changes to the physical
+
+685
+00:34:52,619 --> 00:34:56,580
+the pages this page in the memory
+
+686
+00:34:56,580 --> 00:35:02,540
+and then power off okay yeah Irene
+
+687
+00:35:03,780 --> 00:35:06,480
+you have to updated in the disk right
+
+688
+00:35:06,480 --> 00:35:09,000
+you have to updated in the Disco If I
+
+689
+00:35:09,000 --> 00:35:11,579
+make make changes on the physical memory
+
+690
+00:35:11,579 --> 00:35:15,839
+the physical memory is the IEM right
+
+691
+00:35:15,839 --> 00:35:19,560
+random access memory is
+
+692
+00:35:19,560 --> 00:35:21,900
+if I make changes to the memory make
+
+693
+00:35:21,900 --> 00:35:24,599
+changes to this to this page
+
+694
+00:35:24,599 --> 00:35:27,420
+I need to synchronize large to the disk
+
+695
+00:35:27,420 --> 00:35:29,400
+otherwise otherwise
+
+696
+00:35:29,400 --> 00:35:33,240
+it are going to wind power of my changes
+
+697
+00:35:33,240 --> 00:35:36,540
+will be gone right there will be no way
+
+698
+00:35:36,540 --> 00:35:38,820
+to remember my changes
+
+699
+00:35:38,820 --> 00:35:40,680
+you heard that was
+
+700
+00:35:40,680 --> 00:35:45,060
+frequently is called 30 pages 30.
+
+701
+00:35:45,060 --> 00:35:46,980
+so we are going to learn what is exactly
+
+702
+00:35:46,980 --> 00:35:50,940
+30 pages means that is the concept of 30
+
+703
+00:35:50,940 --> 00:35:53,400
+pages you make changes to the page read
+
+704
+00:35:53,400 --> 00:35:56,579
+you write the page but you have not yet
+
+705
+00:35:56,579 --> 00:35:58,859
+synchronized the writing in the disk
+
+706
+00:35:58,859 --> 00:36:02,820
+then that make the page to be 30. that
+
+707
+00:36:02,820 --> 00:36:05,579
+is why we call it 30 pages the 30 does
+
+708
+00:36:05,579 --> 00:36:07,500
+not mean the page is 30 okay the 30
+
+709
+00:36:07,500 --> 00:36:11,099
+means that there's inconsistency between
+
+710
+00:36:11,099 --> 00:36:15,920
+the you see in the face called Magic
+
+711
+00:36:25,320 --> 00:36:26,760
+then
+
+712
+00:36:26,760 --> 00:36:29,220
+how does it work
+
+713
+00:36:29,220 --> 00:36:30,900
+better the physical memory have let's
+
+714
+00:36:30,900 --> 00:36:33,060
+say they have unsolutely let's say 100
+
+715
+00:36:33,060 --> 00:36:35,400
+slots and equals to 100 right so what
+
+716
+00:36:35,400 --> 00:36:37,460
+are your question this one these have
+
+717
+00:36:37,460 --> 00:36:39,900
+101 yeah
+
+718
+00:36:39,900 --> 00:36:42,660
+one or one that you need to decide which
+
+719
+00:36:42,660 --> 00:36:45,720
+how many of these 101 to be mapped to
+
+720
+00:36:45,720 --> 00:36:47,460
+the physical memory right
+
+721
+00:36:47,460 --> 00:36:49,380
+you need to decide that that is why pay
+
+722
+00:36:49,380 --> 00:36:51,359
+we need a page table if we can put
+
+723
+00:36:51,359 --> 00:36:52,740
+everything in the physical memory
+
+724
+00:36:52,740 --> 00:36:56,420
+physical memory is inference
+
+725
+00:37:00,839 --> 00:37:03,119
+yeah yeah that is the page replacement
+
+726
+00:37:03,119 --> 00:37:07,619
+algorithms works yes what's your name
+
+727
+00:37:07,619 --> 00:37:09,599
+easy
+
+728
+00:37:09,599 --> 00:37:15,740
+okay that's a nice name easy yeah
+
+729
+00:37:31,320 --> 00:37:34,380
+it's it's it's that's normal matter how
+
+730
+00:37:34,380 --> 00:37:37,740
+free how how the higher the priority of
+
+731
+00:37:37,740 --> 00:37:39,960
+them we only have this amount of
+
+732
+00:37:39,960 --> 00:37:42,859
+physical memory
+
+733
+00:37:50,280 --> 00:37:52,880
+yes
+
+734
+00:37:56,780 --> 00:37:59,820
+how can you pour memory what do you mean
+
+735
+00:37:59,820 --> 00:38:02,280
+by poor memory we cannot extend it that
+
+736
+00:38:02,280 --> 00:38:05,460
+it's it's just you you only buy 16
+
+737
+00:38:05,460 --> 00:38:08,579
+gigabytes of memory right you cannot you
+
+738
+00:38:08,579 --> 00:38:11,880
+can not using the disc as a fake memory
+
+739
+00:38:11,880 --> 00:38:15,060
+memory is memory right so you need to in
+
+740
+00:38:15,060 --> 00:38:18,119
+kick them out right then that is the
+
+741
+00:38:18,119 --> 00:38:19,920
+page replacement the algorithms worked
+
+742
+00:38:19,920 --> 00:38:22,099
+okay so
+
+743
+00:38:22,099 --> 00:38:25,079
+let's let's learn these Concepts these
+
+744
+00:38:25,079 --> 00:38:26,579
+are all the important Concepts we are
+
+745
+00:38:26,579 --> 00:38:29,780
+going to learn in today's class
+
+746
+00:38:32,760 --> 00:38:37,040
+okay so the first thing we need to learn
+
+747
+00:38:39,060 --> 00:38:41,760
+okay the virtual memory okay
+
+748
+00:38:41,760 --> 00:38:45,119
+virtual memory so the program's address
+
+749
+00:38:45,119 --> 00:38:48,359
+space is broken up into fixed size of
+
+750
+00:38:48,359 --> 00:38:51,119
+pages and we call it a page
+
+751
+00:38:51,119 --> 00:38:53,700
+page right we call it a page fixed size
+
+752
+00:38:53,700 --> 00:38:56,220
+what is the default size what is the
+
+753
+00:38:56,220 --> 00:38:58,820
+default size
+
+754
+00:39:00,420 --> 00:39:03,140
+the foresight
+
+755
+00:39:03,420 --> 00:39:06,240
+I mentioned it five minutes ago
+
+756
+00:39:06,240 --> 00:39:07,440
+Andrew
+
+757
+00:39:07,440 --> 00:39:10,859
+four kilobytes 4 KV right 4kv that is
+
+758
+00:39:10,859 --> 00:39:13,260
+the fixed that it means the fixed size
+
+759
+00:39:13,260 --> 00:39:16,320
+Pages means and then pages are mapped to
+
+760
+00:39:16,320 --> 00:39:18,359
+the physical memory right pages are
+
+761
+00:39:18,359 --> 00:39:21,680
+mapped to the physical memory
+
+762
+00:39:30,480 --> 00:39:33,359
+so this is the uh we are going to learn
+
+763
+00:39:33,359 --> 00:39:35,400
+that later about how to handle the page
+
+764
+00:39:35,400 --> 00:39:37,140
+Force okay so you need to hear the
+
+765
+00:39:37,140 --> 00:39:39,300
+takeaway the pages and mapped to the
+
+766
+00:39:39,300 --> 00:39:41,339
+physical memory okay and then who is
+
+767
+00:39:41,339 --> 00:39:43,079
+doing the mapping who is managing the
+
+768
+00:39:43,079 --> 00:39:46,020
+mapping there's in the CPU there's a
+
+769
+00:39:46,020 --> 00:39:49,800
+units called mmu it's called memory
+
+770
+00:39:49,800 --> 00:39:51,960
+management units you need to remember
+
+771
+00:39:51,960 --> 00:39:54,720
+that memory management units memory
+
+772
+00:39:54,720 --> 00:39:57,180
+management units are going to generate
+
+773
+00:39:57,180 --> 00:39:58,920
+the physical address from virtual
+
+774
+00:39:58,920 --> 00:40:02,540
+address provided by the program
+
+775
+00:40:06,540 --> 00:40:07,980
+so
+
+776
+00:40:07,980 --> 00:40:09,720
+um here's the thing okay the memory
+
+777
+00:40:09,720 --> 00:40:11,880
+management units we have the CPU right
+
+778
+00:40:11,880 --> 00:40:15,480
+okay the CPU the memory management units
+
+779
+00:40:15,480 --> 00:40:18,020
+is there
+
+780
+00:40:19,500 --> 00:40:22,320
+the memory
+
+781
+00:40:22,320 --> 00:40:25,140
+the memory management units is there
+
+782
+00:40:25,140 --> 00:40:28,440
+it's there okay the CPU sends the
+
+783
+00:40:28,440 --> 00:40:30,720
+virtual address to the memory management
+
+784
+00:40:30,720 --> 00:40:33,240
+units we have the program right we have
+
+785
+00:40:33,240 --> 00:40:36,119
+a program and then we combined it then
+
+786
+00:40:36,119 --> 00:40:38,040
+we loaded that into memory then it
+
+787
+00:40:38,040 --> 00:40:40,200
+becomes a process the first thing before
+
+788
+00:40:40,200 --> 00:40:42,300
+it loaded into the memory
+
+789
+00:40:42,300 --> 00:40:45,960
+CPU needs to generate a virtual
+
+790
+00:40:45,960 --> 00:40:48,839
+address to that process we call it a
+
+791
+00:40:48,839 --> 00:40:50,460
+virtual address we call the virtual
+
+792
+00:40:50,460 --> 00:40:51,720
+address
+
+793
+00:40:51,720 --> 00:40:54,900
+and it's always done from zero to a to
+
+794
+00:40:54,900 --> 00:40:57,240
+uh maybe very very large number of that
+
+795
+00:40:57,240 --> 00:41:00,599
+process then
+
+796
+00:41:00,780 --> 00:41:03,000
+then the mmu
+
+797
+00:41:03,000 --> 00:41:05,099
+mapped virtual address to physical
+
+798
+00:41:05,099 --> 00:41:07,560
+address physical address and puts them
+
+799
+00:41:07,560 --> 00:41:09,839
+on the memory bus put them on the memory
+
+800
+00:41:09,839 --> 00:41:12,900
+bus and then another concept that we
+
+801
+00:41:12,900 --> 00:41:15,839
+just discussed pages and Page frames
+
+802
+00:41:15,839 --> 00:41:19,260
+okay the virtual memory divided into the
+
+803
+00:41:19,260 --> 00:41:22,380
+virtual address divided into the pages
+
+804
+00:41:22,380 --> 00:41:26,119
+right divided into the pages
+
+805
+00:41:29,339 --> 00:41:32,820
+so the pages can be a small page to a
+
+806
+00:41:32,820 --> 00:41:36,020
+very large page okay
+
+807
+00:41:36,900 --> 00:41:40,020
+so here is the example of mapping the
+
+808
+00:41:40,020 --> 00:41:42,359
+virtual pages to the page frame to
+
+809
+00:41:42,359 --> 00:41:44,160
+physical page frames
+
+810
+00:41:44,160 --> 00:41:46,859
+this is the physical memory address this
+
+811
+00:41:46,859 --> 00:41:49,740
+is the virtual address space each
+
+812
+00:41:49,740 --> 00:41:52,079
+process each process okay this is a
+
+813
+00:41:52,079 --> 00:41:56,400
+signal it's easy to get confused each
+
+814
+00:41:56,400 --> 00:41:58,859
+process has this virtual address space
+
+815
+00:41:58,859 --> 00:42:02,400
+okay each process not just the whole
+
+816
+00:42:02,400 --> 00:42:04,800
+memory it's a virtual address space no
+
+817
+00:42:04,800 --> 00:42:07,800
+no each process has a this each process
+
+818
+00:42:07,800 --> 00:42:10,560
+has this but memory this physical memory
+
+819
+00:42:10,560 --> 00:42:12,960
+address is shared by multiple process
+
+820
+00:42:12,960 --> 00:42:16,200
+but each process has a virtual address
+
+821
+00:42:16,200 --> 00:42:18,480
+space each process has a virtual address
+
+822
+00:42:18,480 --> 00:42:19,500
+space
+
+823
+00:42:19,500 --> 00:42:23,579
+then then we owning we only when the CPU
+
+824
+00:42:23,579 --> 00:42:26,099
+is is running is only loaded the
+
+825
+00:42:26,099 --> 00:42:28,680
+important Pages because active pages
+
+826
+00:42:28,680 --> 00:42:31,859
+into the memory into the memory
+
+827
+00:42:31,859 --> 00:42:35,700
+who decided who decided which page I
+
+828
+00:42:35,700 --> 00:42:38,040
+should put in the memory is actually you
+
+829
+00:42:38,040 --> 00:42:40,320
+decide that because you you are the
+
+830
+00:42:40,320 --> 00:42:42,180
+programmer right you write a program
+
+831
+00:42:42,180 --> 00:42:44,339
+then the CPU has to register the
+
+832
+00:42:44,339 --> 00:42:46,040
+instructions like the instruction
+
+833
+00:42:46,040 --> 00:42:49,200
+pointer it points to the program so it
+
+834
+00:42:49,200 --> 00:42:51,240
+will find out okay this line for the
+
+835
+00:42:51,240 --> 00:42:53,339
+code is in the memory if not so it's
+
+836
+00:42:53,339 --> 00:42:55,200
+going to load that into the memory
+
+837
+00:42:55,200 --> 00:42:58,800
+updates the page table so mmu are going
+
+838
+00:42:58,800 --> 00:43:02,760
+to decide the mapping the mapping
+
+839
+00:43:02,760 --> 00:43:06,859
+so this is the mapping okay
+
+840
+00:43:15,240 --> 00:43:18,060
+so the virtual address virtual advances
+
+841
+00:43:18,060 --> 00:43:20,579
+and it's sent to the memory management
+
+842
+00:43:20,579 --> 00:43:23,880
+units the memory management units sees
+
+843
+00:43:23,880 --> 00:43:25,680
+that the virtual address
+
+844
+00:43:25,680 --> 00:43:27,839
+it's going to see you
+
+845
+00:43:27,839 --> 00:43:30,359
+this put stop put stiff puts the
+
+846
+00:43:30,359 --> 00:43:31,859
+different part of the code into
+
+847
+00:43:31,859 --> 00:43:33,119
+difference
+
+848
+00:43:33,119 --> 00:43:37,640
+page different pages okay
+
+849
+00:43:44,099 --> 00:43:48,000
+and then we have a page map sometimes we
+
+850
+00:43:48,000 --> 00:43:50,220
+call it page table a page no matter what
+
+851
+00:43:50,220 --> 00:43:53,040
+is Page map or page table they designed
+
+852
+00:43:53,040 --> 00:43:56,220
+a mapping from a process virtual one
+
+853
+00:43:56,220 --> 00:43:59,339
+processes virtual address to the
+
+854
+00:43:59,339 --> 00:44:03,300
+physical address physical memory address
+
+855
+00:44:03,300 --> 00:44:04,920
+it's going to design
+
+856
+00:44:04,920 --> 00:44:07,680
+which
+
+857
+00:44:07,680 --> 00:44:10,140
+for each process which part of the page
+
+858
+00:44:10,140 --> 00:44:13,440
+is puts in which part of the physical
+
+859
+00:44:13,440 --> 00:44:17,220
+memory and any students know what the
+
+860
+00:44:17,220 --> 00:44:20,780
+1100 means here
+
+861
+00:44:22,040 --> 00:44:25,099
+my first
+
+862
+00:44:25,500 --> 00:44:28,220
+photos are where
+
+863
+00:44:32,099 --> 00:44:35,940
+the bureau isn't so one so one basically
+
+864
+00:44:35,940 --> 00:44:38,640
+says okay we there is this is being used
+
+865
+00:44:38,640 --> 00:44:40,740
+in physical memory zero means this is
+
+866
+00:44:40,740 --> 00:44:43,220
+not being used
+
+867
+00:44:45,420 --> 00:44:48,660
+yeah yeah okay and the
+
+868
+00:44:48,660 --> 00:44:50,880
+yeah Andrew
+
+869
+00:44:50,880 --> 00:44:53,220
+yeah the dirty bits okay the 30 bits
+
+870
+00:44:53,220 --> 00:44:55,500
+okay so there's many there's many
+
+871
+00:44:55,500 --> 00:44:58,440
+there's many terms but it's here okay we
+
+872
+00:44:58,440 --> 00:45:00,660
+are going to learn that
+
+873
+00:45:00,660 --> 00:45:03,300
+now we talk about
+
+874
+00:45:03,300 --> 00:45:05,819
+after we after we learned the mapping
+
+875
+00:45:05,819 --> 00:45:07,619
+with the first thing we talked about the
+
+876
+00:45:07,619 --> 00:45:09,540
+page force all right what if the page
+
+877
+00:45:09,540 --> 00:45:13,079
+that I want it's not in them is have not
+
+878
+00:45:13,079 --> 00:45:15,839
+mapped to the physical memory it's not
+
+879
+00:45:15,839 --> 00:45:17,520
+in the physical memory
+
+880
+00:45:17,520 --> 00:45:19,380
+then
+
+881
+00:45:19,380 --> 00:45:22,140
+we have the present absence B tells
+
+882
+00:45:22,140 --> 00:45:25,680
+where the page is in the memory cities
+
+883
+00:45:25,680 --> 00:45:28,440
+if it is it's one if it's not it's zero
+
+884
+00:45:28,440 --> 00:45:30,900
+right so it's had this so what happens
+
+885
+00:45:30,900 --> 00:45:34,380
+the pages that I want is a lot in the
+
+886
+00:45:34,380 --> 00:45:36,180
+memory then
+
+887
+00:45:36,180 --> 00:45:38,099
+and then
+
+888
+00:45:38,099 --> 00:45:40,920
+it will trigger a page Force so page
+
+889
+00:45:40,920 --> 00:45:43,619
+force is our interrupt single
+
+890
+00:45:43,619 --> 00:45:45,900
+it's going to Sender interrupt single to
+
+891
+00:45:45,900 --> 00:45:49,020
+the CPU then CPU going to handle in the
+
+892
+00:45:49,020 --> 00:45:51,660
+page Force handling the page Force so
+
+893
+00:45:51,660 --> 00:45:53,520
+how to handle the page first we are
+
+894
+00:45:53,520 --> 00:45:55,800
+going to learn that later
+
+895
+00:45:55,800 --> 00:45:57,839
+now we talk about the page table the
+
+896
+00:45:57,839 --> 00:46:00,780
+page table so page table
+
+897
+00:46:00,780 --> 00:46:03,540
+here is how to do the page table page
+
+898
+00:46:03,540 --> 00:46:04,740
+table
+
+899
+00:46:04,740 --> 00:46:06,480
+so when we're talking about the page
+
+900
+00:46:06,480 --> 00:46:09,240
+table we need to learn about the page
+
+901
+00:46:09,240 --> 00:46:12,540
+table mapping so how to translate from
+
+902
+00:46:12,540 --> 00:46:15,300
+the virtual address to the physical
+
+903
+00:46:15,300 --> 00:46:17,760
+address how to trans transl
+
+904
+00:46:17,760 --> 00:46:21,020
+Verge from the
+
+905
+00:46:21,300 --> 00:46:23,819
+virtual address to the physical address
+
+906
+00:46:23,819 --> 00:46:26,339
+okay
+
+907
+00:46:26,339 --> 00:46:28,980
+so the virtual for any lines of the code
+
+908
+00:46:28,980 --> 00:46:31,079
+for any lines of code you have the
+
+909
+00:46:31,079 --> 00:46:34,260
+virtual page table virtual page table so
+
+910
+00:46:34,260 --> 00:46:37,200
+each page is 4kb right for KB but your
+
+911
+00:46:37,200 --> 00:46:40,200
+instruction is not as large as 4 KB
+
+912
+00:46:40,200 --> 00:46:43,740
+right so your instruction is on offset
+
+913
+00:46:43,740 --> 00:46:45,900
+I need lines of your code it's just
+
+914
+00:46:45,900 --> 00:46:48,060
+offset into the
+
+915
+00:46:48,060 --> 00:46:50,520
+into the page it's like I have a book I
+
+916
+00:46:50,520 --> 00:46:52,940
+have a book
+
+917
+00:46:56,880 --> 00:46:59,700
+this is a process process one process
+
+918
+00:46:59,700 --> 00:47:01,619
+one the whole the whole book is my
+
+919
+00:47:01,619 --> 00:47:04,859
+process process one I it is all right on
+
+920
+00:47:04,859 --> 00:47:08,099
+book okay I I first divided it into the
+
+921
+00:47:08,099 --> 00:47:10,800
+many pages right so the pages they have
+
+922
+00:47:10,800 --> 00:47:14,280
+the same size right page line same size
+
+923
+00:47:14,280 --> 00:47:15,599
+then
+
+924
+00:47:15,599 --> 00:47:16,980
+then
+
+925
+00:47:16,980 --> 00:47:19,560
+I select the
+
+926
+00:47:19,560 --> 00:47:22,980
+the CPU has um mmu memory management
+
+927
+00:47:22,980 --> 00:47:25,380
+units these are going to this it is
+
+928
+00:47:25,380 --> 00:47:27,839
+going to help me
+
+929
+00:47:27,839 --> 00:47:30,900
+putting put helped me to put the
+
+930
+00:47:30,900 --> 00:47:34,339
+important Pages the active pages
+
+931
+00:47:34,339 --> 00:47:37,920
+grab that mapping that into the physical
+
+932
+00:47:37,920 --> 00:47:40,560
+memory so for example this page this
+
+933
+00:47:40,560 --> 00:47:41,520
+page
+
+934
+00:47:41,520 --> 00:47:44,760
+this page needs to need to loaded into
+
+935
+00:47:44,760 --> 00:47:47,000
+the memory so I'm going to be there
+
+936
+00:47:47,000 --> 00:47:49,500
+going to map here from the physical
+
+937
+00:47:49,500 --> 00:47:51,900
+memory physical memory so CPU can access
+
+938
+00:47:51,900 --> 00:47:55,380
+to it but CPU access to it CPU has the
+
+939
+00:47:55,380 --> 00:47:59,160
+largest to registered in the program is
+
+940
+00:47:59,160 --> 00:48:01,619
+called the program program counter right
+
+941
+00:48:01,619 --> 00:48:03,480
+program counter and instruction
+
+942
+00:48:03,480 --> 00:48:05,000
+instruction
+
+943
+00:48:05,000 --> 00:48:08,280
+register so it points to the array
+
+944
+00:48:08,280 --> 00:48:10,560
+instruction is just a life of the code
+
+945
+00:48:10,560 --> 00:48:12,680
+in this
+
+946
+00:48:12,680 --> 00:48:16,380
+it has many lines so it has an offset
+
+947
+00:48:16,380 --> 00:48:18,240
+see
+
+948
+00:48:18,240 --> 00:48:22,760
+if I need to read this line of the code
+
+949
+00:48:22,800 --> 00:48:25,800
+then this is the
+
+950
+00:48:25,800 --> 00:48:29,160
+offset okay officers if I need to run
+
+951
+00:48:29,160 --> 00:48:32,400
+the CPU pointer is point to this line of
+
+952
+00:48:32,400 --> 00:48:35,220
+the code then this is the offset offset
+
+953
+00:48:35,220 --> 00:48:38,280
+that is why it needs first to have a
+
+954
+00:48:38,280 --> 00:48:41,880
+page page number so page number is 55
+
+955
+00:48:41,880 --> 00:48:43,920
+this is my process right the virtual
+
+956
+00:48:43,920 --> 00:48:45,960
+this is the hold that is my virtual
+
+957
+00:48:45,960 --> 00:48:48,180
+address space it has different pages
+
+958
+00:48:48,180 --> 00:48:51,960
+like from 1 to 55 so so first I selected
+
+959
+00:48:51,960 --> 00:48:54,960
+55 and let's select the lines of code is
+
+960
+00:48:54,960 --> 00:48:57,480
+in the offset of this so is one of
+
+961
+00:48:57,480 --> 00:48:59,880
+virtual memory has a virtual page number
+
+962
+00:48:59,880 --> 00:49:02,400
+and offset so are we clear about that
+
+963
+00:49:02,400 --> 00:49:04,260
+are we on the same page okay this
+
+964
+00:49:04,260 --> 00:49:06,720
+concept is very important now you need
+
+965
+00:49:06,720 --> 00:49:09,900
+to you need to
+
+966
+00:49:09,900 --> 00:49:13,260
+translate this virtual address
+
+967
+00:49:13,260 --> 00:49:16,079
+into the physical address because this
+
+968
+00:49:16,079 --> 00:49:18,720
+page this page are going to be loaded
+
+969
+00:49:18,720 --> 00:49:21,060
+into the physical memory plot physical
+
+970
+00:49:21,060 --> 00:49:25,020
+memory frames so it would not be
+
+971
+00:49:25,020 --> 00:49:28,319
+page 55 right in the virtual in mind
+
+972
+00:49:28,319 --> 00:49:31,920
+virtual memory is page 55 but who knows
+
+973
+00:49:31,920 --> 00:49:33,780
+what the pages will be in the physical
+
+974
+00:49:33,780 --> 00:49:36,060
+memory you need to change the physical
+
+975
+00:49:36,060 --> 00:49:38,579
+memory page number right so that is the
+
+976
+00:49:38,579 --> 00:49:42,599
+key idea of we do this mmu operation of
+
+977
+00:49:42,599 --> 00:49:45,720
+translates the virtual address into the
+
+978
+00:49:45,720 --> 00:49:48,240
+physical address so how we do that okay
+
+979
+00:49:48,240 --> 00:49:50,640
+how we do this
+
+980
+00:49:50,640 --> 00:49:53,780
+you say you see this
+
+981
+00:49:59,640 --> 00:50:01,800
+see this it has the
+
+982
+00:50:01,800 --> 00:50:04,319
+um this is the page table right page
+
+983
+00:50:04,319 --> 00:50:08,040
+table so we have the
+
+984
+00:50:08,040 --> 00:50:11,400
+so this this bits represents is one
+
+985
+00:50:11,400 --> 00:50:14,700
+means it's enough in the physical memory
+
+986
+00:50:14,700 --> 00:50:17,099
+zero means it's not in the physical
+
+987
+00:50:17,099 --> 00:50:22,220
+memory right so here let's see
+
+988
+00:50:26,040 --> 00:50:29,040
+this is the incoming virtual address in
+
+989
+00:50:29,040 --> 00:50:33,060
+common virtual address this we see this
+
+990
+00:50:33,060 --> 00:50:36,060
+is the page table this is the page this
+
+991
+00:50:36,060 --> 00:50:38,040
+is the virtual page table like let's say
+
+992
+00:50:38,040 --> 00:50:39,839
+let's say this is my virtual page table
+
+993
+00:50:39,839 --> 00:50:43,200
+55. it's a virtual page table now you
+
+994
+00:50:43,200 --> 00:50:46,440
+need to find out where exactly this page
+
+995
+00:50:46,440 --> 00:50:48,780
+is loaded into the memory in the
+
+996
+00:50:48,780 --> 00:50:50,579
+physical memory you need to find out the
+
+997
+00:50:50,579 --> 00:50:52,619
+real page table of this the real page
+
+998
+00:50:52,619 --> 00:50:55,740
+table so you you find out the zero zero
+
+999
+00:50:55,740 --> 00:50:58,140
+one zero right it's it's equal to two
+
+1000
+00:50:58,140 --> 00:51:00,300
+Okay it's equal to two and you find out
+
+1001
+00:51:00,300 --> 00:51:03,780
+okay what is the two maps to maps to the
+
+1002
+00:51:03,780 --> 00:51:07,260
+physical page table physical page number
+
+1003
+00:51:07,260 --> 00:51:09,839
+is one one zero one one zero one one
+
+1004
+00:51:09,839 --> 00:51:11,400
+zero is how much
+
+1005
+00:51:11,400 --> 00:51:14,700
+is one one zero so you you add in that
+
+1006
+00:51:14,700 --> 00:51:16,800
+into the one one zero this is the
+
+1007
+00:51:16,800 --> 00:51:19,559
+physical page remember the physical page
+
+1008
+00:51:19,559 --> 00:51:22,680
+number and then adding the same offsets
+
+1009
+00:51:22,680 --> 00:51:25,020
+right adding the same object the offsets
+
+1010
+00:51:25,020 --> 00:51:27,660
+will not change this is the offset the
+
+1011
+00:51:27,660 --> 00:51:30,740
+offsets will not change
+
+1012
+00:51:30,839 --> 00:51:34,500
+okay are we are we in the same page
+
+1013
+00:51:34,500 --> 00:51:36,740
+okay
+
+1014
+00:51:37,380 --> 00:51:38,940
+so here's the thing here's the thing
+
+1015
+00:51:38,940 --> 00:51:41,579
+okay this is my my virtual my process my
+
+1016
+00:51:41,579 --> 00:51:43,859
+process I divide my process into many
+
+1017
+00:51:43,859 --> 00:51:47,579
+pages it has 100 pages okay and the code
+
+1018
+00:51:47,579 --> 00:51:51,660
+I need to read is in page 55 so page 55
+
+1019
+00:51:51,660 --> 00:51:54,359
+is my virtual page number right my
+
+1020
+00:51:54,359 --> 00:51:56,700
+virtual page number now the virtual page
+
+1021
+00:51:56,700 --> 00:51:59,160
+number I look at this page number the 30
+
+1022
+00:51:59,160 --> 00:52:02,339
+and sorry that with the absence present
+
+1023
+00:52:02,339 --> 00:52:04,740
+piece if it's one that means that this
+
+1024
+00:52:04,740 --> 00:52:07,440
+page is in the physical memory it's in
+
+1025
+00:52:07,440 --> 00:52:09,420
+the physical memory so I need to find
+
+1026
+00:52:09,420 --> 00:52:11,640
+out where exactly it is in the physical
+
+1027
+00:52:11,640 --> 00:52:14,339
+memory because the physical frames then
+
+1028
+00:52:14,339 --> 00:52:16,020
+maybe let's say this is my physical
+
+1029
+00:52:16,020 --> 00:52:18,780
+memory physical memory is has only three
+
+1030
+00:52:18,780 --> 00:52:21,119
+page three page frames so I need to find
+
+1031
+00:52:21,119 --> 00:52:23,819
+out whether it is in the page one or
+
+1032
+00:52:23,819 --> 00:52:26,700
+page two or page three the whole tell me
+
+1033
+00:52:26,700 --> 00:52:28,680
+that the page table can tells me that
+
+1034
+00:52:28,680 --> 00:52:30,059
+that is the
+
+1035
+00:52:30,059 --> 00:52:31,859
+we have the
+
+1036
+00:52:31,859 --> 00:52:34,079
+the page right this page you see that
+
+1037
+00:52:34,079 --> 00:52:36,540
+this is a virtual page number is 2 is
+
+1038
+00:52:36,540 --> 00:52:38,640
+mapping to the one one zero so one one
+
+1039
+00:52:38,640 --> 00:52:41,520
+zero is my real physical page number so
+
+1040
+00:52:41,520 --> 00:52:43,980
+I using the real physical page number
+
+1041
+00:52:43,980 --> 00:52:46,859
+plus the offset after we do that then
+
+1042
+00:52:46,859 --> 00:52:48,720
+that is the outgoing physical address
+
+1043
+00:52:48,720 --> 00:52:51,720
+after I found out the outgoing physical
+
+1044
+00:52:51,720 --> 00:52:52,920
+address
+
+1045
+00:52:52,920 --> 00:52:57,900
+then CPU can put this address into the
+
+1046
+00:52:57,900 --> 00:53:01,680
+program counter register and then doing
+
+1047
+00:53:01,680 --> 00:53:05,280
+the pipeline operation right the decode
+
+1048
+00:53:05,280 --> 00:53:08,400
+ask you um yeah
+
+1049
+00:53:08,400 --> 00:53:12,180
+write a fetch decode and execute execute
+
+1050
+00:53:12,180 --> 00:53:13,260
+the code
+
+1051
+00:53:13,260 --> 00:53:18,359
+that is how the story goes okay
+
+1052
+00:53:18,359 --> 00:53:21,480
+so let's look at the structure the more
+
+1053
+00:53:21,480 --> 00:53:23,520
+detailed structure of the page table
+
+1054
+00:53:23,520 --> 00:53:26,119
+entry
+
+1055
+00:53:30,780 --> 00:53:33,000
+so we already know this is the presence
+
+1056
+00:53:33,000 --> 00:53:38,339
+absence Beach right and then we have a
+
+1057
+00:53:38,339 --> 00:53:40,859
+protection right production base means
+
+1058
+00:53:40,859 --> 00:53:43,440
+that is if it's read only what read can
+
+1059
+00:53:43,440 --> 00:53:46,260
+read Council written white or also white
+
+1060
+00:53:46,260 --> 00:53:48,960
+only and the modified base means that if
+
+1061
+00:53:48,960 --> 00:53:53,460
+it's 31 knots so what means is that
+
+1062
+00:53:53,460 --> 00:53:57,180
+is already is have to zero means that it
+
+1063
+00:53:57,180 --> 00:53:59,579
+does not have to write to desk what
+
+1064
+00:53:59,579 --> 00:54:02,220
+means that it's already modified so if
+
+1065
+00:54:02,220 --> 00:54:04,859
+it is modified then it needs to be
+
+1066
+00:54:04,859 --> 00:54:07,800
+white to the disk if if you have not yet
+
+1067
+00:54:07,800 --> 00:54:10,380
+right to this that means the page is 30.
+
+1068
+00:54:10,380 --> 00:54:13,140
+the page is 30. so we use this to
+
+1069
+00:54:13,140 --> 00:54:15,839
+represent the pages 31 nodes the
+
+1070
+00:54:15,839 --> 00:54:17,700
+reference being so one means it was
+
+1071
+00:54:17,700 --> 00:54:18,960
+either read
+
+1072
+00:54:18,960 --> 00:54:21,359
+or right turn
+
+1073
+00:54:21,359 --> 00:54:24,780
+is used to pick page to be mixed
+
+1074
+00:54:24,780 --> 00:54:27,420
+so the reference base is what we have
+
+1075
+00:54:27,420 --> 00:54:29,339
+what we are going to use in the page
+
+1076
+00:54:29,339 --> 00:54:32,099
+replacement algorithm
+
+1077
+00:54:32,099 --> 00:54:35,900
+the page replacement algorithm
+
+1078
+00:54:50,099 --> 00:54:52,859
+okay so there's a technical to speed up
+
+1079
+00:54:52,859 --> 00:54:56,160
+the address translation and we recorded
+
+1080
+00:54:56,160 --> 00:54:58,260
+the translation local side buffer
+
+1081
+00:54:58,260 --> 00:55:00,839
+translation local side buffer so what is
+
+1082
+00:55:00,839 --> 00:55:03,480
+the translation Luca side buffer
+
+1083
+00:55:03,480 --> 00:55:06,660
+um it's it's also registered it's also
+
+1084
+00:55:06,660 --> 00:55:09,119
+registered so page table sometimes can
+
+1085
+00:55:09,119 --> 00:55:12,059
+be very large and most of times we put
+
+1086
+00:55:12,059 --> 00:55:14,160
+the page table in the memory and in
+
+1087
+00:55:14,160 --> 00:55:16,680
+memory so and the tlb you can think of
+
+1088
+00:55:16,680 --> 00:55:19,260
+tlb as a cache of the of the page table
+
+1089
+00:55:19,260 --> 00:55:22,980
+it's going to save the most frequently
+
+1090
+00:55:22,980 --> 00:55:27,420
+used page page mappings into the tlb the
+
+1091
+00:55:27,420 --> 00:55:29,640
+page table saw the page mappings right
+
+1092
+00:55:29,640 --> 00:55:33,059
+the tlb stores some important page
+
+1093
+00:55:33,059 --> 00:55:34,619
+mappings
+
+1094
+00:55:34,619 --> 00:55:37,500
+so it stores the frequently accessed
+
+1095
+00:55:37,500 --> 00:55:41,540
+frame frequently accessed frames
+
+1096
+00:55:41,819 --> 00:55:43,980
+so for example it's going to the
+
+1097
+00:55:43,980 --> 00:55:45,900
+translation look outside buffer is going
+
+1098
+00:55:45,900 --> 00:55:48,420
+to store the same thing as the page
+
+1099
+00:55:48,420 --> 00:55:50,579
+table so the same thing as page table we
+
+1100
+00:55:50,579 --> 00:55:52,859
+show the mappings of the virtual page to
+
+1101
+00:55:52,859 --> 00:55:55,859
+the physical to the page frames okay
+
+1102
+00:55:55,859 --> 00:55:58,500
+that is the virtual page right that is
+
+1103
+00:55:58,500 --> 00:56:01,260
+the real physical
+
+1104
+00:56:01,260 --> 00:56:04,559
+page frame number okay and the one means
+
+1105
+00:56:04,559 --> 00:56:06,960
+that is multiplied or not if it modifies
+
+1106
+00:56:06,960 --> 00:56:09,059
+means that it's 30 it needs to be right
+
+1107
+00:56:09,059 --> 00:56:12,059
+to the disk the production means that
+
+1108
+00:56:12,059 --> 00:56:14,880
+whether it's realized will read write
+
+1109
+00:56:14,880 --> 00:56:17,040
+only
+
+1110
+00:56:17,040 --> 00:56:19,740
+that's the tlb translation local side
+
+1111
+00:56:19,740 --> 00:56:22,160
+buffer
+
+1112
+00:56:24,119 --> 00:56:26,960
+so um
+
+1113
+00:56:30,359 --> 00:56:32,940
+so before we look under the multi-level
+
+1114
+00:56:32,940 --> 00:56:36,839
+page table let's look at a video okay
+
+1115
+00:56:36,839 --> 00:56:38,400
+let me
+
+1116
+00:56:38,400 --> 00:56:42,839
+cut a video for you good
+
+1117
+00:57:14,520 --> 00:57:17,099
+and during a page fault so let's
+
+1118
+00:57:17,099 --> 00:57:19,740
+understand exactly what happens during a
+
+1119
+00:57:19,740 --> 00:57:21,900
+page fault service so when the thread is
+
+1120
+00:57:21,900 --> 00:57:24,119
+executing on the CPU it generates a
+
+1121
+00:57:24,119 --> 00:57:25,500
+virtual address
+
+1122
+00:57:25,500 --> 00:57:28,740
+and the hardware takes that virtual page
+
+1123
+00:57:28,740 --> 00:57:31,920
+number and looks up the tlb to see if it
+
+1124
+00:57:31,920 --> 00:57:33,960
+can translate that virtual page to a
+
+1125
+00:57:33,960 --> 00:57:36,300
+physical page frame that contains the
+
+1126
+00:57:36,300 --> 00:57:39,420
+contents of that page now the tlb lookup
+
+1127
+00:57:39,420 --> 00:57:42,240
+fails that's a Miss in the tlb and at
+
+1128
+00:57:42,240 --> 00:57:44,819
+that point the hardware if the hardware
+
+1129
+00:57:44,819 --> 00:57:47,819
+is doing the page table lookup it'll go
+
+1130
+00:57:47,819 --> 00:57:49,800
+to the page table and look up the page
+
+1131
+00:57:49,800 --> 00:57:51,839
+table to see if the mapping between the
+
+1132
+00:57:51,839 --> 00:57:54,180
+virtual page and the physical page is in
+
+1133
+00:57:54,180 --> 00:57:56,579
+the page table and this would have been
+
+1134
+00:57:56,579 --> 00:57:58,559
+there if the operating system is already
+
+1135
+00:57:58,559 --> 00:58:00,540
+put the contents of that page in
+
+1136
+00:58:00,540 --> 00:58:02,520
+physical memory but if the operating
+
+1137
+00:58:02,520 --> 00:58:05,520
+system has not brought in that page from
+
+1138
+00:58:05,520 --> 00:58:08,940
+the disk into physical memory then when
+
+1139
+00:58:08,940 --> 00:58:10,680
+the hardware goes and looks into the
+
+1140
+00:58:10,680 --> 00:58:12,599
+page table it may not find the mapping
+
+1141
+00:58:12,599 --> 00:58:13,920
+between the virtual page and the
+
+1142
+00:58:13,920 --> 00:58:15,720
+physical frame and so that will result
+
+1143
+00:58:15,720 --> 00:58:18,540
+in a pay stable Miss and that mess is
+
+1144
+00:58:18,540 --> 00:58:20,819
+the point at which you have a page fault
+
+1145
+00:58:20,819 --> 00:58:23,040
+so your page fault now that says that I
+
+1146
+00:58:23,040 --> 00:58:24,839
+don't have the page in physical memory
+
+1147
+00:58:24,839 --> 00:58:26,940
+and so what the operating system at that
+
+1148
+00:58:26,940 --> 00:58:29,280
+point in the Handler what it has to do
+
+1149
+00:58:29,280 --> 00:58:33,000
+is to locate where on the disk that
+
+1150
+00:58:33,000 --> 00:58:35,520
+particular page virtual page is residing
+
+1151
+00:58:35,520 --> 00:58:39,119
+on the disk and as part of the page
+
+1152
+00:58:39,119 --> 00:58:41,280
+fault service the operating system has
+
+1153
+00:58:41,280 --> 00:58:43,799
+to allocate a physical page frame
+
+1154
+00:58:43,799 --> 00:58:45,780
+because it's now missing in physical
+
+1155
+00:58:45,780 --> 00:58:48,660
+memory and do the i o to move the
+
+1156
+00:58:48,660 --> 00:58:52,680
+virtual page from the disk into the page
+
+1157
+00:58:52,680 --> 00:58:55,260
+frame that it has allocated and once it
+
+1158
+00:58:55,260 --> 00:58:57,839
+is done the i o the i o is complete then
+
+1159
+00:58:57,839 --> 00:58:59,640
+at that point the operating system can
+
+1160
+00:58:59,640 --> 00:59:02,880
+update the page table to indicate now it
+
+1161
+00:59:02,880 --> 00:59:04,859
+has a mapping between that virtual page
+
+1162
+00:59:04,859 --> 00:59:07,079
+and the physical frame number which was
+
+1163
+00:59:07,079 --> 00:59:08,940
+missing in the original scheme of things
+
+1164
+00:59:08,940 --> 00:59:10,500
+and that's the reason that we had this
+
+1165
+00:59:10,500 --> 00:59:12,480
+fault and we handled the Fault by
+
+1166
+00:59:12,480 --> 00:59:15,599
+bringing in the missing page from the
+
+1167
+00:59:15,599 --> 00:59:18,540
+disk into physical memory and we update
+
+1168
+00:59:18,540 --> 00:59:21,000
+the page table to indicate that the
+
+1169
+00:59:21,000 --> 00:59:22,619
+mapping is now established between the
+
+1170
+00:59:22,619 --> 00:59:24,180
+virtual page and the physical frame
+
+1171
+00:59:24,180 --> 00:59:27,180
+number and then you can update the tlb
+
+1172
+00:59:27,180 --> 00:59:29,700
+to indicate that now we have the mapping
+
+1173
+00:59:29,700 --> 00:59:33,359
+between VPN and pfn and once the tlb has
+
+1174
+00:59:33,359 --> 00:59:35,460
+also been updated the page fault service
+
+1175
+00:59:35,460 --> 00:59:37,619
+is complete and life is good so that
+
+1176
+00:59:37,619 --> 00:59:41,579
+that's the whole workflow in taking a
+
+1177
+00:59:41,579 --> 00:59:44,339
+virtual page and mapping it to a
+
+1178
+00:59:44,339 --> 00:59:47,220
+physical frame when there is a mess now
+
+1179
+00:59:47,220 --> 00:59:49,799
+let's analyze this picture and ask the
+
+1180
+00:59:49,799 --> 00:59:53,220
+question where are potential points of
+
+1181
+00:59:53,220 --> 00:59:55,799
+bottlenecks now what I'm showing you
+
+1182
+00:59:55,799 --> 00:59:58,339
+here is
+
+1183
+01:00:16,740 --> 01:00:18,599
+that
+
+1184
+01:00:18,599 --> 01:00:20,599
+um
+
+1185
+01:00:23,220 --> 01:00:25,319
+Okay so
+
+1186
+01:00:25,319 --> 01:00:28,740
+any student can repeat how to handle in
+
+1187
+01:00:28,740 --> 01:00:29,940
+the page fort
+
+1188
+01:00:29,940 --> 01:00:33,480
+the steps the steps to handle the page
+
+1189
+01:00:33,480 --> 01:00:35,960
+for it
+
+1190
+01:00:38,819 --> 01:00:42,559
+the steps to handle the page Force
+
+1191
+01:00:42,960 --> 01:00:45,559
+yes
+
+1192
+01:00:53,059 --> 01:00:57,079
+but it also has to replace
+
+1193
+01:01:01,799 --> 01:01:03,780
+graphical disk
+
+1194
+01:01:03,780 --> 01:01:06,260
+to
+
+1195
+01:01:06,660 --> 01:01:08,460
+where you have to update the table to
+
+1196
+01:01:08,460 --> 01:01:09,780
+reflect your chain
+
+1197
+01:01:09,780 --> 01:01:13,520
+and then once you've updated the table
+
+1198
+01:01:19,559 --> 01:01:21,839
+so before we find out a page board
+
+1199
+01:01:21,839 --> 01:01:24,720
+before before so let's say we have a
+
+1200
+01:01:24,720 --> 01:01:27,359
+process right we have a process the CPU
+
+1201
+01:01:27,359 --> 01:01:29,339
+going to generate the virtual address
+
+1202
+01:01:29,339 --> 01:01:33,359
+for that process then then the CPU are
+
+1203
+01:01:33,359 --> 01:01:36,119
+going to read the virtual address right
+
+1204
+01:01:36,119 --> 01:01:38,220
+to find out the first instruction so to
+
+1205
+01:01:38,220 --> 01:01:40,319
+find out the first instruction so it
+
+1206
+01:01:40,319 --> 01:01:42,240
+needs to find out the page is in the
+
+1207
+01:01:42,240 --> 01:01:44,520
+memory or not so the first thing is that
+
+1208
+01:01:44,520 --> 01:01:47,960
+we check the
+
+1209
+01:01:51,359 --> 01:01:53,160
+so take a look at this if I have a
+
+1210
+01:01:53,160 --> 01:01:55,740
+program right combined to be a process
+
+1211
+01:01:55,740 --> 01:01:58,260
+then I generate a virtual address for
+
+1212
+01:01:58,260 --> 01:02:02,640
+that process then then the pointer the
+
+1213
+01:02:02,640 --> 01:02:04,520
+instruction pointer points to the first
+
+1214
+01:02:04,520 --> 01:02:07,700
+virtual address
+
+1215
+01:02:08,700 --> 01:02:10,140
+according to the first virtual address
+
+1216
+01:02:10,140 --> 01:02:12,599
+then I need to know whether it is in the
+
+1217
+01:02:12,599 --> 01:02:15,119
+memory or not so the first thing I need
+
+1218
+01:02:15,119 --> 01:02:17,480
+to check
+
+1219
+01:02:18,420 --> 01:02:20,359
+yeah
+
+1220
+01:02:20,359 --> 01:02:23,760
+first check the tlb very good first we
+
+1221
+01:02:23,760 --> 01:02:26,579
+check the tlb I checked the tlb to find
+
+1222
+01:02:26,579 --> 01:02:29,520
+out the mapping right the mapping from
+
+1223
+01:02:29,520 --> 01:02:31,140
+the virtual address I need to find out
+
+1224
+01:02:31,140 --> 01:02:33,900
+the link I need to find out link the tlb
+
+1225
+01:02:33,900 --> 01:02:38,119
+has the link right then the second thing
+
+1226
+01:02:39,180 --> 01:02:41,220
+yeah
+
+1227
+01:02:41,220 --> 01:02:43,980
+you check the page table so if tlb is a
+
+1228
+01:02:43,980 --> 01:02:48,200
+Miss if tlb is a miss
+
+1229
+01:02:48,660 --> 01:02:50,940
+then I find out the page table so
+
+1230
+01:02:50,940 --> 01:02:53,339
+there's a true first question the tlb
+
+1231
+01:02:53,339 --> 01:02:55,920
+Miss means there is a page force is that
+
+1232
+01:02:55,920 --> 01:02:57,480
+true or false
+
+1233
+01:02:57,480 --> 01:03:00,780
+a tlb Miss means there's a page fault
+
+1234
+01:03:00,780 --> 01:03:03,180
+true or false
+
+1235
+01:03:03,180 --> 01:03:07,099
+fourth why it is a force
+
+1236
+01:03:09,299 --> 01:03:11,220
+it could be in the page table Yeah the
+
+1237
+01:03:11,220 --> 01:03:14,220
+pl tlb Miss means that only means that
+
+1238
+01:03:14,220 --> 01:03:16,440
+the Tob does not contain the mapping
+
+1239
+01:03:16,440 --> 01:03:18,359
+from this virtual address to the
+
+1240
+01:03:18,359 --> 01:03:20,700
+physical address but we do not know yet
+
+1241
+01:03:20,700 --> 01:03:23,180
+if it is apps
+
+1242
+01:03:23,180 --> 01:03:26,220
+presence in the memory or not if it is
+
+1243
+01:03:26,220 --> 01:03:28,319
+existing memory physical memory frame
+
+1244
+01:03:28,319 --> 01:03:30,240
+frame or not so we need to check the
+
+1245
+01:03:30,240 --> 01:03:31,380
+page table
+
+1246
+01:03:31,380 --> 01:03:32,579
+so
+
+1247
+01:03:32,579 --> 01:03:35,160
+a true first question if a page table is
+
+1248
+01:03:35,160 --> 01:03:37,500
+a Miss there's if the page table shows
+
+1249
+01:03:37,500 --> 01:03:39,540
+there's no mapping from that virtual
+
+1250
+01:03:39,540 --> 01:03:42,599
+page that you want to the physical page
+
+1251
+01:03:42,599 --> 01:03:45,119
+frames then there's a page Force true or
+
+1252
+01:03:45,119 --> 01:03:47,420
+false
+
+1253
+01:03:51,180 --> 01:03:52,859
+true or false
+
+1254
+01:03:52,859 --> 01:03:54,540
+Aryan
+
+1255
+01:03:54,540 --> 01:03:56,760
+I see yes it's true right the page if
+
+1256
+01:03:56,760 --> 01:03:59,339
+the pair both the tlb and Page table do
+
+1257
+01:03:59,339 --> 01:04:02,460
+not have does not have the have to have
+
+1258
+01:04:02,460 --> 01:04:04,020
+the
+
+1259
+01:04:04,020 --> 01:04:06,720
+have the mappings then there's there's a
+
+1260
+01:04:06,720 --> 01:04:09,180
+page Force right so through another true
+
+1261
+01:04:09,180 --> 01:04:11,660
+false questions
+
+1262
+01:04:16,020 --> 01:04:19,980
+if there's a page mapping big if there's
+
+1263
+01:04:19,980 --> 01:04:22,260
+if is there any page mapping that
+
+1264
+01:04:22,260 --> 01:04:25,619
+existing in Tob but not existing in the
+
+1265
+01:04:25,619 --> 01:04:28,040
+page table
+
+1266
+01:04:30,839 --> 01:04:33,920
+so you see yes or no
+
+1267
+01:04:34,260 --> 01:04:36,660
+the question is that okay question is
+
+1268
+01:04:36,660 --> 01:04:37,740
+that
+
+1269
+01:04:37,740 --> 01:04:40,319
+they are existing a mapping of the
+
+1270
+01:04:40,319 --> 01:04:43,079
+physical frame the virtual virtual
+
+1271
+01:04:43,079 --> 01:04:45,240
+address pay virtual pages to physical
+
+1272
+01:04:45,240 --> 01:04:48,119
+frame there's a mapping that existing
+
+1273
+01:04:48,119 --> 01:04:51,839
+only in tlb but not existing page table
+
+1274
+01:04:51,839 --> 01:04:53,700
+true or false
+
+1275
+01:04:53,700 --> 01:04:58,160
+false right Force white is a force
+
+1276
+01:04:58,260 --> 01:05:01,140
+so because tlb is just a cached
+
+1277
+01:05:01,140 --> 01:05:06,299
+frequently mappings in the page table so
+
+1278
+01:05:06,299 --> 01:05:09,119
+tlb is just a cache is just pick the
+
+1279
+01:05:09,119 --> 01:05:11,400
+frequently use the mappings in the page
+
+1280
+01:05:11,400 --> 01:05:14,339
+table okay in the page table okay so the
+
+1281
+01:05:14,339 --> 01:05:16,440
+first thing we look at the tlb if it's
+
+1282
+01:05:16,440 --> 01:05:18,839
+Miss we look at the page table if it is
+
+1283
+01:05:18,839 --> 01:05:22,200
+still miss what we are going to do is
+
+1284
+01:05:22,200 --> 01:05:24,540
+still miss
+
+1285
+01:05:24,540 --> 01:05:27,119
+if it still miss what we are going to do
+
+1286
+01:05:27,119 --> 01:05:30,180
+how to handle the page Force if it is
+
+1287
+01:05:30,180 --> 01:05:31,619
+still missed
+
+1288
+01:05:31,619 --> 01:05:34,880
+what we are going to do
+
+1289
+01:05:35,940 --> 01:05:38,280
+you go to the disk and we get the file
+
+1290
+01:05:38,280 --> 01:05:41,339
+we go to the disk and get a file and
+
+1291
+01:05:41,339 --> 01:05:43,640
+then
+
+1292
+01:05:44,220 --> 01:05:46,079
+put it in the page frame you have a good
+
+1293
+01:05:46,079 --> 01:05:47,160
+memory
+
+1294
+01:05:47,160 --> 01:05:51,859
+for saying in a page frame and then
+
+1295
+01:05:52,079 --> 01:05:54,180
+updates to watch
+
+1296
+01:05:54,180 --> 01:05:57,599
+updates page paper first right
+
+1297
+01:05:57,599 --> 01:06:00,780
+type of page table and then
+
+1298
+01:06:00,780 --> 01:06:03,119
+update the tlb
+
+1299
+01:06:03,119 --> 01:06:05,460
+and then life is good okay that's the
+
+1300
+01:06:05,460 --> 01:06:07,920
+that's the how we handle the how we
+
+1301
+01:06:07,920 --> 01:06:09,839
+handle the page Force how we handle the
+
+1302
+01:06:09,839 --> 01:06:12,540
+page Force okay now let's look at
+
+1303
+01:06:12,540 --> 01:06:15,260
+another video
+
+1304
+01:06:19,799 --> 01:06:22,859
+contact switch contacts
+
+1305
+01:06:22,859 --> 01:06:25,799
+fresh no contact switches contact switch
+
+1306
+01:06:25,799 --> 01:06:28,079
+contact switch happens the CPU to
+
+1307
+01:06:28,079 --> 01:06:29,640
+managing the
+
+1308
+01:06:29,640 --> 01:06:31,740
+um scheduling order between different
+
+1309
+01:06:31,740 --> 01:06:34,319
+process right
+
+1310
+01:06:34,319 --> 01:06:37,799
+oh okay you mean why you you change from
+
+1311
+01:06:37,799 --> 01:06:40,079
+one process to another process it will
+
+1312
+01:06:40,079 --> 01:06:42,660
+Flash the tlb or not
+
+1313
+01:06:42,660 --> 01:06:46,619
+the trb is a page table is shared by
+
+1314
+01:06:46,619 --> 01:06:49,140
+many different process right
+
+1315
+01:06:49,140 --> 01:06:51,000
+page table is shared by many different
+
+1316
+01:06:51,000 --> 01:06:53,339
+person page table does not only hold the
+
+1317
+01:06:53,339 --> 01:06:55,859
+mapping of one process page shape holds
+
+1318
+01:06:55,859 --> 01:06:57,900
+the mapping of different process
+
+1319
+01:06:57,900 --> 01:07:01,559
+mappings like memory right
+
+1320
+01:07:01,559 --> 01:07:04,260
+so when we do contact switch some pages
+
+1321
+01:07:04,260 --> 01:07:06,420
+some page tables entries may be
+
+1322
+01:07:06,420 --> 01:07:10,020
+refreshed but some may not it's not
+
+1323
+01:07:10,020 --> 01:07:12,780
+going to flash the whole page table no
+
+1324
+01:07:12,780 --> 01:07:14,760
+okay the page table is like a memory
+
+1325
+01:07:14,760 --> 01:07:16,559
+when you do the contact switch are you
+
+1326
+01:07:16,559 --> 01:07:18,780
+going to flash the whole memory
+
+1327
+01:07:18,780 --> 01:07:23,359
+no right no right yeah
+
+1328
+01:07:28,500 --> 01:07:31,500
+the second process is that when you do
+
+1329
+01:07:31,500 --> 01:07:32,880
+the contact switch the first thing you
+
+1330
+01:07:32,880 --> 01:07:33,839
+are going to
+
+1331
+01:07:33,839 --> 01:07:36,720
+remember is the status right and the
+
+1332
+01:07:36,720 --> 01:07:40,319
+states of that process right so you also
+
+1333
+01:07:40,319 --> 01:07:43,799
+remember the active pages mappings into
+
+1334
+01:07:43,799 --> 01:07:46,940
+the register
+
+1335
+01:07:51,780 --> 01:07:54,200
+foreign
+
+1336
+01:08:11,599 --> 01:08:14,220
+Sims from Andrew Authority it seems to
+
+1337
+01:08:14,220 --> 01:08:16,319
+date everything has the word virtual
+
+1338
+01:08:16,319 --> 01:08:18,238
+stuck in front of it we have virtual
+
+1339
+01:08:18,238 --> 01:08:20,580
+reality we have virtual currency we have
+
+1340
+01:08:20,580 --> 01:08:23,219
+virtual machines well before any of
+
+1341
+01:08:23,219 --> 01:08:26,520
+those existed we had virtual memory and
+
+1342
+01:08:26,520 --> 01:08:28,439
+it's a technology that we use every day
+
+1343
+01:08:28,439 --> 01:08:31,140
+you'll find it in Windows in OS 10 in
+
+1344
+01:08:31,140 --> 01:08:35,339
+Linux in iOS and of course in Android so
+
+1345
+01:08:35,339 --> 01:08:37,738
+what is virtual memory and how does it
+
+1346
+01:08:37,738 --> 01:08:41,170
+work well let me explain
+
+1347
+01:08:41,170 --> 01:08:47,719
+[Music]
+
+1348
+01:08:51,439 --> 01:08:55,080
+any program that's running on a CPU has
+
+1349
+01:08:55,080 --> 01:08:57,540
+access to the entire physical memory and
+
+1350
+01:08:57,540 --> 01:08:59,219
+it basically assumes it's the only
+
+1351
+01:08:59,219 --> 01:09:02,520
+program running on that CPU and so if it
+
+1352
+01:09:02,520 --> 01:09:04,500
+writes to a particular address let's say
+
+1353
+01:09:04,500 --> 01:09:05,299
+address
+
+1354
+01:09:05,299 --> 01:09:08,880
+495 that address is actually somewhere
+
+1355
+01:09:08,880 --> 01:09:11,698
+in physical RAM and it is addressed 495
+
+1356
+01:09:11,698 --> 01:09:13,319
+and it writes something there that's
+
+1357
+01:09:13,319 --> 01:09:14,460
+what goes if it writes to a different
+
+1358
+01:09:14,460 --> 01:09:16,259
+address it goes there and you there's a
+
+1359
+01:09:16,259 --> 01:09:17,580
+one-to-one relationship between the
+
+1360
+01:09:17,580 --> 01:09:20,399
+addressing of the physical RAM and the
+
+1361
+01:09:20,399 --> 01:09:22,920
+addresses that the computer program uses
+
+1362
+01:09:22,920 --> 01:09:24,839
+now that's fine when you've only got one
+
+1363
+01:09:24,839 --> 01:09:26,698
+program running but when you've got two
+
+1364
+01:09:26,698 --> 01:09:29,160
+programs running things now become a bit
+
+1365
+01:09:29,160 --> 01:09:31,380
+more complicated first of all you have
+
+1366
+01:09:31,380 --> 01:09:33,120
+to decide where you're putting each
+
+1367
+01:09:33,120 --> 01:09:35,219
+program in memory
+
+1368
+01:09:35,219 --> 01:09:37,439
+secondly each program in memory has to
+
+1369
+01:09:37,439 --> 01:09:40,380
+be careful not to overwrite the data and
+
+1370
+01:09:40,380 --> 01:09:42,779
+the program used by the other task
+
+1371
+01:09:42,779 --> 01:09:44,040
+that's running
+
+1372
+01:09:44,040 --> 01:09:46,259
+and thirdly all addressing has to be
+
+1373
+01:09:46,259 --> 01:09:47,819
+relative that means you can only ever
+
+1374
+01:09:47,819 --> 01:09:50,399
+say do something 10 bytes forward from
+
+1375
+01:09:50,399 --> 01:09:52,620
+here or 15 bytes back from here you
+
+1376
+01:09:52,620 --> 01:09:55,100
+can't use an absolute address like
+
+1377
+01:09:55,100 --> 01:09:57,960
+4095 because that could actually belong
+
+1378
+01:09:57,960 --> 01:09:59,640
+to somebody else it might not be your
+
+1379
+01:09:59,640 --> 01:10:00,840
+address
+
+1380
+01:10:00,840 --> 01:10:02,340
+there's also the issue of memory
+
+1381
+01:10:02,340 --> 01:10:03,840
+fragmentation if you're trying to run
+
+1382
+01:10:03,840 --> 01:10:06,300
+two programs and you allocate one bit of
+
+1383
+01:10:06,300 --> 01:10:07,739
+the memory for one program and another
+
+1384
+01:10:07,739 --> 01:10:09,840
+bit of memory for another program and
+
+1385
+01:10:09,840 --> 01:10:11,219
+then what happens is the first program
+
+1386
+01:10:11,219 --> 01:10:13,380
+exits and then you try to write a second
+
+1387
+01:10:13,380 --> 01:10:16,260
+one it might fit in that space of the
+
+1388
+01:10:16,260 --> 01:10:17,699
+first app but maybe it's a bit smaller
+
+1389
+01:10:17,699 --> 01:10:19,620
+so there's a gap left and then when you
+
+1390
+01:10:19,620 --> 01:10:21,120
+run a third one it can't fit in that
+
+1391
+01:10:21,120 --> 01:10:22,860
+gaps it goes somewhere else in memory
+
+1392
+01:10:22,860 --> 01:10:24,480
+and then you actually get these little
+
+1393
+01:10:24,480 --> 01:10:25,980
+gaps starting to appear until you get
+
+1394
+01:10:25,980 --> 01:10:27,780
+this thing called memory fragmentation
+
+1395
+01:10:27,780 --> 01:10:29,760
+so and that's a real problem eventually
+
+1396
+01:10:29,760 --> 01:10:31,440
+you'll run out of memory just because of
+
+1397
+01:10:31,440 --> 01:10:34,080
+fragmentation
+
+1398
+01:10:34,080 --> 01:10:36,239
+to get around these problems we have
+
+1399
+01:10:36,239 --> 01:10:38,400
+this technology called virtual memory
+
+1400
+01:10:38,400 --> 01:10:40,800
+and in virtual memory each app that's
+
+1401
+01:10:40,800 --> 01:10:43,140
+running on a mobile phone each program
+
+1402
+01:10:43,140 --> 01:10:46,380
+is running on Windows or on OS 10 thinks
+
+1403
+01:10:46,380 --> 01:10:48,420
+it's the only app running it thinks it's
+
+1404
+01:10:48,420 --> 01:10:49,920
+the only program running and it has
+
+1405
+01:10:49,920 --> 01:10:53,520
+access to all of the address space
+
+1406
+01:10:53,520 --> 01:10:56,100
+in fact it doesn't even have to have uh
+
+1407
+01:10:56,100 --> 01:10:57,840
+that amount of physical memory on a
+
+1408
+01:10:57,840 --> 01:11:00,060
+32-bit machine that process thinks it
+
+1409
+01:11:00,060 --> 01:11:02,400
+has 32 bits worth of a memory to play
+
+1410
+01:11:02,400 --> 01:11:05,820
+with which is of course four gigabytes
+
+1411
+01:11:05,820 --> 01:11:08,159
+and the way it works is this when the
+
+1412
+01:11:08,159 --> 01:11:10,800
+process when the app wants to access a
+
+1413
+01:11:10,800 --> 01:11:12,960
+particular address there is a particular
+
+1414
+01:11:12,960 --> 01:11:15,420
+piece of Hardware in the CPU called the
+
+1415
+01:11:15,420 --> 01:11:18,480
+mmu the memory management unit and what
+
+1416
+01:11:18,480 --> 01:11:20,940
+it does is it maps from this virtual
+
+1417
+01:11:20,940 --> 01:11:22,860
+address that the app thinks it's running
+
+1418
+01:11:22,860 --> 01:11:24,719
+in to an actual physical address
+
+1419
+01:11:24,719 --> 01:11:27,659
+somewhere in memory and so now the idea
+
+1420
+01:11:27,659 --> 01:11:29,880
+of partitioning up the memory is
+
+1421
+01:11:29,880 --> 01:11:31,500
+actually taken over by the operating
+
+1422
+01:11:31,500 --> 01:11:33,120
+system and the app doesn't need to worry
+
+1423
+01:11:33,120 --> 01:11:35,340
+the app thinks it's the only the only
+
+1424
+01:11:35,340 --> 01:11:36,780
+app running it can write to whatever
+
+1425
+01:11:36,780 --> 01:11:39,120
+addresses it's allowed to whichever
+
+1426
+01:11:39,120 --> 01:11:41,640
+memory has been given to and actually it
+
+1427
+01:11:41,640 --> 01:11:43,620
+doesn't care about other addresses from
+
+1428
+01:11:43,620 --> 01:11:45,239
+other apps because it's got its own
+
+1429
+01:11:45,239 --> 01:11:47,159
+virtual address space
+
+1430
+01:11:47,159 --> 01:11:48,900
+so if we look at this diagram here we
+
+1431
+01:11:48,900 --> 01:11:51,840
+can show that we've got app one and app2
+
+1432
+01:11:51,840 --> 01:11:54,840
+now app one has an address space from
+
+1433
+01:11:54,840 --> 01:11:58,159
+zero through to
+
+1434
+01:11:58,159 --> 01:12:01,199
+5242880 that's about five Giga megabytes
+
+1435
+01:12:01,199 --> 01:12:03,600
+of memory and I've also got app2 with
+
+1436
+01:12:03,600 --> 01:12:05,340
+the same level of five megabytes of
+
+1437
+01:12:05,340 --> 01:12:07,620
+memory and what you actually see is that
+
+1438
+01:12:07,620 --> 01:12:10,500
+although it's from zero to there in the
+
+1439
+01:12:10,500 --> 01:12:12,239
+physical memory it might actually start
+
+1440
+01:12:12,239 --> 01:12:15,780
+at 5242880 and it might run for five
+
+1441
+01:12:15,780 --> 01:12:17,880
+megabytes and then app number two
+
+1442
+01:12:17,880 --> 01:12:19,820
+actually starts at
+
+1443
+01:12:19,820 --> 01:12:22,440
+104.85760 and it runs from there for
+
+1444
+01:12:22,440 --> 01:12:24,060
+five megabytes and the virtual address
+
+1445
+01:12:24,060 --> 01:12:27,060
+zero in both apps is actually mapped to
+
+1446
+01:12:27,060 --> 01:12:29,940
+different places in the physical RAM
+
+1447
+01:12:29,940 --> 01:12:31,739
+now because there's mapping going on
+
+1448
+01:12:31,739 --> 01:12:33,719
+here the apps can be mapped to
+
+1449
+01:12:33,719 --> 01:12:35,760
+absolutely anywhere that the operating
+
+1450
+01:12:35,760 --> 01:12:37,620
+system wants to put them so let's have a
+
+1451
+01:12:37,620 --> 01:12:39,719
+look at this diagram so as you can see
+
+1452
+01:12:39,719 --> 01:12:42,480
+here app 2 is as it was before it's a
+
+1453
+01:12:42,480 --> 01:12:44,460
+five megabyte program from zero to five
+
+1454
+01:12:44,460 --> 01:12:46,800
+two four two eight eight zero and it's
+
+1455
+01:12:46,800 --> 01:12:49,080
+been mapped over to an address in the
+
+1456
+01:12:49,080 --> 01:12:51,540
+middle there of physical RAM but app
+
+1457
+01:12:51,540 --> 01:12:53,520
+number one has actually been divided
+
+1458
+01:12:53,520 --> 01:12:55,920
+into two parts and the first half of it
+
+1459
+01:12:55,920 --> 01:12:59,100
+is mapped into memory before app number
+
+1460
+01:12:59,100 --> 01:13:01,380
+one and the second part of it is mapped
+
+1461
+01:13:01,380 --> 01:13:04,860
+into some memory after app one but app
+
+1462
+01:13:04,860 --> 01:13:06,540
+one and app two don't know anything
+
+1463
+01:13:06,540 --> 01:13:08,100
+about this they just think they're
+
+1464
+01:13:08,100 --> 01:13:10,080
+running in their address space from zero
+
+1465
+01:13:10,080 --> 01:13:12,900
+to the end of their program so the
+
+1466
+01:13:12,900 --> 01:13:14,340
+advantage of the virtual memory system
+
+1467
+01:13:14,340 --> 01:13:16,679
+each app is self-contained it doesn't
+
+1468
+01:13:16,679 --> 01:13:19,199
+write over other apps memory space
+
+1469
+01:13:19,199 --> 01:13:21,179
+because it has its own virtual address
+
+1470
+01:13:21,179 --> 01:13:23,820
+space secondly it doesn't matter where
+
+1471
+01:13:23,820 --> 01:13:26,040
+the app is in memory because it is the
+
+1472
+01:13:26,040 --> 01:13:27,900
+mmu that does the mapping between those
+
+1473
+01:13:27,900 --> 01:13:29,940
+virtual addresses and the physical
+
+1474
+01:13:29,940 --> 01:13:32,340
+addresses and thirdly the app doesn't
+
+1475
+01:13:32,340 --> 01:13:34,980
+need to be in one continuous Block in
+
+1476
+01:13:34,980 --> 01:13:37,080
+memory it can be split up over many many
+
+1477
+01:13:37,080 --> 01:13:38,940
+different parts so this is the OS along
+
+1478
+01:13:38,940 --> 01:13:40,860
+with the mmu that makes sure that each
+
+1479
+01:13:40,860 --> 01:13:43,140
+address arrives at the right place in
+
+1480
+01:13:43,140 --> 01:13:44,820
+physical RAM and therefore you get rid
+
+1481
+01:13:44,820 --> 01:13:47,580
+of that memory fragmentation problem
+
+1482
+01:13:47,580 --> 01:13:49,380
+now what I've shown you up until now is
+
+1483
+01:13:49,380 --> 01:13:52,080
+a one-to-one mapping so that every time
+
+1484
+01:13:52,080 --> 01:13:53,940
+you have one particular dress there's a
+
+1485
+01:13:53,940 --> 01:13:55,980
+kind of a table that gets looked up by
+
+1486
+01:13:55,980 --> 01:13:58,500
+the mm unit tells it where to put it uh
+
+1487
+01:13:58,500 --> 01:14:00,719
+in physical RAM but the problem is even
+
+1488
+01:14:00,719 --> 01:14:03,120
+for a 300 megabyte program which really
+
+1489
+01:14:03,120 --> 01:14:06,360
+isn't that very big you'll need about 79
+
+1490
+01:14:06,360 --> 01:14:09,000
+million entries in such a lookup table
+
+1491
+01:14:09,000 --> 01:14:11,880
+to do such uh mapping and obviously if
+
+1492
+01:14:11,880 --> 01:14:14,159
+you've then got 10 20 30 40 different
+
+1493
+01:14:14,159 --> 01:14:16,020
+programs running on your system that's
+
+1494
+01:14:16,020 --> 01:14:17,940
+going to quickly turn into a huge amount
+
+1495
+01:14:17,940 --> 01:14:19,260
+of data and there'll actually be no
+
+1496
+01:14:19,260 --> 01:14:21,300
+space left for actual programs because
+
+1497
+01:14:21,300 --> 01:14:22,920
+it will all just be mapping information
+
+1498
+01:14:22,920 --> 01:14:25,440
+so to get around this the main memory
+
+1499
+01:14:25,440 --> 01:14:27,360
+the physical memory is divided into
+
+1500
+01:14:27,360 --> 01:14:29,219
+different blocks and they're called
+
+1501
+01:14:29,219 --> 01:14:32,520
+pages and typically they're about 4K in
+
+1502
+01:14:32,520 --> 01:14:33,719
+size
+
+1503
+01:14:33,719 --> 01:14:36,120
+and so now using paging actually you'll
+
+1504
+01:14:36,120 --> 01:14:38,340
+find that a 300 megabyte app only needs
+
+1505
+01:14:38,340 --> 01:14:42,000
+77 000 entries in a lookup table which
+
+1506
+01:14:42,000 --> 01:14:44,460
+at four bytes for every entry is about
+
+1507
+01:14:44,460 --> 01:14:47,460
+300K which is much more manageable
+
+1508
+01:14:47,460 --> 01:14:49,560
+so now what happens when an app requests
+
+1509
+01:14:49,560 --> 01:14:51,659
+something with a virtual address it
+
+1510
+01:14:51,659 --> 01:14:53,460
+actually goes to the mmu and the mmu
+
+1511
+01:14:53,460 --> 01:14:55,739
+finds out which page it's in and
+
+1512
+01:14:55,739 --> 01:14:58,140
+redirects it to the physical address of
+
+1513
+01:14:58,140 --> 01:14:59,760
+that particular page
+
+1514
+01:14:59,760 --> 01:15:02,820
+however what happens when the address is
+
+1515
+01:15:02,820 --> 01:15:04,320
+in the middle of a page at the start of
+
+1516
+01:15:04,320 --> 01:15:05,640
+the page is easier there's a kind of a
+
+1517
+01:15:05,640 --> 01:15:07,380
+one-to-one lookup but what happens if
+
+1518
+01:15:07,380 --> 01:15:09,000
+it's in the middle of a page well
+
+1519
+01:15:09,000 --> 01:15:11,820
+actually what happens is that 4K is 12
+
+1520
+01:15:11,820 --> 01:15:14,580
+bits so the first 12 bits of the address
+
+1521
+01:15:14,580 --> 01:15:16,679
+are copied directly from the virtual
+
+1522
+01:15:16,679 --> 01:15:19,620
+address into the physical address then
+
+1523
+01:15:19,620 --> 01:15:22,080
+the remaining 20 bits are used as the
+
+1524
+01:15:22,080 --> 01:15:24,480
+page lookup that 20-bit address is
+
+1525
+01:15:24,480 --> 01:15:27,060
+looked up in the page table I think
+
+1526
+01:15:27,060 --> 01:15:29,460
+called a page table entry is found and
+
+1527
+01:15:29,460 --> 01:15:31,199
+that then gives you the 20 bits for the
+
+1528
+01:15:31,199 --> 01:15:32,520
+upper part of the address and then the
+
+1529
+01:15:32,520 --> 01:15:35,460
+combination of the page address and the
+
+1530
+01:15:35,460 --> 01:15:37,920
+offset those 12 bits gives you an actual
+
+1531
+01:15:37,920 --> 01:15:40,620
+physical address in Ram
+
+1532
+01:15:40,620 --> 01:15:43,400
+now one
+
+1533
+01:15:43,679 --> 01:15:47,940
+so if we look at this sit up
+
+1534
+01:15:47,940 --> 01:15:50,580
+see we only needs to the
+
+1535
+01:15:50,580 --> 01:15:53,699
+only needs to translate the page right
+
+1536
+01:15:53,699 --> 01:15:55,679
+the page number the virtual page number
+
+1537
+01:15:55,679 --> 01:15:58,020
+to the physical page physical page
+
+1538
+01:15:58,020 --> 01:16:00,480
+blender they have the same offsets right
+
+1539
+01:16:00,480 --> 01:16:02,280
+they have the same officer because your
+
+1540
+01:16:02,280 --> 01:16:04,260
+offsets will not change
+
+1541
+01:16:04,260 --> 01:16:07,260
+the page frames has the same size of the
+
+1542
+01:16:07,260 --> 01:16:09,960
+page you only need to know where exactly
+
+1543
+01:16:09,960 --> 01:16:13,679
+your page is in which page frame then
+
+1544
+01:16:13,679 --> 01:16:16,080
+you are good it gives you an actual
+
+1545
+01:16:16,080 --> 01:16:18,780
+physical address in Ram
+
+1546
+01:16:18,780 --> 01:16:20,760
+now one interesting question is where
+
+1547
+01:16:20,760 --> 01:16:23,040
+are all these tables held well they're
+
+1548
+01:16:23,040 --> 01:16:26,340
+not held in the CPU because even at 300K
+
+1549
+01:16:26,340 --> 01:16:29,219
+or 400k multiply that by many many
+
+1550
+01:16:29,219 --> 01:16:31,020
+processes running and there's just not
+
+1551
+01:16:31,020 --> 01:16:33,179
+enough space in a CPU to do that so they
+
+1552
+01:16:33,179 --> 01:16:35,640
+have to be held in Ram now that leads us
+
+1553
+01:16:35,640 --> 01:16:37,980
+to a kind of an interesting uh conundrum
+
+1554
+01:16:37,980 --> 01:16:40,440
+because to act as a virtual address the
+
+1555
+01:16:40,440 --> 01:16:43,800
+mmu needs to access physical RAM to find
+
+1556
+01:16:43,800 --> 01:16:46,260
+an entry in the table so it can then
+
+1557
+01:16:46,260 --> 01:16:48,420
+translate the vert to address into a
+
+1558
+01:16:48,420 --> 01:16:49,860
+physical address and then access Ram
+
+1559
+01:16:49,860 --> 01:16:52,140
+again so you find there's multiple Ram
+
+1560
+01:16:52,140 --> 01:16:54,900
+accesses happening for one ram access
+
+1561
+01:16:54,900 --> 01:16:56,940
+inside of the app and of course that's
+
+1562
+01:16:56,940 --> 01:16:59,760
+going to be slow if it's like two Ram
+
+1563
+01:16:59,760 --> 01:17:01,560
+accesses needed or three Ram axes is
+
+1564
+01:17:01,560 --> 01:17:04,020
+needed for each uh virtual address and
+
+1565
+01:17:04,020 --> 01:17:05,340
+that's going to slow down your program
+
+1566
+01:17:05,340 --> 01:17:08,760
+by by a factor of three so the way CPU
+
+1567
+01:17:08,760 --> 01:17:11,699
+desires get around is they have a cash a
+
+1568
+01:17:11,699 --> 01:17:13,739
+cash of recently looked up addresses
+
+1569
+01:17:13,739 --> 01:17:15,840
+it's actually called the translation
+
+1570
+01:17:15,840 --> 01:17:18,719
+look aside buff as a tlb and what that
+
+1571
+01:17:18,719 --> 01:17:20,280
+does is whenever there's a dress
+
+1572
+01:17:20,280 --> 01:17:22,440
+translated it gets stuck into this cache
+
+1573
+01:17:22,440 --> 01:17:24,360
+and then the next time an address is
+
+1574
+01:17:24,360 --> 01:17:26,580
+needed actually it looks it up in the
+
+1575
+01:17:26,580 --> 01:17:28,679
+tlb but of course remember it only needs
+
+1576
+01:17:28,679 --> 01:17:30,960
+to look up the page size so if the
+
+1577
+01:17:30,960 --> 01:17:32,520
+program is running through the different
+
+1578
+01:17:32,520 --> 01:17:35,100
+instructions inside of one page every
+
+1579
+01:17:35,100 --> 01:17:37,080
+time it goes to access it it'll
+
+1580
+01:17:37,080 --> 01:17:39,659
+automatically be a tlb hit because that
+
+1581
+01:17:39,659 --> 01:17:41,640
+page has already been found and just the
+
+1582
+01:17:41,640 --> 01:17:43,800
+offset changes which is absolutely okay
+
+1583
+01:17:43,800 --> 01:17:46,980
+in some CPUs in fact the tlb is only 20
+
+1584
+01:17:46,980 --> 01:17:48,780
+entries long it might be bigger than
+
+1585
+01:17:48,780 --> 01:17:51,420
+that maybe 64 128 but you don't need
+
+1586
+01:17:51,420 --> 01:17:53,880
+that many tlb entries to actually
+
+1587
+01:17:53,880 --> 01:17:55,679
+increase the performance significantly
+
+1588
+01:17:55,679 --> 01:17:58,320
+during this lookup
+
+1589
+01:17:58,320 --> 01:18:01,320
+so what happens why tlb is is
+
+1590
+01:18:01,320 --> 01:18:04,320
+so you see the tlb is actually in the in
+
+1591
+01:18:04,320 --> 01:18:09,420
+a CPU right it's in the CPU in the CPU
+
+1592
+01:18:09,420 --> 01:18:10,860
+registers
+
+1593
+01:18:10,860 --> 01:18:13,500
+but the page table page table is in a
+
+1594
+01:18:13,500 --> 01:18:17,040
+memory so remember the rush 3 is faster
+
+1595
+01:18:17,040 --> 01:18:19,920
+than the cash and the memory
+
+1596
+01:18:19,920 --> 01:18:23,219
+if the mmu can't find an entry in its
+
+1597
+01:18:23,219 --> 01:18:25,980
+table for a particular virtual address
+
+1598
+01:18:25,980 --> 01:18:29,040
+where in that case the mmu raises a page
+
+1599
+01:18:29,040 --> 01:18:30,840
+fault and it goes back to the kernel
+
+1600
+01:18:30,840 --> 01:18:33,239
+saying hey I can't find that address now
+
+1601
+01:18:33,239 --> 01:18:35,400
+that can happen for one of three reasons
+
+1602
+01:18:35,400 --> 01:18:37,260
+first of all the app is actually trying
+
+1603
+01:18:37,260 --> 01:18:39,360
+to access an address which is not
+
+1604
+01:18:39,360 --> 01:18:41,219
+allowed to to access it hasn't been
+
+1605
+01:18:41,219 --> 01:18:43,440
+allocated that memory and therefore
+
+1606
+01:18:43,440 --> 01:18:45,239
+Linux will just basically kill it off
+
+1607
+01:18:45,239 --> 01:18:47,340
+you get a segmentation fault and the
+
+1608
+01:18:47,340 --> 01:18:48,960
+program just crashes and just it just
+
+1609
+01:18:48,960 --> 01:18:50,219
+gets wiped out of memory because it's
+
+1610
+01:18:50,219 --> 01:18:52,320
+not allowed to access memory that it
+
+1611
+01:18:52,320 --> 01:18:53,640
+hasn't been given
+
+1612
+01:18:53,640 --> 01:18:55,560
+in the second case it could actually be
+
+1613
+01:18:55,560 --> 01:18:58,199
+what they call Lazy allocation which
+
+1614
+01:18:58,199 --> 01:18:59,640
+means that the kernel said yes you can
+
+1615
+01:18:59,640 --> 01:19:01,440
+have that but it won't actually give it
+
+1616
+01:19:01,440 --> 01:19:04,920
+a physical page of ram until it actually
+
+1617
+01:19:04,920 --> 01:19:07,260
+starts to write to it and so in that
+
+1618
+01:19:07,260 --> 01:19:08,820
+case the page for what happened the
+
+1619
+01:19:08,820 --> 01:19:11,040
+kernels is okay I I told the app you
+
+1620
+01:19:11,040 --> 01:19:13,020
+could use that memory here is where I
+
+1621
+01:19:13,020 --> 01:19:14,880
+want you to put it in physical RAM the
+
+1622
+01:19:14,880 --> 01:19:17,280
+mmu is reprogrammed and then the whole
+
+1623
+01:19:17,280 --> 01:19:19,020
+thing starts off again and the address
+
+1624
+01:19:19,020 --> 01:19:21,179
+is found in physical RAM
+
+1625
+01:19:21,179 --> 01:19:22,679
+and the third thing that can happen is
+
+1626
+01:19:22,679 --> 01:19:24,360
+the mmuses we used to have that memory
+
+1627
+01:19:24,360 --> 01:19:26,820
+but actually now it's been swapped and
+
+1628
+01:19:26,820 --> 01:19:28,500
+therefore the kernel will go and get
+
+1629
+01:19:28,500 --> 01:19:31,620
+that page from the compress Ram The Zed
+
+1630
+01:19:31,620 --> 01:19:32,940
+swap that it's actually put it in
+
+1631
+01:19:32,940 --> 01:19:34,860
+earlier it will uncompress it it will
+
+1632
+01:19:34,860 --> 01:19:37,140
+put it somewhere in physical memory it
+
+1633
+01:19:37,140 --> 01:19:38,880
+will reprogram the mmu and say okay you
+
+1634
+01:19:38,880 --> 01:19:40,800
+can now find that there and then the
+
+1635
+01:19:40,800 --> 01:19:42,840
+whole thing Carries On
+
+1636
+01:19:42,840 --> 01:19:45,239
+and so there we have it virtual memory
+
+1637
+01:19:45,239 --> 01:19:47,100
+we've got a whole load of things going
+
+1638
+01:19:47,100 --> 01:19:48,480
+on here you've got the virtual addresses
+
+1639
+01:19:48,480 --> 01:19:49,920
+you've got physical RAM you've got
+
+1640
+01:19:49,920 --> 01:19:52,140
+lookup tables you've got an mmu you've
+
+1641
+01:19:52,140 --> 01:19:54,060
+got the translation looker side buffers
+
+1642
+01:19:54,060 --> 01:19:56,100
+you've got page faults and all this is
+
+1643
+01:19:56,100 --> 01:19:57,719
+being handled for you by the Linux
+
+1644
+01:19:57,719 --> 01:20:00,540
+kernel and by Android so the next time
+
+1645
+01:20:00,540 --> 01:20:03,120
+you tap an icon to launch an app just
+
+1646
+01:20:03,120 --> 01:20:04,920
+give a thought for all that's going on
+
+1647
+01:20:04,920 --> 01:20:06,840
+in the background just so that app can
+
+1648
+01:20:06,840 --> 01:20:08,940
+be loaded somewhere into memory and it
+
+1649
+01:20:08,940 --> 01:20:10,500
+can run so you can make that little
+
+1650
+01:20:10,500 --> 01:20:12,900
+sprite jump across the screen
+
+1651
+01:20:12,900 --> 01:20:14,159
+my name is Gary SIM from Android
+
+1652
+01:20:14,159 --> 01:20:15,600
+authority and I hope you enjoyed this
+
+1653
+01:20:15,600 --> 01:20:17,159
+video if you did please do give it a
+
+1654
+01:20:17,159 --> 01:20:20,360
+thumbs up there's a
+
+1655
+01:20:42,900 --> 01:20:44,640
+H okay so
+
+1656
+01:20:44,640 --> 01:20:47,100
+um so this is basically the crystal the
+
+1657
+01:20:47,100 --> 01:20:49,560
+key concept of the virtual
+
+1658
+01:20:49,560 --> 01:20:51,960
+the um
+
+1659
+01:20:51,960 --> 01:20:53,940
+the virtual memory the virtual memory
+
+1660
+01:20:53,940 --> 01:20:56,040
+now there's
+
+1661
+01:20:56,040 --> 01:20:57,960
+um
+
+1662
+01:20:57,960 --> 01:21:00,120
+studying from the next class we are
+
+1663
+01:21:00,120 --> 01:21:01,580
+going to learn the page replacement
+
+1664
+01:21:01,580 --> 01:21:04,500
+algorithms so before that there's a
+
+1665
+01:21:04,500 --> 01:21:07,199
+another concept is the multi-level page
+
+1666
+01:21:07,199 --> 01:21:09,600
+tables so any student want to make a
+
+1667
+01:21:09,600 --> 01:21:11,460
+guess why we need a multi-level page
+
+1668
+01:21:11,460 --> 01:21:13,320
+table so multi-level page tables means
+
+1669
+01:21:13,320 --> 01:21:16,080
+that instead of using one page tables we
+
+1670
+01:21:16,080 --> 01:21:18,600
+divide the page tables into into a
+
+1671
+01:21:18,600 --> 01:21:21,000
+hierarchical structure so the level one
+
+1672
+01:21:21,000 --> 01:21:22,920
+page tables and then level two page
+
+1673
+01:21:22,920 --> 01:21:24,840
+tables and then level three page tables
+
+1674
+01:21:24,840 --> 01:21:26,940
+so while we need a multi-level page
+
+1675
+01:21:26,940 --> 01:21:29,480
+tables
+
+1676
+01:21:35,000 --> 01:21:38,520
+so is this already what else you don't
+
+1677
+01:21:38,520 --> 01:21:40,380
+want to avoid keeping the entire page
+
+1678
+01:21:40,380 --> 01:21:42,420
+table in memory because it is too big
+
+1679
+01:21:42,420 --> 01:21:44,340
+right the page table maybe too big so
+
+1680
+01:21:44,340 --> 01:21:46,739
+you do not want to put your entire page
+
+1681
+01:21:46,739 --> 01:21:48,600
+table in memory so by using the
+
+1682
+01:21:48,600 --> 01:21:50,640
+multi-level page tables you can put the
+
+1683
+01:21:50,640 --> 01:21:53,159
+let's say the first level page table in
+
+1684
+01:21:53,159 --> 01:21:54,840
+the memory then the second level and the
+
+1685
+01:21:54,840 --> 01:21:57,179
+third level into the disk right then
+
+1686
+01:21:57,179 --> 01:22:00,239
+then pay them for the multi-level page
+
+1687
+01:22:00,239 --> 01:22:02,400
+tables you can put the most frequently
+
+1688
+01:22:02,400 --> 01:22:04,260
+page mappings in the memory the
+
+1689
+01:22:04,260 --> 01:22:06,600
+hierarchical one page table and put the
+
+1690
+01:22:06,600 --> 01:22:09,600
+last frequently using the page level two
+
+1691
+01:22:09,600 --> 01:22:11,580
+or the levels three and put the rest of
+
+1692
+01:22:11,580 --> 01:22:14,340
+it in the disk the other disk then you
+
+1693
+01:22:14,340 --> 01:22:16,620
+do not need to put the entire page table
+
+1694
+01:22:16,620 --> 01:22:19,440
+in the memory that is very costly
+
+1695
+01:22:19,440 --> 01:22:21,960
+because we do not have that in love
+
+1696
+01:22:21,960 --> 01:22:24,719
+memory space okay
+
+1697
+01:22:24,719 --> 01:22:25,620
+um
+
+1698
+01:22:25,620 --> 01:22:28,739
+so here's the um take home question is
+
+1699
+01:22:28,739 --> 01:22:31,560
+that we may have that in your homework
+
+1700
+01:22:31,560 --> 01:22:34,260
+is that think of that we sell the
+
+1701
+01:22:34,260 --> 01:22:37,380
+default page default page
+
+1702
+01:22:37,380 --> 01:22:40,920
+size is 4kb right but the page size can
+
+1703
+01:22:40,920 --> 01:22:42,600
+be as small as
+
+1704
+01:22:42,600 --> 01:22:46,500
+um 150 to 52 bytes to
+
+1705
+01:22:46,500 --> 01:22:47,880
+um like
+
+1706
+01:22:47,880 --> 01:22:51,020
+um 64 KB is like a very large number of
+
+1707
+01:22:51,020 --> 01:22:54,179
+page sizes so what is the good thing
+
+1708
+01:22:54,179 --> 01:22:56,580
+about a small page size is a bad thing
+
+1709
+01:22:56,580 --> 01:22:58,500
+about small page size and one good thing
+
+1710
+01:22:58,500 --> 01:23:01,679
+about large page sizes and the
+
+1711
+01:23:01,679 --> 01:23:03,719
+um bad thing about the large page sizes
+
+1712
+01:23:03,719 --> 01:23:06,719
+think of that this is a design question
+
+1713
+01:23:06,719 --> 01:23:08,040
+um
+
+1714
+01:23:08,040 --> 01:23:10,500
+okay that's it um
+
+1715
+01:23:10,500 --> 01:23:13,260
+then starting out the next lecture we
+
+1716
+01:23:13,260 --> 01:23:14,900
+are going to learn the page replacement
+
+1717
+01:23:14,900 --> 01:23:18,080
+algorithms okay
+
+1718
+01:23:23,460 --> 01:23:25,260
+okay we still have
+
+1719
+01:23:25,260 --> 01:23:27,239
+um
+
+1720
+01:23:27,239 --> 01:23:30,659
+so for the page replacement algorithms
+
+1721
+01:23:30,659 --> 01:23:32,780
+um
+
+1722
+01:23:33,840 --> 01:23:37,080
+okay we are going to learn this
+
+1723
+01:23:37,080 --> 01:23:39,719
+just a many different page replacement
+
+1724
+01:23:39,719 --> 01:23:43,260
+of the algorithms they are
+
+1725
+01:23:43,260 --> 01:23:46,380
+but it's very it's very easy to
+
+1726
+01:23:46,380 --> 01:23:48,060
+understand it's like what we have
+
+1727
+01:23:48,060 --> 01:23:50,219
+learned in the CPUs Gathering algorithms
+
+1728
+01:23:50,219 --> 01:23:51,780
+has the same like first day in first
+
+1729
+01:23:51,780 --> 01:23:54,000
+house like first come first serve right
+
+1730
+01:23:54,000 --> 01:23:56,400
+and then we have the frequently most
+
+1731
+01:23:56,400 --> 01:24:00,719
+frequently used page the optimal page
+
+1732
+01:24:00,719 --> 01:24:03,719
+replacement algorithms the at least the
+
+1733
+01:24:03,719 --> 01:24:06,300
+recently used page lru which is very
+
+1734
+01:24:06,300 --> 01:24:08,100
+famous and we have the working third
+
+1735
+01:24:08,100 --> 01:24:10,980
+page replacement algorithms so
+
+1736
+01:24:10,980 --> 01:24:12,980
+um
+
+1737
+01:24:13,679 --> 01:24:17,600
+okay so this is uh today's class okay
+
+1738
+01:24:17,600 --> 01:24:21,020
+so thank you
+
+1739
+01:24:34,500 --> 01:24:36,739
+foreign
+

@@ -1,4 +1,3 @@
-/* Retrieved from NGX on May 5, 2023 MODIFIED May 12 17:31 */
 // USED FOR TESTING. DO NOT MODIFY THIS FILE.
 
 #pragma once
