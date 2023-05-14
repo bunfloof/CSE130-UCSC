@@ -1,6 +1,6 @@
 // clang-format off
 /*********************************************************************************
- * Joey Ma
+ * 
  * 2023 Spring CSE130 project3
  * dining.c
  * dining reception library

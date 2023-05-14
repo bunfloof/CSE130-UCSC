@@ -6,10 +6,13 @@ commands=(
   "./example1"
   "./example2"
   "./example3"
-  "./examplediscord1"
-  "./examplediscord2"
   "./examplecodex1"
   "./examplecodex2"
+  "./examplediscord1"
+  "./examplediscord2"
+  "./examplediscord3"
+  "./examplediscord4"
+  "./examplediscord5"
 )
 
 for cmd in "${commands[@]}"; do

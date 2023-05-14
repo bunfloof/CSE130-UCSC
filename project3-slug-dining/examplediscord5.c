@@ -57,7 +57,7 @@ int main(void) {
   pthread_join(student1.thread, NULL);
   student_leave(&student1);
 
-    msleep(100);
+  msleep(100);
 
 
   pthread_join(student2.thread, NULL);
