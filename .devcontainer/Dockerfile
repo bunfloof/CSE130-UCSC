@@ -13,3 +13,5 @@ RUN apt-get clean && apt-get update && apt-get install -y \
 
 RUN ln -s /usr/bin/clang-14 /usr/bin/clang
 RUN ln -s /usr/bin/clang-format-14 /usr/bin/clang-format
+
+WORKDIR "/project3-slug-dining"
