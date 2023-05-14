@@ -1,0 +1,16 @@
+Student 1 comes in
+Student 1 entered
+Cleaning 1 comes in
+Student 2 comes in
+Student 3 comes in
+Student 1 leaves
+Student 1 left
+Cleaning 1 entered
+Cleaning 1 leaves
+Cleaning 1 left
+Student 2 entered
+Student 3 entered
+Student 2 leaves
+Student 2 left
+Student 3 leaves
+Student 3 left
