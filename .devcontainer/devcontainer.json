@@ -23,6 +23,5 @@
 	// Configure tool-specific properties.
 	// "customizations": {},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	"remoteUser": "vscode",
-	"workspaceFolder": "/project3-slug-dining"
+	"remoteUser": "vscode"
 }
