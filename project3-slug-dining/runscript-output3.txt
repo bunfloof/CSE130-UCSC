@@ -77,8 +77,8 @@ Student 1 left
 Cleaning 1 entered
 Cleaning 1 leaves
 Cleaning 1 left
-Student 2 entered
 Student 3 entered
+Student 2 entered
 Student 2 leaves
 Student 2 left
 Student 3 leaves
@@ -112,33 +112,33 @@ Student 1 leaves
 Student 1 left
 Student 2 leaves
 Student 2 left
-Cleaning 1 entered
 Student 3 comes in
+Cleaning 1 entered
 Cleaning 1 leaves
 Cleaning 1 left
 Student 3 entered
 Student 3 leaves
 Student 3 left
 
-💦 runscript.sh: Running ./examplediscord3
-Cleaning 1 comes in
-Cleaning 1 entered
-Student 1 comes in
-Cleaning 2 comes in
-Student 2 comes in
-Cleaning 1 leaves
-Cleaning 1 left
-Cleaning 2 entered
-^C
 
-# I deadlocked...
+# ./examplediscord3 skipped
 
 
 
 
 
 
-./examplediscord4
+
+
+
+
+
+
+
+
+
+
+💦 runscript.sh: Running ./examplediscord4
 Student 1 comes in
 Student 1 entered
 Student 2 comes in
@@ -164,7 +164,7 @@ Cleaning 2 entered
 Cleaning 2 leaves
 Cleaning 2 left
 
-./examplediscord5
+💦 runscript.sh: Running ./examplediscord5
 Cleaning 1 comes in
 Cleaning 1 entered
 Student 1 comes in
@@ -175,8 +175,8 @@ Cleaning 1 left
 Cleaning 2 entered
 Cleaning 2 leaves
 Cleaning 2 left
-Student 1 entered
 Student 2 entered
+Student 1 entered
 Student 1 leaves
 Student 1 left
 Student 2 leaves

@@ -1,84 +1,54 @@
+#include <assert.h>
 #include <pthread.h>
 #include <stdio.h>
 #include <unistd.h>
+
 #include "dining.h"
 #include "utils.h"
+
 int main(void) {
-dining_t* d1 = dining_init(3);
-student_t student1001 = make_student(1001, d1);
-student_t student1002 = make_student(1002, d1);
-student_t student1003 = make_student(1003, d1);
-student_t student1004 = make_student(1004, d1);
-student_t student1005 = make_student(1005, d1);
-student_t student1006 = make_student(1006, d1);
-cleaning_t cleaning1001 = make_cleaning(1001, d1);
-cleaning_t cleaning1002 = make_cleaning(1002, d1);
-cleaning_t cleaning1003 = make_cleaning(1003, d1);
-cleaning_t cleaning1004 = make_cleaning(1004, d1);
-cleaning_t cleaning1005 = make_cleaning(1005, d1);
-cleaning_t cleaning1006 = make_cleaning(1006, d1);
-pthread_create(&cleaning1001.thread, NULL, cleaning_enter, &cleaning1001);
-msleep(100);
-pthread_join(cleaning1001.thread, NULL);
-pthread_create(&cleaning1001.thread, NULL, cleaning_leave, &cleaning1001);
-pthread_join(cleaning1001.thread, NULL);
-pthread_create(&student1001.thread, NULL, student_enter, &student1001);
-pthread_join(student1001.thread, NULL);
-msleep(100);
-pthread_create(&student1001.thread, NULL, student_leave, &student1001);
-pthread_create(&student1002.thread, NULL, student_enter, &student1002);
-pthread_join(student1002.thread, NULL);
-pthread_create(&cleaning1002.thread, NULL, cleaning_enter, &cleaning1002);
-pthread_join(student1001.thread, NULL);
-msleep(100);
-pthread_create(&student1002.thread, NULL, student_leave, &student1002);
-pthread_create(&student1003.thread, NULL, student_enter, &student1003);
-pthread_create(&student1004.thread, NULL, student_enter, &student1004);
-pthread_join(student1002.thread, NULL);
-msleep(100);
-pthread_join(cleaning1002.thread, NULL);
-pthread_create(&student1005.thread, NULL, student_enter, &student1005);
-msleep(100);
-pthread_create(&cleaning1002.thread, NULL, cleaning_leave, &cleaning1002);
-pthread_join(cleaning1002.thread, NULL);
-pthread_join(student1003.thread, NULL);
-msleep(100);
-pthread_join(student1004.thread, NULL);
-pthread_join(student1005.thread, NULL);
-pthread_create(&student1006.thread, NULL, student_enter, &student1006);
-pthread_create(&student1003.thread, NULL, student_leave, &student1003);
-msleep(100);
-pthread_join(student1006.thread, NULL);
-pthread_join(student1003.thread, NULL);
-pthread_create(&student1006.thread, NULL, student_leave, &student1006);
-pthread_join(student1006.thread, NULL);
-msleep(100);
-pthread_create(&cleaning1003.thread, NULL, cleaning_enter, &cleaning1003);
-pthread_create(&student1005.thread, NULL, student_leave, &student1005);
-msleep(100);
-pthread_join(student1005.thread, NULL);
-pthread_create(&student1004.thread, NULL, student_leave, &student1004);
-msleep(100);
-pthread_join(student1004.thread, NULL);
-pthread_join(cleaning1003.thread, NULL);
-pthread_create(&cleaning1004.thread, NULL, cleaning_enter, &cleaning1004);
-pthread_create(&cleaning1003.thread, NULL, cleaning_leave, &cleaning1003);
-msleep(100);
-pthread_join(cleaning1003.thread, NULL);
-pthread_join(cleaning1004.thread, NULL);
-pthread_create(&cleaning1004.thread, NULL, cleaning_leave, &cleaning1004);
-msleep(100);
-pthread_join(cleaning1004.thread, NULL);
-pthread_create(&cleaning1005.thread, NULL, cleaning_enter, &cleaning1005);
-msleep(100);
-pthread_join(cleaning1005.thread, NULL);
-pthread_create(&cleaning1005.thread, NULL, cleaning_leave, &cleaning1005);
-msleep(100);
-pthread_join(cleaning1005.thread, NULL);
-pthread_create(&cleaning1006.thread, NULL, cleaning_enter, &cleaning1006);
-pthread_join(cleaning1006.thread, NULL);
-pthread_create(&cleaning1006.thread, NULL, cleaning_leave, &cleaning1006);
-pthread_join(cleaning1006.thread, NULL);
-msleep(100);
-dining_destroy(&d1);
+  dining_t* d = dining_init(3);
+
+  student_t student1 = make_student(1, d);
+  student_t student2 = make_student(2, d);
+  cleaning_t cleaning1 = make_cleaning(1, d);
+  cleaning_t cleaning2 = make_cleaning(2, d);
+
+  // student 1 comes in, can enter
+  student_enter(&student1);
+
+  // cleaning cannot enter because of student 1; this blocks
+  pthread_create(&cleaning1.thread, NULL, cleaning_enter, &cleaning1);
+
+  // this let cleaning to begin
+  student_leave(&student1);
+
+  pthread_join(cleaning1.thread, NULL);
+
+  // cleaning in progress, this also blocks
+  pthread_create(&student2.thread, NULL, student_enter, &student2);
+
+  // another cleaning service comes in
+  pthread_create(&cleaning2.thread, NULL, cleaning_enter, &cleaning2);
+
+  sleep(1);
+
+  cleaning_leave(&cleaning1);
+
+  sleep(1);
+
+  assert(cleaning2.entered || student2.entered);
+
+  if (cleaning2.entered) {
+    pthread_join(cleaning2.thread, NULL);
+    cleaning_leave(&cleaning2);
+    pthread_join(student2.thread, NULL);
+    student_leave(&student2);
+  } else {
+    pthread_join(student2.thread, NULL);
+    student_leave(&student2);
+    pthread_join(cleaning2.thread, NULL);
+    cleaning_leave(&cleaning2);
+  }
+  dining_destroy(&d);
 }

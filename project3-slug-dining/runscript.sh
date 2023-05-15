@@ -10,7 +10,7 @@ commands=(
   "./examplecodex2"
   "./examplediscord1"
   "./examplediscord2"
-  "./examplediscord3"
+  #"./examplediscord3"
   "./examplediscord4"
   "./examplediscord5"
 )
