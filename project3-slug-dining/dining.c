@@ -1,6 +1,6 @@
 // clang-format off
 /*********************************************************************************
- * 
+ * Joey Ma
  * 2023 Spring CSE130 project3
  * dining.c
  * dining reception library
@@ -97,6 +97,7 @@ void dining_cleaning_enter(dining_t *dining) {
     pthread_cond_wait(&dining->cleaning_allowed, &dining->lock); // wait on cleaning_allowed cond var and release mutex; once signaled, mutex will be re-acquired before continuing
   }
   dining->current_cleaners++; // increment the number of cleaners currently in the dining hall
+  pthread_mutex_unlock(&dining->lock); // unlock mutex
 }
 
 // void dining_cleaning_leave(dining_t* dining) called when cleaning is complete.

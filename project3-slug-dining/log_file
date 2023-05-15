@@ -1,0 +1,1312 @@
+start:
+#include <pthread.h>
+#include <stdio.h>
+#include <unistd.h>
+#include "dining.h"
+#include "utils.h"
+int main(void) {
+dining_t* d1 = dining_init(3);
+student_t student1001 = make_student(1001, d1);
+student_t student1002 = make_student(1002, d1);
+student_t student1003 = make_student(1003, d1);
+student_t student1004 = make_student(1004, d1);
+student_t student1005 = make_student(1005, d1);
+student_t student1006 = make_student(1006, d1);
+cleaning_t cleaning1001 = make_cleaning(1001, d1);
+cleaning_t cleaning1002 = make_cleaning(1002, d1);
+cleaning_t cleaning1003 = make_cleaning(1003, d1);
+cleaning_t cleaning1004 = make_cleaning(1004, d1);
+cleaning_t cleaning1005 = make_cleaning(1005, d1);
+cleaning_t cleaning1006 = make_cleaning(1006, d1);
+pthread_create(&cleaning1001.thread, NULL, cleaning_enter, &cleaning1001);
+msleep(100);
+pthread_join(cleaning1001.thread, NULL);
+pthread_create(&cleaning1001.thread, NULL, cleaning_leave, &cleaning1001);
+pthread_join(cleaning1001.thread, NULL);
+pthread_create(&student1001.thread, NULL, student_enter, &student1001);
+pthread_join(student1001.thread, NULL);
+msleep(100);
+pthread_create(&student1001.thread, NULL, student_leave, &student1001);
+pthread_create(&student1002.thread, NULL, student_enter, &student1002);
+pthread_join(student1002.thread, NULL);
+pthread_create(&cleaning1002.thread, NULL, cleaning_enter, &cleaning1002);
+pthread_join(student1001.thread, NULL);
+msleep(100);
+pthread_create(&student1002.thread, NULL, student_leave, &student1002);
+pthread_create(&student1003.thread, NULL, student_enter, &student1003);
+pthread_create(&student1004.thread, NULL, student_enter, &student1004);
+pthread_join(student1002.thread, NULL);
+msleep(100);
+pthread_join(cleaning1002.thread, NULL);
+pthread_create(&student1005.thread, NULL, student_enter, &student1005);
+msleep(100);
+pthread_create(&cleaning1002.thread, NULL, cleaning_leave, &cleaning1002);
+pthread_join(cleaning1002.thread, NULL);
+pthread_join(student1003.thread, NULL);
+msleep(100);
+pthread_join(student1004.thread, NULL);
+pthread_join(student1005.thread, NULL);
+pthread_create(&student1006.thread, NULL, student_enter, &student1006);
+pthread_create(&student1003.thread, NULL, student_leave, &student1003);
+msleep(100);
+pthread_join(student1006.thread, NULL);
+pthread_join(student1003.thread, NULL);
+pthread_create(&student1006.thread, NULL, student_leave, &student1006);
+pthread_join(student1006.thread, NULL);
+msleep(100);
+pthread_create(&cleaning1003.thread, NULL, cleaning_enter, &cleaning1003);
+pthread_create(&student1005.thread, NULL, student_leave, &student1005);
+msleep(100);
+pthread_join(student1005.thread, NULL);
+pthread_create(&student1004.thread, NULL, student_leave, &student1004);
+msleep(100);
+pthread_join(student1004.thread, NULL);
+pthread_join(cleaning1003.thread, NULL);
+pthread_create(&cleaning1004.thread, NULL, cleaning_enter, &cleaning1004);
+pthread_create(&cleaning1003.thread, NULL, cleaning_leave, &cleaning1003);
+msleep(100);
+pthread_join(cleaning1003.thread, NULL);
+pthread_join(cleaning1004.thread, NULL);
+pthread_create(&cleaning1004.thread, NULL, cleaning_leave, &cleaning1004);
+msleep(100);
+pthread_join(cleaning1004.thread, NULL);
+pthread_create(&cleaning1005.thread, NULL, cleaning_enter, &cleaning1005);
+msleep(100);
+pthread_join(cleaning1005.thread, NULL);
+pthread_create(&cleaning1005.thread, NULL, cleaning_leave, &cleaning1005);
+msleep(100);
+pthread_join(cleaning1005.thread, NULL);
+pthread_create(&cleaning1006.thread, NULL, cleaning_enter, &cleaning1006);
+pthread_join(cleaning1006.thread, NULL);
+pthread_create(&cleaning1006.thread, NULL, cleaning_leave, &cleaning1006);
+pthread_join(cleaning1006.thread, NULL);
+msleep(100);
+dining_destroy(&d1);
+}
+clang -Wall -Wextra -Werror -std=c11 -pedantic -Wno-unused-parameter -c example3.c
+clang -Wall -Wextra -Werror -std=c11 -pedantic -Wno-unused-parameter example3.o dining.o utils.o -o example3
+Trial 1, loop 1
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Student 1001 leaves
+Student 1001 left
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1002 leaves
+Student 1003 comes in
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1003 entered
+Student 1004 entered
+Student 1005 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 2
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Student 1001 leaves
+Student 1001 left
+Cleaning 1002 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1004 comes in
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1004 comes in
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 3
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Student 1001 leaves
+Student 1001 left
+Cleaning 1002 comes in
+Student 1002 leaves
+Student 1002 left
+Student 1004 comes in
+Cleaning 1002 entered
+Student 1003 comes in
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Cleaning 1003 comes in
+Student 1005 leaves
+Student 1005 left
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 4
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1006 comes in
+Student 1003 leaves
+Student 1003 left
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1004 comes in
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 5
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1006 comes in
+Student 1003 leaves
+Student 1003 left
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 6
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Student 1004 comes in
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1004 entered
+Student 1005 entered
+Student 1003 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1004 comes in
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 7
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1003 entered
+Student 1005 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1004 comes in
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 8
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Student 1001 leaves
+Student 1001 left
+Cleaning 1002 comes in
+Student 1003 comes in
+Student 1004 comes in
+Student 1002 leaves
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1004 comes in
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 9
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Student 1001 leaves
+Student 1001 left
+Cleaning 1002 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Student 1004 comes in
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Cleaning 1003 comes in
+Student 1005 leaves
+Student 1005 left
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1004 comes in
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 10
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1002 leaves
+Student 1003 comes in
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 11
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1002 leaves
+Student 1003 comes in
+Cleaning 1002 entered
+Student 1002 left
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1003 entered
+Student 1005 entered
+Student 1004 entered
+Student 1006 comes in
+Student 1003 leaves
+Student 1003 left
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Cleaning 1003 comes in
+Student 1005 leaves
+Student 1005 left
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 12
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1001 leaves
+Student 1001 left
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Cleaning 1002 entered
+Student 1004 comes in
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1004 comes in
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 13
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Student 1004 comes in
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1004 entered
+Student 1003 entered
+Student 1005 entered
+Student 1006 comes in
+Student 1003 leaves
+Student 1003 left
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 14
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1001 leaves
+Student 1001 left
+Student 1003 comes in
+Student 1002 leaves
+Student 1004 comes in
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 15
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1004 comes in
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Cleaning 1003 comes in
+Student 1005 leaves
+Student 1005 left
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 16
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1004 entered
+Student 1005 entered
+Student 1003 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Cleaning 1003 comes in
+Student 1005 leaves
+Student 1005 left
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 17
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Student 1001 leaves
+Student 1001 left
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1002 leaves
+Student 1003 comes in
+Cleaning 1002 entered
+Student 1002 left
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1003 entered
+Student 1004 entered
+Student 1005 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Cleaning 1003 comes in
+Student 1005 leaves
+Student 1005 left
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 18
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Student 1001 leaves
+Student 1001 left
+Cleaning 1002 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Cleaning 1002 entered
+Student 1004 comes in
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1006 comes in
+Student 1003 leaves
+Student 1003 left
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 19
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1001 leaves
+Student 1001 left
+Student 1003 comes in
+Student 1004 comes in
+Student 1002 leaves
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 20
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Student 1001 leaves
+Student 1001 left
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1004 entered
+Student 1003 entered
+Student 1006 comes in
+Student 1003 leaves
+Student 1003 left
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Cleaning 1003 comes in
+Student 1005 leaves
+Student 1005 left
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 21
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1004 entered
+Student 1003 entered
+Student 1005 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Cleaning 1003 comes in
+Student 1005 leaves
+Student 1005 left
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1004 comes in
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 22
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1002 leaves
+Student 1003 comes in
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1003 entered
+Student 1004 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 23
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1004 comes in
+Student 1002 leaves
+Student 1003 comes in
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1004 entered
+Student 1003 entered
+Student 1006 comes in
+Student 1003 leaves
+Student 1003 left
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 24
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1001 leaves
+Student 1001 left
+Student 1002 comes in
+Student 1002 entered
+Cleaning 1002 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1004 comes in
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1005 entered
+Student 1004 entered
+Student 1003 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Cleaning 1003 comes in
+Student 1005 leaves
+Student 1005 left
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 comes in
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left
+Trial 1, loop 25
+Cleaning 1001 comes in
+Cleaning 1001 entered
+Cleaning 1001 leaves
+Cleaning 1001 left
+Student 1001 comes in
+Student 1001 entered
+Student 1002 comes in
+Student 1002 entered
+Student 1001 leaves
+Student 1001 left
+Cleaning 1002 comes in
+Student 1003 comes in
+Student 1002 leaves
+Student 1004 comes in
+Student 1002 left
+Cleaning 1002 entered
+Student 1005 comes in
+Cleaning 1002 leaves
+Cleaning 1002 left
+Student 1004 entered
+Student 1005 entered
+Student 1003 entered
+Student 1003 leaves
+Student 1003 left
+Student 1006 comes in
+Student 1006 entered
+Student 1006 leaves
+Student 1006 left
+Student 1005 leaves
+Student 1005 left
+Cleaning 1003 comes in
+Student 1004 leaves
+Student 1004 left
+Cleaning 1003 entered
+Cleaning 1004 comes in
+Cleaning 1003 leaves
+Cleaning 1003 left
+Cleaning 1004 entered
+Cleaning 1004 leaves
+Cleaning 1004 left
+Cleaning 1005 comes in
+Cleaning 1005 entered
+Cleaning 1005 leaves
+Cleaning 1005 left
+Cleaning 1006 comes in
+Cleaning 1006 entered
+Cleaning 1006 leaves
+Cleaning 1006 left

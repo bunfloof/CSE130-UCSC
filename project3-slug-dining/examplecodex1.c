@@ -5,7 +5,6 @@ GenID: 4d66fff7-c2d7-4c37-aa5c-ea0869ee3016
 
 "Your friends don't even like you because you're not white." -Akogeno
 
-
 */
 #include <pthread.h>
 #include <stdio.h>
