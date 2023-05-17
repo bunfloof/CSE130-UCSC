@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "jetmartin.bats",
+    "ms-vscode.cpptools-extension-pack",
+    "vadimcn.vscode-lldb"
+  ]
+}
