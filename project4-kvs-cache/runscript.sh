@@ -25,9 +25,9 @@ for cmd in "${commands[@]}"; do
   runCommand "$cmd"
 done
 
-echo "💦 runscript.sh: Running valgrind --leak-check=full ./client data CLOCK 2"
+echo "💦 runscript.sh: Running valgrind --leak-check=full ./client data LRU 2"
 
-coproc CLIENT_PROCESS { stdbuf -o0 valgrind --leak-check=full ./client data CLOCK 2; }
+coproc CLIENT_PROCESS { stdbuf -o0 valgrind --leak-check=full ./client data LRU 2; }
 
 for client_cmd in "${client_commands[@]}"; do
   echo "$client_cmd"

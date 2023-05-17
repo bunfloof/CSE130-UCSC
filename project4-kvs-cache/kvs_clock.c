@@ -7,7 +7,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 struct kvs_clock {
   kvs_base_t* kvs_base;
   int capacity;
@@ -96,16 +95,13 @@ int kvs_clock_flush(kvs_clock_t* kvs_clock) {
   for (int i = 0; i < kvs_clock->size; ++i) {
     free(kvs_clock->keys[i]);
     free(kvs_clock->values[i]);
+    kvs_clock->keys[i] = NULL;
+    kvs_clock->values[i] = NULL;
     kvs_clock->ref_bits[i] = 0;
   }
 
   kvs_clock->size = 0;
   kvs_clock->cursor = 0;
-
-  // reallocate memory for keys, values and reference bits arrays
-  kvs_clock->keys = calloc(kvs_clock->capacity, sizeof(char*));
-  kvs_clock->values = calloc(kvs_clock->capacity, sizeof(char*));
-  kvs_clock->ref_bits = calloc(kvs_clock->capacity, sizeof(int));
 
   return 0;
 }
