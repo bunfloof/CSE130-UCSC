@@ -1,0 +1,5788 @@
+1
+00:00:00,060 --> 00:00:03,480
+is to create an abstract memory space
+
+2
+00:00:03,480 --> 00:00:05,759
+that is distinct from the physical
+
+3
+00:00:05,759 --> 00:00:07,560
+memory address
+
+4
+00:00:07,560 --> 00:00:10,620
+so that each program can have its own
+
+5
+00:00:10,620 --> 00:00:12,120
+memory space
+
+6
+00:00:12,120 --> 00:00:14,780
+and that are independent of each other
+
+7
+00:00:14,780 --> 00:00:18,240
+and we call it the other space of the
+
+8
+00:00:18,240 --> 00:00:19,619
+program
+
+9
+00:00:19,619 --> 00:00:21,300
+so there are a bunch of ways you can
+
+10
+00:00:21,300 --> 00:00:23,820
+implement this I think the basic one is
+
+11
+00:00:23,820 --> 00:00:27,660
+that you can have uh two values for each
+
+12
+00:00:27,660 --> 00:00:30,420
+process so one is the base so that
+
+13
+00:00:30,420 --> 00:00:32,540
+specifies where
+
+14
+00:00:32,540 --> 00:00:35,280
+the address space for that process
+
+15
+00:00:35,280 --> 00:00:37,380
+begins and limit is the length of the
+
+16
+00:00:37,380 --> 00:00:38,280
+program
+
+17
+00:00:38,280 --> 00:00:40,140
+so
+
+18
+00:00:40,140 --> 00:00:42,600
+basically you can use those two values
+
+19
+00:00:42,600 --> 00:00:44,640
+to figure out where in the physical
+
+20
+00:00:44,640 --> 00:00:48,899
+memory your process can access to
+
+21
+00:00:48,899 --> 00:00:53,460
+but it doesn't really scale and uh
+
+22
+00:00:53,460 --> 00:00:55,559
+well so
+
+23
+00:00:55,559 --> 00:00:58,079
+we talked about the Swap and virtual
+
+24
+00:00:58,079 --> 00:01:00,239
+memory so those are two approaches you
+
+25
+00:01:00,239 --> 00:01:04,199
+can run more programs in the memory
+
+26
+00:01:04,199 --> 00:01:08,280
+and swapping basically means
+
+27
+00:01:08,280 --> 00:01:09,180
+um
+
+28
+00:01:09,180 --> 00:01:11,460
+if your program sorry if your process is
+
+29
+00:01:11,460 --> 00:01:13,920
+not actively running you can just write
+
+30
+00:01:13,920 --> 00:01:16,860
+the content out to the disk so you your
+
+31
+00:01:16,860 --> 00:01:21,200
+memory can be used for other processes
+
+32
+00:01:21,299 --> 00:01:23,520
+and
+
+33
+00:01:23,520 --> 00:01:26,820
+you can do malloc in your program or you
+
+34
+00:01:26,820 --> 00:01:29,400
+can call a function that will create a
+
+35
+00:01:29,400 --> 00:01:30,659
+stack space
+
+36
+00:01:30,659 --> 00:01:32,220
+so
+
+37
+00:01:32,220 --> 00:01:36,119
+in modern systems programs grow as they
+
+38
+00:01:36,119 --> 00:01:37,439
+execute
+
+39
+00:01:37,439 --> 00:01:38,939
+so there are a couple of ways you can
+
+40
+00:01:38,939 --> 00:01:40,880
+allocate space
+
+41
+00:01:40,880 --> 00:01:44,400
+while supporting changing the program
+
+42
+00:01:44,400 --> 00:01:45,659
+size
+
+43
+00:01:45,659 --> 00:01:49,799
+and basically you are going to need
+
+44
+00:01:49,799 --> 00:01:51,240
+um
+
+45
+00:01:51,240 --> 00:01:53,100
+like a space in between
+
+46
+00:01:53,100 --> 00:01:54,479
+so
+
+47
+00:01:54,479 --> 00:01:56,820
+basically the stack grows One Direction
+
+48
+00:01:56,820 --> 00:01:59,340
+Heath goes the other direction so you
+
+49
+00:01:59,340 --> 00:02:00,479
+can do
+
+50
+00:02:00,479 --> 00:02:04,340
+um Dynamic allocation this way
+
+51
+00:02:04,860 --> 00:02:06,960
+so
+
+52
+00:02:06,960 --> 00:02:09,360
+the next thing we talked about was how
+
+53
+00:02:09,360 --> 00:02:11,099
+to manage the free memory
+
+54
+00:02:11,099 --> 00:02:14,700
+so the physical memory is just one giant
+
+55
+00:02:14,700 --> 00:02:16,260
+memory right
+
+56
+00:02:16,260 --> 00:02:18,239
+and the question is how are you going to
+
+57
+00:02:18,239 --> 00:02:20,160
+assign
+
+58
+00:02:20,160 --> 00:02:23,099
+like the memory into processes
+
+59
+00:02:23,099 --> 00:02:25,680
+and two techniques are described in a
+
+60
+00:02:25,680 --> 00:02:26,700
+textbook
+
+61
+00:02:26,700 --> 00:02:28,680
+one is called bitmaps and the other is
+
+62
+00:02:28,680 --> 00:02:30,900
+called linked list
+
+63
+00:02:30,900 --> 00:02:33,599
+so the idea is that basically you're
+
+64
+00:02:33,599 --> 00:02:35,700
+going to create a data structure so this
+
+65
+00:02:35,700 --> 00:02:39,480
+one's the bitmap and this one is the
+
+66
+00:02:39,480 --> 00:02:40,739
+linked list
+
+67
+00:02:40,739 --> 00:02:45,660
+and by checking those data structures
+
+68
+00:02:45,660 --> 00:02:47,640
+you can tell
+
+69
+00:02:47,640 --> 00:02:50,280
+where like which portion of the memory
+
+70
+00:02:50,280 --> 00:02:53,280
+is being used and which one is not
+
+71
+00:02:53,280 --> 00:02:56,099
+and when you want when the new process
+
+72
+00:02:56,099 --> 00:02:57,420
+is created
+
+73
+00:02:57,420 --> 00:03:01,019
+you can just find a free space
+
+74
+00:03:01,019 --> 00:03:02,640
+and you're going to assign that free
+
+75
+00:03:02,640 --> 00:03:03,420
+space
+
+76
+00:03:03,420 --> 00:03:06,260
+um to the process
+
+77
+00:03:06,660 --> 00:03:07,920
+so
+
+78
+00:03:07,920 --> 00:03:08,640
+um
+
+79
+00:03:08,640 --> 00:03:10,200
+there's a pros and cons of the
+
+80
+00:03:10,200 --> 00:03:13,739
+approaches bitmaps it's compact but you
+
+81
+00:03:13,739 --> 00:03:15,659
+need to search memory for K consecutive
+
+82
+00:03:15,659 --> 00:03:20,280
+zeros and this can be expensive
+
+83
+00:03:20,280 --> 00:03:24,060
+linked list is what you imagine so you
+
+84
+00:03:24,060 --> 00:03:26,819
+are basically going to have a node for
+
+85
+00:03:26,819 --> 00:03:30,480
+each like partition in memory
+
+86
+00:03:30,480 --> 00:03:33,959
+and you're going to have a flag on um if
+
+87
+00:03:33,959 --> 00:03:36,000
+this plot if this section is being used
+
+88
+00:03:36,000 --> 00:03:37,920
+or not
+
+89
+00:03:37,920 --> 00:03:40,140
+and using linked lists there are a
+
+90
+00:03:40,140 --> 00:03:43,140
+couple of ways you can find
+
+91
+00:03:43,140 --> 00:03:44,879
+uh
+
+92
+00:03:44,879 --> 00:03:48,840
+uh them like section of the memory where
+
+93
+00:03:48,840 --> 00:03:49,799
+you
+
+94
+00:03:49,799 --> 00:03:52,860
+um assign it to the pro the new process
+
+95
+00:03:52,860 --> 00:03:56,159
+so the next fit best fit worst fit quick
+
+96
+00:03:56,159 --> 00:03:58,319
+fit or like four options
+
+97
+00:03:58,319 --> 00:04:01,140
+and I think last week the professor did
+
+98
+00:04:01,140 --> 00:04:03,120
+some drawing here right
+
+99
+00:04:03,120 --> 00:04:04,319
+so
+
+100
+00:04:04,319 --> 00:04:05,400
+um
+
+101
+00:04:05,400 --> 00:04:07,319
+the trade-offs
+
+102
+00:04:07,319 --> 00:04:09,739
+okay
+
+103
+00:04:12,319 --> 00:04:13,980
+and
+
+104
+00:04:13,980 --> 00:04:17,100
+yeah so we also talked about uh virtual
+
+105
+00:04:17,100 --> 00:04:19,620
+memory memory so that's
+
+106
+00:04:19,620 --> 00:04:21,899
+um how modern operating systems manage
+
+107
+00:04:21,899 --> 00:04:24,260
+memory
+
+108
+00:04:24,620 --> 00:04:29,060
+and okay so virtual memory
+
+109
+00:04:29,100 --> 00:04:31,740
+so the key idea of virtual memory is
+
+110
+00:04:31,740 --> 00:04:34,440
+programs address space is broken up into
+
+111
+00:04:34,440 --> 00:04:37,800
+fixed pay size pages and pages are
+
+112
+00:04:37,800 --> 00:04:40,740
+mapped to physical memory
+
+113
+00:04:40,740 --> 00:04:44,100
+and there is a special component in
+
+114
+00:04:44,100 --> 00:04:45,780
+machine called memory management unit
+
+115
+00:04:45,780 --> 00:04:49,320
+and that takes care of the conversion
+
+116
+00:04:49,320 --> 00:04:54,440
+from physical address to Virtual address
+
+117
+00:04:56,880 --> 00:04:58,440
+right
+
+118
+00:04:58,440 --> 00:05:01,919
+so I think this picture is good so
+
+119
+00:05:01,919 --> 00:05:03,960
+as you can see in here
+
+120
+00:05:03,960 --> 00:05:05,520
+uh
+
+121
+00:05:05,520 --> 00:05:09,540
+virtual address space is larger than the
+
+122
+00:05:09,540 --> 00:05:12,419
+physical memory of this
+
+123
+00:05:12,419 --> 00:05:15,300
+so when you want to talk to
+
+124
+00:05:15,300 --> 00:05:17,400
+um the virtual page
+
+125
+00:05:17,400 --> 00:05:21,000
+you you first have to load the page into
+
+126
+00:05:21,000 --> 00:05:23,039
+your physical memory
+
+127
+00:05:23,039 --> 00:05:26,820
+so that you can read or set
+
+128
+00:05:26,820 --> 00:05:29,600
+um to your page
+
+129
+00:05:31,199 --> 00:05:32,820
+and yeah so
+
+130
+00:05:32,820 --> 00:05:36,139
+so this mapping is called page map
+
+131
+00:05:36,139 --> 00:05:39,539
+and typically it has a couple of an
+
+132
+00:05:39,539 --> 00:05:42,180
+additional metadata to keep track of you
+
+133
+00:05:42,180 --> 00:05:44,039
+know which page is modified or if each
+
+134
+00:05:44,039 --> 00:05:46,680
+page is being referenced and those are
+
+135
+00:05:46,680 --> 00:05:51,740
+represented by those a couple of bits
+
+136
+00:05:52,620 --> 00:05:54,660
+so
+
+137
+00:05:54,660 --> 00:05:57,539
+if you want to access a page or like I
+
+138
+00:05:57,539 --> 00:06:00,479
+mean the virtual page but if the page is
+
+139
+00:06:00,479 --> 00:06:03,360
+not in memory that'll cause a page fault
+
+140
+00:06:03,360 --> 00:06:07,520
+and now it is up to the operating system
+
+141
+00:06:07,520 --> 00:06:13,020
+to fetch the data from the disk to
+
+142
+00:06:13,020 --> 00:06:14,820
+memory
+
+143
+00:06:14,820 --> 00:06:17,699
+and that's called page fold processing
+
+144
+00:06:17,699 --> 00:06:20,520
+and
+
+145
+00:06:20,520 --> 00:06:22,919
+okay so that's page fold
+
+146
+00:06:22,919 --> 00:06:26,639
+and as I was saying so page table
+
+147
+00:06:26,639 --> 00:06:27,720
+um
+
+148
+00:06:27,720 --> 00:06:30,479
+is basically um
+
+149
+00:06:30,479 --> 00:06:33,180
+a metadata associated with each page
+
+150
+00:06:33,180 --> 00:06:34,860
+and
+
+151
+00:06:34,860 --> 00:06:37,500
+at least it has the virtual page number
+
+152
+00:06:37,500 --> 00:06:40,380
+and offset so the offset
+
+153
+00:06:40,380 --> 00:06:41,460
+um
+
+154
+00:06:41,460 --> 00:06:43,880
+right
+
+155
+00:06:44,639 --> 00:06:47,759
+so anyway you walk like like this
+
+156
+00:06:47,759 --> 00:06:51,419
+and yeah so structure so page table is a
+
+157
+00:06:51,419 --> 00:06:53,819
+just a data structure so
+
+158
+00:06:53,819 --> 00:06:55,380
+you
+
+159
+00:06:55,380 --> 00:06:58,919
+create this structure in your memory
+
+160
+00:06:58,919 --> 00:07:01,139
+and
+
+161
+00:07:01,139 --> 00:07:03,620
+right
+
+162
+00:07:04,560 --> 00:07:07,139
+sorry no difference
+
+163
+00:07:07,139 --> 00:07:09,360
+right yeah so
+
+164
+00:07:09,360 --> 00:07:12,419
+whenever you access memory
+
+165
+00:07:12,419 --> 00:07:15,120
+this page mapping has to happen so it is
+
+166
+00:07:15,120 --> 00:07:18,840
+important that these operations can be
+
+167
+00:07:18,840 --> 00:07:21,440
+done very fast
+
+168
+00:07:22,979 --> 00:07:26,580
+it up address translation
+
+169
+00:07:26,580 --> 00:07:29,759
+NMU typically have what's called tlb
+
+170
+00:07:29,759 --> 00:07:32,280
+translation look outside buffer and that
+
+171
+00:07:32,280 --> 00:07:34,680
+stores frequently accessed frames so it
+
+172
+00:07:34,680 --> 00:07:38,099
+can respond really fast
+
+173
+00:07:38,099 --> 00:07:40,620
+there's that
+
+174
+00:07:40,620 --> 00:07:43,319
+so the description is there
+
+175
+00:07:43,319 --> 00:07:45,780
+and
+
+176
+00:07:45,780 --> 00:07:48,780
+you can also have multiple levels of
+
+177
+00:07:48,780 --> 00:07:50,699
+page tables
+
+178
+00:07:50,699 --> 00:07:51,360
+um
+
+179
+00:07:51,360 --> 00:07:54,840
+to so that you don't have to keep the
+
+180
+00:07:54,840 --> 00:07:57,960
+entire page table in memory
+
+181
+00:07:57,960 --> 00:08:00,479
+and here's a diagram
+
+182
+00:08:00,479 --> 00:08:02,520
+and I think you guys watched the video
+
+183
+00:08:02,520 --> 00:08:04,199
+last time
+
+184
+00:08:04,199 --> 00:08:07,800
+so because that was my 10 Minute review
+
+185
+00:08:07,800 --> 00:08:09,720
+from the last week
+
+186
+00:08:09,720 --> 00:08:11,819
+and I'll be talking about page
+
+187
+00:08:11,819 --> 00:08:15,120
+replacement algorithms today
+
+188
+00:08:15,120 --> 00:08:16,500
+so
+
+189
+00:08:16,500 --> 00:08:19,020
+as I was saying earlier there are more
+
+190
+00:08:19,020 --> 00:08:22,919
+virtual Pages than the physical page
+
+191
+00:08:22,919 --> 00:08:26,879
+and if the physical memory is full and
+
+192
+00:08:26,879 --> 00:08:29,940
+you want to bring in the new page
+
+193
+00:08:29,940 --> 00:08:32,458
+you basically have to kick out one of
+
+194
+00:08:32,458 --> 00:08:35,159
+the pages so that you can bring the new
+
+195
+00:08:35,159 --> 00:08:36,419
+one in
+
+196
+00:08:36,419 --> 00:08:38,458
+but the question is which one do you
+
+197
+00:08:38,458 --> 00:08:40,520
+want to evict
+
+198
+00:08:40,520 --> 00:08:43,020
+and as you can imagine you don't want to
+
+199
+00:08:43,020 --> 00:08:45,839
+evict heavily used Pages because if you
+
+200
+00:08:45,839 --> 00:08:47,940
+evict that page and if that page is
+
+201
+00:08:47,940 --> 00:08:51,180
+needed in the next clock cycle they're
+
+202
+00:08:51,180 --> 00:08:54,360
+just waste of resources right
+
+203
+00:08:54,360 --> 00:08:55,560
+so
+
+204
+00:08:55,560 --> 00:08:56,279
+um
+
+205
+00:08:56,279 --> 00:09:00,060
+pastry replacement algorithms determine
+
+206
+00:09:00,060 --> 00:09:04,380
+um like how you replace
+
+207
+00:09:04,380 --> 00:09:08,600
+um Pages inside memory
+
+208
+00:09:09,060 --> 00:09:11,880
+so there are a couple of algorithms and
+
+209
+00:09:11,880 --> 00:09:16,820
+I'll be talking about them today
+
+210
+00:09:18,360 --> 00:09:21,899
+so there's one algorithm called optimal
+
+211
+00:09:21,899 --> 00:09:23,820
+page replacement
+
+212
+00:09:23,820 --> 00:09:26,339
+so this is simple
+
+213
+00:09:26,339 --> 00:09:26,880
+um
+
+214
+00:09:26,880 --> 00:09:29,459
+you're going to pick the one that will
+
+215
+00:09:29,459 --> 00:09:33,560
+not used before the longest time
+
+216
+00:09:33,720 --> 00:09:36,899
+but as you can imagine like if you're
+
+217
+00:09:36,899 --> 00:09:39,360
+computer you don't know which page will
+
+218
+00:09:39,360 --> 00:09:41,880
+be needed in future
+
+219
+00:09:41,880 --> 00:09:45,000
+so this is called optimal because it has
+
+220
+00:09:45,000 --> 00:09:47,279
+the Optimal Performance but you cannot
+
+221
+00:09:47,279 --> 00:09:49,680
+implement it in practice
+
+222
+00:09:49,680 --> 00:09:53,519
+but it is used as a reference algorithm
+
+223
+00:09:53,519 --> 00:09:56,760
+so you know given the workload you
+
+224
+00:09:56,760 --> 00:09:58,320
+basically calculate
+
+225
+00:09:58,320 --> 00:09:58,920
+um
+
+226
+00:09:58,920 --> 00:10:01,560
+in with this optimal page replacement
+
+227
+00:10:01,560 --> 00:10:03,660
+algorithm how many page faults will
+
+228
+00:10:03,660 --> 00:10:05,880
+happen so that would be the Baseline and
+
+229
+00:10:05,880 --> 00:10:08,279
+you're going to evaluate the other
+
+230
+00:10:08,279 --> 00:10:09,779
+algorithms
+
+231
+00:10:09,779 --> 00:10:11,279
+um
+
+232
+00:10:11,279 --> 00:10:14,459
+in comparison to this one
+
+233
+00:10:14,459 --> 00:10:16,740
+so
+
+234
+00:10:16,740 --> 00:10:17,640
+um
+
+235
+00:10:17,640 --> 00:10:22,740
+I thought I can do some examples here
+
+236
+00:10:22,740 --> 00:10:26,180
+so let's just do that
+
+237
+00:10:35,580 --> 00:10:39,000
+you guys still hear me I mean okay yeah
+
+238
+00:10:39,000 --> 00:10:41,600
+so
+
+239
+00:10:47,399 --> 00:10:49,860
+so this one is
+
+240
+00:10:49,860 --> 00:10:52,519
+code
+
+241
+00:10:55,019 --> 00:10:57,980
+optimal policy
+
+242
+00:10:59,220 --> 00:11:02,279
+and suppose that your system will
+
+243
+00:11:02,279 --> 00:11:08,100
+receive access to page 0 and then one
+
+244
+00:11:08,100 --> 00:11:10,339
+two
+
+245
+00:11:10,339 --> 00:11:13,200
+uh zero one
+
+246
+00:11:13,200 --> 00:11:14,760
+three
+
+247
+00:11:14,760 --> 00:11:17,040
+zero three
+
+248
+00:11:17,040 --> 00:11:21,000
+one two one something like that
+
+249
+00:11:21,000 --> 00:11:23,420
+okay
+
+250
+00:11:29,160 --> 00:11:31,019
+okay
+
+251
+00:11:31,019 --> 00:11:34,760
+so this is the access
+
+252
+00:11:36,959 --> 00:11:40,140
+and suppose that the cache size is three
+
+253
+00:11:40,140 --> 00:11:42,000
+so that means you can
+
+254
+00:11:42,000 --> 00:11:43,740
+um
+
+255
+00:11:43,740 --> 00:11:46,680
+you can store three pages in memory at a
+
+256
+00:11:46,680 --> 00:11:47,459
+time
+
+257
+00:11:47,459 --> 00:11:50,720
+so um
+
+258
+00:11:52,200 --> 00:11:54,180
+okay
+
+259
+00:11:54,180 --> 00:11:55,560
+so
+
+260
+00:11:55,560 --> 00:11:58,079
+a new goal in this order
+
+261
+00:11:58,079 --> 00:12:03,240
+so first you want to read page zero
+
+262
+00:12:03,240 --> 00:12:04,920
+and
+
+263
+00:12:04,920 --> 00:12:06,480
+let's see
+
+264
+00:12:06,480 --> 00:12:09,019
+so
+
+265
+00:12:14,700 --> 00:12:16,320
+so in the beginning
+
+266
+00:12:16,320 --> 00:12:18,360
+your cache is empty
+
+267
+00:12:18,360 --> 00:12:21,540
+so what you're going to do is
+
+268
+00:12:21,540 --> 00:12:24,480
+um well so it will cause a page fault so
+
+269
+00:12:24,480 --> 00:12:25,740
+it's not
+
+270
+00:12:25,740 --> 00:12:27,240
+uh
+
+271
+00:12:27,240 --> 00:12:30,180
+cash hits so I'm going to write cache
+
+272
+00:12:30,180 --> 00:12:31,260
+Miss
+
+273
+00:12:31,260 --> 00:12:32,700
+and you don't have to evict anything
+
+274
+00:12:32,700 --> 00:12:36,480
+right now and your cash is going to
+
+275
+00:12:36,480 --> 00:12:38,519
+become zero
+
+276
+00:12:38,519 --> 00:12:41,640
+because you just accessed page 0 and you
+
+277
+00:12:41,640 --> 00:12:44,839
+brought that into the cash
+
+278
+00:12:45,120 --> 00:12:50,339
+okay next you're going to read page one
+
+279
+00:12:50,339 --> 00:12:53,459
+this is again a cash Miss
+
+280
+00:12:53,459 --> 00:12:57,540
+because again it's not in cash right
+
+281
+00:12:57,540 --> 00:13:01,320
+and then your cash is going to be
+
+282
+00:13:01,320 --> 00:13:04,820
+0 1.
+
+283
+00:13:06,180 --> 00:13:08,160
+it'll keep doing this so the same thing
+
+284
+00:13:08,160 --> 00:13:09,540
+happened for
+
+285
+00:13:09,540 --> 00:13:12,779
+um this one so it's not in the cache
+
+286
+00:13:12,779 --> 00:13:15,740
+you add it to cash
+
+287
+00:13:16,940 --> 00:13:20,700
+and if you want to read zero
+
+288
+00:13:20,700 --> 00:13:23,100
+so that's a cash hit
+
+289
+00:13:23,100 --> 00:13:27,360
+because page 0 is in memory right now
+
+290
+00:13:27,360 --> 00:13:29,880
+so you don't have to evict anything and
+
+291
+00:13:29,880 --> 00:13:34,940
+the cash remains 0 and 2.
+
+292
+00:13:35,160 --> 00:13:38,279
+and if you access one no problem
+
+293
+00:13:38,279 --> 00:13:40,139
+that's a cash hit
+
+294
+00:13:40,139 --> 00:13:44,300
+no eviction zero one two
+
+295
+00:13:45,540 --> 00:13:47,339
+so now
+
+296
+00:13:47,339 --> 00:13:51,000
+you want to read page three
+
+297
+00:13:51,000 --> 00:13:53,220
+but that's not in memory
+
+298
+00:13:53,220 --> 00:13:56,160
+so you have to load it from somewhere
+
+299
+00:13:56,160 --> 00:14:00,480
+and you want to put three in cash right
+
+300
+00:14:00,480 --> 00:14:03,320
+so the question is
+
+301
+00:14:03,480 --> 00:14:06,420
+you have to evict one of these pages
+
+302
+00:14:06,420 --> 00:14:09,720
+which one should be evict in this case
+
+303
+00:14:09,720 --> 00:14:12,120
+okay so people are saying two
+
+304
+00:14:12,120 --> 00:14:14,959
+zero
+
+305
+00:14:15,120 --> 00:14:18,740
+okay so why do you think it's zero
+
+306
+00:14:25,500 --> 00:14:28,459
+yeah so
+
+307
+00:14:28,560 --> 00:14:31,740
+right so if you evicts zero
+
+308
+00:14:31,740 --> 00:14:33,660
+you're gonna need it here right
+
+309
+00:14:33,660 --> 00:14:36,540
+so then you evict zero and then you load
+
+310
+00:14:36,540 --> 00:14:39,120
+it in the next cycle so that's
+
+311
+00:14:39,120 --> 00:14:41,699
+doesn't sound a good idea
+
+312
+00:14:41,699 --> 00:14:43,440
+so
+
+313
+00:14:43,440 --> 00:14:46,680
+if you look at this so one is used here
+
+314
+00:14:46,680 --> 00:14:49,160
+but two is used here
+
+315
+00:14:49,160 --> 00:14:53,880
+so two is not needed right now right so
+
+316
+00:14:53,880 --> 00:14:56,399
+that's the like least needed page in
+
+317
+00:14:56,399 --> 00:14:57,600
+this context
+
+318
+00:14:57,600 --> 00:14:59,579
+so what I'm going to do is I'm going to
+
+319
+00:14:59,579 --> 00:15:01,800
+evict
+
+320
+00:15:01,800 --> 00:15:04,440
+2 here
+
+321
+00:15:04,440 --> 00:15:06,959
+and so this is cache Miss
+
+322
+00:15:06,959 --> 00:15:09,660
+and I'm going to basically replace
+
+323
+00:15:09,660 --> 00:15:12,060
+two with three
+
+324
+00:15:12,060 --> 00:15:14,100
+so it'll be zero
+
+325
+00:15:14,100 --> 00:15:17,600
+one three
+
+326
+00:15:24,839 --> 00:15:27,420
+yeah so that's why we cannot Implement
+
+327
+00:15:27,420 --> 00:15:29,760
+optimal policy in practice because you
+
+328
+00:15:29,760 --> 00:15:32,100
+don't know what's going to happen right
+
+329
+00:15:32,100 --> 00:15:34,940
+so yeah
+
+330
+00:15:37,860 --> 00:15:39,660
+yeah so that's this is a page table
+
+331
+00:15:39,660 --> 00:15:42,019
+essential
+
+332
+00:15:45,360 --> 00:15:46,860
+yeah but in general you don't know what
+
+333
+00:15:46,860 --> 00:15:48,300
+can happen in future so you can
+
+334
+00:15:48,300 --> 00:15:50,519
+implement this but I mean just sort of
+
+335
+00:15:50,519 --> 00:15:52,920
+demonstrating how it works okay
+
+336
+00:15:52,920 --> 00:15:55,560
+so next
+
+337
+00:15:55,560 --> 00:15:57,360
+um zero
+
+338
+00:15:57,360 --> 00:16:00,240
+is in cash so this is hit
+
+339
+00:16:00,240 --> 00:16:03,420
+and you don't have to change uh
+
+340
+00:16:03,420 --> 00:16:05,040
+the cache
+
+341
+00:16:05,040 --> 00:16:10,440
+and then so three is also hit so Hit
+
+342
+00:16:10,440 --> 00:16:13,620
+and then one is also
+
+343
+00:16:13,620 --> 00:16:16,160
+cash
+
+344
+00:16:17,040 --> 00:16:20,120
+right yes
+
+345
+00:16:22,500 --> 00:16:24,420
+and then
+
+346
+00:16:24,420 --> 00:16:27,000
+the two shows up and that's the one we
+
+347
+00:16:27,000 --> 00:16:28,620
+evicted earlier
+
+348
+00:16:28,620 --> 00:16:31,880
+so this is cache Miss
+
+349
+00:16:31,880 --> 00:16:35,100
+and well in this case
+
+350
+00:16:35,100 --> 00:16:35,940
+um
+
+351
+00:16:35,940 --> 00:16:39,720
+neither zero nor three is needed in
+
+352
+00:16:39,720 --> 00:16:42,720
+future so we can evict um like either of
+
+353
+00:16:42,720 --> 00:16:45,540
+them I'm just gonna pick three
+
+354
+00:16:45,540 --> 00:16:47,339
+so it's going to replace
+
+355
+00:16:47,339 --> 00:16:51,120
+um three with two so it'll be zero one
+
+356
+00:16:51,120 --> 00:16:52,440
+two
+
+357
+00:16:52,440 --> 00:16:53,820
+and then
+
+358
+00:16:53,820 --> 00:16:55,560
+this will be hit
+
+359
+00:16:55,560 --> 00:16:58,440
+and do one two
+
+360
+00:16:58,440 --> 00:17:01,019
+so this is the um
+
+361
+00:17:01,019 --> 00:17:04,020
+how ultimate policy might work but as I
+
+362
+00:17:04,020 --> 00:17:05,880
+was saying you can't implement this
+
+363
+00:17:05,880 --> 00:17:07,020
+because you don't know what's gonna
+
+364
+00:17:07,020 --> 00:17:08,400
+happen in future
+
+365
+00:17:08,400 --> 00:17:10,880
+okay
+
+366
+00:17:10,980 --> 00:17:13,880
+so
+
+367
+00:17:14,040 --> 00:17:16,559
+now
+
+368
+00:17:16,559 --> 00:17:20,360
+going back to the slides
+
+369
+00:17:22,980 --> 00:17:25,079
+so okay so that's the one you cannot
+
+370
+00:17:25,079 --> 00:17:26,160
+implement
+
+371
+00:17:26,160 --> 00:17:28,679
+and the other algorithms are ones that
+
+372
+00:17:28,679 --> 00:17:30,780
+you can actually implement
+
+373
+00:17:30,780 --> 00:17:33,900
+so this one is called not recently used
+
+374
+00:17:33,900 --> 00:17:37,260
+and the idea is that if the page is not
+
+375
+00:17:37,260 --> 00:17:40,020
+recently used that's probably
+
+376
+00:17:40,020 --> 00:17:42,780
+not required so you can just evict one
+
+377
+00:17:42,780 --> 00:17:43,919
+right
+
+378
+00:17:43,919 --> 00:17:49,760
+so each entry will have two bits
+
+379
+00:17:49,760 --> 00:17:52,799
+R and M bits
+
+380
+00:17:52,799 --> 00:17:54,900
+and the operating system periodically
+
+381
+00:17:54,900 --> 00:17:58,260
+clear our bit or or actually R stands
+
+382
+00:17:58,260 --> 00:17:59,640
+for reference bit so I'm just going to
+
+383
+00:17:59,640 --> 00:18:01,500
+call it reference speed
+
+384
+00:18:01,500 --> 00:18:03,840
+and
+
+385
+00:18:03,840 --> 00:18:05,220
+basically
+
+386
+00:18:05,220 --> 00:18:07,919
+when you read that page you're going to
+
+387
+00:18:07,919 --> 00:18:10,320
+turn on the orbit
+
+388
+00:18:10,320 --> 00:18:13,020
+and if you modify the page you're going
+
+389
+00:18:13,020 --> 00:18:17,820
+to set the M bit so M4 modifier yeah
+
+390
+00:18:17,820 --> 00:18:20,179
+so
+
+391
+00:18:23,640 --> 00:18:25,020
+yeah
+
+392
+00:18:25,020 --> 00:18:26,820
+yeah yeah
+
+393
+00:18:26,820 --> 00:18:29,940
+and so it periodically clear our bit you
+
+394
+00:18:29,940 --> 00:18:33,419
+cannot periodically clear M bit because
+
+395
+00:18:33,419 --> 00:18:36,299
+m means the page is modified right so
+
+396
+00:18:36,299 --> 00:18:39,900
+you're going to want to keep that
+
+397
+00:18:39,900 --> 00:18:41,460
+or actually
+
+398
+00:18:41,460 --> 00:18:44,160
+you don't have to keep it but
+
+399
+00:18:44,160 --> 00:18:45,380
+um
+
+400
+00:18:45,380 --> 00:18:48,780
+evicting the modified page is more
+
+401
+00:18:48,780 --> 00:18:51,980
+expensive than evicting not modified
+
+402
+00:18:51,980 --> 00:18:54,780
+ones because there's a
+
+403
+00:18:54,780 --> 00:18:57,179
+currency issue
+
+404
+00:18:57,179 --> 00:18:58,919
+so
+
+405
+00:18:58,919 --> 00:19:01,919
+um so using those two bits
+
+406
+00:19:01,919 --> 00:19:05,580
+each page can be categorized into those
+
+407
+00:19:05,580 --> 00:19:07,500
+four classes
+
+408
+00:19:07,500 --> 00:19:09,000
+so sometimes
+
+409
+00:19:09,000 --> 00:19:09,660
+um
+
+410
+00:19:09,660 --> 00:19:13,200
+it can be neither more referenced nor
+
+411
+00:19:13,200 --> 00:19:14,400
+modified
+
+412
+00:19:14,400 --> 00:19:16,679
+or some of them or not reference but
+
+413
+00:19:16,679 --> 00:19:19,260
+modified that's always possible and some
+
+414
+00:19:19,260 --> 00:19:22,039
+of them are referenced not modified and
+
+415
+00:19:22,039 --> 00:19:24,179
+reference modified right so there are
+
+416
+00:19:24,179 --> 00:19:25,380
+four categories
+
+417
+00:19:25,380 --> 00:19:28,620
+and when you have to evict something you
+
+418
+00:19:28,620 --> 00:19:29,940
+basically pick
+
+419
+00:19:29,940 --> 00:19:32,360
+the page with
+
+420
+00:19:32,360 --> 00:19:35,400
+lowest like number here
+
+421
+00:19:35,400 --> 00:19:38,280
+so if there is a page that is not
+
+422
+00:19:38,280 --> 00:19:40,440
+referenced and not modified that's the
+
+423
+00:19:40,440 --> 00:19:42,179
+one you want to kick out
+
+424
+00:19:42,179 --> 00:19:45,660
+and if there's no such entry then you
+
+425
+00:19:45,660 --> 00:19:48,600
+fall back to this class one so that's
+
+426
+00:19:48,600 --> 00:19:51,799
+not a reference but modified
+
+427
+00:19:54,780 --> 00:19:57,380
+yeah so
+
+428
+00:20:01,380 --> 00:20:03,000
+uh
+
+429
+00:20:03,000 --> 00:20:04,440
+yes
+
+430
+00:20:04,440 --> 00:20:08,760
+I mean priority to be kept in the page
+
+431
+00:20:08,760 --> 00:20:10,140
+table
+
+432
+00:20:10,140 --> 00:20:12,500
+right
+
+433
+00:20:12,840 --> 00:20:14,880
+because you want to keep the referenced
+
+434
+00:20:14,880 --> 00:20:17,100
+and the modified one so that have the
+
+435
+00:20:17,100 --> 00:20:19,580
+priority
+
+436
+00:20:21,960 --> 00:20:26,280
+and I'm not going to do the drawing here
+
+437
+00:20:26,280 --> 00:20:28,020
+because
+
+438
+00:20:28,020 --> 00:20:30,660
+um periodically clear our bit part is
+
+439
+00:20:30,660 --> 00:20:32,220
+kind of complicated like you don't know
+
+440
+00:20:32,220 --> 00:20:36,260
+how often it happens right
+
+441
+00:20:36,900 --> 00:20:38,580
+okay so that's
+
+442
+00:20:38,580 --> 00:20:40,559
+um not the recently used one
+
+443
+00:20:40,559 --> 00:20:43,860
+and there's one called fifo so it's
+
+444
+00:20:43,860 --> 00:20:45,660
+first in first out
+
+445
+00:20:45,660 --> 00:20:47,880
+so basically you're going to keep the
+
+446
+00:20:47,880 --> 00:20:50,100
+list ordered by time
+
+447
+00:20:50,100 --> 00:20:53,640
+and evict the oldest one this is easy to
+
+448
+00:20:53,640 --> 00:20:55,220
+implement
+
+449
+00:20:55,220 --> 00:20:58,200
+and but the question is
+
+450
+00:20:58,200 --> 00:21:00,660
+if the page is old
+
+451
+00:21:00,660 --> 00:21:04,919
+doesn't mean it's not important right so
+
+452
+00:21:04,919 --> 00:21:07,080
+for example if you think about
+
+453
+00:21:07,080 --> 00:21:09,299
+well never mind yeah but
+
+454
+00:21:09,299 --> 00:21:11,840
+oh this doesn't necessarily mean
+
+455
+00:21:11,840 --> 00:21:14,520
+it's not important
+
+456
+00:21:14,520 --> 00:21:17,039
+and that's the sort of drawback
+
+457
+00:21:17,039 --> 00:21:17,940
+um
+
+458
+00:21:17,940 --> 00:21:20,960
+for this algorithm
+
+459
+00:21:22,140 --> 00:21:24,000
+Okay so
+
+460
+00:21:24,000 --> 00:21:26,940
+I actually want to do the same example
+
+461
+00:21:26,940 --> 00:21:30,080
+using fifo
+
+462
+00:21:30,120 --> 00:21:33,020
+so let's do that
+
+463
+00:21:35,760 --> 00:21:39,620
+so yes
+
+464
+00:21:40,140 --> 00:21:43,440
+so I'm going to create the same table
+
+465
+00:21:43,440 --> 00:21:45,539
+so this is
+
+466
+00:21:45,539 --> 00:21:48,659
+so this is fifo
+
+467
+00:21:48,659 --> 00:21:52,140
+so it says X
+
+468
+00:21:52,140 --> 00:21:53,760
+s
+
+469
+00:21:53,760 --> 00:21:55,980
+it
+
+470
+00:21:55,980 --> 00:21:58,460
+effect
+
+471
+00:21:58,500 --> 00:22:01,340
+and cash
+
+472
+00:22:01,940 --> 00:22:07,940
+and it's zero one two zero one three
+
+473
+00:22:07,940 --> 00:22:13,440
+zero three one two one okay
+
+474
+00:22:13,440 --> 00:22:15,539
+so
+
+475
+00:22:15,539 --> 00:22:18,840
+the first first three axis will be the
+
+476
+00:22:18,840 --> 00:22:21,860
+same and if you miss miss
+
+477
+00:22:21,860 --> 00:22:24,840
+and you're going to put these entries in
+
+478
+00:22:24,840 --> 00:22:26,340
+order
+
+479
+00:22:26,340 --> 00:22:31,200
+so um let's do something like this so
+
+480
+00:22:31,200 --> 00:22:33,480
+after reading zero the cast is going to
+
+481
+00:22:33,480 --> 00:22:36,360
+be zero and after reading one
+
+482
+00:22:36,360 --> 00:22:38,640
+you're going to shift it by one
+
+483
+00:22:38,640 --> 00:22:39,960
+so
+
+484
+00:22:39,960 --> 00:22:42,539
+in this case
+
+485
+00:22:42,539 --> 00:22:46,140
+uh like a one on the left is older and
+
+486
+00:22:46,140 --> 00:22:48,240
+one right is newer right
+
+487
+00:22:48,240 --> 00:22:51,480
+and it is the same so it'll be zero one
+
+488
+00:22:51,480 --> 00:22:54,539
+two okay
+
+489
+00:22:54,539 --> 00:22:57,720
+uh this so if you want to read zero
+
+490
+00:22:57,720 --> 00:23:00,720
+that's in cash so that's cash hit you
+
+491
+00:23:00,720 --> 00:23:02,640
+don't have to evict anything you keep
+
+492
+00:23:02,640 --> 00:23:04,940
+the cash
+
+493
+00:23:04,980 --> 00:23:07,440
+so now
+
+494
+00:23:07,440 --> 00:23:09,360
+okay so okay
+
+495
+00:23:09,360 --> 00:23:12,960
+one is also in cash you do this
+
+496
+00:23:12,960 --> 00:23:15,659
+what happens if you want to read three
+
+497
+00:23:15,659 --> 00:23:16,860
+well
+
+498
+00:23:16,860 --> 00:23:18,799
+uh
+
+499
+00:23:18,799 --> 00:23:22,020
+you have to evict something
+
+500
+00:23:22,020 --> 00:23:25,320
+and because we're using fifo order
+
+501
+00:23:25,320 --> 00:23:28,320
+we are going to evict the oldest
+
+502
+00:23:28,320 --> 00:23:29,700
+page entry
+
+503
+00:23:29,700 --> 00:23:33,299
+in a page table which is this one
+
+504
+00:23:33,299 --> 00:23:34,500
+right
+
+505
+00:23:34,500 --> 00:23:36,480
+so this one was the oldest
+
+506
+00:23:36,480 --> 00:23:40,919
+so I'm going to evict 0 so this is cache
+
+507
+00:23:40,919 --> 00:23:42,000
+Miss
+
+508
+00:23:42,000 --> 00:23:45,960
+and the page table is going to look like
+
+509
+00:23:45,960 --> 00:23:47,340
+one
+
+510
+00:23:47,340 --> 00:23:49,980
+two three
+
+511
+00:23:49,980 --> 00:23:52,080
+so this is different from the often
+
+512
+00:23:52,080 --> 00:23:54,780
+policy right it's optimal policy
+
+513
+00:23:54,780 --> 00:23:57,000
+but also the optimal decision was to
+
+514
+00:23:57,000 --> 00:23:58,500
+evict too
+
+515
+00:23:58,500 --> 00:24:00,419
+but because we don't know and we're
+
+516
+00:24:00,419 --> 00:24:03,780
+using fifo we are kicking out zero which
+
+517
+00:24:03,780 --> 00:24:06,539
+is used here so this is it turns out to
+
+518
+00:24:06,539 --> 00:24:09,659
+be inefficient so this is going to be
+
+519
+00:24:09,659 --> 00:24:13,039
+cash Miss
+
+520
+00:24:14,000 --> 00:24:17,340
+and again we're going to kick out the
+
+521
+00:24:17,340 --> 00:24:19,799
+older one so it's just this one
+
+522
+00:24:19,799 --> 00:24:21,780
+so it's going to evict
+
+523
+00:24:21,780 --> 00:24:24,440
+one
+
+524
+00:24:25,039 --> 00:24:26,580
+two
+
+525
+00:24:26,580 --> 00:24:30,179
+three and you're going to bring zero
+
+526
+00:24:30,179 --> 00:24:31,740
+okay
+
+527
+00:24:31,740 --> 00:24:34,860
+so three is in cash it's hit
+
+528
+00:24:34,860 --> 00:24:36,840
+two three zero
+
+529
+00:24:36,840 --> 00:24:40,500
+uh one is not in memory so you have to
+
+530
+00:24:40,500 --> 00:24:41,539
+do
+
+531
+00:24:41,539 --> 00:24:43,500
+load again
+
+532
+00:24:43,500 --> 00:24:45,659
+this will be a cache Miss
+
+533
+00:24:45,659 --> 00:24:47,880
+you're going to evict this one
+
+534
+00:24:47,880 --> 00:24:52,080
+and then it will be three zero one
+
+535
+00:24:52,080 --> 00:24:53,760
+right
+
+536
+00:24:53,760 --> 00:24:57,120
+two again we just evicted two so
+
+537
+00:24:57,120 --> 00:24:59,179
+unfortunately we have to do it again
+
+538
+00:24:59,179 --> 00:25:01,740
+we're going to kick out three
+
+539
+00:25:01,740 --> 00:25:06,059
+so it'll be zero one two and finally one
+
+540
+00:25:06,059 --> 00:25:08,159
+is in gas so this is Cash hit
+
+541
+00:25:08,159 --> 00:25:10,140
+and
+
+542
+00:25:10,140 --> 00:25:11,240
+yeah
+
+543
+00:25:11,240 --> 00:25:14,220
+so you can see the clear difference in
+
+544
+00:25:14,220 --> 00:25:15,720
+here right so
+
+545
+00:25:15,720 --> 00:25:19,020
+in the optimal policy
+
+546
+00:25:19,020 --> 00:25:21,860
+uh
+
+547
+00:25:22,200 --> 00:25:24,720
+there are a bunch of hits around here
+
+548
+00:25:24,720 --> 00:25:27,900
+and you don't really have to evict
+
+549
+00:25:27,900 --> 00:25:29,820
+twice
+
+550
+00:25:29,820 --> 00:25:32,640
+but in five four because you don't know
+
+551
+00:25:32,640 --> 00:25:35,039
+what's going to happen in future you
+
+552
+00:25:35,039 --> 00:25:36,779
+might evict
+
+553
+00:25:36,779 --> 00:25:38,820
+one that
+
+554
+00:25:38,820 --> 00:25:40,799
+um is used right after
+
+555
+00:25:40,799 --> 00:25:44,159
+and that are going to increase the rate
+
+556
+00:25:44,159 --> 00:25:46,020
+of page Folds
+
+557
+00:25:46,020 --> 00:25:47,520
+okay
+
+558
+00:25:47,520 --> 00:25:50,659
+so this is fifo
+
+559
+00:25:53,220 --> 00:25:57,320
+not that complicated right
+
+560
+00:26:03,539 --> 00:26:05,220
+so
+
+561
+00:26:05,220 --> 00:26:07,740
+the problem with
+
+562
+00:26:07,740 --> 00:26:10,860
+fifo was that
+
+563
+00:26:10,860 --> 00:26:15,720
+the old old entry doesn't mean you don't
+
+564
+00:26:15,720 --> 00:26:17,039
+need it
+
+565
+00:26:17,039 --> 00:26:20,159
+so how can we how we can implement it
+
+566
+00:26:20,159 --> 00:26:23,520
+sorry how we can improve it is to modify
+
+567
+00:26:23,520 --> 00:26:26,039
+the algorithm slightly to make it a
+
+568
+00:26:26,039 --> 00:26:28,260
+second chance algorithm
+
+569
+00:26:28,260 --> 00:26:30,840
+so we're going to use the reference bit
+
+570
+00:26:30,840 --> 00:26:32,400
+again
+
+571
+00:26:32,400 --> 00:26:36,059
+and so we're going to
+
+572
+00:26:36,059 --> 00:26:38,760
+basically do the fifo until
+
+573
+00:26:38,760 --> 00:26:41,460
+um you have to evict an entry
+
+574
+00:26:41,460 --> 00:26:45,840
+so you sort things in order
+
+575
+00:26:45,840 --> 00:26:48,620
+like this
+
+576
+00:26:49,080 --> 00:26:51,980
+and
+
+577
+00:26:52,500 --> 00:26:54,720
+when you um
+
+578
+00:26:54,720 --> 00:26:57,360
+evict the page
+
+579
+00:26:57,360 --> 00:27:00,539
+instead of just picking the entry that's
+
+580
+00:27:00,539 --> 00:27:03,299
+at the top of the
+
+581
+00:27:03,299 --> 00:27:03,900
+um
+
+582
+00:27:03,900 --> 00:27:05,520
+list
+
+583
+00:27:05,520 --> 00:27:09,000
+you're going to evict the page whose
+
+584
+00:27:09,000 --> 00:27:11,940
+reference bit is zero
+
+585
+00:27:11,940 --> 00:27:16,520
+so if RB is true that means that's
+
+586
+00:27:16,520 --> 00:27:18,900
+referenced recently so you don't want to
+
+587
+00:27:18,900 --> 00:27:21,360
+evict that so you're going to avoid the
+
+588
+00:27:21,360 --> 00:27:23,600
+problem
+
+589
+00:27:23,820 --> 00:27:26,820
+and
+
+590
+00:27:27,419 --> 00:27:29,900
+okay
+
+591
+00:27:30,779 --> 00:27:32,400
+so if
+
+592
+00:27:32,400 --> 00:27:35,520
+the orbit is zero you can evict it and
+
+593
+00:27:35,520 --> 00:27:38,039
+yeah if the orbit is set
+
+594
+00:27:38,039 --> 00:27:40,500
+you actually put the page at the end of
+
+595
+00:27:40,500 --> 00:27:43,740
+the list and you're going to reset the
+
+596
+00:27:43,740 --> 00:27:44,880
+um
+
+597
+00:27:44,880 --> 00:27:46,860
+reference bit
+
+598
+00:27:46,860 --> 00:27:49,740
+so even if
+
+599
+00:27:49,740 --> 00:27:53,039
+old the reference bits are true
+
+600
+00:27:53,039 --> 00:27:55,679
+you're basically are going to go over
+
+601
+00:27:55,679 --> 00:27:58,740
+the list and turn all the bits false so
+
+602
+00:27:58,740 --> 00:28:00,840
+you get the um
+
+603
+00:28:00,840 --> 00:28:03,659
+there is no one I you decide to evict
+
+604
+00:28:03,659 --> 00:28:06,260
+the original one
+
+605
+00:28:07,260 --> 00:28:10,640
+and yeah sorry
+
+606
+00:28:13,320 --> 00:28:17,480
+why don't we look at the modified bit
+
+607
+00:28:22,500 --> 00:28:25,279
+didn't even know
+
+608
+00:28:25,860 --> 00:28:30,120
+uh why we use reference speed not the
+
+609
+00:28:30,120 --> 00:28:32,600
+modified bit
+
+610
+00:28:35,039 --> 00:28:37,580
+any idea
+
+611
+00:28:52,380 --> 00:28:55,679
+right yeah you're right yeah
+
+612
+00:28:55,679 --> 00:28:57,720
+because modification is a reference
+
+613
+00:28:57,720 --> 00:28:59,580
+right yeah yeah
+
+614
+00:28:59,580 --> 00:29:03,500
+yeah sure do you have a question
+
+615
+00:29:10,980 --> 00:29:12,600
+yeah it takes the
+
+616
+00:29:12,600 --> 00:29:16,880
+one that was originally at the top
+
+617
+00:29:19,500 --> 00:29:21,600
+the oldest
+
+618
+00:29:21,600 --> 00:29:24,440
+is it cute yeah
+
+619
+00:29:25,440 --> 00:29:28,500
+so okay so this is good
+
+620
+00:29:28,500 --> 00:29:31,200
+but one downside is that you're gonna
+
+621
+00:29:31,200 --> 00:29:32,820
+have to
+
+622
+00:29:32,820 --> 00:29:34,980
+um move the page around right so you're
+
+623
+00:29:34,980 --> 00:29:37,620
+gonna have to
+
+624
+00:29:37,620 --> 00:29:40,380
+basically check the first
+
+625
+00:29:40,380 --> 00:29:43,380
+um element in a queue and if the
+
+626
+00:29:43,380 --> 00:29:45,240
+reference speed is one
+
+627
+00:29:45,240 --> 00:29:48,480
+you have to copy it to all the way back
+
+628
+00:29:48,480 --> 00:29:51,179
+to the queue so this is inefficient so
+
+629
+00:29:51,179 --> 00:29:54,600
+there is a way to improve that so this
+
+630
+00:29:54,600 --> 00:29:56,039
+clock algorithm
+
+631
+00:29:56,039 --> 00:29:58,380
+will basically achieve the same thing
+
+632
+00:29:58,380 --> 00:30:00,720
+without
+
+633
+00:30:00,720 --> 00:30:02,779
+um
+
+634
+00:30:03,899 --> 00:30:06,539
+without moving around the pages
+
+635
+00:30:06,539 --> 00:30:09,000
+and okay I forgot to mention
+
+636
+00:30:09,000 --> 00:30:10,320
+but
+
+637
+00:30:10,320 --> 00:30:12,659
+so in Project four you're gonna have to
+
+638
+00:30:12,659 --> 00:30:15,059
+implement three page replacement
+
+639
+00:30:15,059 --> 00:30:18,899
+algorithms so it's fifo
+
+640
+00:30:18,899 --> 00:30:22,679
+clock this one and least recently used
+
+641
+00:30:22,679 --> 00:30:24,059
+so
+
+642
+00:30:24,059 --> 00:30:27,179
+um anyway so the idea is
+
+643
+00:30:27,179 --> 00:30:30,980
+you're gonna have to implement this so
+
+644
+00:30:32,940 --> 00:30:35,419
+okay
+
+645
+00:30:37,080 --> 00:30:39,799
+so
+
+646
+00:30:39,840 --> 00:30:41,340
+okay so I should I think I should
+
+647
+00:30:41,340 --> 00:30:42,539
+explain
+
+648
+00:30:42,539 --> 00:30:45,360
+the clock algorithm first
+
+649
+00:30:45,360 --> 00:30:48,600
+so you're going to have
+
+650
+00:30:48,600 --> 00:30:51,299
+a memory in circle
+
+651
+00:30:51,299 --> 00:30:52,679
+like you can think of like taking a
+
+652
+00:30:52,679 --> 00:30:55,380
+modulo by the length of the list right
+
+653
+00:30:55,380 --> 00:30:58,200
+and if the page fault occurs
+
+654
+00:30:58,200 --> 00:31:00,659
+the page hand
+
+655
+00:31:00,659 --> 00:31:03,120
+the page the hand is pointing to is
+
+656
+00:31:03,120 --> 00:31:05,220
+inspected so in this case this we're
+
+657
+00:31:05,220 --> 00:31:07,500
+going to inspect this C
+
+658
+00:31:07,500 --> 00:31:10,200
+and we do the following depending on the
+
+659
+00:31:10,200 --> 00:31:13,200
+status of the reference bit if reference
+
+660
+00:31:13,200 --> 00:31:16,740
+speed is zero you evict this page and if
+
+661
+00:31:16,740 --> 00:31:19,980
+reference speed is one you clear this
+
+662
+00:31:19,980 --> 00:31:22,080
+reference bit and Advance hand which
+
+663
+00:31:22,080 --> 00:31:24,480
+means you're going clockwise so the hand
+
+664
+00:31:24,480 --> 00:31:26,880
+moves to C to D
+
+665
+00:31:26,880 --> 00:31:30,419
+so I want to do the example
+
+666
+00:31:30,419 --> 00:31:32,220
+here
+
+667
+00:31:32,220 --> 00:31:34,940
+in camera
+
+668
+00:31:37,140 --> 00:31:38,880
+so this is
+
+669
+00:31:38,880 --> 00:31:41,480
+clock
+
+670
+00:31:41,520 --> 00:31:44,340
+and
+
+671
+00:31:44,340 --> 00:31:45,600
+then I'll do a slightly different
+
+672
+00:31:45,600 --> 00:31:48,720
+example so but the still size equals
+
+673
+00:31:48,720 --> 00:31:49,679
+three
+
+674
+00:31:49,679 --> 00:31:52,020
+so you're going to have
+
+675
+00:31:52,020 --> 00:31:54,140
+um
+
+676
+00:31:54,360 --> 00:31:56,399
+actually
+
+677
+00:31:56,399 --> 00:31:58,020
+I'm going to be using pencil because I
+
+678
+00:31:58,020 --> 00:32:01,039
+want to erase things
+
+679
+00:32:01,320 --> 00:32:02,820
+yeah okay
+
+680
+00:32:02,820 --> 00:32:04,440
+so first
+
+681
+00:32:04,440 --> 00:32:07,260
+we're gonna need
+
+682
+00:32:07,260 --> 00:32:09,419
+three
+
+683
+00:32:09,419 --> 00:32:11,340
+cash entries
+
+684
+00:32:11,340 --> 00:32:13,679
+so one two
+
+685
+00:32:13,679 --> 00:32:16,140
+three
+
+686
+00:32:16,140 --> 00:32:18,720
+and you make it
+
+687
+00:32:18,720 --> 00:32:20,880
+a circle like this
+
+688
+00:32:20,880 --> 00:32:22,559
+okay
+
+689
+00:32:22,559 --> 00:32:24,419
+and
+
+690
+00:32:24,419 --> 00:32:27,659
+we're going to get access
+
+691
+00:32:27,659 --> 00:32:30,120
+like this zero
+
+692
+00:32:30,120 --> 00:32:32,640
+four one
+
+693
+00:32:32,640 --> 00:32:36,840
+four two four three
+
+694
+00:32:36,840 --> 00:32:38,159
+four
+
+695
+00:32:38,159 --> 00:32:40,620
+two four okay
+
+696
+00:32:40,620 --> 00:32:43,700
+so first
+
+697
+00:32:43,919 --> 00:32:45,899
+the hand
+
+698
+00:32:45,899 --> 00:32:47,039
+okay
+
+699
+00:32:47,039 --> 00:32:50,100
+this is inconvenient
+
+700
+00:32:50,100 --> 00:32:52,200
+okay so suppose that this eraser is a
+
+701
+00:32:52,200 --> 00:32:56,100
+hand right so it's the first hand
+
+702
+00:32:56,100 --> 00:32:59,899
+is pointing to this node
+
+703
+00:33:00,539 --> 00:33:04,320
+and we want to load zero so what's going
+
+704
+00:33:04,320 --> 00:33:07,020
+to happen is we are going to load
+
+705
+00:33:07,020 --> 00:33:08,640
+page zero
+
+706
+00:33:08,640 --> 00:33:11,159
+into here
+
+707
+00:33:11,159 --> 00:33:16,640
+and we move the hand to the next entry
+
+708
+00:33:19,980 --> 00:33:21,179
+okay
+
+709
+00:33:21,179 --> 00:33:25,559
+so now next we need four so we load four
+
+710
+00:33:25,559 --> 00:33:27,860
+here
+
+711
+00:33:29,640 --> 00:33:30,840
+okay
+
+712
+00:33:30,840 --> 00:33:32,460
+number four here
+
+713
+00:33:32,460 --> 00:33:35,820
+and remove the hand
+
+714
+00:33:35,820 --> 00:33:40,820
+next is going to be one same thing
+
+715
+00:33:40,860 --> 00:33:42,480
+right
+
+716
+00:33:42,480 --> 00:33:45,600
+sorry can't see it
+
+717
+00:33:45,600 --> 00:33:50,360
+so now we've completed those three steps
+
+718
+00:33:50,460 --> 00:33:54,179
+uh so next we want to read four and that
+
+719
+00:33:54,179 --> 00:33:57,539
+is in memory so you can just do it right
+
+720
+00:33:57,539 --> 00:33:59,960
+check
+
+721
+00:34:00,179 --> 00:34:03,000
+so next you want to read two
+
+722
+00:34:03,000 --> 00:34:06,000
+that is not in page table
+
+723
+00:34:06,000 --> 00:34:07,980
+so what's going to happen
+
+724
+00:34:07,980 --> 00:34:11,460
+is I'm going to it's okay so okay so
+
+725
+00:34:11,460 --> 00:34:12,300
+here
+
+726
+00:34:12,300 --> 00:34:15,480
+so it's the hand is pointing to this one
+
+727
+00:34:15,480 --> 00:34:17,219
+so we're going to check the reference
+
+728
+00:34:17,219 --> 00:34:21,179
+bit of this entry
+
+729
+00:34:21,179 --> 00:34:24,780
+and because we didn't reference this
+
+730
+00:34:24,780 --> 00:34:26,040
+node
+
+731
+00:34:26,040 --> 00:34:29,699
+this is the one we're going to evict
+
+732
+00:34:29,699 --> 00:34:33,300
+so I'm just going to replace 0 with
+
+733
+00:34:33,300 --> 00:34:35,699
+two
+
+734
+00:34:35,699 --> 00:34:39,918
+and remove the hand
+
+735
+00:34:39,960 --> 00:34:44,280
+to here because we just wrote
+
+736
+00:34:44,280 --> 00:34:46,918
+to the entry right
+
+737
+00:34:46,918 --> 00:34:49,199
+so now two is done
+
+738
+00:34:49,199 --> 00:34:52,338
+so next is four
+
+739
+00:34:56,280 --> 00:34:58,700
+right
+
+740
+00:34:59,460 --> 00:35:03,240
+okay so I actually made a mistake so
+
+741
+00:35:03,240 --> 00:35:05,160
+let's step back
+
+742
+00:35:05,160 --> 00:35:07,440
+and
+
+743
+00:35:07,440 --> 00:35:11,180
+well okay so nevermind sorry
+
+744
+00:35:12,780 --> 00:35:15,440
+when
+
+745
+00:35:15,960 --> 00:35:18,420
+we are here
+
+746
+00:35:18,420 --> 00:35:22,140
+uh we were like this right
+
+747
+00:35:22,140 --> 00:35:26,820
+so we read four so we have to set the
+
+748
+00:35:26,820 --> 00:35:29,280
+reference bit of this entry so I'm just
+
+749
+00:35:29,280 --> 00:35:30,300
+going to write
+
+750
+00:35:30,300 --> 00:35:32,040
+R here
+
+751
+00:35:32,040 --> 00:35:33,900
+to denote that reference speed is set
+
+752
+00:35:33,900 --> 00:35:36,060
+for this entry
+
+753
+00:35:36,060 --> 00:35:39,119
+so now so we're going to read two so we
+
+754
+00:35:39,119 --> 00:35:41,780
+place this one
+
+755
+00:35:42,660 --> 00:35:46,500
+we move the hand to here
+
+756
+00:35:46,500 --> 00:35:50,280
+and okay so we read four again but and
+
+757
+00:35:50,280 --> 00:35:52,500
+so we have to read the reference bit but
+
+758
+00:35:52,500 --> 00:35:54,119
+because it's already set you don't have
+
+759
+00:35:54,119 --> 00:35:55,320
+to do anything
+
+760
+00:35:55,320 --> 00:35:58,140
+or a set again right so if you complete
+
+761
+00:35:58,140 --> 00:35:59,460
+these steps
+
+762
+00:35:59,460 --> 00:36:02,520
+and then in the next step we're gonna
+
+763
+00:36:02,520 --> 00:36:07,560
+have to read three that is not in cash
+
+764
+00:36:07,560 --> 00:36:09,060
+so
+
+765
+00:36:09,060 --> 00:36:10,800
+the hand
+
+766
+00:36:10,800 --> 00:36:13,980
+is pointing to this node
+
+767
+00:36:13,980 --> 00:36:17,760
+but we cannot evict this page because of
+
+768
+00:36:17,760 --> 00:36:21,440
+the reference speed because we read we
+
+769
+00:36:21,440 --> 00:36:24,960
+referenced this node earlier
+
+770
+00:36:24,960 --> 00:36:28,200
+we decide not to evict this one
+
+771
+00:36:28,200 --> 00:36:30,960
+so we move the hand
+
+772
+00:36:30,960 --> 00:36:33,359
+and now so this one
+
+773
+00:36:33,359 --> 00:36:36,720
+is not referenced so this is the one
+
+774
+00:36:36,720 --> 00:36:39,740
+we're going to evict
+
+775
+00:36:40,320 --> 00:36:42,839
+so it'll be three
+
+776
+00:36:42,839 --> 00:36:45,200
+check
+
+777
+00:36:45,359 --> 00:36:47,880
+s and okay so we move the hand again
+
+778
+00:36:47,880 --> 00:36:49,440
+here
+
+779
+00:36:49,440 --> 00:36:53,220
+so 4 is in cash you can do it
+
+780
+00:36:53,220 --> 00:36:54,660
+to
+
+781
+00:36:54,660 --> 00:36:57,660
+uh is in cash no problem we set the
+
+782
+00:36:57,660 --> 00:36:58,760
+error
+
+783
+00:36:58,760 --> 00:37:03,320
+and four is in cash so
+
+784
+00:37:06,720 --> 00:37:09,839
+yes so that's important right so suppose
+
+785
+00:37:09,839 --> 00:37:11,460
+that
+
+786
+00:37:11,460 --> 00:37:13,140
+somehow we end up in this situation
+
+787
+00:37:13,140 --> 00:37:16,320
+right so two three four in cash and
+
+788
+00:37:16,320 --> 00:37:18,420
+they're all referenced and if you want
+
+789
+00:37:18,420 --> 00:37:21,480
+to load for example one
+
+790
+00:37:21,480 --> 00:37:24,780
+right so here oh actually so I forgot to
+
+791
+00:37:24,780 --> 00:37:26,760
+erase the reference bits all right okay
+
+792
+00:37:26,760 --> 00:37:29,400
+so that's a problem anyway so if you
+
+793
+00:37:29,400 --> 00:37:32,900
+want to load page one
+
+794
+00:37:33,000 --> 00:37:35,099
+this one is referenced so we cannot
+
+795
+00:37:35,099 --> 00:37:37,800
+evict this one we moved hand
+
+796
+00:37:37,800 --> 00:37:42,000
+and we remove the reference bit
+
+797
+00:37:42,000 --> 00:37:43,619
+okay
+
+798
+00:37:43,619 --> 00:37:45,660
+so we keep doing this so this one is
+
+799
+00:37:45,660 --> 00:37:47,880
+also referenced so I'm going to erase
+
+800
+00:37:47,880 --> 00:37:50,280
+the reference speed move the hand
+
+801
+00:37:50,280 --> 00:37:52,380
+this one's also referenced
+
+802
+00:37:52,380 --> 00:37:54,480
+remember the bit and then you come back
+
+803
+00:37:54,480 --> 00:37:56,040
+to this one
+
+804
+00:37:56,040 --> 00:37:58,079
+and this one's not I mean this one was
+
+805
+00:37:58,079 --> 00:38:00,480
+the reference but it's no longer so you
+
+806
+00:38:00,480 --> 00:38:05,480
+leave this one and change it to one yeah
+
+807
+00:38:07,440 --> 00:38:10,099
+okay
+
+808
+00:38:10,200 --> 00:38:12,359
+did I not I'm sorry
+
+809
+00:38:12,359 --> 00:38:15,720
+okay yeah look at my new right yeah you
+
+810
+00:38:15,720 --> 00:38:18,140
+moved hand
+
+811
+00:38:18,359 --> 00:38:21,500
+yeah so you just
+
+812
+00:38:24,060 --> 00:38:26,480
+yes
+
+813
+00:38:28,859 --> 00:38:30,900
+okay
+
+814
+00:38:30,900 --> 00:38:33,900
+uh
+
+815
+00:38:34,320 --> 00:38:36,359
+so that is
+
+816
+00:38:36,359 --> 00:38:39,240
+clock page replacement algorithms
+
+817
+00:38:39,240 --> 00:38:41,460
+and as far as I understand
+
+818
+00:38:41,460 --> 00:38:46,160
+it works the same as second chance
+
+819
+00:38:47,280 --> 00:38:49,640
+okay so the next one is called
+
+820
+00:38:49,640 --> 00:38:53,700
+lru or least recently used
+
+821
+00:38:53,700 --> 00:38:56,700
+and
+
+822
+00:38:58,260 --> 00:38:59,940
+so
+
+823
+00:38:59,940 --> 00:39:03,240
+the there are variations to this and but
+
+824
+00:39:03,240 --> 00:39:05,520
+I want to do I want to First do the
+
+825
+00:39:05,520 --> 00:39:06,599
+actual
+
+826
+00:39:06,599 --> 00:39:09,119
+lru with the examples I'm just going to
+
+827
+00:39:09,119 --> 00:39:12,380
+switch back to camera I'm sorry
+
+828
+00:39:12,780 --> 00:39:15,440
+so
+
+829
+00:39:32,700 --> 00:39:35,820
+yeah so I actually looked it up and it
+
+830
+00:39:35,820 --> 00:39:36,900
+seems that
+
+831
+00:39:36,900 --> 00:39:39,240
+it's like a design choice
+
+832
+00:39:39,240 --> 00:39:41,040
+so you can either set the reference
+
+833
+00:39:41,040 --> 00:39:44,460
+speed to one or zero when you load a new
+
+834
+00:39:44,460 --> 00:39:46,760
+entry
+
+835
+00:39:49,680 --> 00:39:52,579
+yeah it
+
+836
+00:39:53,460 --> 00:39:57,140
+yes yeah it'll be different
+
+837
+00:40:06,420 --> 00:40:08,760
+uh can we talk about it later because I
+
+838
+00:40:08,760 --> 00:40:11,960
+want to agree on that
+
+839
+00:40:12,000 --> 00:40:15,300
+Okay so
+
+840
+00:40:15,300 --> 00:40:19,440
+moving on so I want to do
+
+841
+00:40:19,440 --> 00:40:22,380
+where are you cash
+
+842
+00:40:22,380 --> 00:40:23,940
+so
+
+843
+00:40:23,940 --> 00:40:27,060
+I'm gonna just gonna use the same
+
+844
+00:40:27,060 --> 00:40:30,020
+table here
+
+845
+00:40:37,560 --> 00:40:39,359
+okay
+
+846
+00:40:39,359 --> 00:40:43,320
+so okay and I'm gonna have to write this
+
+847
+00:40:43,320 --> 00:40:46,160
+if they want to
+
+848
+00:40:55,260 --> 00:40:57,740
+okay
+
+849
+00:40:57,780 --> 00:41:00,260
+so
+
+850
+00:41:00,300 --> 00:41:02,099
+lru
+
+851
+00:41:02,099 --> 00:41:04,320
+so the first is going to be Mrs cash
+
+852
+00:41:04,320 --> 00:41:06,859
+misses
+
+853
+00:41:09,079 --> 00:41:10,920
+and
+
+854
+00:41:10,920 --> 00:41:14,700
+because it's lru
+
+855
+00:41:14,700 --> 00:41:17,660
+it's gonna be
+
+856
+00:41:18,000 --> 00:41:21,500
+I mean it's similar to fifo
+
+857
+00:41:23,579 --> 00:41:27,079
+but um basically
+
+858
+00:41:28,140 --> 00:41:30,420
+entries are on the left
+
+859
+00:41:30,420 --> 00:41:34,440
+or at least recently used so this is
+
+860
+00:41:34,440 --> 00:41:36,240
+least recently used
+
+861
+00:41:36,240 --> 00:41:39,720
+and one on the right is the most
+
+862
+00:41:39,720 --> 00:41:43,940
+recently used page so
+
+863
+00:41:45,780 --> 00:41:48,119
+okay
+
+864
+00:41:48,119 --> 00:41:51,119
+so here
+
+865
+00:41:51,119 --> 00:41:54,180
+I'm going to read page zero
+
+866
+00:41:54,180 --> 00:41:56,820
+so this is Cash hit right
+
+867
+00:41:56,820 --> 00:41:59,160
+you do not evict anything but the
+
+868
+00:41:59,160 --> 00:42:00,480
+difference between
+
+869
+00:42:00,480 --> 00:42:02,700
+so difference between this algorithm and
+
+870
+00:42:02,700 --> 00:42:04,619
+others is that
+
+871
+00:42:04,619 --> 00:42:07,500
+because you reference this
+
+872
+00:42:07,500 --> 00:42:09,960
+and you want to know which page was
+
+873
+00:42:09,960 --> 00:42:12,300
+least recently used you're going to have
+
+874
+00:42:12,300 --> 00:42:15,359
+to modif okay remember which page was
+
+875
+00:42:15,359 --> 00:42:18,000
+referenced like in order
+
+876
+00:42:18,000 --> 00:42:19,619
+so what I'm gonna have to do is I'm
+
+877
+00:42:19,619 --> 00:42:23,880
+going to move this zero to most recently
+
+878
+00:42:23,880 --> 00:42:26,040
+used area
+
+879
+00:42:26,040 --> 00:42:31,280
+so it will be one two zero
+
+880
+00:42:32,640 --> 00:42:34,859
+does it make sense because we access
+
+881
+00:42:34,859 --> 00:42:36,180
+zero
+
+882
+00:42:36,180 --> 00:42:37,920
+uh
+
+883
+00:42:37,920 --> 00:42:40,560
+we want to say that zero was the most
+
+884
+00:42:40,560 --> 00:42:41,900
+recent
+
+885
+00:42:41,900 --> 00:42:45,420
+ly used page
+
+886
+00:42:45,420 --> 00:42:48,060
+so the same thing for here so this is
+
+887
+00:42:48,060 --> 00:42:49,859
+Cash hit
+
+888
+00:42:49,859 --> 00:42:53,460
+but you move things around so it'll be
+
+889
+00:42:53,460 --> 00:42:57,780
+two zero one right
+
+890
+00:42:57,780 --> 00:43:00,119
+okay so next
+
+891
+00:43:00,119 --> 00:43:03,900
+we need page three sorry yeah
+
+892
+00:43:03,900 --> 00:43:05,960
+um
+
+893
+00:43:08,940 --> 00:43:11,940
+order is important because one on the
+
+894
+00:43:11,940 --> 00:43:13,920
+left is this is a least listen to used
+
+895
+00:43:13,920 --> 00:43:15,900
+one this is the most recent used one so
+
+896
+00:43:15,900 --> 00:43:18,359
+this is the order in which the page is
+
+897
+00:43:18,359 --> 00:43:20,359
+used
+
+898
+00:43:20,359 --> 00:43:22,920
+Okay so
+
+899
+00:43:22,920 --> 00:43:24,660
+we need page three
+
+900
+00:43:24,660 --> 00:43:27,540
+not in cash so this is cache Miss
+
+901
+00:43:27,540 --> 00:43:31,140
+and we're gonna evict the recent least
+
+902
+00:43:31,140 --> 00:43:32,760
+recently used
+
+903
+00:43:32,760 --> 00:43:35,760
+page that is two
+
+904
+00:43:35,760 --> 00:43:39,300
+so two and then
+
+905
+00:43:39,300 --> 00:43:41,099
+um it'll be
+
+906
+00:43:41,099 --> 00:43:44,280
+zero one three
+
+907
+00:43:44,280 --> 00:43:45,780
+so
+
+908
+00:43:45,780 --> 00:43:49,200
+moving on zero is in cash so it'll be
+
+909
+00:43:49,200 --> 00:43:50,460
+one
+
+910
+00:43:50,460 --> 00:43:53,579
+three zero so you move 0 here
+
+911
+00:43:53,579 --> 00:43:55,440
+let's hit
+
+912
+00:43:55,440 --> 00:43:57,060
+three
+
+913
+00:43:57,060 --> 00:43:58,859
+is Cash hit
+
+914
+00:43:58,859 --> 00:44:03,300
+you move it to the right so it'll be one
+
+915
+00:44:03,300 --> 00:44:05,940
+zero three
+
+916
+00:44:05,940 --> 00:44:07,380
+right
+
+917
+00:44:07,380 --> 00:44:10,260
+and
+
+918
+00:44:10,260 --> 00:44:12,420
+great
+
+919
+00:44:12,420 --> 00:44:14,099
+yes
+
+920
+00:44:14,099 --> 00:44:18,440
+so one is in memory so this is hit
+
+921
+00:44:18,440 --> 00:44:21,420
+and this is gonna be so one you want to
+
+922
+00:44:21,420 --> 00:44:24,660
+move one to the right so it'll be zero
+
+923
+00:44:24,660 --> 00:44:27,380
+three one
+
+924
+00:44:27,380 --> 00:44:30,839
+and two is not in memory so you're going
+
+925
+00:44:30,839 --> 00:44:33,920
+to evict zero so you're gonna fix zero
+
+926
+00:44:33,920 --> 00:44:36,780
+so this is cache Miss
+
+927
+00:44:36,780 --> 00:44:40,800
+and it'll be three one
+
+928
+00:44:40,800 --> 00:44:42,240
+two
+
+929
+00:44:42,240 --> 00:44:44,579
+and this is catch hit
+
+930
+00:44:44,579 --> 00:44:48,480
+and you move one so it should be three
+
+931
+00:44:48,480 --> 00:44:51,140
+two one
+
+932
+00:44:52,980 --> 00:44:55,400
+okay
+
+933
+00:44:55,440 --> 00:44:58,099
+makes sense
+
+934
+00:44:58,380 --> 00:45:00,599
+so this is
+
+935
+00:45:00,599 --> 00:45:05,300
+the you know naive implementation
+
+936
+00:45:09,240 --> 00:45:11,839
+second
+
+937
+00:45:14,579 --> 00:45:18,960
+so what I did in this example is really
+
+938
+00:45:18,960 --> 00:45:21,660
+expensive and the reason is whenever you
+
+939
+00:45:21,660 --> 00:45:24,480
+access the page you're gonna have to
+
+940
+00:45:24,480 --> 00:45:27,180
+like reorder stuff right
+
+941
+00:45:27,180 --> 00:45:29,640
+and because your computer
+
+942
+00:45:29,640 --> 00:45:33,119
+access memory
+
+943
+00:45:33,119 --> 00:45:35,040
+very frequently
+
+944
+00:45:35,040 --> 00:45:37,200
+if you naively do that like that's too
+
+945
+00:45:37,200 --> 00:45:39,599
+expensive and there are a couple of ways
+
+946
+00:45:39,599 --> 00:45:43,020
+you can approximate about you using some
+
+947
+00:45:43,020 --> 00:45:45,859
+clever techniques
+
+948
+00:45:47,060 --> 00:45:51,300
+so one way to do that is to use the
+
+949
+00:45:51,300 --> 00:45:53,460
+hardware array
+
+950
+00:45:53,460 --> 00:45:57,780
+so um basically we're going to associate
+
+951
+00:45:57,780 --> 00:46:01,680
+the counter with each page
+
+952
+00:46:01,680 --> 00:46:03,839
+and at each
+
+953
+00:46:03,839 --> 00:46:04,680
+um
+
+954
+00:46:04,680 --> 00:46:07,319
+reference increment the counter and
+
+955
+00:46:07,319 --> 00:46:10,680
+evict page with lowest counter and you
+
+956
+00:46:10,680 --> 00:46:14,339
+can do it using this clever rule so in
+
+957
+00:46:14,339 --> 00:46:17,520
+Hardware you keep and by NRA for n pages
+
+958
+00:46:17,520 --> 00:46:19,980
+so if you have n pages
+
+959
+00:46:19,980 --> 00:46:21,720
+um you're going to create like N squared
+
+960
+00:46:21,720 --> 00:46:23,099
+entries
+
+961
+00:46:23,099 --> 00:46:27,060
+and upon reference page K put ones in
+
+962
+00:46:27,060 --> 00:46:30,359
+the row K and zeros in column k
+
+963
+00:46:30,359 --> 00:46:32,640
+and after doing this when you have to
+
+964
+00:46:32,640 --> 00:46:35,579
+evict something you can choose
+
+965
+00:46:35,579 --> 00:46:38,700
+the one that's least recently used by
+
+966
+00:46:38,700 --> 00:46:41,280
+picking the smallest binary value
+
+967
+00:46:41,280 --> 00:46:43,680
+corresponds to the page
+
+968
+00:46:43,680 --> 00:46:46,319
+and this can be relatively easily done
+
+969
+00:46:46,319 --> 00:46:49,099
+in Hardware
+
+970
+00:46:49,760 --> 00:46:52,819
+so I don't know if you guys can see this
+
+971
+00:46:52,819 --> 00:46:56,640
+but I'm just gonna go over
+
+972
+00:46:56,640 --> 00:47:00,020
+so here
+
+973
+00:47:01,079 --> 00:47:02,880
+at time step 0
+
+974
+00:47:02,880 --> 00:47:05,819
+we want page zero like we access page
+
+975
+00:47:05,819 --> 00:47:06,960
+zero
+
+976
+00:47:06,960 --> 00:47:08,940
+so what I'm going to do
+
+977
+00:47:08,940 --> 00:47:12,000
+is I'm going to put once
+
+978
+00:47:12,000 --> 00:47:15,480
+in row zero so this is this row
+
+979
+00:47:15,480 --> 00:47:17,400
+so I'm just going to set one one one one
+
+980
+00:47:17,400 --> 00:47:19,319
+okay
+
+981
+00:47:19,319 --> 00:47:22,560
+and then put zeros in column zero so
+
+982
+00:47:22,560 --> 00:47:26,400
+it's this one and we set once first so
+
+983
+00:47:26,400 --> 00:47:28,440
+it's gonna be one one one one and then
+
+984
+00:47:28,440 --> 00:47:30,660
+we zero zero zero zero so it'll end up
+
+985
+00:47:30,660 --> 00:47:33,720
+something like this
+
+986
+00:47:33,720 --> 00:47:37,079
+and then in the next step
+
+987
+00:47:37,079 --> 00:47:39,660
+we access page one so we do the same
+
+988
+00:47:39,660 --> 00:47:42,720
+right so we change we set
+
+989
+00:47:42,720 --> 00:47:47,040
+every element in row one
+
+990
+00:47:47,040 --> 00:47:50,040
+to be one so reset one one one one
+
+991
+00:47:50,040 --> 00:47:54,359
+and we said column one to zero it's like
+
+992
+00:47:54,359 --> 00:47:56,220
+this
+
+993
+00:47:56,220 --> 00:47:58,859
+so we keep doing this so if it's two
+
+994
+00:47:58,859 --> 00:48:02,579
+set ones zeros right and if it's three
+
+995
+00:48:02,579 --> 00:48:06,380
+set it once and zeros
+
+996
+00:48:07,160 --> 00:48:10,980
+so for example suppose that we have to
+
+997
+00:48:10,980 --> 00:48:15,180
+evict a page at this step
+
+998
+00:48:15,180 --> 00:48:16,740
+what we're going to do is we're going to
+
+999
+00:48:16,740 --> 00:48:20,400
+read those binary numbers
+
+1000
+00:48:20,400 --> 00:48:24,060
+and so in this case this one is zero and
+
+1001
+00:48:24,060 --> 00:48:26,940
+this one is what like one two four eight
+
+1002
+00:48:26,940 --> 00:48:29,220
+so this is eight I think but as you can
+
+1003
+00:48:29,220 --> 00:48:31,680
+see the smallest one is this one
+
+1004
+00:48:31,680 --> 00:48:34,859
+so you're going to evict zero and it
+
+1005
+00:48:34,859 --> 00:48:37,619
+turns out to be the least recently used
+
+1006
+00:48:37,619 --> 00:48:39,960
+one right because this is the one that's
+
+1007
+00:48:39,960 --> 00:48:42,900
+used at least recently
+
+1008
+00:48:42,900 --> 00:48:46,079
+so by using this Hardware like Matrix
+
+1009
+00:48:46,079 --> 00:48:50,160
+you can implement lru
+
+1010
+00:48:50,160 --> 00:48:54,359
+with counter efficiently
+
+1011
+00:48:54,359 --> 00:48:57,079
+is it okay
+
+1012
+00:48:57,839 --> 00:48:59,940
+so now
+
+1013
+00:48:59,940 --> 00:49:02,000
+um
+
+1014
+00:49:08,640 --> 00:49:10,920
+I mean it's we're not counting zeros or
+
+1015
+00:49:10,920 --> 00:49:13,859
+ones we're evaluating like we're reading
+
+1016
+00:49:13,859 --> 00:49:18,140
+each row as a binary number
+
+1017
+00:49:18,359 --> 00:49:21,140
+so here
+
+1018
+00:49:22,680 --> 00:49:25,260
+the smallest number
+
+1019
+00:49:25,260 --> 00:49:26,640
+yeah so
+
+1020
+00:49:26,640 --> 00:49:28,380
+you're bad
+
+1021
+00:49:28,380 --> 00:49:31,680
+about your simple ones to mark
+
+1022
+00:49:31,680 --> 00:49:36,380
+like the most recently used yeah
+
+1023
+00:49:36,599 --> 00:49:38,819
+what columns you wipe out the other one
+
+1024
+00:49:38,819 --> 00:49:41,339
+yes
+
+1025
+00:49:41,339 --> 00:49:44,839
+it is kind of clever right
+
+1026
+00:49:45,119 --> 00:49:47,119
+yeah
+
+1027
+00:49:47,819 --> 00:49:51,000
+and but this require additional Hardware
+
+1028
+00:49:51,000 --> 00:49:52,500
+in your
+
+1029
+00:49:52,500 --> 00:49:55,200
+like computer like in a machine
+
+1030
+00:49:55,200 --> 00:49:58,079
+and if you do not want to
+
+1031
+00:49:58,079 --> 00:50:01,140
+you know take up space by that component
+
+1032
+00:50:01,140 --> 00:50:04,560
+you can use software implementation
+
+1033
+00:50:04,560 --> 00:50:07,380
+and
+
+1034
+00:50:07,380 --> 00:50:11,119
+so the algorithm described in this slide
+
+1035
+00:50:11,119 --> 00:50:13,920
+is called Aging algorithm
+
+1036
+00:50:13,920 --> 00:50:15,599
+and this is
+
+1037
+00:50:15,599 --> 00:50:19,680
+not strictly the same as lru which I
+
+1038
+00:50:19,680 --> 00:50:21,540
+described earlier but it's like
+
+1039
+00:50:21,540 --> 00:50:23,220
+approximates it
+
+1040
+00:50:23,220 --> 00:50:26,700
+so what's going to happen is we keep a
+
+1041
+00:50:26,700 --> 00:50:28,980
+string of values of the reference bit
+
+1042
+00:50:28,980 --> 00:50:31,260
+for each clock tick
+
+1043
+00:50:31,260 --> 00:50:33,599
+and after tick
+
+1044
+00:50:33,599 --> 00:50:37,140
+with shift bits right and add new
+
+1045
+00:50:37,140 --> 00:50:39,480
+reference bit on the left
+
+1046
+00:50:39,480 --> 00:50:41,520
+okay so I think it doesn't make sense
+
+1047
+00:50:41,520 --> 00:50:44,579
+without taking a look at the example
+
+1048
+00:50:44,579 --> 00:50:46,680
+so suppose
+
+1049
+00:50:46,680 --> 00:50:50,940
+that we have six pages zero zero through
+
+1050
+00:50:50,940 --> 00:50:52,280
+five
+
+1051
+00:50:52,280 --> 00:50:56,339
+and at this time
+
+1052
+00:50:56,339 --> 00:50:59,520
+the reference bits are this stage so
+
+1053
+00:50:59,520 --> 00:51:02,460
+page 0 is referenced page one is not
+
+1054
+00:51:02,460 --> 00:51:05,160
+page two is referenced
+
+1055
+00:51:05,160 --> 00:51:08,160
+going forward and
+
+1056
+00:51:08,160 --> 00:51:10,980
+we're going to create a
+
+1057
+00:51:10,980 --> 00:51:13,920
+like entry like this
+
+1058
+00:51:13,920 --> 00:51:17,220
+so in the first step we'll just have to
+
+1059
+00:51:17,220 --> 00:51:21,720
+modify the most significant bit to be on
+
+1060
+00:51:21,720 --> 00:51:25,740
+those bits so for page 0 because it's
+
+1061
+00:51:25,740 --> 00:51:27,839
+referenced you set the most significant
+
+1062
+00:51:27,839 --> 00:51:29,520
+bit to be one
+
+1063
+00:51:29,520 --> 00:51:32,099
+and page two it's not reference so if
+
+1064
+00:51:32,099 --> 00:51:33,599
+you keep it zero
+
+1065
+00:51:33,599 --> 00:51:36,240
+page two is referenced
+
+1066
+00:51:36,240 --> 00:51:39,660
+right and
+
+1067
+00:51:40,079 --> 00:51:42,720
+so the reference bits are cleared at
+
+1068
+00:51:42,720 --> 00:51:45,359
+clock cycle so I clock interrupt
+
+1069
+00:51:45,359 --> 00:51:46,800
+so
+
+1070
+00:51:46,800 --> 00:51:48,480
+after you
+
+1071
+00:51:48,480 --> 00:51:53,819
+sort of write those bits this Arrow bits
+
+1072
+00:51:53,819 --> 00:51:56,119
+are clear
+
+1073
+00:51:56,119 --> 00:51:59,880
+and you let the system run for a while
+
+1074
+00:51:59,880 --> 00:52:02,720
+and so I don't know like some
+
+1075
+00:52:02,720 --> 00:52:05,280
+milliseconds after
+
+1076
+00:52:05,280 --> 00:52:08,900
+so during those time
+
+1077
+00:52:09,260 --> 00:52:14,099
+uh I think zero page zero one and this
+
+1078
+00:52:14,099 --> 00:52:16,380
+one is referenced
+
+1079
+00:52:16,380 --> 00:52:19,020
+so what we're going to do is first we
+
+1080
+00:52:19,020 --> 00:52:23,160
+are going to spit shift right by one
+
+1081
+00:52:23,160 --> 00:52:25,859
+so this will be like zero one zero zero
+
+1082
+00:52:25,859 --> 00:52:26,700
+zero
+
+1083
+00:52:26,700 --> 00:52:28,440
+right
+
+1084
+00:52:28,440 --> 00:52:31,339
+and we change the most significant bit
+
+1085
+00:52:31,339 --> 00:52:34,740
+to those reference bits so for example
+
+1086
+00:52:34,740 --> 00:52:36,960
+this one so we change we beat shift
+
+1087
+00:52:36,960 --> 00:52:39,480
+right this will be zero one zero zero
+
+1088
+00:52:39,480 --> 00:52:41,700
+zero zero and we set the most
+
+1089
+00:52:41,700 --> 00:52:43,319
+significant bit to one so it'll be one
+
+1090
+00:52:43,319 --> 00:52:46,220
+one zero zero zero
+
+1091
+00:52:47,480 --> 00:52:49,380
+and
+
+1092
+00:52:49,380 --> 00:52:52,500
+so you keep doing this
+
+1093
+00:52:52,500 --> 00:52:56,819
+and you can check
+
+1094
+00:52:56,819 --> 00:52:58,819
+the
+
+1095
+00:52:58,819 --> 00:53:02,040
+smallest number
+
+1096
+00:53:02,040 --> 00:53:04,260
+so you evict the smallest number right
+
+1097
+00:53:04,260 --> 00:53:05,400
+so because
+
+1098
+00:53:05,400 --> 00:53:11,400
+if the page is referenced recently
+
+1099
+00:53:11,400 --> 00:53:12,900
+um like for example if the page is
+
+1100
+00:53:12,900 --> 00:53:18,319
+referenced between the clock interrupts
+
+1101
+00:53:18,319 --> 00:53:21,420
+the most significant bit will be one
+
+1102
+00:53:21,420 --> 00:53:22,800
+so
+
+1103
+00:53:22,800 --> 00:53:25,440
+basically larger number means
+
+1104
+00:53:25,440 --> 00:53:26,099
+um
+
+1105
+00:53:26,099 --> 00:53:28,920
+that page is referenced recently
+
+1106
+00:53:28,920 --> 00:53:32,400
+so in the the reverse of that is if the
+
+1107
+00:53:32,400 --> 00:53:34,680
+number is small that means that's not
+
+1108
+00:53:34,680 --> 00:53:37,020
+referenced recently yeah it's on the
+
+1109
+00:53:37,020 --> 00:53:38,400
+beginning all the strings would be
+
+1110
+00:53:38,400 --> 00:53:40,619
+because in this example like all like
+
+1111
+00:53:40,619 --> 00:53:42,240
+the entire string is like defined like
+
+1112
+00:53:42,240 --> 00:53:45,380
+it's all zeros yeah
+
+1113
+00:53:47,579 --> 00:53:51,780
+so when you load a new page I think
+
+1114
+00:53:51,780 --> 00:53:53,819
+those are initialized to zeros because
+
+1115
+00:53:53,819 --> 00:53:56,960
+it's not reference right
+
+1116
+00:54:01,619 --> 00:54:03,960
+yeah okay so yeah if you think of this
+
+1117
+00:54:03,960 --> 00:54:08,780
+as well but it's fixed in width right
+
+1118
+00:54:15,359 --> 00:54:17,700
+I mean you can't bit shift between right
+
+1119
+00:54:17,700 --> 00:54:20,220
+so yeah so I said string it's a string
+
+1120
+00:54:20,220 --> 00:54:24,300
+of zeros and ones up to a certain length
+
+1121
+00:54:24,300 --> 00:54:27,079
+so
+
+1122
+00:54:27,540 --> 00:54:29,579
+yeah so I think it's like you know so in
+
+1123
+00:54:29,579 --> 00:54:33,480
+this case it's like what 8 bit
+
+1124
+00:54:33,480 --> 00:54:36,599
+so it's like one byte
+
+1125
+00:54:36,599 --> 00:54:38,460
+so you can think of it as an integer
+
+1126
+00:54:38,460 --> 00:54:40,880
+basically
+
+1127
+00:54:41,819 --> 00:54:45,200
+any other questions okay
+
+1128
+00:54:45,240 --> 00:54:49,380
+so and this is not exactly
+
+1129
+00:54:49,380 --> 00:54:50,819
+lru
+
+1130
+00:54:50,819 --> 00:54:53,480
+because
+
+1131
+00:54:54,059 --> 00:54:57,180
+um basically if those bits are one that
+
+1132
+00:54:57,180 --> 00:54:58,980
+means those pages are referenced
+
+1133
+00:54:58,980 --> 00:55:01,800
+sometime in between those two steps
+
+1134
+00:55:01,800 --> 00:55:03,839
+right but there's actually an order
+
+1135
+00:55:03,839 --> 00:55:05,760
+there must be order but we don't know
+
+1136
+00:55:05,760 --> 00:55:09,839
+the order so but um you can implement
+
+1137
+00:55:09,839 --> 00:55:12,240
+this is much more efficient than
+
+1138
+00:55:12,240 --> 00:55:14,220
+actually keeping track of the order
+
+1139
+00:55:14,220 --> 00:55:17,900
+and you don't really have to do that
+
+1140
+00:55:18,960 --> 00:55:20,640
+okay
+
+1141
+00:55:20,640 --> 00:55:23,300
+so I guess those are page replacement
+
+1142
+00:55:23,300 --> 00:55:26,520
+algorithms and next thing I want to talk
+
+1143
+00:55:26,520 --> 00:55:31,099
+about is what's called working set model
+
+1144
+00:55:31,339 --> 00:55:33,240
+so
+
+1145
+00:55:33,240 --> 00:55:36,359
+the idea is that
+
+1146
+00:55:36,359 --> 00:55:38,280
+in your program
+
+1147
+00:55:38,280 --> 00:55:41,579
+you have access to a bunch of variables
+
+1148
+00:55:41,579 --> 00:55:43,380
+right
+
+1149
+00:55:43,380 --> 00:55:45,540
+but usually
+
+1150
+00:55:45,540 --> 00:55:48,900
+you do not access to
+
+1151
+00:55:48,900 --> 00:55:51,359
+um like all of them
+
+1152
+00:55:51,359 --> 00:55:54,720
+you just access some of them right
+
+1153
+00:55:54,720 --> 00:55:57,059
+so there can be a variable that's
+
+1154
+00:55:57,059 --> 00:55:59,579
+defined and your program has access to
+
+1155
+00:55:59,579 --> 00:56:02,339
+but you don't you just don't access and
+
+1156
+00:56:02,339 --> 00:56:04,680
+maybe that's required sometime later in
+
+1157
+00:56:04,680 --> 00:56:08,040
+the process but yeah
+
+1158
+00:56:08,040 --> 00:56:10,819
+so
+
+1159
+00:56:10,859 --> 00:56:13,640
+demand paging
+
+1160
+00:56:13,640 --> 00:56:15,599
+means
+
+1161
+00:56:15,599 --> 00:56:16,980
+um
+
+1162
+00:56:16,980 --> 00:56:20,000
+so okay
+
+1163
+00:56:20,960 --> 00:56:24,420
+imagine you're starting a program right
+
+1164
+00:56:24,420 --> 00:56:26,099
+so let's say
+
+1165
+00:56:26,099 --> 00:56:27,540
+um
+
+1166
+00:56:27,540 --> 00:56:29,460
+you start your project one
+
+1167
+00:56:29,460 --> 00:56:32,720
+implementation bobcat
+
+1168
+00:56:33,180 --> 00:56:36,599
+that will access a bunch of variables so
+
+1169
+00:56:36,599 --> 00:56:38,940
+for example that will probably read
+
+1170
+00:56:38,940 --> 00:56:41,460
+um ARG V right
+
+1171
+00:56:41,460 --> 00:56:44,040
+so and because arcv is not reference
+
+1172
+00:56:44,040 --> 00:56:46,020
+because you're just starting that's
+
+1173
+00:56:46,020 --> 00:56:48,180
+going to cause a page fault
+
+1174
+00:56:48,180 --> 00:56:50,760
+and you probably need a buffer and that
+
+1175
+00:56:50,760 --> 00:56:53,819
+will also cause a
+
+1176
+00:56:53,819 --> 00:56:58,260
+page fault and demand paging says
+
+1177
+00:56:58,260 --> 00:57:01,880
+the demand paging just means um
+
+1178
+00:57:01,880 --> 00:57:05,099
+load pages on demand
+
+1179
+00:57:05,099 --> 00:57:06,599
+so
+
+1180
+00:57:06,599 --> 00:57:09,059
+if you employ demand paging at the
+
+1181
+00:57:09,059 --> 00:57:11,040
+beginning of the program you get a bunch
+
+1182
+00:57:11,040 --> 00:57:14,359
+of page faults and as the time goes on
+
+1183
+00:57:14,359 --> 00:57:17,700
+the rate at which you encounter page
+
+1184
+00:57:17,700 --> 00:57:20,400
+fold will decrease because you know you
+
+1185
+00:57:20,400 --> 00:57:22,980
+already loaded a bunch of stuff
+
+1186
+00:57:22,980 --> 00:57:24,839
+and
+
+1187
+00:57:24,839 --> 00:57:27,839
+but you can make sure that the memory
+
+1188
+00:57:27,839 --> 00:57:30,599
+required for the process is already in
+
+1189
+00:57:30,599 --> 00:57:35,220
+Cache and that's called pre-paging so
+
+1190
+00:57:35,220 --> 00:57:38,700
+basically you know loading the necessary
+
+1191
+00:57:38,700 --> 00:57:41,160
+page to Cache
+
+1192
+00:57:41,160 --> 00:57:42,720
+and there's another keyword called
+
+1193
+00:57:42,720 --> 00:57:43,859
+thrashing
+
+1194
+00:57:43,859 --> 00:57:46,740
+and that it basically means if the
+
+1195
+00:57:46,740 --> 00:57:49,140
+memory is too small to contain the
+
+1196
+00:57:49,140 --> 00:57:51,859
+working set so working set is the pages
+
+1197
+00:57:51,859 --> 00:57:55,800
+you your program needs to make progress
+
+1198
+00:57:55,800 --> 00:57:58,079
+and if the memory is too small
+
+1199
+00:57:58,079 --> 00:58:00,660
+you'll basically have to you get paid
+
+1200
+00:58:00,660 --> 00:58:03,119
+for it all the time and that's like a
+
+1201
+00:58:03,119 --> 00:58:06,440
+really inefficient state
+
+1202
+00:58:07,079 --> 00:58:09,800
+so
+
+1203
+00:58:11,280 --> 00:58:14,099
+right
+
+1204
+00:58:14,099 --> 00:58:16,559
+so we can think of the size of the
+
+1205
+00:58:16,559 --> 00:58:19,440
+working set as a function of K so
+
+1206
+00:58:19,440 --> 00:58:21,660
+actually
+
+1207
+00:58:21,660 --> 00:58:24,839
+I actually think this diagrams really
+
+1208
+00:58:24,839 --> 00:58:26,880
+um hard to understand so I also want to
+
+1209
+00:58:26,880 --> 00:58:28,740
+do an example
+
+1210
+00:58:28,740 --> 00:58:30,839
+so
+
+1211
+00:58:30,839 --> 00:58:33,440
+let's do that
+
+1212
+00:58:33,960 --> 00:58:35,819
+so we're talking about
+
+1213
+00:58:35,819 --> 00:58:38,900
+working set
+
+1214
+00:58:40,619 --> 00:58:42,299
+and
+
+1215
+00:58:42,299 --> 00:58:44,579
+working set
+
+1216
+00:58:44,579 --> 00:58:46,500
+okay
+
+1217
+00:58:46,500 --> 00:58:49,220
+so
+
+1218
+00:58:52,559 --> 00:58:55,319
+so walking set is a set of pages that
+
+1219
+00:58:55,319 --> 00:58:58,559
+your program needs to like make progress
+
+1220
+00:58:58,559 --> 00:59:03,000
+okay then suppose let us Define w
+
+1221
+00:59:03,000 --> 00:59:06,720
+the function that takes two things k and
+
+1222
+00:59:06,720 --> 00:59:08,460
+t
+
+1223
+00:59:08,460 --> 00:59:10,859
+and let it be
+
+1224
+00:59:10,859 --> 00:59:13,799
+the number of
+
+1225
+00:59:13,799 --> 00:59:16,520
+pages
+
+1226
+00:59:18,180 --> 00:59:20,339
+used
+
+1227
+00:59:20,339 --> 00:59:22,680
+by
+
+1228
+00:59:22,680 --> 00:59:26,059
+K most
+
+1229
+00:59:26,940 --> 00:59:29,940
+recent
+
+1230
+00:59:30,079 --> 00:59:33,680
+memory references
+
+1231
+00:59:38,819 --> 00:59:40,380
+so
+
+1232
+00:59:40,380 --> 00:59:44,280
+you don't really know which pages are
+
+1233
+00:59:44,280 --> 00:59:46,380
+needed by the program right
+
+1234
+00:59:46,380 --> 00:59:49,740
+so one way to approximate that is
+
+1235
+00:59:49,740 --> 00:59:51,030
+you
+
+1236
+00:59:51,030 --> 00:59:52,380
+[Music]
+
+1237
+00:59:52,380 --> 00:59:56,339
+basically keep track of recent memory
+
+1238
+00:59:56,339 --> 00:59:57,599
+access
+
+1239
+00:59:57,599 --> 01:00:00,720
+and so you instead of constant k
+
+1240
+01:00:00,720 --> 01:00:05,940
+and if the page is accessed
+
+1241
+01:00:05,940 --> 01:00:09,420
+in the past K references
+
+1242
+01:00:09,420 --> 01:00:13,020
+you say that that page is in um
+
+1243
+01:00:13,020 --> 01:00:15,059
+in the working set
+
+1244
+01:00:15,059 --> 01:00:16,619
+so for example
+
+1245
+01:00:16,619 --> 01:00:19,400
+suppose that
+
+1246
+01:00:24,420 --> 01:00:28,440
+suppose the system needs pages in like
+
+1247
+01:00:28,440 --> 01:00:29,400
+this
+
+1248
+01:00:29,400 --> 01:00:32,280
+and suppose that we're at here
+
+1249
+01:00:32,280 --> 01:00:34,380
+and we're going to call it like
+
+1250
+01:00:34,380 --> 01:00:36,720
+T right
+
+1251
+01:00:36,720 --> 01:00:39,440
+so
+
+1252
+01:00:39,900 --> 01:00:42,839
+the working set
+
+1253
+01:00:42,839 --> 01:00:45,440
+w
+
+1254
+01:00:45,480 --> 01:00:48,299
+of 1T
+
+1255
+01:00:48,299 --> 01:00:51,839
+means number of pages used by
+
+1256
+01:00:51,839 --> 01:00:54,839
+the most recent memory reference
+
+1257
+01:00:54,839 --> 01:00:56,819
+so if this is one
+
+1258
+01:00:56,819 --> 01:00:58,380
+so this is one
+
+1259
+01:00:58,380 --> 01:00:59,760
+because
+
+1260
+01:00:59,760 --> 01:01:01,680
+the working set
+
+1261
+01:01:01,680 --> 01:01:05,040
+is a Singleton set of four right
+
+1262
+01:01:05,040 --> 01:01:06,720
+so this is
+
+1263
+01:01:06,720 --> 01:01:09,619
+the one most recent memory references
+
+1264
+01:01:09,619 --> 01:01:12,780
+and its size is one
+
+1265
+01:01:12,780 --> 01:01:14,819
+okay
+
+1266
+01:01:14,819 --> 01:01:16,799
+so what if
+
+1267
+01:01:16,799 --> 01:01:19,700
+2T
+
+1268
+01:01:19,920 --> 01:01:23,099
+so it is the working set
+
+1269
+01:01:23,099 --> 01:01:27,720
+is two most recent memory references
+
+1270
+01:01:27,720 --> 01:01:32,000
+so it will be three and four right
+
+1271
+01:01:33,299 --> 01:01:35,520
+so the size of this set
+
+1272
+01:01:35,520 --> 01:01:39,440
+is going to be 2.
+
+1273
+01:01:40,380 --> 01:01:44,000
+and because this is a set
+
+1274
+01:01:44,760 --> 01:01:47,220
+there's no like a duplicated elements
+
+1275
+01:01:47,220 --> 01:01:48,000
+right
+
+1276
+01:01:48,000 --> 01:01:51,420
+so even if we change it to two from two
+
+1277
+01:01:51,420 --> 01:01:53,339
+to three
+
+1278
+01:01:53,339 --> 01:01:56,040
+or the working set is still three and
+
+1279
+01:01:56,040 --> 01:01:57,599
+four
+
+1280
+01:01:57,599 --> 01:01:58,859
+so
+
+1281
+01:01:58,859 --> 01:02:00,780
+um
+
+1282
+01:02:00,780 --> 01:02:03,240
+there are size of the working set is
+
+1283
+01:02:03,240 --> 01:02:05,660
+still two
+
+1284
+01:02:06,240 --> 01:02:07,559
+so
+
+1285
+01:02:07,559 --> 01:02:09,480
+notice here
+
+1286
+01:02:09,480 --> 01:02:13,500
+as you increase k
+
+1287
+01:02:13,500 --> 01:02:16,680
+it will only increase right there's no
+
+1288
+01:02:16,680 --> 01:02:18,720
+way that element
+
+1289
+01:02:18,720 --> 01:02:21,059
+in the working set it's gonna like
+
+1290
+01:02:21,059 --> 01:02:22,680
+disappear basically
+
+1291
+01:02:22,680 --> 01:02:24,660
+if
+
+1292
+01:02:24,660 --> 01:02:25,819
+right
+
+1293
+01:02:25,819 --> 01:02:29,940
+so if I do k equals 4
+
+1294
+01:02:29,940 --> 01:02:33,480
+it'll be three because I now have two
+
+1295
+01:02:33,480 --> 01:02:35,220
+three four
+
+1296
+01:02:35,220 --> 01:02:37,020
+but there's no way
+
+1297
+01:02:37,020 --> 01:02:39,299
+um for example this four is disappeared
+
+1298
+01:02:39,299 --> 01:02:41,280
+as we increase
+
+1299
+01:02:41,280 --> 01:02:43,980
+the K right
+
+1300
+01:02:43,980 --> 01:02:46,440
+so that is actually what
+
+1301
+01:02:46,440 --> 01:02:49,500
+this means
+
+1302
+01:02:49,500 --> 01:02:50,940
+so
+
+1303
+01:02:50,940 --> 01:02:52,980
+so this is a graph
+
+1304
+01:02:52,980 --> 01:02:56,880
+of that function and as you increase the
+
+1305
+01:02:56,880 --> 01:02:58,559
+k
+
+1306
+01:02:58,559 --> 01:03:00,000
+basically it will
+
+1307
+01:03:00,000 --> 01:03:01,799
+increase
+
+1308
+01:03:01,799 --> 01:03:03,660
+and
+
+1309
+01:03:03,660 --> 01:03:05,819
+you know
+
+1310
+01:03:05,819 --> 01:03:07,980
+because the memory is limited
+
+1311
+01:03:07,980 --> 01:03:10,140
+it doesn't go like all the way up to
+
+1312
+01:03:10,140 --> 01:03:12,000
+Infinity you know
+
+1313
+01:03:12,000 --> 01:03:15,440
+saturate at some point
+
+1314
+01:03:15,480 --> 01:03:17,520
+so this is behavior of working set as a
+
+1315
+01:03:17,520 --> 01:03:20,000
+function of K
+
+1316
+01:03:20,000 --> 01:03:21,599
+and
+
+1317
+01:03:21,599 --> 01:03:23,880
+so basically we can use
+
+1318
+01:03:23,880 --> 01:03:24,599
+um
+
+1319
+01:03:24,599 --> 01:03:26,460
+this model
+
+1320
+01:03:26,460 --> 01:03:27,960
+uh
+
+1321
+01:03:27,960 --> 01:03:30,180
+to
+
+1322
+01:03:30,180 --> 01:03:32,819
+decide which page to evict
+
+1323
+01:03:32,819 --> 01:03:34,619
+so
+
+1324
+01:03:34,619 --> 01:03:36,920
+we basically keep track of
+
+1325
+01:03:36,920 --> 01:03:40,079
+the recent page references
+
+1326
+01:03:40,079 --> 01:03:42,359
+and if
+
+1327
+01:03:42,359 --> 01:03:46,799
+the page is in the working set that's
+
+1328
+01:03:46,799 --> 01:03:48,059
+the page
+
+1329
+01:03:48,059 --> 01:03:50,700
+your process needs to make progress so
+
+1330
+01:03:50,700 --> 01:03:53,220
+you want to keep it and if the page is
+
+1331
+01:03:53,220 --> 01:03:55,260
+not in the working set that means that's
+
+1332
+01:03:55,260 --> 01:03:57,000
+probably not required so you're just
+
+1333
+01:03:57,000 --> 01:03:58,580
+gonna um so right away
+
+1334
+01:03:58,580 --> 01:04:01,900
+[Music]
+
+1335
+01:04:08,640 --> 01:04:12,059
+so I guess two things to note here is
+
+1336
+01:04:12,059 --> 01:04:14,160
+that you have to
+
+1337
+01:04:14,160 --> 01:04:16,440
+um your operating system have to keep
+
+1338
+01:04:16,440 --> 01:04:18,299
+track of which pages are in The Working
+
+1339
+01:04:18,299 --> 01:04:19,380
+set
+
+1340
+01:04:19,380 --> 01:04:22,859
+and you know you're gonna have to have a
+
+1341
+01:04:22,859 --> 01:04:24,299
+storage for that
+
+1342
+01:04:24,299 --> 01:04:26,760
+and another thing is this can be
+
+1343
+01:04:26,760 --> 01:04:28,440
+expensive
+
+1344
+01:04:28,440 --> 01:04:30,440
+um
+
+1345
+01:04:34,319 --> 01:04:36,240
+right yeah this can be expensive and
+
+1346
+01:04:36,240 --> 01:04:40,920
+also you have to pick K and
+
+1347
+01:04:40,920 --> 01:04:43,440
+basically the size of the working set
+
+1348
+01:04:43,440 --> 01:04:46,799
+may vary for each process
+
+1349
+01:04:46,799 --> 01:04:51,440
+so picking Decay is not trivial
+
+1350
+01:04:53,460 --> 01:04:56,040
+and you could also use Virtual time
+
+1351
+01:04:56,040 --> 01:04:59,780
+instead of number of references
+
+1352
+01:04:59,880 --> 01:05:01,940
+um
+
+1353
+01:05:04,079 --> 01:05:06,660
+right so yeah
+
+1354
+01:05:06,660 --> 01:05:08,640
+the
+
+1355
+01:05:08,640 --> 01:05:11,819
+the K was the sort of
+
+1356
+01:05:11,819 --> 01:05:14,280
+how much
+
+1357
+01:05:14,280 --> 01:05:17,520
+in in past you look for right and it
+
+1358
+01:05:17,520 --> 01:05:19,319
+doesn't have to be uh
+
+1359
+01:05:19,319 --> 01:05:22,440
+reference is it can be some notion of
+
+1360
+01:05:22,440 --> 01:05:23,940
+time
+
+1361
+01:05:23,940 --> 01:05:25,440
+and
+
+1362
+01:05:25,440 --> 01:05:28,980
+because CPU has um those like virtual
+
+1363
+01:05:28,980 --> 01:05:31,380
+times the notion of notion of virtual
+
+1364
+01:05:31,380 --> 01:05:34,880
+time you can also use that
+
+1365
+01:05:34,920 --> 01:05:37,319
+so yeah so here's the um
+
+1366
+01:05:37,319 --> 01:05:38,880
+diagram
+
+1367
+01:05:38,880 --> 01:05:41,880
+for how operating system might Implement
+
+1368
+01:05:41,880 --> 01:05:45,960
+working set replacement algorithm
+
+1369
+01:05:48,240 --> 01:05:50,880
+yeah and some of the weaknesses or you
+
+1370
+01:05:50,880 --> 01:05:52,859
+need to scan the entire page table
+
+1371
+01:05:52,859 --> 01:05:57,680
+at each page fault to find a victim
+
+1372
+01:05:59,400 --> 01:06:00,740
+right
+
+1373
+01:06:00,740 --> 01:06:04,440
+so I think that was
+
+1374
+01:06:04,440 --> 01:06:06,599
+the overview of page replacement
+
+1375
+01:06:06,599 --> 01:06:09,960
+algorithms so there are a couple of I
+
+1376
+01:06:09,960 --> 01:06:12,000
+mean I didn't cover all of them but
+
+1377
+01:06:12,000 --> 01:06:13,980
+they're all described in a textbook
+
+1378
+01:06:13,980 --> 01:06:15,900
+fairly
+
+1379
+01:06:15,900 --> 01:06:19,319
+in detail so I highly recommend you read
+
+1380
+01:06:19,319 --> 01:06:20,940
+the textbook
+
+1381
+01:06:20,940 --> 01:06:23,640
+and
+
+1382
+01:06:23,640 --> 01:06:26,180
+yep
+
+1383
+01:06:28,260 --> 01:06:29,579
+okay
+
+1384
+01:06:29,579 --> 01:06:32,539
+when does the class end
+
+1385
+01:06:40,200 --> 01:06:43,260
+so I guess that was everything I wanted
+
+1386
+01:06:43,260 --> 01:06:45,660
+to talk about today in terms of this
+
+1387
+01:06:45,660 --> 01:06:48,079
+slides
+
+1388
+01:06:56,160 --> 01:06:58,260
+so we have to run it first because
+
+1389
+01:06:58,260 --> 01:07:00,119
+optimal is
+
+1390
+01:07:00,119 --> 01:07:04,940
+like impossible to yes yeah
+
+1391
+01:07:08,400 --> 01:07:10,200
+um
+
+1392
+01:07:10,200 --> 01:07:12,599
+well I think so yeah because you can do
+
+1393
+01:07:12,599 --> 01:07:14,819
+that right so you can um
+
+1394
+01:07:14,819 --> 01:07:16,619
+always
+
+1395
+01:07:16,619 --> 01:07:18,480
+like a record
+
+1396
+01:07:18,480 --> 01:07:20,220
+the order
+
+1397
+01:07:20,220 --> 01:07:23,099
+in which the you know I mean which we
+
+1398
+01:07:23,099 --> 01:07:25,380
+can just record
+
+1399
+01:07:25,380 --> 01:07:29,099
+the pages that are like requested
+
+1400
+01:07:29,099 --> 01:07:31,680
+right and you can just
+
+1401
+01:07:31,680 --> 01:07:33,539
+use it
+
+1402
+01:07:33,539 --> 01:07:35,520
+to
+
+1403
+01:07:35,520 --> 01:07:37,440
+yeah
+
+1404
+01:07:37,440 --> 01:07:41,039
+but you need a like a workload
+
+1405
+01:07:41,039 --> 01:07:43,440
+to do that right yeah
+
+1406
+01:07:43,440 --> 01:07:45,480
+and actually coming up with a workload
+
+1407
+01:07:45,480 --> 01:07:48,059
+can be tricky because it's not random
+
+1408
+01:07:48,059 --> 01:07:50,160
+right so
+
+1409
+01:07:50,160 --> 01:07:51,359
+um
+
+1410
+01:07:51,359 --> 01:07:54,599
+you have to have a program that you want
+
+1411
+01:07:54,599 --> 01:07:57,500
+to optimize for anything
+
+1412
+01:08:06,900 --> 01:08:10,760
+or you can use an array right
+
+1413
+01:08:20,100 --> 01:08:23,520
+no even if the you don't know the size
+
+1414
+01:08:23,520 --> 01:08:25,738
+you can still use linked list because
+
+1415
+01:08:25,738 --> 01:08:29,399
+you can have an array of pointers right
+
+1416
+01:08:29,399 --> 01:08:31,080
+bonding like if you already know the
+
+1417
+01:08:31,080 --> 01:08:34,679
+size then a ring makes more sense than
+
+1418
+01:08:34,679 --> 01:08:35,939
+yes
+
+1419
+01:08:35,939 --> 01:08:38,640
+but we usually know the size of cash
+
+1420
+01:08:38,640 --> 01:08:41,480
+right because
+
+1421
+01:08:43,080 --> 01:08:44,520
+yeah
+
+1422
+01:08:44,520 --> 01:08:46,380
+so I think using array makes more sense
+
+1423
+01:08:46,380 --> 01:08:48,620
+yeah
+
+1424
+01:08:49,020 --> 01:08:52,460
+for assignment it doesn't matter
+
+1425
+01:08:55,319 --> 01:08:57,719
+yeah so for the assignment I'm more
+
+1426
+01:08:57,719 --> 01:09:00,299
+interested in correctness than
+
+1427
+01:09:00,299 --> 01:09:01,560
+performance
+
+1428
+01:09:01,560 --> 01:09:02,759
+so
+
+1429
+01:09:02,759 --> 01:09:04,319
+you can
+
+1430
+01:09:04,319 --> 01:09:06,060
+use whatever data structure you want to
+
+1431
+01:09:06,060 --> 01:09:08,120
+use
+
+1432
+01:09:14,339 --> 01:09:17,339
+okay
+
+1433
+01:09:18,839 --> 01:09:22,259
+if there is no questions I think we can
+
+1434
+01:09:22,259 --> 01:09:25,160
+let you go yeah
+
+1435
+01:09:27,799 --> 01:09:30,779
+uh we actually haven't started graded
+
+1436
+01:09:30,779 --> 01:09:31,679
+yet
+
+1437
+01:09:31,679 --> 01:09:34,140
+and that is
+
+1438
+01:09:34,140 --> 01:09:37,759
+um yeah for reasons but
+
+1439
+01:09:38,819 --> 01:09:40,979
+we'll try to
+
+1440
+01:09:40,979 --> 01:09:43,799
+finished grading by
+
+1441
+01:09:43,799 --> 01:09:46,198
+early next week
+
+1442
+01:09:46,198 --> 01:09:48,420
+like as soon as possible but that's the
+
+1443
+01:09:48,420 --> 01:09:51,920
+sort of realistic timeline
+
+1444
+01:10:10,320 --> 01:10:11,699
+sorry I
+
+1445
+01:10:11,699 --> 01:10:14,460
+saw your Piazza questions didn't have
+
+1446
+01:10:14,460 --> 01:10:15,719
+time to answer
+
+1447
+01:10:15,719 --> 01:10:18,320
+up
+
