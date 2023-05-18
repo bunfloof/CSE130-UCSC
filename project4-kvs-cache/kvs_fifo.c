@@ -30,8 +30,8 @@ kvs_fifo_t* kvs_fifo_new(kvs_base_t* kvs, int capacity) {
   kvs_fifo->size = 0;
   kvs_fifo->head = 0;
   kvs_fifo->tail = 0;
-  kvs_fifo->get_count = 1;
-  kvs_fifo->set_count = 1;
+  kvs_fifo->get_count = 0;
+  kvs_fifo->set_count = 0;
   return kvs_fifo;
 }
 
