@@ -93,6 +93,7 @@ int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
   }
   
   printf("Cache miss for %s.\n", key);
+  // the issue for scenario 2 lies in this part
   int rc = kvs_base_get(kvs_fifo->kvs_base, key, value);
   if (rc == 0 && value[0] != '\0') {
     if (kvs_fifo->size == kvs_fifo->capacity) { // store in cache without calling kvs_fifo_set
