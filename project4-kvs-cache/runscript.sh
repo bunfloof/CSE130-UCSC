@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# buggy but mimics human input
 # runscript cuz I don't want to type commands every time I want to test ./client
 
 client_commands=(
@@ -15,6 +16,8 @@ commands=(
   "make"
 )
 
+client_start_command="./client data LRU 2"
+
 runCommand() {
   echo "💦 runscript.sh: Running $1"
   bash -c "$1"
@@ -25,7 +28,9 @@ for cmd in "${commands[@]}"; do
   runCommand "$cmd"
 done
 
-coproc CLIENT_PROCESS { stdbuf -o0 ./client data CLOCK 4; }
+echo "$client_start_command"
+
+coproc CLIENT_PROCESS { stdbuf -o0 $client_start_command; }
 
 for client_cmd in "${client_commands[@]}"; do
   echo "$client_cmd"

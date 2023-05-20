@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# not buggy but does not mimic human input
+# runscript cuz I don't want to type commands every time I want to test ./client
+
 client_commands=(
   "GET file1.txt"
   "GET file2.txt"
