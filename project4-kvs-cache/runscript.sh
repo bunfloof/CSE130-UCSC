@@ -17,7 +17,7 @@ commands=(
   "make"
 )
 
-client_start_command="./client data FIFO 3"
+client_start_command="./client data FIFO 2"
 
 runCommand() {
   echo "💦 runscript.sh: Running $1"

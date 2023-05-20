@@ -58,19 +58,19 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
   }
   // the key was not in the cache
   if (kvs_fifo->size == kvs_fifo->capacity) { // the cache is full, evict the head
-    printf("Cache is full. Evicting %s.\n", kvs_fifo->keys[kvs_fifo->head]);
+    //printf("Cache is full. Evicting %s.\n", kvs_fifo->keys[kvs_fifo->head]);
     free(kvs_fifo->keys[kvs_fifo->head]);
     free(kvs_fifo->values[kvs_fifo->head]);
     kvs_fifo->head = (kvs_fifo->head + 1) % kvs_fifo->capacity;
     kvs_fifo->size--;
   }
 
-  printf("Setting %s in cache.\n", key);
+  //printf("Setting %s in cache.\n", key);
   kvs_fifo->keys[kvs_fifo->tail] = strdup(key);
   kvs_fifo->values[kvs_fifo->tail] = strdup(value);
   kvs_fifo->tail = (kvs_fifo->tail + 1) % kvs_fifo->capacity;
   kvs_fifo->size++;
-  printf("Cache now contains %d items.\n", kvs_fifo->size);
+  //printf("Cache now contains %d items.\n", kvs_fifo->size);
 
   return kvs_base_set(kvs_fifo->kvs_base, key, value);
 }
@@ -83,13 +83,13 @@ int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
   for (int i = 0; i < kvs_fifo->size; ++i) {
     int index = (kvs_fifo->head + i) % kvs_fifo->capacity;
     if (strcmp(kvs_fifo->keys[index], key) == 0) {
-      printf("Cache hit for %s.\n", key);
+      //printf("Cache hit for %s.\n", key);
       strcpy(value, kvs_fifo->values[index]);
       return 0;
     }
   }
   
-  printf("Cache miss for %s.\n", key);
+  //printf("Cache miss for %s.\n", key);
   int rc = kvs_base_get(kvs_fifo->kvs_base, key, value);
 
   if (rc == 0 && value[0] != '\0') {
