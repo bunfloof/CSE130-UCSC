@@ -53,7 +53,7 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
       // found the key in the cache, update it's value
       free(kvs_fifo->values[index]);
       kvs_fifo->values[index] = strdup(value);
-      return kvs_base_set(kvs_fifo->kvs_base, key, value);
+      return 0; // return success without updating the disk store
     }
   }
   // the key was not in the cache
