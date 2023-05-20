@@ -50,10 +50,10 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
   for (int i = 0; i < kvs_fifo->size; ++i) {
     int index = (kvs_fifo->head + i) % kvs_fifo->capacity;
     if (strcmp(kvs_fifo->keys[index], key) == 0) {
-      // found the key in the cache, update its value
+      // found the key in the cache, update it's value
       free(kvs_fifo->values[index]);
       kvs_fifo->values[index] = strdup(value);
-      break; // don't return here, continue to the base set operation
+      return kvs_base_set(kvs_fifo->kvs_base, key, value);
     }
   }
   // the key was not in the cache
@@ -74,7 +74,6 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
 
   return kvs_base_set(kvs_fifo->kvs_base, key, value);
 }
-
 
 int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
   if (kvs_fifo->capacity == 0) { // case for capacity 0
@@ -118,3 +117,27 @@ int kvs_fifo_flush(kvs_fifo_t* kvs_fifo) {
   }
   return 0;
 }
+
+/*
+
+WARNIGN: FIFO policy is UNFIT for this scenario
+ccache fills up too quickly due to FIFO eviction policy, 
+and the 'GET' requests end up missing the cache because 
+the relevant files have already been evicted.
+
+In scen 2, we prform operations:
+./client data FIFO 2
+1. SET file1.txt hey
+2. SET file2.txt hello
+3. SET file3.txt hi
+4. GET file1.txt
+5. GET file2.txt
+6. GET file3.txt
+
+Due to the FIFO eviction policy and the cache's limited capacity (2), 
+file1.txt gets evicted when file3.txt is set (third operation), 
+which results in a cache miss when we later try to GET file1.txt 
+(fourth operation). Liekwise, file2.txt gets evicted when 
+we try to GET file3.txt, causing a cache miss for file2.txt.
+
+*/
