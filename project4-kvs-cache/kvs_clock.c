@@ -42,6 +42,18 @@ void kvs_clock_free(kvs_clock_t** ptr) {
 }
 
 int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
+  if (kvs_clock->size == kvs_clock->capacity) { // if capacity 0
+    return kvs_base_set(kvs_clock->kvs_base, key, value);
+  }
+
+  for (int i = 0; i < kvs_clock->size; ++i) {
+    if (strcmp(kvs_clock->keys[i], key) == 0) {
+      free(kvs_clock->values[i]);
+      kvs_clock->values[i] = strdup(value);
+      return 0;
+    }
+  }
+  
   if (kvs_clock->size == kvs_clock->capacity) {
     free(kvs_clock->keys[kvs_clock->cursor]);
     free(kvs_clock->values[kvs_clock->cursor]);
@@ -59,6 +71,9 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
 }
 
 int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
+  if (kvs_clock->size == kvs_clock->capacity) { // if capacity 0
+    return kvs_base_get(kvs_clock->kvs_base, key, value);
+  }
   for (int i = 0; i < kvs_clock->size; ++i) {
     if (strcmp(kvs_clock->keys[i], key) == 0) {
       strcpy(value, kvs_clock->values[i]);

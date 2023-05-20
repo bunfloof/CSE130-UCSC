@@ -65,7 +65,19 @@ int kvs_lru_get(kvs_lru_t* kvs_lru, const char* key, char* value) {
     }
   }
 
-  return FAILURE;
+  // if key is not found in the cache ----------------------------
+  int rc = kvs_base_get(kvs_lru->kvs_base, key, value); 
+  if (rc == 0) {  // if key is found in the underlying disk store
+    if (kvs_lru->size == kvs_lru->capacity) {
+      free(kvs_lru->keys[0]);
+      memmove(kvs_lru->keys, kvs_lru->keys + 1, (kvs_lru->size - 1) * sizeof(char*));
+      --kvs_lru->size;
+    }
+    kvs_lru->keys[kvs_lru->size] = strdup(key);
+    ++kvs_lru->size;
+  }
+
+  return rc;
 }
 
 int kvs_lru_flush(kvs_lru_t* kvs_lru) {

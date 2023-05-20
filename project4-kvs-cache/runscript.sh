@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# runscript cuz I don't want to type commands every time I want to test ./client
+
 client_commands=(
   "GET file1.txt"
   "GET file2.txt"
@@ -7,7 +9,6 @@ client_commands=(
   "GET file3.txt"
   "GET file1.txt"
 )
-
 
 commands=(
   "make clean"
@@ -24,7 +25,7 @@ for cmd in "${commands[@]}"; do
   runCommand "$cmd"
 done
 
-coproc CLIENT_PROCESS { stdbuf -o0 ./client data FIFO 2; }
+coproc CLIENT_PROCESS { stdbuf -o0 ./client data CLOCK 4; }
 
 for client_cmd in "${client_commands[@]}"; do
   echo "$client_cmd"
@@ -39,4 +40,4 @@ while read -r output <&"${CLIENT_PROCESS[0]}"; do
   echo "$output"
 done
 
-wait $!
+wait "${CLIENT_PROCESS_PID}"

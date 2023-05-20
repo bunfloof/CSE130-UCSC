@@ -17,8 +17,8 @@ struct kvs_fifo {
   int size; 
   int head; 
   int tail;
-  int get_count;
-  int set_count;
+  //int get_count;
+  //int set_count;
 };
 
 kvs_fifo_t* kvs_fifo_new(kvs_base_t* kvs, int capacity) {
@@ -30,8 +30,8 @@ kvs_fifo_t* kvs_fifo_new(kvs_base_t* kvs, int capacity) {
   kvs_fifo->size = 0;
   kvs_fifo->head = 0;
   kvs_fifo->tail = 0;
-  kvs_fifo->get_count = 0;
-  kvs_fifo->set_count = 0;
+  //kvs_fifo->get_count = 0;
+  //kvs_fifo->set_count = 0;
   return kvs_fifo;
 }
 
@@ -47,6 +47,9 @@ void kvs_fifo_free(kvs_fifo_t** ptr) {
 }
 
 int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
+  if (kvs_fifo->capacity == 0) { // case for capacity 0
+    return kvs_base_set(kvs_fifo->kvs_base, key, value);
+  }
   if (kvs_fifo->size == kvs_fifo->capacity) {
     free(kvs_fifo->keys[kvs_fifo->head]);
     free(kvs_fifo->values[kvs_fifo->head]);
@@ -58,17 +61,20 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
   kvs_fifo->values[kvs_fifo->tail] = strdup(value);
   kvs_fifo->tail = (kvs_fifo->tail + 1) % kvs_fifo->capacity;
   kvs_fifo->size++;
-  kvs_fifo->set_count++;
+  //kvs_fifo->set_count++;
 
   return kvs_base_set(kvs_fifo->kvs_base, key, value);
 }
 
 int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
+  if (kvs_fifo->capacity == 0) { // case for capacity 0
+    return kvs_base_get(kvs_fifo->kvs_base, key, value);
+  }
   for (int i = 0; i < kvs_fifo->size; ++i) {
     int index = (kvs_fifo->head + i) % kvs_fifo->capacity;
     if (strcmp(kvs_fifo->keys[index], key) == 0) {
       strcpy(value, kvs_fifo->values[index]);
-      kvs_fifo->get_count++;
+      //kvs_fifo->get_count++;
       return 0;
     }
   }
@@ -86,7 +92,7 @@ int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
     kvs_fifo->tail = (kvs_fifo->tail + 1) % kvs_fifo->capacity;
     kvs_fifo->size++;
   }
-  kvs_fifo->get_count++;
+  //kvs_fifo->get_count++;
   return rc;
 }
 
@@ -98,12 +104,4 @@ int kvs_fifo_flush(kvs_fifo_t* kvs_fifo) {
     kvs_fifo->size--;
   }
   return 0;
-}
-
-int kvs_fifo_get_count(kvs_fifo_t* kvs_fifo) {
-  return kvs_fifo->get_count;
-}
-
-int kvs_fifo_set_count(kvs_fifo_t* kvs_fifo) {
-  return kvs_fifo->set_count;
 }
