@@ -50,10 +50,10 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
   for (int i = 0; i < kvs_fifo->size; ++i) {
     int index = (kvs_fifo->head + i) % kvs_fifo->capacity;
     if (strcmp(kvs_fifo->keys[index], key) == 0) {
-      // found the key in the cache, update it's value
+      // found the key in the cache, update its value
       free(kvs_fifo->values[index]);
       kvs_fifo->values[index] = strdup(value);
-      return kvs_base_set(kvs_fifo->kvs_base, key, value);
+      break; // don't return here, continue to the base set operation
     }
   }
   // the key was not in the cache
@@ -75,10 +75,12 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
   return kvs_base_set(kvs_fifo->kvs_base, key, value);
 }
 
+
 int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
   if (kvs_fifo->capacity == 0) { // case for capacity 0
     return kvs_base_get(kvs_fifo->kvs_base, key, value);
   }
+  
   for (int i = 0; i < kvs_fifo->size; ++i) {
     int index = (kvs_fifo->head + i) % kvs_fifo->capacity;
     if (strcmp(kvs_fifo->keys[index], key) == 0) {
@@ -90,16 +92,8 @@ int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
   
   printf("Cache miss for %s.\n", key);
   int rc = kvs_base_get(kvs_fifo->kvs_base, key, value);
-  if (rc == 0 && value[0] != '\0') {
-    // check if key is already in cache
-    for (int i = 0; i < kvs_fifo->size; ++i) {
-      int index = (kvs_fifo->head + i) % kvs_fifo->capacity;
-      if (strcmp(kvs_fifo->keys[index], key) == 0) {
-        return rc;
-      }
-    }
 
-    // if key is not in cache, add ir
+  if (rc == 0 && value[0] != '\0') {
     if (kvs_fifo->size == kvs_fifo->capacity) { // store in cache without calling kvs_fifo_set
       free(kvs_fifo->keys[kvs_fifo->head]);
       free(kvs_fifo->values[kvs_fifo->head]);
@@ -111,9 +105,9 @@ int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
     kvs_fifo->tail = (kvs_fifo->tail + 1) % kvs_fifo->capacity;
     kvs_fifo->size++;
   }
+
   return rc;
 }
-
 
 int kvs_fifo_flush(kvs_fifo_t* kvs_fifo) {
   while (kvs_fifo->size > 0) {
