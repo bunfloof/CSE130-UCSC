@@ -16,7 +16,7 @@ commands=(
   "make"
 )
 
-client_start_command="./client data LRU 2"
+client_start_command="./client data CLOCK 2"
 
 runCommand() {
   echo "💦 runscript.sh: Running $1"
