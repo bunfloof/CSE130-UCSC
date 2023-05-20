@@ -1,0 +1,6396 @@
+1
+00:00:02,340 --> 00:00:05,540
+uh okay
+
+2
+00:00:06,060 --> 00:00:08,400
+so
+
+3
+00:00:08,400 --> 00:00:10,620
+so today we are going to
+
+4
+00:00:10,620 --> 00:00:14,700
+um so first I'm sorry uh I was sick last
+
+5
+00:00:14,700 --> 00:00:17,840
+week so I didn't come uh for last class
+
+6
+00:00:17,840 --> 00:00:21,060
+and uh so today we are going to end the
+
+7
+00:00:21,060 --> 00:00:25,080
+memory chapter and the in our next class
+
+8
+00:00:25,080 --> 00:00:29,039
+I'm going to review the midterm so
+
+9
+00:00:29,039 --> 00:00:32,340
+um so this is the plan so for the memory
+
+10
+00:00:32,340 --> 00:00:33,719
+chapter
+
+11
+00:00:33,719 --> 00:00:35,780
+um
+
+12
+00:00:35,780 --> 00:00:39,059
+let's let's finish this chapter by
+
+13
+00:00:39,059 --> 00:00:41,340
+beginning with several questions so the
+
+14
+00:00:41,340 --> 00:00:43,800
+first question is that a design question
+
+15
+00:00:43,800 --> 00:00:46,379
+now think of that you are a system
+
+16
+00:00:46,379 --> 00:00:48,780
+designer you are a system designer now
+
+17
+00:00:48,780 --> 00:00:51,180
+you you you you you let's say you
+
+18
+00:00:51,180 --> 00:00:54,059
+otherwise ask you to design a new memory
+
+19
+00:00:54,059 --> 00:00:57,539
+management system and then you can
+
+20
+00:00:57,539 --> 00:00:59,399
+you can
+
+21
+00:00:59,399 --> 00:00:59,940
+um
+
+22
+00:00:59,940 --> 00:01:02,940
+oh sorry it's not page table it's Pages
+
+23
+00:01:02,940 --> 00:01:06,680
+size okay yeah
+
+24
+00:01:10,320 --> 00:01:14,340
+no the wiser once you design a new
+
+25
+00:01:14,340 --> 00:01:17,760
+memory management system and he gave you
+
+26
+00:01:17,760 --> 00:01:21,000
+a question you you are no longer too
+
+27
+00:01:21,000 --> 00:01:23,640
+limited to use the 4kb
+
+28
+00:01:23,640 --> 00:01:28,439
+default page size now you have
+
+29
+00:01:28,439 --> 00:01:30,600
+you need to decide by yourself whether
+
+30
+00:01:30,600 --> 00:01:35,939
+you want to use a small page size small
+
+31
+00:01:35,939 --> 00:01:39,860
+or large page size
+
+32
+00:01:40,500 --> 00:01:42,720
+or it can be small and it can be large
+
+33
+00:01:42,720 --> 00:01:45,180
+right the default in the default we use
+
+34
+00:01:45,180 --> 00:01:49,619
+the 4kb right we use the 4kb as the page
+
+35
+00:01:49,619 --> 00:01:52,560
+size now
+
+36
+00:01:52,560 --> 00:01:54,600
+you need to design a new memory
+
+37
+00:01:54,600 --> 00:01:56,220
+management system and you can
+
+38
+00:01:56,220 --> 00:01:57,960
+flexibility
+
+39
+00:01:57,960 --> 00:02:01,259
+choose a smaller much smaller page size
+
+40
+00:02:01,259 --> 00:02:04,200
+in the larger page size now my question
+
+41
+00:02:04,200 --> 00:02:07,259
+is what will be the what will be the
+
+42
+00:02:07,259 --> 00:02:10,020
+strengths and limitations for
+
+43
+00:02:10,020 --> 00:02:14,720
+small page size and large page size
+
+44
+00:02:16,800 --> 00:02:18,900
+and let's start with a small one okay
+
+45
+00:02:18,900 --> 00:02:20,700
+small
+
+46
+00:02:20,700 --> 00:02:22,680
+page size
+
+47
+00:02:22,680 --> 00:02:26,540
+okay we'll see the students
+
+48
+00:02:32,400 --> 00:02:35,760
+so what is the page what is the page
+
+49
+00:02:35,760 --> 00:02:38,220
+uh first let's let's review what is the
+
+50
+00:02:38,220 --> 00:02:40,520
+page
+
+51
+00:03:11,640 --> 00:03:15,540
+so or what is exactly a page a page what
+
+52
+00:03:15,540 --> 00:03:18,500
+is exactly a page
+
+53
+00:03:18,540 --> 00:03:20,819
+it's just a
+
+54
+00:03:20,819 --> 00:03:23,700
+what is a page and what is Page frame
+
+55
+00:03:23,700 --> 00:03:27,080
+page on the page frame
+
+56
+00:03:28,920 --> 00:03:31,260
+right the the page the page is the most
+
+57
+00:03:31,260 --> 00:03:33,180
+important obstruction in the memory
+
+58
+00:03:33,180 --> 00:03:34,500
+chapter right
+
+59
+00:03:34,500 --> 00:03:37,099
+page
+
+60
+00:03:40,140 --> 00:03:42,540
+so what is exactly your page or page
+
+61
+00:03:42,540 --> 00:03:45,019
+frame is
+
+62
+00:03:56,220 --> 00:03:59,940
+so we know that we we have let's say
+
+63
+00:03:59,940 --> 00:04:02,840
+yeah Lily
+
+64
+00:04:07,500 --> 00:04:10,019
+oh yeah very good a chunks the Bible
+
+65
+00:04:10,019 --> 00:04:12,360
+which the virtual memory is divided to
+
+66
+00:04:12,360 --> 00:04:14,640
+two right the virtual memory divided to
+
+67
+00:04:14,640 --> 00:04:17,959
+it so what is Page frame
+
+68
+00:04:18,720 --> 00:04:21,919
+or is the page frame
+
+69
+00:04:23,340 --> 00:04:26,780
+page frame is yeah Lily
+
+70
+00:04:30,600 --> 00:04:31,979
+so
+
+71
+00:04:31,979 --> 00:04:35,000
+the limit of what
+
+72
+00:04:37,620 --> 00:04:40,139
+page frame has the same size as the page
+
+73
+00:04:40,139 --> 00:04:43,940
+right yeah I think
+
+74
+00:04:49,740 --> 00:04:52,699
+frame would be
+
+75
+00:04:53,100 --> 00:04:57,479
+yeah yeah very good very good so so so
+
+76
+00:04:57,479 --> 00:05:00,240
+a quick review a very quick review so
+
+77
+00:05:00,240 --> 00:05:03,199
+you have a program
+
+78
+00:05:04,560 --> 00:05:06,300
+you have a chrome you write let's say
+
+79
+00:05:06,300 --> 00:05:08,759
+you write some code it's a program and
+
+80
+00:05:08,759 --> 00:05:11,340
+then we combine it and load it around by
+
+81
+00:05:11,340 --> 00:05:14,520
+the OS the CPU loaded that right loaded
+
+82
+00:05:14,520 --> 00:05:16,620
+that into the memory and it becomes a
+
+83
+00:05:16,620 --> 00:05:18,180
+process
+
+84
+00:05:18,180 --> 00:05:20,880
+so this is then become a process
+
+85
+00:05:20,880 --> 00:05:22,560
+remember when we're talking about the
+
+86
+00:05:22,560 --> 00:05:24,840
+process chapter uh we talk about the
+
+87
+00:05:24,840 --> 00:05:26,580
+differences between the process and the
+
+88
+00:05:26,580 --> 00:05:28,199
+stress and we're talking about what is
+
+89
+00:05:28,199 --> 00:05:31,139
+the process processes has it's called
+
+90
+00:05:31,139 --> 00:05:34,020
+it's data right and it's called the code
+
+91
+00:05:34,020 --> 00:05:36,600
+data the ownership the status of the
+
+92
+00:05:36,600 --> 00:05:38,639
+process and most importantly it's
+
+93
+00:05:38,639 --> 00:05:41,580
+includes the memory address space
+
+94
+00:05:41,580 --> 00:05:44,340
+relating to that process and so what is
+
+95
+00:05:44,340 --> 00:05:46,979
+the memory address space that is the
+
+96
+00:05:46,979 --> 00:05:49,139
+location where the process needs to be
+
+97
+00:05:49,139 --> 00:05:53,639
+loaded in the memory so we have a memory
+
+98
+00:05:53,639 --> 00:05:56,280
+let's say this is the physical memory so
+
+99
+00:05:56,280 --> 00:05:59,520
+one program become a process then we
+
+100
+00:05:59,520 --> 00:06:01,979
+need to load that into the memory right
+
+101
+00:06:01,979 --> 00:06:05,400
+so and then how where to load that into
+
+102
+00:06:05,400 --> 00:06:06,479
+the memory
+
+103
+00:06:06,479 --> 00:06:08,880
+the first thing is that you the CPU are
+
+104
+00:06:08,880 --> 00:06:11,580
+going to CR to
+
+105
+00:06:11,580 --> 00:06:14,580
+converts this process
+
+106
+00:06:14,580 --> 00:06:17,520
+into some a very large virtual memory
+
+107
+00:06:17,520 --> 00:06:20,580
+address space right so this process this
+
+108
+00:06:20,580 --> 00:06:22,080
+process
+
+109
+00:06:22,080 --> 00:06:25,620
+it contains the cold input outputs is
+
+110
+00:06:25,620 --> 00:06:29,220
+data and understand the stacks the heaps
+
+111
+00:06:29,220 --> 00:06:30,740
+the ownership the
+
+112
+00:06:30,740 --> 00:06:33,720
+process table a lot of data structures
+
+113
+00:06:33,720 --> 00:06:36,180
+so what are the CPU did is that is going
+
+114
+00:06:36,180 --> 00:06:39,419
+to give a very large virtual memory
+
+115
+00:06:39,419 --> 00:06:42,419
+address space a virtual memory from zero
+
+116
+00:06:42,419 --> 00:06:45,960
+to a very large to a very large value to
+
+117
+00:06:45,960 --> 00:06:49,620
+that process then and then
+
+118
+00:06:49,620 --> 00:06:54,080
+divided to that into many
+
+119
+00:06:54,479 --> 00:06:56,940
+small chunks small chunks
+
+120
+00:06:56,940 --> 00:06:59,759
+and the same chunks the same size of the
+
+121
+00:06:59,759 --> 00:07:03,479
+chunks and which of chunks are page
+
+122
+00:07:03,479 --> 00:07:08,220
+the default size of that page is 4kb
+
+123
+00:07:08,220 --> 00:07:10,919
+so that is the that is the page right
+
+124
+00:07:10,919 --> 00:07:12,840
+that is page then it's the this is the
+
+125
+00:07:12,840 --> 00:07:14,100
+virtual
+
+126
+00:07:14,100 --> 00:07:16,819
+memory
+
+127
+00:07:19,620 --> 00:07:22,020
+a little dress virtual memory okay
+
+128
+00:07:22,020 --> 00:07:24,240
+virtual memory virtual memory of that
+
+129
+00:07:24,240 --> 00:07:27,120
+process and then the next thing we did
+
+130
+00:07:27,120 --> 00:07:29,639
+is that after we divided in uh we gave
+
+131
+00:07:29,639 --> 00:07:33,479
+big after we the CPU give the process a
+
+132
+00:07:33,479 --> 00:07:36,060
+virtual memory address space and then
+
+133
+00:07:36,060 --> 00:07:37,919
+the next thing is that divided into many
+
+134
+00:07:37,919 --> 00:07:40,919
+pages and then we need to decide which
+
+135
+00:07:40,919 --> 00:07:43,319
+page we put into the physical memory
+
+136
+00:07:43,319 --> 00:07:45,960
+right so the physical memory we divide
+
+137
+00:07:45,960 --> 00:07:47,819
+the physical memory itself is a resource
+
+138
+00:07:47,819 --> 00:07:50,160
+it's a hardware it's a hardware so we
+
+139
+00:07:50,160 --> 00:07:54,000
+did what we did is that os are going to
+
+140
+00:07:54,000 --> 00:07:57,300
+it's like a very large distrib districts
+
+141
+00:07:57,300 --> 00:07:59,880
+right a very large District like like
+
+142
+00:07:59,880 --> 00:08:02,039
+you you live in for example you live in
+
+143
+00:08:02,039 --> 00:08:04,500
+a condor right a condo there's a whole
+
+144
+00:08:04,500 --> 00:08:06,360
+these trees there's many condos right
+
+145
+00:08:06,360 --> 00:08:08,160
+the same thing like this so there's
+
+146
+00:08:08,160 --> 00:08:10,740
+there's this is a very large space so we
+
+147
+00:08:10,740 --> 00:08:12,479
+need to divide it into that into many
+
+148
+00:08:12,479 --> 00:08:15,900
+empty spaces we call it a page frame so
+
+149
+00:08:15,900 --> 00:08:18,979
+this is a page frame
+
+150
+00:08:19,319 --> 00:08:21,479
+so the page frames are always the same
+
+151
+00:08:21,479 --> 00:08:23,099
+sizes page
+
+152
+00:08:23,099 --> 00:08:29,479
+then then the OS or decide which page
+
+153
+00:08:29,699 --> 00:08:32,700
+which page
+
+154
+00:08:32,700 --> 00:08:36,500
+is loaded into them is loaded into the
+
+155
+00:08:36,500 --> 00:08:39,719
+physical memory and physical memory and
+
+156
+00:08:39,719 --> 00:08:42,659
+they use a memory management units
+
+157
+00:08:42,659 --> 00:08:45,300
+to do that they use a memory management
+
+158
+00:08:45,300 --> 00:08:48,180
+units to do that to manage the mapping
+
+159
+00:08:48,180 --> 00:08:50,820
+so when we managing the mapping we have
+
+160
+00:08:50,820 --> 00:08:54,180
+use a data structure called a page map
+
+161
+00:08:54,180 --> 00:08:57,300
+Sometimes some books called page table
+
+162
+00:08:57,300 --> 00:09:00,540
+right page table
+
+163
+00:09:00,540 --> 00:09:03,360
+so what what page table did is that it
+
+164
+00:09:03,360 --> 00:09:07,080
+it shows the mapping about which virtual
+
+165
+00:09:07,080 --> 00:09:09,600
+address map to which physical
+
+166
+00:09:09,600 --> 00:09:15,000
+address physical address is the exactly
+
+167
+00:09:15,000 --> 00:09:18,060
+address in the memory in the memory and
+
+168
+00:09:18,060 --> 00:09:20,100
+then here the design question is that
+
+169
+00:09:20,100 --> 00:09:23,279
+now you you advise or ask you to design
+
+170
+00:09:23,279 --> 00:09:26,580
+a new mmu memory management units and
+
+171
+00:09:26,580 --> 00:09:29,040
+you can decide
+
+172
+00:09:29,040 --> 00:09:32,940
+you can use any page size you want so
+
+173
+00:09:32,940 --> 00:09:34,800
+the question is that what is the
+
+174
+00:09:34,800 --> 00:09:38,100
+benefits to do to design a small page
+
+175
+00:09:38,100 --> 00:09:40,860
+size or what is the limitations to
+
+176
+00:09:40,860 --> 00:09:43,940
+design a small page size in order
+
+177
+00:09:43,940 --> 00:09:48,300
+benefits to design a big page size
+
+178
+00:09:48,300 --> 00:09:51,300
+and the limitations to design a big page
+
+179
+00:09:51,300 --> 00:09:52,920
+size
+
+180
+00:09:52,920 --> 00:09:56,720
+all right so this is the story
+
+181
+00:09:57,360 --> 00:10:01,019
+no yeah
+
+182
+00:10:11,220 --> 00:10:13,140
+very good very good that's a very good
+
+183
+00:10:13,140 --> 00:10:15,600
+start okay so um
+
+184
+00:10:15,600 --> 00:10:19,320
+let's say if we have a very very large
+
+185
+00:10:19,320 --> 00:10:22,080
+page size if we have a very very large
+
+186
+00:10:22,080 --> 00:10:24,720
+page size then
+
+187
+00:10:24,720 --> 00:10:26,940
+so if we have a very large page size
+
+188
+00:10:26,940 --> 00:10:29,760
+let's say the page size is not no longer
+
+189
+00:10:29,760 --> 00:10:31,800
+like this small right it's no longer
+
+190
+00:10:31,800 --> 00:10:34,560
+like this small it will be
+
+191
+00:10:34,560 --> 00:10:36,959
+it will like like this the larger page
+
+192
+00:10:36,959 --> 00:10:39,000
+size
+
+193
+00:10:39,000 --> 00:10:41,640
+so this is the page size
+
+194
+00:10:41,640 --> 00:10:44,820
+okay very large very large page size
+
+195
+00:10:44,820 --> 00:10:47,880
+if we have a very large page size very
+
+196
+00:10:47,880 --> 00:10:50,660
+large page size
+
+197
+00:10:51,779 --> 00:10:56,100
+then the page table entries
+
+198
+00:10:56,100 --> 00:10:58,140
+will be smaller
+
+199
+00:10:58,140 --> 00:11:00,360
+will be what will be less right will be
+
+200
+00:11:00,360 --> 00:11:01,860
+less the page
+
+201
+00:11:01,860 --> 00:11:05,480
+page table
+
+202
+00:11:05,700 --> 00:11:09,019
+you see that let's see
+
+203
+00:11:11,820 --> 00:11:15,839
+if we have if we if we use this
+
+204
+00:11:15,839 --> 00:11:18,180
+part of the
+
+205
+00:11:18,180 --> 00:11:20,880
+page size this part is larger page size
+
+206
+00:11:20,880 --> 00:11:23,040
+like this is the physical memory okay
+
+207
+00:11:23,040 --> 00:11:25,860
+physical memory
+
+208
+00:11:25,860 --> 00:11:27,959
+physical memory this is your virtual
+
+209
+00:11:27,959 --> 00:11:29,519
+memory
+
+210
+00:11:29,519 --> 00:11:31,560
+virtual memory
+
+211
+00:11:31,560 --> 00:11:34,920
+of a process of P1 look at P1
+
+212
+00:11:34,920 --> 00:11:40,500
+so if we if we use a very large if we
+
+213
+00:11:40,500 --> 00:11:46,459
+use a very large very large page size
+
+214
+00:11:46,920 --> 00:11:50,820
+we will have we will have smaller page
+
+215
+00:11:50,820 --> 00:11:53,399
+tables think of that what think of why
+
+216
+00:11:53,399 --> 00:11:55,320
+why
+
+217
+00:11:55,320 --> 00:11:58,500
+we will have much less entries of the
+
+218
+00:11:58,500 --> 00:11:59,940
+page tables
+
+219
+00:11:59,940 --> 00:12:02,480
+why
+
+220
+00:12:02,640 --> 00:12:05,060
+pictures
+
+221
+00:12:10,079 --> 00:12:13,200
+you see this if we only have we will be
+
+222
+00:12:13,200 --> 00:12:16,440
+using this for only this big this size
+
+223
+00:12:16,440 --> 00:12:18,959
+of the big pages right we only need two
+
+224
+00:12:18,959 --> 00:12:21,420
+entries right because you only need
+
+225
+00:12:21,420 --> 00:12:23,820
+these two entries let's say to map into
+
+226
+00:12:23,820 --> 00:12:26,519
+here then the page this is the size of
+
+227
+00:12:26,519 --> 00:12:28,260
+the page table this is the size page
+
+228
+00:12:28,260 --> 00:12:32,279
+table but if we use this smaller this
+
+229
+00:12:32,279 --> 00:12:33,959
+smaller
+
+230
+00:12:33,959 --> 00:12:37,860
+Pages if we use a smaller Pages we need
+
+231
+00:12:37,860 --> 00:12:40,519
+more
+
+232
+00:12:43,519 --> 00:12:47,399
+more page table entries why because the
+
+233
+00:12:47,399 --> 00:12:50,760
+page table entries is the same need the
+
+234
+00:12:50,760 --> 00:12:54,060
+number of the page table entries is the
+
+235
+00:12:54,060 --> 00:12:56,820
+same as the page frames right the page
+
+236
+00:12:56,820 --> 00:12:59,459
+frames or the physical page frames so if
+
+237
+00:12:59,459 --> 00:13:01,139
+you are using
+
+238
+00:13:01,139 --> 00:13:03,779
+this is a little tricky here the page
+
+239
+00:13:03,779 --> 00:13:07,500
+frames is the same size as the page the
+
+240
+00:13:07,500 --> 00:13:10,200
+page size page frame is always the same
+
+241
+00:13:10,200 --> 00:13:13,019
+size as the page so if you use a large
+
+242
+00:13:13,019 --> 00:13:15,779
+page that means we are going to have a
+
+243
+00:13:15,779 --> 00:13:16,680
+larger
+
+244
+00:13:16,680 --> 00:13:20,339
+page frames then this memory the
+
+245
+00:13:20,339 --> 00:13:22,860
+physical memory will not divided as many
+
+246
+00:13:22,860 --> 00:13:24,779
+page frames at all
+
+247
+00:13:24,779 --> 00:13:28,079
+divided into much less page frames that
+
+248
+00:13:28,079 --> 00:13:30,240
+is why
+
+249
+00:13:30,240 --> 00:13:34,200
+if we we use much large page frames but
+
+250
+00:13:34,200 --> 00:13:36,839
+the memory the size of the memory is the
+
+251
+00:13:36,839 --> 00:13:39,660
+same then we will have much less page
+
+252
+00:13:39,660 --> 00:13:44,160
+table entries that is why if we using a
+
+253
+00:13:44,160 --> 00:13:45,300
+large
+
+254
+00:13:45,300 --> 00:13:51,980
+page size then we will have less
+
+255
+00:13:52,500 --> 00:13:55,040
+so
+
+256
+00:13:56,760 --> 00:13:58,260
+a large
+
+257
+00:13:58,260 --> 00:14:02,060
+let me write in here
+
+258
+00:14:24,300 --> 00:14:27,839
+right if we use a large page size mean
+
+259
+00:14:27,839 --> 00:14:31,079
+if we use a large page size then it
+
+260
+00:14:31,079 --> 00:14:32,040
+means
+
+261
+00:14:32,040 --> 00:14:34,079
+there will be the page frame it will be
+
+262
+00:14:34,079 --> 00:14:36,560
+our large
+
+263
+00:14:38,220 --> 00:14:40,800
+page frame
+
+264
+00:14:40,800 --> 00:14:43,079
+right means there will be large page
+
+265
+00:14:43,079 --> 00:14:46,079
+frame it means and it means
+
+266
+00:14:46,079 --> 00:14:48,860
+it means
+
+267
+00:14:49,920 --> 00:14:52,079
+less
+
+268
+00:14:52,079 --> 00:14:53,519
+page
+
+269
+00:14:53,519 --> 00:14:54,839
+table
+
+270
+00:14:54,839 --> 00:14:57,500
+entry
+
+271
+00:14:57,540 --> 00:14:59,940
+so it means the last page table entry
+
+272
+00:14:59,940 --> 00:15:02,940
+then that means a smaller page table
+
+273
+00:15:02,940 --> 00:15:07,680
+right then it means a smaller page table
+
+274
+00:15:07,680 --> 00:15:10,620
+so the battlefield is that a smaller
+
+275
+00:15:10,620 --> 00:15:11,760
+page table
+
+276
+00:15:11,760 --> 00:15:14,940
+small page table means that we can save
+
+277
+00:15:14,940 --> 00:15:17,699
+the memory consumption on the page table
+
+278
+00:15:17,699 --> 00:15:21,360
+because page table is stored in memory
+
+279
+00:15:21,360 --> 00:15:24,540
+right a smaller page table we save the
+
+280
+00:15:24,540 --> 00:15:27,839
+memory usage that is the that is the
+
+281
+00:15:27,839 --> 00:15:30,300
+good thing about large page size so in
+
+282
+00:15:30,300 --> 00:15:34,699
+office in obsessed in obsessed
+
+283
+00:15:35,519 --> 00:15:38,579
+a small page size a small page size
+
+284
+00:15:38,579 --> 00:15:41,220
+means a small page a small page size
+
+285
+00:15:41,220 --> 00:15:43,440
+means that there will be
+
+286
+00:15:43,440 --> 00:15:46,680
+small page frames right there will be
+
+287
+00:15:46,680 --> 00:15:49,260
+small page frames and there will be more
+
+288
+00:15:49,260 --> 00:15:53,279
+more page table entries and then it will
+
+289
+00:15:53,279 --> 00:15:56,240
+be larger
+
+290
+00:15:57,180 --> 00:15:58,920
+larger
+
+291
+00:15:58,920 --> 00:16:00,060
+page
+
+292
+00:16:00,060 --> 00:16:03,480
+table there will be larger page table so
+
+293
+00:16:03,480 --> 00:16:04,320
+it's
+
+294
+00:16:04,320 --> 00:16:06,920
+it's like
+
+295
+00:16:08,579 --> 00:16:11,360
+memory
+
+296
+00:16:14,040 --> 00:16:17,040
+closely okay it costs a lot of memory
+
+297
+00:16:17,040 --> 00:16:20,820
+overhead okay a larger page table
+
+298
+00:16:20,820 --> 00:16:22,860
+so that is they are the objects okay
+
+299
+00:16:22,860 --> 00:16:26,579
+obsessed so what else what else so and
+
+300
+00:16:26,579 --> 00:16:30,779
+let's go starting from here then it
+
+301
+00:16:30,779 --> 00:16:33,660
+seems that a large larger page size will
+
+302
+00:16:33,660 --> 00:16:37,380
+give us a small small page table then we
+
+303
+00:16:37,380 --> 00:16:39,660
+can save the memory usage right then we
+
+304
+00:16:39,660 --> 00:16:41,699
+can let's set the
+
+305
+00:16:41,699 --> 00:16:45,180
+memory the the page size to be extremely
+
+306
+00:16:45,180 --> 00:16:48,240
+big like the same size of the memory
+
+307
+00:16:48,240 --> 00:16:50,820
+we cannot do that right so there must be
+
+308
+00:16:50,820 --> 00:16:53,459
+some limitations about the larger page
+
+309
+00:16:53,459 --> 00:16:58,040
+size or is the limitations about that
+
+310
+00:16:58,380 --> 00:17:00,920
+Eric
+
+311
+00:17:02,699 --> 00:17:05,300
+is less uh
+
+312
+00:17:07,260 --> 00:17:09,319
+um
+
+313
+00:17:20,480 --> 00:17:26,240
+larger page size costs more page four
+
+314
+00:17:30,360 --> 00:17:34,520
+less pages in the page table then
+
+315
+00:17:45,840 --> 00:17:49,400
+not like that yeah
+
+316
+00:17:49,440 --> 00:17:53,760
+so my my thinking is that if you have
+
+317
+00:17:53,760 --> 00:17:55,380
+in your
+
+318
+00:17:55,380 --> 00:17:58,620
+memories and the harder to
+
+319
+00:17:58,620 --> 00:18:00,480
+fit like more
+
+320
+00:18:00,480 --> 00:18:03,539
+very good it's hot it's it's hot it's
+
+321
+00:18:03,539 --> 00:18:05,340
+hard it's difficult to fit more
+
+322
+00:18:05,340 --> 00:18:08,160
+processes and it's called wipe why it is
+
+323
+00:18:08,160 --> 00:18:11,840
+hard to fix more processes
+
+324
+00:18:21,780 --> 00:18:23,580
+remember when we when we're talking
+
+325
+00:18:23,580 --> 00:18:26,640
+about Pages or a page cannot be shared
+
+326
+00:18:26,640 --> 00:18:29,460
+by many process right a page can only be
+
+327
+00:18:29,460 --> 00:18:31,799
+belonging to one process so if we set it
+
+328
+00:18:31,799 --> 00:18:33,600
+to be very large
+
+329
+00:18:33,600 --> 00:18:36,299
+then what if a process is very small
+
+330
+00:18:36,299 --> 00:18:39,299
+it's very small like as small as this
+
+331
+00:18:39,299 --> 00:18:42,799
+it's very small
+
+332
+00:18:42,840 --> 00:18:45,840
+then this part is wasted this part is
+
+333
+00:18:45,840 --> 00:18:48,059
+wasted because the other process cannot
+
+334
+00:18:48,059 --> 00:18:49,559
+fit in
+
+335
+00:18:49,559 --> 00:18:51,960
+so we call this we call this to be
+
+336
+00:18:51,960 --> 00:18:55,200
+internal fragmentations
+
+337
+00:18:55,200 --> 00:18:57,179
+internal
+
+338
+00:18:57,179 --> 00:18:59,960
+fragment
+
+339
+00:19:00,059 --> 00:19:04,200
+so internal fragmentation so if we if we
+
+340
+00:19:04,200 --> 00:19:09,020
+use very large page size then we can not
+
+341
+00:19:09,020 --> 00:19:11,640
+efficiently holds the many concurrent
+
+342
+00:19:11,640 --> 00:19:14,640
+running process in the memory so it's
+
+343
+00:19:14,640 --> 00:19:17,400
+not efficient space sharing of the
+
+344
+00:19:17,400 --> 00:19:20,400
+memory we we cause a lot of internal
+
+345
+00:19:20,400 --> 00:19:23,340
+fragmentations look at this picture if
+
+346
+00:19:23,340 --> 00:19:25,440
+you make it extremely large but many
+
+347
+00:19:25,440 --> 00:19:28,140
+processes are just very tiny small they
+
+348
+00:19:28,140 --> 00:19:31,200
+only need this much of spaces but since
+
+349
+00:19:31,200 --> 00:19:34,080
+you push the page to be very large they
+
+350
+00:19:34,080 --> 00:19:36,360
+will be allocated to be one large page
+
+351
+00:19:36,360 --> 00:19:39,120
+one large page but they waste many
+
+352
+00:19:39,120 --> 00:19:41,760
+memory resources like this
+
+353
+00:19:41,760 --> 00:19:43,919
+many memory resources
+
+354
+00:19:43,919 --> 00:19:46,520
+so
+
+355
+00:19:51,660 --> 00:19:55,760
+so the limitations will be like
+
+356
+00:20:01,740 --> 00:20:04,380
+more
+
+357
+00:20:04,380 --> 00:20:07,380
+internal
+
+358
+00:20:08,340 --> 00:20:11,340
+fragmentations
+
+359
+00:20:12,780 --> 00:20:16,460
+more internal fragmentations
+
+360
+00:20:21,419 --> 00:20:23,820
+what um
+
+361
+00:20:23,820 --> 00:20:25,740
+anything else so in the eagle stream
+
+362
+00:20:25,740 --> 00:20:27,600
+extreme extreme
+
+363
+00:20:27,600 --> 00:20:31,380
+small small page size means that look at
+
+364
+00:20:31,380 --> 00:20:33,539
+this picture small page size means that
+
+365
+00:20:33,539 --> 00:20:35,580
+we can more efficiently
+
+366
+00:20:35,580 --> 00:20:38,460
+allocates the pages to different process
+
+367
+00:20:38,460 --> 00:20:41,640
+right and for example if a process size
+
+368
+00:20:41,640 --> 00:20:42,500
+is
+
+369
+00:20:42,500 --> 00:20:47,640
+101 process size is 50 51 and if we use
+
+370
+00:20:47,640 --> 00:20:50,880
+the page to be one if we the page size
+
+371
+00:20:50,880 --> 00:20:54,660
+to be one then this can have 101 Pages
+
+372
+00:20:54,660 --> 00:20:58,260
+this can have 51 pages right but if we
+
+373
+00:20:58,260 --> 00:21:02,400
+make the page size to be let's say 200
+
+374
+00:21:02,400 --> 00:21:05,039
+200 then that means this can only have
+
+375
+00:21:05,039 --> 00:21:09,140
+one page and the wasted 99
+
+376
+00:21:09,720 --> 00:21:11,720
+um
+
+377
+00:21:11,960 --> 00:21:16,440
+model like around half of the memory and
+
+378
+00:21:16,440 --> 00:21:19,500
+also for this right so if we give 200
+
+379
+00:21:19,500 --> 00:21:22,620
+size of 200 pages one page to it it will
+
+380
+00:21:22,620 --> 00:21:25,980
+waste it one 149.
+
+381
+00:21:25,980 --> 00:21:28,919
+memory resources so that is the you know
+
+382
+00:21:28,919 --> 00:21:31,020
+it's it all significantly reduce
+
+383
+00:21:31,020 --> 00:21:34,380
+significant reduce
+
+384
+00:21:34,380 --> 00:21:37,880
+reduce internal
+
+385
+00:21:39,059 --> 00:21:42,679
+internal fragmentation
+
+386
+00:21:48,360 --> 00:21:50,360
+um
+
+387
+00:21:50,880 --> 00:21:52,679
+so they are in the opposite right the
+
+388
+00:21:52,679 --> 00:21:56,100
+larger page size means means
+
+389
+00:21:56,100 --> 00:21:58,559
+the strength is a smaller page table we
+
+390
+00:21:58,559 --> 00:22:01,620
+save the memory we save the memory
+
+391
+00:22:01,620 --> 00:22:04,559
+safe memory
+
+392
+00:22:04,559 --> 00:22:06,659
+we save memory part it costs more
+
+393
+00:22:06,659 --> 00:22:09,059
+internal fragmentations in opposite the
+
+394
+00:22:09,059 --> 00:22:12,000
+small page size it will reduce the
+
+395
+00:22:12,000 --> 00:22:13,980
+internal fragmentations but it costs
+
+396
+00:22:13,980 --> 00:22:17,220
+larger page table so it weighs the
+
+397
+00:22:17,220 --> 00:22:19,380
+memory it's very cause a lot of memory
+
+398
+00:22:19,380 --> 00:22:22,220
+or hard but no one else
+
+399
+00:22:22,220 --> 00:22:24,780
+besides the internal fragmentation
+
+400
+00:22:24,780 --> 00:22:30,559
+besides the page table size what else
+
+401
+00:22:41,760 --> 00:22:45,960
+think of the page table will be impacted
+
+402
+00:22:45,960 --> 00:22:48,980
+right and
+
+403
+00:22:53,940 --> 00:22:55,620
+yeah
+
+404
+00:22:55,620 --> 00:22:58,940
+Well it's worse
+
+405
+00:23:06,600 --> 00:23:08,640
+oh we already talked about that the
+
+406
+00:23:08,640 --> 00:23:12,539
+modern internal fragmentations in
+
+407
+00:23:12,539 --> 00:23:14,340
+every right
+
+408
+00:23:14,340 --> 00:23:17,480
+Andrew okay Andrew
+
+409
+00:23:24,480 --> 00:23:26,580
+managing it will be more difficult about
+
+410
+00:23:26,580 --> 00:23:28,559
+who is who are managing it memory
+
+411
+00:23:28,559 --> 00:23:31,559
+management units right it used if we use
+
+412
+00:23:31,559 --> 00:23:34,080
+the page table to manage it right
+
+413
+00:23:34,080 --> 00:23:35,880
+and it's used
+
+414
+00:23:35,880 --> 00:23:37,860
+tlb right
+
+415
+00:23:37,860 --> 00:23:41,120
+then yeah
+
+416
+00:23:52,880 --> 00:23:57,020
+not exactly yeah Andrew
+
+417
+00:23:58,799 --> 00:24:01,460
+say again
+
+418
+00:24:02,400 --> 00:24:04,260
+you know
+
+419
+00:24:04,260 --> 00:24:08,460
+it's it's hard to catch fish so let's
+
+420
+00:24:08,460 --> 00:24:10,740
+think of that uh yeah
+
+421
+00:24:10,740 --> 00:24:12,480
+um
+
+422
+00:24:12,480 --> 00:24:17,960
+easy what's your name either Madre okay
+
+423
+00:24:20,760 --> 00:24:23,820
+let's say page four okay see who
+
+424
+00:24:23,820 --> 00:24:26,580
+for large Pages you say that page boards
+
+425
+00:24:26,580 --> 00:24:30,720
+will be more expensive why why page
+
+426
+00:24:30,720 --> 00:24:32,700
+force is more expensive
+
+427
+00:24:32,700 --> 00:24:34,380
+page four
+
+428
+00:24:34,380 --> 00:24:36,780
+so what is the page four page four means
+
+429
+00:24:36,780 --> 00:24:39,000
+that I couldn't find out
+
+430
+00:24:39,000 --> 00:24:41,280
+what is Page four page four is a mean
+
+431
+00:24:41,280 --> 00:24:43,820
+starch
+
+432
+00:24:44,039 --> 00:24:47,159
+couldn't find out the page in the memory
+
+433
+00:24:47,159 --> 00:24:48,240
+right
+
+434
+00:24:48,240 --> 00:24:51,600
+there's another page in the memory so
+
+435
+00:24:51,600 --> 00:24:54,360
+why larger
+
+436
+00:24:54,360 --> 00:24:56,700
+why larger
+
+437
+00:24:56,700 --> 00:24:59,159
+course is why larger page size costs
+
+438
+00:24:59,159 --> 00:25:03,140
+more page for it Lily
+
+439
+00:25:07,140 --> 00:25:09,240
+weather is still the same thing as the
+
+440
+00:25:09,240 --> 00:25:11,039
+internal fragmentation
+
+441
+00:25:11,039 --> 00:25:12,780
+all right that's just they are the same
+
+442
+00:25:12,780 --> 00:25:14,700
+thing as the internal fragmentation we
+
+443
+00:25:14,700 --> 00:25:18,360
+say that larger larger page size cause
+
+444
+00:25:18,360 --> 00:25:21,299
+more internal fragmentations right so
+
+445
+00:25:21,299 --> 00:25:23,400
+that it cannot hold the main Imports
+
+446
+00:25:23,400 --> 00:25:26,460
+pages in memory cannot efficiently use
+
+447
+00:25:26,460 --> 00:25:28,500
+the memory resources cause many internal
+
+448
+00:25:28,500 --> 00:25:31,740
+fragmentations so it may cause more page
+
+449
+00:25:31,740 --> 00:25:34,320
+Force but what else what else think
+
+450
+00:25:34,320 --> 00:25:36,720
+think of where you can think of two
+
+451
+00:25:36,720 --> 00:25:38,279
+different directions the first direction
+
+452
+00:25:38,279 --> 00:25:40,799
+is like we know that a page table will
+
+453
+00:25:40,799 --> 00:25:44,520
+be impacted right but how about tlb tlb
+
+454
+00:25:44,520 --> 00:25:48,260
+will be also infected right
+
+455
+00:25:48,539 --> 00:25:52,580
+Tob will be also infected right
+
+456
+00:26:02,340 --> 00:26:05,659
+why isn't say again
+
+457
+00:26:06,840 --> 00:26:09,779
+so in why why in fact internal
+
+458
+00:26:09,779 --> 00:26:11,340
+recommendation what is the internal
+
+459
+00:26:11,340 --> 00:26:13,020
+fragmentation
+
+460
+00:26:13,020 --> 00:26:15,600
+the only example okay let me let me make
+
+461
+00:26:15,600 --> 00:26:17,940
+an example so let's say we have the
+
+462
+00:26:17,940 --> 00:26:19,620
+memory memory
+
+463
+00:26:19,620 --> 00:26:23,159
+our memory is 100 okay memory is the 100
+
+464
+00:26:23,159 --> 00:26:27,480
+okay 100 now we divided in the with
+
+465
+00:26:27,480 --> 00:26:30,179
+let's say the page size
+
+466
+00:26:30,179 --> 00:26:34,200
+page size equals to 10 page size equals
+
+467
+00:26:34,200 --> 00:26:36,799
+to 10.
+
+468
+00:26:37,200 --> 00:26:41,480
+then how many page frames in memory
+
+469
+00:26:46,140 --> 00:26:48,799
+turn right
+
+470
+00:26:50,220 --> 00:26:52,380
+how many page frame in the memory
+
+471
+00:26:52,380 --> 00:26:54,480
+turn right this is the memory memory is
+
+472
+00:26:54,480 --> 00:26:57,480
+100 and we set each page size to return
+
+473
+00:26:57,480 --> 00:27:00,360
+so there will be 10 memory term page
+
+474
+00:27:00,360 --> 00:27:02,760
+frames in the memory right then in the
+
+475
+00:27:02,760 --> 00:27:05,460
+office let's say we still using 100 okay
+
+476
+00:27:05,460 --> 00:27:08,580
+let's say the page size
+
+477
+00:27:08,580 --> 00:27:12,059
+page size to be 25 then how many page
+
+478
+00:27:12,059 --> 00:27:15,620
+frames we have in the memory
+
+479
+00:27:18,720 --> 00:27:20,460
+only four
+
+480
+00:27:20,460 --> 00:27:22,320
+right
+
+481
+00:27:22,320 --> 00:27:23,220
+right
+
+482
+00:27:23,220 --> 00:27:25,220
+um
+
+483
+00:27:25,380 --> 00:27:27,960
+do you have any questions for that no
+
+484
+00:27:27,960 --> 00:27:31,260
+questions right no questions now if I if
+
+485
+00:27:31,260 --> 00:27:34,400
+if here
+
+486
+00:27:35,159 --> 00:27:38,940
+if I if there's many smaller processes
+
+487
+00:27:38,940 --> 00:27:41,539
+come in
+
+488
+00:27:42,840 --> 00:27:47,279
+this is P1 its size is equals to 2 P2
+
+489
+00:27:47,279 --> 00:27:51,360
+equals to 3 p 3 equals to four
+
+490
+00:27:51,360 --> 00:27:53,760
+P four equals to 5.
+
+491
+00:27:53,760 --> 00:27:56,760
+5 might be equals to one something like
+
+492
+00:27:56,760 --> 00:28:01,380
+that and we have we have 10 right there
+
+493
+00:28:01,380 --> 00:28:03,900
+they are all last they are all less than
+
+494
+00:28:03,900 --> 00:28:07,320
+one and then then ten then for the first
+
+495
+00:28:07,320 --> 00:28:09,539
+one we one we
+
+496
+00:28:09,539 --> 00:28:13,980
+when we design design small page size
+
+497
+00:28:13,980 --> 00:28:15,600
+we can hold
+
+498
+00:28:15,600 --> 00:28:20,880
+all these term processes in memory right
+
+499
+00:28:20,880 --> 00:28:23,580
+we can hold them together right
+
+500
+00:28:23,580 --> 00:28:27,480
+but 14 in this case in this case
+
+501
+00:28:27,480 --> 00:28:30,600
+after you hold this four
+
+502
+00:28:30,600 --> 00:28:32,760
+you cannot hold any more
+
+503
+00:28:32,760 --> 00:28:36,840
+say this is P1 with P1 or P1 and then
+
+504
+00:28:36,840 --> 00:28:39,179
+this is P2
+
+505
+00:28:39,179 --> 00:28:42,059
+P2 P3
+
+506
+00:28:42,059 --> 00:28:45,720
+P3 P4
+
+507
+00:28:45,720 --> 00:28:47,880
+P4
+
+508
+00:28:47,880 --> 00:28:50,159
+so look at this
+
+509
+00:28:50,159 --> 00:28:52,500
+for the first page how much resources
+
+510
+00:28:52,500 --> 00:28:56,179
+are wasted it's wasted
+
+511
+00:28:56,400 --> 00:28:59,100
+24 right
+
+512
+00:28:59,100 --> 00:29:03,299
+this is four pages four page frames
+
+513
+00:29:03,299 --> 00:29:06,659
+so are we in the same
+
+514
+00:29:06,659 --> 00:29:10,080
+so that this this 24 wasted mammal
+
+515
+00:29:10,080 --> 00:29:12,539
+resources is called fragmentation
+
+516
+00:29:12,539 --> 00:29:15,360
+that is why larger page size will cause
+
+517
+00:29:15,360 --> 00:29:17,760
+more fragmentations
+
+518
+00:29:17,760 --> 00:29:21,799
+but in this case in this case
+
+519
+00:29:25,500 --> 00:29:27,720
+they have all taken for different this
+
+520
+00:29:27,720 --> 00:29:31,200
+is P1 P2 P3 P4
+
+521
+00:29:31,200 --> 00:29:36,440
+for ip5 P5 P6
+
+522
+00:29:36,539 --> 00:29:39,440
+p7
+
+523
+00:29:39,659 --> 00:29:41,940
+p8
+
+524
+00:29:41,940 --> 00:29:44,659
+P9
+
+525
+00:29:45,240 --> 00:29:49,260
+P10 we can hold we can we can hold all
+
+526
+00:29:49,260 --> 00:29:52,260
+these processes into the memory but for
+
+527
+00:29:52,260 --> 00:29:55,380
+if we set the page size to be very large
+
+528
+00:29:55,380 --> 00:29:57,059
+we're very large
+
+529
+00:29:57,059 --> 00:30:00,720
+we each and then there's many smaller
+
+530
+00:30:00,720 --> 00:30:04,740
+processes coming because owning hold
+
+531
+00:30:04,740 --> 00:30:06,440
+much less
+
+532
+00:30:06,440 --> 00:30:10,100
+processes and we cause a lot of
+
+533
+00:30:10,100 --> 00:30:13,200
+bigger internal fragmentations so this
+
+534
+00:30:13,200 --> 00:30:17,940
+part like the P2 then P2 or P1 okay my
+
+535
+00:30:17,940 --> 00:30:19,020
+fourth
+
+536
+00:30:19,020 --> 00:30:24,000
+three okay this is 22 guard wasted P3 21
+
+537
+00:30:24,000 --> 00:30:26,580
+guard waisted
+
+538
+00:30:26,580 --> 00:30:30,980
+20. so this is all for augmentations
+
+539
+00:30:31,679 --> 00:30:32,820
+okay
+
+540
+00:30:32,820 --> 00:30:35,580
+that is the internal fragmentation so
+
+541
+00:30:35,580 --> 00:30:37,980
+larger page size will cause more
+
+542
+00:30:37,980 --> 00:30:41,340
+internal fragmentations but larger page
+
+543
+00:30:41,340 --> 00:30:42,299
+size
+
+544
+00:30:42,299 --> 00:30:44,940
+larger page size means a smaller page
+
+545
+00:30:44,940 --> 00:30:47,399
+table because we have much less page
+
+546
+00:30:47,399 --> 00:30:50,520
+table entries so if we have smaller page
+
+547
+00:30:50,520 --> 00:30:56,179
+table we also have a smaller tlb table
+
+548
+00:30:57,779 --> 00:31:00,980
+what is tlb
+
+549
+00:31:02,460 --> 00:31:06,360
+translation localized buffer so it's a
+
+550
+00:31:06,360 --> 00:31:09,720
+buffer it's a page tables buffer so it's
+
+551
+00:31:09,720 --> 00:31:12,539
+a page tables buffer so if we have a
+
+552
+00:31:12,539 --> 00:31:13,980
+smaller page table
+
+553
+00:31:13,980 --> 00:31:16,559
+then that means weekend that means we
+
+554
+00:31:16,559 --> 00:31:18,539
+have
+
+555
+00:31:18,539 --> 00:31:22,740
+we have a similar tlb 2 right and the we
+
+556
+00:31:22,740 --> 00:31:25,500
+in this case in this case
+
+557
+00:31:25,500 --> 00:31:29,299
+in this case we
+
+558
+00:31:29,760 --> 00:31:33,659
+we can hold more memory address in the
+
+559
+00:31:33,659 --> 00:31:36,059
+tlb
+
+560
+00:31:36,059 --> 00:31:39,539
+okay and then and then again
+
+561
+00:31:39,539 --> 00:31:42,179
+this
+
+562
+00:31:42,179 --> 00:31:46,340
+it will cost more page
+
+563
+00:31:48,539 --> 00:31:51,919
+per page Fort okay
+
+564
+00:31:52,320 --> 00:31:55,440
+but the uh the key takeaway here is that
+
+565
+00:31:55,440 --> 00:31:58,520
+you need to understand
+
+566
+00:31:59,820 --> 00:32:02,580
+internal fragmentation what is the
+
+567
+00:32:02,580 --> 00:32:04,980
+internal fragmentation and you need to
+
+568
+00:32:04,980 --> 00:32:08,399
+understand how it affects the tlb the
+
+569
+00:32:08,399 --> 00:32:11,039
+tlb and also the page table also the
+
+570
+00:32:11,039 --> 00:32:12,240
+page table
+
+571
+00:32:12,240 --> 00:32:14,520
+okay so that's the first review question
+
+572
+00:32:14,520 --> 00:32:16,620
+the first review question so let's look
+
+573
+00:32:16,620 --> 00:32:19,399
+at the SEC
+
+574
+00:32:20,520 --> 00:32:23,960
+oh okay sure
+
+575
+00:32:29,659 --> 00:32:33,380
+I'll give it answer
+
+576
+00:32:33,720 --> 00:32:35,899
+foreign
+
+577
+00:32:36,740 --> 00:32:39,299
+so where the takeaway here is to
+
+578
+00:32:39,299 --> 00:32:42,840
+remember this okay larger page larger
+
+579
+00:32:42,840 --> 00:32:46,279
+page and um
+
+580
+00:32:48,360 --> 00:32:50,159
+yes
+
+581
+00:32:50,159 --> 00:32:52,740
+the smaller page small page sizes
+
+582
+00:32:52,740 --> 00:32:54,600
+strength is that it will reduce the
+
+583
+00:32:54,600 --> 00:32:56,940
+internal fragmentation but the
+
+584
+00:32:56,940 --> 00:32:59,520
+limitations is that it will
+
+585
+00:32:59,520 --> 00:33:02,940
+it will cost much more page table
+
+586
+00:33:02,940 --> 00:33:05,520
+entries and of course larger page table
+
+587
+00:33:05,520 --> 00:33:10,140
+and also larger tlb and for the larger
+
+588
+00:33:10,140 --> 00:33:12,480
+page size it will cost smaller page
+
+589
+00:33:12,480 --> 00:33:14,880
+table and save the memory the strength
+
+590
+00:33:14,880 --> 00:33:17,220
+of that and the limitations is that more
+
+591
+00:33:17,220 --> 00:33:20,539
+internal fragmentation
+
+592
+00:33:21,840 --> 00:33:25,080
+uh okay so let's look at the second
+
+593
+00:33:25,080 --> 00:33:26,880
+review question so
+
+594
+00:33:26,880 --> 00:33:30,059
+um in our last class you have learned
+
+595
+00:33:30,059 --> 00:33:33,500
+let me show you this
+
+596
+00:33:50,279 --> 00:33:52,460
+foreign
+
+597
+00:33:52,500 --> 00:33:55,640
+give me one second
+
+598
+00:34:09,839 --> 00:34:13,080
+showing in our last class we we
+
+599
+00:34:13,080 --> 00:34:16,139
+um shouldn't discuss about the page
+
+600
+00:34:16,139 --> 00:34:18,119
+replacement algorithms right there's
+
+601
+00:34:18,119 --> 00:34:21,480
+many page replacement algorithms here's
+
+602
+00:34:21,480 --> 00:34:23,159
+um let's review
+
+603
+00:34:23,159 --> 00:34:23,879
+um
+
+604
+00:34:23,879 --> 00:34:26,720
+if I
+
+605
+00:34:38,820 --> 00:34:41,879
+to take away his data you need to
+
+606
+00:34:41,879 --> 00:34:42,418
+um
+
+607
+00:34:42,418 --> 00:34:45,599
+you need to understand what is the fifo
+
+608
+00:34:45,599 --> 00:34:48,960
+and lru and also there's a there's a
+
+609
+00:34:48,960 --> 00:34:50,879
+page replacement algorithm called the
+
+610
+00:34:50,879 --> 00:34:53,159
+optimal page replacement algorithms
+
+611
+00:34:53,159 --> 00:34:55,800
+right so the differences between these
+
+612
+00:34:55,800 --> 00:34:57,960
+three the differences between these
+
+613
+00:34:57,960 --> 00:35:00,140
+three
+
+614
+00:35:01,800 --> 00:35:03,300
+so
+
+615
+00:35:03,300 --> 00:35:05,300
+um
+
+616
+00:35:14,119 --> 00:35:16,140
+let me see
+
+617
+00:35:16,140 --> 00:35:19,140
+the slides
+
+618
+00:35:24,660 --> 00:35:27,060
+yeah so we talk about optimal page
+
+619
+00:35:27,060 --> 00:35:29,160
+replacement algorithms first thing first
+
+620
+00:35:29,160 --> 00:35:31,320
+out page Replacements Second Chance
+
+621
+00:35:31,320 --> 00:35:34,560
+clock page leads the recently used are
+
+622
+00:35:34,560 --> 00:35:38,099
+you working their page Replacements
+
+623
+00:35:38,099 --> 00:35:39,900
+um
+
+624
+00:35:39,900 --> 00:35:41,820
+so first what is the optimal page
+
+625
+00:35:41,820 --> 00:35:44,099
+replacement algorithms optimal page
+
+626
+00:35:44,099 --> 00:35:46,800
+replacement algorithms
+
+627
+00:35:46,800 --> 00:35:49,700
+optimal
+
+628
+00:35:55,859 --> 00:35:57,980
+opt
+
+629
+00:35:57,980 --> 00:36:01,020
+optimal Optimum
+
+630
+00:36:01,020 --> 00:36:03,540
+optimal optimal page replacement
+
+631
+00:36:03,540 --> 00:36:06,540
+algorithms
+
+632
+00:36:19,859 --> 00:36:22,020
+so this is a real life because I'm hot
+
+633
+00:36:22,020 --> 00:36:25,079
+okay so uh it's it's a real life example
+
+634
+00:36:25,079 --> 00:36:27,839
+so uh let's say I own a company my
+
+635
+00:36:27,839 --> 00:36:30,540
+company is um very good I have 100
+
+636
+00:36:30,540 --> 00:36:33,900
+workers they work for me
+
+637
+00:36:33,900 --> 00:36:35,520
+um
+
+638
+00:36:35,520 --> 00:36:38,880
+um some some come to my company very at
+
+639
+00:36:38,880 --> 00:36:41,880
+very early times some I recently joined
+
+640
+00:36:41,880 --> 00:36:45,240
+my company so here the cases that this
+
+641
+00:36:45,240 --> 00:36:47,880
+year is not good year so I'm this I I
+
+642
+00:36:47,880 --> 00:36:51,900
+decided to file some some employees from
+
+643
+00:36:51,900 --> 00:36:55,500
+my company so how should I decide who
+
+644
+00:36:55,500 --> 00:36:57,480
+should leave my company
+
+645
+00:36:57,480 --> 00:37:00,500
+yeah Shayla
+
+646
+00:37:01,619 --> 00:37:04,020
+but how can I know this
+
+647
+00:37:04,020 --> 00:37:07,079
+he or she is the least efficient so the
+
+648
+00:37:07,079 --> 00:37:09,599
+the thing is that well this year okay
+
+649
+00:37:09,599 --> 00:37:11,760
+this year I need to make a plan for this
+
+650
+00:37:11,760 --> 00:37:14,280
+year right the coming year
+
+651
+00:37:14,280 --> 00:37:17,400
+well the I have you guys you are all
+
+652
+00:37:17,400 --> 00:37:19,320
+working for me okay I'm going to decide
+
+653
+00:37:19,320 --> 00:37:23,579
+who to go who should I file so I can the
+
+654
+00:37:23,579 --> 00:37:26,099
+thing is that the future the future is
+
+655
+00:37:26,099 --> 00:37:28,260
+not happening yet so I do not know who
+
+656
+00:37:28,260 --> 00:37:31,380
+are going to be bad or who are going to
+
+657
+00:37:31,380 --> 00:37:34,260
+be super good I do not know
+
+658
+00:37:34,260 --> 00:37:37,320
+but but the thing is that I want to fire
+
+659
+00:37:37,320 --> 00:37:38,820
+someone
+
+660
+00:37:38,820 --> 00:37:42,599
+who will not be like who who are most
+
+661
+00:37:42,599 --> 00:37:45,540
+inefficient right in the coming year but
+
+662
+00:37:45,540 --> 00:37:47,520
+the challenge is that I will never know
+
+663
+00:37:47,520 --> 00:37:50,099
+who is because the future will not come
+
+664
+00:37:50,099 --> 00:37:51,000
+yet
+
+665
+00:37:51,000 --> 00:37:54,680
+you cannot predict the future
+
+666
+00:37:54,960 --> 00:37:58,040
+so how to decide
+
+667
+00:37:58,560 --> 00:38:01,500
+the criteria is that I need to fire the
+
+668
+00:38:01,500 --> 00:38:03,300
+one who is
+
+669
+00:38:03,300 --> 00:38:06,480
+who are not produce any
+
+670
+00:38:06,480 --> 00:38:09,180
+contributions to to my company right who
+
+671
+00:38:09,180 --> 00:38:10,800
+will not make any contributions in my
+
+672
+00:38:10,800 --> 00:38:12,660
+company in the coming year
+
+673
+00:38:12,660 --> 00:38:15,859
+so who should I fire
+
+674
+00:38:17,720 --> 00:38:22,940
+so fifo means that I fire the old person
+
+675
+00:38:22,940 --> 00:38:26,820
+right you you come early you old I file
+
+676
+00:38:26,820 --> 00:38:29,339
+you so that if I have always that this
+
+677
+00:38:29,339 --> 00:38:32,220
+is very this is this is actually in real
+
+678
+00:38:32,220 --> 00:38:35,280
+life it happens right so many companies
+
+679
+00:38:35,280 --> 00:38:37,619
+they just fire when they fire people
+
+680
+00:38:37,619 --> 00:38:40,020
+they look at the CV and see who is the
+
+681
+00:38:40,020 --> 00:38:42,920
+old guy
+
+682
+00:38:44,160 --> 00:38:48,180
+then lru means lru means
+
+683
+00:38:48,180 --> 00:38:51,200
+l u means
+
+684
+00:38:51,240 --> 00:38:54,240
+my company has been run for 10 years
+
+685
+00:38:54,240 --> 00:38:56,180
+let's say it has been run for 10 years
+
+686
+00:38:56,180 --> 00:38:59,099
+lru means that I only look back to the
+
+687
+00:38:59,099 --> 00:39:01,800
+past year for the past I only look back
+
+688
+00:39:01,800 --> 00:39:06,359
+for the past year the recently the least
+
+689
+00:39:06,359 --> 00:39:09,720
+recently used list recent reviews means
+
+690
+00:39:09,720 --> 00:39:12,780
+that well no matter how how good you are
+
+691
+00:39:12,780 --> 00:39:15,540
+in the back of the nine years for the
+
+692
+00:39:15,540 --> 00:39:17,400
+past year I only looked at the past year
+
+693
+00:39:17,400 --> 00:39:20,280
+you did nothing then you should go that
+
+694
+00:39:20,280 --> 00:39:23,280
+is the lru algorithm lru algorithms and
+
+695
+00:39:23,280 --> 00:39:26,040
+look at what are the optimal optimal
+
+696
+00:39:26,040 --> 00:39:28,859
+page replacement algorithm means that
+
+697
+00:39:28,859 --> 00:39:32,160
+I have a superpower I know what will
+
+698
+00:39:32,160 --> 00:39:33,540
+happen in the future
+
+699
+00:39:33,540 --> 00:39:36,780
+and I can see I can see what I can like
+
+700
+00:39:36,780 --> 00:39:39,000
+I have let's say I have this I'm
+
+701
+00:39:39,000 --> 00:39:41,460
+Superman I have super power I can see
+
+702
+00:39:41,460 --> 00:39:43,880
+what happens in the future and I know
+
+703
+00:39:43,880 --> 00:39:48,079
+you are not going to be produced any com
+
+704
+00:39:48,079 --> 00:39:51,540
+profits in my company so you you leave
+
+705
+00:39:51,540 --> 00:39:54,660
+that is the optimal so in real life
+
+706
+00:39:54,660 --> 00:39:57,660
+there's there's in real life there's no
+
+707
+00:39:57,660 --> 00:40:01,380
+optimal but while we put it there
+
+708
+00:40:01,380 --> 00:40:04,040
+Magic
+
+709
+00:40:09,300 --> 00:40:12,240
+yeah we want to get as close to are you
+
+710
+00:40:12,240 --> 00:40:14,700
+possible so optimal it means that one is
+
+711
+00:40:14,700 --> 00:40:17,040
+useful for evaluation it's like the
+
+712
+00:40:17,040 --> 00:40:19,079
+worst fees algorithm remember we talk
+
+713
+00:40:19,079 --> 00:40:22,440
+about that in our previous lecture it's
+
+714
+00:40:22,440 --> 00:40:23,940
+the same thing the optimal page
+
+715
+00:40:23,940 --> 00:40:27,900
+replacement algorithm is that we want to
+
+716
+00:40:27,900 --> 00:40:29,280
+um
+
+717
+00:40:29,280 --> 00:40:31,079
+we want to
+
+718
+00:40:31,079 --> 00:40:34,560
+we we want to design algorithms and we
+
+719
+00:40:34,560 --> 00:40:37,140
+will rock you know we will use that we
+
+720
+00:40:37,140 --> 00:40:40,079
+use that as the criteria to measuring
+
+721
+00:40:40,079 --> 00:40:45,800
+how good my current algorithm is okay
+
+722
+00:40:50,160 --> 00:40:53,640
+so what will be the second chance page
+
+723
+00:40:53,640 --> 00:40:55,440
+replacement algorithm the second chance
+
+724
+00:40:55,440 --> 00:40:57,660
+there's another algorithm means the
+
+725
+00:40:57,660 --> 00:41:00,200
+second chance
+
+726
+00:41:07,740 --> 00:41:10,079
+the second chance
+
+727
+00:41:10,079 --> 00:41:13,260
+is the second chance is is a improved
+
+728
+00:41:13,260 --> 00:41:14,700
+algorithms
+
+729
+00:41:14,700 --> 00:41:18,180
+after fifo
+
+730
+00:41:18,180 --> 00:41:20,720
+right yeah
+
+731
+00:41:45,900 --> 00:41:48,119
+the racial lie behind the second chance
+
+732
+00:41:48,119 --> 00:41:49,800
+that is how you're going to implement
+
+733
+00:41:49,800 --> 00:41:51,839
+the second chance but you need to well
+
+734
+00:41:51,839 --> 00:41:54,480
+here's the when we design the system we
+
+735
+00:41:54,480 --> 00:41:55,980
+need to understand the relation line
+
+736
+00:41:55,980 --> 00:41:58,859
+behind it right let's say the fifo means
+
+737
+00:41:58,859 --> 00:42:03,960
+that the oh the the first Pages we
+
+738
+00:42:03,960 --> 00:42:07,200
+we think that the first page is the
+
+739
+00:42:07,200 --> 00:42:10,260
+first common pages will not be referred
+
+740
+00:42:10,260 --> 00:42:14,160
+in the future so we just invicted but
+
+741
+00:42:14,160 --> 00:42:16,140
+the second chance
+
+742
+00:42:16,140 --> 00:42:18,060
+the Second Chance the ration line behind
+
+743
+00:42:18,060 --> 00:42:19,820
+the second translator
+
+744
+00:42:19,820 --> 00:42:23,160
+behind the second job it's it's an
+
+745
+00:42:23,160 --> 00:42:26,700
+improvements improvements over the fifo
+
+746
+00:42:26,700 --> 00:42:28,079
+so
+
+747
+00:42:28,079 --> 00:42:30,960
+why is the improvements because like
+
+748
+00:42:30,960 --> 00:42:33,240
+many times we only need to remember like
+
+749
+00:42:33,240 --> 00:42:35,160
+who is the first who is the first
+
+750
+00:42:35,160 --> 00:42:37,380
+account right we're just using a queue
+
+751
+00:42:37,380 --> 00:42:39,839
+we see a q
+
+752
+00:42:39,839 --> 00:42:42,540
+to remember they are they are coming
+
+753
+00:42:42,540 --> 00:42:44,460
+orders they're coming orders and then
+
+754
+00:42:44,460 --> 00:42:48,420
+what we need to in week that pages from
+
+755
+00:42:48,420 --> 00:42:51,540
+our physical memory we just look at the
+
+756
+00:42:51,540 --> 00:42:53,220
+queue who is the head of the queue then
+
+757
+00:42:53,220 --> 00:42:55,700
+we remove it that is the key idea of
+
+758
+00:42:55,700 --> 00:42:59,460
+fifo we we are not going to we are not
+
+759
+00:42:59,460 --> 00:43:00,900
+going to
+
+760
+00:43:00,900 --> 00:43:02,400
+um
+
+761
+00:43:02,400 --> 00:43:05,460
+think whether they are rougher or not
+
+762
+00:43:05,460 --> 00:43:07,740
+whether they are referred or not so the
+
+763
+00:43:07,740 --> 00:43:10,079
+second chance algorithm Second Chance
+
+764
+00:43:10,079 --> 00:43:13,040
+algorithm is that
+
+765
+00:43:14,880 --> 00:43:17,579
+we
+
+766
+00:43:17,579 --> 00:43:20,700
+time the time we decide to invict that
+
+767
+00:43:20,700 --> 00:43:22,920
+pages and make that page because this is
+
+768
+00:43:22,920 --> 00:43:25,740
+the first is the first loaded it's the
+
+769
+00:43:25,740 --> 00:43:28,440
+first coming pages
+
+770
+00:43:28,440 --> 00:43:32,220
+we gave it a second chance we just using
+
+771
+00:43:32,220 --> 00:43:35,220
+a a bit to remember that we gave the
+
+772
+00:43:35,220 --> 00:43:37,500
+second chance to it or not and we put it
+
+773
+00:43:37,500 --> 00:43:40,800
+at the back of the queue
+
+774
+00:43:40,800 --> 00:43:44,180
+so that is the um
+
+775
+00:43:44,640 --> 00:43:46,800
+pardon these algorithms they are not
+
+776
+00:43:46,800 --> 00:43:49,380
+good however it slightly performs better
+
+777
+00:43:49,380 --> 00:43:53,700
+than the i5fo and then then
+
+778
+00:43:53,700 --> 00:43:56,220
+someone decide someone
+
+779
+00:43:56,220 --> 00:43:57,420
+um
+
+780
+00:43:57,420 --> 00:43:59,579
+designed the algorithm according the
+
+781
+00:43:59,579 --> 00:44:02,520
+reason the Lord recent lot recently used
+
+782
+00:44:02,520 --> 00:44:04,740
+a lot of recently used and then
+
+783
+00:44:04,740 --> 00:44:07,380
+improving the algorithm is the
+
+784
+00:44:07,380 --> 00:44:10,099
+least recently used page replacement
+
+785
+00:44:10,099 --> 00:44:13,260
+algorithms so the takeaway of this
+
+786
+00:44:13,260 --> 00:44:16,200
+chapter is most important is these two
+
+787
+00:44:16,200 --> 00:44:17,579
+okay these two
+
+788
+00:44:17,579 --> 00:44:19,920
+these two and the reason why we are
+
+789
+00:44:19,920 --> 00:44:24,200
+going to review in today's class
+
+790
+00:44:33,540 --> 00:44:37,880
+so let's do this together okay
+
+791
+00:44:41,160 --> 00:44:44,420
+let's do this together
+
+792
+00:44:48,540 --> 00:44:50,940
+let's do this calculator so we have
+
+793
+00:44:50,940 --> 00:44:53,099
+given the following streams of page
+
+794
+00:44:53,099 --> 00:44:55,319
+referenced by our application calculates
+
+795
+00:44:55,319 --> 00:44:57,420
+the number of page fours the application
+
+796
+00:44:57,420 --> 00:44:59,880
+would incur with the following page
+
+797
+00:44:59,880 --> 00:45:02,099
+replacement algorithms and fill in the
+
+798
+00:45:02,099 --> 00:45:04,079
+content of the page frames of the memory
+
+799
+00:45:04,079 --> 00:45:07,920
+after each memory reference assume that
+
+800
+00:45:07,920 --> 00:45:12,000
+all pages are initially free
+
+801
+00:45:12,000 --> 00:45:14,460
+so we have the reference streams here so
+
+802
+00:45:14,460 --> 00:45:16,440
+this is the this is your memory your
+
+803
+00:45:16,440 --> 00:45:18,960
+memory only have four frames
+
+804
+00:45:18,960 --> 00:45:23,119
+for page frames okay
+
+805
+00:45:24,420 --> 00:45:27,560
+do you want to try
+
+806
+00:45:34,260 --> 00:45:36,480
+let's do this together okay let's do
+
+807
+00:45:36,480 --> 00:45:39,180
+this if I have all together okay okay so
+
+808
+00:45:39,180 --> 00:45:42,180
+we have we have the reference streams in
+
+809
+00:45:42,180 --> 00:45:43,140
+this order
+
+810
+00:45:43,140 --> 00:45:46,800
+okay so what a comes one comes with the
+
+811
+00:45:46,800 --> 00:45:49,640
+course of page four
+
+812
+00:45:50,040 --> 00:45:52,980
+yes why because the
+
+813
+00:45:52,980 --> 00:45:55,020
+it's not in memory right it's not in
+
+814
+00:45:55,020 --> 00:45:56,940
+memory so we need to handle this page
+
+815
+00:45:56,940 --> 00:45:59,160
+four we need to
+
+816
+00:45:59,160 --> 00:46:02,040
+gathered from the disk and updates the
+
+817
+00:46:02,040 --> 00:46:05,280
+page table and update the tlb
+
+818
+00:46:05,280 --> 00:46:08,300
+there will be a
+
+819
+00:46:12,839 --> 00:46:15,960
+so here the oldest page right so this is
+
+820
+00:46:15,960 --> 00:46:18,960
+this will be the and we have using this
+
+821
+00:46:18,960 --> 00:46:21,240
+as a page Force so when B comes with
+
+822
+00:46:21,240 --> 00:46:24,140
+your page four
+
+823
+00:46:24,480 --> 00:46:27,119
+yeah there will be right because there's
+
+824
+00:46:27,119 --> 00:46:29,640
+no B here there's no B here in memory
+
+825
+00:46:29,640 --> 00:46:32,160
+here look at this this is the memory
+
+826
+00:46:32,160 --> 00:46:35,599
+right there's no B here
+
+827
+00:46:36,420 --> 00:46:38,339
+okay we only have sorry we only have
+
+828
+00:46:38,339 --> 00:46:42,599
+this August 3 3 3 page three page three
+
+829
+00:46:42,599 --> 00:46:44,700
+physical pages okay not four or three
+
+830
+00:46:44,700 --> 00:46:47,700
+okay not four three okay and when C
+
+831
+00:46:47,700 --> 00:46:50,280
+comes there will be a
+
+832
+00:46:50,280 --> 00:46:52,920
+there's no C look at this this is our
+
+833
+00:46:52,920 --> 00:46:54,960
+memory right our memory only have the
+
+834
+00:46:54,960 --> 00:46:58,140
+page a and the page B there's no C so
+
+835
+00:46:58,140 --> 00:47:00,420
+when C comes reference streams means
+
+836
+00:47:00,420 --> 00:47:03,060
+that we need this page so we see if it
+
+837
+00:47:03,060 --> 00:47:05,940
+is in memory it's not in memory so
+
+838
+00:47:05,940 --> 00:47:09,980
+there will be page fours right
+
+839
+00:47:12,300 --> 00:47:13,680
+I mean
+
+840
+00:47:13,680 --> 00:47:17,000
+make it larger
+
+841
+00:47:29,520 --> 00:47:31,319
+so let the
+
+842
+00:47:31,319 --> 00:47:34,880
+okay so here's the thing
+
+843
+00:47:35,160 --> 00:47:38,579
+D comes okay D comes so we first look at
+
+844
+00:47:38,579 --> 00:47:40,800
+is the inner memory one notch this is
+
+845
+00:47:40,800 --> 00:47:43,460
+our memory
+
+846
+00:47:43,980 --> 00:47:46,380
+there's no D in the memory right so
+
+847
+00:47:46,380 --> 00:47:47,460
+there
+
+848
+00:47:47,460 --> 00:47:50,160
+is a page for it right there's a page
+
+849
+00:47:50,160 --> 00:47:52,800
+for it see there's page force that who
+
+850
+00:47:52,800 --> 00:47:55,500
+should get out who should get out
+
+851
+00:47:55,500 --> 00:47:59,220
+in three pages three of pages a b c so
+
+852
+00:47:59,220 --> 00:48:02,940
+this is fifo algorithm first in first
+
+853
+00:48:02,940 --> 00:48:04,740
+out okay
+
+854
+00:48:04,740 --> 00:48:07,319
+who is the oldest guy
+
+855
+00:48:07,319 --> 00:48:09,599
+who is the oldest guy
+
+856
+00:48:09,599 --> 00:48:12,319
+Aaron
+
+857
+00:48:12,540 --> 00:48:16,579
+ayok card a we should kick out a right
+
+858
+00:48:16,800 --> 00:48:19,859
+and then we should kick out a then B
+
+859
+00:48:19,859 --> 00:48:23,339
+becomes the oldest page right
+
+860
+00:48:23,339 --> 00:48:26,700
+and then d d is there
+
+861
+00:48:26,700 --> 00:48:29,880
+this there right this there b becomes
+
+862
+00:48:29,880 --> 00:48:33,859
+the oldest page and then C
+
+863
+00:48:34,380 --> 00:48:36,800
+okay
+
+864
+00:48:36,960 --> 00:48:41,460
+now a now a again so when a comes we
+
+865
+00:48:41,460 --> 00:48:44,339
+look at the memory do we have a in the
+
+866
+00:48:44,339 --> 00:48:46,640
+memory
+
+867
+00:48:47,640 --> 00:48:49,920
+we do not have a in the memory right we
+
+868
+00:48:49,920 --> 00:48:52,319
+do not have a in memory
+
+869
+00:48:52,319 --> 00:48:56,040
+so there there are the page Force right
+
+870
+00:48:56,040 --> 00:48:58,319
+there's a page four so we do not have a
+
+871
+00:48:58,319 --> 00:49:00,480
+in the memory there's a page for them we
+
+872
+00:49:00,480 --> 00:49:03,420
+should kick out who should kick out the
+
+873
+00:49:03,420 --> 00:49:06,980
+first inverse Out means we look at the
+
+874
+00:49:06,980 --> 00:49:10,680
+existing pages in the memory to see who
+
+875
+00:49:10,680 --> 00:49:13,920
+is the oldest one who is the oldest one
+
+876
+00:49:13,920 --> 00:49:17,460
+so in this case b is the oldest one
+
+877
+00:49:17,460 --> 00:49:18,839
+right
+
+878
+00:49:18,839 --> 00:49:21,720
+this B is the oldest one right
+
+879
+00:49:21,720 --> 00:49:24,839
+so we should let me go out
+
+880
+00:49:24,839 --> 00:49:28,200
+and then a where we should put a
+
+881
+00:49:28,200 --> 00:49:30,960
+well you should put a
+
+882
+00:49:30,960 --> 00:49:34,460
+so a becomes the
+
+883
+00:49:34,800 --> 00:49:37,800
+newness page right it becomes the newest
+
+884
+00:49:37,800 --> 00:49:40,460
+page right
+
+885
+00:49:42,839 --> 00:49:45,740
+so let's continue
+
+886
+00:49:51,300 --> 00:49:55,640
+and then next we have B
+
+887
+00:49:55,740 --> 00:49:59,640
+B here so we first look at this is the
+
+888
+00:49:59,640 --> 00:50:02,099
+memory this is our memory is there any B
+
+889
+00:50:02,099 --> 00:50:05,940
+in the memory the page B
+
+890
+00:50:05,940 --> 00:50:09,060
+there's no page B in the memory right
+
+891
+00:50:09,060 --> 00:50:12,480
+so that there is a page Forge there's a
+
+892
+00:50:12,480 --> 00:50:14,880
+page forms and then who should get out
+
+893
+00:50:14,880 --> 00:50:18,720
+the first in first out algorithms
+
+894
+00:50:18,720 --> 00:50:20,640
+Costa
+
+895
+00:50:20,640 --> 00:50:22,740
+which one is the oldest
+
+896
+00:50:22,740 --> 00:50:24,960
+which one should all this C is the
+
+897
+00:50:24,960 --> 00:50:27,480
+oldest right see the oldest page we
+
+898
+00:50:27,480 --> 00:50:32,400
+always saved so we put C so C goes out
+
+899
+00:50:32,400 --> 00:50:35,760
+and then D becomes the oldest page and
+
+900
+00:50:35,760 --> 00:50:39,140
+then a and then B right
+
+901
+00:50:49,380 --> 00:50:53,760
+the next e e comes it comes with C first
+
+902
+00:50:53,760 --> 00:50:58,740
+C is there any e in the in our memory
+
+903
+00:50:58,740 --> 00:51:01,319
+our physical memory there's no e there
+
+904
+00:51:01,319 --> 00:51:04,740
+so there's a page four right so since
+
+905
+00:51:04,740 --> 00:51:06,720
+there's no in
+
+906
+00:51:06,720 --> 00:51:09,780
+in memory then we need to design the
+
+907
+00:51:09,780 --> 00:51:13,220
+whole should get out so first in first
+
+908
+00:51:13,220 --> 00:51:16,680
+algorithms things that they should get
+
+909
+00:51:16,680 --> 00:51:17,760
+out right
+
+910
+00:51:17,760 --> 00:51:20,819
+this is the oldest one
+
+911
+00:51:20,819 --> 00:51:24,119
+the average D get out a should move up
+
+912
+00:51:24,119 --> 00:51:27,720
+right and then B and E since e is using
+
+913
+00:51:27,720 --> 00:51:31,020
+the joint so e becomes a newness page
+
+914
+00:51:31,020 --> 00:51:33,780
+so that is a b e
+
+915
+00:51:33,780 --> 00:51:35,220
+right
+
+916
+00:51:35,220 --> 00:51:36,960
+now a
+
+917
+00:51:36,960 --> 00:51:39,900
+comes is there any page four
+
+918
+00:51:39,900 --> 00:51:42,420
+no there's no page Force right because a
+
+919
+00:51:42,420 --> 00:51:46,559
+b e a is already there
+
+920
+00:51:46,559 --> 00:51:47,579
+right
+
+921
+00:51:47,579 --> 00:51:50,280
+a is already there
+
+922
+00:51:50,280 --> 00:51:52,619
+so there's no page Force
+
+923
+00:51:52,619 --> 00:51:54,359
+there's no page Force
+
+924
+00:51:54,359 --> 00:51:56,960
+then
+
+925
+00:52:02,160 --> 00:52:05,700
+there's no page Force okay and B comes
+
+926
+00:52:05,700 --> 00:52:09,300
+here is there and in page four
+
+927
+00:52:09,300 --> 00:52:12,300
+yes
+
+928
+00:52:21,119 --> 00:52:23,640
+yeah we do not we do not because there's
+
+929
+00:52:23,640 --> 00:52:25,559
+no page Force it's not the new list
+
+930
+00:52:25,559 --> 00:52:28,440
+Pages the previous page this is the
+
+931
+00:52:28,440 --> 00:52:31,260
+previous this is not the new list yeah
+
+932
+00:52:31,260 --> 00:52:33,900
+you know I've I've first thing in first
+
+933
+00:52:33,900 --> 00:52:36,680
+house remember the differences the the
+
+934
+00:52:36,680 --> 00:52:39,059
+advantage of the first thing in first
+
+935
+00:52:39,059 --> 00:52:42,240
+out any student remember compared to the
+
+936
+00:52:42,240 --> 00:52:45,420
+least recently used algorithms fifo
+
+937
+00:52:45,420 --> 00:52:48,480
+algorithms they they are very
+
+938
+00:52:48,480 --> 00:52:50,540
+um in the slides I mentioned that it's
+
+939
+00:52:50,540 --> 00:52:54,000
+fifo it's very easy to implement
+
+940
+00:52:54,000 --> 00:52:56,760
+because there's no tracker you do not
+
+941
+00:52:56,760 --> 00:53:00,300
+need to maintain a clock information
+
+942
+00:53:00,300 --> 00:53:03,960
+for each pages to remember like how many
+
+943
+00:53:03,960 --> 00:53:06,480
+times it is got referred you do not need
+
+944
+00:53:06,480 --> 00:53:08,160
+that information you do not need the
+
+945
+00:53:08,160 --> 00:53:12,859
+window information you only need a queue
+
+946
+00:53:13,859 --> 00:53:16,440
+so in this case one a this is a very
+
+947
+00:53:16,440 --> 00:53:18,300
+good question okay you do not move the
+
+948
+00:53:18,300 --> 00:53:21,420
+move it to the newness page because it
+
+949
+00:53:21,420 --> 00:53:24,540
+is not the at least a reason to use the
+
+950
+00:53:24,540 --> 00:53:26,640
+algorithm
+
+951
+00:53:26,640 --> 00:53:30,300
+if it is the list lru algorithms we may
+
+952
+00:53:30,300 --> 00:53:32,880
+need to move because we need to track to
+
+953
+00:53:32,880 --> 00:53:35,700
+see how frequently they get accessed but
+
+954
+00:53:35,700 --> 00:53:38,819
+in the fifo we do not we just see okay
+
+955
+00:53:38,819 --> 00:53:40,800
+if it is already there then that's
+
+956
+00:53:40,800 --> 00:53:42,900
+already there we're just managing the
+
+957
+00:53:42,900 --> 00:53:44,760
+queue remember there's a queue there
+
+958
+00:53:44,760 --> 00:53:46,680
+we're just the menu in the queue like
+
+959
+00:53:46,680 --> 00:53:49,619
+move the first item in the QRS and
+
+960
+00:53:49,619 --> 00:53:52,980
+inserts the new items in in this in this
+
+961
+00:53:52,980 --> 00:53:55,140
+when it comes there's no insert
+
+962
+00:53:55,140 --> 00:53:57,599
+operation remember that when we designed
+
+963
+00:53:57,599 --> 00:53:59,460
+the data structure there's only one
+
+964
+00:53:59,460 --> 00:54:02,339
+queue we do not insert any new items in
+
+965
+00:54:02,339 --> 00:54:04,619
+because it's already there so we do not
+
+966
+00:54:04,619 --> 00:54:08,940
+update the order in the memory
+
+967
+00:54:08,940 --> 00:54:11,280
+okay so there's no page Force right the
+
+968
+00:54:11,280 --> 00:54:13,500
+same as the one because the bear
+
+969
+00:54:13,500 --> 00:54:15,480
+there's no page Force because B is
+
+970
+00:54:15,480 --> 00:54:17,579
+already there b is already in the queue
+
+971
+00:54:17,579 --> 00:54:20,460
+the queue in the queue is that a b e
+
+972
+00:54:20,460 --> 00:54:24,119
+we do not insert B again
+
+973
+00:54:24,119 --> 00:54:25,940
+so that is Abe
+
+974
+00:54:25,940 --> 00:54:29,339
+now C comes no C comes so we have the Q
+
+975
+00:54:29,339 --> 00:54:32,760
+as a b e now C comes then C needs to
+
+976
+00:54:32,760 --> 00:54:35,640
+insert at the back of the queue and then
+
+977
+00:54:35,640 --> 00:54:40,819
+kick out a right so we have a page four
+
+978
+00:54:44,780 --> 00:54:46,640
+[Music]
+
+979
+00:54:46,640 --> 00:54:50,000
+D comes
+
+980
+00:54:50,000 --> 00:54:51,599
+becomes
+
+981
+00:54:51,599 --> 00:54:53,520
+it comes
+
+982
+00:54:53,520 --> 00:54:55,920
+so there's
+
+983
+00:54:55,920 --> 00:54:58,619
+this not in the memory right it's not in
+
+984
+00:54:58,619 --> 00:55:01,440
+memory so there's a
+
+985
+00:55:01,440 --> 00:55:04,859
+page four right and then we need to this
+
+986
+00:55:04,859 --> 00:55:06,599
+is the height of the queue right height
+
+987
+00:55:06,599 --> 00:55:08,640
+of Q we need to kick it out
+
+988
+00:55:08,640 --> 00:55:11,760
+and move the water right so it becomes
+
+989
+00:55:11,760 --> 00:55:14,720
+ecd
+
+990
+00:55:14,760 --> 00:55:18,800
+so the same as y e comes
+
+991
+00:55:19,200 --> 00:55:22,700
+comes to the systems
+
+992
+00:55:23,099 --> 00:55:25,140
+it's already there so there's no page
+
+993
+00:55:25,140 --> 00:55:27,059
+for there's no page for right there's no
+
+994
+00:55:27,059 --> 00:55:28,200
+page for
+
+995
+00:55:28,200 --> 00:55:31,020
+there's no page force and then we do not
+
+996
+00:55:31,020 --> 00:55:34,800
+need to change the queue B when B comes
+
+997
+00:55:34,800 --> 00:55:37,800
+becomes B is not in the queue right in
+
+998
+00:55:37,800 --> 00:55:40,800
+the queue there's only e c and d there's
+
+999
+00:55:40,800 --> 00:55:44,460
+only e c and d so we
+
+1000
+00:55:44,460 --> 00:55:46,740
+close our page four
+
+1001
+00:55:46,740 --> 00:55:49,200
+three four
+
+1002
+00:55:49,200 --> 00:55:52,380
+then we need to insert the B at the end
+
+1003
+00:55:52,380 --> 00:55:57,720
+at the end of the Q and then click e out
+
+1004
+00:55:57,720 --> 00:56:01,440
+so it's a cdb right then on a comes the
+
+1005
+00:56:01,440 --> 00:56:04,859
+same thing we need to kick C out
+
+1006
+00:56:04,859 --> 00:56:08,400
+and then move a after there's a page
+
+1007
+00:56:08,400 --> 00:56:10,680
+fourth
+
+1008
+00:56:10,680 --> 00:56:14,339
+okay and then here B is already there so
+
+1009
+00:56:14,339 --> 00:56:16,500
+we do not do anything
+
+1010
+00:56:16,500 --> 00:56:19,140
+there's no page force in this case
+
+1011
+00:56:19,140 --> 00:56:23,180
+okay how many one two three four
+
+1012
+00:56:23,940 --> 00:56:25,740
+eleven
+
+1013
+00:56:25,740 --> 00:56:30,140
+okay so this is the f i yeah
+
+1014
+00:56:32,099 --> 00:56:34,440
+her page force is not the same as the
+
+1015
+00:56:34,440 --> 00:56:37,160
+cash means
+
+1016
+00:56:37,319 --> 00:56:39,359
+we talk about that later okay I think
+
+1017
+00:56:39,359 --> 00:56:42,359
+Sean has not yet talked about cash
+
+1018
+00:56:42,359 --> 00:56:45,960
+um yeah I'll talk about that later
+
+1019
+00:56:45,960 --> 00:56:48,059
+we have not
+
+1020
+00:56:48,059 --> 00:56:51,599
+page for this page Force cash is
+
+1021
+00:56:51,599 --> 00:56:53,660
+um
+
+1022
+00:56:54,000 --> 00:56:56,460
+cashes cash okay
+
+1023
+00:56:56,460 --> 00:56:59,099
+page means that page Force means that
+
+1024
+00:56:59,099 --> 00:57:01,800
+are all better it is located in the
+
+1025
+00:57:01,800 --> 00:57:03,720
+memory what not the pages in the memory
+
+1026
+00:57:03,720 --> 00:57:04,740
+or not
+
+1027
+00:57:04,740 --> 00:57:07,640
+emojis
+
+1028
+00:57:16,260 --> 00:57:19,260
+because the memory is empty
+
+1029
+00:57:19,260 --> 00:57:23,700
+there's no page a and no page B is there
+
+1030
+00:57:23,700 --> 00:57:26,460
+memory is empty
+
+1031
+00:57:26,460 --> 00:57:30,500
+the memory is initially empty right
+
+1032
+00:57:33,780 --> 00:57:37,500
+but a cash Miss not having or vice versa
+
+1033
+00:57:37,500 --> 00:57:40,680
+yeah let's talk about cash late um in
+
+1034
+00:57:40,680 --> 00:57:44,760
+our maybe next next lecture okay
+
+1035
+00:57:44,760 --> 00:57:46,680
+let's finish this first oh I have
+
+1036
+00:57:46,680 --> 00:57:48,180
+another
+
+1037
+00:57:48,180 --> 00:57:51,059
+so caches there uh
+
+1038
+00:57:51,059 --> 00:57:54,559
+let's talk about that later okay
+
+1039
+00:58:01,440 --> 00:58:05,280
+so you well you see cache is not in the
+
+1040
+00:58:05,280 --> 00:58:07,859
+cap when we are talking about cash cash
+
+1041
+00:58:07,859 --> 00:58:10,260
+is in between the register and the
+
+1042
+00:58:10,260 --> 00:58:11,460
+memory right
+
+1043
+00:58:11,460 --> 00:58:14,640
+right so page fourth only means that
+
+1044
+00:58:14,640 --> 00:58:17,339
+whether it is in a memory or not
+
+1045
+00:58:17,339 --> 00:58:20,280
+no matter what is the cash or memory
+
+1046
+00:58:20,280 --> 00:58:22,800
+they are not at the disk they are not at
+
+1047
+00:58:22,800 --> 00:58:25,440
+this everything's at the disk versus
+
+1048
+00:58:25,440 --> 00:58:27,720
+Less on the same page okay everything is
+
+1049
+00:58:27,720 --> 00:58:30,300
+on the disk everything everything is on
+
+1050
+00:58:30,300 --> 00:58:32,700
+disk but whenever you have a new
+
+1051
+00:58:32,700 --> 00:58:34,980
+programs you need to load that in the
+
+1052
+00:58:34,980 --> 00:58:38,160
+memory to process it if we frequently
+
+1053
+00:58:38,160 --> 00:58:40,500
+usage then we may put that contents in
+
+1054
+00:58:40,500 --> 00:58:42,660
+the cache
+
+1055
+00:58:42,660 --> 00:58:46,079
+or in the register but that is the CPU
+
+1056
+00:58:46,079 --> 00:58:49,079
+design the page Force means that if we
+
+1057
+00:58:49,079 --> 00:58:50,819
+cannot find it in the cache we cannot
+
+1058
+00:58:50,819 --> 00:58:53,400
+find it in the memory then means that
+
+1059
+00:58:53,400 --> 00:58:56,040
+well this thing is in the disk so we
+
+1060
+00:58:56,040 --> 00:58:59,280
+need that we call Page four that will
+
+1061
+00:58:59,280 --> 00:59:02,040
+cause a page Force
+
+1062
+00:59:02,040 --> 00:59:05,400
+so let's look at this lru so you want to
+
+1063
+00:59:05,400 --> 00:59:07,619
+try
+
+1064
+00:59:07,619 --> 00:59:09,599
+you want to try this
+
+1065
+00:59:09,599 --> 00:59:13,700
+I'll give you some time to try this okay
+
+1066
+01:00:26,400 --> 01:00:28,940
+okay
+
+1067
+01:00:32,420 --> 01:00:35,940
+so let's do it together so still
+
+1068
+01:00:35,940 --> 01:00:37,940
+um
+
+1069
+01:00:39,420 --> 01:00:43,260
+when it comes it's it's a it's a
+
+1070
+01:00:43,260 --> 01:00:45,359
+it's a page Force right because it's
+
+1071
+01:00:45,359 --> 01:00:47,400
+empty right so the first three are the
+
+1072
+01:00:47,400 --> 01:00:50,240
+same he has magic
+
+1073
+01:00:55,260 --> 01:00:57,900
+yeah yeah yeah it's not a matter is that
+
+1074
+01:00:57,900 --> 01:01:00,000
+matter yeah yeah yeah yeah yeah you come
+
+1075
+01:01:00,000 --> 01:01:01,040
+for that
+
+1076
+01:01:01,040 --> 01:01:04,680
+it's actually it's it doesn't matter
+
+1077
+01:01:04,680 --> 01:01:09,260
+it's that matter if you can put it there
+
+1078
+01:01:11,119 --> 01:01:14,339
+so yeah
+
+1079
+01:01:14,339 --> 01:01:16,799
+yeah yeah it's done so that's why it
+
+1080
+01:01:16,799 --> 01:01:19,380
+doesn't matter yeah
+
+1081
+01:01:19,380 --> 01:01:21,900
+you can do that it doesn't matter you
+
+1082
+01:01:21,900 --> 01:01:23,099
+can put it
+
+1083
+01:01:23,099 --> 01:01:25,319
+even exam we have some similar questions
+
+1084
+01:01:25,319 --> 01:01:27,420
+you can have it there was there it
+
+1085
+01:01:27,420 --> 01:01:28,980
+doesn't matter you can you can cause
+
+1086
+01:01:28,980 --> 01:01:31,559
+examity you can put it anywhere this
+
+1087
+01:01:31,559 --> 01:01:34,380
+reason to use the one when there's new
+
+1088
+01:01:34,380 --> 01:01:36,240
+contents comes then you need to
+
+1089
+01:01:36,240 --> 01:01:39,000
+differentiate that they are like who is
+
+1090
+01:01:39,000 --> 01:01:41,460
+the most recently used who is not the
+
+1091
+01:01:41,460 --> 01:01:44,099
+most recently used so but is this so
+
+1092
+01:01:44,099 --> 01:01:45,780
+same thing like if there's only a you
+
+1093
+01:01:45,780 --> 01:01:47,280
+know who is better there's no
+
+1094
+01:01:47,280 --> 01:01:48,960
+differences you can say a is the best or
+
+1095
+01:01:48,960 --> 01:01:50,700
+you can say a is the worst but if
+
+1096
+01:01:50,700 --> 01:01:52,579
+there's a b and a c then you need to
+
+1097
+01:01:52,579 --> 01:01:55,260
+distinguish who is the best who is the
+
+1098
+01:01:55,260 --> 01:01:59,040
+worst that is the case okay so the ABC
+
+1099
+01:01:59,040 --> 01:02:00,660
+is the same
+
+1100
+01:02:00,660 --> 01:02:03,720
+then okay when D comes okay D comes then
+
+1101
+01:02:03,720 --> 01:02:05,460
+they are definitely a page fours right
+
+1102
+01:02:05,460 --> 01:02:07,200
+because
+
+1103
+01:02:07,200 --> 01:02:09,599
+there's no page no this page in the
+
+1104
+01:02:09,599 --> 01:02:12,299
+memory right there's a page Force so one
+
+1105
+01:02:12,299 --> 01:02:15,119
+Z joins the system when they joins the
+
+1106
+01:02:15,119 --> 01:02:16,980
+system
+
+1107
+01:02:16,980 --> 01:02:20,099
+so we need to see who is the most recent
+
+1108
+01:02:20,099 --> 01:02:23,520
+user page see see right then who is the
+
+1109
+01:02:23,520 --> 01:02:26,460
+least reason to use the page a right so
+
+1110
+01:02:26,460 --> 01:02:28,740
+a should get out and we put D to be
+
+1111
+01:02:28,740 --> 01:02:32,220
+there then when we put D to be there
+
+1112
+01:02:32,220 --> 01:02:35,280
+D becomes the most recently used page
+
+1113
+01:02:35,280 --> 01:02:37,140
+right
+
+1114
+01:02:37,140 --> 01:02:40,500
+and the b c are moved up
+
+1115
+01:02:40,500 --> 01:02:43,200
+B becomes the least reason used page
+
+1116
+01:02:43,200 --> 01:02:47,460
+okay now a now look at a when a comes
+
+1117
+01:02:47,460 --> 01:02:51,180
+there's only b c d in the system in in
+
+1118
+01:02:51,180 --> 01:02:55,619
+memory so there's a page fort
+
+1119
+01:02:55,619 --> 01:02:58,920
+there's page fourth now
+
+1120
+01:02:58,920 --> 01:03:01,859
+we need to remove the least reason to
+
+1121
+01:03:01,859 --> 01:03:04,799
+use the page out of the system
+
+1122
+01:03:04,799 --> 01:03:08,040
+then we put a to be here right a to be
+
+1123
+01:03:08,040 --> 01:03:10,980
+here and then C become the least
+
+1124
+01:03:10,980 --> 01:03:14,400
+recently used page
+
+1125
+01:03:14,400 --> 01:03:16,819
+okay
+
+1126
+01:03:16,980 --> 01:03:17,660
+okay
+
+1127
+01:03:17,660 --> 01:03:20,339
+are we following
+
+1128
+01:03:20,339 --> 01:03:22,559
+yeah
+
+1129
+01:03:22,559 --> 01:03:23,819
+not be
+
+1130
+01:03:23,819 --> 01:03:28,740
+let's reference B we have not found a
+
+1131
+01:03:28,740 --> 01:03:32,220
+we haven't already found a B in the in
+
+1132
+01:03:32,220 --> 01:03:34,440
+the memory right there's no B in memory
+
+1133
+01:03:34,440 --> 01:03:37,859
+so they are definitely a page four
+
+1134
+01:03:37,859 --> 01:03:38,940
+right
+
+1135
+01:03:38,940 --> 01:03:41,339
+then
+
+1136
+01:03:41,339 --> 01:03:45,240
+B becomes the most recently used page
+
+1137
+01:03:45,240 --> 01:03:49,859
+all right and then we put a b it will be
+
+1138
+01:03:49,859 --> 01:03:54,780
+there right okay now e e when you comes
+
+1139
+01:03:54,780 --> 01:03:57,780
+there's no e in the system right there's
+
+1140
+01:03:57,780 --> 01:03:59,819
+no e in the system so there's a page
+
+1141
+01:03:59,819 --> 01:04:02,000
+four
+
+1142
+01:04:05,880 --> 01:04:09,540
+so we put e to be there
+
+1143
+01:04:09,540 --> 01:04:12,900
+remove a b to here now this is the
+
+1144
+01:04:12,900 --> 01:04:17,220
+tricky ones here the tricky one is here
+
+1145
+01:04:17,220 --> 01:04:18,960
+uh
+
+1146
+01:04:18,960 --> 01:04:23,579
+pay attention Okay so in the fifo one a
+
+1147
+01:04:23,579 --> 01:04:26,280
+one a comes and we found a in the system
+
+1148
+01:04:26,280 --> 01:04:28,260
+we do not change their order right
+
+1149
+01:04:28,260 --> 01:04:30,480
+because there's only they only maintain
+
+1150
+01:04:30,480 --> 01:04:32,940
+a q but in the list replay Pace
+
+1151
+01:04:32,940 --> 01:04:35,940
+replacement algorithms when a comes we
+
+1152
+01:04:35,940 --> 01:04:37,740
+see a is there
+
+1153
+01:04:37,740 --> 01:04:39,839
+right so there's no page four there's no
+
+1154
+01:04:39,839 --> 01:04:42,359
+page Force this is empty however we need
+
+1155
+01:04:42,359 --> 01:04:47,099
+to change A's order in in memory a
+
+1156
+01:04:47,099 --> 01:04:50,520
+becomes the most recently used page
+
+1157
+01:04:50,520 --> 01:04:53,099
+a becomes the most recent used page and
+
+1158
+01:04:53,099 --> 01:04:55,799
+EB are move up
+
+1159
+01:04:55,799 --> 01:04:58,619
+EB a move up this is the challenging
+
+1160
+01:04:58,619 --> 01:05:01,380
+part is there the others are the same as
+
+1161
+01:05:01,380 --> 01:05:02,940
+the iPhone
+
+1162
+01:05:02,940 --> 01:05:04,140
+okay
+
+1163
+01:05:04,140 --> 01:05:06,440
+okay
+
+1164
+01:05:08,099 --> 01:05:11,520
+now B comes now who should I put in the
+
+1165
+01:05:11,520 --> 01:05:13,500
+most recent page
+
+1166
+01:05:13,500 --> 01:05:16,500
+BSB
+
+1167
+01:05:21,180 --> 01:05:23,640
+and
+
+1168
+01:05:23,640 --> 01:05:26,760
+remove the others up right and the C
+
+1169
+01:05:26,760 --> 01:05:29,400
+comes now there's no C in the system
+
+1170
+01:05:29,400 --> 01:05:33,440
+right there's no C in the system
+
+1171
+01:05:33,540 --> 01:05:36,059
+so there's a picture there's a page four
+
+1172
+01:05:36,059 --> 01:05:38,339
+there's no C in the system there's a
+
+1173
+01:05:38,339 --> 01:05:40,140
+page for
+
+1174
+01:05:40,140 --> 01:05:44,059
+then we put C
+
+1175
+01:05:45,180 --> 01:05:48,480
+in the most recent page right and then
+
+1176
+01:05:48,480 --> 01:05:51,960
+we move a b up e is the least reason
+
+1177
+01:05:51,960 --> 01:05:54,660
+page so e should be T card
+
+1178
+01:05:54,660 --> 01:05:57,119
+now D comes there's no D in the C
+
+1179
+01:05:57,119 --> 01:05:59,040
+Samurai
+
+1180
+01:05:59,040 --> 01:06:01,079
+there's no D in the season so there's a
+
+1181
+01:06:01,079 --> 01:06:04,200
+page fourth and we put D there in the
+
+1182
+01:06:04,200 --> 01:06:08,520
+most recent page because we just use it
+
+1183
+01:06:08,520 --> 01:06:12,359
+and then BC BC move up now e comes here
+
+1184
+01:06:12,359 --> 01:06:16,819
+right there's still a page fort
+
+1185
+01:06:18,359 --> 01:06:21,119
+we put e there because e is the most
+
+1186
+01:06:21,119 --> 01:06:24,720
+recent page and then we put CD up
+
+1187
+01:06:24,720 --> 01:06:27,539
+now B is here since there there's no B
+
+1188
+01:06:27,539 --> 01:06:30,000
+in the system so there's a page for it
+
+1189
+01:06:30,000 --> 01:06:34,440
+and we'll put B here and the c e d to
+
+1190
+01:06:34,440 --> 01:06:36,240
+move up
+
+1191
+01:06:36,240 --> 01:06:38,819
+then a here so there's a page four
+
+1192
+01:06:38,819 --> 01:06:41,099
+because there's no a
+
+1193
+01:06:41,099 --> 01:06:45,260
+then we put a to be here
+
+1194
+01:06:47,220 --> 01:06:49,680
+b e to be up
+
+1195
+01:06:49,680 --> 01:06:52,680
+and now b b is there so there's no page
+
+1196
+01:06:52,680 --> 01:06:54,780
+four no page fours right no page fault
+
+1197
+01:06:54,780 --> 01:06:57,740
+then
+
+1198
+01:06:58,559 --> 01:07:03,140
+we put WE Post B there
+
+1199
+01:07:04,680 --> 01:07:07,859
+and move a e up
+
+1200
+01:07:07,859 --> 01:07:08,880
+okay
+
+1201
+01:07:08,880 --> 01:07:10,880
+okay
+
+1202
+01:07:12,299 --> 01:07:14,819
+so 12 right 12.
+
+1203
+01:07:14,819 --> 01:07:16,559
+page four
+
+1204
+01:07:16,559 --> 01:07:19,440
+okay so this is the second review
+
+1205
+01:07:19,440 --> 01:07:22,260
+question so let's look at the subtle
+
+1206
+01:07:22,260 --> 01:07:24,059
+review question
+
+1207
+01:07:24,059 --> 01:07:27,680
+oh okay
+
+1208
+01:07:28,680 --> 01:07:31,740
+yeah you can um
+
+1209
+01:07:31,740 --> 01:07:34,500
+take a photo of that and practice in uh
+
+1210
+01:07:34,500 --> 01:07:37,339
+after the class
+
+1211
+01:07:50,220 --> 01:07:52,799
+okay okay so
+
+1212
+01:07:52,799 --> 01:07:54,799
+um
+
+1213
+01:08:14,819 --> 01:08:17,100
+so um
+
+1214
+01:08:17,100 --> 01:08:19,920
+and the third question is that on the
+
+1215
+01:08:19,920 --> 01:08:22,460
+workflow
+
+1216
+01:08:22,979 --> 01:08:26,599
+the workflow of handling
+
+1217
+01:08:26,880 --> 01:08:29,660
+a page fort
+
+1218
+01:08:32,279 --> 01:08:34,920
+the workflow of handling a page fault
+
+1219
+01:08:34,920 --> 01:08:39,799
+the workflow of handling a page Force
+
+1220
+01:08:43,738 --> 01:08:45,899
+the onions still didn't want to have a
+
+1221
+01:08:45,899 --> 01:08:48,139
+try
+
+1222
+01:08:49,319 --> 01:08:52,580
+so we first have
+
+1223
+01:08:57,359 --> 01:08:59,880
+um I think I gave you
+
+1224
+01:08:59,880 --> 01:09:01,940
+um
+
+1225
+01:09:11,279 --> 01:09:13,979
+so we first have the CPU
+
+1226
+01:09:13,979 --> 01:09:16,799
+generous of virtual address for that
+
+1227
+01:09:16,799 --> 01:09:19,500
+process right and then
+
+1228
+01:09:19,500 --> 01:09:22,380
+and then we let's say we want to look at
+
+1229
+01:09:22,380 --> 01:09:26,100
+the address look at a physical page we
+
+1230
+01:09:26,100 --> 01:09:28,259
+want to see if it's in a memory so we
+
+1231
+01:09:28,259 --> 01:09:32,540
+first look at the first look at
+
+1232
+01:09:38,960 --> 01:09:42,238
+generates the virtual memory address the
+
+1233
+01:09:42,238 --> 01:09:44,160
+virtual memory first generates the
+
+1234
+01:09:44,160 --> 01:09:46,380
+virtual memory address for that process
+
+1235
+01:09:46,380 --> 01:09:49,880
+right the virtual memory address
+
+1236
+01:09:56,360 --> 01:10:00,239
+for that process and then and then let's
+
+1237
+01:10:00,239 --> 01:10:03,179
+say we need to the CPU the program
+
+1238
+01:10:03,179 --> 01:10:06,060
+counter is points to our instruction now
+
+1239
+01:10:06,060 --> 01:10:07,800
+you need to find out that instruction
+
+1240
+01:10:07,800 --> 01:10:10,260
+you need to know if that instruction is
+
+1241
+01:10:10,260 --> 01:10:14,100
+in the memory or not the first thing you
+
+1242
+01:10:14,100 --> 01:10:17,480
+need to look at is the
+
+1243
+01:10:17,699 --> 01:10:22,080
+the first thing we need to look at the
+
+1244
+01:10:22,080 --> 01:10:23,159
+yeah
+
+1245
+01:10:23,159 --> 01:10:26,520
+the tlb yes look at the tlb translation
+
+1246
+01:10:26,520 --> 01:10:28,320
+look aside buffer the translation look
+
+1247
+01:10:28,320 --> 01:10:31,260
+outside buffer save the frequently the
+
+1248
+01:10:31,260 --> 01:10:34,140
+most frequently used mappings the
+
+1249
+01:10:34,140 --> 01:10:36,360
+virtual page to physical page mappings
+
+1250
+01:10:36,360 --> 01:10:39,060
+of the page table so you can single the
+
+1251
+01:10:39,060 --> 01:10:42,239
+TLP it's just a buffer a cache of the
+
+1252
+01:10:42,239 --> 01:10:44,100
+page table it's just a cache of the page
+
+1253
+01:10:44,100 --> 01:10:47,640
+table so it's saved the most recent use
+
+1254
+01:10:47,640 --> 01:10:50,400
+the mappings of the virtual memory to
+
+1255
+01:10:50,400 --> 01:10:52,380
+the physical memory that is the word tlb
+
+1256
+01:10:52,380 --> 01:10:55,739
+did tlb most of the time tlb is a
+
+1257
+01:10:55,739 --> 01:10:58,440
+registered in the CPU that is why CPU
+
+1258
+01:10:58,440 --> 01:11:00,840
+first look at the tlb because it's very
+
+1259
+01:11:00,840 --> 01:11:03,060
+fast it's super fast register
+
+1260
+01:11:03,060 --> 01:11:06,300
+is faster than the cache and the memory
+
+1261
+01:11:06,300 --> 01:11:09,120
+so that is why CPU are always looking at
+
+1262
+01:11:09,120 --> 01:11:12,840
+the tlb first to see if the exactly
+
+1263
+01:11:12,840 --> 01:11:15,420
+mapping the virtual page to the physical
+
+1264
+01:11:15,420 --> 01:11:18,300
+page mapping if it find out if it
+
+1265
+01:11:18,300 --> 01:11:20,760
+Finance then it can perform a address
+
+1266
+01:11:20,760 --> 01:11:22,920
+translation right you remember the how
+
+1267
+01:11:22,920 --> 01:11:25,040
+to perform the trend address translation
+
+1268
+01:11:25,040 --> 01:11:28,980
+we just exchange the page number the
+
+1269
+01:11:28,980 --> 01:11:30,420
+virtual page number to be the physical
+
+1270
+01:11:30,420 --> 01:11:33,000
+page number and adding the offsets then
+
+1271
+01:11:33,000 --> 01:11:34,800
+we can find out the exactly physical
+
+1272
+01:11:34,800 --> 01:11:37,920
+address in the memory and then locate to
+
+1273
+01:11:37,920 --> 01:11:40,620
+the exactly memory address and find out
+
+1274
+01:11:40,620 --> 01:11:43,260
+the code that we want that is how it did
+
+1275
+01:11:43,260 --> 01:11:46,860
+so firstly we look at the tlb and the
+
+1276
+01:11:46,860 --> 01:11:50,659
+second we look at the
+
+1277
+01:11:51,780 --> 01:11:53,640
+yes
+
+1278
+01:11:53,640 --> 01:11:56,280
+page table Yeah second we look at the
+
+1279
+01:11:56,280 --> 01:11:59,219
+page table and if it's some means so if
+
+1280
+01:11:59,219 --> 01:12:02,280
+ttlb is a means if page table is a Miss
+
+1281
+01:12:02,280 --> 01:12:04,980
+then that means that means they have so
+
+1282
+01:12:04,980 --> 01:12:07,800
+paid Force at this time there means the
+
+1283
+01:12:07,800 --> 01:12:10,980
+page fourth right
+
+1284
+01:12:10,980 --> 01:12:16,100
+page fourth so we next we look at we
+
+1285
+01:12:17,100 --> 01:12:19,739
+we go to the disk all right we go to the
+
+1286
+01:12:19,739 --> 01:12:24,420
+disk we go to the disk and then we
+
+1287
+01:12:24,420 --> 01:12:29,600
+locate the file then we
+
+1288
+01:12:29,820 --> 01:12:33,480
+put start we put that in the we locate
+
+1289
+01:12:33,480 --> 01:12:36,840
+the file we fetch the file
+
+1290
+01:12:36,840 --> 01:12:39,960
+we initialize our IO interrupt to the
+
+1291
+01:12:39,960 --> 01:12:43,920
+CPU and ask CPU to load that file in the
+
+1292
+01:12:43,920 --> 01:12:47,159
+disk actually the page in the disk into
+
+1293
+01:12:47,159 --> 01:12:50,060
+the page frame
+
+1294
+01:12:50,520 --> 01:12:52,860
+in the page frame when we do that if
+
+1295
+01:12:52,860 --> 01:12:55,860
+page frame is is empty then we simply
+
+1296
+01:12:55,860 --> 01:12:58,080
+can load it that into the page frame but
+
+1297
+01:12:58,080 --> 01:13:00,840
+if it is not empty if the page frame is
+
+1298
+01:13:00,840 --> 01:13:03,600
+4 I mean that memory is four there's
+
+1299
+01:13:03,600 --> 01:13:06,360
+four of all four page frames right
+
+1300
+01:13:06,360 --> 01:13:09,000
+there's no empty page frames then we
+
+1301
+01:13:09,000 --> 01:13:11,400
+need the page replacement algorithms to
+
+1302
+01:13:11,400 --> 01:13:14,159
+help us find out who should get out
+
+1303
+01:13:14,159 --> 01:13:16,980
+which page should get out there's fifo
+
+1304
+01:13:16,980 --> 01:13:19,440
+algorithm Second Chance algorithm
+
+1305
+01:13:19,440 --> 01:13:21,659
+um least recent use algorithms we just
+
+1306
+01:13:21,659 --> 01:13:24,360
+reviewed right and then we find upload
+
+1307
+01:13:24,360 --> 01:13:26,280
+we find out which page should get out
+
+1308
+01:13:26,280 --> 01:13:30,239
+then we put our new pages comes in
+
+1309
+01:13:30,239 --> 01:13:34,679
+then we need two we need two
+
+1310
+01:13:34,679 --> 01:13:36,719
+updates
+
+1311
+01:13:36,719 --> 01:13:39,840
+we need to update the page table right
+
+1312
+01:13:39,840 --> 01:13:41,900
+we need to update the page table
+
+1313
+01:13:41,900 --> 01:13:45,480
+mappings the physics the virtual page
+
+1314
+01:13:45,480 --> 01:13:47,699
+number to the physical page number
+
+1315
+01:13:47,699 --> 01:13:50,100
+mappings because right now the page
+
+1316
+01:13:50,100 --> 01:13:53,340
+frames is not exist it's it's the new
+
+1317
+01:13:53,340 --> 01:13:55,800
+contents so you need to change replace
+
+1318
+01:13:55,800 --> 01:13:58,380
+the old mappings to be the new mappings
+
+1319
+01:13:58,380 --> 01:14:00,900
+that map to this page the exact page
+
+1320
+01:14:00,900 --> 01:14:04,440
+that I want after I recover updates the
+
+1321
+01:14:04,440 --> 01:14:06,600
+page tables I need to
+
+1322
+01:14:06,600 --> 01:14:10,260
+recover the tlb right we need to recover
+
+1323
+01:14:10,260 --> 01:14:13,199
+the tlb
+
+1324
+01:14:13,199 --> 01:14:14,580
+tlb
+
+1325
+01:14:14,580 --> 01:14:17,540
+and then
+
+1326
+01:14:18,719 --> 01:14:21,000
+and then in the end right
+
+1327
+01:14:21,000 --> 01:14:24,239
+that is the that is the how we how we
+
+1328
+01:14:24,239 --> 01:14:27,179
+handle the uh the work frame of handling
+
+1329
+01:14:27,179 --> 01:14:31,219
+a page Force handling a page fort
+
+1330
+01:14:34,199 --> 01:14:36,739
+yes
+
+1331
+01:14:43,679 --> 01:14:45,360
+oh that's a very good question you
+
+1332
+01:14:45,360 --> 01:14:47,760
+remember the remember the pay in the
+
+1333
+01:14:47,760 --> 01:14:50,159
+page table we have the we have different
+
+1334
+01:14:50,159 --> 01:14:53,040
+entries there's one bits that are that
+
+1335
+01:14:53,040 --> 01:14:55,260
+tells you whether this page is 30 or not
+
+1336
+01:14:55,260 --> 01:14:57,960
+right so after you click it out you
+
+1337
+01:14:57,960 --> 01:15:00,239
+first you first need to find out if it's
+
+1338
+01:15:00,239 --> 01:15:02,940
+30 or not if it's dirty means that it
+
+1339
+01:15:02,940 --> 01:15:04,560
+has not yet
+
+1340
+01:15:04,560 --> 01:15:07,320
+right to the disk then when you kick out
+
+1341
+01:15:07,320 --> 01:15:09,360
+the first thing if it's 30 you need to
+
+1342
+01:15:09,360 --> 01:15:11,760
+write it to disk if it is not dirty that
+
+1343
+01:15:11,760 --> 01:15:14,400
+means it's read Odin so you basically
+
+1344
+01:15:14,400 --> 01:15:16,980
+have a copy of the disk there's already
+
+1345
+01:15:16,980 --> 01:15:20,580
+a copy of this so you just remove it
+
+1346
+01:15:20,580 --> 01:15:24,860
+see yeah okay so uh I I um yeah let's
+
+1347
+01:15:24,860 --> 01:15:26,699
+grab me
+
+1348
+01:15:26,699 --> 01:15:30,500
+I think I have a better picture
+
+1349
+01:15:42,480 --> 01:15:45,860
+let me do this
+
+1350
+01:16:46,920 --> 01:16:49,140
+so look at this look at this just look
+
+1351
+01:16:49,140 --> 01:16:51,239
+at this picture just look at this
+
+1352
+01:16:51,239 --> 01:16:53,420
+picture
+
+1353
+01:17:01,920 --> 01:17:04,800
+is there anything missing there is there
+
+1354
+01:17:04,800 --> 01:17:07,820
+anything missing there
+
+1355
+01:17:15,719 --> 01:17:18,540
+hence not this one this one
+
+1356
+01:17:18,540 --> 01:17:20,820
+look at this this is the this is the
+
+1357
+01:17:20,820 --> 01:17:23,640
+workflow of the page Force
+
+1358
+01:17:23,640 --> 01:17:26,520
+but it isn't one Arrow there's one arrow
+
+1359
+01:17:26,520 --> 01:17:29,540
+in this workflow
+
+1360
+01:17:33,900 --> 01:17:36,300
+with an arrow in the in this workflow
+
+1361
+01:17:36,300 --> 01:17:37,560
+yes
+
+1362
+01:17:37,560 --> 01:17:39,540
+Andrew
+
+1363
+01:17:39,540 --> 01:17:41,699
+yeah
+
+1364
+01:17:41,699 --> 01:17:44,400
+yeah no trophy yes there's no TRV right
+
+1365
+01:17:44,400 --> 01:17:46,380
+there's no TRV but we can
+
+1366
+01:17:46,380 --> 01:17:48,780
+this is a very good picture this is from
+
+1367
+01:17:48,780 --> 01:17:51,900
+the old textbook in the old textbook
+
+1368
+01:17:51,900 --> 01:17:55,440
+there's no trb yet as I got it from very
+
+1369
+01:17:55,440 --> 01:17:57,960
+old textbook all right this this is very
+
+1370
+01:17:57,960 --> 01:18:00,300
+this is very intuitive picture so we
+
+1371
+01:18:00,300 --> 01:18:03,679
+have to see we have the
+
+1372
+01:18:08,820 --> 01:18:11,460
+you have the let's say the um operating
+
+1373
+01:18:11,460 --> 01:18:14,100
+system right you the load the load Visa
+
+1374
+01:18:14,100 --> 01:18:17,820
+is a compiler in instruction load we
+
+1375
+01:18:17,820 --> 01:18:21,420
+have to you load and add maybe push this
+
+1376
+01:18:21,420 --> 01:18:23,820
+is a company instruction right your your
+
+1377
+01:18:23,820 --> 01:18:25,800
+code is going to be translated to
+
+1378
+01:18:25,800 --> 01:18:28,080
+combiner code and then CPU generates a
+
+1379
+01:18:28,080 --> 01:18:29,400
+virtual address
+
+1380
+01:18:29,400 --> 01:18:32,100
+space memory address space for that for
+
+1381
+01:18:32,100 --> 01:18:35,219
+that real code and then point to the
+
+1382
+01:18:35,219 --> 01:18:37,320
+instruction of the each line of the code
+
+1383
+01:18:37,320 --> 01:18:40,140
+the first thing that it needs to find
+
+1384
+01:18:40,140 --> 01:18:42,840
+out okay you know that you know the
+
+1385
+01:18:42,840 --> 01:18:44,820
+let's say you load this page and you
+
+1386
+01:18:44,820 --> 01:18:46,940
+find out where you need to find out that
+
+1387
+01:18:46,940 --> 01:18:49,860
+whether it is in the physical memory or
+
+1388
+01:18:49,860 --> 01:18:51,900
+not so here this is the physical memory
+
+1389
+01:18:51,900 --> 01:18:54,360
+so to find out whether it is in the
+
+1390
+01:18:54,360 --> 01:18:56,340
+physical memory or not you need to look
+
+1391
+01:18:56,340 --> 01:18:58,739
+at the tlb first and then look at the
+
+1392
+01:18:58,739 --> 01:19:01,080
+page table why you need to Patient look
+
+1393
+01:19:01,080 --> 01:19:02,520
+at the page level because the page table
+
+1394
+01:19:02,520 --> 01:19:04,620
+is like the index
+
+1395
+01:19:04,620 --> 01:19:07,440
+you know in a in a book you you all read
+
+1396
+01:19:07,440 --> 01:19:09,360
+a book right in the books we have a
+
+1397
+01:19:09,360 --> 01:19:11,400
+chapter right we have the chapter is it
+
+1398
+01:19:11,400 --> 01:19:14,280
+shows the index it tells you uh which
+
+1399
+01:19:14,280 --> 01:19:18,060
+exactly chapter goes to which page so
+
+1400
+01:19:18,060 --> 01:19:20,340
+the page table is like the chapter of
+
+1401
+01:19:20,340 --> 01:19:24,920
+your book the chapter of your book you
+
+1402
+01:19:25,500 --> 01:19:29,040
+so the one when I read a book like the
+
+1403
+01:19:29,040 --> 01:19:31,440
+OS book right you need to find out the
+
+1404
+01:19:31,440 --> 01:19:33,659
+memory chapter then you need to look at
+
+1405
+01:19:33,659 --> 01:19:36,540
+the index of the chapter index of the
+
+1406
+01:19:36,540 --> 01:19:39,000
+book to find out oh well the page number
+
+1407
+01:19:39,000 --> 01:19:42,360
+for the like chapter four memory so that
+
+1408
+01:19:42,360 --> 01:19:44,400
+is why we need to look at the page table
+
+1409
+01:19:44,400 --> 01:19:47,460
+first the page table first within the
+
+1410
+01:19:47,460 --> 01:19:49,860
+tlb what is tlb tab is like a very
+
+1411
+01:19:49,860 --> 01:19:52,219
+smaller page table it's like the
+
+1412
+01:19:52,219 --> 01:19:55,380
+the front page of that book right it
+
+1413
+01:19:55,380 --> 01:19:57,420
+only shows the most important contents
+
+1414
+01:19:57,420 --> 01:19:59,280
+and tells you exactly the page number
+
+1415
+01:19:59,280 --> 01:20:01,620
+like give some keywords and tell you
+
+1416
+01:20:01,620 --> 01:20:04,260
+where exactly these keywords is that is
+
+1417
+01:20:04,260 --> 01:20:06,719
+like a tlb so we look at the page table
+
+1418
+01:20:06,719 --> 01:20:08,940
+and then we can find out oh okay the
+
+1419
+01:20:08,940 --> 01:20:11,760
+page number of that contents and we look
+
+1420
+01:20:11,760 --> 01:20:14,580
+at the page number if it's there in the
+
+1421
+01:20:14,580 --> 01:20:16,679
+physical memory then we are good if it's
+
+1422
+01:20:16,679 --> 01:20:19,199
+not there we need to go to the where we
+
+1423
+01:20:19,199 --> 01:20:21,360
+need to go to
+
+1424
+01:20:21,360 --> 01:20:24,420
+we need to go to the disk right that is
+
+1425
+01:20:24,420 --> 01:20:26,840
+why if there's a Miss if there's a Miss
+
+1426
+01:20:26,840 --> 01:20:30,300
+then we need to find out the page in the
+
+1427
+01:20:30,300 --> 01:20:32,640
+disk this is a chart operation is why is
+
+1428
+01:20:32,640 --> 01:20:34,679
+the chart operation causes you need to
+
+1429
+01:20:34,679 --> 01:20:37,880
+the operating system to do to locate the
+
+1430
+01:20:37,880 --> 01:20:42,080
+page from the disk yes
+
+1431
+01:20:42,780 --> 01:20:46,140
+correct is it TLD like a smaller page
+
+1432
+01:20:46,140 --> 01:20:48,960
+table that has information about like
+
+1433
+01:20:48,960 --> 01:20:52,100
+recent uh
+
+1434
+01:20:52,860 --> 01:20:55,620
+the recently accessed mappings the
+
+1435
+01:20:55,620 --> 01:20:58,679
+physical the virtual address to physical
+
+1436
+01:20:58,679 --> 01:21:00,300
+address mappings
+
+1437
+01:21:00,300 --> 01:21:03,560
+so it's like a cache
+
+1438
+01:21:08,100 --> 01:21:10,640
+um say again
+
+1439
+01:21:15,780 --> 01:21:18,239
+yes everything is in the disk of course
+
+1440
+01:21:18,239 --> 01:21:20,760
+your programs your everything's in the
+
+1441
+01:21:20,760 --> 01:21:22,980
+disk right
+
+1442
+01:21:22,980 --> 01:21:27,659
+you he's the same he's the same
+
+1443
+01:21:27,659 --> 01:21:29,780
+um
+
+1444
+01:21:33,179 --> 01:21:36,179
+you you guys still remember have the
+
+1445
+01:21:36,179 --> 01:21:38,340
+intuition remember that I told you like
+
+1446
+01:21:38,340 --> 01:21:41,159
+you have a very large programs you have
+
+1447
+01:21:41,159 --> 01:21:43,080
+a very large program this is very large
+
+1448
+01:21:43,080 --> 01:21:45,060
+but you cannot hold that everything in
+
+1449
+01:21:45,060 --> 01:21:48,239
+the memory but then but then when you
+
+1450
+01:21:48,239 --> 01:21:50,280
+load that programs
+
+1451
+01:21:50,280 --> 01:21:52,140
+right when you load this is your program
+
+1452
+01:21:52,140 --> 01:21:54,840
+while you're loading that the CPU are
+
+1453
+01:21:54,840 --> 01:21:56,340
+going to
+
+1454
+01:21:56,340 --> 01:21:59,040
+pretense they know everything about they
+
+1455
+01:21:59,040 --> 01:22:01,500
+it's already in the memory so that is
+
+1456
+01:22:01,500 --> 01:22:03,659
+why the CPU are going to generate a very
+
+1457
+01:22:03,659 --> 01:22:06,300
+large virtual address from 0 to a Max
+
+1458
+01:22:06,300 --> 01:22:08,940
+number to the to your code so this is
+
+1459
+01:22:08,940 --> 01:22:11,760
+already in the disk in the disk
+
+1460
+01:22:11,760 --> 01:22:13,920
+you can think of that we put it from the
+
+1461
+01:22:13,920 --> 01:22:17,280
+disk we ask CPU to generate a virtual
+
+1462
+01:22:17,280 --> 01:22:20,520
+address space to that process to have a
+
+1463
+01:22:20,520 --> 01:22:24,360
+program and then CPU points to one page
+
+1464
+01:22:24,360 --> 01:22:26,400
+let's say the loading page the loading
+
+1465
+01:22:26,400 --> 01:22:28,980
+page then CPU are going to process that
+
+1466
+01:22:28,980 --> 01:22:31,739
+the CPU make can only process everything
+
+1467
+01:22:31,739 --> 01:22:34,260
+in the memory so CPU needs to know
+
+1468
+01:22:34,260 --> 01:22:36,120
+whether this contents in the memory or
+
+1469
+01:22:36,120 --> 01:22:38,219
+not that is why CPU look at the page
+
+1470
+01:22:38,219 --> 01:22:40,140
+table but if you cannot find the page
+
+1471
+01:22:40,140 --> 01:22:44,540
+level is or you always in the disk yeah
+
+1472
+01:22:46,980 --> 01:22:50,300
+yeah yes yeah sure
+
+1473
+01:22:55,100 --> 01:22:57,360
+let's say windows
+
+1474
+01:22:57,360 --> 01:22:59,880
+10 years on backing stories on the disk
+
+1475
+01:22:59,880 --> 01:23:03,199
+it's only this
+
+1476
+01:23:10,800 --> 01:23:12,800
+is
+
+1477
+01:23:13,980 --> 01:23:14,760
+um
+
+1478
+01:23:14,760 --> 01:23:16,980
+you can think of this it's on the disk
+
+1479
+01:23:16,980 --> 01:23:18,780
+it's just on the disk there's no no
+
+1480
+01:23:18,780 --> 01:23:20,880
+backing store this kind of keywords in
+
+1481
+01:23:20,880 --> 01:23:22,040
+the OS
+
+1482
+01:23:22,040 --> 01:23:24,540
+yeah if you think of that it's just a
+
+1483
+01:23:24,540 --> 01:23:27,600
+disk okay and then and then we bring out
+
+1484
+01:23:27,600 --> 01:23:29,400
+the missing page in the memory the
+
+1485
+01:23:29,400 --> 01:23:31,920
+memory so this is a free free what is a
+
+1486
+01:23:31,920 --> 01:23:33,600
+free frame you know he's put a free
+
+1487
+01:23:33,600 --> 01:23:36,120
+frame if it is so why is a free frame
+
+1488
+01:23:36,120 --> 01:23:38,400
+because initially if it's four we've
+
+1489
+01:23:38,400 --> 01:23:40,560
+already replaced it out at this time we
+
+1490
+01:23:40,560 --> 01:23:43,560
+need to replace the old the for example
+
+1491
+01:23:43,560 --> 01:23:47,100
+the not recently used this recently used
+
+1492
+01:23:47,100 --> 01:23:49,920
+Pages out we kick it out and we put the
+
+1493
+01:23:49,920 --> 01:23:52,140
+new pages in because we put the new
+
+1494
+01:23:52,140 --> 01:23:54,719
+pages in so the mapping is changed right
+
+1495
+01:23:54,719 --> 01:23:57,179
+the mapping specifically relates to that
+
+1496
+01:23:57,179 --> 01:23:59,940
+page is changed that is why we need to
+
+1497
+01:23:59,940 --> 01:24:03,060
+update the page table then we update the
+
+1498
+01:24:03,060 --> 01:24:04,980
+tlb and we go back
+
+1499
+01:24:04,980 --> 01:24:07,699
+yeah Andrew
+
+1500
+01:24:17,219 --> 01:24:21,980
+yeah yeah pretty much yeah
+
+1501
+01:24:23,040 --> 01:24:26,940
+okay so um okay this is how to handle a
+
+1502
+01:24:26,940 --> 01:24:29,420
+page fort
+
+1503
+01:24:32,040 --> 01:24:34,980
+okay and this is the let's say this is
+
+1504
+01:24:34,980 --> 01:24:37,320
+the um okay Refresh on the page for
+
+1505
+01:24:37,320 --> 01:24:38,940
+service okay
+
+1506
+01:24:38,940 --> 01:24:40,940
+um
+
+1507
+01:24:41,640 --> 01:24:44,880
+yeah we uh yeah you need to remember
+
+1508
+01:24:44,880 --> 01:24:47,100
+this workflow because this is very
+
+1509
+01:24:47,100 --> 01:24:48,780
+important you need to remember this
+
+1510
+01:24:48,780 --> 01:24:52,380
+workflow okay um and uh you should be
+
+1511
+01:24:52,380 --> 01:24:55,820
+able to draw this workflow
+
+1512
+01:24:59,219 --> 01:25:02,699
+okay and so another refresh so when we
+
+1513
+01:25:02,699 --> 01:25:06,480
+calculating you when we calculating the
+
+1514
+01:25:06,480 --> 01:25:07,199
+um
+
+1515
+01:25:07,199 --> 01:25:10,920
+to do the address translation okay we
+
+1516
+01:25:10,920 --> 01:25:13,679
+only need to change translate the page
+
+1517
+01:25:13,679 --> 01:25:15,960
+number The Logical page number to the
+
+1518
+01:25:15,960 --> 01:25:18,360
+physical page number so page mapping is
+
+1519
+01:25:18,360 --> 01:25:21,960
+about which virtual page map to which
+
+1520
+01:25:21,960 --> 01:25:24,239
+real physical page
+
+1521
+01:25:24,239 --> 01:25:27,900
+okay so that is the mapping okay
+
+1522
+01:25:27,900 --> 01:25:29,900
+um
+
+1523
+01:25:47,760 --> 01:25:52,500
+okay another thing is about the uh okay
+
+1524
+01:25:52,500 --> 01:25:56,540
+so this is already covered
+
+1525
+01:25:58,020 --> 01:26:00,540
+so um you need to understand the
+
+1526
+01:26:00,540 --> 01:26:03,139
+differences between different algorithms
+
+1527
+01:26:03,139 --> 01:26:06,300
+section already mentioned there so this
+
+1528
+01:26:06,300 --> 01:26:08,100
+is the comments okay
+
+1529
+01:26:08,100 --> 01:26:10,380
+um fifo is always
+
+1530
+01:26:10,380 --> 01:26:14,100
+um it's very easy to implement so the
+
+1531
+01:26:14,100 --> 01:26:15,900
+ariu is excellent but difficult to
+
+1532
+01:26:15,900 --> 01:26:17,580
+implement why it's difficult because
+
+1533
+01:26:17,580 --> 01:26:19,739
+this need to remember a lot of things
+
+1534
+01:26:19,739 --> 01:26:22,260
+like when you come when you first
+
+1535
+01:26:22,260 --> 01:26:25,320
+referred how many times have been you
+
+1536
+01:26:25,320 --> 01:26:27,420
+have have you been referred for the past
+
+1537
+01:26:27,420 --> 01:26:29,820
+like a sliding window it needs to
+
+1538
+01:26:29,820 --> 01:26:32,639
+remember a lot of things okay and
+
+1539
+01:26:32,639 --> 01:26:34,560
+working search okay what is the working
+
+1540
+01:26:34,560 --> 01:26:36,239
+set algorithms
+
+1541
+01:26:36,239 --> 01:26:38,699
+the key idea of the working set um
+
+1542
+01:26:38,699 --> 01:26:40,800
+things to mentioned that the key idea of
+
+1543
+01:26:40,800 --> 01:26:42,420
+the working set because
+
+1544
+01:26:42,420 --> 01:26:45,239
+when you in when we initially load
+
+1545
+01:26:45,239 --> 01:26:49,020
+something like boost OS we cannot we
+
+1546
+01:26:49,020 --> 01:26:51,060
+cannot like what we did in the exams
+
+1547
+01:26:51,060 --> 01:26:54,000
+like put one page after another page
+
+1548
+01:26:54,000 --> 01:26:56,820
+after another page it's too inefficient
+
+1549
+01:26:56,820 --> 01:26:59,400
+so working set means that
+
+1550
+01:26:59,400 --> 01:27:03,300
+we do not we do not fetch Pages after
+
+1551
+01:27:03,300 --> 01:27:06,600
+Pages we start fascist batches of the
+
+1552
+01:27:06,600 --> 01:27:08,639
+batches and each batch is called working
+
+1553
+01:27:08,639 --> 01:27:11,280
+set that is the key idea of without
+
+1554
+01:27:11,280 --> 01:27:15,440
+about a working cells okay
+
+1555
+01:27:30,420 --> 01:27:33,360
+okay under another key points to the
+
+1556
+01:27:33,360 --> 01:27:35,760
+memory chapter is that the differences
+
+1557
+01:27:35,760 --> 01:27:40,760
+between paging and segmentation so
+
+1558
+01:27:43,080 --> 01:27:45,239
+so what is exactly segmentation
+
+1559
+01:27:45,239 --> 01:27:48,060
+segmentation uh means
+
+1560
+01:27:48,060 --> 01:27:51,600
+um in the in the in in maybe 20 years
+
+1561
+01:27:51,600 --> 01:27:54,420
+ago um there's some systems that are
+
+1562
+01:27:54,420 --> 01:27:56,400
+used only in paging some systems use
+
+1563
+01:27:56,400 --> 01:27:58,199
+only segmentation and some system
+
+1564
+01:27:58,199 --> 01:28:00,360
+operating system use paging plus
+
+1565
+01:28:00,360 --> 01:28:03,719
+segmentation so a segmentation means
+
+1566
+01:28:03,719 --> 01:28:05,760
+that we
+
+1567
+01:28:05,760 --> 01:28:09,300
+we we divide the memory into many
+
+1568
+01:28:09,300 --> 01:28:12,060
+different parts and each part we save
+
+1569
+01:28:12,060 --> 01:28:15,000
+one type of data that is segmentation
+
+1570
+01:28:15,000 --> 01:28:17,520
+for example this part we only save tax
+
+1571
+01:28:17,520 --> 01:28:20,280
+the code and this part we only save the
+
+1572
+01:28:20,280 --> 01:28:22,860
+like the images and this part we only
+
+1573
+01:28:22,860 --> 01:28:24,719
+save the uh
+
+1574
+01:28:24,719 --> 01:28:26,360
+the
+
+1575
+01:28:26,360 --> 01:28:29,699
+hips like the um
+
+1576
+01:28:29,699 --> 01:28:32,580
+a dynamical or located memory so that is
+
+1577
+01:28:32,580 --> 01:28:35,100
+the key idea of the segmentation so if
+
+1578
+01:28:35,100 --> 01:28:36,900
+you look at the segmentation you can see
+
+1579
+01:28:36,900 --> 01:28:39,080
+that
+
+1580
+01:28:43,260 --> 01:28:45,659
+these are the you they always see they
+
+1581
+01:28:45,659 --> 01:28:48,719
+always puts the symbol tables there and
+
+1582
+01:28:48,719 --> 01:28:52,679
+the source tax constraints callbacks so
+
+1583
+01:28:52,679 --> 01:28:55,800
+there's many different segments and puts
+
+1584
+01:28:55,800 --> 01:28:57,780
+different types of data that means the
+
+1585
+01:28:57,780 --> 01:28:59,940
+key idea of the segmentation we do not
+
+1586
+01:28:59,940 --> 01:29:03,000
+use segmentation a lot we use
+
+1587
+01:29:03,000 --> 01:29:05,000
+um
+
+1588
+01:29:06,860 --> 01:29:10,940
+we we mainly use the page in paging
+
+1589
+01:29:10,940 --> 01:29:14,820
+technical in the model OS okay so this
+
+1590
+01:29:14,820 --> 01:29:17,760
+is today's class and uh um so I'm
+
+1591
+01:29:17,760 --> 01:29:19,860
+thinking doing a review of the midterm
+
+1592
+01:29:19,860 --> 01:29:21,960
+in next class or maybe in the class
+
+1593
+01:29:21,960 --> 01:29:24,540
+after next class yeah and then after
+
+1594
+01:29:24,540 --> 01:29:26,520
+that we are going to finish the file
+
+1595
+01:29:26,520 --> 01:29:30,380
+system and the Hot Topic yeah
+
+1596
+01:29:42,120 --> 01:29:47,179
+uh I didn't get that what's the question
+
+1597
+01:29:52,639 --> 01:29:57,000
+like why does Beijing why the page 40s
+
+1598
+01:29:57,000 --> 01:29:59,280
+exist
+
+1599
+01:29:59,280 --> 01:30:02,659
+be like thankful
+
