@@ -6,10 +6,9 @@
 client_commands=(
   "GET file1.txt"
   "GET file2.txt"
-  "GET file1.txt"
+  "GET file3.txt"
   "GET file3.txt"
   "GET file1.txt"
-  "GET file2.txt"
 )
 
 commands=(
