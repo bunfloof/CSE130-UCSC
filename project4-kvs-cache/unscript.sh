@@ -4,12 +4,11 @@
 # runscript cuz I don't want to type commands every time I want to test ./client
 
 client_commands=(
-  "SET file1.txt hey"
-  "SET file2.txt hello"
-  "SET file3.txt hi"
   "GET file1.txt"
   "GET file2.txt"
   "GET file3.txt"
+  "GET file3.txt"
+  "GET file1.txt"
 )
 
 commands=(
