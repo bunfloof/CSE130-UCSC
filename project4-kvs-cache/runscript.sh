@@ -7,9 +7,11 @@ client_commands=(
   "SET file1.txt hey"
   "SET file2.txt hello"
   "SET file3.txt hi"
+  "SET file4.txt bye"
   "GET file1.txt"
   "GET file2.txt"
   "GET file3.txt"
+  "GET file4.txt"
 )
 
 commands=(
@@ -17,7 +19,7 @@ commands=(
   "make"
 )
 
-client_start_command="./client data FIFO 2"
+client_start_command="./client data CLOCK 3"
 
 runCommand() {
   echo "💦 runscript.sh: Running $1"

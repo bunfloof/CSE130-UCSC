@@ -1,0 +1,51 @@
+./client data CLOCK 5
+SET file1.txt hey
+SET file2.txt hello
+SET file3.txt hi
+GET file1.txt
+hey
+GET file2.txt
+hello
+GET file3.txt
+hi
+GET COUNT (CACHE): 3
+GET COUNT (DISK): 0
+GET CACHE HIT RATE: 100.00%
+SET COUNT (CACHE): 3
+SET COUNT (DISK): 3
+SET CACHE HIT RATE: 0.00%
+
+./client data CLOCK 3
+SET file1.txt hey
+SET file1.txt hello
+SET file1.txt hi
+GET file1.txt
+hi
+GET COUNT (CACHE): 1
+GET COUNT (DISK): 0
+GET CACHE HIT RATE: 100.00%
+SET COUNT (CACHE): 3
+SET COUNT (DISK): 1
+SET CACHE HIT RATE: 66.67%
+
+./client data CLOCK 3
+SET file1.txt hey
+SET file2.txt hello
+SET file3.txt hi
+GET file1.txt
+hey
+SET file4.txt bye
+GET file1.txt
+hey
+GET file2.txt
+hello
+GET file3.txt
+hi
+GET file4.txt
+bye
+GET COUNT (CACHE): 5
+GET COUNT (DISK): 3
+GET CACHE HIT RATE: 40.00%
+SET COUNT (CACHE): 4
+SET COUNT (DISK): 4
+SET CACHE HIT RATE: 0.00%

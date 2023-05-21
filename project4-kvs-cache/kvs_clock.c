@@ -46,6 +46,7 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
     if (strcmp(kvs_clock->keys[i], key) == 0) {
       free(kvs_clock->values[i]);
       kvs_clock->values[i] = strdup(value);
+      kvs_clock->ref_bits[i] = 1;
       return 0;
     }
   }
@@ -88,6 +89,7 @@ int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
       free(kvs_clock->values[kvs_clock->cursor]);
       kvs_clock->keys[kvs_clock->cursor] = strdup(key);
       kvs_clock->values[kvs_clock->cursor] = strdup(value);
+      kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity;
     } else {
       kvs_clock->keys[kvs_clock->size] = strdup(key);
       kvs_clock->values[kvs_clock->size] = strdup(value);

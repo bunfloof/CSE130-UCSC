@@ -40,14 +40,14 @@ int kvs_lru_set(kvs_lru_t* kvs_lru, const char* key, const char* value) {
     if (strcmp(kvs_lru->keys[i], key) == 0) {
       free(kvs_lru->values[i]); // free the old value
       kvs_lru->values[i] = strdup(value); // set new value
-      // move the key and value to the end of the array to denote it as the most recently used
+      // mpve the key and value to the end of the array to denote it as the most recently used
       char* temp_key = kvs_lru->keys[i];
       char* temp_value = kvs_lru->values[i];
       memmove(kvs_lru->keys + i, kvs_lru->keys + i + 1, (kvs_lru->size - i - 1) * sizeof(char*));
       memmove(kvs_lru->values + i, kvs_lru->values + i + 1, (kvs_lru->size - i - 1) * sizeof(char*));
       kvs_lru->keys[kvs_lru->size - 1] = temp_key;
       kvs_lru->values[kvs_lru->size - 1] = temp_value;
-      return 0; // ket was found in cache, so no need to set it in kvs_base
+      return kvs_base_set(kvs_lru->kvs_base, key, value);
     }
   }
 
@@ -63,7 +63,7 @@ int kvs_lru_set(kvs_lru_t* kvs_lru, const char* key, const char* value) {
   kvs_lru->values[kvs_lru->size] = strdup(value); // store value
   ++kvs_lru->size;
 
-  return kvs_base_set(kvs_lru->kvs_base, key, value); // key was not found in cache, so set it in kvs_base
+  return kvs_base_set(kvs_lru->kvs_base, key, value);
 }
 
 
