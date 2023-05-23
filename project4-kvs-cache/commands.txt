@@ -1,0 +1,5 @@
+GET file1.txt
+SET file2.txt
+SET file3.txt foo
+GET file3.txt
+GET file1.txt
