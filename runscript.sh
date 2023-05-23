@@ -7,8 +7,8 @@ EXPERIMENTAL_INTERLEAVE_MODE=true
 run=(
 "./client data FIFO 2"
 "GET file1.txt"
-"SEdT file2.txt foo2"
-"SEdT file3.txt foo"
+"SET file2.txt foo2"
+"SET file3.txt foo"
 "GET file3.txt"
 "GET file1.txt"
 "./client data LRU 2"

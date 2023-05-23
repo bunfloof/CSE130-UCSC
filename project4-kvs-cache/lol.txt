@@ -1,0 +1,45 @@
+
+💦 Test 1:
+./client data FIFO 2
+GET file1.txt
+foo1
+SET file2.txt foo2
+SET file3.txt foo
+GET file3.txt
+foo
+GET file1.txt
+foo1
+GET COUNT (CACHE): 3
+GET COUNT (DISK): 2
+GET CACHE HIT RATE: 33.33%
+SET COUNT (CACHE): 2
+SET COUNT (DISK): 2
+SET CACHE HIT RATE: 0.00%
+
+💦 Test 2:
+./client data LRU 2
+GET file1.txt
+foo1
+GET file2.txt
+foo2
+GET file3.txt
+foo
+GET COUNT (CACHE): 3
+GET COUNT (DISK): 3
+GET CACHE HIT RATE: 0.00%
+SET COUNT (CACHE): 0
+SET COUNT (DISK): 0
+SET CACHE HIT RATE: -nan%
+
+💦 Test 3:
+./client data CLOCK 3
+GET file1.txt
+foo1
+GET file2.txt
+foo2
+GET COUNT (CACHE): 2
+GET COUNT (DISK): 2
+GET CACHE HIT RATE: 0.00%
+SET COUNT (CACHE): 0
+SET COUNT (DISK): 0
+SET CACHE HIT RATE: -nan%
