@@ -1,0 +1,1 @@
+["GET file1.txt", "foo1", "GET file2.txt", "foo2", "GET file3.txt", "foo", "GET COUNT (CACHE): 3", "GET COUNT (DISK): 3", "GET CACHE HIT RATE: 0.00%", "SET COUNT (CACHE): 0", "SET COUNT (DISK): 0", "SET CACHE HIT RATE: -nan%"]
