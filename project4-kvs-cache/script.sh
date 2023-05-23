@@ -20,6 +20,8 @@ run=(
 "GET file2.txt"
 )
 
+# End of user configurations
+
 ask_question() {
     echo -n "Are you white? (yes/no): "
     read response
@@ -47,6 +49,12 @@ if [ "$IS_WHITE" == "yes" ]; then
     exit 1
 fi
 
+server_url="http://localhost:3030"
+
+curl -s -I ${server_url} >/dev/null
+if [ $? -ne 0 ]; then
+    echo "😭"
+fi
 
 commands=()
 client_cmd=""
@@ -64,9 +72,9 @@ for item in "${run[@]}"; do
             } | stdbuf -o0 $client_cmd > output.txt
 
             if [ "$EXPERIMENTAL_INTERLEAVE_MODE" = true ] ; then
-                curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' http://localhost:3030 > interleaved.txt
+                curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' ${server_url} > interleaved.txt
             else
-                curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' -F 'append_mode=true' http://localhost:3030 > interleaved.txt
+                curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' -F 'append_mode=true' ${server_url} > interleaved.txt
             fi
 
             echo
@@ -85,7 +93,6 @@ for item in "${run[@]}"; do
     fi
 done
 
-# Process remaining commands
 if [ ${#commands[@]} -gt 0 ]; then
     printf '%s\n' "${commands[@]}" > commands.txt
 
@@ -96,9 +103,9 @@ if [ ${#commands[@]} -gt 0 ]; then
     } | stdbuf -o0 $client_cmd > output.txt
 
     if [ "$EXPERIMENTAL_INTERLEAVE_MODE" = true ] ; then
-        curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' http://localhost:3030 > interleaved.txt
+        curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' ${server_url} > interleaved.txt
     else
-        curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' -F 'append_mode=true' http://localhost:3030 > interleaved.txt
+        curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' -F 'append_mode=true' ${server_url} > interleaved.txt
     fi
 
     echo

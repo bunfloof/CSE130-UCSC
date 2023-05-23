@@ -1,3 +1,2 @@
 GET file1.txt
 GET file2.txt
-GET file3.txt
