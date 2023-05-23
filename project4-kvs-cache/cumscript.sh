@@ -49,11 +49,11 @@ if [ "$IS_WHITE" == "yes" ]; then
     exit 1
 fi
 
-server_url="http://localhost:3030"
+server_url="http://cum.ucsc.gay/"
 
 curl -s -I ${server_url} >/dev/null
 if [ $? -ne 0 ]; then
-    echo "😭"
+    echo "😭 unable to connect server"
 fi
 
 commands=()
