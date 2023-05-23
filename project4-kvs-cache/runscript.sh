@@ -6,18 +6,26 @@ EXPERIMENTAL_INTERLEAVE_MODE=true
 # Define run array with client configurations and commands
 run=(
 "./client data FIFO 2"
+"SET file1.txt hey"
+"SET file2.txt hello"
+"SET file3.txt hi"
 "GET file1.txt"
-"SEdT file2.txt foo2"
-"SEdT file3.txt foo"
+"GET file2.txt"
 "GET file3.txt"
+"./client data CLOCK 2"
+"SET file1.txt hey"
+"SET file2.txt hello"
+"SET file3.txt hi"
 "GET file1.txt"
+"GET file2.txt"
+"GET file3.txt"
 "./client data LRU 2"
+"SET file1.txt hey"
+"SET file2.txt hello"
+"SET file3.txt hi"
 "GET file1.txt"
 "GET file2.txt"
 "GET file3.txt"
-"./client data CLOCK 3"
-"GET file1.txt"
-"GET file2.txt"
 )
 
 # End of user configurations
