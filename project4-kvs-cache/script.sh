@@ -63,24 +63,24 @@ test_number=1
 for item in "${run[@]}"; do
     if [[ $item == "./client"* ]]; then
         if [ ${#commands[@]} -gt 0 ]; then
-            printf '%s\n' "${commands[@]}" > commands.txt
+            printf '%s\n' "${commands[@]}" > cummands.txt
 
             { 
             for cmd in "${commands[@]}"; do
                 echo $cmd
             done
-            } | stdbuf -o0 $client_cmd > output.txt
+            } | stdbuf -o0 $client_cmd > cmoutput.txt
 
             if [ "$EXPERIMENTAL_INTERLEAVE_MODE" = true ] ; then
-                curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' ${server_url} > interleaved.txt
+                curl -s -F 'commands.txt=@./cummands.txt' -F 'output.txt=@./cmoutput.txt' ${server_url} > qwinterleaved.txt
             else
-                curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' -F 'append_mode=true' ${server_url} > interleaved.txt
+                curl -s -F 'commands.txt=@./cummands.txt' -F 'output.txt=@./cmoutput.txt' -F 'append_mode=true' ${server_url} > qwinterleaved.txt
             fi
 
             echo
             echo "💦 Test $test_number:"
             echo $client_cmd
-            cat interleaved.txt | tr -d '[]"' | sed 's/, /\n/g'
+            cat qwinterleaved.txt | tr -d '[]"' | sed 's/, /\n/g'
             echo
 
             ((test_number++))
@@ -94,23 +94,25 @@ for item in "${run[@]}"; do
 done
 
 if [ ${#commands[@]} -gt 0 ]; then
-    printf '%s\n' "${commands[@]}" > commands.txt
+    printf '%s\n' "${commands[@]}" > cummands.txt
 
     { 
     for cmd in "${commands[@]}"; do
         echo $cmd
     done
-    } | stdbuf -o0 $client_cmd > output.txt
+    } | stdbuf -o0 $client_cmd > cmoutput.txt
 
     if [ "$EXPERIMENTAL_INTERLEAVE_MODE" = true ] ; then
-        curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' ${server_url} > interleaved.txt
+        curl -s -F 'commands.txt=@./cummands.txt' -F 'output.txt=@./cmoutput.txt' ${server_url} > qwinterleaved.txt
     else
-        curl -s -F 'commands.txt=@./commands.txt' -F 'output.txt=@./output.txt' -F 'append_mode=true' ${server_url} > interleaved.txt
+        curl -s -F 'commands.txt=@./cummands.txt' -F 'output.txt=@./cmoutput.txt' -F 'append_mode=true' ${server_url} > qwinterleaved.txt
     fi
 
     echo
     echo "💦 Test $test_number:"
     echo $client_cmd
-    cat interleaved.txt | tr -d '[]"' | sed 's/, /\n/g'
+    cat qwinterleaved.txt | tr -d '[]"' | sed 's/, /\n/g'
     echo
 fi
+
+rm qwinterleaved.txt cummands.txt cmoutput.txt
