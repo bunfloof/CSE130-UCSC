@@ -6,23 +6,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <stdio.h>
-
 struct kvs_lru {
   kvs_base_t* kvs_base;
   char** keys;
   char** values; // added a values field
   int capacity;
   int size;
-  int replacement_count; // added a replacement_count field
 };
-
-/*
-BUT
-CAN NOT DO REPLACEMENT_COUNT WITHOUT GETTER FUNC, 
-CAN NOT MODIFY kvs_base.c. NEED TO PREVENT PREVENT kvs_base.c 
-FROM ICNREMENTING SET COUNTS.
-*/
 
 kvs_lru_t* kvs_lru_new(kvs_base_t* kvs, int capacity) {
   kvs_lru_t* kvs_lru = malloc(sizeof(kvs_lru_t));
@@ -31,7 +21,6 @@ kvs_lru_t* kvs_lru_new(kvs_base_t* kvs, int capacity) {
   kvs_lru->size = 0;
   kvs_lru->keys = calloc(capacity, sizeof(char*));
   kvs_lru->values = calloc(capacity, sizeof(char*)); // allocate memory for values
-  kvs_lru->replacement_count = 0;  // initialize replacement_count to 0
   return kvs_lru;
 }
 
@@ -57,27 +46,24 @@ int kvs_lru_set(kvs_lru_t* kvs_lru, const char* key, const char* value) {
       memmove(kvs_lru->values + i, kvs_lru->values + i + 1, (kvs_lru->size - i - 1) * sizeof(char*));
       kvs_lru->keys[kvs_lru->size - 1] = temp_key;
       kvs_lru->values[kvs_lru->size - 1] = temp_value;
-      //printf("key was found in cache");
       return 0; // key was found in cache, no need to call kvs_base_set
     }
   } // proceed below if key not found in cache ----------
 
   if (kvs_lru->size == kvs_lru->capacity) { // if cache full, replace an entry
-    printf("cache ful!!");
     free(kvs_lru->keys[0]);
     free(kvs_lru->values[0]);
     memmove(kvs_lru->keys, kvs_lru->keys + 1, (kvs_lru->size - 1) * sizeof(char*));
     memmove(kvs_lru->values, kvs_lru->values + 1, (kvs_lru->size - 1) * sizeof(char*));
-    //int rc = kvs_base_set(kvs_lru->kvs_base, key, value); // key not found in cache, so set in kvs_base
-    //if (rc != 0) { // error handilng
-      //return rc;
-    //}
+    int rc = kvs_base_set(kvs_lru->kvs_base, key, value); // key not found in cache, so set in kvs_base
+    if (rc != 0) { // error handilng
+      return rc;
+    }
     kvs_lru->keys[kvs_lru->size - 1] = strdup(key); // last position in array now free
     kvs_lru->values[kvs_lru->size - 1] = strdup(value);
     return 0;
-  } // proceed below if key not found in cache AND cache is not full, so just add the new key value pair ------
+  } // proceed below if key not found in cache AND cache is not full, so just add the new key value pair
   
-  printf("cache not full and ket found in cache!!");
   kvs_lru->keys[kvs_lru->size] = strdup(key);
   kvs_lru->values[kvs_lru->size] = strdup(value); 
   ++kvs_lru->size;

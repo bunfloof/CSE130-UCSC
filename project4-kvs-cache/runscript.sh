@@ -5,21 +5,14 @@ EXPERIMENTAL_INTERLEAVE_MODE=true
 
 # Define run array with client configurations and commands
 run=(
-"./client data FIFO 2"
-"SET file1.txt hey"
-"SET file2.txt hello"
-"SET file3.txt hi"
-"GET file1.txt"
-"GET file2.txt"
-"GET file3.txt"
-"./client data CLOCK 2"
-"SET file1.txt hey"
-"SET file2.txt hello"
-"SET file3.txt hi"
-"GET file1.txt"
-"GET file2.txt"
-"GET file3.txt"
 "./client data LRU 2"
+"SET file134.txt hey"
+"SET file233.txt hello"
+"SET file333.txt hi"
+"GET file1.txt"
+"GET file2.txt"
+"GET file3.txt"
+"./client data LRU 3"
 "SET file1.txt hey"
 "SET file2.txt hello"
 "SET file3.txt hi"
@@ -29,6 +22,8 @@ run=(
 )
 
 # End of user configurations
+
+make
 
 server_url="http://cum.ucsc.gay/"
 
