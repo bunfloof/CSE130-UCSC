@@ -65,7 +65,7 @@ int kvs_lru_set(kvs_lru_t* kvs_lru, const char* key, const char* value) {
 
   return kvs_base_set(kvs_lru->kvs_base, key, value); // key was not found in cache, so set it in kvs_base
 }
-
+// set is only called when you are doing a replacement in the cache!
 
 int kvs_lru_get(kvs_lru_t* kvs_lru, const char* key, char* value) {
   for (int i = 0; i < kvs_lru->size; ++i) {
