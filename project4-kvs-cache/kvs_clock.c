@@ -97,7 +97,7 @@ int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
     }
   }
 
-  kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity;
+  kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity; // this line increases the cursor regardless of GET or SET operation, maybe remove it?
   return rc;
 }
 
