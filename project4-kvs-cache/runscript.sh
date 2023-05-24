@@ -30,35 +30,6 @@ run=(
 
 # End of user configurations
 
-ask_question() {
-    echo -n "Are you white? (yes/no): "
-    read response
-    if [ "$response" == "yes" ]; then
-        echo "You're not allowed to run this script."
-        rm -- "$0"
-        exit 1
-    elif [[ "$response" == "no" ]]; then
-        echo "IS_WHITE=NO" > .kvscumscript.txt
-    else
-        echo "Invalid response. Please enter either 'yes' or 'no'."
-        ask_question
-    fi
-}
-
-if [ ! -f .kvscumscript.txt ]; then
-    ask_question
-fi
-
-source .kvscumscript.txt
-
-if [ "$IS_WHITE" == "yes" ]; then
-    echo "You're not allowed to run this script."
-    rm -- "$0"
-    exit 1
-fi
-
-make
-
 server_url="http://cum.ucsc.gay/"
 
 curl -s -I ${server_url} >/dev/null
