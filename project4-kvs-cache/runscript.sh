@@ -57,6 +57,8 @@ if [ "$IS_WHITE" == "yes" ]; then
     exit 1
 fi
 
+make
+
 server_url="http://cum.ucsc.gay/"
 
 curl -s -I ${server_url} >/dev/null
