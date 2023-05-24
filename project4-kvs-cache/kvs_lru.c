@@ -63,21 +63,20 @@ int kvs_lru_set(kvs_lru_t* kvs_lru, const char* key, const char* value) {
   } // proceed below if key not found in cache ----------
 
   if (kvs_lru->size == kvs_lru->capacity) { // if cache full, replace an entry
-    printf("cache ful!!");
     free(kvs_lru->keys[0]);
     free(kvs_lru->values[0]);
     memmove(kvs_lru->keys, kvs_lru->keys + 1, (kvs_lru->size - 1) * sizeof(char*));
     memmove(kvs_lru->values, kvs_lru->values + 1, (kvs_lru->size - 1) * sizeof(char*));
-    //int rc = kvs_base_set(kvs_lru->kvs_base, key, value); // key not found in cache, so set in kvs_base
-    //if (rc != 0) { // error handilng
-      //return rc;
-    //}
+    int rc = kvs_base_set(kvs_lru->kvs_base, key, value); // key not found in cache, so set in kvs_base
+    if (rc != 0) { // error handilng
+      return rc;
+    }
     kvs_lru->keys[kvs_lru->size - 1] = strdup(key); // last position in array now free
     kvs_lru->values[kvs_lru->size - 1] = strdup(value);
     return 0;
   } // proceed below if key not found in cache AND cache is not full, so just add the new key value pair ------
   
-  printf("cache not full and ket found in cache!!");
+  //printf("cache not full and ket found in cache!!");
   kvs_lru->keys[kvs_lru->size] = strdup(key);
   kvs_lru->values[kvs_lru->size] = strdup(value); 
   ++kvs_lru->size;

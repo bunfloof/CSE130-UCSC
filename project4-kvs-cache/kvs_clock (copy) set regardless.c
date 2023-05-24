@@ -58,19 +58,16 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
     }
     free(kvs_clock->keys[kvs_clock->cursor]);
     free(kvs_clock->values[kvs_clock->cursor]);
-    kvs_clock->keys[kvs_clock->cursor] = strdup(key);
-    kvs_clock->values[kvs_clock->cursor] = strdup(value);
-    kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity;
-    return kvs_base_set(kvs_clock->kvs_base, key, value);
   } else {
-    kvs_clock->keys[kvs_clock->size] = strdup(key);
-    kvs_clock->values[kvs_clock->size] = strdup(value);
     kvs_clock->size++;
   }
-  
-  return 0;
-}
 
+  kvs_clock->keys[kvs_clock->cursor] = strdup(key);
+  kvs_clock->values[kvs_clock->cursor] = strdup(value);
+  kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity;
+
+  return kvs_base_set(kvs_clock->kvs_base, key, value);
+}
 
 int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
   for (int i = 0; i < kvs_clock->size; ++i) {
@@ -100,7 +97,7 @@ int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
     }
   }
 
-  //kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity; // this line increases the cursor regardless of GET or SET operation, should I remove it?
+  kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity; // this line increases the cursor regardless of GET or SET operation, should I remove it?
   return rc;
 }
 
