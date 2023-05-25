@@ -78,7 +78,6 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
 
   return 0; // do not call kvs_base_set when just adding a new pair to the cache
 }
-
 int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
   if (kvs_fifo->capacity == 0) { // case for capacity 0
     return kvs_base_get(kvs_fifo->kvs_base, key, value);
@@ -103,14 +102,12 @@ int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
     }
     kvs_fifo->keys[kvs_fifo->tail] = strdup(key);
     kvs_fifo->values[kvs_fifo->tail] = strdup(value);
-    kvs_fifo->dirty[kvs_fifo->tail] = false; // newly added line the entry is clean as it was just loaded from the base
     kvs_fifo->tail = (kvs_fifo->tail + 1) % kvs_fifo->capacity;
     kvs_fifo->size++;
   }
 
   return rc;
 }
-
 
 int kvs_fifo_flush(kvs_fifo_t* kvs_fifo) {
   int rc = 0;
