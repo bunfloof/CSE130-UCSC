@@ -1,7 +1,17 @@
+// clang-format off
+/*
+WARNING: it appears that original source template for kvs_lru.c doesn't
+doesn't have "#include <stdbool.h>" as compared to original source
+template kvs_fifo.c. Should we still use bool for our dirty field to
+maintain consistency?
+
+This implemention uses int for now, but I'll create another kvs_lru.c
+file with "#include <stdbool.h>" and bool* dirty to maintain 
+consistency accross all cache implementations.
+*/
 #define _GNU_SOURCE
 // #define _GNU_SOURCE needed to use POSIX-compliant strdup
 #include "kvs_lru.h"
-#include <stdbool.h> // newlt added to use bool data type
 
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +22,7 @@ struct kvs_lru {
   kvs_base_t* kvs_base;
   char** keys;
   char** values; // added a values field
-  bool* dirty; // changed int* to bool*
+  int* dirty; // newly added dirty int
   int capacity;
   int size;
   int replacement_count; // added a replacement_count field
@@ -25,7 +35,7 @@ kvs_lru_t* kvs_lru_new(kvs_base_t* kvs, int capacity) {
   kvs_lru->size = 0;
   kvs_lru->keys = calloc(capacity, sizeof(char*));
   kvs_lru->values = calloc(capacity, sizeof(char*)); // allocate memory for values
-  kvs_lru->dirty = calloc(capacity, sizeof(bool)); // changed int to bool
+  kvs_lru->dirty = calloc(capacity, sizeof(int)); // newly added dirty mem
   kvs_lru->replacement_count = 0; // initialize replacement_count to 0
   return kvs_lru;
 }
@@ -47,13 +57,13 @@ int kvs_lru_set(kvs_lru_t* kvs_lru, const char* key, const char* value) {
     if (strcmp(kvs_lru->keys[i], key) == 0) {
       free(kvs_lru->values[i]); 
       kvs_lru->values[i] = strdup(value);
-      kvs_lru->dirty[i] = true;
+      kvs_lru->dirty[i] = 1;
       char* temp_key = kvs_lru->keys[i];
       char* temp_value = kvs_lru->values[i];
-      bool temp_dirty = kvs_lru->dirty[i]; // changed int to bool
+      int temp_dirty = kvs_lru->dirty[i];
       memmove(kvs_lru->keys + i, kvs_lru->keys + i + 1, (kvs_lru->size - i - 1) * sizeof(char*));
       memmove(kvs_lru->values + i, kvs_lru->values + i + 1, (kvs_lru->size - i - 1) * sizeof(char*));
-      memmove(kvs_lru->dirty + i, kvs_lru->dirty + i + 1, (kvs_lru->size - i - 1) * sizeof(bool)); // changed int to bool
+      memmove(kvs_lru->dirty + i, kvs_lru->dirty + i + 1, (kvs_lru->size - i - 1) * sizeof(int));
 
       kvs_lru->keys[kvs_lru->size - 1] = temp_key;
       kvs_lru->values[kvs_lru->size - 1] = temp_value;
@@ -77,14 +87,14 @@ int kvs_lru_set(kvs_lru_t* kvs_lru, const char* key, const char* value) {
     
     memmove(kvs_lru->keys, kvs_lru->keys + 1, (kvs_lru->size - 1) * sizeof(char*));
     memmove(kvs_lru->values, kvs_lru->values + 1, (kvs_lru->size - 1) * sizeof(char*));
-    memmove(kvs_lru->dirty, kvs_lru->dirty + 1, (kvs_lru->size - 1) * sizeof(bool)); // changed int to bool
+    memmove(kvs_lru->dirty, kvs_lru->dirty + 1, (kvs_lru->size - 1) * sizeof(int));
   } else {
     ++kvs_lru->size;
   }
 
   kvs_lru->keys[kvs_lru->size - 1] = strdup(key);
   kvs_lru->values[kvs_lru->size - 1] = strdup(value);
-  kvs_lru->dirty[kvs_lru->size - 1] = true;
+  kvs_lru->dirty[kvs_lru->size - 1] = 1;
 
   return 0; // no need to update kvs_baes since no replacement in cache occurred
 }
@@ -96,10 +106,10 @@ int kvs_lru_get(kvs_lru_t* kvs_lru, const char* key, char* value) {
       // move the key, value, and dirty flag to the end of array to denote as most recently used
       char* temp_key = kvs_lru->keys[i];
       char* temp_value = kvs_lru->values[i];
-      bool temp_dirty = kvs_lru->dirty[i]; // changed int to bool
+      int temp_dirty = kvs_lru->dirty[i];
       memmove(kvs_lru->keys + i, kvs_lru->keys + i + 1, (kvs_lru->size - i - 1) * sizeof(char*));
       memmove(kvs_lru->values + i, kvs_lru->values + i + 1, (kvs_lru->size - i - 1) * sizeof(char*));
-      memmove(kvs_lru->dirty + i, kvs_lru->dirty + i + 1, (kvs_lru->size - i - 1) * sizeof(bool)); // changed int to bool
+      memmove(kvs_lru->dirty + i, kvs_lru->dirty + i + 1, (kvs_lru->size - i - 1) * sizeof(int));
 
       kvs_lru->keys[kvs_lru->size - 1] = temp_key;
       kvs_lru->values[kvs_lru->size - 1] = temp_value;
@@ -122,19 +132,18 @@ int kvs_lru_get(kvs_lru_t* kvs_lru, const char* key, char* value) {
       free(kvs_lru->values[0]);
       memmove(kvs_lru->keys, kvs_lru->keys + 1, (kvs_lru->size - 1) * sizeof(char*));
       memmove(kvs_lru->values, kvs_lru->values + 1, (kvs_lru->size - 1) * sizeof(char*));
-      memmove(kvs_lru->dirty, kvs_lru->dirty + 1, (kvs_lru->size - 1) * sizeof(bool)); // changed int to bool
+      memmove(kvs_lru->dirty, kvs_lru->dirty + 1, (kvs_lru->size - 1) * sizeof(int));
     } else {
       ++kvs_lru->size;
     }
 
     kvs_lru->keys[kvs_lru->size - 1] = strdup(key);
     kvs_lru->values[kvs_lru->size - 1] = strdup(value);
-    kvs_lru->dirty[kvs_lru->size - 1] = false; // this value just read from the base store, it's not dirty
+    kvs_lru->dirty[kvs_lru->size - 1] = 0; // this value just read from the base store, it's not dirty
   }
 
   return rc;
 }
-
 
 int kvs_lru_flush(kvs_lru_t* kvs_lru) {
   for (int i = 0; i < kvs_lru->size; ++i) {

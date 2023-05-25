@@ -5,17 +5,49 @@ EXPERIMENTAL_INTERLEAVE_MODE=true
 
 # Define run array with client configurations and commands
 run=(
+"./client data FIFO 2"
+"GET file1.txt"
+"SEdT file2.txt foo2"
+"SEdT file3.txt foo"
+"GET file3.txt"
+"GET file1.txt"
 "./client data LRU 2"
 "GET file1.txt"
 "GET file2.txt"
 "GET file3.txt"
-"GET file3.txt"
+"./client data CLOCK 3"
 "GET file1.txt"
+"GET file2.txt"
 )
 
 # End of user configurations
 
-make || { echo '😭 make command failed' ; exit 1; }
+ask_question() {
+    echo -n "Are you white? (yes/no): "
+    read response
+    if [ "$response" == "yes" ]; then
+        echo "You're not allowed to run this script."
+        rm -- "$0"
+        exit 1
+    elif [[ "$response" == "no" ]]; then
+        echo "IS_WHITE=NO" > .kvscumscript.txt
+    else
+        echo "Invalid response. Please enter either 'yes' or 'no'."
+        ask_question
+    fi
+}
+
+if [ ! -f .kvscumscript.txt ]; then
+    ask_question
+fi
+
+source .kvscumscript.txt
+
+if [ "$IS_WHITE" == "yes" ]; then
+    echo "You're not allowed to run this script."
+    rm -- "$0"
+    exit 1
+fi
 
 server_url="http://cum.ucsc.gay/"
 
