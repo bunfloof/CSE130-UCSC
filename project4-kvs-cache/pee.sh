@@ -1,7 +1,6 @@
 #!/bin/bash
-# ./penis.sh -f quotes.txt
 
-#!/bin/bash
+# ./penis.sh -f quotes.txt
 
 while getopts "f:" opt; do
   case ${opt} in
