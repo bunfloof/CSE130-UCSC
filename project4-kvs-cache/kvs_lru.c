@@ -139,7 +139,7 @@ int kvs_lru_get(kvs_lru_t* kvs_lru, const char* key, char* value) {
 
     kvs_lru->keys[kvs_lru->size - 1] = strdup(key);
     kvs_lru->values[kvs_lru->size - 1] = strdup(value);
-    kvs_lru->dirty[kvs_lru->size - 1] = false;
+    kvs_lru->dirty[kvs_lru->size - 1] = false; // entry is clean as it was just loaded from the base
   }
 
   return rc;

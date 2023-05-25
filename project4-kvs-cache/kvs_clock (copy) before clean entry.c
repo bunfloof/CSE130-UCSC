@@ -98,28 +98,14 @@ int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
         kvs_clock->ref_bits[kvs_clock->cursor] = 0;
         kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity;
       }
-
-      if (kvs_clock->dirty[kvs_clock->cursor]) { // check dirty bit before eviction
-        kvs_base_set(kvs_clock->kvs_base, kvs_clock->keys[kvs_clock->cursor], kvs_clock->values[kvs_clock->cursor]);
-        kvs_clock->dirty[kvs_clock->cursor] = false; // reset dirty flag
-      }
-
       free(kvs_clock->keys[kvs_clock->cursor]);
       free(kvs_clock->values[kvs_clock->cursor]);
       kvs_clock->keys[kvs_clock->cursor] = strdup(key);
       kvs_clock->values[kvs_clock->cursor] = strdup(value);
-
-      kvs_clock->dirty[kvs_clock->cursor] = false; // new entry is not dirty
-      kvs_clock->ref_bits[kvs_clock->cursor] = 1; // set the reference bit to 1
-      
       kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity;
     } else {
       kvs_clock->keys[kvs_clock->size] = strdup(key);
       kvs_clock->values[kvs_clock->size] = strdup(value);
-
-      kvs_clock->dirty[kvs_clock->size] = false; // NEw entry is not dirty
-      kvs_clock->ref_bits[kvs_clock->size] = 1; // set the reference bit to 1
-
       kvs_clock->size++;
     }
   }
