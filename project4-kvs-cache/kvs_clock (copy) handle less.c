@@ -94,11 +94,10 @@ int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
 
   int rc = kvs_base_get(kvs_clock->kvs_base, key, value);
   if (rc == 0 && value[0] != '\0') {
-    // add key-value pair to the cache only if value is found on the disk
     if (kvs_clock->size == kvs_clock->capacity) {
       while (kvs_clock->ref_bits[kvs_clock->cursor]) {
         kvs_clock->ref_bits[kvs_clock->cursor] = 0;
-        kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity;
+        kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity; // okay to keep
       }
 
       if (kvs_clock->dirty[kvs_clock->cursor]) { // check dirty bit before eviction
@@ -114,6 +113,7 @@ int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
       kvs_clock->dirty[kvs_clock->cursor] = false; // new entry is not dirty
       kvs_clock->ref_bits[kvs_clock->cursor] = 1; // set the reference bit to 1
       
+      //kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity; // If this line is uncommented, then cursor advances it. when a new entry is added to replace an old entry (iegh. an entry with a 0 reference bit), the cursor should not advance. It should stay in place pointing at the newly added entry
     } else {
       kvs_clock->keys[kvs_clock->size] = strdup(key);
       kvs_clock->values[kvs_clock->size] = strdup(value);
@@ -123,14 +123,11 @@ int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
 
       kvs_clock->size++;
     }
-  } else {
-    // key not found on disk, return failure code (not found)
-    return -1; 
   }
 
+  //kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity; // this line increases the cursor regardless of GET or SET operation, should I remove it? 
   return rc;
 }
-
 
 int kvs_clock_flush(kvs_clock_t* kvs_clock) {
   int result = 0;
