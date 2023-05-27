@@ -1,0 +1,86 @@
+icookie — Today at 3:14 PM
+./client data CLOCK 5
+GET 7
+GET 0
+SET 4 New 4
+SET 7 New 7
+GET 8
+GET 3
+SET 2 New 2
+GET 8
+GET 9
+SET 7 New 7
+
+GET 7        GET disk +1    Clock at 1/5
+GET 0        GET disk +1    Clock at 2/5
+SET 4 New 4                 Clock at 3/5
+SET 7 New 7                  
+GET 8        GET disk +1    Clock at 4/5
+GET 3        GET disk +1    Clock at 5/5
+SET 2 New 2  Evict 3        Clock at 5/5
+GET 8                    
+GET 9        Evict 7        Clock at 1/5    SET disk +1 GET disk +1
+SET 7 New 7  Evict 0        Clock at 2/5    
+AT FLUSH:
+Persist 4, 2, 7                             SET disk +3
+
+Final SET COUNT (DISK): 4
+
+
+# CORRECT OUTPUT:
+GET COUNT (CACHE): 6
+GET COUNT (DISK): 5
+GET CACHE HIT RATE: 16.67%
+SET COUNT (CACHE): 4
+SET COUNT (DISK): 3 OR 4
+SET CACHE HIT RATE: 25.00%
+
+
+
+
+
+
+
+```
+GET file7.txt        GET disk +1    Clock at 1/5
+GET file0.txt        GET disk +1    Clock at 2/5
+SET file4.txt New4                 Clock at 3/5
+SET file7.txt New7                  
+GET file8.txt        GET disk +1    Clock at 4/5
+GET file3.txt        GET disk +1    Clock at 5/5
+SET file2.txt New2   Evict 3        Clock at 5/5
+GET file8.txt                    
+GET file9.txt        Evict 7        Clock at 1/5    SET disk +1 GET disk +1
+SET file7.txt New7   Evict 0        Clock at 2/5    
+AT FLUSH:
+Persist 4, 2, 7                             SET disk +3
+```
+
+
+
+
+
+
+
+
+
+
+
+
+./client data CLOCK 4
+GET 7
+GET 4
+GET 6
+GET 7
+GET 8
+GET 3
+SET 1 New 1
+GET 6
+
+# CORRECT OUTPUT
+GET COUNT (CACHE): 7
+GET COUNT (DISK): 5
+GET CACHE HIT RATE: 28.57%
+SET COUNT (CACHE): 1
+SET COUNT (DISK): 1
+SET CACHE HIT RATE: 0.00%
