@@ -57,7 +57,7 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
       kvs_fifo->dirty[index] = true; // set the dirty bit cuz we're updating the value
       return 0; // return success without updating the disk store
     }
-  } // proceed below if the key was not in the cache ------
+  } // proceed below if the key was not in the cache
   if (kvs_fifo->size == kvs_fifo->capacity) { // the cache is full, evict the head
     if (kvs_fifo->dirty[kvs_fifo->head]) { // If the entry being evicted is dirty, persist it to disk.
       kvs_base_set(kvs_fifo->kvs_base, kvs_fifo->keys[kvs_fifo->head], kvs_fifo->values[kvs_fifo->head]);
@@ -69,7 +69,7 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) {
     // no longer call kvs_base_set here for every eviction, only when the entry is dirty
   }
 
-  // when we add a new entry to the cache, it's initizlly dirty ciz it hasn't been persisted yet
+  // when we add a new entry to the cache, it's initially dirty because it hasn't been persisted yet
   kvs_fifo->keys[kvs_fifo->tail] = strdup(key);
   kvs_fifo->values[kvs_fifo->tail] = strdup(value);
   kvs_fifo->dirty[kvs_fifo->tail] = true;
@@ -125,28 +125,3 @@ int kvs_fifo_flush(kvs_fifo_t* kvs_fifo) {
   }
   return 0;
 }
-
-
-/*
-
-WARNIGN: FIFO policy is UNFIT for this scenario
-ccache fills up too quickly due to FIFO eviction policy, 
-and the 'GET' requests end up missing the cache because 
-the relevant files have already been evicted.
-
-In scen 2, we prform operations:
-./client data FIFO 2
-1. SET file1.txt hey
-2. SET file2.txt hello
-3. SET file3.txt hi
-4. GET file1.txt
-5. GET file2.txt
-6. GET file3.txt
-
-Due to the FIFO eviction policy and the cache's limited capacity (2), 
-file1.txt gets evicted when file3.txt is set (third operation), 
-which results in a cache miss when we later try to GET file1.txt 
-(fourth operation). Liekwise, file2.txt gets evicted when 
-we try to GET file3.txt, causing a cache miss for file2.txt.
-
-*/

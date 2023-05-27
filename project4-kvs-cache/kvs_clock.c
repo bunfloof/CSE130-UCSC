@@ -56,7 +56,7 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
       kvs_clock->dirty[i] = true; // mark as dirty
       return 0;
     }
-  } // proceeding below if key not in cache ---------------------
+  } // proceeding below if key not in cache
 
   if (kvs_clock->size < kvs_clock->capacity) { // if cache not full, add key-value pair to cache
     //printf("[i] Cache is not full. Adding key '%s' at index %d\n", key, kvs_clock->size);
@@ -95,7 +95,7 @@ int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
       kvs_clock->ref_bits[i] = 1; // set ref bit to 1
       return 0;
     }
-  } // proceeding below is if key is not in cache -------------------------
+  } // proceeding below is if key is not in cache
 
   //printf("[i] Key '%s' not found in cache. Fetching from base KVS.\n", key);
   int rc = kvs_base_get(kvs_clock->kvs_base, key, value);
