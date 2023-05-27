@@ -80,19 +80,22 @@ run=(
 "SET fil1.txt hi"
 "GET fil1.txt"
 "GET fil2.txt hey"
+"valgrind --leak-check=full ./client data FIFO 4"
+"GET 8"
+"GET 8"
+"GET 4"
+"GET 6"
+"SET 7 New 7"
+"SET 6 New 6"
+"SET 2 New 2"
+"SET 8 New 8"
+"SET 4 New 4"
+"GET 5"
 )
 
 # End of user configurations
 
 make || { echo '😭 make command failed' ; exit 1; }
-
-
-
-
-
-
-
-
 
 server_url="http://cum.ucsc.gay/"
 

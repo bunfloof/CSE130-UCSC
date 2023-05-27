@@ -7,7 +7,6 @@ Github: Yes
 
 Google Drive: Yes
 
-
 ## Notes
 
 Moving everything from Replit to Github Codespaces cuz Replit run out of disk space
