@@ -1,6 +1,6 @@
-#include "kvs_lru.h"
-
 #include <stdlib.h>
+
+#include "kvs_lru.h"
 
 struct kvs_lru {
   // TODO: add necessary variables

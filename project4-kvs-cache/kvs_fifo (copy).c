@@ -1,8 +1,8 @@
-#include "kvs_fifo.h"
-
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
+
+#include "kvs_fifo.h"
 
 struct kvs_fifo {
   // TODO: add necessary variables

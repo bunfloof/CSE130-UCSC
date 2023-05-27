@@ -1,6 +1,6 @@
-#include "kvs_clock.h"
-
 #include <stdlib.h>
+
+#include "kvs_clock.h"
 
 struct kvs_clock {
   // TODO: add necessary variables
