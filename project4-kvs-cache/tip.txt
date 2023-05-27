@@ -1,3 +1,4 @@
+# icockie notes ❤️
 icookie — Today at 3:14 PM
 ./client data CLOCK 5
 GET 7
@@ -84,3 +85,60 @@ GET CACHE HIT RATE: 28.57%
 SET COUNT (CACHE): 1
 SET COUNT (DISK): 1
 SET CACHE HIT RATE: 0.00%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIFO
+
+Cache Size: 5 
+SET 6 New 6 
+SET 1 New 1 
+GET 3  
+GET 5  
+GET 1  
+GET 4  
+GET 2  
+GET 7  
+GET 3  
+SET 6 New 6 
+
+# CORRECT OUTPUT
+GET COUNT (CACHE): 7
+GET COUNT (DISK): 5
+GET CACHE HIT RATE: 28.57%
+SET COUNT (CACHE): 3
+SET COUNT (DISK): 3
+SET CACHE HIT RATE: 0.00%
+
+Cache Size: 4 
+SET 3 New 3 
+GET 6  
+SET 3 New 3 
+SET 9 New 9 
+SET 8 New 8 
+GET 9  
+GET 6  
+GET 6  
+
+# CORRECT OUTPUT
+GET COUNT (CACHE): 4
+GET COUNT (DISK): 1
+GET CACHE HIT RATE: 75.00%
+SET COUNT (CACHE): 4
+SET COUNT (DISK): 3
+SET CACHE HIT RATE: 25.00%

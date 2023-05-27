@@ -49,7 +49,7 @@ void kvs_clock_free(kvs_clock_t** ptr) {
 int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
   for (int i = 0; i < kvs_clock->size; ++i) {
     if (strcmp(kvs_clock->keys[i], key) == 0) { // if key in cache, update value
-      //printf("[i] Setting key '%s' which already exists in the cache at index %d\n", key, i);
+      printf("🔵 Setting key '%s' which already exists in the cache at index %d\n", key, i);
       free(kvs_clock->values[i]); // free old value
       kvs_clock->values[i] = strdup(value); // set new value
       kvs_clock->ref_bits[i] = 1; // set ref bit to 1
@@ -59,14 +59,14 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
   } // proceeding below if key not in cache ---------------------
 
   if (kvs_clock->size < kvs_clock->capacity) { // if cache not full, add key-value pair to cache
-    //printf("[i] Cache is not full. Adding key '%s' at index %d\n", key, kvs_clock->size);
+    printf("🔵 Cache is not full. Adding key '%s' at index %d\n", key, kvs_clock->size);
     kvs_clock->keys[kvs_clock->size] = strdup(key); // add key
     kvs_clock->values[kvs_clock->size] = strdup(value); // add value
     kvs_clock->dirty[kvs_clock->size] = true; // mark as dirty
     kvs_clock->size++; // increase cache size
   } else { // if cache is full, replace key-value pair using cock algorithm
     while (kvs_clock->ref_bits[kvs_clock->cursor]) { // find key-value pair with ref bit of 0
-      //printf("[i] Cache is full. Replacing key '%s' at index %d\n", key, kvs_clock->cursor);
+      printf("🔵 Cache is full. Replacing key '%s' at index %d\n", key, kvs_clock->cursor);
       kvs_clock->ref_bits[kvs_clock->cursor] = 0; // reset ref bit
       kvs_clock->cursor = (kvs_clock->cursor + 1) % kvs_clock->capacity; // move cursor
     }
@@ -90,14 +90,14 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
 int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
   for (int i = 0; i < kvs_clock->size; ++i) {
     if (strcmp(kvs_clock->keys[i], key) == 0) { // if key is in cache
-      //printf("[i] Key '%s' found in cache at index %d\n", key, i);
+      printf("🔵 Key '%s' found in cache at index %d\n", key, i);
       strcpy(value, kvs_clock->values[i]); // copy value to buffer
       kvs_clock->ref_bits[i] = 1; // set ref bit to 1
       return 0;
     }
   } // proceeding below is if key is not in cache -------------------------
 
-  //printf("[i] Key '%s' not found in cache. Fetching from base KVS.\n", key);
+  printf("🔵 Key '%s' not found in cache. Fetching from base KVS.\n", key);
   int rc = kvs_base_get(kvs_clock->kvs_base, key, value);
   if (rc == 0) { // if key not in base key-value store, add key-value pair to cache; should we count empty files???
     if (kvs_clock->size == kvs_clock->capacity) { // if cache full, replace a key-value pair using cock algorithm

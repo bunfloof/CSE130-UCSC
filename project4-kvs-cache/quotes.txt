@@ -1,10 +1,7 @@
-GET file7.txt
-GET file0.txt
-SET file4.txt hi
-SET file7.txt hello
-GET file8.txt
-GET file3.txt
-SET file2.txt hey
-GET file8.txt
-GET file9.txt
-SET file7.txt hello
+./client data CLOCK 3
+GET fil1.txt
+GET fil2.txt
+GET fil3.txt
+SET fil1.txt hi
+GET fil1.txt
+GET file2.txt hey
