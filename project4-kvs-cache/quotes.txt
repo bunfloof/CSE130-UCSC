@@ -1,6 +1,10 @@
-SET 1 Black Lives Matter
-GET 3 Pee2 3  
-GET 3  44 4   55
-SET i 
-D
-d 
+GET file7.txt
+GET file0.txt
+SET file4.txt hi
+SET file7.txt hello
+GET file8.txt
+GET file3.txt
+SET file2.txt hey
+GET file8.txt
+GET file9.txt
+SET file7.txt hello
