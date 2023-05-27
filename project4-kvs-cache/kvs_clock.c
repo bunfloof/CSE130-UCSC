@@ -99,7 +99,7 @@ int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
 
   printf("🔵 Key '%s' not found in cache. Fetching from base KVS.\n", key);
   int rc = kvs_base_get(kvs_clock->kvs_base, key, value);
-  if (rc == 0 && value[0] != '\0') { // if key not in base key-value store, add key-value pair to cache; should we count empty files???
+  if (rc == 0) { // if key not in base key-value store, add key-value pair to cache; should we count empty files???
     if (kvs_clock->size == kvs_clock->capacity) { // if cache full, replace a key-value pair using cock algorithm
       while (kvs_clock->ref_bits[kvs_clock->cursor]) { // find key-value pair with ref bit of 0
         kvs_clock->ref_bits[kvs_clock->cursor] = 0; // reset ref bit
@@ -119,7 +119,7 @@ int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
       kvs_clock->dirty[kvs_clock->cursor] = false; // set to false because value is identical to the one on disk
       kvs_clock->ref_bits[kvs_clock->cursor] = 1;  // should we be set to 1 whenever a GET operation results in a cache miss???
 
-    } else {
+    } else { // if cache not full
       kvs_clock->keys[kvs_clock->size] = strdup(key); // set new key
       kvs_clock->values[kvs_clock->size] = strdup(value); // set new value
 

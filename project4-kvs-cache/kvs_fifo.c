@@ -93,7 +93,7 @@ int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) {
   
   int rc = kvs_base_get(kvs_fifo->kvs_base, key, value);
 
-  if (rc == 0 && value[0] != '\0') {
+  if (rc == 0) {
     if (kvs_fifo->size == kvs_fifo->capacity) { // store in cache without calling kvs_fifo_set
       free(kvs_fifo->keys[kvs_fifo->head]);
       free(kvs_fifo->values[kvs_fifo->head]);
