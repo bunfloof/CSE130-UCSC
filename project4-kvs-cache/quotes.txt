@@ -1,7 +1,11 @@
-./client data CLOCK 3
-GET fil1.txt
-GET fil2.txt
-GET fil3.txt
-SET fil1.txt hi
-GET fil1.txt
-GET file2.txt hey
+./client data CLOCK 5
+GET 7
+GET 0
+SET 4 New 4
+SET 7 New 7
+GET 8
+GET 3
+SET 2 New 2
+GET 8
+GET 9
+SET 7 New 7

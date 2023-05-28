@@ -63,7 +63,7 @@ void kvs_fifo_free(kvs_fifo_t** ptr) { // memory unsafe function to free memory 
   free((*ptr)->keys); // free mem allocated for keys arr
   free((*ptr)->values); // free mem allocated for vals arr
   free((*ptr)->dirty); // free mem allocated for dirty arr
-  free(*ptr); // free memory allocated for kvs_fifo
+  free(*ptr); // free memory allocated for kvsAC_fifo
   *ptr = NULL; // drop pointer
 }
 

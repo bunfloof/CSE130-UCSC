@@ -1,15 +1,15 @@
-==622== Memcheck, a memory error detector
-==622== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==622== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==622== Command: ./client cache_test_dir/testing_files LRU 4
-==622== Parent PID: 620
-==622== 
-==622== 
-==622== HEAP SUMMARY:
-==622==     in use at exit: 0 bytes in 0 blocks
-==622==   total heap usage: 37 allocs, 37 frees, 36,760 bytes allocated
-==622== 
-==622== All heap blocks were freed -- no leaks are possible
-==622== 
-==622== For lists of detected and suppressed errors, rerun with: -s
-==622== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==31459== Memcheck, a memory error detector
+==31459== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==31459== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==31459== Command: ./client cache_test_dir/testing_files FIFO 2
+==31459== Parent PID: 31457
+==31459== 
+==31459== 
+==31459== HEAP SUMMARY:
+==31459==     in use at exit: 0 bytes in 0 blocks
+==31459==   total heap usage: 19 allocs, 19 frees, 17,960 bytes allocated
+==31459== 
+==31459== All heap blocks were freed -- no leaks are possible
+==31459== 
+==31459== For lists of detected and suppressed errors, rerun with: -s
+==31459== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
