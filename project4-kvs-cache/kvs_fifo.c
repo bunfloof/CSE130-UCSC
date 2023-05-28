@@ -105,7 +105,6 @@ int kvs_fifo_set(kvs_fifo_t* kvs_fifo, const char* key, const char* value) { // 
   kvs_fifo->tail = (kvs_fifo->tail + 1) % kvs_fifo->capacity; // update tail index to point to next entry in circular cache arr
   kvs_fifo->size++; // increase size of cache because we added new entry
 
-
   return 0; // return success without calling kvs_base_set when updating to disk
 }
 
@@ -120,11 +119,16 @@ int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) { // fn to 
       return 0; // return success
     }
   } // proceed below if the key was not found in the cache ------
-  
+
   int rc = kvs_base_get(kvs_fifo->kvs_base, key, value); // attempt to retrieve from disk
 
   if (rc == 0) { // if return code indicate successful retrieval from disk, add to cache
     if (kvs_fifo->size == kvs_fifo->capacity) { // if key found in disk, add to cache
+      if (kvs_fifo->dirty[kvs_fifo->head]) { // if the entry being evicted is dirty, persist it to disk
+        int rc = kvs_base_set(kvs_fifo->kvs_base, kvs_fifo->keys[kvs_fifo->head], kvs_fifo->values[kvs_fifo->head]);
+        if (rc != 0) return rc;
+      }
+      
       free(kvs_fifo->keys[kvs_fifo->head]); // free key from evicted entry
       free(kvs_fifo->values[kvs_fifo->head]); // free val from evicted entry
       kvs_fifo->head = (kvs_fifo->head + 1) % kvs_fifo->capacity; // update head index to point to next entry in circular cache arr
@@ -133,6 +137,7 @@ int kvs_fifo_get(kvs_fifo_t* kvs_fifo, const char* key, char* value) { // fn to 
 
     kvs_fifo->keys[kvs_fifo->tail] = strdup(key); // add new key-value pair that was fetched from disk to the tail of cache arr
     kvs_fifo->values[kvs_fifo->tail] = strdup(value);
+    kvs_fifo->dirty[kvs_fifo->tail] = false; // newly fetched item is not dirty as it has just been read from disk
     kvs_fifo->tail = (kvs_fifo->tail + 1) % kvs_fifo->capacity; // update tail index to point to  next entry in circular cache arr
     kvs_fifo->size++; // increase size of cache because we added an entry
   }
