@@ -71,6 +71,8 @@ void kvs_lru_free(
 
 int kvs_lru_set(kvs_lru_t* kvs_lru, const char* key,
                 const char* value) {  // fn to add key-value pair to LRU cache
+  if (kvs_lru->capacity == 0)
+    return kvs_base_set(kvs_lru->kvs_base, key, value);
   for (int i = 0; i < kvs_lru->size;
        ++i) {  // iterate thorugh each value in cache
     if (strcmp(kvs_lru->keys[i], key) ==
@@ -143,6 +145,8 @@ int kvs_lru_set(kvs_lru_t* kvs_lru, const char* key,
 int kvs_lru_get(
     kvs_lru_t* kvs_lru, const char* key,
     char* value) {  // fn to get value associated with a key from LRU cache
+  if (kvs_lru->capacity == 0)
+    return kvs_base_get(kvs_lru->kvs_base, key, value);
   for (int i = 0; i < kvs_lru->size;
        ++i) {  // iterate thorugh all elements in cache
     if (strcmp(kvs_lru->keys[i], key) == 0) {  // if key is present in cache

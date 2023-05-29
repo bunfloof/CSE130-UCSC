@@ -69,6 +69,7 @@ void kvs_clock_free(kvs_clock_t** ptr) { // memory unsafe function to free memor
 // Manipulation and access procedures -----------------------------------------
 
 int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
+  if (kvs_clock->capacity == 0) return kvs_base_set(kvs_clock->kvs_base, key, value);
   for (int i = 0; i < kvs_clock->size; ++i) { // iterate through each entry in cache
     if (strcmp(kvs_clock->keys[i], key) == 0) { // if key in cache, update value
       //printf("[i] Setting key '%s' which already exists in the cache at index %d\n", key, i);
@@ -84,6 +85,7 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
     //printf("[i] Cache is not full. Adding key '%s' at index %d\n", key, kvs_clock->size);
     kvs_clock->keys[kvs_clock->size] = strdup(key); // add key
     kvs_clock->values[kvs_clock->size] = strdup(value); // add value
+    kvs_clock->ref_bits[kvs_clock->size] = 1; // set the reference bit to 1
     kvs_clock->dirty[kvs_clock->size] = true; // mark as dirty
     kvs_clock->size++; // increase cache size
   } else { // if cache is full, replace key-value pair using cock algorithm
@@ -95,7 +97,7 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
 
     if (kvs_clock->dirty[kvs_clock->cursor]) { // if key-value pair is dirty, write back to disk
       kvs_base_set(kvs_clock->kvs_base, kvs_clock->keys[kvs_clock->cursor], kvs_clock->values[kvs_clock->cursor]);
-      kvs_clock->dirty[kvs_clock->cursor] = false; // reset dirty flag
+      kvs_clock->dirty[kvs_clock->cursor] = false; // reset dirty flagj
     }
 
     free(kvs_clock->keys[kvs_clock->cursor]); // free old key
@@ -110,6 +112,7 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
 }
 
 int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
+  if (kvs_clock->capacity == 0) return kvs_base_get(kvs_clock->kvs_base, key, value);
   for (int i = 0; i < kvs_clock->size; ++i) {
     if (strcmp(kvs_clock->keys[i], key) == 0) { // if key is found in cache
       //printf("[i] Key '%s' found in cache at index %d\n", key, i);

@@ -2,7 +2,7 @@
  * Joey Ma
  * 2023 Spring CSE130 project4
  * kvs_clock.c
- * key-value CLOCK cache policy
+ * key-value clock cache policy
  *
  * Notes:
  * - When file is empty or '\0', GET still adds to cache.
@@ -76,6 +76,8 @@ void kvs_clock_free(kvs_clock_t** ptr) {  // memory unsafe function to free
 // Manipulation and access procedures -----------------------------------------
 
 int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
+  if (kvs_clock->capacity == 0)
+    return kvs_base_set(kvs_clock->kvs_base, key, value);
   for (int i = 0; i < kvs_clock->size;
        ++i) {  // iterate through each entry in cache
     if (strcmp(kvs_clock->keys[i], key) ==
@@ -96,8 +98,9 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
     // kvs_clock->size);
     kvs_clock->keys[kvs_clock->size] = strdup(key);      // add key
     kvs_clock->values[kvs_clock->size] = strdup(value);  // add value
-    kvs_clock->dirty[kvs_clock->size] = true;            // mark as dirty
-    kvs_clock->size++;                                   // increase cache size
+    kvs_clock->ref_bits[kvs_clock->size] = 1;  // set the reference bit to 1
+    kvs_clock->dirty[kvs_clock->size] = true;  // mark as dirty
+    kvs_clock->size++;                         // increase cache size
   } else {  // if cache is full, replace key-value pair using cock algorithm
     while (kvs_clock->ref_bits[kvs_clock->cursor]) {  // find key-value pair
                                                       // with ref bit of 0
@@ -112,7 +115,7 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
                                                 // write back to disk
       kvs_base_set(kvs_clock->kvs_base, kvs_clock->keys[kvs_clock->cursor],
                    kvs_clock->values[kvs_clock->cursor]);
-      kvs_clock->dirty[kvs_clock->cursor] = false;  // reset dirty flag
+      kvs_clock->dirty[kvs_clock->cursor] = false;  // reset dirty flagj
     }
 
     free(kvs_clock->keys[kvs_clock->cursor]);              // free old key
@@ -128,6 +131,8 @@ int kvs_clock_set(kvs_clock_t* kvs_clock, const char* key, const char* value) {
 }
 
 int kvs_clock_get(kvs_clock_t* kvs_clock, const char* key, char* value) {
+  if (kvs_clock->capacity == 0)
+    return kvs_base_get(kvs_clock->kvs_base, key, value);
   for (int i = 0; i < kvs_clock->size; ++i) {
     if (strcmp(kvs_clock->keys[i], key) == 0) {  // if key is found in cache
       // printf("[i] Key '%s' found in cache at index %d\n", key, i);

@@ -1,0 +1,6 @@
+==368== Memcheck, a memory error detector
+==368== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==368== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==368== Command: ./client rcache_test_dir/testing_files CLOCK 1
+==368== Parent PID: 366
+==368== 
