@@ -21,6 +21,8 @@ mayb ask NGX for his fakeVPS docker image idk
 #include <sys/stat.h>
 #include <wait.h>
 
+#include <libgen.h>
+
 #include "change_root.h"
 
 #define CONTAINER_ID_MAX 16
@@ -55,6 +57,8 @@ int container_exec(void* arg) {
     err(1, "mount / private");
   }
 
+  printf("Creating overlay filesystem...\n");
+
   // TODO: Create a overlay filesystem
   // `lowerdir`  should be the image directory: ${cwd}/images/${image}
   // `upperdir`  should be `/tmp/container/{id}/upper`
@@ -73,22 +77,89 @@ int container_exec(void* arg) {
   char merged[PATH_MAX];
   sprintf(merged, "/tmp/container/%s/merged", container->id);
 
-  mkdir(lowerdir, 0700);
-  mkdir(upperdir, 0700);
-  mkdir(workdir, 0700);
-  mkdir(merged, 0700);
+  char* dirs[] = {lowerdir, upperdir, workdir, merged};
+
+  for (int i = 0; i < 4; ++i) {
+    char* dir = dirs[i];
+    char* p = NULL;
+    char* tmp_str = strdup(dir);
+
+    for (p = tmp_str + 1; *p; p++) {
+      if (*p == '/') {
+        *p = '\0';
+        if (mkdir(tmp_str, S_IRWXU) != 0 && errno != EEXIST) {
+          perror("mkdir error");
+          return -1;
+        }
+        *p = '/';
+      }
+    }
+
+    if (mkdir(tmp_str, S_IRWXU) != 0 && errno != EEXIST) {
+      perror("mkdir error");
+      return -1;
+    }
+
+    free(tmp_str);
+  }
 
   char options[PATH_MAX];
   sprintf(options, "lowerdir=%s,upperdir=%s,workdir=%s", lowerdir, upperdir, workdir);
 
+  if (access(lowerdir, F_OK) == -1) {
+    if (mkdir(lowerdir, 0755) < 0) {
+      perror("Failed to create lowerdir");
+      return 1;
+    }
+  }
+
+  if (access(upperdir, F_OK) == -1) {
+    if (mkdir(upperdir, 0755) < 0) {
+      perror("Failed to create upperdir");
+      return 1;
+    }
+  }
+
+  if (access(workdir, F_OK) == -1) {
+    if (mkdir(workdir, 0755) < 0) {
+      perror("Failed to create workdir");
+      return 1;
+    }
+  }
+
+  if (access(merged, F_OK) == -1) {
+    if (mkdir(merged, 0755) < 0) {
+      perror("Failed to create merged");
+      return 1;
+    }
+  }
+
+  struct stat st = {0};
+  if (stat(lowerdir, &st) == -1) {
+      printf("lowerdir does not exist: %s\n", lowerdir);
+  }
+  if (stat(upperdir, &st) == -1) {
+      printf("upperdir does not exist: %s\n", upperdir);
+  }
+  if (stat(workdir, &st) == -1) {
+      printf("workdir does not exist: %s\n", workdir);
+  }
+  if (stat(merged, &st) == -1) {
+      printf("merged does not exist: %s\n", merged);
+  }
+
+  printf("Mounting overlay filesystem with options: %s\n", options);
+  
   if (mount("overlay", merged, "overlay", 0, options) < 0) {
-    err(1, "Failed to mount overlay filesystem");
+      err(1, "Failed to mount overlay filesystem");
   }
 
   // TODO: Call `change_root` with the `merged` directory
+  printf("Changing root...\n");
   change_root(merged);
 
   // TODO: use `execvp` to run the given command and return its return value
+  printf("Executing command...\n");
   if (execvp(container->cmd[0], container->cmd) < 0) {
     err(1, "Failed to execute command");
   }
