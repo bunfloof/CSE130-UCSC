@@ -1,3 +1,12 @@
+/*
+
+https://pterodactyl.io/community/config/eggs/creating_a_custom_image.html#creating-the-dockerfile
+
+mayb ask NGX for his fakeVPS docker image idk
+
+*/
+
+
 #define _GNU_SOURCE
 
 #include <err.h>
@@ -20,6 +29,9 @@
 typedef struct container {
   char id[CONTAINER_ID_MAX];
   // TODO: Add fields
+  char image[PATH_MAX];
+  char** cmd;
+  char cwd[PATH_MAX];
 } container_t;
 
 /**
@@ -52,10 +64,35 @@ int container_exec(void* arg) {
   // call `mount("overlay", merged, "overlay", MS_RELATIME,
   //    lowerdir={lowerdir},upperdir={upperdir},workdir={workdir})`
 
+  char lowerdir[PATH_MAX];
+  sprintf(lowerdir, "%s/images/%s", container->cwd, container->image); // use container->cwd instead of cwd
+  char upperdir[PATH_MAX];
+  sprintf(upperdir, "/tmp/container/%s/upper", container->id);
+  char workdir[PATH_MAX];
+  sprintf(workdir, "/tmp/container/%s/work", container->id);
+  char merged[PATH_MAX];
+  sprintf(merged, "/tmp/container/%s/merged", container->id);
+
+  mkdir(lowerdir, 0700);
+  mkdir(upperdir, 0700);
+  mkdir(workdir, 0700);
+  mkdir(merged, 0700);
+
+  char options[PATH_MAX];
+  sprintf(options, "lowerdir=%s,upperdir=%s,workdir=%s", lowerdir, upperdir, workdir);
+
+  if (mount("overlay", merged, "overlay", 0, options) < 0) {
+    err(1, "Failed to mount overlay filesystem");
+  }
+
   // TODO: Call `change_root` with the `merged` directory
-  // change_root(merged)
+  change_root(merged);
 
   // TODO: use `execvp` to run the given command and return its return value
+  if (execvp(container->cmd[0], container->cmd) < 0) {
+    err(1, "Failed to execute command");
+  }
+
   return 0;
 }
 
@@ -80,10 +117,12 @@ int main(int argc, char** argv) {
   char cwd[PATH_MAX];
   getcwd(cwd, PATH_MAX);
 
+  // TODO: store all necessary information to `container`
   container_t container;
   strncpy(container.id, argv[1], CONTAINER_ID_MAX);
-
-  // TODO: store all necessary information to `container`
+  strncpy(container.image, argv[2], PATH_MAX);
+  container.cmd = argv + 3;
+  getcwd(container.cwd, PATH_MAX); // store cwd in container
 
   /* Use `clone` to create a child process */
   char child_stack[CHILD_STACK_SIZE];  // statically allocate stack for child
