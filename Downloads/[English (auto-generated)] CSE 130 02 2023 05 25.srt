@@ -1,0 +1,6648 @@
+1
+00:00:03,000 --> 00:00:05,339
+uh so
+
+2
+00:00:05,339 --> 00:00:08,160
+so here's my plan uh
+
+3
+00:00:08,160 --> 00:00:10,620
+we have two weeks left
+
+4
+00:00:10,620 --> 00:00:12,960
+so beside this week we have another two
+
+5
+00:00:12,960 --> 00:00:16,079
+weeks left so my plan is that we
+
+6
+00:00:16,079 --> 00:00:19,560
+um I'm going to try to finish uh all
+
+7
+00:00:19,560 --> 00:00:23,760
+chapters next week and for the
+
+8
+00:00:23,760 --> 00:00:28,019
+um so your exams on beyond June I think
+
+9
+00:00:28,019 --> 00:00:31,220
+it's John 13s
+
+10
+00:00:32,238 --> 00:00:36,440
+your exams are being on
+
+11
+00:00:36,540 --> 00:00:39,960
+oh June 15th
+
+12
+00:00:39,960 --> 00:00:42,780
+your exam will be on June 15th or
+
+13
+00:00:42,780 --> 00:00:47,160
+Thursday Thursday 7 13 pm to 10 30 p.m
+
+14
+00:00:47,160 --> 00:00:49,379
+so that will be the final week we will
+
+15
+00:00:49,379 --> 00:00:51,600
+not have any QA session on that week
+
+16
+00:00:51,600 --> 00:00:52,980
+because that week you may have other
+
+17
+00:00:52,980 --> 00:00:55,800
+exams there's no class in that week but
+
+18
+00:00:55,800 --> 00:00:58,440
+I will give you a
+
+19
+00:00:58,440 --> 00:01:01,800
+um like rehearsal final final rehearsal
+
+20
+00:01:01,800 --> 00:01:05,180
+exam rehearsal on the
+
+21
+00:01:07,560 --> 00:01:11,760
+on a week 10 so week 10.
+
+22
+00:01:11,760 --> 00:01:15,240
+so my plan is that we we finished all
+
+23
+00:01:15,240 --> 00:01:18,240
+the contents like the
+
+24
+00:01:18,240 --> 00:01:21,360
+OS hard topics such as system
+
+25
+00:01:21,360 --> 00:01:24,720
+virtualization containers
+
+26
+00:01:24,720 --> 00:01:27,420
+distributed file systems on next week
+
+27
+00:01:27,420 --> 00:01:31,820
+and then so um
+
+28
+00:01:32,759 --> 00:01:35,460
+because I didn't see many students there
+
+29
+00:01:35,460 --> 00:01:38,759
+so the scenes my tips is there
+
+30
+00:01:38,759 --> 00:01:42,119
+um definitely come to the final exam
+
+31
+00:01:42,119 --> 00:01:45,780
+review class I'm going to put at least
+
+32
+00:01:45,780 --> 00:01:48,780
+two class for final exam review
+
+33
+00:01:48,780 --> 00:01:51,960
+okay so and it will be on the um on the
+
+34
+00:01:51,960 --> 00:01:55,140
+one week before your final so it will be
+
+35
+00:01:55,140 --> 00:01:57,860
+on the um
+
+36
+00:01:58,439 --> 00:02:02,159
+on the June 6 and June June 8th because
+
+37
+00:02:02,159 --> 00:02:06,799
+you all have the exam on June 15th okay
+
+38
+00:02:17,700 --> 00:02:21,120
+under exam will be accumulative so it
+
+39
+00:02:21,120 --> 00:02:23,099
+will cover everything we have learned so
+
+40
+00:02:23,099 --> 00:02:24,599
+far
+
+41
+00:02:24,599 --> 00:02:27,599
+but focus is the uh
+
+42
+00:02:27,599 --> 00:02:30,060
+the focus it will be the memory file
+
+43
+00:02:30,060 --> 00:02:33,720
+systems and the osr topics but we will
+
+44
+00:02:33,720 --> 00:02:35,000
+still cover a little bit about
+
+45
+00:02:35,000 --> 00:02:38,340
+processors dialogue
+
+46
+00:02:38,340 --> 00:02:42,140
+the OS structure
+
+47
+00:02:48,480 --> 00:02:50,879
+so another thing is that unfortunately
+
+48
+00:02:50,879 --> 00:02:54,180
+there's many students who are suspected
+
+49
+00:02:54,180 --> 00:02:57,480
+progressions in my class that is not
+
+50
+00:02:57,480 --> 00:03:02,099
+good we already been so fragile um
+
+51
+00:03:02,099 --> 00:03:04,680
+so what is probabilism so you cannot
+
+52
+00:03:04,680 --> 00:03:08,160
+copy the code from your classmate if I
+
+53
+00:03:08,160 --> 00:03:11,580
+found out that both of you guys up
+
+54
+00:03:11,580 --> 00:03:14,879
+will get the grade zero another case is
+
+55
+00:03:14,879 --> 00:03:18,840
+that you copy the code from the internet
+
+56
+00:03:18,840 --> 00:03:21,720
+in that case it will be also a
+
+57
+00:03:21,720 --> 00:03:23,040
+priorities
+
+58
+00:03:23,040 --> 00:03:26,700
+if you if you if the TA found out dance
+
+59
+00:03:26,700 --> 00:03:31,620
+and I cannot do anything about that
+
+60
+00:03:31,620 --> 00:03:33,900
+that is very unfortunate I think I
+
+61
+00:03:33,900 --> 00:03:36,420
+believe in our last year in the same OS
+
+62
+00:03:36,420 --> 00:03:39,599
+course around the 40s 40 percentage
+
+63
+00:03:39,599 --> 00:03:41,159
+students
+
+64
+00:03:41,159 --> 00:03:44,700
+who are considers as the plagiarisms at
+
+65
+00:03:44,700 --> 00:03:47,760
+the end and they all fail that is very
+
+66
+00:03:47,760 --> 00:03:49,980
+unfortunate so do not try to do that
+
+67
+00:03:49,980 --> 00:03:52,680
+because this if you um
+
+68
+00:03:52,680 --> 00:03:54,900
+so this course not is not that difficult
+
+69
+00:03:54,900 --> 00:03:58,080
+and uh we I know we have many
+
+70
+00:03:58,080 --> 00:04:01,440
+assignments we have many uh projects but
+
+71
+00:04:01,440 --> 00:04:03,540
+it is not that difficult even for the
+
+72
+00:04:03,540 --> 00:04:06,120
+projects I try to simplify that ask ta
+
+73
+00:04:06,120 --> 00:04:08,879
+to provide as much as code that he can
+
+74
+00:04:08,879 --> 00:04:11,700
+so you just need to fill in the part of
+
+75
+00:04:11,700 --> 00:04:14,640
+the code to finish the project
+
+76
+00:04:14,640 --> 00:04:16,700
+um
+
+77
+00:04:16,858 --> 00:04:19,560
+and it is your responsibility to protect
+
+78
+00:04:19,560 --> 00:04:21,860
+your code
+
+79
+00:04:21,860 --> 00:04:25,440
+so do not say that okay someone take
+
+80
+00:04:25,440 --> 00:04:28,259
+your code so then you do not know that I
+
+81
+00:04:28,259 --> 00:04:31,380
+cannot do anything about that so
+
+82
+00:04:31,380 --> 00:04:33,380
+um
+
+83
+00:04:36,199 --> 00:04:39,020
+okay and we we we we we
+
+84
+00:04:39,020 --> 00:04:41,880
+the T we have several graders who
+
+85
+00:04:41,880 --> 00:04:44,639
+continually runs the probabilism check
+
+86
+00:04:44,639 --> 00:04:46,979
+so do not feel
+
+87
+00:04:46,979 --> 00:04:50,280
+strange they're like will you receive a
+
+88
+00:04:50,280 --> 00:04:53,340
+your grades become zero then that means
+
+89
+00:04:53,340 --> 00:04:56,520
+you they think that you are progressing
+
+90
+00:04:56,520 --> 00:05:00,300
+you you have some academic misbehavior
+
+91
+00:05:00,300 --> 00:05:04,160
+okay so any questions
+
+92
+00:05:05,820 --> 00:05:08,479
+yes
+
+93
+00:05:13,139 --> 00:05:15,720
+I'm talking about projects one project
+
+94
+00:05:15,720 --> 00:05:16,860
+two
+
+95
+00:05:16,860 --> 00:05:20,699
+especially projects two we we the the we
+
+96
+00:05:20,699 --> 00:05:23,160
+have several graders they I ask them to
+
+97
+00:05:23,160 --> 00:05:25,080
+do the program check but it's very slow
+
+98
+00:05:25,080 --> 00:05:28,680
+it's not that easy because they we we
+
+99
+00:05:28,680 --> 00:05:32,100
+um they they are required to non-owning
+
+100
+00:05:32,100 --> 00:05:34,320
+use the tools I ask them to read The
+
+101
+00:05:34,320 --> 00:05:36,660
+Code by themselves so they need to read
+
+102
+00:05:36,660 --> 00:05:39,720
+the code read read the code that are
+
+103
+00:05:39,720 --> 00:05:43,080
+suspicious to be product to
+
+104
+00:05:43,080 --> 00:05:45,360
+um are treating
+
+105
+00:05:45,360 --> 00:05:47,960
+yeah
+
+106
+00:05:48,320 --> 00:05:51,600
+so I have been repeated that about that
+
+107
+00:05:51,600 --> 00:05:54,979
+many times in the class
+
+108
+00:05:56,520 --> 00:05:58,800
+if you write your own by The Code by
+
+109
+00:05:58,800 --> 00:06:00,539
+yourself you should not not worry about
+
+110
+00:06:00,539 --> 00:06:01,860
+that
+
+111
+00:06:01,860 --> 00:06:04,820
+okay oh
+
+112
+00:06:05,160 --> 00:06:06,840
+okay so today we are going to finish the
+
+113
+00:06:06,840 --> 00:06:08,880
+fight uh we are going to finish most
+
+114
+00:06:08,880 --> 00:06:11,639
+part of the file system the key things
+
+115
+00:06:11,639 --> 00:06:13,919
+about the file system is that so later
+
+116
+00:06:13,919 --> 00:06:16,020
+we are we are going to talk about an
+
+117
+00:06:16,020 --> 00:06:19,620
+important concept called inode inode I
+
+118
+00:06:19,620 --> 00:06:22,380
+hope you can memorize it for now
+
+119
+00:06:22,380 --> 00:06:24,840
+I know everything in the file system
+
+120
+00:06:24,840 --> 00:06:27,419
+will be surrounded about about the eye
+
+121
+00:06:27,419 --> 00:06:29,280
+load the same thing like a page okay
+
+122
+00:06:29,280 --> 00:06:32,039
+everything in the memory we we do
+
+123
+00:06:32,039 --> 00:06:33,479
+everything talking about everything else
+
+124
+00:06:33,479 --> 00:06:36,539
+about page like page in page map uh hash
+
+125
+00:06:36,539 --> 00:06:40,259
+uh sorry tlb everything's about paging
+
+126
+00:06:40,259 --> 00:06:42,960
+right page four but in the file systems
+
+127
+00:06:42,960 --> 00:06:46,080
+the key concept here is inode so we are
+
+128
+00:06:46,080 --> 00:06:51,380
+so let's see what is inode
+
+129
+00:07:00,240 --> 00:07:03,080
+uh-huh
+
+130
+00:07:08,539 --> 00:07:12,479
+numbers that correspond
+
+131
+00:07:12,479 --> 00:07:15,360
+a whole table a table that lists the
+
+132
+00:07:15,360 --> 00:07:17,460
+numbers corresponding to the files very
+
+133
+00:07:17,460 --> 00:07:19,860
+good that is very close people we are
+
+134
+00:07:19,860 --> 00:07:22,520
+going to learn yeah
+
+135
+00:07:22,979 --> 00:07:26,539
+we should have a like yeah
+
+136
+00:07:26,539 --> 00:07:29,099
+I believe there's like each each file
+
+137
+00:07:29,099 --> 00:07:32,400
+has for each of being in the in the uh
+
+138
+00:07:32,400 --> 00:07:36,000
+in the table has like a file
+
+139
+00:07:36,000 --> 00:07:38,099
+yeah the Beetles have an eye note and
+
+140
+00:07:38,099 --> 00:07:40,440
+the I node uh has information about like
+
+141
+00:07:40,440 --> 00:07:44,280
+the owner the place and the address
+
+142
+00:07:44,280 --> 00:07:47,580
+um the priority and et cetera et cetera
+
+143
+00:07:47,580 --> 00:07:50,039
+yeah yeah that's very good okay so we
+
+144
+00:07:50,039 --> 00:07:51,599
+are going to learn that it's about like
+
+145
+00:07:51,599 --> 00:07:54,479
+I know that I know the table I know the
+
+146
+00:07:54,479 --> 00:07:56,520
+number they are all corresponding to
+
+147
+00:07:56,520 --> 00:07:59,340
+inode but standing in front of that what
+
+148
+00:07:59,340 --> 00:08:01,860
+is exactly I know why we need inode so
+
+149
+00:08:01,860 --> 00:08:04,440
+we are going to learn that okay so let's
+
+150
+00:08:04,440 --> 00:08:06,900
+see the file implementation so uh in our
+
+151
+00:08:06,900 --> 00:08:09,680
+last class we see file system from the
+
+152
+00:08:09,680 --> 00:08:12,840
+user's protective point of view now in
+
+153
+00:08:12,840 --> 00:08:14,580
+this class we are going to learn the
+
+154
+00:08:14,580 --> 00:08:16,740
+file systems from the implementation
+
+155
+00:08:16,740 --> 00:08:19,319
+point of view okay
+
+156
+00:08:19,319 --> 00:08:21,840
+so file store on the disk disk broken
+
+157
+00:08:21,840 --> 00:08:24,780
+into one or more partitions with the
+
+158
+00:08:24,780 --> 00:08:28,740
+separate file system descriptors on each
+
+159
+00:08:28,740 --> 00:08:30,780
+partition
+
+160
+00:08:30,780 --> 00:08:32,339
+so uh
+
+161
+00:08:32,339 --> 00:08:35,458
+okay there's no picture about that so
+
+162
+00:08:35,458 --> 00:08:37,080
+the files or
+
+163
+00:08:37,080 --> 00:08:40,020
+so this is a disk right the disk so this
+
+164
+00:08:40,020 --> 00:08:42,360
+the disks are going to be partitioned
+
+165
+00:08:42,360 --> 00:08:44,700
+into many many
+
+166
+00:08:44,700 --> 00:08:47,279
+are broken into many partitions this is
+
+167
+00:08:47,279 --> 00:08:49,560
+partition this is partition so this is
+
+168
+00:08:49,560 --> 00:08:52,220
+the disk
+
+169
+00:08:53,160 --> 00:08:55,560
+and we have that each partition a
+
+170
+00:08:55,560 --> 00:08:57,180
+partition one partition zero actually
+
+171
+00:08:57,180 --> 00:08:58,920
+starting from zero partition zero
+
+172
+00:08:58,920 --> 00:09:01,320
+partition one two and in each partition
+
+173
+00:09:01,320 --> 00:09:03,060
+they divide it into more about the
+
+174
+00:09:03,060 --> 00:09:06,240
+sectors that is the a capture of the
+
+175
+00:09:06,240 --> 00:09:09,839
+disk that means architecture of the disk
+
+176
+00:09:09,839 --> 00:09:12,420
+now we know the operating system is an
+
+177
+00:09:12,420 --> 00:09:15,120
+abstraction and resource manager right
+
+178
+00:09:15,120 --> 00:09:16,620
+resource doing the resource management
+
+179
+00:09:16,620 --> 00:09:18,180
+so
+
+180
+00:09:18,180 --> 00:09:21,720
+um now this is the hardware Hardware
+
+181
+00:09:21,720 --> 00:09:25,740
+how to use the software interface API to
+
+182
+00:09:25,740 --> 00:09:27,779
+represent this Hardware that is the file
+
+183
+00:09:27,779 --> 00:09:30,120
+implementation okay file implementation
+
+184
+00:09:30,120 --> 00:09:32,220
+so we look at the
+
+185
+00:09:32,220 --> 00:09:36,380
+um so the first thing is that
+
+186
+00:09:39,240 --> 00:09:41,700
+everything is on the disk right
+
+187
+00:09:41,700 --> 00:09:44,100
+nothing in the memory when we boot the
+
+188
+00:09:44,100 --> 00:09:46,500
+operating systems we need to load the
+
+189
+00:09:46,500 --> 00:09:49,740
+scenes load OS node OS operating system
+
+190
+00:09:49,740 --> 00:09:53,100
+from the disk into the memory so how do
+
+191
+00:09:53,100 --> 00:09:54,959
+we know that
+
+192
+00:09:54,959 --> 00:09:57,959
+how we loaded the code we need to load
+
+193
+00:09:57,959 --> 00:10:00,720
+the code okay the who did that that is
+
+194
+00:10:00,720 --> 00:10:03,720
+the a boot computer okay the
+
+195
+00:10:03,720 --> 00:10:06,779
+bios okay the BIOS are doing that so
+
+196
+00:10:06,779 --> 00:10:09,620
+where is the BIOS
+
+197
+00:10:09,839 --> 00:10:13,260
+so the first thing about
+
+198
+00:10:13,260 --> 00:10:16,860
+about the file systems to booting
+
+199
+00:10:16,860 --> 00:10:19,440
+operating system is to locate the active
+
+200
+00:10:19,440 --> 00:10:22,680
+partition reads its first block we call
+
+201
+00:10:22,680 --> 00:10:25,519
+it super block
+
+202
+00:10:25,580 --> 00:10:28,440
+sometimes we call it the boot block and
+
+203
+00:10:28,440 --> 00:10:31,140
+excuse it
+
+204
+00:10:31,140 --> 00:10:33,899
+so you can think of that as the this is
+
+205
+00:10:33,899 --> 00:10:36,000
+the this is the disk this is the whole
+
+206
+00:10:36,000 --> 00:10:39,420
+disk and we broken this disk into many
+
+207
+00:10:39,420 --> 00:10:42,720
+partitions right we broken data into
+
+208
+00:10:42,720 --> 00:10:45,180
+many partitions and in front of this
+
+209
+00:10:45,180 --> 00:10:46,980
+partition there's a partition zero
+
+210
+00:10:46,980 --> 00:10:49,440
+partition zero and inside of the
+
+211
+00:10:49,440 --> 00:10:51,660
+partition zero there will be the BIOS
+
+212
+00:10:51,660 --> 00:10:54,000
+code biosole you mean very familiar with
+
+213
+00:10:54,000 --> 00:10:57,380
+that that is the code
+
+214
+00:10:58,680 --> 00:11:00,959
+that is the entry of the operating
+
+215
+00:11:00,959 --> 00:11:02,940
+system that is the entry of the
+
+216
+00:11:02,940 --> 00:11:05,540
+operating system
+
+217
+00:11:07,200 --> 00:11:10,500
+the award OS did at the beginning when
+
+218
+00:11:10,500 --> 00:11:13,440
+you launch your OS launch the system is
+
+219
+00:11:13,440 --> 00:11:17,880
+read the code reader code in BIOS
+
+220
+00:11:17,880 --> 00:11:21,779
+and then xq start excuse it so let's
+
+221
+00:11:21,779 --> 00:11:25,399
+look at this picture so you see the
+
+222
+00:11:25,560 --> 00:11:28,260
+so there is a partition table right we
+
+223
+00:11:28,260 --> 00:11:30,600
+know that this this is the whole disk
+
+224
+00:11:30,600 --> 00:11:34,560
+entire disk okay entire disk
+
+225
+00:11:34,560 --> 00:11:36,600
+many times if in the windows then that
+
+226
+00:11:36,600 --> 00:11:39,660
+is The discus C okay the entire disk and
+
+227
+00:11:39,660 --> 00:11:42,480
+we broke the disk into many partitions
+
+228
+00:11:42,480 --> 00:11:46,500
+so here's the partition disk partition
+
+229
+00:11:46,500 --> 00:11:49,019
+and here we have the partition table so
+
+230
+00:11:49,019 --> 00:11:50,700
+the partition table the partition table
+
+231
+00:11:50,700 --> 00:11:53,040
+tells you where exactly each partition
+
+232
+00:11:53,040 --> 00:11:55,399
+is
+
+233
+00:11:56,100 --> 00:12:00,079
+and inside of each
+
+234
+00:12:02,579 --> 00:12:05,339
+inside of each partition it's the we
+
+235
+00:12:05,339 --> 00:12:08,940
+have the boot block super block free
+
+236
+00:12:08,940 --> 00:12:13,500
+space inode loot dir files and a file
+
+237
+00:12:13,500 --> 00:12:16,220
+directories
+
+238
+00:12:16,500 --> 00:12:18,920
+oh
+
+239
+00:12:25,980 --> 00:12:29,300
+so let's look at this okay
+
+240
+00:12:59,519 --> 00:13:02,279
+so let's see from the first time we see
+
+241
+00:13:02,279 --> 00:13:04,339
+the hardware okay Hardware
+
+242
+00:13:04,339 --> 00:13:07,860
+we know this is a disk
+
+243
+00:13:07,860 --> 00:13:10,620
+you throw it in front that way
+
+244
+00:13:10,620 --> 00:13:14,420
+this is a disk right this is a
+
+245
+00:13:16,440 --> 00:13:19,519
+this is a disk
+
+246
+00:13:25,860 --> 00:13:28,500
+so the disk the whole disk
+
+247
+00:13:28,500 --> 00:13:31,440
+is divided into partitions and inside
+
+248
+00:13:31,440 --> 00:13:33,779
+inside the partition there's something
+
+249
+00:13:33,779 --> 00:13:36,180
+called the sector
+
+250
+00:13:36,180 --> 00:13:38,880
+right that is the disk that is a disk
+
+251
+00:13:38,880 --> 00:13:40,500
+structure the hardware the hardware
+
+252
+00:13:40,500 --> 00:13:43,620
+structure of the disk now operating
+
+253
+00:13:43,620 --> 00:13:46,740
+system will see the discards like this
+
+254
+00:13:46,740 --> 00:13:49,200
+this is the whole disc
+
+255
+00:13:49,200 --> 00:13:52,279
+it'll hold this
+
+256
+00:13:54,000 --> 00:13:56,940
+Leslie this is just the one over we we
+
+257
+00:13:56,940 --> 00:13:59,940
+may have many disks in the OS but this
+
+258
+00:13:59,940 --> 00:14:02,459
+is just one of the disk now remember
+
+259
+00:14:02,459 --> 00:14:06,060
+last time we see last time we learned
+
+260
+00:14:06,060 --> 00:14:08,519
+the OS from the operating from the
+
+261
+00:14:08,519 --> 00:14:12,060
+user's point of view we see the files
+
+262
+00:14:12,060 --> 00:14:15,240
+are structured into a tree structure so
+
+263
+00:14:15,240 --> 00:14:17,100
+if you remember
+
+264
+00:14:17,100 --> 00:14:19,860
+we have the first is the looter right
+
+265
+00:14:19,860 --> 00:14:21,360
+the loot
+
+266
+00:14:21,360 --> 00:14:25,380
+of the loot directory right
+
+267
+00:14:25,380 --> 00:14:27,240
+and then we have several for other
+
+268
+00:14:27,240 --> 00:14:30,839
+folders right like the Etc
+
+269
+00:14:30,839 --> 00:14:32,940
+device
+
+270
+00:14:32,940 --> 00:14:35,660
+user
+
+271
+00:14:36,360 --> 00:14:38,639
+right we have we have we have several
+
+272
+00:14:38,639 --> 00:14:40,199
+folders and we're talking about the
+
+273
+00:14:40,199 --> 00:14:43,380
+absolute parts and the relative paths
+
+274
+00:14:43,380 --> 00:14:48,500
+and there's other like the other folders
+
+275
+00:14:55,320 --> 00:14:58,800
+so there's other folders now
+
+276
+00:14:58,800 --> 00:15:01,320
+now let's think about that if you are
+
+277
+00:15:01,320 --> 00:15:03,420
+the system designer you are the system
+
+278
+00:15:03,420 --> 00:15:04,800
+designer
+
+279
+00:15:04,800 --> 00:15:06,420
+how you're going to make a data
+
+280
+00:15:06,420 --> 00:15:08,579
+structure for the for all these files
+
+281
+00:15:08,579 --> 00:15:12,060
+you want to you want you you need to you
+
+282
+00:15:12,060 --> 00:15:13,139
+need to
+
+283
+00:15:13,139 --> 00:15:15,600
+save these files into the hardware the
+
+284
+00:15:15,600 --> 00:15:17,699
+hard disease is the disk right this is a
+
+285
+00:15:17,699 --> 00:15:19,560
+disk you need to save these files into
+
+286
+00:15:19,560 --> 00:15:23,160
+your disk and using a tree structure
+
+287
+00:15:23,160 --> 00:15:25,019
+so what's the information you need to
+
+288
+00:15:25,019 --> 00:15:26,940
+put in the init
+
+289
+00:15:26,940 --> 00:15:31,440
+into that then it comes true
+
+290
+00:15:31,440 --> 00:15:36,180
+we first we first saw
+
+291
+00:15:40,880 --> 00:15:44,279
+OS why the OS data operating system data
+
+292
+00:15:44,279 --> 00:15:49,279
+is large for this disk you are using
+
+293
+00:15:57,240 --> 00:15:58,980
+you will divide the disk into many
+
+294
+00:15:58,980 --> 00:16:01,920
+partitions and the fifth
+
+295
+00:16:01,920 --> 00:16:04,260
+we can see the rest of partitions may
+
+296
+00:16:04,260 --> 00:16:07,860
+use to save our users contents like
+
+297
+00:16:07,860 --> 00:16:10,920
+these files these important files but at
+
+298
+00:16:10,920 --> 00:16:13,560
+the beginning of this partition at the
+
+299
+00:16:13,560 --> 00:16:15,899
+beginning of this partition we need to
+
+300
+00:16:15,899 --> 00:16:18,240
+know we need to know some important
+
+301
+00:16:18,240 --> 00:16:21,000
+information so what are these important
+
+302
+00:16:21,000 --> 00:16:22,860
+information the important information
+
+303
+00:16:22,860 --> 00:16:25,500
+includes
+
+304
+00:16:25,500 --> 00:16:28,639
+includes the
+
+305
+00:16:33,060 --> 00:16:34,199
+space
+
+306
+00:16:34,199 --> 00:16:36,240
+okay the space
+
+307
+00:16:36,240 --> 00:16:39,600
+so what is exactly space space means
+
+308
+00:16:39,600 --> 00:16:42,839
+for each partition how much space is how
+
+309
+00:16:42,839 --> 00:16:45,959
+much space is right and then
+
+310
+00:16:45,959 --> 00:16:48,300
+we need our information about inode it
+
+311
+00:16:48,300 --> 00:16:50,880
+actually is a i node table we talk about
+
+312
+00:16:50,880 --> 00:16:52,620
+I know later but you can think of the
+
+313
+00:16:52,620 --> 00:16:55,500
+inode it's like the if if the whole
+
+314
+00:16:55,500 --> 00:16:58,199
+whole disk is like a book then I notice
+
+315
+00:16:58,199 --> 00:16:59,699
+just the chapter
+
+316
+00:16:59,699 --> 00:17:02,880
+chapter the index of the book the same
+
+317
+00:17:02,880 --> 00:17:05,339
+as same as a
+
+318
+00:17:05,339 --> 00:17:08,640
+the page table okay so like idle it's
+
+319
+00:17:08,640 --> 00:17:11,160
+like the index of a book in this will be
+
+320
+00:17:11,160 --> 00:17:13,140
+the index I know table with the index of
+
+321
+00:17:13,140 --> 00:17:15,419
+all the files or files
+
+322
+00:17:15,419 --> 00:17:18,620
+then we have
+
+323
+00:17:19,260 --> 00:17:22,380
+we have the other directories right loot
+
+324
+00:17:22,380 --> 00:17:24,860
+dir
+
+325
+00:17:25,380 --> 00:17:29,940
+then the this difference dirs okay
+
+326
+00:17:29,940 --> 00:17:32,240
+they are there
+
+327
+00:17:32,240 --> 00:17:36,059
+before that before that we have a
+
+328
+00:17:36,059 --> 00:17:38,039
+super block
+
+329
+00:17:38,039 --> 00:17:40,679
+super block
+
+330
+00:17:40,679 --> 00:17:43,500
+so what exactly super block is super
+
+331
+00:17:43,500 --> 00:17:48,200
+block and boot Glock boot block
+
+332
+00:17:53,520 --> 00:17:56,520
+boost block may only contains
+
+333
+00:17:56,520 --> 00:17:58,980
+several lines of code
+
+334
+00:17:58,980 --> 00:18:01,860
+so it is the it is the entry entry of
+
+335
+00:18:01,860 --> 00:18:03,360
+the operating system one always report
+
+336
+00:18:03,360 --> 00:18:05,940
+it was starting the boot block and after
+
+337
+00:18:05,940 --> 00:18:08,280
+it read the book block it goes to Super
+
+338
+00:18:08,280 --> 00:18:10,860
+block so what a super block contains it
+
+339
+00:18:10,860 --> 00:18:12,539
+contains the most important information
+
+340
+00:18:12,539 --> 00:18:14,940
+about this partition this is one
+
+341
+00:18:14,940 --> 00:18:17,220
+partition okay this partition so what
+
+342
+00:18:17,220 --> 00:18:18,900
+are the most important information about
+
+343
+00:18:18,900 --> 00:18:23,460
+this partition contains it contains
+
+344
+00:18:23,460 --> 00:18:26,760
+the owner of this disk right owner of
+
+345
+00:18:26,760 --> 00:18:32,240
+this disk success control of this disk
+
+346
+00:18:35,100 --> 00:18:37,860
+the number of blocks in the districts
+
+347
+00:18:37,860 --> 00:18:40,940
+and other key administrative information
+
+348
+00:18:40,940 --> 00:18:44,580
+key administrative information so if we
+
+349
+00:18:44,580 --> 00:18:47,820
+look out if we go from the um
+
+350
+00:18:47,820 --> 00:18:52,160
+whole point of view we can see that
+
+351
+00:18:52,440 --> 00:18:55,020
+the file system is actually a
+
+352
+00:18:55,020 --> 00:18:57,240
+hierarchical structure hierarchical
+
+353
+00:18:57,240 --> 00:19:00,240
+structure so first it's like it's like
+
+354
+00:19:00,240 --> 00:19:02,880
+uh it's like this okay it's like this
+
+355
+00:19:02,880 --> 00:19:06,660
+first we have the entry so we entry
+
+356
+00:19:06,660 --> 00:19:09,780
+we enter into the disk and then we read
+
+357
+00:19:09,780 --> 00:19:11,760
+the most important information about
+
+358
+00:19:11,760 --> 00:19:13,980
+this disk like who owned these sticks
+
+359
+00:19:13,980 --> 00:19:17,539
+who creates this disk
+
+360
+00:19:17,900 --> 00:19:22,679
+which user has the most uh most of
+
+361
+00:19:22,679 --> 00:19:25,620
+priority control of this disk so
+
+362
+00:19:25,620 --> 00:19:28,260
+everything is in here that is the super
+
+363
+00:19:28,260 --> 00:19:30,360
+super block super block
+
+364
+00:19:30,360 --> 00:19:32,640
+will have this information
+
+365
+00:19:32,640 --> 00:19:36,419
+and then and then we have the inode
+
+366
+00:19:36,419 --> 00:19:39,660
+inode I know that what tells you
+
+367
+00:19:39,660 --> 00:19:43,740
+where each directory is a directory root
+
+368
+00:19:43,740 --> 00:19:45,419
+directory where it is
+
+369
+00:19:45,419 --> 00:19:48,480
+the subdirectory where it is the files
+
+370
+00:19:48,480 --> 00:19:50,820
+each of files where it is that is the
+
+371
+00:19:50,820 --> 00:19:53,520
+inode I node okay I know I know the
+
+372
+00:19:53,520 --> 00:19:55,500
+structure will tell you this and then
+
+373
+00:19:55,500 --> 00:19:59,059
+after that we have
+
+374
+00:19:59,100 --> 00:20:01,260
+hundreds of thousands of files that
+
+375
+00:20:01,260 --> 00:20:03,240
+there so it's like a hierarchical
+
+376
+00:20:03,240 --> 00:20:04,919
+structure it is like a hierarchical
+
+377
+00:20:04,919 --> 00:20:06,600
+structure that is a file system
+
+378
+00:20:06,600 --> 00:20:08,280
+structure
+
+379
+00:20:08,280 --> 00:20:11,580
+in a modern operating system okay so I
+
+380
+00:20:11,580 --> 00:20:14,179
+will repeat that
+
+381
+00:20:14,880 --> 00:20:19,760
+the file system layout is like a
+
+382
+00:20:20,039 --> 00:20:21,179
+oh yes
+
+383
+00:20:21,179 --> 00:20:23,039
+the file system layout is like a
+
+384
+00:20:23,039 --> 00:20:24,840
+hierarchical structure so it first
+
+385
+00:20:24,840 --> 00:20:27,360
+contains the
+
+386
+00:20:27,360 --> 00:20:31,200
+uh the boot block for each partition
+
+387
+00:20:31,200 --> 00:20:33,900
+the first the disk is divided into many
+
+388
+00:20:33,900 --> 00:20:36,059
+partitions and for each partition it
+
+389
+00:20:36,059 --> 00:20:38,160
+contains the boot block boot block is
+
+390
+00:20:38,160 --> 00:20:41,580
+the entry of that partition and then we
+
+391
+00:20:41,580 --> 00:20:43,080
+have the super block the super block
+
+392
+00:20:43,080 --> 00:20:45,299
+contains the most important information
+
+393
+00:20:45,299 --> 00:20:47,640
+about that partition includes that who
+
+394
+00:20:47,640 --> 00:20:49,860
+owns this partition
+
+395
+00:20:49,860 --> 00:20:51,960
+the number of blocks in this partition
+
+396
+00:20:51,960 --> 00:20:54,840
+the key administrative information about
+
+397
+00:20:54,840 --> 00:20:57,900
+this partition like which user which
+
+398
+00:20:57,900 --> 00:21:00,360
+group user group has the most priority
+
+399
+00:21:00,360 --> 00:21:03,419
+control and then we have the inode
+
+400
+00:21:03,419 --> 00:21:05,039
+information I know the information will
+
+401
+00:21:05,039 --> 00:21:07,200
+tell the tells you
+
+402
+00:21:07,200 --> 00:21:11,600
+how many files how many folders
+
+403
+00:21:11,720 --> 00:21:15,780
+in in total in this partition and where
+
+404
+00:21:15,780 --> 00:21:19,380
+are they it's like a index of a book or
+
+405
+00:21:19,380 --> 00:21:22,039
+tells you okay well what the contents it
+
+406
+00:21:22,039 --> 00:21:25,740
+contains and then the rest of them about
+
+407
+00:21:25,740 --> 00:21:28,440
+19 percentage of the disk was saved the
+
+408
+00:21:28,440 --> 00:21:31,440
+real complex information about like the
+
+409
+00:21:31,440 --> 00:21:34,020
+user's files like your movies your
+
+410
+00:21:34,020 --> 00:21:37,159
+documents your
+
+411
+00:21:37,320 --> 00:21:41,960
+your code like that okay
+
+412
+00:21:42,419 --> 00:21:46,460
+so this is a file system layout
+
+413
+00:21:51,240 --> 00:21:53,760
+so again the super block contains the
+
+414
+00:21:53,760 --> 00:21:55,559
+information about the file system like
+
+415
+00:21:55,559 --> 00:21:57,539
+the type of the file system the number
+
+416
+00:21:57,539 --> 00:22:00,720
+of blocks so by the way what is blocks
+
+417
+00:22:00,720 --> 00:22:03,799
+or this block
+
+418
+00:22:06,120 --> 00:22:08,900
+yes
+
+419
+00:22:12,419 --> 00:22:17,360
+uh it's not memory yeah Lily
+
+420
+00:22:18,299 --> 00:22:19,980
+the sector over the partition very very
+
+421
+00:22:19,980 --> 00:22:22,919
+good very close but it's not exactly the
+
+422
+00:22:22,919 --> 00:22:25,320
+sector so if
+
+423
+00:22:25,320 --> 00:22:27,320
+um
+
+424
+00:22:28,559 --> 00:22:30,960
+is a lawyer accountants inside of the
+
+425
+00:22:30,960 --> 00:22:33,240
+sector so we know the disk you see the
+
+426
+00:22:33,240 --> 00:22:35,520
+disk is divided into partitions right
+
+427
+00:22:35,520 --> 00:22:37,740
+and inside the pattern so these are all
+
+428
+00:22:37,740 --> 00:22:41,039
+sectors these are all sectors the block
+
+429
+00:22:41,039 --> 00:22:43,140
+is the
+
+430
+00:22:43,140 --> 00:22:46,140
+b l o c k it's called block
+
+431
+00:22:46,140 --> 00:22:48,960
+s the units the units of the disk
+
+432
+00:22:48,960 --> 00:22:51,179
+Hardware disk that we use to store the
+
+433
+00:22:51,179 --> 00:22:55,159
+files so um sometimes the blocks can be
+
+434
+00:22:55,159 --> 00:22:59,220
+64 megabytes sometimes they can be 16
+
+435
+00:22:59,220 --> 00:23:01,260
+megabytes
+
+436
+00:23:01,260 --> 00:23:04,380
+it depends it depends every every
+
+437
+00:23:04,380 --> 00:23:07,140
+operating system has their own defaults
+
+438
+00:23:07,140 --> 00:23:10,020
+block size so block the block size the
+
+439
+00:23:10,020 --> 00:23:12,659
+block is is very similar to what we
+
+440
+00:23:12,659 --> 00:23:15,840
+learned in the memory of the page right
+
+441
+00:23:15,840 --> 00:23:18,840
+each page is 4kb but it's belonging to
+
+442
+00:23:18,840 --> 00:23:21,299
+the memory but in the disk we use the
+
+443
+00:23:21,299 --> 00:23:24,919
+units of block yes
+
+444
+00:23:32,880 --> 00:23:36,600
+so with this cat picture have like what
+
+445
+00:23:36,600 --> 00:23:38,700
+could this cat picture be divided into
+
+446
+00:23:38,700 --> 00:23:42,299
+blocks maybe if it is larger than 64
+
+447
+00:23:42,299 --> 00:23:44,220
+megabytes then it will be divided into
+
+448
+00:23:44,220 --> 00:23:47,820
+blocks that that's is true okay let's
+
+449
+00:23:47,820 --> 00:23:51,900
+say you have a cat picture and it's 1 GB
+
+450
+00:23:51,900 --> 00:23:54,900
+so it's very large very very large but
+
+451
+00:23:54,900 --> 00:23:57,299
+from the user's point of view when you
+
+452
+00:23:57,299 --> 00:24:00,299
+see that you you didn't feel it broke
+
+453
+00:24:00,299 --> 00:24:03,600
+down into many blocks right but from the
+
+454
+00:24:03,600 --> 00:24:07,140
+OS point of view at the back at the back
+
+455
+00:24:07,140 --> 00:24:10,260
+they are broken into many blocks and
+
+456
+00:24:10,260 --> 00:24:13,020
+stored in different partitions in
+
+457
+00:24:13,020 --> 00:24:15,000
+different places yeah you have any
+
+458
+00:24:15,000 --> 00:24:16,440
+questions
+
+459
+00:24:16,440 --> 00:24:18,480
+you have let's see
+
+460
+00:24:18,480 --> 00:24:21,080
+blocks
+
+461
+00:24:26,220 --> 00:24:30,419
+why do you say again so what if we have
+
+462
+00:24:30,419 --> 00:24:34,740
+for thousands of blocks each block is 64
+
+463
+00:24:34,740 --> 00:24:38,299
+megabytes and then
+
+464
+00:24:41,520 --> 00:24:44,520
+a thousand of files each one is
+
+465
+00:24:44,520 --> 00:24:45,659
+that
+
+466
+00:24:45,659 --> 00:24:47,700
+only one megabyte that's that's a very
+
+467
+00:24:47,700 --> 00:24:49,620
+that's that's a very good question
+
+468
+00:24:49,620 --> 00:24:51,539
+that's very good question so are we
+
+469
+00:24:51,539 --> 00:24:53,460
+going to do that's why we are going to
+
+470
+00:24:53,460 --> 00:24:56,340
+learn later that is the way how you
+
+471
+00:24:56,340 --> 00:24:59,039
+track how to like track the available
+
+472
+00:24:59,039 --> 00:25:02,940
+free resources in a disk and then how
+
+473
+00:25:02,940 --> 00:25:06,720
+you love how you make the best use of
+
+474
+00:25:06,720 --> 00:25:08,760
+the available resources in the disk that
+
+475
+00:25:08,760 --> 00:25:10,620
+is the um
+
+476
+00:25:10,620 --> 00:25:12,840
+resource management issue of the file
+
+477
+00:25:12,840 --> 00:25:16,580
+system we're going to learn that later
+
+478
+00:25:26,460 --> 00:25:29,640
+okay if I say some layout so that is the
+
+479
+00:25:29,640 --> 00:25:31,500
+um
+
+480
+00:25:31,500 --> 00:25:32,940
+okay
+
+481
+00:25:32,940 --> 00:25:34,679
+and that is what we're going to learn
+
+482
+00:25:34,679 --> 00:25:36,720
+allocating blocks to files the same
+
+483
+00:25:36,720 --> 00:25:39,120
+question like we have what we we have a
+
+484
+00:25:39,120 --> 00:25:40,980
+very large file how are we going to
+
+485
+00:25:40,980 --> 00:25:43,020
+allocate the blocks for files what if we
+
+486
+00:25:43,020 --> 00:25:44,880
+have very small files how we're going to
+
+487
+00:25:44,880 --> 00:25:48,679
+allocate the blocks to files
+
+488
+00:25:48,840 --> 00:25:50,700
+so there's
+
+489
+00:25:50,700 --> 00:25:53,240
+so
+
+490
+00:25:53,400 --> 00:25:54,720
+so here
+
+491
+00:25:54,720 --> 00:25:58,320
+we need to keep track of which these
+
+492
+00:25:58,320 --> 00:26:01,559
+blocks go with which file
+
+493
+00:26:01,559 --> 00:26:03,720
+we have the blocks right we have the
+
+494
+00:26:03,720 --> 00:26:05,880
+blocks you think of the each block is
+
+495
+00:26:05,880 --> 00:26:09,120
+like 64 megabytes then we have the files
+
+496
+00:26:09,120 --> 00:26:11,940
+the files can have different size it's
+
+497
+00:26:11,940 --> 00:26:13,740
+made as large as
+
+498
+00:26:13,740 --> 00:26:16,860
+10 gigabytes it once fire 10 gigabytes
+
+499
+00:26:16,860 --> 00:26:19,080
+of movie
+
+500
+00:26:19,080 --> 00:26:22,919
+made a small also one megabytes so how
+
+501
+00:26:22,919 --> 00:26:24,900
+you're going to locate the blocks to
+
+502
+00:26:24,900 --> 00:26:27,840
+these different size of files so you
+
+503
+00:26:27,840 --> 00:26:29,580
+want to make a guess and you still want
+
+504
+00:26:29,580 --> 00:26:31,559
+to make a guess
+
+505
+00:26:31,559 --> 00:26:34,880
+are we going to do that
+
+506
+00:26:36,659 --> 00:26:39,539
+how we're going to assign the files of
+
+507
+00:26:39,539 --> 00:26:43,260
+different sides to the blocks
+
+508
+00:26:43,260 --> 00:26:46,799
+so the question is this we have
+
+509
+00:26:46,799 --> 00:26:50,360
+this is your resource pool
+
+510
+00:26:51,059 --> 00:26:54,240
+this is a result pool here this is your
+
+511
+00:26:54,240 --> 00:26:56,880
+disc right this is my disk
+
+512
+00:26:56,880 --> 00:26:59,520
+my disk is very Lush
+
+513
+00:26:59,520 --> 00:27:01,020
+let's say
+
+514
+00:27:01,020 --> 00:27:04,679
+1000 gigabytes so right 1000 gigabytes
+
+515
+00:27:04,679 --> 00:27:07,679
+okay then then we have
+
+516
+00:27:07,679 --> 00:27:10,440
+we have many blocks right as I told as I
+
+517
+00:27:10,440 --> 00:27:12,960
+told you in the in the disk everything
+
+518
+00:27:12,960 --> 00:27:16,260
+is the disk is broken into many blocks
+
+519
+00:27:16,260 --> 00:27:19,100
+okay blocks
+
+520
+00:27:27,120 --> 00:27:29,120
+okay
+
+521
+00:27:31,200 --> 00:27:33,900
+they are blocks
+
+522
+00:27:33,900 --> 00:27:36,240
+they block each one of them is Block
+
+523
+00:27:36,240 --> 00:27:38,520
+it's blocked like empty spaces like
+
+524
+00:27:38,520 --> 00:27:40,320
+empty seats but they have the same size
+
+525
+00:27:40,320 --> 00:27:44,640
+now you have a file you have a incoming
+
+526
+00:27:44,640 --> 00:27:47,580
+streams of files
+
+527
+00:27:47,580 --> 00:27:50,580
+we have many files many files okay menu
+
+528
+00:27:50,580 --> 00:27:53,340
+files so how are we going to organize it
+
+529
+00:27:53,340 --> 00:27:55,860
+put it into the disk put it into the
+
+530
+00:27:55,860 --> 00:27:58,679
+blocks like we need to decide which
+
+531
+00:27:58,679 --> 00:28:01,080
+below blocks belonging to which file
+
+532
+00:28:01,080 --> 00:28:03,240
+right we need to decide that so any
+
+533
+00:28:03,240 --> 00:28:05,820
+algorithms come into your mind
+
+534
+00:28:05,820 --> 00:28:08,460
+any algorithms so how we allocate the
+
+535
+00:28:08,460 --> 00:28:11,460
+files how we how do we allocate the
+
+536
+00:28:11,460 --> 00:28:15,299
+files we have many files coming one is
+
+537
+00:28:15,299 --> 00:28:18,419
+big one is small one is super big one is
+
+538
+00:28:18,419 --> 00:28:21,480
+super small like super small they are
+
+539
+00:28:21,480 --> 00:28:23,760
+coming they are coming we do not know
+
+540
+00:28:23,760 --> 00:28:26,580
+when they are calm and the word of their
+
+541
+00:28:26,580 --> 00:28:28,620
+coming but they are coming they're
+
+542
+00:28:28,620 --> 00:28:30,840
+coming continuously so how do we
+
+543
+00:28:30,840 --> 00:28:34,799
+allocate these files into the disk
+
+544
+00:28:34,799 --> 00:28:37,380
+that is a key question about the file
+
+545
+00:28:37,380 --> 00:28:41,120
+system so you want to make a gas monkey
+
+546
+00:28:42,860 --> 00:28:45,299
+continuous allocation
+
+547
+00:28:45,299 --> 00:28:49,340
+so what is continually allocation
+
+548
+00:28:49,919 --> 00:28:52,559
+we allocated continuously so one by one
+
+549
+00:28:52,559 --> 00:28:55,620
+right one by one like first come first
+
+550
+00:28:55,620 --> 00:28:58,260
+to serve like one by one okay one by one
+
+551
+00:28:58,260 --> 00:29:00,000
+that is one solution that is one
+
+552
+00:29:00,000 --> 00:29:02,340
+solution
+
+553
+00:29:02,340 --> 00:29:04,140
+so let's look at that
+
+554
+00:29:04,140 --> 00:29:06,419
+so continuous allocation continually
+
+555
+00:29:06,419 --> 00:29:08,820
+allocation
+
+556
+00:29:08,820 --> 00:29:13,380
+so what we do is that so file a
+
+557
+00:29:13,380 --> 00:29:16,620
+we put file a there then we put file B
+
+558
+00:29:16,620 --> 00:29:20,460
+there we put file C so we put them one
+
+559
+00:29:20,460 --> 00:29:22,080
+by one that is the continually
+
+560
+00:29:22,080 --> 00:29:24,539
+allocation continually allocation so
+
+561
+00:29:24,539 --> 00:29:26,760
+what is the problem we know they are
+
+562
+00:29:26,760 --> 00:29:30,360
+coming okay we know they are coming
+
+563
+00:29:30,360 --> 00:29:32,940
+you will not save the file forever right
+
+564
+00:29:32,940 --> 00:29:35,820
+I download a file I use it then I delete
+
+565
+00:29:35,820 --> 00:29:39,260
+it you are not going to use it forever
+
+566
+00:29:39,260 --> 00:29:43,020
+some files may only live for a couple of
+
+567
+00:29:43,020 --> 00:29:45,539
+minutes some files may leave for longer
+
+568
+00:29:45,539 --> 00:29:47,460
+much longer time what will be the
+
+569
+00:29:47,460 --> 00:29:50,039
+problem of continually allocation and
+
+570
+00:29:50,039 --> 00:29:51,960
+you
+
+571
+00:29:51,960 --> 00:29:54,620
+in it's called a fragmentation right
+
+572
+00:29:54,620 --> 00:29:57,899
+fragmentation internal fragmentation so
+
+573
+00:29:57,899 --> 00:30:01,460
+what is the internal fragmentation
+
+574
+00:30:04,080 --> 00:30:07,320
+a lot of little holes or wider of course
+
+575
+00:30:07,320 --> 00:30:10,200
+that yeah what's your name
+
+576
+00:30:10,200 --> 00:30:14,399
+oh you are Andrew we have four Andrew
+
+577
+00:30:14,399 --> 00:30:18,240
+okay Alejandro
+
+578
+00:30:24,960 --> 00:30:27,899
+internal but why it will cause internal
+
+579
+00:30:27,899 --> 00:30:30,299
+fragmentation the answer is true like
+
+580
+00:30:30,299 --> 00:30:32,779
+the the problem is that there will be
+
+581
+00:30:32,779 --> 00:30:36,620
+internal fragmentation
+
+582
+00:30:38,279 --> 00:30:41,059
+but what Lily
+
+583
+00:30:42,360 --> 00:30:45,059
+evenly partition into the like unit
+
+584
+00:30:45,059 --> 00:30:46,320
+block size
+
+585
+00:30:46,320 --> 00:30:50,059
+the size of files
+
+586
+00:30:55,799 --> 00:30:58,200
+not exactly so so the internal
+
+587
+00:30:58,200 --> 00:31:01,140
+fragmentation means that when when we
+
+588
+00:31:01,140 --> 00:31:04,020
+run it for a long time when we write for
+
+589
+00:31:04,020 --> 00:31:06,419
+long time like files keeps comes in some
+
+590
+00:31:06,419 --> 00:31:08,700
+files keeps come out like files keeps
+
+591
+00:31:08,700 --> 00:31:11,039
+coming come out like this when we grind
+
+592
+00:31:11,039 --> 00:31:13,020
+for a long time we are going to find out
+
+593
+00:31:13,020 --> 00:31:16,740
+the disc is full of many small empty
+
+594
+00:31:16,740 --> 00:31:18,000
+holes
+
+595
+00:31:18,000 --> 00:31:21,000
+Andrew
+
+596
+00:31:25,860 --> 00:31:30,200
+after you evict a larger one
+
+597
+00:31:30,899 --> 00:31:34,080
+yes very good so let's say we in weeks
+
+598
+00:31:34,080 --> 00:31:36,179
+the larger first let's say some larger
+
+599
+00:31:36,179 --> 00:31:39,000
+files goes out let's say the larger
+
+600
+00:31:39,000 --> 00:31:41,340
+files let's say it's like
+
+601
+00:31:41,340 --> 00:31:44,279
+if the file is have five blocks right if
+
+602
+00:31:44,279 --> 00:31:47,460
+if he goes out or 10 blocks if he goes
+
+603
+00:31:47,460 --> 00:31:51,059
+out only the size is smaller than 10 can
+
+604
+00:31:51,059 --> 00:31:53,220
+fit in
+
+605
+00:31:53,220 --> 00:31:56,580
+Rising off that only the size of smaller
+
+606
+00:31:56,580 --> 00:31:59,159
+than 10 can fit in after it fits in
+
+607
+00:31:59,159 --> 00:32:02,279
+after it runs for a while
+
+608
+00:32:02,279 --> 00:32:05,100
+then we will we will see many of
+
+609
+00:32:05,100 --> 00:32:07,980
+the same empty holes like this because
+
+610
+00:32:07,980 --> 00:32:09,899
+you want you are not getting see this
+
+611
+00:32:09,899 --> 00:32:13,020
+picture may have better wheel
+
+612
+00:32:13,020 --> 00:32:14,940
+you see we have this we have this right
+
+613
+00:32:14,940 --> 00:32:17,520
+we have this at the beginning
+
+614
+00:32:17,520 --> 00:32:19,620
+everything's good okay everything's good
+
+615
+00:32:19,620 --> 00:32:22,140
+and then we found out okay we I used up
+
+616
+00:32:22,140 --> 00:32:24,000
+these files I do not need it anymore so
+
+617
+00:32:24,000 --> 00:32:25,620
+I invicted it out
+
+618
+00:32:25,620 --> 00:32:28,260
+are recycle it from the disk and then
+
+619
+00:32:28,260 --> 00:32:30,120
+what happens it will have a and it will
+
+620
+00:32:30,120 --> 00:32:32,039
+have an empty hole like the empty space
+
+621
+00:32:32,039 --> 00:32:34,020
+like this but it may still become large
+
+622
+00:32:34,020 --> 00:32:37,260
+it may still a very large space but then
+
+623
+00:32:37,260 --> 00:32:40,580
+then what happens
+
+624
+00:32:42,659 --> 00:32:44,399
+then what happened is that of course we
+
+625
+00:32:44,399 --> 00:32:47,220
+owning next time one new file comes in
+
+626
+00:32:47,220 --> 00:32:49,740
+let's say the file is six it is six
+
+627
+00:32:49,740 --> 00:32:52,460
+blocks it cannot fit in this place right
+
+628
+00:32:52,460 --> 00:32:55,620
+owning only the file owning the file
+
+629
+00:32:55,620 --> 00:32:57,899
+that is smaller than five let's say
+
+630
+00:32:57,899 --> 00:33:01,260
+three can fit in it can fit in the same
+
+631
+00:33:01,260 --> 00:33:03,960
+as this place the same as this only the
+
+632
+00:33:03,960 --> 00:33:06,240
+file that is smaller or equal than six
+
+633
+00:33:06,240 --> 00:33:09,539
+can fit in So eventually only only the
+
+634
+00:33:09,539 --> 00:33:12,179
+small files can get satisfied also the
+
+635
+00:33:12,179 --> 00:33:14,460
+new file moved out only small files can
+
+636
+00:33:14,460 --> 00:33:16,260
+get satisfied and eventually we will
+
+637
+00:33:16,260 --> 00:33:19,860
+have many this continually empty spaces
+
+638
+00:33:19,860 --> 00:33:21,419
+that we call the internal fragmentation
+
+639
+00:33:21,419 --> 00:33:23,659
+yes
+
+640
+00:33:24,539 --> 00:33:27,059
+because we had a because I mean we
+
+641
+00:33:27,059 --> 00:33:28,679
+already I guess that is kind of the idea
+
+642
+00:33:28,679 --> 00:33:30,740
+of internal fragmentation
+
+643
+00:33:30,740 --> 00:33:33,299
+yeah that's very similar that is not a
+
+644
+00:33:33,299 --> 00:33:35,539
+virtual memory we learned that it's from
+
+645
+00:33:35,539 --> 00:33:38,580
+swapping in remember that that's another
+
+646
+00:33:38,580 --> 00:33:41,279
+it's a it's called swapping so we have
+
+647
+00:33:41,279 --> 00:33:43,559
+two technologies for allocates the
+
+648
+00:33:43,559 --> 00:33:46,620
+memory spaces to the uh to the to the
+
+649
+00:33:46,620 --> 00:33:48,779
+process right the one technology is
+
+650
+00:33:48,779 --> 00:33:50,279
+called swapping another is called
+
+651
+00:33:50,279 --> 00:33:52,519
+virtual memory so this is the same as
+
+652
+00:33:52,519 --> 00:33:55,820
+swapping technology
+
+653
+00:33:58,740 --> 00:34:00,779
+that is not a virtual memory okay
+
+654
+00:34:00,779 --> 00:34:02,820
+virtual memory you actually use paging
+
+655
+00:34:02,820 --> 00:34:04,919
+the paging that one of the best feeds of
+
+656
+00:34:04,919 --> 00:34:06,779
+the paging algorithm is that it's
+
+657
+00:34:06,779 --> 00:34:09,000
+avoided
+
+658
+00:34:09,000 --> 00:34:11,040
+internal fragmentation problem because
+
+659
+00:34:11,040 --> 00:34:14,460
+it divides the process into many small
+
+660
+00:34:14,460 --> 00:34:17,580
+pages each page is 4kb so you will not
+
+661
+00:34:17,580 --> 00:34:18,839
+have any
+
+662
+00:34:18,839 --> 00:34:21,540
+big holes because everything is into the
+
+663
+00:34:21,540 --> 00:34:24,440
+page yeah
+
+664
+00:34:36,060 --> 00:34:39,119
+oh you you see you're asking if a file e
+
+665
+00:34:39,119 --> 00:34:41,720
+is growing
+
+666
+00:34:49,320 --> 00:34:53,119
+if e equal to 13
+
+667
+00:34:55,199 --> 00:34:58,380
+diagram a okay if
+
+668
+00:34:58,380 --> 00:35:01,380
+e okay if e is equal to 13 it will not
+
+669
+00:35:01,380 --> 00:35:03,839
+put there so continue our location it
+
+670
+00:35:03,839 --> 00:35:06,420
+will continually find out the m key
+
+671
+00:35:06,420 --> 00:35:08,280
+space is the larger than 30 if there's
+
+672
+00:35:08,280 --> 00:35:10,800
+no space is larger than 30 it will be
+
+673
+00:35:10,800 --> 00:35:12,839
+way there until
+
+674
+00:35:12,839 --> 00:35:16,619
+a larger 30 space is coming out so only
+
+675
+00:35:16,619 --> 00:35:21,079
+the small files can be satisfied first
+
+676
+00:35:24,180 --> 00:35:26,579
+the
+
+677
+00:35:26,579 --> 00:35:28,920
+like it always has to in continual
+
+678
+00:35:28,920 --> 00:35:30,960
+location so this is so the picture is
+
+679
+00:35:30,960 --> 00:35:32,700
+tell you the story that at first
+
+680
+00:35:32,700 --> 00:35:35,579
+everything is empty so we we have
+
+681
+00:35:35,579 --> 00:35:38,220
+different file a b c d e comms so they
+
+682
+00:35:38,220 --> 00:35:41,599
+are going to serve the one by one
+
+683
+00:35:44,040 --> 00:35:45,480
+then
+
+684
+00:35:45,480 --> 00:35:47,700
+no no no no no so here's the thing
+
+685
+00:35:47,700 --> 00:35:49,320
+continue what is the continue allocation
+
+686
+00:35:49,320 --> 00:35:52,440
+it means that first can we continually
+
+687
+00:35:52,440 --> 00:35:55,980
+allocate them so like a comes will get a
+
+688
+00:35:55,980 --> 00:36:00,720
+first that is why you see a b c d e f g
+
+689
+00:36:00,720 --> 00:36:04,320
+so the if the E equals to certain then e
+
+690
+00:36:04,320 --> 00:36:07,200
+was taking this space and then when F
+
+691
+00:36:07,200 --> 00:36:10,640
+comes f for taking this
+
+692
+00:36:17,339 --> 00:36:20,780
+I do not get that
+
+693
+00:36:22,020 --> 00:36:24,599
+yeah it's
+
+694
+00:36:24,599 --> 00:36:27,599
+just
+
+695
+00:36:30,240 --> 00:36:32,420
+happens
+
+696
+00:36:33,980 --> 00:36:36,839
+if you are asking the file become one
+
+697
+00:36:36,839 --> 00:36:38,339
+block larger
+
+698
+00:36:38,339 --> 00:36:41,460
+after you see it a while yeah that is
+
+699
+00:36:41,460 --> 00:36:43,260
+the problem that is problem it will not
+
+700
+00:36:43,260 --> 00:36:45,240
+allow that because that is a continually
+
+701
+00:36:45,240 --> 00:36:47,700
+allocation it will not allow that it
+
+702
+00:36:47,700 --> 00:36:49,200
+will be
+
+703
+00:36:49,200 --> 00:36:51,960
+but it is not the case in I know
+
+704
+00:36:51,960 --> 00:36:53,520
+allocations or what we are going to
+
+705
+00:36:53,520 --> 00:36:56,339
+learn that later okay so we see the
+
+706
+00:36:56,339 --> 00:36:57,900
+continue allocation the good thing is
+
+707
+00:36:57,900 --> 00:37:00,240
+that it's easy to implement easy to
+
+708
+00:37:00,240 --> 00:37:01,740
+implement the Real Performance is great
+
+709
+00:37:01,740 --> 00:37:05,359
+why read performance is great
+
+710
+00:37:06,060 --> 00:37:09,980
+why read performance is great yes
+
+711
+00:37:15,240 --> 00:37:17,579
+so so when we say read the performance
+
+712
+00:37:17,579 --> 00:37:19,560
+you see like you you want to see a movie
+
+713
+00:37:19,560 --> 00:37:21,740
+right you you let's say we have a movie
+
+714
+00:37:21,740 --> 00:37:24,839
+you want you want to go to the middle of
+
+715
+00:37:24,839 --> 00:37:26,640
+the movie right you want to see the
+
+716
+00:37:26,640 --> 00:37:28,800
+middle of the movie so for that page for
+
+717
+00:37:28,800 --> 00:37:30,599
+spare parts this is this continue
+
+718
+00:37:30,599 --> 00:37:32,940
+allocation approach is super great what
+
+719
+00:37:32,940 --> 00:37:35,160
+because you can directly go to the
+
+720
+00:37:35,160 --> 00:37:36,599
+middle of the movie because you already
+
+721
+00:37:36,599 --> 00:37:39,119
+know the start of the movie is so you're
+
+722
+00:37:39,119 --> 00:37:41,880
+just adding the contents then you know
+
+723
+00:37:41,880 --> 00:37:43,440
+you can point to the middle of the movie
+
+724
+00:37:43,440 --> 00:37:45,599
+if this is a movie okay
+
+725
+00:37:45,599 --> 00:37:48,359
+so that is the that is white is good but
+
+726
+00:37:48,359 --> 00:37:50,099
+if it is not a continual location like
+
+727
+00:37:50,099 --> 00:37:52,560
+the file is goes to everywhere in the
+
+728
+00:37:52,560 --> 00:37:54,240
+disk then you will never know where the
+
+729
+00:37:54,240 --> 00:37:56,099
+middle of the movie is
+
+730
+00:37:56,099 --> 00:37:59,640
+single in that way okay
+
+731
+00:37:59,640 --> 00:38:01,859
+we have this file so we have this this
+
+732
+00:38:01,859 --> 00:38:04,320
+let's say the file is a movie okay file
+
+733
+00:38:04,320 --> 00:38:06,300
+is a movie so why we say the read
+
+734
+00:38:06,300 --> 00:38:08,160
+performance is ways
+
+735
+00:38:08,160 --> 00:38:09,359
+of course
+
+736
+00:38:09,359 --> 00:38:11,760
+you only need to seek to allocate the
+
+737
+00:38:11,760 --> 00:38:13,740
+first block in the file then you can
+
+738
+00:38:13,740 --> 00:38:16,740
+know where the other block is you only
+
+739
+00:38:16,740 --> 00:38:19,200
+need to know where the first is then you
+
+740
+00:38:19,200 --> 00:38:21,240
+can know where the other is
+
+741
+00:38:21,240 --> 00:38:23,760
+because they are like like that students
+
+742
+00:38:23,760 --> 00:38:26,339
+say they are next to each other they are
+
+743
+00:38:26,339 --> 00:38:28,200
+next to each other you can easy to find
+
+744
+00:38:28,200 --> 00:38:31,020
+out but think and extreme cases that if
+
+745
+00:38:31,020 --> 00:38:33,660
+it is not continually a location if it
+
+746
+00:38:33,660 --> 00:38:35,940
+is not a continuing location the blocks
+
+747
+00:38:35,940 --> 00:38:38,160
+will be everywhere the file e will be
+
+748
+00:38:38,160 --> 00:38:40,500
+everywhere in the disk so you will never
+
+749
+00:38:40,500 --> 00:38:42,599
+find out the like the middle of the
+
+750
+00:38:42,599 --> 00:38:44,640
+movie and you need to find it one by one
+
+751
+00:38:44,640 --> 00:38:46,859
+one by one block to find out oh well my
+
+752
+00:38:46,859 --> 00:38:48,359
+the middle of the movie is that's why
+
+753
+00:38:48,359 --> 00:38:50,400
+the Real Performance is great
+
+754
+00:38:50,400 --> 00:38:52,500
+so let's see
+
+755
+00:38:52,500 --> 00:38:55,079
+the bad things is that first thing is
+
+756
+00:38:55,079 --> 00:38:57,540
+that the disk becomes fragmented over
+
+757
+00:38:57,540 --> 00:39:00,800
+time over time
+
+758
+00:39:03,420 --> 00:39:05,579
+so who are using the continuous equation
+
+759
+00:39:05,579 --> 00:39:09,079
+our CD oh
+
+760
+00:39:09,300 --> 00:39:11,640
+it's not maybe not the your age you are
+
+761
+00:39:11,640 --> 00:39:14,160
+not using CD right you're not reusing CD
+
+762
+00:39:14,160 --> 00:39:16,800
+to read the music to to listen to the
+
+763
+00:39:16,800 --> 00:39:19,440
+music right no no one using CD but you
+
+764
+00:39:19,440 --> 00:39:21,960
+know what CD is right yeah yeah that's
+
+765
+00:39:21,960 --> 00:39:24,480
+CD so at my
+
+766
+00:39:24,480 --> 00:39:26,480
+um
+
+767
+00:39:33,800 --> 00:39:36,900
+three and each truck is actually like a
+
+768
+00:39:36,900 --> 00:39:39,839
+music like a music they they use also
+
+769
+00:39:39,839 --> 00:39:42,599
+they read it one by one so CD-ROM use
+
+770
+00:39:42,599 --> 00:39:44,579
+continual occasion because the file size
+
+771
+00:39:44,579 --> 00:39:48,500
+file system size is low in events
+
+772
+00:39:50,339 --> 00:39:53,160
+as you saw same as the video okay okay
+
+773
+00:39:53,160 --> 00:39:55,140
+so another approach is linked list
+
+774
+00:39:55,140 --> 00:39:57,740
+allocation
+
+775
+00:39:58,680 --> 00:40:00,420
+oh that's very similar to what we
+
+776
+00:40:00,420 --> 00:40:02,220
+learned in the swapping technology in
+
+777
+00:40:02,220 --> 00:40:03,420
+the memory
+
+778
+00:40:03,420 --> 00:40:04,859
+um
+
+779
+00:40:04,859 --> 00:40:09,260
+chapter so linked lists are very similar
+
+780
+00:40:09,839 --> 00:40:12,359
+so the second method for storing file is
+
+781
+00:40:12,359 --> 00:40:16,200
+keep each one keep each one as a linked
+
+782
+00:40:16,200 --> 00:40:18,780
+list of the disk blocks as shown in the
+
+783
+00:40:18,780 --> 00:40:21,020
+figure
+
+784
+00:40:26,460 --> 00:40:29,099
+so the key idea of the linked list the
+
+785
+00:40:29,099 --> 00:40:32,099
+key idea of the linked list
+
+786
+00:40:32,099 --> 00:40:34,260
+so you look at a picture can you make a
+
+787
+00:40:34,260 --> 00:40:36,440
+guess
+
+788
+00:40:42,660 --> 00:40:45,660
+with the disk blocks so so this is the
+
+789
+00:40:45,660 --> 00:40:48,060
+file a so file how many blocks that the
+
+790
+00:40:48,060 --> 00:40:50,040
+file a has
+
+791
+00:40:50,040 --> 00:40:52,920
+my first instinct would be five five
+
+792
+00:40:52,920 --> 00:40:55,740
+blocks okay the five blocks of file a
+
+793
+00:40:55,740 --> 00:40:59,040
+but they allocates near to each other in
+
+794
+00:40:59,040 --> 00:41:01,560
+the physically disk
+
+795
+00:41:01,560 --> 00:41:03,420
+um no because linked lists operate on
+
+796
+00:41:03,420 --> 00:41:06,300
+pointers so they are not then where are
+
+797
+00:41:06,300 --> 00:41:08,940
+each of the blocks so we know the file a
+
+798
+00:41:08,940 --> 00:41:12,540
+have has five blocks right
+
+799
+00:41:12,540 --> 00:41:16,200
+then where are their actual location in
+
+800
+00:41:16,200 --> 00:41:18,680
+the disk
+
+801
+00:41:26,220 --> 00:41:29,160
+and one block two have an offset of two
+
+802
+00:41:29,160 --> 00:41:32,099
+and then walk walk four has an opposite
+
+803
+00:41:32,099 --> 00:41:34,619
+of 10. yeah there were good that is a
+
+804
+00:41:34,619 --> 00:41:38,660
+physical block number so here
+
+805
+00:41:43,020 --> 00:41:46,460
+so here we use the
+
+806
+00:41:47,280 --> 00:41:49,800
+they are not going to store next to each
+
+807
+00:41:49,800 --> 00:41:51,420
+other they're going not going to store
+
+808
+00:41:51,420 --> 00:41:54,660
+next to each other owning owning the
+
+809
+00:41:54,660 --> 00:41:57,300
+previous blocks knows where the next
+
+810
+00:41:57,300 --> 00:41:58,920
+block is
+
+811
+00:41:58,920 --> 00:42:01,460
+yes
+
+812
+00:42:03,720 --> 00:42:05,820
+yeah that's what I'm going to say later
+
+813
+00:42:05,820 --> 00:42:09,900
+okay so you see that is why the um
+
+814
+00:42:09,900 --> 00:42:11,700
+so the good thing about that is what is
+
+815
+00:42:11,700 --> 00:42:12,839
+a good thing
+
+816
+00:42:12,839 --> 00:42:15,740
+the good thing
+
+817
+00:42:16,740 --> 00:42:19,460
+yes
+
+818
+00:42:19,740 --> 00:42:21,839
+yes it's reduced get risk of
+
+819
+00:42:21,839 --> 00:42:23,760
+fragmentation there's no fragmentation
+
+820
+00:42:23,760 --> 00:42:26,760
+right because the files no matter how
+
+821
+00:42:26,760 --> 00:42:28,619
+large it is how small it is it's going
+
+822
+00:42:28,619 --> 00:42:31,260
+to be divided into blocks and we spread
+
+823
+00:42:31,260 --> 00:42:33,599
+out the blocks into the disk so the
+
+824
+00:42:33,599 --> 00:42:36,599
+blocks so each file like if I'm a fire
+
+825
+00:42:36,599 --> 00:42:39,119
+or I'm broken into many parts or any
+
+826
+00:42:39,119 --> 00:42:42,180
+part of the of this file can be anywhere
+
+827
+00:42:42,180 --> 00:42:45,540
+of the disk we the only each disk each
+
+828
+00:42:45,540 --> 00:42:48,660
+block only needs to know the next block
+
+829
+00:42:48,660 --> 00:42:51,480
+is the next block is so they let's say
+
+830
+00:42:51,480 --> 00:42:54,180
+the file they have a pointer we use a
+
+831
+00:42:54,180 --> 00:42:56,640
+pointer to point out the next the next
+
+832
+00:42:56,640 --> 00:42:58,079
+block
+
+833
+00:42:58,079 --> 00:43:00,660
+so the bad thing about that is like we
+
+834
+00:43:00,660 --> 00:43:01,740
+yeah
+
+835
+00:43:01,740 --> 00:43:04,280
+Andrew
+
+836
+00:43:05,760 --> 00:43:09,480
+yeah really slow of what
+
+837
+00:43:09,480 --> 00:43:12,420
+yeah so the random access is very slow
+
+838
+00:43:12,420 --> 00:43:14,400
+the read performance is not good right
+
+839
+00:43:14,400 --> 00:43:16,020
+because you need to the Rhythm
+
+840
+00:43:16,020 --> 00:43:17,640
+especially the random access let's say
+
+841
+00:43:17,640 --> 00:43:20,880
+same thing like you want to locate it at
+
+842
+00:43:20,880 --> 00:43:22,980
+the end of the movie you need to go to
+
+843
+00:43:22,980 --> 00:43:25,079
+the start of the movie and jump it one
+
+844
+00:43:25,079 --> 00:43:27,540
+by one one by one and to find out where
+
+845
+00:43:27,540 --> 00:43:29,940
+exactly the end of the movie is the
+
+846
+00:43:29,940 --> 00:43:32,640
+random access is slow so you need to
+
+847
+00:43:32,640 --> 00:43:35,460
+chase the pointers to get a block Nick
+
+848
+00:43:35,460 --> 00:43:38,819
+chase the pointer to get her block
+
+849
+00:43:38,819 --> 00:43:41,640
+this is a good thing about bad thing the
+
+850
+00:43:41,640 --> 00:43:43,260
+good thing about the link list the best
+
+851
+00:43:43,260 --> 00:43:46,160
+thing about linked list
+
+852
+00:43:50,940 --> 00:43:53,400
+any improvements before we go to the eye
+
+853
+00:43:53,400 --> 00:43:55,800
+note we say any improvements for the
+
+854
+00:43:55,800 --> 00:43:58,079
+linked list approach any Improvement
+
+855
+00:43:58,079 --> 00:44:00,920
+magician
+
+856
+00:44:01,740 --> 00:44:03,740
+s
+
+857
+00:44:04,680 --> 00:44:06,660
+yeah that is what I write in slides but
+
+858
+00:44:06,660 --> 00:44:09,619
+what exactly it is
+
+859
+00:44:19,700 --> 00:44:22,680
+developed you keep them in the memory so
+
+860
+00:44:22,680 --> 00:44:24,900
+the memory is going to say okay so this
+
+861
+00:44:24,900 --> 00:44:28,200
+so this is the next uh block is over
+
+862
+00:44:28,200 --> 00:44:30,359
+here and then that guy's next block is
+
+863
+00:44:30,359 --> 00:44:32,880
+over there and so forth you're very good
+
+864
+00:44:32,880 --> 00:44:37,579
+so the so the so the key idea is that
+
+865
+00:44:37,680 --> 00:44:41,660
+the key ideas are so we see that
+
+866
+00:44:41,880 --> 00:44:44,640
+why it is slow because we need to we do
+
+867
+00:44:44,640 --> 00:44:46,380
+not know let's say we know the file the
+
+868
+00:44:46,380 --> 00:44:49,619
+file blocks zero we only know the start
+
+869
+00:44:49,619 --> 00:44:51,839
+start of the file right but we do not
+
+870
+00:44:51,839 --> 00:44:54,180
+know we do not know the file blocks one
+
+871
+00:44:54,180 --> 00:44:56,280
+two three four five we do not know where
+
+872
+00:44:56,280 --> 00:44:59,460
+it is in the physically location so the
+
+873
+00:44:59,460 --> 00:45:02,819
+key idea of the Improvement is that how
+
+874
+00:45:02,819 --> 00:45:05,640
+about we just save the mapping we just
+
+875
+00:45:05,640 --> 00:45:07,680
+save the mapping into the into the
+
+876
+00:45:07,680 --> 00:45:08,640
+memory
+
+877
+00:45:08,640 --> 00:45:12,000
+we do not we we still use the linked
+
+878
+00:45:12,000 --> 00:45:15,060
+list allocation structure to keep track
+
+879
+00:45:15,060 --> 00:45:17,819
+of the files in the disk about how
+
+880
+00:45:17,819 --> 00:45:20,040
+beside that we're adding another
+
+881
+00:45:20,040 --> 00:45:23,040
+abstraction in the memory and what we do
+
+882
+00:45:23,040 --> 00:45:25,920
+is that we just saving the maps the map
+
+883
+00:45:25,920 --> 00:45:30,119
+like okay five the virtual block 3 is
+
+884
+00:45:30,119 --> 00:45:33,900
+mapping to the physical block 10.
+
+885
+00:45:33,900 --> 00:45:36,000
+that's a very very familiar with that's
+
+886
+00:45:36,000 --> 00:45:37,619
+why I say the file system is very
+
+887
+00:45:37,619 --> 00:45:39,599
+similar to the memory system right
+
+888
+00:45:39,599 --> 00:45:42,420
+that's the same idea so we're using
+
+889
+00:45:42,420 --> 00:45:45,480
+using a table in the memory using a
+
+890
+00:45:45,480 --> 00:45:47,940
+table in the memory that we save the
+
+891
+00:45:47,940 --> 00:45:49,319
+information
+
+892
+00:45:49,319 --> 00:45:52,800
+of the mapping between the virtual
+
+893
+00:45:52,800 --> 00:45:55,440
+blocks to the physical blocks so we know
+
+894
+00:45:55,440 --> 00:45:58,020
+where each block is okay we know where
+
+895
+00:45:58,020 --> 00:46:00,599
+each group is let's say here
+
+896
+00:46:00,599 --> 00:46:02,460
+that is the solution linked list
+
+897
+00:46:02,460 --> 00:46:04,920
+allocation using a table in the memory
+
+898
+00:46:04,920 --> 00:46:07,140
+using a table in the memory we have the
+
+899
+00:46:07,140 --> 00:46:12,680
+file a file a is starting at 7 right 7.
+
+900
+00:46:12,680 --> 00:46:15,920
+then we
+
+901
+00:46:20,280 --> 00:46:23,280
+then you see it's enough
+
+902
+00:46:23,280 --> 00:46:28,020
+uh we see this together okay
+
+903
+00:46:28,020 --> 00:46:30,660
+let's file a you see the start is
+
+904
+00:46:30,660 --> 00:46:33,660
+starting zero right it's in in the
+
+905
+00:46:33,660 --> 00:46:35,640
+physical properties of four right and
+
+906
+00:46:35,640 --> 00:46:37,680
+then we have the one and it's mapped to
+
+907
+00:46:37,680 --> 00:46:41,119
+seven so you look at this
+
+908
+00:46:43,020 --> 00:46:45,900
+so file a start here right five I start
+
+909
+00:46:45,900 --> 00:46:49,380
+here so start here so then it needs to
+
+910
+00:46:49,380 --> 00:46:51,900
+go to the seven so we go to seven in
+
+911
+00:46:51,900 --> 00:46:53,880
+front of the next two and we'll go to
+
+912
+00:46:53,880 --> 00:46:57,119
+formula 10 and then 12 and then that is
+
+913
+00:46:57,119 --> 00:46:59,819
+the end this is how they how they start
+
+914
+00:46:59,819 --> 00:47:02,839
+how they installed
+
+915
+00:47:04,859 --> 00:47:07,020
+then we know the file I use the disk
+
+916
+00:47:07,020 --> 00:47:09,599
+blocks four seven two ten twelve in that
+
+917
+00:47:09,599 --> 00:47:12,380
+order and it will be used disk
+
+918
+00:47:12,380 --> 00:47:17,060
+C63 11 14 in that order
+
+919
+00:47:18,660 --> 00:47:21,420
+so we save the information in the memory
+
+920
+00:47:21,420 --> 00:47:24,680
+so the next time we do not need to track
+
+921
+00:47:24,680 --> 00:47:28,859
+physically track the blocks like using
+
+922
+00:47:28,859 --> 00:47:31,560
+the disk pointer to point block that is
+
+923
+00:47:31,560 --> 00:47:34,380
+very slow we just at least we we just
+
+924
+00:47:34,380 --> 00:47:35,400
+need to
+
+925
+00:47:35,400 --> 00:47:37,980
+try to track the information in the
+
+926
+00:47:37,980 --> 00:47:40,680
+memory map the memory table that is very
+
+927
+00:47:40,680 --> 00:47:43,700
+straightforward yes
+
+928
+00:47:44,300 --> 00:47:47,220
+that is a little intensive that is why
+
+929
+00:47:47,220 --> 00:47:49,200
+later we introduce the New Concept
+
+930
+00:47:49,200 --> 00:47:53,040
+called I node okay I know the table
+
+931
+00:47:53,040 --> 00:47:55,859
+maybe comes really big and this also
+
+932
+00:47:55,859 --> 00:47:58,200
+needs to jump a one and a fourth right
+
+933
+00:47:58,200 --> 00:48:00,300
+you need to jump to find out where
+
+934
+00:48:00,300 --> 00:48:02,700
+exactly each but it's actually is
+
+935
+00:48:02,700 --> 00:48:04,800
+actually very fast it's not just slow
+
+936
+00:48:04,800 --> 00:48:06,780
+because everything is in memory that is
+
+937
+00:48:06,780 --> 00:48:09,300
+the key differences if you do not have
+
+938
+00:48:09,300 --> 00:48:11,099
+this table in the memory then everything
+
+939
+00:48:11,099 --> 00:48:12,660
+you need to
+
+940
+00:48:12,660 --> 00:48:16,319
+look at this this is in the disk if it
+
+941
+00:48:16,319 --> 00:48:19,500
+is not in memory you need to
+
+942
+00:48:19,500 --> 00:48:22,680
+keep tracking it in the disk disk access
+
+943
+00:48:22,680 --> 00:48:25,560
+is slow it's much slower the memory
+
+944
+00:48:25,560 --> 00:48:27,359
+access in remember the memory
+
+945
+00:48:27,359 --> 00:48:29,099
+hierarchical structure that is why the
+
+946
+00:48:29,099 --> 00:48:31,560
+crazy table to maintain the pointer
+
+947
+00:48:31,560 --> 00:48:33,540
+information in the memory because memory
+
+948
+00:48:33,540 --> 00:48:36,660
+is faster much faster is actually here
+
+949
+00:48:36,660 --> 00:48:39,119
+this table is exactly the same as the
+
+950
+00:48:39,119 --> 00:48:41,400
+pointer the pointer in the link list
+
+951
+00:48:41,400 --> 00:48:43,380
+right but it's since it's in the memory
+
+952
+00:48:43,380 --> 00:48:47,359
+so it's not that slow it's just
+
+953
+00:48:47,420 --> 00:48:50,220
+because the this table may become very
+
+954
+00:48:50,220 --> 00:48:53,280
+big become very big and it's not that
+
+955
+00:48:53,280 --> 00:48:56,400
+it's kind of expensive to keep tracking
+
+956
+00:48:56,400 --> 00:48:59,280
+like that keep reading
+
+957
+00:48:59,280 --> 00:49:03,480
+then we have the key idea then we have a
+
+958
+00:49:03,480 --> 00:49:06,980
+key idea about the inode
+
+959
+00:49:08,819 --> 00:49:11,220
+so before we're talking about inode so I
+
+960
+00:49:11,220 --> 00:49:14,579
+want to you go uh remember some
+
+961
+00:49:14,579 --> 00:49:18,680
+important concepts of the OS
+
+962
+00:49:20,760 --> 00:49:22,740
+we first look at the continual
+
+963
+00:49:22,740 --> 00:49:24,720
+allocation right we find out it's not
+
+964
+00:49:24,720 --> 00:49:26,760
+good because its cost of fragmentation
+
+965
+00:49:26,760 --> 00:49:29,640
+then we use the linked list we okay we
+
+966
+00:49:29,640 --> 00:49:32,160
+say that it's also not good because it's
+
+967
+00:49:32,160 --> 00:49:35,160
+what the the read performance right the
+
+968
+00:49:35,160 --> 00:49:38,220
+random access is very slow so the both
+
+969
+00:49:38,220 --> 00:49:40,920
+both approaches are not good one
+
+970
+00:49:40,920 --> 00:49:43,380
+approach complements another right the
+
+971
+00:49:43,380 --> 00:49:45,599
+continual location has the benefits of
+
+972
+00:49:45,599 --> 00:49:48,480
+goodread access the linked list has the
+
+973
+00:49:48,480 --> 00:49:51,599
+benefits of avoid fragmentation But A
+
+974
+00:49:51,599 --> 00:49:54,300
+and B they are both not good they are
+
+975
+00:49:54,300 --> 00:49:55,980
+both not good then
+
+976
+00:49:55,980 --> 00:49:58,740
+you have a certain solution so here the
+
+977
+00:49:58,740 --> 00:50:00,720
+the thing what I want you to take away
+
+978
+00:50:00,720 --> 00:50:03,540
+here is that is um out of the textbook
+
+979
+00:50:03,540 --> 00:50:06,119
+okay everything in the operating systems
+
+980
+00:50:06,119 --> 00:50:08,640
+that you cannot fix everything almost
+
+981
+00:50:08,640 --> 00:50:10,560
+everything you can do that that is a
+
+982
+00:50:10,560 --> 00:50:11,960
+famous
+
+983
+00:50:11,960 --> 00:50:14,280
+researcher said that everything we
+
+984
+00:50:14,280 --> 00:50:17,339
+cannot fix that in operating systems
+
+985
+00:50:17,339 --> 00:50:20,400
+by using different data structures
+
+986
+00:50:20,400 --> 00:50:23,160
+so any problem that you cannot fix just
+
+987
+00:50:23,160 --> 00:50:25,980
+by changing the data structures you can
+
+988
+00:50:25,980 --> 00:50:29,400
+fix that problem with adding an extra
+
+989
+00:50:29,400 --> 00:50:32,040
+obstruction by adding an extra
+
+990
+00:50:32,040 --> 00:50:35,760
+abstraction so that is why for the negle
+
+991
+00:50:35,760 --> 00:50:37,140
+list that they're adding a new
+
+992
+00:50:37,140 --> 00:50:39,839
+obstruction like this like this that is
+
+993
+00:50:39,839 --> 00:50:41,760
+actually a new abstraction but this
+
+994
+00:50:41,760 --> 00:50:44,099
+abstraction is still not good then we
+
+995
+00:50:44,099 --> 00:50:48,359
+change the abstraction into the I node
+
+996
+00:50:48,359 --> 00:50:52,020
+into inode so what exactly I notice what
+
+997
+00:50:52,020 --> 00:50:54,720
+exactly I know this so first I know
+
+998
+00:50:54,720 --> 00:50:56,700
+there is a data structure okay it's a
+
+999
+00:50:56,700 --> 00:50:58,140
+data structure
+
+1000
+00:50:58,140 --> 00:50:59,819
+so
+
+1001
+00:50:59,819 --> 00:51:03,599
+each file has a separates I node like
+
+1002
+00:51:03,599 --> 00:51:05,780
+each of you have a
+
+1003
+00:51:05,780 --> 00:51:10,680
+student card or driver license okay each
+
+1004
+00:51:10,680 --> 00:51:13,380
+file has an important
+
+1005
+00:51:13,380 --> 00:51:16,980
+I know the data structure
+
+1006
+00:51:16,980 --> 00:51:21,420
+so and then what I know I know the data
+
+1007
+00:51:21,420 --> 00:51:23,339
+structure contains what I know the data
+
+1008
+00:51:23,339 --> 00:51:25,380
+structure contains so we create I know
+
+1009
+00:51:25,380 --> 00:51:27,300
+let's say I know the class right the
+
+1010
+00:51:27,300 --> 00:51:29,339
+class I node then we need to design the
+
+1011
+00:51:29,339 --> 00:51:32,760
+variables and inside of the I know the
+
+1012
+00:51:32,760 --> 00:51:35,280
+right and the operations the variables
+
+1013
+00:51:35,280 --> 00:51:38,760
+and operations inside of the inode
+
+1014
+00:51:38,760 --> 00:51:40,500
+then what are they
+
+1015
+00:51:40,500 --> 00:51:44,520
+so think of that your Drive lessons
+
+1016
+00:51:44,520 --> 00:51:47,760
+contains who you are write the name of
+
+1017
+00:51:47,760 --> 00:51:50,700
+you the date of birth of you
+
+1018
+00:51:50,700 --> 00:51:54,660
+the address of you and maybe the ID
+
+1019
+00:51:54,660 --> 00:51:57,119
+driver license ID of you
+
+1020
+00:51:57,119 --> 00:51:59,339
+right same as I know it I know that will
+
+1021
+00:51:59,339 --> 00:52:01,020
+create will have the information about
+
+1022
+00:52:01,020 --> 00:52:03,839
+who creates this file
+
+1023
+00:52:03,839 --> 00:52:07,740
+where the fire is how many blocks this
+
+1024
+00:52:07,740 --> 00:52:10,400
+file has
+
+1025
+00:52:15,059 --> 00:52:17,900
+I know
+
+1026
+00:52:25,260 --> 00:52:28,559
+I know the right I know that we have a
+
+1027
+00:52:28,559 --> 00:52:30,599
+let's say your driver
+
+1028
+00:52:30,599 --> 00:52:32,940
+lessons
+
+1029
+00:52:32,940 --> 00:52:34,800
+the job lessons you have the uh your
+
+1030
+00:52:34,800 --> 00:52:37,800
+name right the name the name of you who
+
+1031
+00:52:37,800 --> 00:52:40,460
+you are right
+
+1032
+00:52:40,619 --> 00:52:43,079
+like Andrew
+
+1033
+00:52:43,079 --> 00:52:45,780
+right so that I know that the I node
+
+1034
+00:52:45,780 --> 00:52:48,240
+okay this file the file that it will has
+
+1035
+00:52:48,240 --> 00:52:50,339
+let's say the name the name of the file
+
+1036
+00:52:50,339 --> 00:52:53,220
+let's say the name of the file is
+
+1037
+00:52:53,220 --> 00:52:57,780
+is a DOT t x t that is the name of the
+
+1038
+00:52:57,780 --> 00:53:00,660
+file now what else in the drive lessons
+
+1039
+00:53:00,660 --> 00:53:02,819
+you have the dob right
+
+1040
+00:53:02,819 --> 00:53:05,280
+ptob the same other stuff I know the
+
+1041
+00:53:05,280 --> 00:53:08,900
+same creation dates right
+
+1042
+00:53:13,440 --> 00:53:15,540
+there's some creation days what else
+
+1043
+00:53:15,540 --> 00:53:18,119
+what else you remember that we learned
+
+1044
+00:53:18,119 --> 00:53:21,300
+from the user's point of view we see we
+
+1045
+00:53:21,300 --> 00:53:23,940
+used to see a table the table shows the
+
+1046
+00:53:23,940 --> 00:53:25,920
+many information about the file right
+
+1047
+00:53:25,920 --> 00:53:29,180
+let's say the access
+
+1048
+00:53:29,460 --> 00:53:34,040
+because the excess pattern
+
+1049
+00:53:34,680 --> 00:53:39,420
+like read write execute
+
+1050
+00:53:39,480 --> 00:53:44,300
+right it will show that too or what else
+
+1051
+00:53:44,880 --> 00:53:46,980
+so that's the same thing right in your
+
+1052
+00:53:46,980 --> 00:53:48,839
+drive lessons you also have your access
+
+1053
+00:53:48,839 --> 00:53:53,760
+pattern uses like you'll see a b c d
+
+1054
+00:53:53,760 --> 00:53:57,059
+so most of us have the C right so you we
+
+1055
+00:53:57,059 --> 00:53:59,220
+are allowed to drive small cars small
+
+1056
+00:53:59,220 --> 00:54:02,460
+cars same as this what what else then it
+
+1057
+00:54:02,460 --> 00:54:04,079
+has the your address that's very
+
+1058
+00:54:04,079 --> 00:54:05,579
+important whenever you change your
+
+1059
+00:54:05,579 --> 00:54:08,040
+address you need to report to the
+
+1060
+00:54:08,040 --> 00:54:10,680
+to the DDS right that's the same thing
+
+1061
+00:54:10,680 --> 00:54:12,839
+as the I node I know this is for file
+
+1062
+00:54:12,839 --> 00:54:15,599
+this file the address so now the tricky
+
+1063
+00:54:15,599 --> 00:54:16,980
+is here
+
+1064
+00:54:16,980 --> 00:54:20,760
+the trick is here for us we for us we we
+
+1065
+00:54:20,760 --> 00:54:22,980
+are just the person right we address is
+
+1066
+00:54:22,980 --> 00:54:25,140
+just where we live it's a one one
+
+1067
+00:54:25,140 --> 00:54:27,420
+address right it's just a one dress but
+
+1068
+00:54:27,420 --> 00:54:29,220
+for I know the slightly different so
+
+1069
+00:54:29,220 --> 00:54:30,480
+what is the difference what are the
+
+1070
+00:54:30,480 --> 00:54:32,720
+difference
+
+1071
+00:54:32,760 --> 00:54:36,500
+any student know what are the difference
+
+1072
+00:54:38,339 --> 00:54:41,940
+if if just the persons only have one of
+
+1073
+00:54:41,940 --> 00:54:43,740
+the drugs but for that I know it's a
+
+1074
+00:54:43,740 --> 00:54:47,960
+file it's a file yeah every
+
+1075
+00:54:48,839 --> 00:54:51,800
+much more
+
+1076
+00:54:51,839 --> 00:54:53,819
+for each block you're very good remember
+
+1077
+00:54:53,819 --> 00:54:56,280
+the file is broken into the blocks right
+
+1078
+00:54:56,280 --> 00:54:59,099
+the file is broken this is a large file
+
+1079
+00:54:59,099 --> 00:55:03,660
+the file the file is the a DOT txt it's
+
+1080
+00:55:03,660 --> 00:55:05,700
+blocked into many blocks right it's
+
+1081
+00:55:05,700 --> 00:55:09,059
+broken into many blocks so the addresses
+
+1082
+00:55:09,059 --> 00:55:10,920
+block one
+
+1083
+00:55:10,920 --> 00:55:12,780
+block two
+
+1084
+00:55:12,780 --> 00:55:14,480
+block three
+
+1085
+00:55:14,480 --> 00:55:17,400
+block and
+
+1086
+00:55:17,400 --> 00:55:19,500
+so here the I know the container
+
+1087
+00:55:19,500 --> 00:55:22,200
+information about
+
+1088
+00:55:22,200 --> 00:55:24,960
+the block recorded the block address the
+
+1089
+00:55:24,960 --> 00:55:27,180
+address of each blocks
+
+1090
+00:55:27,180 --> 00:55:29,760
+so it points to where
+
+1091
+00:55:29,760 --> 00:55:32,660
+a physical physical
+
+1092
+00:55:34,800 --> 00:55:37,140
+block number right the physical block
+
+1093
+00:55:37,140 --> 00:55:38,819
+number
+
+1094
+00:55:38,819 --> 00:55:40,619
+the physical address you can think of
+
+1095
+00:55:40,619 --> 00:55:43,200
+the physical address in the disk
+
+1096
+00:55:43,200 --> 00:55:45,180
+um
+
+1097
+00:55:45,180 --> 00:55:47,460
+so many times it will just show you the
+
+1098
+00:55:47,460 --> 00:55:49,260
+partition number and then the block
+
+1099
+00:55:49,260 --> 00:55:50,640
+number it will show you two numbers
+
+1100
+00:55:50,640 --> 00:55:53,099
+partition number and block number the
+
+1101
+00:55:53,099 --> 00:55:56,099
+physical that is a physical block
+
+1102
+00:55:56,099 --> 00:55:58,579
+physical
+
+1103
+00:56:18,720 --> 00:56:23,240
+Rachel that is the I node I node
+
+1104
+00:56:24,480 --> 00:56:28,520
+so we see this is actually a
+
+1105
+00:56:28,520 --> 00:56:31,680
+Improvement than the
+
+1106
+00:56:31,680 --> 00:56:35,760
+the link release the table what's the
+
+1107
+00:56:35,760 --> 00:56:37,020
+difference
+
+1108
+00:56:37,020 --> 00:56:39,780
+in a linked list in remember in the link
+
+1109
+00:56:39,780 --> 00:56:42,720
+in the table for the linked list we we
+
+1110
+00:56:42,720 --> 00:56:45,300
+use the memory we have a one table for
+
+1111
+00:56:45,300 --> 00:56:48,000
+all the files right for one order files
+
+1112
+00:56:48,000 --> 00:56:50,040
+so the table may be coming extremely
+
+1113
+00:56:50,040 --> 00:56:53,400
+large but in this case we do not have a
+
+1114
+00:56:53,400 --> 00:56:56,700
+memory table for I know right we just
+
+1115
+00:56:56,700 --> 00:56:59,160
+each file have a data structure of this
+
+1116
+00:56:59,160 --> 00:57:01,680
+so each file each file has a data
+
+1117
+00:57:01,680 --> 00:57:03,780
+structure we called inode
+
+1118
+00:57:03,780 --> 00:57:06,619
+I node
+
+1119
+00:57:09,720 --> 00:57:13,020
+I node each each file has a data
+
+1120
+00:57:13,020 --> 00:57:15,480
+structure called inode we do not put it
+
+1121
+00:57:15,480 --> 00:57:17,940
+we do not have a table
+
+1122
+00:57:17,940 --> 00:57:21,359
+for whole files it's not like it's not
+
+1123
+00:57:21,359 --> 00:57:25,260
+like what we learned in My Maria in in
+
+1124
+00:57:25,260 --> 00:57:26,400
+this
+
+1125
+00:57:26,400 --> 00:57:28,260
+it's completely different than this
+
+1126
+00:57:28,260 --> 00:57:30,359
+right in this approach
+
+1127
+00:57:30,359 --> 00:57:32,819
+every file is inside you see every file
+
+1128
+00:57:32,819 --> 00:57:35,460
+is inside so that is why the table may
+
+1129
+00:57:35,460 --> 00:57:38,220
+become huge may become huge but for
+
+1130
+00:57:38,220 --> 00:57:40,760
+inode
+
+1131
+00:57:48,359 --> 00:57:50,760
+for inode we only need this information
+
+1132
+00:57:50,760 --> 00:57:53,040
+the file attributes right and the
+
+1133
+00:57:53,040 --> 00:57:55,859
+address of each of its blocks physical
+
+1134
+00:57:55,859 --> 00:57:58,980
+address of each blocks and then and then
+
+1135
+00:57:58,980 --> 00:58:02,000
+question comes to you
+
+1136
+00:58:02,400 --> 00:58:05,220
+how do you decide which so the I know
+
+1137
+00:58:05,220 --> 00:58:08,520
+that is a data structure right we
+
+1138
+00:58:08,520 --> 00:58:10,980
+where we should put it in the disk or in
+
+1139
+00:58:10,980 --> 00:58:13,280
+the memory
+
+1140
+00:58:14,400 --> 00:58:17,599
+where we should put it
+
+1141
+00:58:17,760 --> 00:58:20,420
+Andrew anjura
+
+1142
+00:58:20,420 --> 00:58:24,079
+neck okay neck
+
+1143
+00:58:26,280 --> 00:58:28,500
+if we use it we keep it in memory very
+
+1144
+00:58:28,500 --> 00:58:30,359
+good if you use it we give you the
+
+1145
+00:58:30,359 --> 00:58:32,400
+memory if you do not use it we do not
+
+1146
+00:58:32,400 --> 00:58:34,500
+keep it the memory we just put it in the
+
+1147
+00:58:34,500 --> 00:58:37,260
+disk right where in the disk
+
+1148
+00:58:37,260 --> 00:58:40,020
+we learned that half an hour ago where
+
+1149
+00:58:40,020 --> 00:58:43,400
+it is we are in the disk
+
+1150
+00:58:46,020 --> 00:58:48,839
+Maji
+
+1151
+00:58:48,839 --> 00:58:51,000
+near the start of the disc right here
+
+1152
+00:58:51,000 --> 00:58:53,059
+here
+
+1153
+00:58:53,820 --> 00:58:56,909
+[Music]
+
+1154
+00:58:57,079 --> 00:59:01,260
+the very start of this after super block
+
+1155
+00:59:01,260 --> 00:59:03,900
+that is I know right but if we use it we
+
+1156
+00:59:03,900 --> 00:59:05,640
+put this data structure in the memory
+
+1157
+00:59:05,640 --> 00:59:08,520
+now the question is that how do you know
+
+1158
+00:59:08,520 --> 00:59:10,619
+when do you when you are going to usage
+
+1159
+00:59:10,619 --> 00:59:12,720
+when you are not using it
+
+1160
+00:59:12,720 --> 00:59:16,319
+like you you could you need to have you
+
+1161
+00:59:16,319 --> 00:59:18,299
+need to have a space for this eye node
+
+1162
+00:59:18,299 --> 00:59:22,380
+right then it comes to another
+
+1163
+00:59:22,380 --> 00:59:25,740
+data structure called I node table I
+
+1164
+00:59:25,740 --> 00:59:28,280
+know the table
+
+1165
+00:59:29,400 --> 00:59:32,640
+I know table so in I know the table what
+
+1166
+00:59:32,640 --> 00:59:35,640
+we are going to do is that
+
+1167
+00:59:35,640 --> 00:59:38,900
+here here see
+
+1168
+00:59:38,940 --> 00:59:41,700
+we are going to put all the frequently
+
+1169
+00:59:41,700 --> 00:59:45,180
+used inode into the inode table so I
+
+1170
+00:59:45,180 --> 00:59:47,099
+know table is actually has two layers
+
+1171
+00:59:47,099 --> 00:59:50,460
+the first layer is the each I know that
+
+1172
+00:59:50,460 --> 00:59:52,380
+I'm going to give you give them a number
+
+1173
+00:59:52,380 --> 00:59:55,500
+let's say this is one two three and then
+
+1174
+00:59:55,500 --> 00:59:58,079
+there's many I know the right one two
+
+1175
+00:59:58,079 --> 01:00:00,420
+three four five six let's say what we
+
+1176
+01:00:00,420 --> 01:00:02,160
+have ten thousand files then the number
+
+1177
+01:00:02,160 --> 01:00:05,040
+may become ten thousand ten thousand ten
+
+1178
+01:00:05,040 --> 01:00:07,799
+ten thousand tenkates then in the I know
+
+1179
+01:00:07,799 --> 01:00:09,780
+the table it's in the memory I know the
+
+1180
+01:00:09,780 --> 01:00:12,000
+table is in memory in I know the table
+
+1181
+01:00:12,000 --> 01:00:14,520
+I'm going to put the frequently used
+
+1182
+01:00:14,520 --> 01:00:17,760
+files into the table so let's say one
+
+1183
+01:00:17,760 --> 01:00:19,160
+three seven
+
+1184
+01:00:19,160 --> 01:00:22,559
+eleven thirteen one thousand one
+
+1185
+01:00:22,559 --> 01:00:25,980
+thousand twenty four this is the the my
+
+1186
+01:00:25,980 --> 01:00:28,079
+frequently used the file so I put it in
+
+1187
+01:00:28,079 --> 01:00:30,119
+the I know the table then points after
+
+1188
+01:00:30,119 --> 01:00:32,400
+points to I know the table is the I node
+
+1189
+01:00:32,400 --> 01:00:35,579
+that's the where the exactly I know this
+
+1190
+01:00:35,579 --> 01:00:38,339
+then we can find out the I know so this
+
+1191
+01:00:38,339 --> 01:00:40,920
+this I know table is in the memory and
+
+1192
+01:00:40,920 --> 01:00:43,020
+the source that I know the frequently
+
+1193
+01:00:43,020 --> 01:00:45,240
+used I know then I can find out well
+
+1194
+01:00:45,240 --> 01:00:48,799
+exactly the
+
+1195
+01:00:49,099 --> 01:00:51,240
+I know that we can know the physical
+
+1196
+01:00:51,240 --> 01:00:53,579
+address of the inode and then we can
+
+1197
+01:00:53,579 --> 01:00:55,740
+locate the file so I have a video to
+
+1198
+01:00:55,740 --> 01:01:00,260
+show the past uh give me one second
+
+1199
+01:01:06,059 --> 01:01:08,599
+see
+
+1200
+01:01:15,900 --> 01:01:17,960
+you
+
+1201
+01:01:36,059 --> 01:01:37,980
+it's in format is the popular file
+
+1202
+01:01:37,980 --> 01:01:39,960
+system format is the extended format
+
+1203
+01:01:39,960 --> 01:01:42,420
+commonly used in Linux each file in the
+
+1204
+01:01:42,420 --> 01:01:44,099
+disk has a data structure called an
+
+1205
+01:01:44,099 --> 01:01:46,140
+inode associated with it the inode is
+
+1206
+01:01:46,140 --> 01:01:48,960
+fixed link popular another popular file
+
+1207
+01:01:48,960 --> 01:01:50,880
+system format is the extended format
+
+1208
+01:01:50,880 --> 01:01:53,400
+commonly used in Linux each file in the
+
+1209
+01:01:53,400 --> 01:01:55,079
+disk has a data structure called an
+
+1210
+01:01:55,079 --> 01:01:57,180
+inode associated with it the inode is
+
+1211
+01:01:57,180 --> 01:01:59,460
+fixed length it contains the metadata
+
+1212
+01:01:59,460 --> 01:02:01,559
+for the file and it serves as the glue
+
+1213
+01:02:01,559 --> 01:02:03,720
+linking the data blocks together in the
+
+1214
+01:02:03,720 --> 01:02:05,880
+right order is this gluing function that
+
+1215
+01:02:05,880 --> 01:02:07,799
+is the most interesting the inode stores
+
+1216
+01:02:07,799 --> 01:02:11,040
+15 data block addresses or pointers the
+
+1217
+01:02:11,040 --> 01:02:13,440
+first 12 of these Point directly to the
+
+1218
+01:02:13,440 --> 01:02:15,780
+first 12 data blocks of the file this
+
+1219
+01:02:15,780 --> 01:02:17,520
+makes the strategy efficient for small
+
+1220
+01:02:17,520 --> 01:02:20,880
+files the 13th of these addresses points
+
+1221
+01:02:20,880 --> 01:02:23,220
+to a block that consists of a table of
+
+1222
+01:02:23,220 --> 01:02:25,859
+addresses for the next blocks in the
+
+1223
+01:02:25,859 --> 01:02:28,440
+file this vastly increases the number of
+
+1224
+01:02:28,440 --> 01:02:30,599
+blocks that we can use in a file the
+
+1225
+01:02:30,599 --> 01:02:31,920
+downside is that we've introduced a
+
+1226
+01:02:31,920 --> 01:02:33,780
+layer of indirection if this doesn't
+
+1227
+01:02:33,780 --> 01:02:36,000
+give the file enough space then we use
+
+1228
+01:02:36,000 --> 01:02:38,700
+this 14th pointer and not one but two
+
+1229
+01:02:38,700 --> 01:02:40,559
+layers of indirection giving us even
+
+1230
+01:02:40,559 --> 01:02:42,839
+more space and if this isn't enough we
+
+1231
+01:02:42,839 --> 01:02:45,000
+have a 15th pointer which uses triple n
+
+1232
+01:02:45,000 --> 01:02:47,640
+direction for more space still
+
+1233
+01:02:47,640 --> 01:02:49,619
+just like in fact directories are traded
+
+1234
+01:02:49,619 --> 01:02:52,020
+as files only instead of mapping a file
+
+1235
+01:02:52,020 --> 01:02:54,540
+name to the first file block then map a
+
+1236
+01:02:54,540 --> 01:02:57,180
+file name to its inode that path for
+
+1237
+01:02:57,180 --> 01:03:00,599
+accessing slash Foo slash file.txt would
+
+1238
+01:03:00,599 --> 01:03:02,579
+look something like this we start at the
+
+1239
+01:03:02,579 --> 01:03:04,619
+inode for the root directory
+
+1240
+01:03:04,619 --> 01:03:07,440
+and then following its data pointers we
+
+1241
+01:03:07,440 --> 01:03:10,559
+find the data for the root directory
+
+1242
+01:03:10,559 --> 01:03:13,319
+there we find that Foo maps to another
+
+1243
+01:03:13,319 --> 01:03:14,400
+inode
+
+1244
+01:03:14,400 --> 01:03:17,880
+following that address we consult that
+
+1245
+01:03:17,880 --> 01:03:20,760
+inode and find the address for its data
+
+1246
+01:03:20,760 --> 01:03:22,020
+block
+
+1247
+01:03:22,020 --> 01:03:24,000
+looking in there we find the contents of
+
+1248
+01:03:24,000 --> 01:03:26,579
+Slash Foo that's a directory so it's
+
+1249
+01:03:26,579 --> 01:03:30,359
+going to map the file name file.txt to
+
+1250
+01:03:30,359 --> 01:03:33,240
+the appropriate inode and then using
+
+1251
+01:03:33,240 --> 01:03:35,640
+that inode structure we're able to piece
+
+1252
+01:03:35,640 --> 01:03:39,079
+together the data that we need
+
+1253
+01:03:41,160 --> 01:03:44,040
+the data that we need so if if we look
+
+1254
+01:03:44,040 --> 01:03:46,859
+at this so here this is the absolute
+
+1255
+01:03:46,859 --> 01:03:49,680
+path right that's the absolute pass
+
+1256
+01:03:49,680 --> 01:03:54,960
+so the file is in the dash Foo Dash file
+
+1257
+01:03:54,960 --> 01:03:58,260
+dot txt right the file that is the
+
+1258
+01:03:58,260 --> 01:04:01,020
+absolute part of that file so this video
+
+1259
+01:04:01,020 --> 01:04:02,460
+tells you
+
+1260
+01:04:02,460 --> 01:04:04,920
+like how the printing system find out
+
+1261
+01:04:04,920 --> 01:04:07,260
+the file the exactly file accounting so
+
+1262
+01:04:07,260 --> 01:04:09,839
+we first look at for this file that txt
+
+1263
+01:04:09,839 --> 01:04:11,880
+there is I node right every file has an
+
+1264
+01:04:11,880 --> 01:04:13,980
+inode so we see the file the activity
+
+1265
+01:04:13,980 --> 01:04:17,099
+has a I know so it has the metadata and
+
+1266
+01:04:17,099 --> 01:04:19,619
+then block address of each of the blocks
+
+1267
+01:04:19,619 --> 01:04:22,440
+right so this is each of the blocks so
+
+1268
+01:04:22,440 --> 01:04:25,020
+we have the um
+
+1269
+01:04:25,020 --> 01:04:27,240
+so this is the case that the file what
+
+1270
+01:04:27,240 --> 01:04:29,520
+if the file is extremely large if the
+
+1271
+01:04:29,520 --> 01:04:31,260
+file is extremely large then that I know
+
+1272
+01:04:31,260 --> 01:04:34,020
+that maybe they may need several layers
+
+1273
+01:04:34,020 --> 01:04:37,020
+of the inode to represent the file
+
+1274
+01:04:37,020 --> 01:04:39,660
+because you cannot hold everything broke
+
+1275
+01:04:39,660 --> 01:04:41,400
+out the broker address maybe very very
+
+1276
+01:04:41,400 --> 01:04:43,980
+long a lot of entries so you want to
+
+1277
+01:04:43,980 --> 01:04:45,720
+avoid that
+
+1278
+01:04:45,720 --> 01:04:48,059
+then they use several layers but we can
+
+1279
+01:04:48,059 --> 01:04:49,500
+just look at the first layer okay
+
+1280
+01:04:49,500 --> 01:04:51,420
+doesn't matter they don't match the data
+
+1281
+01:04:51,420 --> 01:04:52,980
+like who I want to file the creation of
+
+1282
+01:04:52,980 --> 01:04:55,079
+the file the file access patterns and
+
+1283
+01:04:55,079 --> 01:04:57,660
+then we have the each blocks each block
+
+1284
+01:04:57,660 --> 01:04:59,579
+of the file we have first of several
+
+1285
+01:04:59,579 --> 01:05:02,280
+first several blocks we see then there
+
+1286
+01:05:02,280 --> 01:05:06,000
+we locate to there then we can find out
+
+1287
+01:05:06,000 --> 01:05:09,900
+exactly data of the file.txt that is
+
+1288
+01:05:09,900 --> 01:05:13,740
+exactly file.txt but then to locate the
+
+1289
+01:05:13,740 --> 01:05:16,500
+file txt we need to know the absolute
+
+1290
+01:05:16,500 --> 01:05:20,280
+path right remember the everything in
+
+1291
+01:05:20,280 --> 01:05:22,859
+the um in the linear systems is the
+
+1292
+01:05:22,859 --> 01:05:25,500
+files are organized into a tree
+
+1293
+01:05:25,500 --> 01:05:28,319
+structure starting from the loose folder
+
+1294
+01:05:28,319 --> 01:05:31,920
+to the subfolders and then to the files
+
+1295
+01:05:31,920 --> 01:05:34,799
+right there's many many directories and
+
+1296
+01:05:34,799 --> 01:05:36,660
+they organize the other three then we
+
+1297
+01:05:36,660 --> 01:05:39,599
+need to locate the exactly I node for
+
+1298
+01:05:39,599 --> 01:05:42,240
+file txt we need to locate the folder
+
+1299
+01:05:42,240 --> 01:05:45,000
+for their directory first and we find
+
+1300
+01:05:45,000 --> 01:05:45,960
+out that
+
+1301
+01:05:45,960 --> 01:05:48,720
+I node for the root directory but it
+
+1302
+01:05:48,720 --> 01:05:51,420
+only tells you the physical address of
+
+1303
+01:05:51,420 --> 01:05:53,640
+the blue directory then we go to the
+
+1304
+01:05:53,640 --> 01:05:55,680
+physical address and find out the data
+
+1305
+01:05:55,680 --> 01:05:58,619
+of the I know the root directory and
+
+1306
+01:05:58,619 --> 01:06:00,540
+then see we see the data inside of the
+
+1307
+01:06:00,540 --> 01:06:02,579
+data this is a directory right so the
+
+1308
+01:06:02,579 --> 01:06:05,339
+directory will tell the
+
+1309
+01:06:05,339 --> 01:06:08,220
+inside of the directory it will be the
+
+1310
+01:06:08,220 --> 01:06:10,200
+subdirectories right that is the context
+
+1311
+01:06:10,200 --> 01:06:13,500
+of that directory right it will not it
+
+1312
+01:06:13,500 --> 01:06:16,380
+only tells you next level of the
+
+1313
+01:06:16,380 --> 01:06:18,960
+contents so that is why we need to find
+
+1314
+01:06:18,960 --> 01:06:22,319
+out the I node for the dash Foo for
+
+1315
+01:06:22,319 --> 01:06:24,900
+dashfo so the after we find out the dash
+
+1316
+01:06:24,900 --> 01:06:27,059
+I node for dash fo we look at the
+
+1317
+01:06:27,059 --> 01:06:30,000
+physical address of the dash flow so
+
+1318
+01:06:30,000 --> 01:06:32,220
+when we find out the dash file and the
+
+1319
+01:06:32,220 --> 01:06:34,339
+dash of
+
+1320
+01:06:34,339 --> 01:06:37,319
+under the dash Foo there may be many
+
+1321
+01:06:37,319 --> 01:06:40,140
+files not just the file.txt there may be
+
+1322
+01:06:40,140 --> 01:06:43,380
+a file B TST fail ctsd but we know that
+
+1323
+01:06:43,380 --> 01:06:45,960
+we can find out the data for the for the
+
+1324
+01:06:45,960 --> 01:06:49,380
+file txt under the dash of all after
+
+1325
+01:06:49,380 --> 01:06:52,859
+that we look at the I node for the file
+
+1326
+01:06:52,859 --> 01:06:56,640
+txt and then we find out the exactly
+
+1327
+01:06:56,640 --> 01:06:59,039
+exactly data is
+
+1328
+01:06:59,039 --> 01:07:02,280
+wait so that is the whole story about
+
+1329
+01:07:02,280 --> 01:07:05,760
+how we use the inode tool to find out
+
+1330
+01:07:05,760 --> 01:07:08,660
+the data okay
+
+1331
+01:07:35,640 --> 01:07:39,599
+okay and then implementing directories
+
+1332
+01:07:39,599 --> 01:07:41,099
+okay
+
+1333
+01:07:41,099 --> 01:07:45,200
+so how do we Implement in directories
+
+1334
+01:07:45,780 --> 01:07:48,299
+so the directory entries provides the
+
+1335
+01:07:48,299 --> 01:07:51,059
+information needed to find the data disk
+
+1336
+01:07:51,059 --> 01:07:53,099
+blocks depending on the system this
+
+1337
+01:07:53,099 --> 01:07:54,839
+information maybe the discount address
+
+1338
+01:07:54,839 --> 01:07:57,480
+of the entire file or the number of the
+
+1339
+01:07:57,480 --> 01:08:01,400
+file blocks or the number of inode
+
+1340
+01:08:07,319 --> 01:08:10,140
+so the directory so here the takeaway
+
+1341
+01:08:10,140 --> 01:08:14,059
+here is this okay the directory
+
+1342
+01:08:16,080 --> 01:08:18,779
+so let's see how do we implement this
+
+1343
+01:08:18,779 --> 01:08:20,759
+directory how do we implement the
+
+1344
+01:08:20,759 --> 01:08:23,239
+directory
+
+1345
+01:08:23,580 --> 01:08:25,679
+so did The Rock refers so you need to
+
+1346
+01:08:25,679 --> 01:08:27,660
+know the directory is the same as the
+
+1347
+01:08:27,660 --> 01:08:29,339
+files the directory have the same
+
+1348
+01:08:29,339 --> 01:08:31,738
+structures of files they just
+
+1349
+01:08:31,738 --> 01:08:33,479
+um
+
+1350
+01:08:33,479 --> 01:08:35,520
+the difference is between the directory
+
+1351
+01:08:35,520 --> 01:08:38,279
+and the file is that the file they do
+
+1352
+01:08:38,279 --> 01:08:40,198
+not have many subdirectory but directly
+
+1353
+01:08:40,198 --> 01:08:42,899
+they have subdirectory so that is why
+
+1354
+01:08:42,899 --> 01:08:44,899
+um
+
+1355
+01:08:45,179 --> 01:08:48,238
+we need each entry this is the directory
+
+1356
+01:08:48,238 --> 01:08:49,738
+let's say this is the directory under
+
+1357
+01:08:49,738 --> 01:08:51,420
+this directly there are several folders
+
+1358
+01:08:51,420 --> 01:08:53,279
+and then we need to point to the next
+
+1359
+01:08:53,279 --> 01:08:56,339
+folders right so each entry refers to a
+
+1360
+01:08:56,339 --> 01:09:00,479
+inode okay and then how we
+
+1361
+01:09:00,479 --> 01:09:02,640
+okay let's skip that that's the how do
+
+1362
+01:09:02,640 --> 01:09:06,359
+we do uh deal with the directory names I
+
+1363
+01:09:06,359 --> 01:09:08,759
+think this is a kind of old
+
+1364
+01:09:08,759 --> 01:09:10,920
+let's say I feel like
+
+1365
+01:09:10,920 --> 01:09:13,738
+what if there's a user who likes to
+
+1366
+01:09:13,738 --> 01:09:16,560
+create a weird directory names so how do
+
+1367
+01:09:16,560 --> 01:09:20,540
+we fix that because some users Andrew
+
+1368
+01:09:21,600 --> 01:09:24,259
+yes
+
+1369
+01:09:42,359 --> 01:09:46,080
+whatever file what speak louder I
+
+1370
+01:09:46,080 --> 01:09:48,679
+couldn't hear you
+
+1371
+01:09:54,080 --> 01:09:56,580
+were only pointer if it's very small
+
+1372
+01:09:56,580 --> 01:09:58,739
+then you only use one block so there's
+
+1373
+01:09:58,739 --> 01:10:02,540
+only one block of the dress
+
+1374
+01:10:11,100 --> 01:10:13,500
+the point is for the end is the data of
+
+1375
+01:10:13,500 --> 01:10:16,080
+the file right the pointer to the end is
+
+1376
+01:10:16,080 --> 01:10:19,100
+the data of the file
+
+1377
+01:10:29,280 --> 01:10:32,340
+check this this is the same as the uh
+
+1378
+01:10:32,340 --> 01:10:34,380
+you know in the video what we learned
+
+1379
+01:10:34,380 --> 01:10:36,360
+but let's just find out the video may be
+
+1380
+01:10:36,360 --> 01:10:39,600
+better so easy if you want let's look at
+
+1381
+01:10:39,600 --> 01:10:41,640
+this
+
+1382
+01:10:41,640 --> 01:10:44,400
+the step of looking at this file and box
+
+1383
+01:10:44,400 --> 01:10:46,320
+and box is the file that you are looking
+
+1384
+01:10:46,320 --> 01:10:47,699
+at
+
+1385
+01:10:47,699 --> 01:10:50,580
+so your question is that if Mbox is too
+
+1386
+01:10:50,580 --> 01:10:53,120
+small
+
+1387
+01:10:54,239 --> 01:10:55,739
+you know like
+
+1388
+01:10:55,739 --> 01:10:59,400
+if you like to be like that uh that
+
+1389
+01:10:59,400 --> 01:11:01,320
+diagram where it kind of breaks down the
+
+1390
+01:11:01,320 --> 01:11:04,219
+structure that I know
+
+1391
+01:11:04,280 --> 01:11:07,860
+we do okay okay sure sure let's go back
+
+1392
+01:11:07,860 --> 01:11:10,280
+to the video
+
+1393
+01:11:33,300 --> 01:11:37,580
+another popular file system format
+
+1394
+01:11:40,800 --> 01:11:43,620
+is the extended format commonly used
+
+1395
+01:11:43,620 --> 01:11:45,179
+something like this
+
+1396
+01:11:45,179 --> 01:11:49,760
+find that Foo the root directory
+
+1397
+01:11:53,760 --> 01:11:56,460
+oh you you are seeing this the indirect
+
+1398
+01:11:56,460 --> 01:11:59,280
+right yeah okay the indirect means okay
+
+1399
+01:11:59,280 --> 01:12:02,580
+so here's the thing if the file is very
+
+1400
+01:12:02,580 --> 01:12:06,239
+very very very large then they mean then
+
+1401
+01:12:06,239 --> 01:12:09,080
+they have many
+
+1402
+01:12:09,360 --> 01:12:11,760
+if we do not have this indirect table
+
+1403
+01:12:11,760 --> 01:12:14,699
+then the entries of the inode the number
+
+1404
+01:12:14,699 --> 01:12:18,239
+of lines in anode will be extremely long
+
+1405
+01:12:18,239 --> 01:12:21,060
+because let's say you don't have 100K
+
+1406
+01:12:21,060 --> 01:12:23,640
+blocks 100K blocks then this then the
+
+1407
+01:12:23,640 --> 01:12:25,140
+size you can think of the size of the
+
+1408
+01:12:25,140 --> 01:12:27,420
+eye load will be very large right so
+
+1409
+01:12:27,420 --> 01:12:30,120
+that is why this the break is actually
+
+1410
+01:12:30,120 --> 01:12:32,460
+like a breakdown I know into many parts
+
+1411
+01:12:32,460 --> 01:12:34,080
+different parts
+
+1412
+01:12:34,080 --> 01:12:35,760
+like with
+
+1413
+01:12:35,760 --> 01:12:37,920
+if it's more than there's no direct
+
+1414
+01:12:37,920 --> 01:12:41,159
+indirect tables it's just the several
+
+1415
+01:12:41,159 --> 01:12:44,120
+fronts
+
+1416
+01:12:48,659 --> 01:12:53,719
+how how do we set the pointers to every
+
+1417
+01:12:55,199 --> 01:12:58,980
+setting the blocks means that this how
+
+1418
+01:12:58,980 --> 01:13:01,760
+do we know this
+
+1419
+01:13:04,100 --> 01:13:06,360
+this one
+
+1420
+01:13:06,360 --> 01:13:08,960
+this
+
+1421
+01:13:09,420 --> 01:13:11,840
+this
+
+1422
+01:13:16,020 --> 01:13:18,480
+oh dear price means that this has the
+
+1423
+01:13:18,480 --> 01:13:22,140
+two indirect pointer so it has like this
+
+1424
+01:13:22,140 --> 01:13:25,260
+table this let's say this is the middle
+
+1425
+01:13:25,260 --> 01:13:27,060
+of the movie right at the middle of
+
+1426
+01:13:27,060 --> 01:13:28,580
+movies
+
+1427
+01:13:28,580 --> 01:13:31,380
+we see that we just save where the
+
+1428
+01:13:31,380 --> 01:13:32,880
+middle of the movie is the next five
+
+1429
+01:13:32,880 --> 01:13:34,679
+minutes and then the next five minutes
+
+1430
+01:13:34,679 --> 01:13:37,500
+will tell you the next next 30 minutes
+
+1431
+01:13:37,500 --> 01:13:39,900
+where it is and then the next 30 minutes
+
+1432
+01:13:39,900 --> 01:13:43,280
+what goes there
+
+1433
+01:13:44,460 --> 01:13:46,679
+how come it has two pointer
+
+1434
+01:13:46,679 --> 01:13:49,560
+because it's super large you see let's
+
+1435
+01:13:49,560 --> 01:13:51,360
+say pharmaceutical system format is the
+
+1436
+01:13:51,360 --> 01:13:53,400
+extended format commonly used in Linux
+
+1437
+01:13:53,400 --> 01:13:55,500
+each file on the disk has a data
+
+1438
+01:13:55,500 --> 01:13:57,120
+structure called an inode associated
+
+1439
+01:13:57,120 --> 01:13:59,640
+with it the inode is fixed length it
+
+1440
+01:13:59,640 --> 01:14:01,800
+contains the metadata for the file and
+
+1441
+01:14:01,800 --> 01:14:03,900
+it serves as the glue linking the data
+
+1442
+01:14:03,900 --> 01:14:06,060
+blocks together in the right order it is
+
+1443
+01:14:06,060 --> 01:14:07,560
+a schooling function that is the most
+
+1444
+01:14:07,560 --> 01:14:09,900
+interesting the inode stores 15 data
+
+1445
+01:14:09,900 --> 01:14:12,659
+block addresses or pointers the first 12
+
+1446
+01:14:12,659 --> 01:14:15,000
+of these Point directly to the first 12
+
+1447
+01:14:15,000 --> 01:14:17,460
+data blocks of the file this makes the
+
+1448
+01:14:17,460 --> 01:14:19,920
+strategy efficient for small files the
+
+1449
+01:14:19,920 --> 01:14:22,020
+13th of these this makes the strategies
+
+1450
+01:14:22,020 --> 01:14:23,340
+in vision for small
+
+1451
+01:14:23,340 --> 01:14:26,159
+addresses points to a block that
+
+1452
+01:14:26,159 --> 01:14:28,980
+consists of a table of addresses for the
+
+1453
+01:14:28,980 --> 01:14:31,620
+next blocks in the file this vastly
+
+1454
+01:14:31,620 --> 01:14:33,179
+increases the number of blocks that we
+
+1455
+01:14:33,179 --> 01:14:35,280
+can use in a file the downside is that
+
+1456
+01:14:35,280 --> 01:14:36,600
+we've introduced a layer of indirection
+
+1457
+01:14:36,600 --> 01:14:38,760
+if this doesn't give the file enough
+
+1458
+01:14:38,760 --> 01:14:40,980
+space then we use this it does not give
+
+1459
+01:14:40,980 --> 01:14:43,080
+it a file enough space means that if
+
+1460
+01:14:43,080 --> 01:14:45,719
+this is the are not in love with we have
+
+1461
+01:14:45,719 --> 01:14:48,780
+very super large files we may need this
+
+1462
+01:14:48,780 --> 01:14:51,659
+14th pointer and not one but two layers
+
+1463
+01:14:51,659 --> 01:14:53,699
+of indirection giving us even more space
+
+1464
+01:14:53,699 --> 01:14:56,820
+and if this isn't enough more spaces
+
+1465
+01:14:56,820 --> 01:15:00,480
+to so the key idea why we need to keep
+
+1466
+01:15:00,480 --> 01:15:02,340
+the I know the short because sometimes
+
+1467
+01:15:02,340 --> 01:15:04,560
+you need to if the fire is frequently
+
+1468
+01:15:04,560 --> 01:15:07,140
+used you need to load the inode into the
+
+1469
+01:15:07,140 --> 01:15:09,120
+memory right you do not want to waste
+
+1470
+01:15:09,120 --> 01:15:11,340
+the memory resources that is why
+
+1471
+01:15:11,340 --> 01:15:13,620
+sometimes they put several layers of the
+
+1472
+01:15:13,620 --> 01:15:16,280
+inode table
+
+1473
+01:15:34,320 --> 01:15:36,719
+okay
+
+1474
+01:15:36,719 --> 01:15:39,380
+let's continue
+
+1475
+01:15:43,380 --> 01:15:47,940
+okay we say share files share files
+
+1476
+01:15:47,940 --> 01:15:50,219
+when several users are working together
+
+1477
+01:15:50,219 --> 01:15:53,340
+on our projects
+
+1478
+01:15:53,340 --> 01:15:56,520
+often lead to Shear fails
+
+1479
+01:15:56,520 --> 01:15:59,580
+oh God I do not work together on your
+
+1480
+01:15:59,580 --> 01:16:01,560
+projects okay do not share your files
+
+1481
+01:16:01,560 --> 01:16:03,719
+with each other
+
+1482
+01:16:03,719 --> 01:16:07,020
+share fails so you you as a result it is
+
+1483
+01:16:07,020 --> 01:16:09,540
+often convenient for share file to
+
+1484
+01:16:09,540 --> 01:16:10,920
+appear simultaneously different
+
+1485
+01:16:10,920 --> 01:16:14,400
+directories belonging to different users
+
+1486
+01:16:14,400 --> 01:16:18,020
+so share fail um
+
+1487
+01:16:23,820 --> 01:16:26,580
+so let's say here this is the C right
+
+1488
+01:16:26,580 --> 01:16:29,880
+this is the user B user B and this is
+
+1489
+01:16:29,880 --> 01:16:34,320
+user C uses C so B let's say B has a
+
+1490
+01:16:34,320 --> 01:16:36,540
+file and he wants to share with the c
+
+1491
+01:16:36,540 --> 01:16:39,000
+wants us to share with you see they are
+
+1492
+01:16:39,000 --> 01:16:41,880
+working together to our projects so they
+
+1493
+01:16:41,880 --> 01:16:44,100
+have a shared folder and inside the
+
+1494
+01:16:44,100 --> 01:16:45,900
+folder there are some shared data so
+
+1495
+01:16:45,900 --> 01:16:48,179
+they want to work together with the data
+
+1496
+01:16:48,179 --> 01:16:50,520
+and they want to touch the convenience
+
+1497
+01:16:50,520 --> 01:16:52,980
+for Shear fail to appears materials in
+
+1498
+01:16:52,980 --> 01:16:54,600
+different directory blown into different
+
+1499
+01:16:54,600 --> 01:16:57,480
+users so data whenever I make a change
+
+1500
+01:16:57,480 --> 01:17:00,120
+on this file it needs to reflected on
+
+1501
+01:17:00,120 --> 01:17:02,940
+the C's location also this location so
+
+1502
+01:17:02,940 --> 01:17:05,400
+how can we Implement search so how can
+
+1503
+01:17:05,400 --> 01:17:08,239
+we Implement that
+
+1504
+01:17:09,960 --> 01:17:14,040
+for example if B or C are new blocks how
+
+1505
+01:17:14,040 --> 01:17:16,739
+does others owner find out
+
+1506
+01:17:16,739 --> 01:17:18,739
+um
+
+1507
+01:17:19,860 --> 01:17:24,800
+so we first we first using
+
+1508
+01:17:29,880 --> 01:17:32,520
+so first this problem can be solved in
+
+1509
+01:17:32,520 --> 01:17:34,199
+two ways okay in the first solution
+
+1510
+01:17:34,199 --> 01:17:36,179
+these blocks are not least in
+
+1511
+01:17:36,179 --> 01:17:37,620
+directories
+
+1512
+01:17:37,620 --> 01:17:40,500
+so the first you think I want to ask you
+
+1513
+01:17:40,500 --> 01:17:43,320
+what do you think I I can tell you there
+
+1514
+01:17:43,320 --> 01:17:45,000
+are two solutions there are two
+
+1515
+01:17:45,000 --> 01:17:47,420
+solutions
+
+1516
+01:17:48,840 --> 01:17:52,880
+what kind of these two solutions is
+
+1517
+01:17:59,640 --> 01:18:02,280
+there's a there's a two two two two
+
+1518
+01:18:02,280 --> 01:18:04,800
+solution one is called hard links one
+
+1519
+01:18:04,800 --> 01:18:09,020
+called softer link software link
+
+1520
+01:18:19,380 --> 01:18:22,260
+any more amount to make a gas Hardware
+
+1521
+01:18:22,260 --> 01:18:25,699
+link and the software link
+
+1522
+01:18:42,360 --> 01:18:44,580
+so the Okay so
+
+1523
+01:18:44,580 --> 01:18:47,040
+so in the first so yeah majest you can
+
+1524
+01:18:47,040 --> 01:18:49,800
+say yeah you can try
+
+1525
+01:18:49,800 --> 01:18:53,480
+hard link and a software link
+
+1526
+01:19:03,260 --> 01:19:05,820
+it's okay it's a simple way in a simple
+
+1527
+01:19:05,820 --> 01:19:07,980
+way don't make it complicated so what's
+
+1528
+01:19:07,980 --> 01:19:09,719
+the difference between the software Link
+
+1529
+01:19:09,719 --> 01:19:12,360
+and Link Heart Link
+
+1530
+01:19:12,360 --> 01:19:14,239
+is
+
+1531
+01:19:14,239 --> 01:19:18,480
+stored in the software
+
+1532
+01:19:20,699 --> 01:19:23,219
+Hardware how can I can install the link
+
+1533
+01:19:23,219 --> 01:19:25,760
+in the hardware
+
+1534
+01:19:32,219 --> 01:19:34,219
+um
+
+1535
+01:19:37,560 --> 01:19:42,000
+I mean one eye node we're having
+
+1536
+01:19:42,000 --> 01:19:44,100
+different items that point to the same
+
+1537
+01:19:44,100 --> 01:19:48,080
+physical addresses versus having a
+
+1538
+01:19:48,780 --> 01:19:50,760
+this is very close and we are going to
+
+1539
+01:19:50,760 --> 01:19:53,280
+learn later okay that I change the eye
+
+1540
+01:19:53,280 --> 01:19:57,080
+note change the eye note first
+
+1541
+01:20:09,480 --> 01:20:13,400
+so okay so yeah Andrew
+
+1542
+01:20:22,800 --> 01:20:26,159
+yeah yeah okay okay so here's the C okay
+
+1543
+01:20:26,159 --> 01:20:28,679
+so for the for the hard link the hard
+
+1544
+01:20:28,679 --> 01:20:32,040
+link so in the the
+
+1545
+01:20:32,040 --> 01:20:34,620
+so this is this is the this is the idea
+
+1546
+01:20:34,620 --> 01:20:36,960
+okay for the hard link for hard link we
+
+1547
+01:20:36,960 --> 01:20:39,360
+have the I know that right but this
+
+1548
+01:20:39,360 --> 01:20:41,880
+still points to the same physical this
+
+1549
+01:20:41,880 --> 01:20:44,640
+points to the same physical
+
+1550
+01:20:44,640 --> 01:20:47,520
+address the same physical but a software
+
+1551
+01:20:47,520 --> 01:20:49,860
+link for suffering instead of saving
+
+1552
+01:20:49,860 --> 01:20:52,440
+instead of saving the link to the
+
+1553
+01:20:52,440 --> 01:20:54,120
+physical address
+
+1554
+01:20:54,120 --> 01:20:57,420
+player in the file 2 file two if fail to
+
+1555
+01:20:57,420 --> 01:20:59,159
+is sharing the name sharing the same
+
+1556
+01:20:59,159 --> 01:21:02,699
+file file one the file tool was not save
+
+1557
+01:21:02,699 --> 01:21:05,760
+the director link to the hardware like
+
+1558
+01:21:05,760 --> 01:21:07,500
+the physical address the physical
+
+1559
+01:21:07,500 --> 01:21:11,699
+address the file 2 was only Safe Link
+
+1560
+01:21:11,699 --> 01:21:15,480
+is linked to the file one
+
+1561
+01:21:15,480 --> 01:21:18,179
+shared files so that's the that's the
+
+1562
+01:21:18,179 --> 01:21:20,460
+key difference is the file tool was only
+
+1563
+01:21:20,460 --> 01:21:23,400
+saved this this okay
+
+1564
+01:21:23,400 --> 01:21:25,620
+okay under them let's see let's see
+
+1565
+01:21:25,620 --> 01:21:28,980
+let's see how we using I node so we are
+
+1566
+01:21:28,980 --> 01:21:31,260
+okay these two approaches differences
+
+1567
+01:21:31,260 --> 01:21:33,260
+operating system they have different
+
+1568
+01:21:33,260 --> 01:21:36,120
+approaches so you know what we are what
+
+1569
+01:21:36,120 --> 01:21:37,980
+we are learning so what we are using
+
+1570
+01:21:37,980 --> 01:21:40,980
+sorry what we are using in the in Ubuntu
+
+1571
+01:21:40,980 --> 01:21:43,800
+huddling course of Link
+
+1572
+01:21:43,800 --> 01:21:45,780
+so there are two approaches to implement
+
+1573
+01:21:45,780 --> 01:21:49,460
+the fair sharing if yeah
+
+1574
+01:21:50,880 --> 01:21:53,420
+huh
+
+1575
+01:21:53,640 --> 01:21:57,360
+a soft links any other Solutions
+
+1576
+01:21:57,360 --> 01:22:00,000
+we're actually using this using this we
+
+1577
+01:22:00,000 --> 01:22:02,159
+Implement start using the inode okay
+
+1578
+01:22:02,159 --> 01:22:04,940
+yeah
+
+1579
+01:22:07,860 --> 01:22:10,080
+if you just look at as a picture you can
+
+1580
+01:22:10,080 --> 01:22:11,820
+see that in the Heart Link in the Heart
+
+1581
+01:22:11,820 --> 01:22:13,980
+Link
+
+1582
+01:22:13,980 --> 01:22:16,260
+this file file one they have I node
+
+1583
+01:22:16,260 --> 01:22:18,719
+right it points to this
+
+1584
+01:22:18,719 --> 01:22:21,000
+point to this point to the same physical
+
+1585
+01:22:21,000 --> 01:22:23,280
+file this file two will have the same I
+
+1586
+01:22:23,280 --> 01:22:25,920
+know it was points to this the same
+
+1587
+01:22:25,920 --> 01:22:27,179
+thing
+
+1588
+01:22:27,179 --> 01:22:29,100
+but then they will have the same exactly
+
+1589
+01:22:29,100 --> 01:22:30,780
+I node right then it will cause the
+
+1590
+01:22:30,780 --> 01:22:33,120
+problem so we are going to change a
+
+1591
+01:22:33,120 --> 01:22:34,860
+little data structure in I node to
+
+1592
+01:22:34,860 --> 01:22:37,739
+specify that the file is shared by some
+
+1593
+01:22:37,739 --> 01:22:39,840
+users other users that's the difference
+
+1594
+01:22:39,840 --> 01:22:42,060
+things so in the software link the
+
+1595
+01:22:42,060 --> 01:22:43,679
+software link
+
+1596
+01:22:43,679 --> 01:22:46,080
+in a software Link in a soft link sums
+
+1597
+01:22:46,080 --> 01:22:48,000
+operating file system uses soft link
+
+1598
+01:22:48,000 --> 01:22:50,940
+they do not they do not save the I know
+
+1599
+01:22:50,940 --> 01:22:52,800
+the information they installed save the
+
+1600
+01:22:52,800 --> 01:22:56,120
+link to that file
+
+1601
+01:23:11,159 --> 01:23:13,380
+you are going to access the file once I
+
+1602
+01:23:13,380 --> 01:23:15,120
+know the information
+
+1603
+01:23:15,120 --> 01:23:17,940
+it actually points to the fire once file
+
+1604
+01:23:17,940 --> 01:23:22,320
+so it's like adding a separate jump
+
+1605
+01:23:22,320 --> 01:23:25,560
+okay so let's see so
+
+1606
+01:23:25,560 --> 01:23:27,540
+the network system are using this
+
+1607
+01:23:27,540 --> 01:23:30,480
+approach okay the heart this this is
+
+1608
+01:23:30,480 --> 01:23:32,280
+what we are going to learn so how to
+
+1609
+01:23:32,280 --> 01:23:34,560
+implement that how do we Implement that
+
+1610
+01:23:34,560 --> 01:23:38,340
+the since each of the file if they are
+
+1611
+01:23:38,340 --> 01:23:40,080
+sharing they're sharing each of the
+
+1612
+01:23:40,080 --> 01:23:42,179
+directories if they are sharing a same
+
+1613
+01:23:42,179 --> 01:23:43,800
+file then they are going to save the
+
+1614
+01:23:43,800 --> 01:23:45,360
+same I know the information for that
+
+1615
+01:23:45,360 --> 01:23:49,380
+file right but then how do we know
+
+1616
+01:23:49,380 --> 01:23:51,659
+then the case is that we have this file
+
+1617
+01:23:51,659 --> 01:23:53,460
+we know this files are shared by many
+
+1618
+01:23:53,460 --> 01:23:55,500
+people but I do not know how many people
+
+1619
+01:23:55,500 --> 01:23:58,739
+is if it is shared by owning me and my
+
+1620
+01:23:58,739 --> 01:24:00,900
+teammates then the other problem is that
+
+1621
+01:24:00,900 --> 01:24:03,780
+if I delete the file my teammates have
+
+1622
+01:24:03,780 --> 01:24:05,400
+not deleted the file then the file
+
+1623
+01:24:05,400 --> 01:24:08,100
+should be still inside of the disk it
+
+1624
+01:24:08,100 --> 01:24:09,780
+should not disappear right because my
+
+1625
+01:24:09,780 --> 01:24:12,360
+teammates may still work on it the same
+
+1626
+01:24:12,360 --> 01:24:15,260
+thing is that if we have the whole class
+
+1627
+01:24:15,260 --> 01:24:18,840
+sharing the same file the only one all
+
+1628
+01:24:18,840 --> 01:24:21,600
+of us all overs decides to delete the
+
+1629
+01:24:21,600 --> 01:24:23,640
+file then the file disappears like in
+
+1630
+01:24:23,640 --> 01:24:25,860
+the recycling stage so how do you know
+
+1631
+01:24:25,860 --> 01:24:27,900
+that how do you use a data structure to
+
+1632
+01:24:27,900 --> 01:24:30,300
+represent that then they also important
+
+1633
+01:24:30,300 --> 01:24:33,060
+data structure we call it a reference
+
+1634
+01:24:33,060 --> 01:24:35,640
+count reference count
+
+1635
+01:24:35,640 --> 01:24:40,219
+here the count okay the count
+
+1636
+01:24:40,860 --> 01:24:44,520
+we use another count number to represent
+
+1637
+01:24:44,520 --> 01:24:47,400
+how many users are sharing the file
+
+1638
+01:24:47,400 --> 01:24:49,920
+sharing the file and we use the owner
+
+1639
+01:24:49,920 --> 01:24:52,080
+the owner is the first user that creates
+
+1640
+01:24:52,080 --> 01:24:53,219
+the file
+
+1641
+01:24:53,219 --> 01:24:55,500
+the crazy file and then we use account
+
+1642
+01:24:55,500 --> 01:24:57,120
+number to
+
+1643
+01:24:57,120 --> 01:24:59,520
+specify how many users how many
+
+1644
+01:24:59,520 --> 01:25:01,440
+directory according to point to the same
+
+1645
+01:25:01,440 --> 01:25:05,640
+file as a sharing the owning only one
+
+1646
+01:25:05,640 --> 01:25:06,960
+account
+
+1647
+01:25:06,960 --> 01:25:09,120
+one only one account
+
+1648
+01:25:09,120 --> 01:25:12,000
+equals to zero then operating system
+
+1649
+01:25:12,000 --> 01:25:15,920
+decides to recycle that file
+
+1650
+01:25:15,960 --> 01:25:19,980
+that's the takeaway for file sharing
+
+1651
+01:25:19,980 --> 01:25:23,420
+okay so um
+
+1652
+01:25:23,940 --> 01:25:25,800
+so this is what we have learned today
+
+1653
+01:25:25,800 --> 01:25:28,199
+and the next in next class we are going
+
+1654
+01:25:28,199 --> 01:25:30,000
+to learn the
+
+1655
+01:25:30,000 --> 01:25:31,020
+um
+
+1656
+01:25:31,020 --> 01:25:33,300
+we're going to have a review about about
+
+1657
+01:25:33,300 --> 01:25:36,060
+what we have learned so far
+
+1658
+01:25:36,060 --> 01:25:38,159
+and then we are going to learn the hdfs
+
+1659
+01:25:38,159 --> 01:25:42,140
+or distributed file system okay
+
+1660
+01:25:58,500 --> 01:26:01,500
+everybody
+
+1661
+01:26:02,219 --> 01:26:05,219
+foreign
+
+1662
+01:27:01,620 --> 01:27:04,580
+thank you
+

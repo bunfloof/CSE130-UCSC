@@ -1,0 +1,7392 @@
+1
+00:00:01,319 --> 00:00:03,780
+um where in the system the key and the
+
+2
+00:00:03,780 --> 00:00:07,200
+value resides so
+
+3
+00:00:07,200 --> 00:00:09,259
+um
+
+4
+00:00:09,480 --> 00:00:12,059
+yeah so suppose that you have this
+
+5
+00:00:12,059 --> 00:00:15,059
+overlay Network or distribute hash table
+
+6
+00:00:15,059 --> 00:00:17,160
+and it has a bunch of computers there
+
+7
+00:00:17,160 --> 00:00:18,359
+right
+
+8
+00:00:18,359 --> 00:00:23,460
+and imagine it's like a bit trained and
+
+9
+00:00:23,460 --> 00:00:25,439
+you store
+
+10
+00:00:25,439 --> 00:00:26,279
+um
+
+11
+00:00:26,279 --> 00:00:30,060
+like movie data in this hash table so
+
+12
+00:00:30,060 --> 00:00:34,500
+key is the title of the movie and value
+
+13
+00:00:34,500 --> 00:00:38,040
+is it's like MP4 data right
+
+14
+00:00:38,040 --> 00:00:42,059
+and so this hash table needs to support
+
+15
+00:00:42,059 --> 00:00:44,520
+um two operations just like project four
+
+16
+00:00:44,520 --> 00:00:48,059
+it needs to be able to insert data
+
+17
+00:00:48,059 --> 00:00:49,559
+so in this case
+
+18
+00:00:49,559 --> 00:00:53,940
+um insert Star Wars and you should be
+
+19
+00:00:53,940 --> 00:00:55,079
+able to
+
+20
+00:00:55,079 --> 00:00:57,719
+save data to this hash table and you
+
+21
+00:00:57,719 --> 00:01:00,120
+also need to be able to find data so if
+
+22
+00:01:00,120 --> 00:01:02,100
+you want to watch Star Wars you do look
+
+23
+00:01:02,100 --> 00:01:04,799
+up of Star Wars and
+
+24
+00:01:04,799 --> 00:01:07,320
+um you should be able to get data out of
+
+25
+00:01:07,320 --> 00:01:09,900
+it and because it's hashtable we will be
+
+26
+00:01:09,900 --> 00:01:10,920
+using
+
+27
+00:01:10,920 --> 00:01:13,740
+um hashed value of this key
+
+28
+00:01:13,740 --> 00:01:15,240
+and
+
+29
+00:01:15,240 --> 00:01:16,740
+right
+
+30
+00:01:16,740 --> 00:01:19,439
+so the question is if you want to do
+
+31
+00:01:19,439 --> 00:01:22,020
+insert or lookup it doesn't really
+
+32
+00:01:22,020 --> 00:01:23,159
+matter
+
+33
+00:01:23,159 --> 00:01:25,799
+um suppose that you want to watch
+
+34
+00:01:25,799 --> 00:01:28,680
+um Star Wars right and you
+
+35
+00:01:28,680 --> 00:01:31,080
+can do you can call your hash function
+
+36
+00:01:31,080 --> 00:01:34,680
+and pass the title of the movie Star
+
+37
+00:01:34,680 --> 00:01:38,159
+Wars and that will give you the hashed
+
+38
+00:01:38,159 --> 00:01:42,060
+value the K right so the question now is
+
+39
+00:01:42,060 --> 00:01:44,400
+given this hash
+
+40
+00:01:44,400 --> 00:01:48,060
+how can you find a computer in this
+
+41
+00:01:48,060 --> 00:01:51,060
+system that stores
+
+42
+00:01:51,060 --> 00:01:52,680
+um
+
+43
+00:01:52,680 --> 00:01:56,520
+the movie beta of
+
+44
+00:01:56,520 --> 00:01:59,700
+um Star Wars
+
+45
+00:01:59,700 --> 00:02:01,259
+right
+
+46
+00:02:01,259 --> 00:02:03,299
+so in this case
+
+47
+00:02:03,299 --> 00:02:06,899
+it's this computer and your job is to be
+
+48
+00:02:06,899 --> 00:02:10,739
+able to find this computer just by
+
+49
+00:02:10,739 --> 00:02:13,680
+looking at this game
+
+50
+00:02:13,680 --> 00:02:15,300
+and
+
+51
+00:02:15,300 --> 00:02:18,300
+yeah so you need a way to Route this
+
+52
+00:02:18,300 --> 00:02:19,379
+request
+
+53
+00:02:19,379 --> 00:02:22,620
+to this computer
+
+54
+00:02:22,620 --> 00:02:24,599
+okay
+
+55
+00:02:24,599 --> 00:02:26,340
+so
+
+56
+00:02:26,340 --> 00:02:28,620
+in today's lecture we'll be talking
+
+57
+00:02:28,620 --> 00:02:31,620
+about pastry which is one specific
+
+58
+00:02:31,620 --> 00:02:34,940
+implementation of dhtp but other
+
+59
+00:02:34,940 --> 00:02:37,260
+distributed hash table implementations
+
+60
+00:02:37,260 --> 00:02:39,840
+work quite similarly
+
+61
+00:02:39,840 --> 00:02:42,000
+okay
+
+62
+00:02:42,000 --> 00:02:46,379
+so in pastry each node gets assigned an
+
+63
+00:02:46,379 --> 00:02:47,400
+ID
+
+64
+00:02:47,400 --> 00:02:50,640
+and it's 128 bit string that is placed
+
+65
+00:02:50,640 --> 00:02:52,680
+in the following range so
+
+66
+00:02:52,680 --> 00:02:53,340
+um
+
+67
+00:02:53,340 --> 00:02:57,239
+you are given so each node has its 128
+
+68
+00:02:57,239 --> 00:02:59,760
+bit ID you can think of it as like IPv6
+
+69
+00:02:59,760 --> 00:03:00,620
+address
+
+70
+00:03:00,620 --> 00:03:03,900
+each node has its unique ID
+
+71
+00:03:03,900 --> 00:03:08,459
+and your key is 164-bit so it's a little
+
+72
+00:03:08,459 --> 00:03:11,640
+bit larger but you can use a hash
+
+73
+00:03:11,640 --> 00:03:16,560
+function to get reduce it to 128 bit
+
+74
+00:03:16,560 --> 00:03:18,360
+so
+
+75
+00:03:18,360 --> 00:03:24,060
+in pastry we imagine this circular
+
+76
+00:03:24,060 --> 00:03:25,319
+um space
+
+77
+00:03:25,319 --> 00:03:27,000
+so in this case
+
+78
+00:03:27,000 --> 00:03:28,920
+zero is here
+
+79
+00:03:28,920 --> 00:03:32,700
+and because the address space is 128 bit
+
+80
+00:03:32,700 --> 00:03:36,120
+the maximum value is possible is 2 to
+
+81
+00:03:36,120 --> 00:03:41,900
+the power of 128 minus 1. and it's here
+
+82
+00:03:42,120 --> 00:03:44,400
+and
+
+83
+00:03:44,400 --> 00:03:45,780
+basically
+
+84
+00:03:45,780 --> 00:03:50,640
+each node and each key gets assigned
+
+85
+00:03:50,640 --> 00:03:52,319
+to somewhere
+
+86
+00:03:52,319 --> 00:03:54,239
+on this ring
+
+87
+00:03:54,239 --> 00:03:57,000
+so in this case node ones here node two
+
+88
+00:03:57,000 --> 00:04:01,440
+is here and key ones here K2 is here
+
+89
+00:04:01,440 --> 00:04:03,599
+everything good so far
+
+90
+00:04:03,599 --> 00:04:04,860
+okay
+
+91
+00:04:04,860 --> 00:04:07,019
+so now
+
+92
+00:04:07,019 --> 00:04:09,140
+um
+
+93
+00:04:11,640 --> 00:04:13,799
+basically
+
+94
+00:04:13,799 --> 00:04:17,399
+given the key so this key one belongs to
+
+95
+00:04:17,399 --> 00:04:20,519
+node one because node one is the closest
+
+96
+00:04:20,519 --> 00:04:22,620
+node
+
+97
+00:04:22,620 --> 00:04:25,800
+um that's located on the ring right so
+
+98
+00:04:25,800 --> 00:04:29,160
+because q1 is here
+
+99
+00:04:29,160 --> 00:04:30,120
+um
+
+100
+00:04:30,120 --> 00:04:34,740
+the data of q1 is saved at node one and
+
+101
+00:04:34,740 --> 00:04:36,139
+similarly
+
+102
+00:04:36,139 --> 00:04:40,500
+so you take a hash of key two and you
+
+103
+00:04:40,500 --> 00:04:42,979
+look for the closest node
+
+104
+00:04:42,979 --> 00:04:46,080
+and you basically save that key to this
+
+105
+00:04:46,080 --> 00:04:47,400
+node so
+
+106
+00:04:47,400 --> 00:04:49,620
+like this
+
+107
+00:04:49,620 --> 00:04:52,639
+and by doing this
+
+108
+00:04:52,639 --> 00:04:57,000
+each key gets assigned to some node and
+
+109
+00:04:57,000 --> 00:04:59,759
+that node will store data for that key
+
+110
+00:04:59,759 --> 00:05:01,440
+and value
+
+111
+00:05:01,440 --> 00:05:03,680
+okay
+
+112
+00:05:04,380 --> 00:05:05,759
+so
+
+113
+00:05:05,759 --> 00:05:09,020
+the question is
+
+114
+00:05:09,479 --> 00:05:10,620
+um
+
+115
+00:05:10,620 --> 00:05:13,259
+given the key
+
+116
+00:05:13,259 --> 00:05:16,620
+how can we find the node
+
+117
+00:05:16,620 --> 00:05:20,360
+that has that key
+
+118
+00:05:20,699 --> 00:05:22,680
+so imagine you're or
+
+119
+00:05:22,680 --> 00:05:25,740
+just a your node that's somewhere on on
+
+120
+00:05:25,740 --> 00:05:27,060
+this ring
+
+121
+00:05:27,060 --> 00:05:31,320
+and you have the key that you want to
+
+122
+00:05:31,320 --> 00:05:33,240
+look up
+
+123
+00:05:33,240 --> 00:05:34,620
+right
+
+124
+00:05:34,620 --> 00:05:37,639
+how you can do that yeah
+
+125
+00:05:41,820 --> 00:05:44,780
+and
+
+126
+00:05:45,479 --> 00:05:46,740
+the places
+
+127
+00:05:46,740 --> 00:05:50,539
+are indexed yeah
+
+128
+00:05:51,539 --> 00:05:53,639
+go to wherever
+
+129
+00:05:53,639 --> 00:05:56,240
+yeah right
+
+130
+00:05:59,940 --> 00:06:02,039
+yeah so
+
+131
+00:06:02,039 --> 00:06:03,240
+um
+
+132
+00:06:03,240 --> 00:06:04,800
+yeah that's right that's one way of
+
+133
+00:06:04,800 --> 00:06:08,100
+doing it so one way of doing it is to
+
+134
+00:06:08,100 --> 00:06:12,120
+have a global index and every node
+
+135
+00:06:12,120 --> 00:06:14,460
+basically has a list of all the other
+
+136
+00:06:14,460 --> 00:06:17,460
+nodes right so if you have a list of all
+
+137
+00:06:17,460 --> 00:06:19,979
+participating nodes then you can just
+
+138
+00:06:19,979 --> 00:06:22,139
+calculate the hash of key
+
+139
+00:06:22,139 --> 00:06:24,600
+and it was just no
+
+140
+00:06:24,600 --> 00:06:27,419
+um which node is the closest right and
+
+141
+00:06:27,419 --> 00:06:31,259
+you can just send a request to that node
+
+142
+00:06:31,259 --> 00:06:34,979
+the problem with that approach is that
+
+143
+00:06:34,979 --> 00:06:36,600
+um
+
+144
+00:06:36,600 --> 00:06:39,660
+okay so yeah if you know all the
+
+145
+00:06:39,660 --> 00:06:40,979
+information about precipitive
+
+146
+00:06:40,979 --> 00:06:44,460
+participating nodes you can send a
+
+147
+00:06:44,460 --> 00:06:47,520
+request just by one hop right
+
+148
+00:06:47,520 --> 00:06:51,060
+this is great but that means all nodes
+
+149
+00:06:51,060 --> 00:06:53,880
+have to maintain all the other nodes
+
+150
+00:06:53,880 --> 00:06:57,419
+and because this is distributed system
+
+151
+00:06:57,419 --> 00:06:59,940
+um the nodes are not fixed right
+
+152
+00:06:59,940 --> 00:07:01,740
+sometimes sometimes nodes might leave
+
+153
+00:07:01,740 --> 00:07:04,560
+the system sometimes it knows new nodes
+
+154
+00:07:04,560 --> 00:07:07,500
+comes in and you have and every time
+
+155
+00:07:07,500 --> 00:07:10,199
+the sort of topology changes you have to
+
+156
+00:07:10,199 --> 00:07:12,960
+update the information and that can be
+
+157
+00:07:12,960 --> 00:07:16,800
+expensive right so that's probably not
+
+158
+00:07:16,800 --> 00:07:18,840
+what you want to do
+
+159
+00:07:18,840 --> 00:07:22,560
+another approach is to basically
+
+160
+00:07:22,560 --> 00:07:25,560
+create a linked list so imagine this
+
+161
+00:07:25,560 --> 00:07:27,780
+ring as a doubly linked list
+
+162
+00:07:27,780 --> 00:07:31,979
+and each node maintains its neighbors so
+
+163
+00:07:31,979 --> 00:07:34,680
+everyone knows who's
+
+164
+00:07:34,680 --> 00:07:36,360
+left
+
+165
+00:07:36,360 --> 00:07:39,360
+to the node and who's right to the node
+
+166
+00:07:39,360 --> 00:07:41,940
+so if you do that approach you only have
+
+167
+00:07:41,940 --> 00:07:43,319
+to maintain
+
+168
+00:07:43,319 --> 00:07:47,940
+two accuracy sorry two pointers right so
+
+169
+00:07:47,940 --> 00:07:50,699
+the storage used is o1
+
+170
+00:07:50,699 --> 00:07:55,319
+but that slows down the lookup because
+
+171
+00:07:55,319 --> 00:07:57,780
+in the worst case you have to go through
+
+172
+00:07:57,780 --> 00:08:00,120
+the entire ring right
+
+173
+00:08:00,120 --> 00:08:01,259
+so
+
+174
+00:08:01,259 --> 00:08:04,500
+um you know suppose you are here and if
+
+175
+00:08:04,500 --> 00:08:06,120
+you want to get
+
+176
+00:08:06,120 --> 00:08:07,560
+data
+
+177
+00:08:07,560 --> 00:08:09,960
+in here you basically have to relay
+
+178
+00:08:09,960 --> 00:08:13,380
+information like
+
+179
+00:08:13,380 --> 00:08:18,860
+all the way and that can be slow yeah
+
+180
+00:08:24,720 --> 00:08:26,220
+Okay so
+
+181
+00:08:26,220 --> 00:08:28,620
+node is a computer
+
+182
+00:08:28,620 --> 00:08:30,479
+key is just data
+
+183
+00:08:30,479 --> 00:08:33,659
+and we take hash value sorry we we take
+
+184
+00:08:33,659 --> 00:08:37,380
+a hash of key to basically map the key
+
+185
+00:08:37,380 --> 00:08:39,659
+into the same like address space
+
+186
+00:08:39,659 --> 00:08:43,500
+so we can calculate the closest node to
+
+187
+00:08:43,500 --> 00:08:45,919
+that key
+
+188
+00:08:50,160 --> 00:08:52,200
+yeah
+
+189
+00:08:52,200 --> 00:08:54,200
+yeah
+
+190
+00:08:56,120 --> 00:08:59,660
+multiple keys
+
+191
+00:08:59,700 --> 00:09:02,779
+well no so
+
+192
+00:09:03,300 --> 00:09:06,740
+sorry could you repeat one thing
+
+193
+00:09:07,380 --> 00:09:10,700
+H node is a computer yeah
+
+194
+00:09:11,580 --> 00:09:14,220
+no so key so we're talking about hash
+
+195
+00:09:14,220 --> 00:09:18,000
+table right so everything is a key value
+
+196
+00:09:18,000 --> 00:09:20,339
+and
+
+197
+00:09:20,339 --> 00:09:22,920
+you basically want to store
+
+198
+00:09:22,920 --> 00:09:25,200
+key value pairs
+
+199
+00:09:25,200 --> 00:09:27,540
+in a distributed way right so you want
+
+200
+00:09:27,540 --> 00:09:28,760
+to distribute
+
+201
+00:09:28,760 --> 00:09:30,899
+data over
+
+202
+00:09:30,899 --> 00:09:34,160
+number of nodes yeah
+
+203
+00:09:44,519 --> 00:09:47,300
+yeah um
+
+204
+00:09:48,600 --> 00:09:51,360
+yeah yeah so
+
+205
+00:09:51,360 --> 00:09:53,760
+so suppose that um you know in this node
+
+206
+00:09:53,760 --> 00:09:56,339
+one so key one is Star Wars right so
+
+207
+00:09:56,339 --> 00:09:57,180
+then
+
+208
+00:09:57,180 --> 00:09:59,640
+um some other movie
+
+209
+00:09:59,640 --> 00:10:02,399
+I don't know like Indiana Jones
+
+210
+00:10:02,399 --> 00:10:04,200
+it doesn't have to be have it doesn't
+
+211
+00:10:04,200 --> 00:10:06,180
+have to have the same key but it doesn't
+
+212
+00:10:06,180 --> 00:10:10,019
+the hash value has to be close to the
+
+213
+00:10:10,019 --> 00:10:11,760
+address of node one
+
+214
+00:10:11,760 --> 00:10:13,560
+so
+
+215
+00:10:13,560 --> 00:10:16,380
+you know node one is responsible for all
+
+216
+00:10:16,380 --> 00:10:20,100
+the keys around like this area
+
+217
+00:10:20,100 --> 00:10:22,740
+so Star Wars mind map to this here and
+
+218
+00:10:22,740 --> 00:10:24,779
+then that if that's the case node one
+
+219
+00:10:24,779 --> 00:10:27,240
+saves the data for Star Wars but some
+
+220
+00:10:27,240 --> 00:10:28,680
+other movie
+
+221
+00:10:28,680 --> 00:10:32,040
+the hash value of some other movie title
+
+222
+00:10:32,040 --> 00:10:34,560
+may have value similar to like those
+
+223
+00:10:34,560 --> 00:10:35,640
+right
+
+224
+00:10:35,640 --> 00:10:37,560
+and
+
+225
+00:10:37,560 --> 00:10:39,540
+if that's the case then node one will
+
+226
+00:10:39,540 --> 00:10:44,000
+also store that data yeah sorry
+
+227
+00:10:47,720 --> 00:10:52,560
+yeah so when you take a hash right it'll
+
+228
+00:10:52,560 --> 00:10:54,060
+just be
+
+229
+00:10:54,060 --> 00:10:56,160
+an integer I mean it's a number right
+
+230
+00:10:56,160 --> 00:10:59,760
+it's a binary right so you can just um
+
+231
+00:10:59,760 --> 00:11:02,839
+calculate like yeah
+
+232
+00:11:03,959 --> 00:11:07,019
+so yeah what's the range a good point so
+
+233
+00:11:07,019 --> 00:11:07,700
+um
+
+234
+00:11:07,700 --> 00:11:15,200
+the key is stored in the closest node so
+
+235
+00:11:16,079 --> 00:11:19,040
+basically like
+
+236
+00:11:20,519 --> 00:11:23,240
+how can I explain
+
+237
+00:11:29,459 --> 00:11:32,579
+okay so okay okay so can I annotate this
+
+238
+00:11:32,579 --> 00:11:33,480
+yeah
+
+239
+00:11:33,480 --> 00:11:36,180
+so okay
+
+240
+00:11:36,180 --> 00:11:38,760
+so suppose that
+
+241
+00:11:38,760 --> 00:11:39,899
+um
+
+242
+00:11:39,899 --> 00:11:43,579
+well let me think
+
+243
+00:11:47,459 --> 00:11:49,980
+Okay so
+
+244
+00:11:49,980 --> 00:11:52,560
+okay so two to the one 28th is like too
+
+245
+00:11:52,560 --> 00:11:54,959
+large so suppose that everything is 32
+
+246
+00:11:54,959 --> 00:11:56,160
+right
+
+247
+00:11:56,160 --> 00:11:58,860
+to make it simpler so
+
+248
+00:11:58,860 --> 00:12:00,959
+all the value like this address space is
+
+249
+00:12:00,959 --> 00:12:04,800
+32 like 31 okay so suppose that
+
+250
+00:12:04,800 --> 00:12:06,959
+this node one
+
+251
+00:12:06,959 --> 00:12:10,440
+has address 6.
+
+252
+00:12:10,440 --> 00:12:12,540
+and node 2
+
+253
+00:12:12,540 --> 00:12:14,339
+has address
+
+254
+00:12:14,339 --> 00:12:16,620
+Ed I don't know 10.
+
+255
+00:12:16,620 --> 00:12:18,300
+okay
+
+256
+00:12:18,300 --> 00:12:22,079
+so if key one
+
+257
+00:12:22,079 --> 00:12:24,540
+value is five
+
+258
+00:12:24,540 --> 00:12:27,480
+then this node one is the closest node
+
+259
+00:12:27,480 --> 00:12:29,820
+right because it's the difference is
+
+260
+00:12:29,820 --> 00:12:31,200
+just one
+
+261
+00:12:31,200 --> 00:12:33,060
+so this key one
+
+262
+00:12:33,060 --> 00:12:36,000
+is saved at node 1.
+
+263
+00:12:36,000 --> 00:12:37,920
+ok
+
+264
+00:12:37,920 --> 00:12:40,079
+suppose the key to
+
+265
+00:12:40,079 --> 00:12:41,880
+is
+
+266
+00:12:41,880 --> 00:12:44,959
+has value eight
+
+267
+00:12:45,120 --> 00:12:47,279
+well let's not do eight
+
+268
+00:12:47,279 --> 00:12:49,399
+um
+
+269
+00:12:50,100 --> 00:12:52,560
+nine
+
+270
+00:12:52,560 --> 00:12:56,220
+so the closest node is either Node 1 or
+
+271
+00:12:56,220 --> 00:12:58,860
+node two but the difference
+
+272
+00:12:58,860 --> 00:13:02,940
+between nine and ten is one right
+
+273
+00:13:02,940 --> 00:13:04,079
+but
+
+274
+00:13:04,079 --> 00:13:07,620
+the distance here is three
+
+275
+00:13:07,620 --> 00:13:11,820
+so we choose node two to store key2 does
+
+276
+00:13:11,820 --> 00:13:14,100
+that make sense so if the key was like
+
+277
+00:13:14,100 --> 00:13:17,100
+seven it'll go to node one
+
+278
+00:13:17,100 --> 00:13:21,240
+the key idb 164 bits because doesn't
+
+279
+00:13:21,240 --> 00:13:24,480
+that mean you have a lot of keys yeah
+
+280
+00:13:24,480 --> 00:13:27,560
+you're right so um
+
+281
+00:13:28,320 --> 00:13:30,660
+I'm not sure actually but I think in
+
+282
+00:13:30,660 --> 00:13:31,980
+reality
+
+283
+00:13:31,980 --> 00:13:35,100
+we'll probably just use like first 128
+
+284
+00:13:35,100 --> 00:13:37,860
+bit or maybe take another hash take
+
+285
+00:13:37,860 --> 00:13:40,019
+because we have to
+
+286
+00:13:40,019 --> 00:13:41,160
+well
+
+287
+00:13:41,160 --> 00:13:43,560
+yeah
+
+288
+00:13:43,560 --> 00:13:45,240
+yeah
+
+289
+00:13:45,240 --> 00:13:47,240
+um
+
+290
+00:13:50,100 --> 00:13:51,660
+right
+
+291
+00:13:51,660 --> 00:13:54,060
+um well it doesn't matter you just have
+
+292
+00:13:54,060 --> 00:13:55,980
+to decide which one to pick like you
+
+293
+00:13:55,980 --> 00:13:58,380
+know but it there has to be a rule right
+
+294
+00:13:58,380 --> 00:14:00,720
+there has to be one way to interpret
+
+295
+00:14:00,720 --> 00:14:05,519
+that so if we decide node 8 goes to node
+
+296
+00:14:05,519 --> 00:14:08,519
+one then all the keys in the middle has
+
+297
+00:14:08,519 --> 00:14:09,660
+to go
+
+298
+00:14:09,660 --> 00:14:12,600
+make it smaller one but yeah yeah it
+
+299
+00:14:12,600 --> 00:14:15,200
+doesn't really matter
+
+300
+00:14:16,440 --> 00:14:19,760
+okay yeah sorry
+
+301
+00:14:20,940 --> 00:14:23,160
+these are the I
+
+302
+00:14:23,160 --> 00:14:24,480
+the ID and the key
+
+303
+00:14:24,480 --> 00:14:27,959
+ID yeah essentially
+
+304
+00:14:30,420 --> 00:14:32,160
+okay
+
+305
+00:14:32,160 --> 00:14:35,820
+so what was I talking about um yeah so
+
+306
+00:14:35,820 --> 00:14:37,019
+we were talking about
+
+307
+00:14:37,019 --> 00:14:39,540
+the information each node has to store
+
+308
+00:14:39,540 --> 00:14:42,440
+right so
+
+309
+00:14:42,480 --> 00:14:44,100
+um
+
+310
+00:14:44,100 --> 00:14:47,459
+yeah so if you if each node
+
+311
+00:14:47,459 --> 00:14:52,019
+knows about all the other nodes you can
+
+312
+00:14:52,019 --> 00:14:52,860
+do
+
+313
+00:14:52,860 --> 00:14:54,779
+basically one hop
+
+314
+00:14:54,779 --> 00:14:58,199
+to get to any key
+
+315
+00:14:58,199 --> 00:15:01,199
+but that's expensive in that you have to
+
+316
+00:15:01,199 --> 00:15:03,000
+keep track of all the all the
+
+317
+00:15:03,000 --> 00:15:04,880
+participating nodes
+
+318
+00:15:04,880 --> 00:15:07,860
+if you just store constant number of
+
+319
+00:15:07,860 --> 00:15:12,480
+pointers like you know yeah sorry if you
+
+320
+00:15:12,480 --> 00:15:14,699
+extort one on the right and one on the
+
+321
+00:15:14,699 --> 00:15:17,880
+left you can do linear search so
+
+322
+00:15:17,880 --> 00:15:19,920
+um the you have to store all one
+
+323
+00:15:19,920 --> 00:15:23,459
+information but the time to search the
+
+324
+00:15:23,459 --> 00:15:28,339
+key becomes o-n yeah sorry
+
+325
+00:15:30,720 --> 00:15:33,779
+the one master computer sort of and
+
+326
+00:15:33,779 --> 00:15:35,579
+it does kind of
+
+327
+00:15:35,579 --> 00:15:38,100
+kind of year but this master computer
+
+328
+00:15:38,100 --> 00:15:41,220
+remember everybody all the all the keys
+
+329
+00:15:41,220 --> 00:15:42,779
+locations yeah so then you could go to
+
+330
+00:15:42,779 --> 00:15:44,959
+the master
+
+331
+00:15:46,079 --> 00:15:49,100
+yeah so
+
+332
+00:15:49,740 --> 00:15:51,360
+like
+
+333
+00:15:51,360 --> 00:15:54,060
+yeah yeah so yeah that's defeats the
+
+334
+00:15:54,060 --> 00:15:55,980
+purpose of P2P right but in some
+
+335
+00:15:55,980 --> 00:15:58,620
+situation that's allowed and that gives
+
+336
+00:15:58,620 --> 00:16:00,720
+you performance right
+
+337
+00:16:00,720 --> 00:16:01,800
+um but
+
+338
+00:16:01,800 --> 00:16:03,839
+at the same time that
+
+339
+00:16:03,839 --> 00:16:06,720
+um that primary server can be a single
+
+340
+00:16:06,720 --> 00:16:09,000
+point of failure right so if the primary
+
+341
+00:16:09,000 --> 00:16:12,240
+server goes down then
+
+342
+00:16:12,240 --> 00:16:15,000
+you won't be doing anything right so
+
+343
+00:16:15,000 --> 00:16:17,279
+there's a trade-off
+
+344
+00:16:17,279 --> 00:16:18,959
+Okay so
+
+345
+00:16:18,959 --> 00:16:21,000
+yeah so we were talking about like how
+
+346
+00:16:21,000 --> 00:16:24,720
+we can route requests and I talked about
+
+347
+00:16:24,720 --> 00:16:26,519
+two strategies so one is the store all
+
+348
+00:16:26,519 --> 00:16:29,040
+nodes and like this is similar to having
+
+349
+00:16:29,040 --> 00:16:32,459
+global index so if you do that you can
+
+350
+00:16:32,459 --> 00:16:36,420
+do one hop to get to any key
+
+351
+00:16:36,420 --> 00:16:40,440
+but you have to store on information
+
+352
+00:16:40,440 --> 00:16:43,320
+if you just store neighboring nodes you
+
+353
+00:16:43,320 --> 00:16:45,959
+have to do linear search so number hops
+
+354
+00:16:45,959 --> 00:16:50,040
+it becomes on but you can just store two
+
+355
+00:16:50,040 --> 00:16:52,380
+pointers which is a one
+
+356
+00:16:52,380 --> 00:16:56,040
+so the question is can we do
+
+357
+00:16:56,040 --> 00:16:58,380
+better or like we cannot do better but
+
+358
+00:16:58,380 --> 00:17:01,560
+can we take like a middle like
+
+359
+00:17:01,560 --> 00:17:03,600
+this o-n
+
+360
+00:17:03,600 --> 00:17:06,780
+is not quite good right so can we do
+
+361
+00:17:06,780 --> 00:17:07,859
+something
+
+362
+00:17:07,859 --> 00:17:11,220
+strike a balance between the two
+
+363
+00:17:11,220 --> 00:17:12,780
+and
+
+364
+00:17:12,780 --> 00:17:16,559
+yes there is a way and the basic idea is
+
+365
+00:17:16,559 --> 00:17:20,880
+to delete a binary search of nodes
+
+366
+00:17:20,880 --> 00:17:23,160
+okay so I'm just gonna
+
+367
+00:17:23,160 --> 00:17:25,799
+explain how that works
+
+368
+00:17:25,799 --> 00:17:29,000
+so um
+
+369
+00:17:30,840 --> 00:17:33,000
+the idea here
+
+370
+00:17:33,000 --> 00:17:34,919
+is that
+
+371
+00:17:34,919 --> 00:17:37,740
+we hop number of times
+
+372
+00:17:37,740 --> 00:17:40,320
+and every time you make a jump
+
+373
+00:17:40,320 --> 00:17:45,240
+you basically fix one letter in the
+
+374
+00:17:45,240 --> 00:17:46,320
+address
+
+375
+00:17:46,320 --> 00:17:50,340
+and the more hop you make the closer you
+
+376
+00:17:50,340 --> 00:17:51,780
+get to the key
+
+377
+00:17:51,780 --> 00:17:53,100
+so
+
+378
+00:17:53,100 --> 00:17:56,580
+suppose that your this node
+
+379
+00:17:56,580 --> 00:18:02,120
+and you want to find a data for this key
+
+380
+00:18:02,120 --> 00:18:05,580
+d46 A1C okay
+
+381
+00:18:05,580 --> 00:18:06,900
+so first
+
+382
+00:18:06,900 --> 00:18:08,600
+this node
+
+383
+00:18:08,600 --> 00:18:13,020
+knows one node that begins with the
+
+384
+00:18:13,020 --> 00:18:14,640
+first letter of address so in this case
+
+385
+00:18:14,640 --> 00:18:16,679
+d
+
+386
+00:18:16,679 --> 00:18:18,960
+so we don't know about the rest like
+
+387
+00:18:18,960 --> 00:18:22,020
+four six A1C part but we know one node
+
+388
+00:18:22,020 --> 00:18:25,260
+that starts with letter d
+
+389
+00:18:25,260 --> 00:18:27,600
+in this case it's this one
+
+390
+00:18:27,600 --> 00:18:30,360
+so it's closer right
+
+391
+00:18:30,360 --> 00:18:33,660
+so what's going to do happen is it will
+
+392
+00:18:33,660 --> 00:18:36,840
+just send request to this node
+
+393
+00:18:36,840 --> 00:18:39,960
+so it's one step closer okay
+
+394
+00:18:39,960 --> 00:18:41,460
+so now
+
+395
+00:18:41,460 --> 00:18:43,620
+this second node
+
+396
+00:18:43,620 --> 00:18:45,900
+knows
+
+397
+00:18:45,900 --> 00:18:50,520
+um a node that starts with D4 so that's
+
+398
+00:18:50,520 --> 00:18:54,200
+another one step closer
+
+399
+00:18:54,419 --> 00:18:56,280
+so in this case this one
+
+400
+00:18:56,280 --> 00:18:58,500
+so we don't know about two one three F
+
+401
+00:18:58,500 --> 00:18:59,760
+part
+
+402
+00:18:59,760 --> 00:19:02,400
+but we know that this node begins with
+
+403
+00:19:02,400 --> 00:19:03,660
+D4
+
+404
+00:19:03,660 --> 00:19:07,679
+so we make that jump and we're a step
+
+405
+00:19:07,679 --> 00:19:09,840
+closer to the goal
+
+406
+00:19:09,840 --> 00:19:11,820
+then this node
+
+407
+00:19:11,820 --> 00:19:16,740
+knows one node that starts with d46
+
+408
+00:19:16,740 --> 00:19:19,080
+so it's another step closer and we keep
+
+409
+00:19:19,080 --> 00:19:22,140
+doing this and eventually
+
+410
+00:19:22,140 --> 00:19:27,419
+we'll find a node that has the key we
+
+411
+00:19:27,419 --> 00:19:29,960
+were looking for
+
+412
+00:19:32,520 --> 00:19:35,520
+yes
+
+413
+00:19:39,260 --> 00:19:43,940
+no so the node has
+
+414
+00:19:46,020 --> 00:19:48,740
+it like
+
+415
+00:19:54,299 --> 00:19:57,179
+so yeah yeah so um
+
+416
+00:19:57,179 --> 00:20:00,000
+well so this request
+
+417
+00:20:00,000 --> 00:20:01,740
+is saying
+
+418
+00:20:01,740 --> 00:20:03,559
+find
+
+419
+00:20:03,559 --> 00:20:06,780
+sorry um
+
+420
+00:20:06,780 --> 00:20:08,880
+basically find the key that has to do
+
+421
+00:20:08,880 --> 00:20:11,100
+this right this value right
+
+422
+00:20:11,100 --> 00:20:13,500
+so when you request so when you receive
+
+423
+00:20:13,500 --> 00:20:17,580
+this request you can check if you have
+
+424
+00:20:17,580 --> 00:20:19,380
+this value right
+
+425
+00:20:19,380 --> 00:20:21,960
+and if you do you can just return the
+
+426
+00:20:21,960 --> 00:20:24,900
+response otherwise you have to forward
+
+427
+00:20:24,900 --> 00:20:28,820
+the request to the closer node
+
+428
+00:20:30,900 --> 00:20:32,460
+okay
+
+429
+00:20:32,460 --> 00:20:34,799
+and how many um how many notes does each
+
+430
+00:20:34,799 --> 00:20:37,340
+node know of then
+
+431
+00:20:37,340 --> 00:20:38,940
+uh
+
+432
+00:20:38,940 --> 00:20:40,559
+I'll talk about that in the next slide
+
+433
+00:20:40,559 --> 00:20:44,940
+okay so will you get that yeah right so
+
+434
+00:20:44,940 --> 00:20:48,480
+basically what happens in the first
+
+435
+00:20:48,480 --> 00:20:53,100
+um hop is that because this
+
+436
+00:20:53,100 --> 00:20:54,840
+um
+
+437
+00:20:54,840 --> 00:20:57,660
+this no sorry um this key begins with
+
+438
+00:20:57,660 --> 00:20:59,520
+letter d
+
+439
+00:20:59,520 --> 00:21:02,700
+we're going to basically
+
+440
+00:21:02,700 --> 00:21:06,539
+limit the search space into everything
+
+441
+00:21:06,539 --> 00:21:09,539
+every node that starts with d
+
+442
+00:21:09,539 --> 00:21:12,419
+and we don't know the exact range but we
+
+443
+00:21:12,419 --> 00:21:14,940
+know that we know one node that starts
+
+444
+00:21:14,940 --> 00:21:17,360
+with d
+
+445
+00:21:17,700 --> 00:21:19,380
+and this node
+
+446
+00:21:19,380 --> 00:21:20,940
+will basically
+
+447
+00:21:20,940 --> 00:21:22,940
+um
+
+448
+00:21:23,760 --> 00:21:27,360
+like make the search space even smaller
+
+449
+00:21:27,360 --> 00:21:31,380
+by forwarding the request
+
+450
+00:21:31,380 --> 00:21:34,500
+to a node that starts with D1 and we
+
+451
+00:21:34,500 --> 00:21:38,400
+keep doing this until we find data
+
+452
+00:21:38,400 --> 00:21:40,679
+so the question is what
+
+453
+00:21:40,679 --> 00:21:45,419
+information does each node have to store
+
+454
+00:21:45,419 --> 00:21:47,760
+so
+
+455
+00:21:47,760 --> 00:21:49,380
+this is
+
+456
+00:21:49,380 --> 00:21:51,299
+the routing table
+
+457
+00:21:51,299 --> 00:21:56,280
+that this node 65 A1 FG which is this
+
+458
+00:21:56,280 --> 00:21:59,159
+node needs to maintain okay
+
+459
+00:21:59,159 --> 00:22:01,440
+so first
+
+460
+00:22:01,440 --> 00:22:03,559
+um
+
+461
+00:22:06,059 --> 00:22:08,159
+well so
+
+462
+00:22:08,159 --> 00:22:10,020
+in this case
+
+463
+00:22:10,020 --> 00:22:14,460
+we had a request that begins with d
+
+464
+00:22:14,460 --> 00:22:17,400
+and we have to know one node that starts
+
+465
+00:22:17,400 --> 00:22:19,679
+with d right and a similar thing can
+
+466
+00:22:19,679 --> 00:22:20,520
+happen
+
+467
+00:22:20,520 --> 00:22:23,400
+with an address that begins with one two
+
+468
+00:22:23,400 --> 00:22:24,900
+three and so on
+
+469
+00:22:24,900 --> 00:22:27,419
+so in the top row
+
+470
+00:22:27,419 --> 00:22:29,280
+of this table
+
+471
+00:22:29,280 --> 00:22:33,659
+is basically all the nodes that begins
+
+472
+00:22:33,659 --> 00:22:38,159
+with certain like number so we know one
+
+473
+00:22:38,159 --> 00:22:41,520
+node that starts with zero we know one
+
+474
+00:22:41,520 --> 00:22:44,580
+node that begins with one and so on
+
+475
+00:22:44,580 --> 00:22:49,020
+and we use this to um like a make a
+
+476
+00:22:49,020 --> 00:22:51,740
+request right
+
+477
+00:22:52,380 --> 00:22:55,799
+and another so the second row basically
+
+478
+00:22:55,799 --> 00:22:59,280
+says so because this node begins with
+
+479
+00:22:59,280 --> 00:23:01,500
+six
+
+480
+00:23:01,500 --> 00:23:05,159
+we may receive a request that begins
+
+481
+00:23:05,159 --> 00:23:08,100
+with six right so this can be this node
+
+482
+00:23:08,100 --> 00:23:10,200
+can be a representative node
+
+483
+00:23:10,200 --> 00:23:12,299
+for all the addresses that begins with
+
+484
+00:23:12,299 --> 00:23:13,860
+six
+
+485
+00:23:13,860 --> 00:23:16,559
+so we need to be able to forward the
+
+486
+00:23:16,559 --> 00:23:19,620
+request to one step closer
+
+487
+00:23:19,620 --> 00:23:22,620
+so we have to know all the nodes that
+
+488
+00:23:22,620 --> 00:23:23,580
+start with
+
+489
+00:23:23,580 --> 00:23:26,159
+sorry we have to know some node that
+
+490
+00:23:26,159 --> 00:23:29,100
+starts with six zero six one six two and
+
+491
+00:23:29,100 --> 00:23:31,740
+so on yeah so the basic idea is that
+
+492
+00:23:31,740 --> 00:23:33,240
+instead of remember instead of each
+
+493
+00:23:33,240 --> 00:23:35,820
+having each node remember so instead of
+
+494
+00:23:35,820 --> 00:23:37,860
+having each node remember the exact
+
+495
+00:23:37,860 --> 00:23:40,020
+nodes you have each node kind of
+
+496
+00:23:40,020 --> 00:23:42,600
+remember properties of the node so like
+
+497
+00:23:42,600 --> 00:23:44,580
+it can remember that okay there's one
+
+498
+00:23:44,580 --> 00:23:46,080
+with there's something with a d there's
+
+499
+00:23:46,080 --> 00:23:47,940
+something with there's something with
+
+500
+00:23:47,940 --> 00:23:51,500
+five or four yeah yeah
+
+501
+00:24:00,840 --> 00:24:02,600
+unbelievable
+
+502
+00:24:02,600 --> 00:24:05,760
+no peer-to-peer is not related to Hash
+
+503
+00:24:05,760 --> 00:24:08,700
+table so hash table is just a data
+
+504
+00:24:08,700 --> 00:24:12,000
+structure we want to construct
+
+505
+00:24:12,000 --> 00:24:14,880
+um in a distributed system and you can
+
+506
+00:24:14,880 --> 00:24:17,880
+have a distributed hash table that is
+
+507
+00:24:17,880 --> 00:24:20,940
+not peer-to-peer right like as he was
+
+508
+00:24:20,940 --> 00:24:23,460
+saying we can have a primary server that
+
+509
+00:24:23,460 --> 00:24:25,260
+has all the information or something
+
+510
+00:24:25,260 --> 00:24:26,700
+like that
+
+511
+00:24:26,700 --> 00:24:29,520
+so yeah
+
+512
+00:24:29,520 --> 00:24:31,140
+mm-hmm
+
+513
+00:24:31,140 --> 00:24:33,980
+what is the
+
+514
+00:24:34,559 --> 00:24:37,620
+box oh right um let me explain in the
+
+515
+00:24:37,620 --> 00:24:39,120
+next slide okay
+
+516
+00:24:39,120 --> 00:24:40,860
+so
+
+517
+00:24:40,860 --> 00:24:43,200
+but you get this idea right so basically
+
+518
+00:24:43,200 --> 00:24:45,780
+you have
+
+519
+00:24:45,780 --> 00:24:48,000
+you have a list of notes that begins
+
+520
+00:24:48,000 --> 00:24:50,039
+with one letter two letter three letter
+
+521
+00:24:50,039 --> 00:24:51,960
+and so on
+
+522
+00:24:51,960 --> 00:24:54,840
+so what we want to know is
+
+523
+00:24:54,840 --> 00:24:58,520
+okay let me second
+
+524
+00:24:58,559 --> 00:25:00,659
+okay so we want to know is how many
+
+525
+00:25:00,659 --> 00:25:03,299
+number of hops this system will need and
+
+526
+00:25:03,299 --> 00:25:06,480
+how much storage it will need right
+
+527
+00:25:06,480 --> 00:25:09,240
+so in terms of the number of hops as I
+
+528
+00:25:09,240 --> 00:25:11,640
+was saying it's basically doing a binary
+
+529
+00:25:11,640 --> 00:25:14,580
+search I mean okay every time you make a
+
+530
+00:25:14,580 --> 00:25:19,340
+hop the search space gets like
+
+531
+00:25:19,559 --> 00:25:22,919
+one of the 16th right so
+
+532
+00:25:22,919 --> 00:25:25,860
+because you make one hop you fix one
+
+533
+00:25:25,860 --> 00:25:26,640
+letter
+
+534
+00:25:26,640 --> 00:25:29,520
+so you narrow the search Space by a
+
+535
+00:25:29,520 --> 00:25:31,140
+factor of 16.
+
+536
+00:25:31,140 --> 00:25:34,200
+and you keep doing this right so I mean
+
+537
+00:25:34,200 --> 00:25:37,020
+it's not binary search but it's like
+
+538
+00:25:37,020 --> 00:25:41,039
+16 version of binary right
+
+539
+00:25:41,039 --> 00:25:44,279
+so the number of steps or the number of
+
+540
+00:25:44,279 --> 00:25:47,520
+hops required is basically log 16 log
+
+541
+00:25:47,520 --> 00:25:51,419
+base 16 and hops where n is the number
+
+542
+00:25:51,419 --> 00:25:53,840
+of nodes
+
+543
+00:26:01,320 --> 00:26:02,880
+well
+
+544
+00:26:02,880 --> 00:26:06,059
+in a way it is sorted right
+
+545
+00:26:06,059 --> 00:26:10,919
+the keys are sorted right and
+
+546
+00:26:11,460 --> 00:26:13,700
+so
+
+547
+00:26:14,120 --> 00:26:17,340
+so in the first hop
+
+548
+00:26:17,340 --> 00:26:21,419
+you are going to send a request to a
+
+549
+00:26:21,419 --> 00:26:25,620
+node that starts with d right
+
+550
+00:26:25,620 --> 00:26:29,700
+and it is this node's job to figure out
+
+551
+00:26:29,700 --> 00:26:32,059
+the rest
+
+552
+00:26:32,220 --> 00:26:36,659
+so we basically reduce the search space
+
+553
+00:26:36,659 --> 00:26:38,760
+from
+
+554
+00:26:38,760 --> 00:26:42,200
+well so they're like so at the beginning
+
+555
+00:26:42,200 --> 00:26:45,240
+there are like 16
+
+556
+00:26:45,240 --> 00:26:48,299
+to the power of six like possible
+
+557
+00:26:48,299 --> 00:26:51,900
+addresses right but by for sending this
+
+558
+00:26:51,900 --> 00:26:54,539
+request to this we narrow the search
+
+559
+00:26:54,539 --> 00:26:57,659
+space to 16.
+
+560
+00:26:57,659 --> 00:27:00,380
+to the five
+
+561
+00:27:03,179 --> 00:27:07,100
+does that make sense yeah yeah okay
+
+562
+00:27:14,640 --> 00:27:16,440
+you know it has that
+
+563
+00:27:16,440 --> 00:27:19,380
+you can't just uh automatically insert
+
+564
+00:27:19,380 --> 00:27:21,360
+these
+
+565
+00:27:21,360 --> 00:27:22,679
+like insert your
+
+566
+00:27:22,679 --> 00:27:24,779
+um d46 and
+
+567
+00:27:24,779 --> 00:27:26,340
+start from there like is there any
+
+568
+00:27:26,340 --> 00:27:28,260
+reason you have to
+
+569
+00:27:28,260 --> 00:27:31,200
+is there any reason you have to do
+
+570
+00:27:31,200 --> 00:27:33,840
+the big hop then do four then make a hop
+
+571
+00:27:33,840 --> 00:27:36,419
+wait what do you mean so so what can you
+
+572
+00:27:36,419 --> 00:27:38,220
+do here so
+
+573
+00:27:38,220 --> 00:27:42,799
+you know a node that starts with d right
+
+574
+00:27:43,679 --> 00:27:46,080
+yeah but we don't know anything more
+
+575
+00:27:46,080 --> 00:27:46,919
+about
+
+576
+00:27:46,919 --> 00:27:50,840
+addresses that starts with d right
+
+577
+00:27:51,000 --> 00:27:53,100
+uh wait why don't we
+
+578
+00:27:53,100 --> 00:27:56,760
+because all the other roles start with
+
+579
+00:27:56,760 --> 00:28:00,260
+six right for example in this case
+
+580
+00:28:05,000 --> 00:28:07,860
+wait are you saying that we know for a
+
+581
+00:28:07,860 --> 00:28:11,220
+fact there's no like e nodes Maybe
+
+582
+00:28:11,220 --> 00:28:13,880
+what do you mean
+
+583
+00:28:14,279 --> 00:28:15,779
+like obviously we're starting from a
+
+584
+00:28:15,779 --> 00:28:18,480
+sixth note and then and then like
+
+585
+00:28:18,480 --> 00:28:22,200
+like like from six five a1m what's FC
+
+586
+00:28:22,200 --> 00:28:24,659
+yeah like basically what I'm saying is
+
+587
+00:28:24,659 --> 00:28:27,419
+like why do we not know why would we not
+
+588
+00:28:27,419 --> 00:28:31,140
+know that a d46 doesn't exist already
+
+589
+00:28:31,140 --> 00:28:34,260
+well so it might exist right
+
+590
+00:28:34,260 --> 00:28:35,340
+but
+
+591
+00:28:35,340 --> 00:28:38,880
+um in general it doesn't because so
+
+592
+00:28:38,880 --> 00:28:41,059
+um
+
+593
+00:28:42,200 --> 00:28:45,120
+[Music]
+
+594
+00:28:45,120 --> 00:28:47,100
+we want
+
+595
+00:28:47,100 --> 00:28:50,059
+but in this
+
+596
+00:28:50,539 --> 00:28:53,779
+neo4601c yeah
+
+597
+00:28:56,220 --> 00:28:58,940
+and then basically
+
+598
+00:28:59,520 --> 00:29:01,080
+yeah what I'm saying is why can't you
+
+599
+00:29:01,080 --> 00:29:03,059
+just why can't you just automatically
+
+600
+00:29:03,059 --> 00:29:04,740
+use d46
+
+601
+00:29:04,740 --> 00:29:07,799
+no because you don't know which node has
+
+602
+00:29:07,799 --> 00:29:09,659
+the
+
+603
+00:29:09,659 --> 00:29:11,460
+5A right
+
+604
+00:29:11,460 --> 00:29:13,679
+because you know one node that begins
+
+605
+00:29:13,679 --> 00:29:15,840
+with d but you don't know anything else
+
+606
+00:29:15,840 --> 00:29:20,360
+about addresses that begins with d
+
+607
+00:29:24,899 --> 00:29:26,520
+so that's the information you have to
+
+608
+00:29:26,520 --> 00:29:29,000
+keep track of
+
+609
+00:29:30,120 --> 00:29:32,120
+like let's say
+
+610
+00:29:32,120 --> 00:29:35,460
+9B board doesn't exist
+
+611
+00:29:35,460 --> 00:29:38,820
+or does exist well so if you
+
+612
+00:29:38,820 --> 00:29:42,120
+what did you say name
+
+613
+00:29:42,120 --> 00:29:45,559
+four like like yeah
+
+614
+00:29:49,440 --> 00:29:53,700
+so if you want to look for something
+
+615
+00:29:53,700 --> 00:29:56,399
+that begins with 9b4
+
+616
+00:29:56,399 --> 00:29:58,679
+you stand
+
+617
+00:29:58,679 --> 00:30:02,460
+a request to this node right
+
+618
+00:30:02,460 --> 00:30:07,330
+so this node has can figure out
+
+619
+00:30:07,330 --> 00:30:07,679
+[Music]
+
+620
+00:30:07,679 --> 00:30:08,640
+um
+
+621
+00:30:08,640 --> 00:30:10,500
+basically everything that starts with
+
+622
+00:30:10,500 --> 00:30:12,059
+nine
+
+623
+00:30:12,059 --> 00:30:13,679
+and
+
+624
+00:30:13,679 --> 00:30:15,779
+I mean this is all the information this
+
+625
+00:30:15,779 --> 00:30:18,419
+node has about address that start with
+
+626
+00:30:18,419 --> 00:30:19,919
+nine
+
+627
+00:30:19,919 --> 00:30:24,539
+so all this node can do is to let this
+
+628
+00:30:24,539 --> 00:30:28,580
+node figure out the rest
+
+629
+00:30:30,899 --> 00:30:32,240
+okay
+
+630
+00:30:32,240 --> 00:30:34,679
+so instead of thinking of the node
+
+631
+00:30:34,679 --> 00:30:36,980
+thinking of the nodes as like entire
+
+632
+00:30:36,980 --> 00:30:39,299
+streams they're thinking of them just
+
+633
+00:30:39,299 --> 00:30:40,500
+like here
+
+634
+00:30:40,500 --> 00:30:43,440
+yeah
+
+635
+00:30:43,440 --> 00:30:45,440
+yeah
+
+636
+00:30:59,000 --> 00:31:02,220
+okay so okay so
+
+637
+00:31:02,220 --> 00:31:04,440
+so let's say we are looking for 9 B4
+
+638
+00:31:04,440 --> 00:31:05,880
+right
+
+639
+00:31:05,880 --> 00:31:07,380
+um
+
+640
+00:31:07,380 --> 00:31:11,340
+so we have we have no choice but to send
+
+641
+00:31:11,340 --> 00:31:14,940
+this request to this address right and
+
+642
+00:31:14,940 --> 00:31:16,980
+this address
+
+643
+00:31:16,980 --> 00:31:20,399
+maybe 94 but may not be 9 before right
+
+644
+00:31:20,399 --> 00:31:24,240
+and suppose that this address was 9
+
+645
+00:31:24,240 --> 00:31:26,520
+see something right
+
+646
+00:31:26,520 --> 00:31:28,799
+so
+
+647
+00:31:28,799 --> 00:31:31,760
+but this node
+
+648
+00:31:31,760 --> 00:31:36,120
+knows where to okay so in this node node
+
+649
+00:31:36,120 --> 00:31:40,260
+the address that starts with B 9B right
+
+650
+00:31:40,260 --> 00:31:43,679
+because this is second right so in the
+
+651
+00:31:43,679 --> 00:31:44,880
+second row
+
+652
+00:31:44,880 --> 00:31:46,559
+of this node
+
+653
+00:31:46,559 --> 00:31:48,480
+we know
+
+654
+00:31:48,480 --> 00:31:50,220
+all the nodes
+
+655
+00:31:50,220 --> 00:31:54,480
+that starts with six something right so
+
+656
+00:31:54,480 --> 00:31:57,720
+in this node this node knows every this
+
+657
+00:31:57,720 --> 00:32:03,000
+node that starts with nine
+
+658
+00:32:03,419 --> 00:32:06,720
+something right so they can forward
+
+659
+00:32:06,720 --> 00:32:09,679
+request in the right direction
+
+660
+00:32:12,600 --> 00:32:15,020
+okay
+
+661
+00:32:15,179 --> 00:32:19,940
+like this yeah yeah yeah it knows
+
+662
+00:32:24,779 --> 00:32:27,179
+yes
+
+663
+00:32:27,179 --> 00:32:29,899
+yeah and then
+
+664
+00:32:32,399 --> 00:32:34,679
+uh
+
+665
+00:32:34,679 --> 00:32:37,679
+yeah I mean it's this row right
+
+666
+00:32:37,679 --> 00:32:40,320
+yeah but he also knows old notes that
+
+667
+00:32:40,320 --> 00:32:44,360
+starts with six something yeah
+
+668
+00:32:47,640 --> 00:32:50,059
+yeah yeah
+
+669
+00:32:51,419 --> 00:32:54,899
+yeah going on the way
+
+670
+00:32:54,899 --> 00:32:56,399
+yeah so it's storing a lot of
+
+671
+00:32:56,399 --> 00:32:59,039
+information but how much right so
+
+672
+00:32:59,039 --> 00:33:00,659
+how much information
+
+673
+00:33:00,659 --> 00:33:03,240
+like how big is this table
+
+674
+00:33:03,240 --> 00:33:06,840
+I mean there's this answer but
+
+675
+00:33:06,840 --> 00:33:10,100
+right so um
+
+676
+00:33:12,120 --> 00:33:14,880
+yeah we're writing in HEX
+
+677
+00:33:14,880 --> 00:33:19,679
+so I mean so the number of columns is
+
+678
+00:33:19,679 --> 00:33:22,380
+fixed right we just have 16 columns for
+
+679
+00:33:22,380 --> 00:33:27,000
+each row and how many rows we need well
+
+680
+00:33:27,000 --> 00:33:31,620
+it's log base 16n right
+
+681
+00:33:31,620 --> 00:33:34,760
+because yeah
+
+682
+00:33:36,480 --> 00:33:38,899
+where
+
+683
+00:33:39,419 --> 00:33:42,539
+oh I think it's just type or I mean this
+
+684
+00:33:42,539 --> 00:33:45,779
+x means some address so
+
+685
+00:33:45,779 --> 00:33:47,460
+um yeah
+
+686
+00:33:47,460 --> 00:33:49,500
+we know address
+
+687
+00:33:49,500 --> 00:33:54,860
+of node that starts with letter f
+
+688
+00:33:54,960 --> 00:33:57,440
+okay
+
+689
+00:33:58,860 --> 00:34:00,360
+this is a mix
+
+690
+00:34:00,360 --> 00:34:02,580
+does this make sense
+
+691
+00:34:02,580 --> 00:34:03,840
+okay
+
+692
+00:34:03,840 --> 00:34:05,700
+I don't know I feel like I'm terrible at
+
+693
+00:34:05,700 --> 00:34:07,740
+explaining this so
+
+694
+00:34:07,740 --> 00:34:08,940
+let me know if you have any more
+
+695
+00:34:08,940 --> 00:34:10,500
+questions later
+
+696
+00:34:10,500 --> 00:34:13,320
+so um actually so this concludes our
+
+697
+00:34:13,320 --> 00:34:15,719
+discussion of how this would be hash
+
+698
+00:34:15,719 --> 00:34:17,760
+table but um yeah I think it's
+
+699
+00:34:17,760 --> 00:34:21,000
+interesting so if you think about this
+
+700
+00:34:21,000 --> 00:34:25,440
+table we basically have o log n all
+
+701
+00:34:25,440 --> 00:34:27,480
+again
+
+702
+00:34:27,480 --> 00:34:29,280
+um in these two cells
+
+703
+00:34:29,280 --> 00:34:33,300
+and in general that's a good balance
+
+704
+00:34:33,300 --> 00:34:36,719
+right and I don't think we can beat that
+
+705
+00:34:36,719 --> 00:34:38,159
+because
+
+706
+00:34:38,159 --> 00:34:39,359
+yeah
+
+707
+00:34:39,359 --> 00:34:41,040
+okay
+
+708
+00:34:41,040 --> 00:34:42,859
+so that's that
+
+709
+00:34:42,859 --> 00:34:47,820
+and we will move to this discussion of
+
+710
+00:34:47,820 --> 00:34:49,739
+container
+
+711
+00:34:49,739 --> 00:34:50,940
+so
+
+712
+00:34:50,940 --> 00:34:53,060
+yeah container is a focus of project
+
+713
+00:34:53,060 --> 00:34:57,060
+five so I think it's worth going over
+
+714
+00:34:57,060 --> 00:34:59,000
+these slides
+
+715
+00:34:59,000 --> 00:35:00,720
+and
+
+716
+00:35:00,720 --> 00:35:04,500
+well so container is kind of a
+
+717
+00:35:04,500 --> 00:35:06,720
+just a you know
+
+718
+00:35:06,720 --> 00:35:09,780
+type of software but in this lecture
+
+719
+00:35:09,780 --> 00:35:12,599
+we'll focus on Docker which is the most
+
+720
+00:35:12,599 --> 00:35:15,540
+popular container solution
+
+721
+00:35:15,540 --> 00:35:18,359
+so what is Docker well
+
+722
+00:35:18,359 --> 00:35:20,880
+Docker is an open source project
+
+723
+00:35:20,880 --> 00:35:22,800
+that automates the deployment of
+
+724
+00:35:22,800 --> 00:35:24,960
+applications inside software containers
+
+725
+00:35:24,960 --> 00:35:27,240
+by providing an additional now layer of
+
+726
+00:35:27,240 --> 00:35:30,359
+abstraction automation sorry abstraction
+
+727
+00:35:30,359 --> 00:35:32,599
+and automation of operating system level
+
+728
+00:35:32,599 --> 00:35:36,180
+virtualization on Linux so yeah
+
+729
+00:35:36,180 --> 00:35:38,280
+when you say container it usually means
+
+730
+00:35:38,280 --> 00:35:40,560
+on Linux I think there's a thing called
+
+731
+00:35:40,560 --> 00:35:42,839
+Windows containers but it's not really
+
+732
+00:35:42,839 --> 00:35:45,000
+popular So when you say container it
+
+733
+00:35:45,000 --> 00:35:47,640
+usually means container on Linux
+
+734
+00:35:47,640 --> 00:35:50,400
+so here's a little history of Docker so
+
+735
+00:35:50,400 --> 00:35:54,300
+it started as a DOT Cloud project yeah
+
+736
+00:35:54,300 --> 00:35:55,560
+so it's a
+
+737
+00:35:55,560 --> 00:35:59,400
+platform as a service provider and yeah
+
+738
+00:35:59,400 --> 00:36:03,960
+so it roughly started around 2013 and
+
+739
+00:36:03,960 --> 00:36:06,960
+it's released right down the same time
+
+740
+00:36:06,960 --> 00:36:10,560
+and I think in the past Docker was open
+
+741
+00:36:10,560 --> 00:36:12,480
+source now it's closed Source I mean
+
+742
+00:36:12,480 --> 00:36:14,220
+it's some some parts of Docker is open
+
+743
+00:36:14,220 --> 00:36:16,140
+source but now it's closed closed those
+
+744
+00:36:16,140 --> 00:36:18,359
+but it had a lot of stores when it was
+
+745
+00:36:18,359 --> 00:36:22,380
+open source and yeah so and Dot Cloud
+
+746
+00:36:22,380 --> 00:36:25,560
+the company behind Docker was
+
+747
+00:36:25,560 --> 00:36:27,980
+basically it was a platform as a service
+
+748
+00:36:27,980 --> 00:36:30,900
+provider so it was like you know cloud
+
+749
+00:36:30,900 --> 00:36:33,420
+service provider but they switched their
+
+750
+00:36:33,420 --> 00:36:35,099
+business to
+
+751
+00:36:35,099 --> 00:36:37,200
+um container Solutions
+
+752
+00:36:37,200 --> 00:36:40,140
+in 2013.
+
+753
+00:36:40,140 --> 00:36:43,980
+and here's a short list of features that
+
+754
+00:36:43,980 --> 00:36:47,579
+Docker has so it is comparative virtual
+
+755
+00:36:47,579 --> 00:36:50,520
+machines it is lightweight
+
+756
+00:36:50,520 --> 00:36:54,119
+so it has minimum overhead or on CPU IO
+
+757
+00:36:54,119 --> 00:36:55,200
+and Network
+
+758
+00:36:55,200 --> 00:36:57,720
+it is based on Linux containers it uses
+
+759
+00:36:57,720 --> 00:37:00,180
+layered file system to save space
+
+760
+00:37:00,180 --> 00:37:02,940
+and uses a copy on write file system to
+
+761
+00:37:02,940 --> 00:37:04,380
+track changes
+
+762
+00:37:04,380 --> 00:37:06,660
+it is portable
+
+763
+00:37:06,660 --> 00:37:10,140
+which means that it can well a container
+
+764
+00:37:10,140 --> 00:37:12,900
+can run on any Linux system that
+
+765
+00:37:12,900 --> 00:37:16,160
+supports something called lxc
+
+766
+00:37:16,160 --> 00:37:17,880
+and
+
+767
+00:37:17,880 --> 00:37:19,560
+um
+
+768
+00:37:19,560 --> 00:37:21,960
+yeah so
+
+769
+00:37:21,960 --> 00:37:26,339
+I think in the very first era of Docker
+
+770
+00:37:26,339 --> 00:37:29,040
+it only supported like special type of
+
+771
+00:37:29,040 --> 00:37:31,380
+Linux distributions but now it's
+
+772
+00:37:31,380 --> 00:37:33,920
+supposed everywhere supported everywhere
+
+773
+00:37:33,920 --> 00:37:38,780
+Raspberry Pi even can run docker
+
+774
+00:37:38,780 --> 00:37:40,320
+and
+
+775
+00:37:40,320 --> 00:37:42,000
+yeah
+
+776
+00:37:42,000 --> 00:37:44,040
+it says possible future support of other
+
+777
+00:37:44,040 --> 00:37:46,680
+operating systems on this slide but
+
+778
+00:37:46,680 --> 00:37:48,660
+like for example we have Docker desktop
+
+779
+00:37:48,660 --> 00:37:51,240
+now so I think Windows and Mac
+
+780
+00:37:51,240 --> 00:37:55,099
+are supported now yeah
+
+781
+00:37:56,460 --> 00:37:59,520
+is it more lightweight than WSL
+
+782
+00:37:59,520 --> 00:38:02,520
+uh
+
+783
+00:38:02,940 --> 00:38:07,640
+uh no because Docker desktop for Windows
+
+784
+00:38:07,640 --> 00:38:10,680
+requires WSL inside
+
+785
+00:38:10,680 --> 00:38:13,020
+so it's kind of different layer so in
+
+786
+00:38:13,020 --> 00:38:15,540
+order to use Docker you need to have
+
+787
+00:38:15,540 --> 00:38:17,280
+Linux running
+
+788
+00:38:17,280 --> 00:38:18,780
+underneath
+
+789
+00:38:18,780 --> 00:38:20,339
+so
+
+790
+00:38:20,339 --> 00:38:22,859
+yeah it's kind of different layer of
+
+791
+00:38:22,859 --> 00:38:25,640
+abstraction yeah
+
+792
+00:38:41,220 --> 00:38:43,640
+right
+
+793
+00:38:49,260 --> 00:38:53,339
+right I think I'll talk about that for
+
+794
+00:38:53,339 --> 00:38:55,440
+the rest of the slides so um if you can
+
+795
+00:38:55,440 --> 00:38:57,480
+wait a little bit
+
+796
+00:38:57,480 --> 00:38:59,520
+and yeah I'll be happy to take questions
+
+797
+00:38:59,520 --> 00:39:01,380
+after the lecture okay
+
+798
+00:39:01,380 --> 00:39:03,480
+so and another thing is called
+
+799
+00:39:03,480 --> 00:39:05,700
+self-sufficient so that means
+
+800
+00:39:05,700 --> 00:39:08,400
+um well the letters are too small but it
+
+801
+00:39:08,400 --> 00:39:09,780
+says Docker container contains
+
+802
+00:39:09,780 --> 00:39:12,660
+everything it needs to run and
+
+803
+00:39:12,660 --> 00:39:15,660
+um it has OS libraries and Frameworks
+
+804
+00:39:15,660 --> 00:39:18,020
+and applications so it has everything
+
+805
+00:39:18,020 --> 00:39:21,900
+you want for um basically you want to do
+
+806
+00:39:21,900 --> 00:39:23,640
+so you just you can just download
+
+807
+00:39:23,640 --> 00:39:26,460
+container and it just runs and does
+
+808
+00:39:26,460 --> 00:39:27,540
+whatever
+
+809
+00:39:27,540 --> 00:39:30,359
+you want it to do
+
+810
+00:39:30,359 --> 00:39:34,040
+so here's a yeah sorry
+
+811
+00:39:39,359 --> 00:39:41,040
+yeah so
+
+812
+00:39:41,040 --> 00:39:43,500
+um yeah I'll go over but um Linux
+
+813
+00:39:43,500 --> 00:39:46,380
+containers share the kernel right so in
+
+814
+00:39:46,380 --> 00:39:49,619
+a way it doesn't have the kernel so it's
+
+815
+00:39:49,619 --> 00:39:51,720
+not iOS but at the same time like when
+
+816
+00:39:51,720 --> 00:39:53,640
+you say OS
+
+817
+00:39:53,640 --> 00:39:54,300
+um
+
+818
+00:39:54,300 --> 00:39:57,000
+it means more than kernel right so for
+
+819
+00:39:57,000 --> 00:39:58,980
+example like if you say
+
+820
+00:39:58,980 --> 00:40:02,700
+so you know Windows is an OS and it has
+
+821
+00:40:02,700 --> 00:40:05,160
+Windows kernel but it has you know
+
+822
+00:40:05,160 --> 00:40:07,380
+Windows system or you know Internet
+
+823
+00:40:07,380 --> 00:40:11,099
+Explorer like Microsoft Edge now
+
+824
+00:40:11,099 --> 00:40:14,579
+um that's also part of the OS right so
+
+825
+00:40:14,579 --> 00:40:16,640
+um if you count that as OS then
+
+826
+00:40:16,640 --> 00:40:19,320
+container has all the you know software
+
+827
+00:40:19,320 --> 00:40:23,520
+that's required as an OS so
+
+828
+00:40:23,520 --> 00:40:27,540
+in a way it has some parts of like upper
+
+829
+00:40:27,540 --> 00:40:31,880
+layer of os but not the kernel yeah
+
+830
+00:40:32,160 --> 00:40:34,500
+so here's a little background of um
+
+831
+00:40:34,500 --> 00:40:40,040
+Docker and why it was needed so um
+
+832
+00:40:41,339 --> 00:40:42,780
+so basically
+
+833
+00:40:42,780 --> 00:40:44,579
+um
+
+834
+00:40:44,579 --> 00:40:47,099
+in like if you're developing a web
+
+835
+00:40:47,099 --> 00:40:48,900
+service or something
+
+836
+00:40:48,900 --> 00:40:50,880
+um you have a bunch of components that
+
+837
+00:40:50,880 --> 00:40:53,160
+you need to deploy right so you have
+
+838
+00:40:53,160 --> 00:40:54,900
+might have an ecstatic website your
+
+839
+00:40:54,900 --> 00:40:57,420
+company website and you might have
+
+840
+00:40:57,420 --> 00:41:00,119
+database you might have queue you might
+
+841
+00:41:00,119 --> 00:41:03,180
+have database like analytics analytical
+
+842
+00:41:03,180 --> 00:41:04,920
+database that's different from you know
+
+843
+00:41:04,920 --> 00:41:06,780
+transactional database you might have
+
+844
+00:41:06,780 --> 00:41:08,940
+API web front and back-end workers and
+
+845
+00:41:08,940 --> 00:41:12,180
+so on and you have to run all these
+
+846
+00:41:12,180 --> 00:41:15,960
+different components in a different
+
+847
+00:41:15,960 --> 00:41:19,859
+um like environment so if you're working
+
+848
+00:41:19,859 --> 00:41:22,619
+on your personal laptop to develop one
+
+849
+00:41:22,619 --> 00:41:24,660
+of those things you have to have you
+
+850
+00:41:24,660 --> 00:41:27,300
+know development virtual machine
+
+851
+00:41:27,300 --> 00:41:28,800
+and
+
+852
+00:41:28,800 --> 00:41:30,780
+you know once you're done with
+
+853
+00:41:30,780 --> 00:41:33,599
+developing you might have Corey
+
+854
+00:41:33,599 --> 00:41:36,060
+Assurance people that checks your code
+
+855
+00:41:36,060 --> 00:41:38,460
+and make sure it's all working and then
+
+856
+00:41:38,460 --> 00:41:40,560
+when it sits then you might want to
+
+857
+00:41:40,560 --> 00:41:44,040
+deploy that code to public cloud or your
+
+858
+00:41:44,040 --> 00:41:47,460
+customer data center or then you know
+
+859
+00:41:47,460 --> 00:41:49,980
+once the service gets bigger you might
+
+860
+00:41:49,980 --> 00:41:51,839
+want to shift it to production cluster
+
+861
+00:41:51,839 --> 00:41:54,359
+and if it's open source project then you
+
+862
+00:41:54,359 --> 00:41:56,839
+must run on contributors laptop
+
+863
+00:41:56,839 --> 00:42:00,359
+and basically all of these components
+
+864
+00:42:00,359 --> 00:42:04,560
+must run on all of these environments
+
+865
+00:42:04,560 --> 00:42:06,839
+and this is the you know product right
+
+866
+00:42:06,839 --> 00:42:09,240
+so you know you can make a table here
+
+867
+00:42:09,240 --> 00:42:10,859
+and
+
+868
+00:42:10,859 --> 00:42:15,359
+it's like basically M by n Matrix and
+
+869
+00:42:15,359 --> 00:42:18,599
+it's really complicated to maintain all
+
+870
+00:42:18,599 --> 00:42:20,339
+these environments and making sure all
+
+871
+00:42:20,339 --> 00:42:23,099
+of these um work properly
+
+872
+00:42:23,099 --> 00:42:27,180
+and so the analogy made in this context
+
+873
+00:42:27,180 --> 00:42:31,440
+is a cargo transport before 1960s
+
+874
+00:42:31,440 --> 00:42:32,760
+where
+
+875
+00:42:32,760 --> 00:42:35,640
+um you know we're on a transport cars
+
+876
+00:42:35,640 --> 00:42:36,480
+and
+
+877
+00:42:36,480 --> 00:42:40,320
+you know pianos and so on all of those
+
+878
+00:42:40,320 --> 00:42:42,180
+have different shapes
+
+879
+00:42:42,180 --> 00:42:44,339
+and we want to transport those those
+
+880
+00:42:44,339 --> 00:42:47,339
+through you know ships and trains and so
+
+881
+00:42:47,339 --> 00:42:51,000
+on and we basically have to
+
+882
+00:42:51,000 --> 00:42:54,859
+think how we can carry a car without
+
+883
+00:42:54,859 --> 00:42:57,960
+scratching it right and
+
+884
+00:42:57,960 --> 00:43:00,060
+basically the same idea
+
+885
+00:43:00,060 --> 00:43:04,800
+and it also forms a matrix from hell and
+
+886
+00:43:04,800 --> 00:43:08,880
+a solution in the transport industry was
+
+887
+00:43:08,880 --> 00:43:11,760
+to basically standardize the container
+
+888
+00:43:11,760 --> 00:43:13,920
+right so we have this one
+
+889
+00:43:13,920 --> 00:43:16,680
+thing called the container that's fixed
+
+890
+00:43:16,680 --> 00:43:19,380
+size and
+
+891
+00:43:19,380 --> 00:43:22,560
+basically you have to think how you can
+
+892
+00:43:22,560 --> 00:43:25,680
+fit one of these things into this
+
+893
+00:43:25,680 --> 00:43:26,760
+container
+
+894
+00:43:26,760 --> 00:43:30,720
+and then all of these other you know
+
+895
+00:43:30,720 --> 00:43:34,020
+forms of transformation needs to support
+
+896
+00:43:34,020 --> 00:43:37,200
+this one type of container
+
+897
+00:43:37,200 --> 00:43:38,460
+so
+
+898
+00:43:38,460 --> 00:43:39,780
+this is
+
+899
+00:43:39,780 --> 00:43:41,940
+M plus n
+
+900
+00:43:41,940 --> 00:43:44,220
+things you have to do right which is
+
+901
+00:43:44,220 --> 00:43:47,280
+much better than n times n
+
+902
+00:43:47,280 --> 00:43:49,140
+and yeah so Docker is basically a
+
+903
+00:43:49,140 --> 00:43:52,980
+container for code not the
+
+904
+00:43:52,980 --> 00:43:56,819
+things you want to carry around and so
+
+905
+00:43:56,819 --> 00:43:59,339
+what's going to happen is you create a
+
+906
+00:43:59,339 --> 00:44:02,640
+container for website DB front end queue
+
+907
+00:44:02,640 --> 00:44:06,000
+and such and pack it as a container
+
+908
+00:44:06,000 --> 00:44:09,540
+and this container will run on any of
+
+909
+00:44:09,540 --> 00:44:12,240
+these platforms
+
+910
+00:44:12,240 --> 00:44:15,900
+so it solves the problem
+
+911
+00:44:15,900 --> 00:44:18,900
+so here's a little bit of architecture
+
+912
+00:44:18,900 --> 00:44:20,099
+so
+
+913
+00:44:20,099 --> 00:44:22,380
+when you say docker
+
+914
+00:44:22,380 --> 00:44:24,780
+you sometimes mean you know refer to the
+
+915
+00:44:24,780 --> 00:44:27,060
+docker command so that's a CLI and
+
+916
+00:44:27,060 --> 00:44:29,700
+that's the sort of front end of the
+
+917
+00:44:29,700 --> 00:44:33,420
+entire system and Docker CLI talks to
+
+918
+00:44:33,420 --> 00:44:35,880
+Docker Daemon that's running
+
+919
+00:44:35,880 --> 00:44:40,859
+in background and that does the um
+
+920
+00:44:40,859 --> 00:44:43,619
+well that's all the
+
+921
+00:44:43,619 --> 00:44:46,200
+complex things underneath and there's
+
+922
+00:44:46,200 --> 00:44:48,900
+Docker registry that's also running
+
+923
+00:44:48,900 --> 00:44:50,579
+underneath
+
+924
+00:44:50,579 --> 00:44:53,579
+there's this thing called Docker Hub and
+
+925
+00:44:53,579 --> 00:44:56,160
+that is a cloud service where you can
+
+926
+00:44:56,160 --> 00:44:58,440
+upload container
+
+927
+00:44:58,440 --> 00:45:01,500
+and those containers can be downloaded
+
+928
+00:45:01,500 --> 00:45:05,940
+and to run certain like applications
+
+929
+00:45:05,940 --> 00:45:11,160
+or you can use those images as a base to
+
+930
+00:45:11,160 --> 00:45:13,440
+create your own container
+
+931
+00:45:13,440 --> 00:45:16,980
+and yeah so don't have those all these
+
+932
+00:45:16,980 --> 00:45:18,780
+and
+
+933
+00:45:18,780 --> 00:45:21,060
+there's Docker image
+
+934
+00:45:21,060 --> 00:45:22,980
+that's basically like a template that
+
+935
+00:45:22,980 --> 00:45:26,819
+has all source code and dependencies and
+
+936
+00:45:26,819 --> 00:45:30,119
+from images you can create a Docker
+
+937
+00:45:30,119 --> 00:45:33,240
+container that's running instance of a
+
+938
+00:45:33,240 --> 00:45:35,480
+machine
+
+939
+00:45:37,319 --> 00:45:39,420
+so
+
+940
+00:45:39,420 --> 00:45:41,520
+so okay so what is Docker container well
+
+941
+00:45:41,520 --> 00:45:44,280
+so Docker container is a unit of
+
+942
+00:45:44,280 --> 00:45:46,800
+software delivery and container runs
+
+943
+00:45:46,800 --> 00:45:48,960
+everywhere
+
+944
+00:45:48,960 --> 00:45:51,240
+um in particular it runs regardless of
+
+945
+00:45:51,240 --> 00:45:55,140
+Kernel version well I mean it's it
+
+946
+00:45:55,140 --> 00:45:57,900
+doesn't run on any kernel version but as
+
+947
+00:45:57,900 --> 00:46:00,060
+long as the kernel is
+
+948
+00:46:00,060 --> 00:46:03,780
+sufficiently new it will probably run
+
+949
+00:46:03,780 --> 00:46:06,359
+and it runs regardless of hostile
+
+950
+00:46:06,359 --> 00:46:11,060
+distribution so if you want to install
+
+951
+00:46:11,060 --> 00:46:14,520
+software directly on your machine
+
+952
+00:46:14,520 --> 00:46:15,960
+there were
+
+953
+00:46:15,960 --> 00:46:19,200
+a command you need to run to install on
+
+954
+00:46:19,200 --> 00:46:21,420
+Ubuntu made different from
+
+955
+00:46:21,420 --> 00:46:24,720
+I don't know Red Hat Centos but if you
+
+956
+00:46:24,720 --> 00:46:26,819
+use Docker container you don't have to
+
+957
+00:46:26,819 --> 00:46:29,160
+worry about those things
+
+958
+00:46:29,160 --> 00:46:33,119
+I guess one caveat is that container and
+
+959
+00:46:33,119 --> 00:46:36,420
+host architecture must match so
+
+960
+00:46:36,420 --> 00:46:38,520
+um I guess this is a quite a little bit
+
+961
+00:46:38,520 --> 00:46:40,680
+different from virtual machine where
+
+962
+00:46:40,680 --> 00:46:44,400
+virtual machine can execute the code for
+
+963
+00:46:44,400 --> 00:46:45,660
+different
+
+964
+00:46:45,660 --> 00:46:46,380
+um
+
+965
+00:46:46,380 --> 00:46:49,260
+architecture through emulation sometimes
+
+966
+00:46:49,260 --> 00:46:52,740
+but in Docker you have to have you have
+
+967
+00:46:52,740 --> 00:46:56,339
+to have the matching container for your
+
+968
+00:46:56,339 --> 00:46:59,520
+host architecture so yeah
+
+969
+00:46:59,520 --> 00:47:01,680
+and you can run anything
+
+970
+00:47:01,680 --> 00:47:06,380
+basically and yeah those things
+
+971
+00:47:06,599 --> 00:47:09,420
+so Docker container is Created from
+
+972
+00:47:09,420 --> 00:47:11,359
+Docker image
+
+973
+00:47:11,359 --> 00:47:15,420
+and yeah so it is not a virtual hard
+
+974
+00:47:15,420 --> 00:47:18,720
+drive it is not a file system it is a
+
+975
+00:47:18,720 --> 00:47:22,980
+read-only layer of files it doesn't have
+
+976
+00:47:22,980 --> 00:47:24,180
+state
+
+977
+00:47:24,180 --> 00:47:26,339
+it's basically a top file it has a
+
+978
+00:47:26,339 --> 00:47:28,319
+hierarchy I think I have a better slide
+
+979
+00:47:28,319 --> 00:47:33,020
+on my um TS slides which I'll show later
+
+980
+00:47:33,119 --> 00:47:35,040
+so here's a little difference between
+
+981
+00:47:35,040 --> 00:47:37,800
+virtual machines and containers so in a
+
+982
+00:47:37,800 --> 00:47:39,119
+virtual machine
+
+983
+00:47:39,119 --> 00:47:41,160
+I think the professor will talk more
+
+984
+00:47:41,160 --> 00:47:44,579
+about full virtualization next week
+
+985
+00:47:44,579 --> 00:47:47,400
+but if you're using virtual machines
+
+986
+00:47:47,400 --> 00:47:48,540
+um
+
+987
+00:47:48,540 --> 00:47:52,500
+you have host OS the OS running on your
+
+988
+00:47:52,500 --> 00:47:54,720
+computer and then on top of that there's
+
+989
+00:47:54,720 --> 00:47:57,839
+a thing called hypervisor and hypervisor
+
+990
+00:47:57,839 --> 00:48:00,420
+can run different osis at the same time
+
+991
+00:48:00,420 --> 00:48:03,920
+so here's guest OS fun here's guest os2
+
+992
+00:48:03,920 --> 00:48:07,740
+and these two OSIS
+
+993
+00:48:07,740 --> 00:48:10,920
+have its own binaries libraries and
+
+994
+00:48:10,920 --> 00:48:14,460
+application and
+
+995
+00:48:14,460 --> 00:48:16,859
+it would look like this
+
+996
+00:48:16,859 --> 00:48:19,260
+container
+
+997
+00:48:19,260 --> 00:48:21,960
+doesn't rely on hypervisor and it has
+
+998
+00:48:21,960 --> 00:48:24,000
+Docker image or container run sorry
+
+999
+00:48:24,000 --> 00:48:27,060
+Docker engine or container runtime
+
+1000
+00:48:27,060 --> 00:48:30,960
+and on top of that we have no more
+
+1001
+00:48:30,960 --> 00:48:33,380
+overseas and we'll just have
+
+1002
+00:48:33,380 --> 00:48:37,140
+dependencies and application
+
+1003
+00:48:37,140 --> 00:48:40,500
+so in a way this is more lightweight
+
+1004
+00:48:40,500 --> 00:48:42,119
+because
+
+1005
+00:48:42,119 --> 00:48:44,579
+you don't have to run multiple os's
+
+1006
+00:48:44,579 --> 00:48:47,760
+right but at the same time virtual
+
+1007
+00:48:47,760 --> 00:48:50,060
+machine
+
+1008
+00:48:50,420 --> 00:48:54,119
+is sometimes useful so for example
+
+1009
+00:48:54,119 --> 00:48:55,140
+um
+
+1010
+00:48:55,140 --> 00:48:58,980
+if you use container your host OS must
+
+1011
+00:48:58,980 --> 00:49:01,380
+match the operating system that this
+
+1012
+00:49:01,380 --> 00:49:05,400
+application runs right so I mean in
+
+1013
+00:49:05,400 --> 00:49:07,319
+reality everything has to be on Linux
+
+1014
+00:49:07,319 --> 00:49:09,660
+but if you use virtual machine that can
+
+1015
+00:49:09,660 --> 00:49:12,000
+change but so for example if you even if
+
+1016
+00:49:12,000 --> 00:49:15,119
+you're on Windows you can run a Linux
+
+1017
+00:49:15,119 --> 00:49:18,300
+virtual machine so that gives you more
+
+1018
+00:49:18,300 --> 00:49:21,140
+power in a way
+
+1019
+00:49:23,220 --> 00:49:24,300
+oh
+
+1020
+00:49:24,300 --> 00:49:27,060
+here's another image but I think it's
+
+1021
+00:49:27,060 --> 00:49:30,839
+basically saying the same thing so
+
+1022
+00:49:30,839 --> 00:49:33,859
+you'll just skip it
+
+1023
+00:49:34,040 --> 00:49:37,740
+and here's a list of commands that you
+
+1024
+00:49:37,740 --> 00:49:41,579
+can use to manage Docker containers
+
+1025
+00:49:41,579 --> 00:49:43,440
+so
+
+1026
+00:49:43,440 --> 00:49:45,720
+at the beginning of the life cycle you
+
+1027
+00:49:45,720 --> 00:49:48,420
+have Docker build command so there's a
+
+1028
+00:49:48,420 --> 00:49:50,940
+file called Docker file it's like a
+
+1029
+00:49:50,940 --> 00:49:54,079
+shell script that runs at the beginning
+
+1030
+00:49:54,079 --> 00:49:56,940
+to initialize the container so that's
+
+1031
+00:49:56,940 --> 00:49:58,920
+called Docker build
+
+1032
+00:49:58,920 --> 00:50:01,560
+and then so this will create a Docker
+
+1033
+00:50:01,560 --> 00:50:03,300
+image right
+
+1034
+00:50:03,300 --> 00:50:06,240
+and next you can run sorry you can do
+
+1035
+00:50:06,240 --> 00:50:10,859
+Docker run to create a container from an
+
+1036
+00:50:10,859 --> 00:50:12,000
+image
+
+1037
+00:50:12,000 --> 00:50:14,280
+and
+
+1038
+00:50:14,280 --> 00:50:15,839
+yeah
+
+1039
+00:50:15,839 --> 00:50:19,020
+and for reproduction you have Docker
+
+1040
+00:50:19,020 --> 00:50:21,720
+commit to basically save the state of
+
+1041
+00:50:21,720 --> 00:50:25,020
+running a container and save it as a new
+
+1042
+00:50:25,020 --> 00:50:27,960
+image this Docker kill
+
+1043
+00:50:27,960 --> 00:50:29,700
+uh
+
+1044
+00:50:29,700 --> 00:50:31,319
+it's not listed here but there's a
+
+1045
+00:50:31,319 --> 00:50:33,660
+command called Docker stop to stop the
+
+1046
+00:50:33,660 --> 00:50:37,440
+container and stop the container can be
+
+1047
+00:50:37,440 --> 00:50:41,220
+started using this command there's RM to
+
+1048
+00:50:41,220 --> 00:50:43,859
+delete and also you can there's a
+
+1049
+00:50:43,859 --> 00:50:47,280
+separate command called RMI to
+
+1050
+00:50:47,280 --> 00:50:51,559
+um delete an image
+
+1051
+00:50:51,900 --> 00:50:54,319
+yep
+
+1052
+00:50:55,980 --> 00:50:58,980
+uh
+
+1053
+00:51:01,260 --> 00:51:04,200
+why don't I switch to my ts slides and
+
+1054
+00:51:04,200 --> 00:51:07,220
+talk about it it's okay
+
+1055
+00:51:07,859 --> 00:51:09,660
+so okay
+
+1056
+00:51:09,660 --> 00:51:12,960
+yeah so project five
+
+1057
+00:51:12,960 --> 00:51:16,140
+um is about
+
+1058
+00:51:16,140 --> 00:51:16,800
+um
+
+1059
+00:51:16,800 --> 00:51:19,619
+creating a container runtime so you know
+
+1060
+00:51:19,619 --> 00:51:21,900
+implementing a smaller version of um
+
+1061
+00:51:21,900 --> 00:51:23,220
+docker
+
+1062
+00:51:23,220 --> 00:51:26,339
+so I think it um
+
+1063
+00:51:26,339 --> 00:51:28,500
+it makes sense
+
+1064
+00:51:28,500 --> 00:51:30,839
+to talk about it a little bit
+
+1065
+00:51:30,839 --> 00:51:34,920
+and I know some people came to TA
+
+1066
+00:51:34,920 --> 00:51:37,440
+sections and I think we went through
+
+1067
+00:51:37,440 --> 00:51:39,599
+these slides but so I don't know some
+
+1068
+00:51:39,599 --> 00:51:42,540
+part of maybe repetitive sorry but um
+
+1069
+00:51:42,540 --> 00:51:43,920
+I'm just going to talk about it a little
+
+1070
+00:51:43,920 --> 00:51:46,160
+bit
+
+1071
+00:51:46,380 --> 00:51:50,599
+so I think I already talked about this
+
+1072
+00:51:54,359 --> 00:51:56,520
+okay
+
+1073
+00:51:56,520 --> 00:52:01,619
+so the question was what exactly is uh
+
+1074
+00:52:01,619 --> 00:52:03,240
+uh what exactly is
+
+1075
+00:52:03,240 --> 00:52:06,079
+image right
+
+1076
+00:52:07,740 --> 00:52:11,240
+does anyone have any good idea
+
+1077
+00:52:12,530 --> 00:52:15,729
+[Music]
+
+1078
+00:52:21,119 --> 00:52:23,520
+is supposed to be similar to that or
+
+1079
+00:52:23,520 --> 00:52:25,140
+there's someone else you can draw to
+
+1080
+00:52:25,140 --> 00:52:26,220
+that
+
+1081
+00:52:26,220 --> 00:52:27,119
+but
+
+1082
+00:52:27,119 --> 00:52:28,920
+I mean you could you could assume that
+
+1083
+00:52:28,920 --> 00:52:30,960
+maybe it's like the image of the
+
+1084
+00:52:30,960 --> 00:52:33,599
+container that's the thing yeah
+
+1085
+00:52:33,599 --> 00:52:34,920
+it gives you an idea of what the
+
+1086
+00:52:34,920 --> 00:52:36,960
+container has n't have okay do you want
+
+1087
+00:52:36,960 --> 00:52:39,319
+to give a shot
+
+1088
+00:52:45,420 --> 00:52:48,480
+okay so if you say blueprint I think
+
+1089
+00:52:48,480 --> 00:52:50,400
+it's more close to Docker file because
+
+1090
+00:52:50,400 --> 00:52:55,339
+that like tell us how to yeah
+
+1091
+00:52:56,520 --> 00:52:58,440
+okay ISO
+
+1092
+00:52:58,440 --> 00:53:01,880
+like a boot image right yeah
+
+1093
+00:53:03,540 --> 00:53:05,400
+yes okay yeah sure I think okay that's
+
+1094
+00:53:05,400 --> 00:53:08,460
+closer okay You Wanna Give a shot
+
+1095
+00:53:08,460 --> 00:53:11,359
+yeah what's an image
+
+1096
+00:53:14,280 --> 00:53:15,960
+sure
+
+1097
+00:53:15,960 --> 00:53:18,440
+yeah
+
+1098
+00:53:19,859 --> 00:53:22,800
+okay so I think
+
+1099
+00:53:22,800 --> 00:53:24,359
+okay any other
+
+1100
+00:53:24,359 --> 00:53:27,619
+attempts yeah
+
+1101
+00:53:32,700 --> 00:53:35,059
+sure
+
+1102
+00:53:39,300 --> 00:53:41,520
+let me think
+
+1103
+00:53:41,520 --> 00:53:45,079
+what exactly is not Greenwich
+
+1104
+00:53:52,380 --> 00:53:54,420
+resistance
+
+1105
+00:53:54,420 --> 00:53:57,319
+so
+
+1106
+00:53:57,660 --> 00:54:02,000
+okay okay so here's my answer um
+
+1107
+00:54:02,640 --> 00:54:04,680
+in order to run
+
+1108
+00:54:04,680 --> 00:54:07,140
+your application
+
+1109
+00:54:07,140 --> 00:54:10,040
+you need
+
+1110
+00:54:10,260 --> 00:54:12,119
+you okay so you first need an
+
+1111
+00:54:12,119 --> 00:54:14,819
+application itself right so you know
+
+1112
+00:54:14,819 --> 00:54:16,740
+imagine a c code
+
+1113
+00:54:16,740 --> 00:54:17,339
+um
+
+1114
+00:54:17,339 --> 00:54:19,440
+you need a binary right so that's one
+
+1115
+00:54:19,440 --> 00:54:20,640
+thing you need
+
+1116
+00:54:20,640 --> 00:54:23,760
+uh another thing you need is uh
+
+1117
+00:54:23,760 --> 00:54:26,760
+dependency right so
+
+1118
+00:54:26,760 --> 00:54:29,339
+it's hard to talk about dependencies in
+
+1119
+00:54:29,339 --> 00:54:32,940
+C but for example if you imagine a
+
+1120
+00:54:32,940 --> 00:54:35,880
+python right your python script might
+
+1121
+00:54:35,880 --> 00:54:37,500
+import
+
+1122
+00:54:37,500 --> 00:54:40,500
+I don't know numpy and that's dependency
+
+1123
+00:54:40,500 --> 00:54:42,900
+right so in order for your application
+
+1124
+00:54:42,900 --> 00:54:44,339
+to run
+
+1125
+00:54:44,339 --> 00:54:47,400
+you have you you also so you have to
+
+1126
+00:54:47,400 --> 00:54:50,040
+have all those things so
+
+1127
+00:54:50,040 --> 00:54:52,740
+um you have to have your python script
+
+1128
+00:54:52,740 --> 00:54:55,559
+your Python dependencies and also you
+
+1129
+00:54:55,559 --> 00:54:57,720
+have to have python interpreter itself
+
+1130
+00:54:57,720 --> 00:54:59,940
+right
+
+1131
+00:54:59,940 --> 00:55:01,140
+um
+
+1132
+00:55:01,140 --> 00:55:04,200
+Docker image
+
+1133
+00:55:04,200 --> 00:55:07,680
+basically packages all of these
+
+1134
+00:55:07,680 --> 00:55:08,940
+into
+
+1135
+00:55:08,940 --> 00:55:10,980
+like a one unit
+
+1136
+00:55:10,980 --> 00:55:15,260
+and that's we're calling it image
+
+1137
+00:55:15,480 --> 00:55:17,460
+yeah
+
+1138
+00:55:17,460 --> 00:55:20,180
+by one it's like
+
+1139
+00:55:23,700 --> 00:55:26,720
+it's late it's just basically
+
+1140
+00:55:28,920 --> 00:55:32,480
+yeah yeah okay so okay
+
+1141
+00:55:34,380 --> 00:55:36,540
+so okay that's one thing I wanted to do
+
+1142
+00:55:36,540 --> 00:55:40,700
+so let me do that so
+
+1143
+00:55:41,760 --> 00:55:44,579
+I think it's just
+
+1144
+00:55:44,579 --> 00:55:47,819
+it makes more sense if I just
+
+1145
+00:55:47,819 --> 00:55:49,819
+um
+
+1146
+00:55:50,040 --> 00:55:52,800
+use Docker right
+
+1147
+00:55:52,800 --> 00:55:54,540
+so
+
+1148
+00:55:54,540 --> 00:55:57,240
+I mean doku is like a platform and one
+
+1149
+00:55:57,240 --> 00:55:58,920
+of the components is called Docker Hub
+
+1150
+00:55:58,920 --> 00:56:01,920
+and
+
+1151
+00:56:02,400 --> 00:56:04,079
+it's like GitHub
+
+1152
+00:56:04,079 --> 00:56:06,920
+but GitHub is for source code right
+
+1153
+00:56:06,920 --> 00:56:11,220
+Docker Hub is for containers so this is
+
+1154
+00:56:11,220 --> 00:56:13,380
+helpful containers you can download one
+
+1155
+00:56:13,380 --> 00:56:17,099
+of these images and you can use it so
+
+1156
+00:56:17,099 --> 00:56:18,900
+um let's see here
+
+1157
+00:56:18,900 --> 00:56:21,599
+so you have Alpine
+
+1158
+00:56:21,599 --> 00:56:25,260
+Linux image and it's not application
+
+1159
+00:56:25,260 --> 00:56:27,420
+it's just a lightweight
+
+1160
+00:56:27,420 --> 00:56:30,000
+um OS sorry you can think of it as like
+
+1161
+00:56:30,000 --> 00:56:31,700
+empty image
+
+1162
+00:56:31,700 --> 00:56:36,599
+engine X is a web server so if you
+
+1163
+00:56:36,599 --> 00:56:39,960
+download this image basically you have
+
+1164
+00:56:39,960 --> 00:56:41,640
+a web server
+
+1165
+00:56:41,640 --> 00:56:44,099
+right away
+
+1166
+00:56:44,099 --> 00:56:46,260
+um visit box is another base image
+
+1167
+00:56:46,260 --> 00:56:50,040
+Ubuntu OS and I think what
+
+1168
+00:56:50,040 --> 00:56:51,480
+um it's easy to understand is this
+
+1169
+00:56:51,480 --> 00:56:54,960
+python image so if I click on it
+
+1170
+00:56:54,960 --> 00:56:57,020
+um
+
+1171
+00:56:57,059 --> 00:56:59,460
+well so
+
+1172
+00:56:59,460 --> 00:57:02,640
+this is an image that has python
+
+1173
+00:57:02,640 --> 00:57:06,559
+interpreter built in yeah
+
+1174
+00:57:10,260 --> 00:57:11,880
+yeah yeah so that's a good point yeah so
+
+1175
+00:57:11,880 --> 00:57:13,559
+let's do that right so
+
+1176
+00:57:13,559 --> 00:57:15,119
+here
+
+1177
+00:57:15,119 --> 00:57:18,119
+we have something called tag and you can
+
+1178
+00:57:18,119 --> 00:57:19,859
+think of it as a version
+
+1179
+00:57:19,859 --> 00:57:21,540
+and there are a bunch of versions right
+
+1180
+00:57:21,540 --> 00:57:22,740
+so but
+
+1181
+00:57:22,740 --> 00:57:24,359
+um for example
+
+1182
+00:57:24,359 --> 00:57:26,400
+let's see here
+
+1183
+00:57:26,400 --> 00:57:29,180
+so you have
+
+1184
+00:57:29,460 --> 00:57:31,800
+give me a second
+
+1185
+00:57:31,800 --> 00:57:36,839
+okay so we have this image 3.11
+
+1186
+00:57:36,839 --> 00:57:39,000
+well
+
+1187
+00:57:39,000 --> 00:57:41,099
+yeah so okay
+
+1188
+00:57:41,099 --> 00:57:43,700
+let's do that
+
+1189
+00:57:45,960 --> 00:57:48,000
+so
+
+1190
+00:57:48,000 --> 00:57:50,940
+okay so first let's run python 3.11
+
+1191
+00:57:50,940 --> 00:57:54,000
+using Docker right so first here we're
+
+1192
+00:57:54,000 --> 00:57:56,339
+going to docker
+
+1193
+00:57:56,339 --> 00:57:57,480
+pull
+
+1194
+00:57:57,480 --> 00:58:02,400
+and we can do python colon and whatever
+
+1195
+00:58:02,400 --> 00:58:04,740
+one of these tags
+
+1196
+00:58:04,740 --> 00:58:07,920
+so let's just do
+
+1197
+00:58:07,920 --> 00:58:10,040
+um
+
+1198
+00:58:10,680 --> 00:58:13,380
+well it's good
+
+1199
+00:58:13,380 --> 00:58:18,000
+okay uh okay so 3.11 Alpine I think it's
+
+1200
+00:58:18,000 --> 00:58:19,850
+good so 3.11
+
+1201
+00:58:19,850 --> 00:58:21,240
+[Music]
+
+1202
+00:58:21,240 --> 00:58:23,280
+Alpine
+
+1203
+00:58:23,280 --> 00:58:24,900
+if I do that
+
+1204
+00:58:24,900 --> 00:58:27,000
+that will download
+
+1205
+00:58:27,000 --> 00:58:29,760
+something and I just downloaded an image
+
+1206
+00:58:29,760 --> 00:58:31,079
+right
+
+1207
+00:58:31,079 --> 00:58:34,220
+to create okay so let's do Docker images
+
+1208
+00:58:34,220 --> 00:58:38,280
+and this will create a list of images
+
+1209
+00:58:38,280 --> 00:58:42,000
+I have on your my on my computer and
+
+1210
+00:58:42,000 --> 00:58:43,680
+as you can see
+
+1211
+00:58:43,680 --> 00:58:45,780
+well
+
+1212
+00:58:45,780 --> 00:58:48,240
+one of this is
+
+1213
+00:58:48,240 --> 00:58:52,619
+three point Sorry python 3.11 Alpine and
+
+1214
+00:58:52,619 --> 00:58:55,260
+this is the image ID
+
+1215
+00:58:55,260 --> 00:58:58,799
+and I can start a Docker container from
+
+1216
+00:58:58,799 --> 00:59:02,339
+this image by Docker run
+
+1217
+00:59:02,339 --> 00:59:06,020
+uh python
+
+1218
+00:59:06,319 --> 00:59:08,040
+3.11
+
+1219
+00:59:08,040 --> 00:59:09,900
+alt point I think
+
+1220
+00:59:09,900 --> 00:59:12,299
+is that right
+
+1221
+00:59:12,299 --> 00:59:14,400
+three point
+
+1222
+00:59:14,400 --> 00:59:16,680
+eleven open yes
+
+1223
+00:59:16,680 --> 00:59:20,160
+and I actually have to add
+
+1224
+00:59:20,160 --> 00:59:25,280
+um this well do I have to yeah
+
+1225
+00:59:26,339 --> 00:59:28,319
+right so
+
+1226
+00:59:28,319 --> 00:59:30,839
+I added bunch of options to
+
+1227
+00:59:30,839 --> 00:59:34,380
+um like open a terminal but basically I
+
+1228
+00:59:34,380 --> 00:59:36,599
+called this python command
+
+1229
+00:59:36,599 --> 00:59:40,140
+inside this python container that's
+
+1230
+00:59:40,140 --> 00:59:43,559
+created from python image and now I have
+
+1231
+00:59:43,559 --> 00:59:47,700
+um python 3.113 running in the docker
+
+1232
+00:59:47,700 --> 00:59:50,280
+container and I can do I don't know
+
+1233
+00:59:50,280 --> 00:59:51,480
+print
+
+1234
+00:59:51,480 --> 00:59:54,359
+one plus four five right
+
+1235
+00:59:54,359 --> 00:59:56,960
+so
+
+1236
+00:59:58,140 --> 01:00:01,140
+so yeah so this Docker image
+
+1237
+01:00:01,140 --> 01:00:04,799
+has everything you need to run python
+
+1238
+01:00:04,799 --> 01:00:07,980
+script which is python interpreter and
+
+1239
+01:00:07,980 --> 01:00:11,960
+its standard libraries yeah
+
+1240
+01:00:17,160 --> 01:00:20,000
+uh-huh we
+
+1241
+01:00:21,119 --> 01:00:24,000
+need so is that like the same thing like
+
+1242
+01:00:24,000 --> 01:00:25,619
+we'll we'll download like Microsoft
+
+1243
+01:00:25,619 --> 01:00:26,880
+Office into
+
+1244
+01:00:26,880 --> 01:00:29,099
+it yeah sure sure yeah so you know
+
+1245
+01:00:29,099 --> 01:00:31,740
+because it's Linux it doesn't run uh you
+
+1246
+01:00:31,740 --> 01:00:32,460
+know
+
+1247
+01:00:32,460 --> 01:00:35,220
+office don't run but yeah basically yeah
+
+1248
+01:00:35,220 --> 01:00:37,940
+basically that yeah
+
+1249
+01:00:38,819 --> 01:00:41,819
+but um it's
+
+1250
+01:00:41,819 --> 01:00:46,260
+well so if you compare this to sort of
+
+1251
+01:00:46,260 --> 01:00:50,280
+installing things directly on host OS
+
+1252
+01:00:50,280 --> 01:00:53,160
+this one so everything inside container
+
+1253
+01:00:53,160 --> 01:00:53,960
+is
+
+1254
+01:00:53,960 --> 01:00:57,900
+contained in the container right so for
+
+1255
+01:00:57,900 --> 01:01:01,140
+example if I want to use python 3.11 on
+
+1256
+01:01:01,140 --> 01:01:03,720
+my computer I just have to install it
+
+1257
+01:01:03,720 --> 01:01:06,059
+but the problem is for example if I had
+
+1258
+01:01:06,059 --> 01:01:08,940
+python 3.9 installed and if I want to
+
+1259
+01:01:08,940 --> 01:01:13,260
+use Python 3.11 I might have to
+
+1260
+01:01:13,260 --> 01:01:17,520
+delete 3.11 first right but if you're
+
+1261
+01:01:17,520 --> 01:01:19,680
+using container everything is contained
+
+1262
+01:01:19,680 --> 01:01:22,319
+so you can have you know a container for
+
+1263
+01:01:22,319 --> 01:01:25,440
+3.9 container for 3.11 you can make
+
+1264
+01:01:25,440 --> 01:01:28,440
+those things can coexist together
+
+1265
+01:01:28,440 --> 01:01:31,319
+yeah I just okay
+
+1266
+01:01:31,319 --> 01:01:33,960
+so far understanding but like so the
+
+1267
+01:01:33,960 --> 01:01:36,480
+definitely you know to mentioned like so
+
+1268
+01:01:36,480 --> 01:01:38,460
+an image you can just think of it as
+
+1269
+01:01:38,460 --> 01:01:40,500
+like a collection of all like everything
+
+1270
+01:01:40,500 --> 01:01:42,359
+and application all the dependencies in
+
+1271
+01:01:42,359 --> 01:01:45,440
+the library needs to run
+
+1272
+01:01:45,540 --> 01:01:48,180
+container is a way for you to create a
+
+1273
+01:01:48,180 --> 01:01:51,079
+self-printed environment
+
+1274
+01:01:51,180 --> 01:01:53,960
+so we can anything
+
+1275
+01:01:58,559 --> 01:02:00,359
+the library's needs everything you need
+
+1276
+01:02:00,359 --> 01:02:03,260
+and on the pencies
+
+1277
+01:02:08,520 --> 01:02:11,000
+question
+
+1278
+01:02:13,500 --> 01:02:15,000
+I'm like confused on like the difference
+
+1279
+01:02:15,000 --> 01:02:18,720
+between docker file okay sure sure so
+
+1280
+01:02:18,720 --> 01:02:20,099
+okay
+
+1281
+01:02:20,099 --> 01:02:22,140
+um
+
+1282
+01:02:22,140 --> 01:02:24,859
+let me see
+
+1283
+01:02:25,859 --> 01:02:28,020
+so
+
+1284
+01:02:28,020 --> 01:02:29,760
+Docker file
+
+1285
+01:02:29,760 --> 01:02:33,780
+is like a blueprint of Docker image
+
+1286
+01:02:33,780 --> 01:02:37,319
+and what do I mean by that is
+
+1287
+01:02:37,319 --> 01:02:38,099
+um
+
+1288
+01:02:38,099 --> 01:02:41,099
+docophile
+
+1289
+01:02:41,119 --> 01:02:45,059
+describes how you can create an image
+
+1290
+01:02:45,059 --> 01:02:49,880
+okay so let's see so
+
+1291
+01:02:54,900 --> 01:02:56,819
+I should have prepared an example Okay
+
+1292
+01:02:56,819 --> 01:02:58,260
+so
+
+1293
+01:02:58,260 --> 01:03:00,660
+okay so this is a good one so
+
+1294
+01:03:00,660 --> 01:03:02,520
+this is an example
+
+1295
+01:03:02,520 --> 01:03:04,619
+of Docker file
+
+1296
+01:03:04,619 --> 01:03:07,500
+and I think this Docker file creates a
+
+1297
+01:03:07,500 --> 01:03:09,540
+container for
+
+1298
+01:03:09,540 --> 01:03:12,420
+application written in JavaScript or
+
+1299
+01:03:12,420 --> 01:03:14,220
+like node.js
+
+1300
+01:03:14,220 --> 01:03:16,940
+so
+
+1301
+01:03:17,339 --> 01:03:23,040
+in the first line we say create a image
+
+1302
+01:03:23,040 --> 01:03:27,240
+based off of this node 18 Alpine image
+
+1303
+01:03:27,240 --> 01:03:29,460
+so you know I was using python 3.11
+
+1304
+01:03:29,460 --> 01:03:32,640
+Alpine this one's node 18 Alpine just
+
+1305
+01:03:32,640 --> 01:03:33,960
+means
+
+1306
+01:03:33,960 --> 01:03:34,920
+um
+
+1307
+01:03:34,920 --> 01:03:36,960
+this image
+
+1308
+01:03:36,960 --> 01:03:39,960
+this is a base image we'll use as a
+
+1309
+01:03:39,960 --> 01:03:45,119
+basis and it has node.js installed okay
+
+1310
+01:03:45,119 --> 01:03:48,599
+so now we're gonna set up the working
+
+1311
+01:03:48,599 --> 01:03:53,460
+directory we're going to copy so suppose
+
+1312
+01:03:53,460 --> 01:03:55,799
+that you have your application your
+
+1313
+01:03:55,799 --> 01:03:58,140
+JavaScript application in the same
+
+1314
+01:03:58,140 --> 01:04:00,180
+directory as Docker file if you run
+
+1315
+01:04:00,180 --> 01:04:03,299
+Docker build this copy will
+
+1316
+01:04:03,299 --> 01:04:05,280
+basically copy everything in your
+
+1317
+01:04:05,280 --> 01:04:09,180
+directory to the new Docker image
+
+1318
+01:04:09,180 --> 01:04:12,680
+and then inside that image it'll run
+
+1319
+01:04:12,680 --> 01:04:16,260
+yarn install so it's like pip install so
+
+1320
+01:04:16,260 --> 01:04:19,559
+it'll install all the dependencies
+
+1321
+01:04:19,559 --> 01:04:21,119
+and
+
+1322
+01:04:21,119 --> 01:04:24,720
+so in a way this specifies how you can
+
+1323
+01:04:24,720 --> 01:04:27,240
+create an image from your source code
+
+1324
+01:04:27,240 --> 01:04:28,920
+right
+
+1325
+01:04:28,920 --> 01:04:31,700
+so yeah
+
+1326
+01:04:35,940 --> 01:04:38,400
+okay so the question is did the
+
+1327
+01:04:38,400 --> 01:04:40,799
+difference between Python virtual
+
+1328
+01:04:40,799 --> 01:04:44,640
+environment and documents right so
+
+1329
+01:04:44,640 --> 01:04:49,440
+it is similar right you want a
+
+1330
+01:04:49,440 --> 01:04:51,119
+sort of
+
+1331
+01:04:51,119 --> 01:04:54,059
+independent environment right so in a
+
+1332
+01:04:54,059 --> 01:04:56,880
+way that's similar but if you use Python
+
+1333
+01:04:56,880 --> 01:04:58,319
+virtual environment
+
+1334
+01:04:58,319 --> 01:05:01,559
+what you can virtualize is python
+
+1335
+01:05:01,559 --> 01:05:04,319
+version and its dependencies right if
+
+1336
+01:05:04,319 --> 01:05:07,319
+you use Docker you can virtualize more
+
+1337
+01:05:07,319 --> 01:05:10,280
+you can virtualize yeah
+
+1338
+01:05:10,280 --> 01:05:13,380
+generalized version of Pi yeah
+
+1339
+01:05:13,380 --> 01:05:14,339
+yeah
+
+1340
+01:05:14,339 --> 01:05:18,380
+yeah that's a good analogy yeah
+
+1341
+01:05:27,480 --> 01:05:30,059
+right no no no no so
+
+1342
+01:05:30,059 --> 01:05:32,119
+um
+
+1343
+01:05:33,540 --> 01:05:35,760
+that's not exactly right
+
+1344
+01:05:35,760 --> 01:05:38,280
+um I think the purpose sorry the point
+
+1345
+01:05:38,280 --> 01:05:41,160
+of using Docker is
+
+1346
+01:05:41,160 --> 01:05:43,380
+to like have a container
+
+1347
+01:05:43,380 --> 01:05:45,839
+and you can
+
+1348
+01:05:45,839 --> 01:05:47,040
+um
+
+1349
+01:05:47,040 --> 01:05:49,680
+I mean that container or image is
+
+1350
+01:05:49,680 --> 01:05:52,619
+portable right so you can isolate it so
+
+1351
+01:05:52,619 --> 01:05:55,680
+yeah so suppose that you didn't have
+
+1352
+01:05:55,680 --> 01:06:00,119
+Docker right and if you have a python
+
+1353
+01:06:00,119 --> 01:06:04,200
+script that runs on python 3.11
+
+1354
+01:06:04,200 --> 01:06:07,020
+um if you didn't have Docker and if you
+
+1355
+01:06:07,020 --> 01:06:09,540
+want to run your script on someone else
+
+1356
+01:06:09,540 --> 01:06:11,819
+computer first thing you have to do is
+
+1357
+01:06:11,819 --> 01:06:14,460
+to install python 3.11 on that computer
+
+1358
+01:06:14,460 --> 01:06:16,740
+right
+
+1359
+01:06:16,740 --> 01:06:19,980
+yeah but if you use a Docker yeah you
+
+1360
+01:06:19,980 --> 01:06:22,859
+can just I mean your image has python
+
+1361
+01:06:22,859 --> 01:06:25,680
+3.11 so you can just use it
+
+1362
+01:06:25,680 --> 01:06:28,140
+but like does does every container have
+
+1363
+01:06:28,140 --> 01:06:31,380
+like Linux pre-installed to it yeah
+
+1364
+01:06:31,380 --> 01:06:35,880
+because container depends on features
+
+1365
+01:06:35,880 --> 01:06:39,539
+that Linux kernel provide so it has to
+
+1366
+01:06:39,539 --> 01:06:40,500
+be
+
+1367
+01:06:40,500 --> 01:06:42,720
+like it has to run on top of Linux
+
+1368
+01:06:42,720 --> 01:06:45,140
+kernel
+
+1369
+01:06:52,260 --> 01:06:54,539
+uh so
+
+1370
+01:06:54,539 --> 01:06:56,099
+well
+
+1371
+01:06:56,099 --> 01:06:59,039
+no so there's no way
+
+1372
+01:06:59,039 --> 01:07:01,980
+Linux container can run directly on
+
+1373
+01:07:01,980 --> 01:07:02,940
+Windows
+
+1374
+01:07:02,940 --> 01:07:04,740
+because those two things are completely
+
+1375
+01:07:04,740 --> 01:07:08,039
+different right so you can think of a
+
+1376
+01:07:08,039 --> 01:07:11,640
+container that runs on windows so um you
+
+1377
+01:07:11,640 --> 01:07:15,059
+have Windows kernel and on top of that
+
+1378
+01:07:15,059 --> 01:07:17,400
+you know you have a container and that
+
+1379
+01:07:17,400 --> 01:07:20,460
+container can run on any windows that
+
+1380
+01:07:20,460 --> 01:07:22,980
+something you can think of but um yeah
+
+1381
+01:07:22,980 --> 01:07:25,260
+because it's a kernel so it has to have
+
+1382
+01:07:25,260 --> 01:07:27,920
+the same kernel
+
+1383
+01:07:28,200 --> 01:07:31,740
+and yeah so portability is the key and
+
+1384
+01:07:31,740 --> 01:07:33,130
+so for example
+
+1385
+01:07:33,130 --> 01:07:33,480
+[Music]
+
+1386
+01:07:33,480 --> 01:07:34,680
+um
+
+1387
+01:07:34,680 --> 01:07:37,740
+if you know um
+
+1388
+01:07:37,740 --> 01:07:40,079
+Google Cloud run
+
+1389
+01:07:40,079 --> 01:07:41,700
+this is
+
+1390
+01:07:41,700 --> 01:07:44,940
+um sort of Google's
+
+1391
+01:07:44,940 --> 01:07:46,680
+cloud
+
+1392
+01:07:46,680 --> 01:07:48,660
+and here
+
+1393
+01:07:48,660 --> 01:07:52,500
+you can upload a Docker image to run on
+
+1394
+01:07:52,500 --> 01:07:53,940
+their server
+
+1395
+01:07:53,940 --> 01:07:55,260
+so
+
+1396
+01:07:55,260 --> 01:07:58,500
+you build a image and upload it to con
+
+1397
+01:07:58,500 --> 01:08:01,319
+This Cloud run and this will run the
+
+1398
+01:08:01,319 --> 01:08:03,420
+container for you
+
+1399
+01:08:03,420 --> 01:08:05,280
+so um
+
+1400
+01:08:05,280 --> 01:08:07,559
+you know you know you no longer have to
+
+1401
+01:08:07,559 --> 01:08:11,339
+SSH into your server and install python
+
+1402
+01:08:11,339 --> 01:08:13,920
+to install your Django application
+
+1403
+01:08:13,920 --> 01:08:16,020
+okay
+
+1404
+01:08:16,020 --> 01:08:20,299
+yeah so portability sticky
+
+1405
+01:08:25,920 --> 01:08:27,960
+uh
+
+1406
+01:08:27,960 --> 01:08:31,460
+okay any questions on doco yeah
+
+1407
+01:08:41,939 --> 01:08:46,639
+what do you mean uh change what
+
+1408
+01:08:52,679 --> 01:08:54,660
+yeah okay so
+
+1409
+01:08:54,660 --> 01:08:56,219
+but doctors
+
+1410
+01:08:56,219 --> 01:08:58,520
+because
+
+1411
+01:09:00,839 --> 01:09:02,900
+um
+
+1412
+01:09:03,540 --> 01:09:06,319
+well so
+
+1413
+01:09:08,160 --> 01:09:11,000
+okay
+
+1414
+01:09:11,759 --> 01:09:16,679
+so here I changed python from Tosh and I
+
+1415
+01:09:16,679 --> 01:09:20,399
+have a shell inside Docker right
+
+1416
+01:09:20,399 --> 01:09:24,420
+um I can do something like so everything
+
+1417
+01:09:24,420 --> 01:09:27,899
+you see inside
+
+1418
+01:09:27,899 --> 01:09:31,679
+um Docker is
+
+1419
+01:09:31,679 --> 01:09:34,439
+contained in the container right so you
+
+1420
+01:09:34,439 --> 01:09:36,719
+can make whatever changes inside the
+
+1421
+01:09:36,719 --> 01:09:38,880
+container and that will not affect the
+
+1422
+01:09:38,880 --> 01:09:41,540
+host OS
+
+1423
+01:09:45,140 --> 01:09:48,479
+oh right right okay so that's something
+
+1424
+01:09:48,479 --> 01:09:50,339
+you can also do so
+
+1425
+01:09:50,339 --> 01:09:54,060
+um Docker yeah so Docker um
+
+1426
+01:09:54,060 --> 01:09:57,000
+Okay so
+
+1427
+01:09:57,000 --> 01:09:59,600
+yeah so
+
+1428
+01:10:01,440 --> 01:10:05,120
+there is uh
+
+1429
+01:10:05,820 --> 01:10:08,460
+where is V
+
+1430
+01:10:08,460 --> 01:10:11,040
+yeah so there is uh dock around has this
+
+1431
+01:10:11,040 --> 01:10:13,560
+volume option and you can use this
+
+1432
+01:10:13,560 --> 01:10:17,340
+option to mount your host file system
+
+1433
+01:10:17,340 --> 01:10:19,800
+inside the container
+
+1434
+01:10:19,800 --> 01:10:21,560
+so if you do that
+
+1435
+01:10:21,560 --> 01:10:25,500
+you'll have access to
+
+1436
+01:10:25,500 --> 01:10:27,600
+the file system of the host machine
+
+1437
+01:10:27,600 --> 01:10:30,960
+inside docker and that can do some bad
+
+1438
+01:10:30,960 --> 01:10:33,120
+things if you want to
+
+1439
+01:10:33,120 --> 01:10:35,760
+but by default it's a file system or
+
+1440
+01:10:35,760 --> 01:10:38,239
+isolated
+
+1441
+01:10:39,480 --> 01:10:41,340
+right
+
+1442
+01:10:41,340 --> 01:10:44,060
+so
+
+1443
+01:10:44,340 --> 01:10:46,320
+yeah so I'll talk a little bit about
+
+1444
+01:10:46,320 --> 01:10:48,300
+projects because I think it's important
+
+1445
+01:10:48,300 --> 01:10:49,500
+so
+
+1446
+01:10:49,500 --> 01:10:51,000
+um
+
+1447
+01:10:51,000 --> 01:10:53,760
+project five the goal of project five is
+
+1448
+01:10:53,760 --> 01:10:57,300
+to implement a small container runtime
+
+1449
+01:10:57,300 --> 01:11:01,860
+so you'll be able to use your program to
+
+1450
+01:11:01,860 --> 01:11:04,739
+run Docker containers basically Docker
+
+1451
+01:11:04,739 --> 01:11:07,260
+images basically and
+
+1452
+01:11:07,260 --> 01:11:10,380
+your doc so there are a couple of things
+
+1453
+01:11:10,380 --> 01:11:12,780
+it has to provide and first thing is
+
+1454
+01:11:12,780 --> 01:11:15,600
+isolation so
+
+1455
+01:11:15,600 --> 01:11:17,820
+as I was saying everything happens
+
+1456
+01:11:17,820 --> 01:11:19,980
+inside docker
+
+1457
+01:11:19,980 --> 01:11:24,900
+must not affect the outside system right
+
+1458
+01:11:24,900 --> 01:11:27,360
+so it uses
+
+1459
+01:11:27,360 --> 01:11:31,320
+um kernel features to do that and
+
+1460
+01:11:31,320 --> 01:11:33,480
+you know fully fledged container
+
+1461
+01:11:33,480 --> 01:11:35,520
+runtimes like Docker provides
+
+1462
+01:11:35,520 --> 01:11:40,860
+isolation for all kinds of resources in
+
+1463
+01:11:40,860 --> 01:11:42,480
+computer so
+
+1464
+01:11:42,480 --> 01:11:45,120
+it can provide isolation for CPU memory
+
+1465
+01:11:45,120 --> 01:11:46,560
+Network file system
+
+1466
+01:11:46,560 --> 01:11:49,140
+and but you know doing all this is
+
+1467
+01:11:49,140 --> 01:11:52,320
+impossible for this project so we'll
+
+1468
+01:11:52,320 --> 01:11:53,760
+just focus on
+
+1469
+01:11:53,760 --> 01:11:57,000
+two aspects of isolation processes in
+
+1470
+01:11:57,000 --> 01:11:58,380
+the file system
+
+1471
+01:11:58,380 --> 01:12:00,000
+and
+
+1472
+01:12:00,000 --> 01:12:01,920
+so what do I mean by
+
+1473
+01:12:01,920 --> 01:12:03,060
+um
+
+1474
+01:12:03,060 --> 01:12:05,760
+separating so I providing isolation for
+
+1475
+01:12:05,760 --> 01:12:10,440
+processes well so if you or
+
+1476
+01:12:10,440 --> 01:12:12,120
+in
+
+1477
+01:12:12,120 --> 01:12:14,940
+make your host OS and if you do
+
+1478
+01:12:14,940 --> 01:12:17,159
+something like PSA
+
+1479
+01:12:17,159 --> 01:12:20,840
+you'll see a list of processes running
+
+1480
+01:12:20,840 --> 01:12:24,920
+on your computer right
+
+1481
+01:12:25,920 --> 01:12:28,860
+but inside the container
+
+1482
+01:12:28,860 --> 01:12:31,980
+you don't want those containers to be
+
+1483
+01:12:31,980 --> 01:12:34,020
+able to see the processes that's running
+
+1484
+01:12:34,020 --> 01:12:36,179
+outside the container
+
+1485
+01:12:36,179 --> 01:12:39,020
+so actually if I do
+
+1486
+01:12:39,020 --> 01:12:42,780
+open a cell in this Docker container and
+
+1487
+01:12:42,780 --> 01:12:44,520
+if I do PSA
+
+1488
+01:12:44,520 --> 01:12:46,800
+you see no processes that's running
+
+1489
+01:12:46,800 --> 01:12:48,719
+outside the container so this is what I
+
+1490
+01:12:48,719 --> 01:12:51,239
+mean by um providing isolation for
+
+1491
+01:12:51,239 --> 01:12:52,880
+processes
+
+1492
+01:12:52,880 --> 01:12:54,600
+and
+
+1493
+01:12:54,600 --> 01:12:55,320
+um
+
+1494
+01:12:55,320 --> 01:12:57,060
+Linux kernel
+
+1495
+01:12:57,060 --> 01:12:59,580
+has this thing called PID namespace so
+
+1496
+01:12:59,580 --> 01:13:01,800
+that's basically a you can create a
+
+1497
+01:13:01,800 --> 01:13:04,679
+separate namespace for process ID
+
+1498
+01:13:04,679 --> 01:13:07,260
+process IDs and this is how you can
+
+1499
+01:13:07,260 --> 01:13:08,900
+prevent
+
+1500
+01:13:08,900 --> 01:13:11,460
+processes inside the containers from
+
+1501
+01:13:11,460 --> 01:13:14,460
+interfering with processes outside the
+
+1502
+01:13:14,460 --> 01:13:16,240
+container
+
+1503
+01:13:16,240 --> 01:13:17,580
+[Music]
+
+1504
+01:13:17,580 --> 01:13:20,060
+your container runtime will also provide
+
+1505
+01:13:20,060 --> 01:13:23,820
+isolation for file system and this is
+
+1506
+01:13:23,820 --> 01:13:26,340
+called Mount namespace so it's
+
+1507
+01:13:26,340 --> 01:13:29,040
+almost identical to PID namespace but
+
+1508
+01:13:29,040 --> 01:13:32,100
+each process can have
+
+1509
+01:13:32,100 --> 01:13:35,400
+um its own namespace for file system
+
+1510
+01:13:35,400 --> 01:13:37,500
+so that's the idea
+
+1511
+01:13:37,500 --> 01:13:38,940
+and
+
+1512
+01:13:38,940 --> 01:13:42,360
+in order to create a new namespace you
+
+1513
+01:13:42,360 --> 01:13:46,140
+use this clone system call so when you
+
+1514
+01:13:46,140 --> 01:13:49,199
+call this clone it will create a new
+
+1515
+01:13:49,199 --> 01:13:52,020
+process and it's similar to Fork but
+
+1516
+01:13:52,020 --> 01:13:55,520
+it's more flexible and you can pass
+
+1517
+01:13:55,520 --> 01:13:59,460
+options to say
+
+1518
+01:13:59,460 --> 01:14:02,340
+create new namespace for PID and create
+
+1519
+01:14:02,340 --> 01:14:04,380
+new space for Mount space
+
+1520
+01:14:04,380 --> 01:14:07,880
+so you have to do that and
+
+1521
+01:14:07,880 --> 01:14:11,880
+just like P thread create it takes a
+
+1522
+01:14:11,880 --> 01:14:13,080
+function
+
+1523
+01:14:13,080 --> 01:14:16,440
+to execute inside a process inside a new
+
+1524
+01:14:16,440 --> 01:14:20,699
+process and you can pass a void pointer
+
+1525
+01:14:20,699 --> 01:14:24,199
+that is the argument
+
+1526
+01:14:24,199 --> 01:14:27,140
+to this function
+
+1527
+01:14:27,140 --> 01:14:30,900
+and part of the assignment is to
+
+1528
+01:14:30,900 --> 01:14:32,580
+basically store everything
+
+1529
+01:14:32,580 --> 01:14:35,699
+your child process will need to this
+
+1530
+01:14:35,699 --> 01:14:39,480
+container T struct so the process inside
+
+1531
+01:14:39,480 --> 01:14:42,480
+the container will be able to execute
+
+1532
+01:14:42,480 --> 01:14:45,719
+the command you're given
+
+1533
+01:14:45,719 --> 01:14:46,860
+so
+
+1534
+01:14:46,860 --> 01:14:49,020
+another thing you have to do and I think
+
+1535
+01:14:49,020 --> 01:14:50,820
+this might give you a better idea of
+
+1536
+01:14:50,820 --> 01:14:55,800
+what an image is is to um
+
+1537
+01:14:55,800 --> 01:14:58,320
+well so here's the problem so container
+
+1538
+01:14:58,320 --> 01:15:00,239
+image is a read only so what that means
+
+1539
+01:15:00,239 --> 01:15:01,880
+is that
+
+1540
+01:15:01,880 --> 01:15:04,440
+your container
+
+1541
+01:15:04,440 --> 01:15:09,480
+cannot change files that are in
+
+1542
+01:15:09,480 --> 01:15:13,080
+the image directly so you can have you
+
+1543
+01:15:13,080 --> 01:15:15,120
+know let's suppose that you have
+
+1544
+01:15:15,120 --> 01:15:18,060
+an image and you can have multiple
+
+1545
+01:15:18,060 --> 01:15:19,500
+containers
+
+1546
+01:15:19,500 --> 01:15:23,120
+from that image right if container a
+
+1547
+01:15:23,120 --> 01:15:27,179
+changes the file in the image that will
+
+1548
+01:15:27,179 --> 01:15:29,580
+affect container B in container C which
+
+1549
+01:15:29,580 --> 01:15:31,380
+is not good right
+
+1550
+01:15:31,380 --> 01:15:33,300
+so um
+
+1551
+01:15:33,300 --> 01:15:36,840
+basically you want an image to be read
+
+1552
+01:15:36,840 --> 01:15:40,560
+only but each container should be able
+
+1553
+01:15:40,560 --> 01:15:42,239
+to change files
+
+1554
+01:15:42,239 --> 01:15:46,080
+and the way we achieve this feature is
+
+1555
+01:15:46,080 --> 01:15:49,320
+to use something called oval AFS
+
+1556
+01:15:49,320 --> 01:15:51,360
+and
+
+1557
+01:15:51,360 --> 01:15:54,060
+overlay FS
+
+1558
+01:15:54,060 --> 01:15:56,179
+um
+
+1559
+01:15:57,719 --> 01:16:00,360
+yeah so
+
+1560
+01:16:00,360 --> 01:16:04,140
+there are there'll be three layers to
+
+1561
+01:16:04,140 --> 01:16:06,060
+this overlay FS
+
+1562
+01:16:06,060 --> 01:16:09,060
+there is a lower layer
+
+1563
+01:16:09,060 --> 01:16:13,199
+where all files are read only
+
+1564
+01:16:13,199 --> 01:16:16,380
+then on top of that there is a upper
+
+1565
+01:16:16,380 --> 01:16:17,400
+layer
+
+1566
+01:16:17,400 --> 01:16:19,860
+where you can write things
+
+1567
+01:16:19,860 --> 01:16:22,679
+and then in the end at the top of the
+
+1568
+01:16:22,679 --> 01:16:26,880
+layer is the overlay and you see sort of
+
+1569
+01:16:26,880 --> 01:16:33,060
+the combined view of those two layers so
+
+1570
+01:16:33,060 --> 01:16:35,460
+I think this image
+
+1571
+01:16:35,460 --> 01:16:39,900
+um this describes it so
+
+1572
+01:16:39,900 --> 01:16:42,600
+at the very bottom you have an image
+
+1573
+01:16:42,600 --> 01:16:45,900
+layer and you have a couple of files
+
+1574
+01:16:45,900 --> 01:16:47,820
+then on top of that you have a container
+
+1575
+01:16:47,820 --> 01:16:51,480
+layer and this container layer is per
+
+1576
+01:16:51,480 --> 01:16:54,480
+container so each container has this
+
+1577
+01:16:54,480 --> 01:16:56,280
+layer
+
+1578
+01:16:56,280 --> 01:16:59,159
+when you so at the root of each
+
+1579
+01:16:59,159 --> 01:17:04,560
+container you have this merged View and
+
+1580
+01:17:04,560 --> 01:17:08,460
+it basically sees files from both this
+
+1581
+01:17:08,460 --> 01:17:11,520
+image layer and container layer
+
+1582
+01:17:11,520 --> 01:17:15,080
+yeah sorry this question
+
+1583
+01:17:24,140 --> 01:17:27,060
+in the local machine too like outside of
+
+1584
+01:17:27,060 --> 01:17:29,580
+the container like like if we were to
+
+1585
+01:17:29,580 --> 01:17:30,600
+happen are you talking about Dev
+
+1586
+01:17:30,600 --> 01:17:32,880
+container four five four is going to
+
+1587
+01:17:32,880 --> 01:17:35,400
+show up so wait are you talking about a
+
+1588
+01:17:35,400 --> 01:17:37,980
+Dev container
+
+1589
+01:17:37,980 --> 01:17:39,659
+so the container is a little bit
+
+1590
+01:17:39,659 --> 01:17:42,179
+different because
+
+1591
+01:17:42,179 --> 01:17:46,020
+um the point of they have a container
+
+1592
+01:17:46,020 --> 01:17:51,000
+is to be able to run your code inside
+
+1593
+01:17:51,000 --> 01:17:51,960
+um
+
+1594
+01:17:51,960 --> 01:17:54,179
+inside the container right so the
+
+1595
+01:17:54,179 --> 01:17:57,239
+container so okay
+
+1596
+01:17:57,239 --> 01:18:00,800
+you want to use Dev container because
+
+1597
+01:18:00,800 --> 01:18:05,460
+container has all the tools needed
+
+1598
+01:18:05,460 --> 01:18:08,760
+for development right so in our case we
+
+1599
+01:18:08,760 --> 01:18:12,480
+need clan we need you know Cloud format
+
+1600
+01:18:12,480 --> 01:18:16,159
+make those things and everything is
+
+1601
+01:18:16,159 --> 01:18:18,659
+installed in a container
+
+1602
+01:18:18,659 --> 01:18:20,040
+and
+
+1603
+01:18:20,040 --> 01:18:23,400
+you want to run your program
+
+1604
+01:18:23,400 --> 01:18:25,679
+inside
+
+1605
+01:18:25,679 --> 01:18:28,260
+the container and
+
+1606
+01:18:28,260 --> 01:18:32,280
+that internally uses a volume so that's
+
+1607
+01:18:32,280 --> 01:18:35,219
+a v option I was just describing to sort
+
+1608
+01:18:35,219 --> 01:18:38,699
+of sync files inside the container and
+
+1609
+01:18:38,699 --> 01:18:41,280
+outside the container this is a little
+
+1610
+01:18:41,280 --> 01:18:42,719
+bit different
+
+1611
+01:18:42,719 --> 01:18:44,159
+um this is about
+
+1612
+01:18:44,159 --> 01:18:44,760
+um
+
+1613
+01:18:44,760 --> 01:18:49,620
+sort of how you can like how you um
+
+1614
+01:18:49,620 --> 01:18:52,340
+create
+
+1615
+01:18:53,580 --> 01:18:57,239
+how you allow containers to make changes
+
+1616
+01:18:57,239 --> 01:19:01,620
+while keeping the image read-only
+
+1617
+01:19:01,620 --> 01:19:04,040
+okay
+
+1618
+01:19:04,800 --> 01:19:06,179
+so
+
+1619
+01:19:06,179 --> 01:19:07,560
+yeah so
+
+1620
+01:19:07,560 --> 01:19:09,179
+I think I can
+
+1621
+01:19:09,179 --> 01:19:12,420
+do this demo I did this demo
+
+1622
+01:19:12,420 --> 01:19:13,140
+um
+
+1623
+01:19:13,140 --> 01:19:16,820
+in my section but that's okay
+
+1624
+01:19:25,020 --> 01:19:27,960
+container merged folder like merge
+
+1625
+01:19:27,960 --> 01:19:29,760
+directory like your host computer
+
+1626
+01:19:29,760 --> 01:19:31,199
+basically
+
+1627
+01:19:31,199 --> 01:19:35,060
+it makes the changes to your computer
+
+1628
+01:19:38,760 --> 01:19:41,159
+okay okay yeah
+
+1629
+01:19:41,159 --> 01:19:43,620
+kind of similar that's similar that's
+
+1630
+01:19:43,620 --> 01:19:46,380
+the image but not exactly how the the
+
+1631
+01:19:46,380 --> 01:19:48,179
+container works but yeah it's similar
+
+1632
+01:19:48,179 --> 01:19:51,360
+yeah yeah okay so let's do this example
+
+1633
+01:19:51,360 --> 01:19:53,040
+so
+
+1634
+01:19:53,040 --> 01:19:55,860
+okay as some people pointed out this
+
+1635
+01:19:55,860 --> 01:19:59,640
+example runs only on Native Linux so if
+
+1636
+01:19:59,640 --> 01:20:01,260
+you do that in your Dev container it
+
+1637
+01:20:01,260 --> 01:20:02,460
+might not work
+
+1638
+01:20:02,460 --> 01:20:04,080
+uh
+
+1639
+01:20:04,080 --> 01:20:05,520
+apologize
+
+1640
+01:20:05,520 --> 01:20:09,620
+so first thing we can do is to make
+
+1641
+01:20:09,620 --> 01:20:14,640
+four directories lower upper work merged
+
+1642
+01:20:14,640 --> 01:20:15,540
+okay
+
+1643
+01:20:15,540 --> 01:20:18,120
+and this will create four directories
+
+1644
+01:20:18,120 --> 01:20:21,960
+first thing we do is we create this is
+
+1645
+01:20:21,960 --> 01:20:23,520
+in lower
+
+1646
+01:20:23,520 --> 01:20:24,659
+file
+
+1647
+01:20:24,659 --> 01:20:27,780
+in lower so
+
+1648
+01:20:27,780 --> 01:20:30,060
+if I do this
+
+1649
+01:20:30,060 --> 01:20:32,880
+so I enter her four directories
+
+1650
+01:20:32,880 --> 01:20:36,420
+and I have file full inside lower and
+
+1651
+01:20:36,420 --> 01:20:38,520
+this lower will be like a container
+
+1652
+01:20:38,520 --> 01:20:39,960
+image
+
+1653
+01:20:39,960 --> 01:20:42,120
+so next
+
+1654
+01:20:42,120 --> 01:20:44,820
+I'll execute this command
+
+1655
+01:20:44,820 --> 01:20:47,219
+to uh sorry
+
+1656
+01:20:47,219 --> 01:20:48,840
+create
+
+1657
+01:20:48,840 --> 01:20:51,739
+uh
+
+1658
+01:20:55,800 --> 01:20:58,020
+sorry
+
+1659
+01:20:58,020 --> 01:21:01,020
+uh
+
+1660
+01:21:01,560 --> 01:21:02,940
+it's probably your
+
+1661
+01:21:02,940 --> 01:21:04,940
+um
+
+1662
+01:21:09,780 --> 01:21:12,960
+okay so I executed this Mount command
+
+1663
+01:21:12,960 --> 01:21:18,239
+and this created overlay file system
+
+1664
+01:21:18,239 --> 01:21:22,320
+and we told it to use this lower
+
+1665
+01:21:22,320 --> 01:21:25,980
+directory as lower dire and this upward
+
+1666
+01:21:25,980 --> 01:21:29,520
+directory which is now empty as upper
+
+1667
+01:21:29,520 --> 01:21:32,580
+directory and yeah so overlap have a
+
+1668
+01:21:32,580 --> 01:21:35,520
+system requires some workspace so I just
+
+1669
+01:21:35,520 --> 01:21:38,460
+said use this work directory
+
+1670
+01:21:38,460 --> 01:21:43,020
+as that and then we Mount this
+
+1671
+01:21:43,020 --> 01:21:45,179
+um created overlay file system into this
+
+1672
+01:21:45,179 --> 01:21:47,640
+merged view okay
+
+1673
+01:21:47,640 --> 01:21:49,860
+so first let's do
+
+1674
+01:21:49,860 --> 01:21:53,460
+LS of merged
+
+1675
+01:21:53,460 --> 01:21:59,159
+so inside merged we have Foo so
+
+1676
+01:21:59,159 --> 01:22:01,560
+maybe I should do three on this
+
+1677
+01:22:01,560 --> 01:22:03,120
+so
+
+1678
+01:22:03,120 --> 01:22:05,159
+in this case
+
+1679
+01:22:05,159 --> 01:22:08,100
+this file Foo
+
+1680
+01:22:08,100 --> 01:22:09,600
+is
+
+1681
+01:22:09,600 --> 01:22:11,820
+in the image layer in lower directory
+
+1682
+01:22:11,820 --> 01:22:12,780
+right
+
+1683
+01:22:12,780 --> 01:22:15,260
+and everything inside lower directory
+
+1684
+01:22:15,260 --> 01:22:18,780
+appears in this merged View
+
+1685
+01:22:18,780 --> 01:22:22,920
+so here this is in the most View and I
+
+1686
+01:22:22,920 --> 01:22:24,780
+can I should be able to see the content
+
+1687
+01:22:24,780 --> 01:22:25,860
+of
+
+1688
+01:22:25,860 --> 01:22:29,460
+nourished Foo and it says this is in
+
+1689
+01:22:29,460 --> 01:22:30,420
+lower
+
+1690
+01:22:30,420 --> 01:22:33,120
+and this is the
+
+1691
+01:22:33,120 --> 01:22:36,120
+you know content we
+
+1692
+01:22:36,120 --> 01:22:39,600
+did in the First Command right
+
+1693
+01:22:39,600 --> 01:22:41,100
+and
+
+1694
+01:22:41,100 --> 01:22:43,620
+so the next thing we can do is we can
+
+1695
+01:22:43,620 --> 01:22:45,900
+create a file
+
+1696
+01:22:45,900 --> 01:22:48,000
+um inside
+
+1697
+01:22:48,000 --> 01:22:51,060
+um this merged folder so let's say hello
+
+1698
+01:22:51,060 --> 01:22:54,179
+emerged and we are going to make a file
+
+1699
+01:22:54,179 --> 01:22:57,000
+inside merged
+
+1700
+01:22:57,000 --> 01:22:59,820
+um bar okay
+
+1701
+01:22:59,820 --> 01:23:03,600
+so I created a file inside merged
+
+1702
+01:23:03,600 --> 01:23:07,500
+and so I now have food and Power
+
+1703
+01:23:07,500 --> 01:23:10,800
+and so the real question is so this
+
+1704
+01:23:10,800 --> 01:23:13,140
+merge is overlay file system it's kind
+
+1705
+01:23:13,140 --> 01:23:16,500
+of a virtual file system where does this
+
+1706
+01:23:16,500 --> 01:23:18,360
+file really go
+
+1707
+01:23:18,360 --> 01:23:21,480
+because lower directory is a read-only
+
+1708
+01:23:21,480 --> 01:23:23,460
+directory we cannot write to this
+
+1709
+01:23:23,460 --> 01:23:25,500
+directory so what's going to happen is
+
+1710
+01:23:25,500 --> 01:23:28,800
+every change you make on this merged
+
+1711
+01:23:28,800 --> 01:23:31,980
+view goes into this upper so if I do
+
+1712
+01:23:31,980 --> 01:23:34,739
+three and here
+
+1713
+01:23:34,739 --> 01:23:37,679
+see so this merged View
+
+1714
+01:23:37,679 --> 01:23:41,360
+has everything inside lower and upper
+
+1715
+01:23:41,360 --> 01:23:43,020
+and
+
+1716
+01:23:43,020 --> 01:23:47,219
+the file I created bar inside merged is
+
+1717
+01:23:47,219 --> 01:23:51,420
+saved inside this apple directory okay
+
+1718
+01:23:51,420 --> 01:23:55,500
+so if I do view of merge sorry up bar
+
+1719
+01:23:55,500 --> 01:23:57,179
+bar
+
+1720
+01:23:57,179 --> 01:24:01,440
+you see Hello merged message here okay
+
+1721
+01:24:01,440 --> 01:24:03,780
+and finally
+
+1722
+01:24:03,780 --> 01:24:08,280
+so this full is now created so so this
+
+1723
+01:24:08,280 --> 01:24:11,699
+Foo is an image of this lower food right
+
+1724
+01:24:11,699 --> 01:24:14,219
+what happens if I
+
+1725
+01:24:14,219 --> 01:24:16,320
+um make change
+
+1726
+01:24:16,320 --> 01:24:19,280
+to this file so open them
+
+1727
+01:24:19,280 --> 01:24:23,460
+and edit that in merged
+
+1728
+01:24:23,460 --> 01:24:25,620
+oh
+
+1729
+01:24:25,620 --> 01:24:29,520
+so if I do this and I save this
+
+1730
+01:24:29,520 --> 01:24:32,400
+so because lower is read only this
+
+1731
+01:24:32,400 --> 01:24:35,699
+change is not going to go to lower
+
+1732
+01:24:35,699 --> 01:24:38,820
+and what happens is
+
+1733
+01:24:38,820 --> 01:24:41,100
+it's basically created a new file inside
+
+1734
+01:24:41,100 --> 01:24:45,600
+this upper writable layer and I have I
+
+1735
+01:24:45,600 --> 01:24:47,340
+now have three foods
+
+1736
+01:24:47,340 --> 01:24:49,020
+and
+
+1737
+01:24:49,020 --> 01:24:53,100
+if I see upper full
+
+1738
+01:24:53,100 --> 01:24:56,520
+it has a change right
+
+1739
+01:24:56,520 --> 01:24:58,140
+but
+
+1740
+01:24:58,140 --> 01:25:01,400
+low or flu
+
+1741
+01:25:02,880 --> 01:25:04,320
+remains
+
+1742
+01:25:04,320 --> 01:25:07,020
+unchanged
+
+1743
+01:25:07,020 --> 01:25:09,360
+so this is how you can
+
+1744
+01:25:09,360 --> 01:25:13,980
+um basically reuse image over containers
+
+1745
+01:25:13,980 --> 01:25:16,800
+and this is part of the assignment
+
+1746
+01:25:16,800 --> 01:25:19,080
+okay
+
+1747
+01:25:19,080 --> 01:25:22,020
+when does this class end 45
+
+1748
+01:25:22,020 --> 01:25:23,699
+minutes okay so I'm just gonna quickly
+
+1749
+01:25:23,699 --> 01:25:25,860
+go over what do you have to do
+
+1750
+01:25:25,860 --> 01:25:27,600
+um
+
+1751
+01:25:27,600 --> 01:25:30,980
+in process five okay so
+
+1752
+01:25:30,980 --> 01:25:33,840
+container.c is the only file you have to
+
+1753
+01:25:33,840 --> 01:25:36,659
+edit it implements a small container
+
+1754
+01:25:36,659 --> 01:25:39,360
+runtime it creates a new PID and mounts
+
+1755
+01:25:39,360 --> 01:25:41,880
+namespace set up the overlay fs and run
+
+1756
+01:25:41,880 --> 01:25:43,199
+the program
+
+1757
+01:25:43,199 --> 01:25:45,980
+okay so in this project
+
+1758
+01:25:45,980 --> 01:25:49,679
+container image is a directory that
+
+1759
+01:25:49,679 --> 01:25:53,520
+contains the root file system of the
+
+1760
+01:25:53,520 --> 01:25:54,679
+container
+
+1761
+01:25:54,679 --> 01:25:59,760
+and so Docker image the real Docker
+
+1762
+01:25:59,760 --> 01:26:02,340
+image is too complicated to deal with so
+
+1763
+01:26:02,340 --> 01:26:03,719
+we'll use
+
+1764
+01:26:03,719 --> 01:26:07,679
+um you'll just use a directory and we
+
+1765
+01:26:07,679 --> 01:26:12,840
+use these commands to create an image
+
+1766
+01:26:12,840 --> 01:26:15,120
+so let me actually
+
+1767
+01:26:15,120 --> 01:26:17,780
+um open it
+
+1768
+01:26:22,320 --> 01:26:25,800
+Okay so
+
+1769
+01:26:28,020 --> 01:26:29,340
+so first
+
+1770
+01:26:29,340 --> 01:26:32,159
+you execute this command
+
+1771
+01:26:32,159 --> 01:26:36,300
+to start the container in Dockers okay
+
+1772
+01:26:36,300 --> 01:26:38,699
+so we'll be using Docker to create a
+
+1773
+01:26:38,699 --> 01:26:40,980
+image that we'll use for our container
+
+1774
+01:26:40,980 --> 01:26:42,199
+runtime
+
+1775
+01:26:42,199 --> 01:26:46,199
+and you're going to do Docker PS
+
+1776
+01:26:46,199 --> 01:26:47,940
+to um
+
+1777
+01:26:47,940 --> 01:26:50,699
+either identify the ID
+
+1778
+01:26:50,699 --> 01:26:52,080
+of
+
+1779
+01:26:52,080 --> 01:26:53,580
+um
+
+1780
+01:26:53,580 --> 01:26:55,500
+this container
+
+1781
+01:26:55,500 --> 01:26:59,300
+and you'll do Docker export container ID
+
+1782
+01:26:59,300 --> 01:27:03,360
+alpine.tar to export
+
+1783
+01:27:03,360 --> 01:27:06,960
+this container as a turbo
+
+1784
+01:27:06,960 --> 01:27:08,699
+like this
+
+1785
+01:27:08,699 --> 01:27:12,060
+so now I have alpine.tar in the
+
+1786
+01:27:12,060 --> 01:27:13,500
+directory
+
+1787
+01:27:13,500 --> 01:27:15,420
+and what you're going to do is you're
+
+1788
+01:27:15,420 --> 01:27:18,360
+going to create a directory
+
+1789
+01:27:18,360 --> 01:27:23,159
+using this command and I'll do this to
+
+1790
+01:27:23,159 --> 01:27:24,480
+basically
+
+1791
+01:27:24,480 --> 01:27:26,699
+expand whatever is inside this
+
+1792
+01:27:26,699 --> 01:27:28,620
+alpine.talk
+
+1793
+01:27:28,620 --> 01:27:31,620
+so now I have a image
+
+1794
+01:27:31,620 --> 01:27:32,840
+that
+
+1795
+01:27:32,840 --> 01:27:36,780
+can be run with our container runtime
+
+1796
+01:27:36,780 --> 01:27:40,800
+so if I do LS images
+
+1797
+01:27:40,800 --> 01:27:45,780
+okay so LS images Alpine is in image and
+
+1798
+01:27:45,780 --> 01:27:47,639
+if I do CD
+
+1799
+01:27:47,639 --> 01:27:50,100
+let me just Alpine
+
+1800
+01:27:50,100 --> 01:27:52,980
+so you get this so you have been
+
+1801
+01:27:52,980 --> 01:27:54,900
+directly
+
+1802
+01:27:54,900 --> 01:27:59,460
+Etc home so this is the sort of
+
+1803
+01:27:59,460 --> 01:28:02,040
+all the files needed to run the
+
+1804
+01:28:02,040 --> 01:28:05,400
+container and that's there
+
+1805
+01:28:05,400 --> 01:28:06,719
+and
+
+1806
+01:28:06,719 --> 01:28:08,340
+yeah
+
+1807
+01:28:08,340 --> 01:28:10,260
+so the command line interface of
+
+1808
+01:28:10,260 --> 01:28:13,139
+container is look is like this
+
+1809
+01:28:13,139 --> 01:28:18,300
+so you have ID image and command so ID
+
+1810
+01:28:18,300 --> 01:28:21,179
+is the idea of the container and Docker
+
+1811
+01:28:21,179 --> 01:28:24,420
+uses a random string but here we expect
+
+1812
+01:28:24,420 --> 01:28:27,540
+the users to provide one image is the
+
+1813
+01:28:27,540 --> 01:28:30,060
+name of the image directory so in this
+
+1814
+01:28:30,060 --> 01:28:33,780
+case we have images outline so the name
+
+1815
+01:28:33,780 --> 01:28:35,760
+of the image is outline if you have
+
+1816
+01:28:35,760 --> 01:28:38,340
+something else maybe something else and
+
+1817
+01:28:38,340 --> 01:28:41,159
+command is the command to run inside the
+
+1818
+01:28:41,159 --> 01:28:42,120
+container
+
+1819
+01:28:42,120 --> 01:28:45,900
+so um I don't know sh or Echo hello or
+
+1820
+01:28:45,900 --> 01:28:47,699
+something like that
+
+1821
+01:28:47,699 --> 01:28:50,639
+so I think I can do an example here so I
+
+1822
+01:28:50,639 --> 01:28:53,400
+have a finished version of container I
+
+1823
+01:28:53,400 --> 01:28:54,300
+think
+
+1824
+01:28:54,300 --> 01:28:58,080
+so if I do sudo container C1 so C1 is
+
+1825
+01:28:58,080 --> 01:29:01,639
+the ID I'm just I'm giving it an Alpine
+
+1826
+01:29:01,639 --> 01:29:05,460
+Echo hello world if I did this
+
+1827
+01:29:05,460 --> 01:29:09,260
+sorry wrong place
+
+1828
+01:29:09,930 --> 01:29:13,500
+[Music]
+
+1829
+01:29:13,500 --> 01:29:14,699
+hmm
+
+1830
+01:29:14,699 --> 01:29:19,219
+it doesn't work I don't know why
+
+1831
+01:29:19,980 --> 01:29:22,020
+I must have edited the source code so
+
+1832
+01:29:22,020 --> 01:29:24,600
+I'm not going to bother fixing it but it
+
+1833
+01:29:24,600 --> 01:29:26,159
+should say hello world and it should
+
+1834
+01:29:26,159 --> 01:29:28,739
+work just like docker
+
+1835
+01:29:28,739 --> 01:29:30,179
+okay
+
+1836
+01:29:30,179 --> 01:29:31,560
+so
+
+1837
+01:29:31,560 --> 01:29:34,320
+yeah you have to do a couple of steps
+
+1838
+01:29:34,320 --> 01:29:35,280
+um
+
+1839
+01:29:35,280 --> 01:29:38,760
+I think with me has the most detailed
+
+1840
+01:29:38,760 --> 01:29:42,739
+explanation okay sorry yeah
+
+1841
+01:29:43,380 --> 01:29:46,320
+the TA section slides online or universe
+
+1842
+01:29:46,320 --> 01:29:47,280
+that for this
+
+1843
+01:29:47,280 --> 01:29:49,020
+yeah so this is
+
+1844
+01:29:49,020 --> 01:29:51,239
+on the website yeah
+
+1845
+01:29:51,239 --> 01:29:53,400
+yeah so the reason there's no slides for
+
+1846
+01:29:53,400 --> 01:29:55,800
+project four is that just it's just that
+
+1847
+01:29:55,800 --> 01:29:58,199
+I didn't have time to make one on that
+
+1848
+01:29:58,199 --> 01:30:01,159
+week I was busy sorry
+
