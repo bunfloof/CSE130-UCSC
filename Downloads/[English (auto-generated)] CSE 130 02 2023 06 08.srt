@@ -1,0 +1,5640 @@
+1
+00:01:57,500 --> 00:02:00,479
+uh okay so this class will be our last
+
+2
+00:02:00,479 --> 00:02:02,579
+class it's just a QA session because
+
+3
+00:02:02,579 --> 00:02:05,280
+we've already finished the final review
+
+4
+00:02:05,280 --> 00:02:08,098
+so here's what I plan
+
+5
+00:02:08,098 --> 00:02:10,219
+um
+
+6
+00:02:10,919 --> 00:02:13,140
+so you can come here on board to ask me
+
+7
+00:02:13,140 --> 00:02:14,940
+questions or you can raise your hands to
+
+8
+00:02:14,940 --> 00:02:17,160
+ask me questions so
+
+9
+00:02:17,160 --> 00:02:18,560
+um
+
+10
+00:02:18,560 --> 00:02:22,020
+anyways you want and I can provide the
+
+11
+00:02:22,020 --> 00:02:24,379
+answers
+
+12
+00:02:24,540 --> 00:02:27,540
+so any questions you can ask
+
+13
+00:02:27,540 --> 00:02:29,660
+um
+
+14
+00:02:54,540 --> 00:02:57,900
+page replacement algorithms okay so page
+
+15
+00:02:57,900 --> 00:02:59,760
+replacement algorithms
+
+16
+00:02:59,760 --> 00:03:01,080
+um
+
+17
+00:03:01,080 --> 00:03:03,360
+so here's the thing you have your
+
+18
+00:03:03,360 --> 00:03:05,760
+lecture notes right the natural notes in
+
+19
+00:03:05,760 --> 00:03:08,879
+the it is in your um
+
+20
+00:03:08,879 --> 00:03:12,720
+in the natural notes in the um
+
+21
+00:03:12,720 --> 00:03:15,239
+um in a memory memory page after the
+
+22
+00:03:15,239 --> 00:03:17,340
+page represents algorithms we have an
+
+23
+00:03:17,340 --> 00:03:19,560
+example and in your homework we have
+
+24
+00:03:19,560 --> 00:03:22,500
+another example the homework review
+
+25
+00:03:22,500 --> 00:03:25,980
+so um if you're not a sure of that I can
+
+26
+00:03:25,980 --> 00:03:28,739
+later so by the end of this week I'm
+
+27
+00:03:28,739 --> 00:03:30,420
+going to sub
+
+28
+00:03:30,420 --> 00:03:32,940
+um release all the homework solutions
+
+29
+00:03:32,940 --> 00:03:34,680
+okay
+
+30
+00:03:34,680 --> 00:03:38,040
+so including the file system and for the
+
+31
+00:03:38,040 --> 00:03:40,560
+page replacement algorithms any specific
+
+32
+00:03:40,560 --> 00:03:41,879
+question about page replacement
+
+33
+00:03:41,879 --> 00:03:44,720
+algorithms
+
+34
+00:03:48,780 --> 00:03:51,980
+the graph which graph
+
+35
+00:03:56,159 --> 00:03:59,040
+working Circle as a function oh okay
+
+36
+00:03:59,040 --> 00:04:01,739
+okay you mean the formula the Volcan
+
+37
+00:04:01,739 --> 00:04:05,280
+says formula oh okay so this part is out
+
+38
+00:04:05,280 --> 00:04:07,799
+of our
+
+39
+00:04:07,799 --> 00:04:10,319
+oh it's out of the lecture so because we
+
+40
+00:04:10,319 --> 00:04:12,000
+have not discussed in the lecture Zone
+
+41
+00:04:12,000 --> 00:04:14,400
+we are not going to this uh test it out
+
+42
+00:04:14,400 --> 00:04:17,040
+but for you to understand the key idea
+
+43
+00:04:17,040 --> 00:04:20,479
+about the working set is that
+
+44
+00:04:21,899 --> 00:04:22,680
+um
+
+45
+00:04:22,680 --> 00:04:24,660
+when we talk about the page within the
+
+46
+00:04:24,660 --> 00:04:27,120
+algorithms we use an example about the
+
+47
+00:04:27,120 --> 00:04:29,639
+reference streams right so in the
+
+48
+00:04:29,639 --> 00:04:33,240
+reference streams we're thinking of the
+
+49
+00:04:33,240 --> 00:04:36,540
+the way that you access the pages is one
+
+50
+00:04:36,540 --> 00:04:40,460
+page after one page after one page
+
+51
+00:04:40,560 --> 00:04:45,000
+so for example is the a b c d b
+
+52
+00:04:45,000 --> 00:04:48,500
+c d f
+
+53
+00:04:50,340 --> 00:04:53,840
+e f like this right
+
+54
+00:04:55,440 --> 00:04:59,120
+so we give you the example
+
+55
+00:05:00,419 --> 00:05:02,880
+about what we're saying like Okay this
+
+56
+00:05:02,880 --> 00:05:06,320
+is the this is your
+
+57
+00:05:08,160 --> 00:05:11,100
+this is this three let's say this is
+
+58
+00:05:11,100 --> 00:05:13,560
+your physical memory you only have three
+
+59
+00:05:13,560 --> 00:05:18,360
+slots to handle these streams
+
+60
+00:05:18,360 --> 00:05:21,300
+um memory access streams and then we ask
+
+61
+00:05:21,300 --> 00:05:23,880
+you the calculating uh the number of
+
+62
+00:05:23,880 --> 00:05:26,840
+page fours right
+
+63
+00:05:29,220 --> 00:05:30,720
+so this is the page replacement
+
+64
+00:05:30,720 --> 00:05:33,120
+algorithms after we discussed are we
+
+65
+00:05:33,120 --> 00:05:35,280
+talking about a working search so the
+
+66
+00:05:35,280 --> 00:05:37,440
+reason why we set working search is that
+
+67
+00:05:37,440 --> 00:05:42,740
+most of times most of times we
+
+68
+00:05:43,560 --> 00:05:47,580
+the streams coming not one and one not
+
+69
+00:05:47,580 --> 00:05:50,460
+one by one the streams like the access
+
+70
+00:05:50,460 --> 00:05:51,780
+streams
+
+71
+00:05:51,780 --> 00:05:54,720
+let's say we are looking for a page a
+
+72
+00:05:54,720 --> 00:05:57,900
+specific page we are not we are not
+
+73
+00:05:57,900 --> 00:06:01,440
+going to find the page one by one
+
+74
+00:06:01,440 --> 00:06:03,960
+so for example are you loading your OS
+
+75
+00:06:03,960 --> 00:06:06,419
+you're not going to loading the page the
+
+76
+00:06:06,419 --> 00:06:08,280
+missing pages one by one right we are
+
+77
+00:06:08,280 --> 00:06:11,400
+noting a lot of pages together and this
+
+78
+00:06:11,400 --> 00:06:13,919
+page required a batch of pages
+
+79
+00:06:13,919 --> 00:06:16,800
+and so working set is help you design
+
+80
+00:06:16,800 --> 00:06:20,160
+what is the best size the optimal size
+
+81
+00:06:20,160 --> 00:06:24,360
+of the number of page references
+
+82
+00:06:24,360 --> 00:06:27,479
+so that is the key idea of the working
+
+83
+00:06:27,479 --> 00:06:29,759
+sets and then there's a formula about
+
+84
+00:06:29,759 --> 00:06:32,460
+determining the best size of the working
+
+85
+00:06:32,460 --> 00:06:34,319
+cells we have the formula intellectual
+
+86
+00:06:34,319 --> 00:06:35,880
+nodes okay
+
+87
+00:06:35,880 --> 00:06:36,240
+[Music]
+
+88
+00:06:36,240 --> 00:06:38,240
+um
+
+89
+00:06:39,960 --> 00:06:42,080
+yeah
+
+90
+00:06:42,720 --> 00:06:46,440
+okay so today is the QA session
+
+91
+00:06:46,440 --> 00:06:48,660
+the last time I put the QA session in
+
+92
+00:06:48,660 --> 00:06:50,340
+the zoom uh
+
+93
+00:06:50,340 --> 00:06:52,500
+um but I'm afraid it may not recorded
+
+94
+00:06:52,500 --> 00:06:55,139
+very well so I'm going to do that in
+
+95
+00:06:55,139 --> 00:06:59,120
+person so any other questions
+
+96
+00:07:00,960 --> 00:07:03,620
+yes
+
+97
+00:07:05,039 --> 00:07:08,720
+practical problems
+
+98
+00:07:15,680 --> 00:07:18,680
+yeah yeah I'm
+
+99
+00:07:18,680 --> 00:07:22,020
+definitely so um
+
+100
+00:07:22,020 --> 00:07:24,360
+you may notice that in your midterm
+
+101
+00:07:24,360 --> 00:07:27,000
+right I'm asking you questions in
+
+102
+00:07:27,000 --> 00:07:30,000
+not just exactly the same way as I ask
+
+103
+00:07:30,000 --> 00:07:32,520
+you in the homework so that is the way
+
+104
+00:07:32,520 --> 00:07:35,880
+if you understand the concept in my
+
+105
+00:07:35,880 --> 00:07:36,960
+um
+
+106
+00:07:36,960 --> 00:07:40,500
+um you can easily to um
+
+107
+00:07:40,500 --> 00:07:43,860
+answer it for example I'm just it may
+
+108
+00:07:43,860 --> 00:07:46,139
+not be in the exam okay just some
+
+109
+00:07:46,139 --> 00:07:48,560
+examples okay for example
+
+110
+00:07:48,560 --> 00:07:51,539
+if I'm asking you like saying okay you
+
+111
+00:07:51,539 --> 00:07:54,240
+are the system designer now
+
+112
+00:07:54,240 --> 00:07:55,199
+um
+
+113
+00:07:55,199 --> 00:07:58,259
+now can you um can you
+
+114
+00:07:58,259 --> 00:08:03,060
+design a new page replacement algorithms
+
+115
+00:08:03,060 --> 00:08:05,340
+right I can show this design a new page
+
+116
+00:08:05,340 --> 00:08:08,520
+of resistant algorithms that is let's
+
+117
+00:08:08,520 --> 00:08:09,599
+say
+
+118
+00:08:09,599 --> 00:08:11,160
+after
+
+119
+00:08:11,160 --> 00:08:14,580
+another different system go
+
+120
+00:08:14,580 --> 00:08:18,599
+I mean in the first server first to come
+
+121
+00:08:18,599 --> 00:08:20,460
+firstly serve to succumb what is the
+
+122
+00:08:20,460 --> 00:08:22,020
+system goal
+
+123
+00:08:22,020 --> 00:08:23,400
+season go
+
+124
+00:08:23,400 --> 00:08:25,080
+remember
+
+125
+00:08:25,080 --> 00:08:27,780
+we have the optimal algorithm optimal
+
+126
+00:08:27,780 --> 00:08:29,819
+page replacement algorithms right the
+
+127
+00:08:29,819 --> 00:08:31,680
+least recently used the page replacement
+
+128
+00:08:31,680 --> 00:08:35,039
+algorithms right and we have the worst
+
+129
+00:08:35,039 --> 00:08:37,979
+page replacement algorithms we have the
+
+130
+00:08:37,979 --> 00:08:39,839
+um
+
+131
+00:08:39,839 --> 00:08:42,539
+like the first thing first out the first
+
+132
+00:08:42,539 --> 00:08:44,580
+come first serve replacement algorithm
+
+133
+00:08:44,580 --> 00:08:45,360
+right
+
+134
+00:08:45,360 --> 00:08:47,940
+so they have different system goals what
+
+135
+00:08:47,940 --> 00:08:50,339
+if I'm asking you like here's the new
+
+136
+00:08:50,339 --> 00:08:53,100
+system go can you design that this is an
+
+137
+00:08:53,100 --> 00:08:55,560
+example okay another example okay after
+
+138
+00:08:55,560 --> 00:08:58,680
+you design this page of his algorithms I
+
+139
+00:08:58,680 --> 00:08:59,940
+want to ask you okay
+
+140
+00:08:59,940 --> 00:09:00,540
+um
+
+141
+00:09:00,540 --> 00:09:04,740
+how the algorithms Works can you specify
+
+142
+00:09:04,740 --> 00:09:08,700
+the negative page size okay the page
+
+143
+00:09:08,700 --> 00:09:10,980
+size like what will be the best optimal
+
+144
+00:09:10,980 --> 00:09:13,380
+page size and how about a bigger page
+
+145
+00:09:13,380 --> 00:09:15,320
+side what is the benefits and this
+
+146
+00:09:15,320 --> 00:09:17,820
+disadvantages how about a smaller big
+
+147
+00:09:17,820 --> 00:09:20,160
+size a smaller page size the world will
+
+148
+00:09:20,160 --> 00:09:24,200
+be the benefits and limitations
+
+149
+00:09:24,200 --> 00:09:28,260
+and then come to the after page size now
+
+150
+00:09:28,260 --> 00:09:30,360
+I may ask you okay
+
+151
+00:09:30,360 --> 00:09:32,700
+um how about a page table
+
+152
+00:09:32,700 --> 00:09:33,839
+right
+
+153
+00:09:33,839 --> 00:09:35,760
+um are you going to design a one level
+
+154
+00:09:35,760 --> 00:09:37,200
+page table
+
+155
+00:09:37,200 --> 00:09:40,440
+with multi-level page tables what will
+
+156
+00:09:40,440 --> 00:09:43,080
+be the disadvantages and disadvantages
+
+157
+00:09:43,080 --> 00:09:44,640
+of that
+
+158
+00:09:44,640 --> 00:09:46,440
+remember that when we're talking about
+
+159
+00:09:46,440 --> 00:09:50,399
+page tables right page tables we
+
+160
+00:09:50,399 --> 00:09:52,440
+there are maybe multi-levels of page
+
+161
+00:09:52,440 --> 00:09:55,260
+tables right and how it influence to
+
+162
+00:09:55,260 --> 00:09:57,440
+your
+
+163
+00:09:58,200 --> 00:10:02,360
+the how you influence the
+
+164
+00:10:07,500 --> 00:10:12,300
+yeah it's not good to say that
+
+165
+00:10:12,300 --> 00:10:15,240
+in see this is a memory hierarchical
+
+166
+00:10:15,240 --> 00:10:16,680
+structure right
+
+167
+00:10:16,680 --> 00:10:20,000
+we have register
+
+168
+00:10:24,120 --> 00:10:27,000
+we have a register a cache
+
+169
+00:10:27,000 --> 00:10:29,779
+a memory
+
+170
+00:10:31,500 --> 00:10:33,720
+what memory we have the
+
+171
+00:10:33,720 --> 00:10:37,279
+uh this color this
+
+172
+00:10:47,940 --> 00:10:50,820
+show you first you first go to you look
+
+173
+00:10:50,820 --> 00:10:53,399
+at the law the
+
+174
+00:10:53,399 --> 00:10:55,560
+you look at the tlb to find the page
+
+175
+00:10:55,560 --> 00:10:58,380
+right and then if this means you look at
+
+176
+00:10:58,380 --> 00:11:00,660
+them where
+
+177
+00:11:00,660 --> 00:11:03,120
+the page table right the page table and
+
+178
+00:11:03,120 --> 00:11:06,300
+if still meets then you go to the disk
+
+179
+00:11:06,300 --> 00:11:08,339
+so in exam it may not are
+
+180
+00:11:08,339 --> 00:11:10,800
+straightforwards like that
+
+181
+00:11:10,800 --> 00:11:14,579
+I may ask you as for example I tell you
+
+182
+00:11:14,579 --> 00:11:17,640
+uh okay hey here this is 10 milliseconds
+
+183
+00:11:17,640 --> 00:11:22,380
+or 10 nanoseconds to or to
+
+184
+00:11:22,380 --> 00:11:26,519
+to find our entry in the tlb 100 minutes
+
+185
+00:11:26,519 --> 00:11:28,680
+level seconds to find the entry in the
+
+186
+00:11:28,680 --> 00:11:32,579
+page table and the 100 1000 nanoseconds
+
+187
+00:11:32,579 --> 00:11:36,120
+to find that the files in the in the
+
+188
+00:11:36,120 --> 00:11:37,440
+disk
+
+189
+00:11:37,440 --> 00:11:39,480
+so then I tell you okay you have 10
+
+190
+00:11:39,480 --> 00:11:43,920
+percentage to have a tlb tlb hits you
+
+191
+00:11:43,920 --> 00:11:44,760
+have
+
+192
+00:11:44,760 --> 00:11:48,120
+around 20 percentage for the page table
+
+193
+00:11:48,120 --> 00:11:49,200
+hits
+
+194
+00:11:49,200 --> 00:11:53,160
+you have then what will be the average
+
+195
+00:11:53,160 --> 00:11:56,420
+what will be the average
+
+196
+00:11:56,459 --> 00:11:59,160
+response time together
+
+197
+00:11:59,160 --> 00:12:03,300
+got her paid to successfully got a page
+
+198
+00:12:03,300 --> 00:12:05,339
+well it may not appear to an example
+
+199
+00:12:05,339 --> 00:12:06,660
+because I'm just making an example
+
+200
+00:12:06,660 --> 00:12:08,579
+because I have a lot of questions in my
+
+201
+00:12:08,579 --> 00:12:10,800
+mind I have not designed my exam
+
+202
+00:12:10,800 --> 00:12:12,779
+questions
+
+203
+00:12:12,779 --> 00:12:17,000
+it's just an example yeah yeah
+
+204
+00:12:22,440 --> 00:12:24,360
+well here's the thing if you have 20
+
+205
+00:12:24,360 --> 00:12:27,000
+percentage hits the page table then that
+
+206
+00:12:27,000 --> 00:12:29,220
+means the other 80 percentage you have
+
+207
+00:12:29,220 --> 00:12:30,420
+to go to
+
+208
+00:12:30,420 --> 00:12:32,600
+where so
+
+209
+00:12:32,600 --> 00:12:36,300
+the exam the problem if I'm making an
+
+210
+00:12:36,300 --> 00:12:38,040
+exam question like this it will be very
+
+211
+00:12:38,040 --> 00:12:40,620
+specific you tell you like 10 percentage
+
+212
+00:12:40,620 --> 00:12:43,200
+in the tlb whenever you touch tlb it
+
+213
+00:12:43,200 --> 00:12:45,300
+will be 10 percentage and you miss your
+
+214
+00:12:45,300 --> 00:12:48,839
+tlb you go to the page table
+
+215
+00:12:48,839 --> 00:12:52,320
+the circumstances probability that the
+
+216
+00:12:52,320 --> 00:12:54,180
+page is in the page table is 20
+
+217
+00:12:54,180 --> 00:12:57,060
+percentage so that means another 80
+
+218
+00:12:57,060 --> 00:12:59,639
+percentage you need to go through this I
+
+219
+00:12:59,639 --> 00:13:02,399
+cannot tell you exactly what it looks
+
+220
+00:13:02,399 --> 00:13:05,519
+like but this will be the way that I I
+
+221
+00:13:05,519 --> 00:13:08,160
+can test you about the page Force
+
+222
+00:13:08,160 --> 00:13:10,260
+handling the page Force right
+
+223
+00:13:10,260 --> 00:13:12,899
+this is off flexible questions they are
+
+224
+00:13:12,899 --> 00:13:15,600
+not exactly the same as your homework
+
+225
+00:13:15,600 --> 00:13:18,240
+Solution that's that's right down those
+
+226
+00:13:18,240 --> 00:13:20,940
+write down the short answer
+
+227
+00:13:20,940 --> 00:13:23,360
+right
+
+228
+00:13:28,019 --> 00:13:31,320
+okay so this is all about like
+
+229
+00:13:31,320 --> 00:13:33,440
+um
+
+230
+00:13:33,600 --> 00:13:37,260
+memory memory chapter but there are many
+
+231
+00:13:37,260 --> 00:13:39,500
+Post Falls
+
+232
+00:13:39,500 --> 00:13:42,120
+exam questions
+
+233
+00:13:42,120 --> 00:13:44,600
+it's not it's not limited to just
+
+234
+00:13:44,600 --> 00:13:47,399
+calculating the
+
+235
+00:13:47,399 --> 00:13:50,220
+feeling the memory
+
+236
+00:13:50,220 --> 00:13:52,139
+there are many there may be many other
+
+237
+00:13:52,139 --> 00:13:55,380
+questions right like what I
+
+238
+00:13:55,380 --> 00:13:58,440
+um introduce to you guys like how to
+
+239
+00:13:58,440 --> 00:14:01,079
+how to calculate how to do the
+
+240
+00:14:01,079 --> 00:14:02,880
+um
+
+241
+00:14:02,880 --> 00:14:04,920
+address translation
+
+242
+00:14:04,920 --> 00:14:07,560
+from the virtual
+
+243
+00:14:07,560 --> 00:14:09,600
+virtual address to a physical address
+
+244
+00:14:09,600 --> 00:14:12,320
+right
+
+245
+00:14:12,660 --> 00:14:15,959
+like how to do that what is the concept
+
+246
+00:14:15,959 --> 00:14:18,800
+of offset
+
+247
+00:14:19,560 --> 00:14:22,320
+can you calculate the page size based on
+
+248
+00:14:22,320 --> 00:14:24,360
+this
+
+249
+00:14:24,360 --> 00:14:27,079
+all right
+
+250
+00:14:39,240 --> 00:14:42,240
+okay okay we'll continue our QA sessions
+
+251
+00:14:42,240 --> 00:14:43,740
+okay
+
+252
+00:14:43,740 --> 00:14:48,380
+you can ask me any questions you yeah
+
+253
+00:14:50,459 --> 00:14:52,980
+we it will be the same
+
+254
+00:14:52,980 --> 00:14:54,420
+um
+
+255
+00:14:54,420 --> 00:14:57,060
+yeah not exactly the same number as your
+
+256
+00:14:57,060 --> 00:15:00,480
+midterm but will be very similar
+
+257
+00:15:00,480 --> 00:15:03,260
+um yeah
+
+258
+00:15:05,579 --> 00:15:07,980
+um I expect to take
+
+259
+00:15:07,980 --> 00:15:09,839
+um
+
+260
+00:15:09,839 --> 00:15:12,480
+well maybe one and a half one and a half
+
+261
+00:15:12,480 --> 00:15:14,880
+should be oh it's I cannot say that
+
+262
+00:15:14,880 --> 00:15:16,440
+because different students have
+
+263
+00:15:16,440 --> 00:15:18,000
+different style
+
+264
+00:15:18,000 --> 00:15:22,320
+like when I was doing my my my final
+
+265
+00:15:22,320 --> 00:15:24,540
+midterm even I finished studying while
+
+266
+00:15:24,540 --> 00:15:27,360
+I'm still sitting there waiting for
+
+267
+00:15:27,360 --> 00:15:29,160
+another two hours I'm just checking
+
+268
+00:15:29,160 --> 00:15:32,600
+whether if I'm I was wrong in
+
+269
+00:15:32,600 --> 00:15:36,000
+yeah I'm that that kind of person
+
+270
+00:15:36,000 --> 00:15:38,720
+laughs
+
+271
+00:15:39,980 --> 00:15:42,899
+yeah so we have three hours it will be
+
+272
+00:15:42,899 --> 00:15:45,680
+in love for everyone
+
+273
+00:15:49,139 --> 00:15:51,920
+yes
+
+274
+00:15:55,800 --> 00:15:58,260
+yes we will first have true false
+
+275
+00:15:58,260 --> 00:16:00,300
+questions then we will have we will have
+
+276
+00:16:00,300 --> 00:16:02,279
+the um
+
+277
+00:16:02,279 --> 00:16:04,260
+multiple choice question
+
+278
+00:16:04,260 --> 00:16:06,240
+so they give you a multiple choice right
+
+279
+00:16:06,240 --> 00:16:09,660
+but you owning a circular one okay ABCD
+
+280
+00:16:09,660 --> 00:16:12,000
+only one solution is correct
+
+281
+00:16:12,000 --> 00:16:15,600
+then we have some short answers and then
+
+282
+00:16:15,600 --> 00:16:18,920
+we have some um
+
+283
+00:16:19,440 --> 00:16:22,560
+yeah a lot of short answers and then
+
+284
+00:16:22,560 --> 00:16:24,720
+like long answers
+
+285
+00:16:24,720 --> 00:16:26,940
+um design questions
+
+286
+00:16:26,940 --> 00:16:29,839
+coding questions
+
+287
+00:16:30,180 --> 00:16:33,540
+yeah you can bring your
+
+288
+00:16:33,540 --> 00:16:34,560
+um
+
+289
+00:16:34,560 --> 00:16:37,079
+you cannot bring your cell phone
+
+290
+00:16:37,079 --> 00:16:40,459
+but you can bring the calculator
+
+291
+00:16:40,519 --> 00:16:45,360
+because I'm I'm yeah
+
+292
+00:16:45,540 --> 00:16:48,300
+yeah you can bring your calculator okay
+
+293
+00:16:48,300 --> 00:16:50,220
+well I'll ask my th will send an
+
+294
+00:16:50,220 --> 00:16:51,180
+announcement
+
+295
+00:16:51,180 --> 00:16:53,279
+so you can bring your calculators and no
+
+296
+00:16:53,279 --> 00:16:55,680
+need to afraid that it's maybe too much
+
+297
+00:16:55,680 --> 00:16:59,660
+to to do the calculation
+
+298
+00:16:59,699 --> 00:17:02,420
+yes
+
+299
+00:17:04,740 --> 00:17:07,319
+no you you are not allowed to bring any
+
+300
+00:17:07,319 --> 00:17:08,760
+cheat sheets
+
+301
+00:17:08,760 --> 00:17:10,380
+and uh
+
+302
+00:17:10,380 --> 00:17:13,799
+I'm going to I'm going to have the exam
+
+303
+00:17:13,799 --> 00:17:17,880
+of exam exam version version a and the
+
+304
+00:17:17,880 --> 00:17:20,819
+exam version B so even students sits
+
+305
+00:17:20,819 --> 00:17:22,439
+likes to each other or receive different
+
+306
+00:17:22,439 --> 00:17:24,179
+versions
+
+307
+00:17:24,179 --> 00:17:24,780
+um
+
+308
+00:17:24,780 --> 00:17:27,000
+because we have no
+
+309
+00:17:27,000 --> 00:17:32,340
+many more students than I expected yeah
+
+310
+00:17:42,419 --> 00:17:44,539
+um
+
+311
+00:17:47,340 --> 00:17:48,900
+um
+
+312
+00:17:48,900 --> 00:17:52,140
+yeah I have not designed that um I'll
+
+313
+00:17:52,140 --> 00:17:54,059
+look at it I'm trying to give you many
+
+314
+00:17:54,059 --> 00:17:55,620
+solutions so
+
+315
+00:17:55,620 --> 00:17:57,539
+for example the coding question maybe
+
+316
+00:17:57,539 --> 00:17:59,940
+just some actual points
+
+317
+00:17:59,940 --> 00:18:01,200
+because
+
+318
+00:18:01,200 --> 00:18:03,539
+um I do not want you guys to worry too
+
+319
+00:18:03,539 --> 00:18:05,820
+much about your final it's not that
+
+320
+00:18:05,820 --> 00:18:09,059
+difficult okay but if you if you want to
+
+321
+00:18:09,059 --> 00:18:10,919
+finish challenging questions there will
+
+322
+00:18:10,919 --> 00:18:12,780
+be challenging questions it will be in
+
+323
+00:18:12,780 --> 00:18:15,059
+the actual actual credits it will be
+
+324
+00:18:15,059 --> 00:18:18,120
+very very very challenging okay
+
+325
+00:18:18,120 --> 00:18:20,539
+yes
+
+326
+00:18:25,380 --> 00:18:27,840
+um yeah I can give you an example but I
+
+327
+00:18:27,840 --> 00:18:29,340
+can I cannot
+
+328
+00:18:29,340 --> 00:18:31,620
+um go do the exactly one give you
+
+329
+00:18:31,620 --> 00:18:33,179
+example okay
+
+330
+00:18:33,179 --> 00:18:34,390
+um
+
+331
+00:18:34,390 --> 00:18:34,799
+[Music]
+
+332
+00:18:34,799 --> 00:18:36,799
+um
+
+333
+00:18:36,840 --> 00:18:38,820
+here's the thing okay
+
+334
+00:18:38,820 --> 00:18:40,820
+um
+
+335
+00:18:44,100 --> 00:18:48,500
+if I'm telling you if I'm telling you
+
+336
+00:18:50,880 --> 00:18:53,520
+the offset
+
+337
+00:18:53,520 --> 00:18:56,580
+those sets has four bits
+
+338
+00:18:56,580 --> 00:18:58,679
+okay this is the this is one of the
+
+339
+00:18:58,679 --> 00:19:02,059
+dress officers and then
+
+340
+00:19:04,580 --> 00:19:08,960
+so this is the let's say
+
+341
+00:19:14,880 --> 00:19:17,940
+so this is a virtual um
+
+342
+00:19:17,940 --> 00:19:19,679
+someone what's your address right some
+
+343
+00:19:19,679 --> 00:19:21,660
+virtual address then I'm telling you
+
+344
+00:19:21,660 --> 00:19:23,580
+this for example the offset has four
+
+345
+00:19:23,580 --> 00:19:24,720
+bits
+
+346
+00:19:24,720 --> 00:19:27,120
+so what do you think the size of the
+
+347
+00:19:27,120 --> 00:19:29,360
+page
+
+348
+00:19:29,460 --> 00:19:31,260
+what do you think the size of the page
+
+349
+00:19:31,260 --> 00:19:34,220
+yet
+
+350
+00:19:35,580 --> 00:19:40,280
+thing right 16 White 16.
+
+351
+00:19:45,059 --> 00:19:47,460
+this is this can be a
+
+352
+00:19:47,460 --> 00:19:50,760
+we I gave you the offsets right so this
+
+353
+00:19:50,760 --> 00:19:52,679
+is the wishing one page so this is
+
+354
+00:19:52,679 --> 00:19:55,500
+exactly one page
+
+355
+00:19:55,500 --> 00:19:57,360
+right there's one page I have different
+
+356
+00:19:57,360 --> 00:20:01,700
+uh the pay the page officer
+
+357
+00:20:07,140 --> 00:20:09,960
+so the number of the entries right the
+
+358
+00:20:09,960 --> 00:20:11,760
+number of entries is the size of the
+
+359
+00:20:11,760 --> 00:20:14,640
+page right size of the page so you need
+
+360
+00:20:14,640 --> 00:20:15,900
+to know how to
+
+361
+00:20:15,900 --> 00:20:18,059
+how to do the calculation
+
+362
+00:20:18,059 --> 00:20:21,660
+right so that is uh for the this is one
+
+363
+00:20:21,660 --> 00:20:23,160
+tricky part
+
+364
+00:20:23,160 --> 00:20:25,280
+um
+
+365
+00:20:26,880 --> 00:20:30,059
+another tricky part is if in the obvious
+
+366
+00:20:30,059 --> 00:20:31,919
+way if I tell you
+
+367
+00:20:31,919 --> 00:20:34,919
+the page size is 16.
+
+368
+00:20:34,919 --> 00:20:37,200
+the page size is 16 byte then how do you
+
+369
+00:20:37,200 --> 00:20:39,620
+think the
+
+370
+00:20:40,200 --> 00:20:42,539
+which part of the code is the offset
+
+371
+00:20:42,539 --> 00:20:45,120
+then you should know this is the from
+
+372
+00:20:45,120 --> 00:20:48,780
+the end to the last four is the offset
+
+373
+00:20:48,780 --> 00:20:51,260
+right
+
+374
+00:20:51,539 --> 00:20:55,760
+so you you yeah Andrew
+
+375
+00:21:00,960 --> 00:21:04,700
+page size of 10
+
+376
+00:21:04,700 --> 00:21:07,440
+no I do not think so
+
+377
+00:21:07,440 --> 00:21:09,179
+the page size right the pages that you
+
+378
+00:21:09,179 --> 00:21:12,600
+need to so what is the page size
+
+379
+00:21:12,600 --> 00:21:15,059
+page this is like a page right each page
+
+380
+00:21:15,059 --> 00:21:17,520
+we have many entries
+
+381
+00:21:17,520 --> 00:21:21,419
+right and then the pros the code can
+
+382
+00:21:21,419 --> 00:21:24,360
+can be in any of these entries
+
+383
+00:21:24,360 --> 00:21:25,440
+okay
+
+384
+00:21:25,440 --> 00:21:28,080
+so that is for the translation and we we
+
+385
+00:21:28,080 --> 00:21:31,580
+do the trans translation
+
+386
+00:21:31,919 --> 00:21:34,919
+it's like we have the you only need to
+
+387
+00:21:34,919 --> 00:21:37,020
+find out okay this is the virtual page
+
+388
+00:21:37,020 --> 00:21:39,960
+number right then you look at the
+
+389
+00:21:39,960 --> 00:21:42,059
+the page table so this is the page table
+
+390
+00:21:42,059 --> 00:21:44,460
+you look at the page table and you find
+
+391
+00:21:44,460 --> 00:21:45,360
+out
+
+392
+00:21:45,360 --> 00:21:47,880
+so this is this page number what are the
+
+393
+00:21:47,880 --> 00:21:50,100
+exactly this virtual page number refers
+
+394
+00:21:50,100 --> 00:21:53,539
+to let's say it's reference to two
+
+395
+00:21:53,820 --> 00:21:56,820
+zero zero one zero then the virtual page
+
+396
+00:21:56,820 --> 00:21:59,460
+then the virtual the virtual sorry the
+
+397
+00:21:59,460 --> 00:22:04,220
+physical address is zero zero one zero
+
+398
+00:22:04,620 --> 00:22:07,559
+and zero one zero one right that is the
+
+399
+00:22:07,559 --> 00:22:10,799
+so you're looking at what exactly this
+
+400
+00:22:10,799 --> 00:22:13,080
+is the virtual page you find out what
+
+401
+00:22:13,080 --> 00:22:15,299
+exactly the physical pages and then
+
+402
+00:22:15,299 --> 00:22:17,520
+replace it with this and then add in the
+
+403
+00:22:17,520 --> 00:22:21,240
+offset then that is the physical address
+
+404
+00:22:21,240 --> 00:22:24,059
+that is physical address
+
+405
+00:22:24,059 --> 00:22:25,500
+of the code
+
+406
+00:22:25,500 --> 00:22:28,039
+okay
+
+407
+00:22:30,299 --> 00:22:32,940
+so you need to to be able to do this
+
+408
+00:22:32,940 --> 00:22:35,480
+calculation
+
+409
+00:22:35,580 --> 00:22:37,020
+and uh
+
+410
+00:22:37,020 --> 00:22:41,480
+so we already know how to find out the
+
+411
+00:22:44,580 --> 00:22:47,340
+we already know how to find out the
+
+412
+00:22:47,340 --> 00:22:49,620
+you are able to filling in this right
+
+413
+00:22:49,620 --> 00:22:51,539
+you're unable to finish in this what if
+
+414
+00:22:51,539 --> 00:22:53,760
+I gave you this are you able to tell
+
+415
+00:22:53,760 --> 00:22:57,179
+whether it is a first in first house or
+
+416
+00:22:57,179 --> 00:23:00,000
+optimal Replacements or list the reason
+
+417
+00:23:00,000 --> 00:23:01,740
+I use replacement algorithms are you
+
+418
+00:23:01,740 --> 00:23:05,179
+able to do the office
+
+419
+00:23:30,860 --> 00:23:35,480
+all right let's continue yes Andrew
+
+420
+00:23:39,539 --> 00:23:42,539
+what what what what what do you want uh
+
+421
+00:23:42,539 --> 00:23:45,080
+say again
+
+422
+00:23:50,340 --> 00:23:54,539
+so water execution of stress
+
+423
+00:23:54,539 --> 00:23:57,799
+how to determine that
+
+424
+00:23:58,020 --> 00:24:00,539
+is you need to give the Assumption about
+
+425
+00:24:00,539 --> 00:24:04,559
+what how to determine that
+
+426
+00:24:04,559 --> 00:24:08,700
+right in which case are they sharing the
+
+427
+00:24:08,700 --> 00:24:11,659
+same variables
+
+428
+00:24:13,260 --> 00:24:15,840
+I I do not know the question
+
+429
+00:24:15,840 --> 00:24:19,700
+uh what's the question related yes
+
+430
+00:24:26,580 --> 00:24:31,380
+yeah it's like uh implementation
+
+431
+00:24:47,159 --> 00:24:49,559
+it's the true first question let's say
+
+432
+00:24:49,559 --> 00:24:50,700
+again
+
+433
+00:24:50,700 --> 00:24:53,720
+because I kind of forget
+
+434
+00:25:02,280 --> 00:25:05,240
+it's true Force
+
+435
+00:25:05,700 --> 00:25:08,000
+no
+
+436
+00:25:09,179 --> 00:25:12,559
+come kind of
+
+437
+00:25:31,440 --> 00:25:33,120
+BE Implement them and internally user
+
+438
+00:25:33,120 --> 00:25:35,720
+space you don't need
+
+439
+00:25:36,539 --> 00:25:39,120
+for stress oh okay
+
+440
+00:25:39,120 --> 00:25:41,820
+kind of forget okay for stress and the
+
+441
+00:25:41,820 --> 00:25:43,860
+process
+
+442
+00:25:43,860 --> 00:25:49,320
+where we want to test to you is about so
+
+443
+00:25:50,340 --> 00:25:52,320
+so here's the thing context switch
+
+444
+00:25:52,320 --> 00:25:55,559
+between Surat can also be painful even
+
+445
+00:25:55,559 --> 00:25:59,480
+thrust but only two different process
+
+446
+00:25:59,640 --> 00:26:02,640
+but contacts between the process are
+
+447
+00:26:02,640 --> 00:26:04,559
+always painful
+
+448
+00:26:04,559 --> 00:26:07,320
+so if I'm testing the
+
+449
+00:26:07,320 --> 00:26:10,500
+this this resin process or maybe the
+
+450
+00:26:10,500 --> 00:26:12,360
+differences between threats and process
+
+451
+00:26:12,360 --> 00:26:14,880
+but uh the things that they actually
+
+452
+00:26:14,880 --> 00:26:18,179
+have the same data structure
+
+453
+00:26:18,179 --> 00:26:20,640
+like maintain the same input output
+
+454
+00:26:20,640 --> 00:26:23,039
+status register values
+
+455
+00:26:23,039 --> 00:26:26,039
+but the the difference is that if the
+
+456
+00:26:26,039 --> 00:26:29,760
+threads are created by the same process
+
+457
+00:26:29,760 --> 00:26:33,000
+then at the back end when OS managing
+
+458
+00:26:33,000 --> 00:26:35,480
+distress
+
+459
+00:26:35,880 --> 00:26:38,159
+they save them the same they mean the
+
+460
+00:26:38,159 --> 00:26:40,679
+same on the dry space that is why it's
+
+461
+00:26:40,679 --> 00:26:43,100
+cheaper
+
+462
+00:26:48,900 --> 00:26:52,860
+so industrializing process chapter
+
+463
+00:26:52,860 --> 00:26:55,380
+um the most important takeaway here is
+
+464
+00:26:55,380 --> 00:26:59,659
+to understand or some foreign
+
+465
+00:27:00,620 --> 00:27:03,299
+we may also test that again because it's
+
+466
+00:27:03,299 --> 00:27:06,020
+very important
+
+467
+00:27:08,039 --> 00:27:10,159
+um
+
+468
+00:27:11,340 --> 00:27:14,940
+like we may ask you to use this to
+
+469
+00:27:14,940 --> 00:27:18,120
+implement a synchronization problem
+
+470
+00:27:18,120 --> 00:27:21,679
+you heard of the the
+
+471
+00:27:24,360 --> 00:27:26,279
+so for example there are many there are
+
+472
+00:27:26,279 --> 00:27:28,380
+many real life examples that are like
+
+473
+00:27:28,380 --> 00:27:30,720
+like the car
+
+474
+00:27:30,720 --> 00:27:34,260
+like in the cross streets right
+
+475
+00:27:34,260 --> 00:27:36,480
+in different ways like different car
+
+476
+00:27:36,480 --> 00:27:38,820
+they they are sharing the
+
+477
+00:27:38,820 --> 00:27:41,340
+they're looking at the green the green
+
+478
+00:27:41,340 --> 00:27:43,200
+lights red lights and the yellow lights
+
+479
+00:27:43,200 --> 00:27:44,520
+right
+
+480
+00:27:44,520 --> 00:27:46,980
+then can you using this to some woman
+
+481
+00:27:46,980 --> 00:27:49,740
+text to implement a
+
+482
+00:27:49,740 --> 00:27:51,960
+synchronization system that's that's one
+
+483
+00:27:51,960 --> 00:27:53,279
+example and there are many other
+
+484
+00:27:53,279 --> 00:27:56,460
+examples it's like a producer customer
+
+485
+00:27:56,460 --> 00:27:58,559
+a different kind of producer and
+
+486
+00:27:58,559 --> 00:28:00,799
+customer
+
+487
+00:28:12,799 --> 00:28:16,340
+stress and process
+
+488
+00:28:17,460 --> 00:28:20,039
+you need to know how to calculate the
+
+489
+00:28:20,039 --> 00:28:22,140
+average turnaround time
+
+490
+00:28:22,140 --> 00:28:24,179
+the um
+
+491
+00:28:24,179 --> 00:28:26,159
+you need to know what is the wait time
+
+492
+00:28:26,159 --> 00:28:28,140
+right the wait time
+
+493
+00:28:28,140 --> 00:28:30,059
+for each person what is the wait time
+
+494
+00:28:30,059 --> 00:28:32,400
+what is the execution time then what is
+
+495
+00:28:32,400 --> 00:28:35,039
+the turnaround time that's that's quite
+
+496
+00:28:35,039 --> 00:28:36,360
+different
+
+497
+00:28:36,360 --> 00:28:39,059
+wait time
+
+498
+00:28:39,059 --> 00:28:42,320
+execution time
+
+499
+00:28:44,520 --> 00:28:47,720
+internal runtime
+
+500
+00:28:50,220 --> 00:28:52,320
+that is a
+
+501
+00:28:52,320 --> 00:28:55,520
+threading process
+
+502
+00:29:00,900 --> 00:29:03,559
+yes
+
+503
+00:29:09,179 --> 00:29:11,840
+for what
+
+504
+00:29:15,179 --> 00:29:19,159
+oh you're asking this can be
+
+505
+00:29:22,140 --> 00:29:26,179
+like oh it will be binary
+
+506
+00:29:27,930 --> 00:29:31,260
+[Music]
+
+507
+00:29:31,260 --> 00:29:33,419
+potassium binary
+
+508
+00:29:33,419 --> 00:29:36,860
+I will not make it complex
+
+509
+00:29:38,100 --> 00:29:41,640
+if there if I do not say it will show
+
+510
+00:29:41,640 --> 00:29:44,520
+you show it in the exam right it may may
+
+511
+00:29:44,520 --> 00:29:47,820
+or may not I have not finished my
+
+512
+00:29:47,820 --> 00:29:51,360
+final final exam questions
+
+513
+00:29:51,360 --> 00:29:54,740
+may or may not okay
+
+514
+00:30:00,480 --> 00:30:01,919
+danock
+
+515
+00:30:01,919 --> 00:30:06,020
+do you have any questions for dialogue
+
+516
+00:30:14,220 --> 00:30:17,820
+so you know that we know that uh we have
+
+517
+00:30:17,820 --> 00:30:18,720
+the
+
+518
+00:30:18,720 --> 00:30:21,120
+um example questions like
+
+519
+00:30:21,120 --> 00:30:22,919
+um
+
+520
+00:30:22,919 --> 00:30:26,279
+remember we say that we have
+
+521
+00:30:26,279 --> 00:30:29,159
+different process right each process
+
+522
+00:30:29,159 --> 00:30:31,200
+needs two
+
+523
+00:30:31,200 --> 00:30:33,659
+we have different process each process
+
+524
+00:30:33,659 --> 00:30:39,299
+needs two drives like a disk drives to
+
+525
+00:30:39,299 --> 00:30:43,320
+process right and I'm giving you the num
+
+526
+00:30:43,320 --> 00:30:45,720
+write the number of the total resources
+
+527
+00:30:45,720 --> 00:30:49,020
+so each process needs two resources to
+
+528
+00:30:49,020 --> 00:30:50,640
+get through I'll give you the number of
+
+529
+00:30:50,640 --> 00:30:53,039
+resources that asks you what is the
+
+530
+00:30:53,039 --> 00:30:56,159
+maximum number of the process that
+
+531
+00:30:56,159 --> 00:30:58,860
+ensure dialog free right remember the
+
+532
+00:30:58,860 --> 00:31:00,299
+question right
+
+533
+00:31:00,299 --> 00:31:04,620
+so what if the what if not not if what
+
+534
+00:31:04,620 --> 00:31:07,620
+if it is not two resources each process
+
+535
+00:31:07,620 --> 00:31:10,559
+needs three resources one will be the
+
+536
+00:31:10,559 --> 00:31:12,960
+max number
+
+537
+00:31:12,960 --> 00:31:15,480
+of the process that ensure it is dialog
+
+538
+00:31:15,480 --> 00:31:18,659
+free have you think of that sort of that
+
+539
+00:31:18,659 --> 00:31:20,880
+question so it's a extended version
+
+540
+00:31:20,880 --> 00:31:23,299
+right
+
+541
+00:31:25,140 --> 00:31:27,059
+you understand my question right
+
+542
+00:31:27,059 --> 00:31:29,659
+so
+
+543
+00:31:33,120 --> 00:31:36,539
+this is the six resources six identical
+
+544
+00:31:36,539 --> 00:31:41,100
+resources in the each process needs two
+
+545
+00:31:41,100 --> 00:31:42,960
+resources
+
+546
+00:31:42,960 --> 00:31:45,960
+to finish so what is the maximum number
+
+547
+00:31:45,960 --> 00:31:49,380
+that you ensure number of process to
+
+548
+00:31:49,380 --> 00:31:52,919
+ensure if the system is dialog free
+
+549
+00:31:52,919 --> 00:31:55,380
+is five right
+
+550
+00:31:55,380 --> 00:31:57,600
+it's five right
+
+551
+00:31:57,600 --> 00:32:00,240
+so what if what if the question is
+
+552
+00:32:00,240 --> 00:32:03,960
+slightly changed I'm saying still six
+
+553
+00:32:03,960 --> 00:32:06,840
+resources but each process needs three
+
+554
+00:32:06,840 --> 00:32:08,840
+resources
+
+555
+00:32:08,840 --> 00:32:12,600
+each process needs three resources
+
+556
+00:32:12,600 --> 00:32:16,080
+to finish so what will be the maximum
+
+557
+00:32:16,080 --> 00:32:18,120
+number of the earn I will not check I
+
+558
+00:32:18,120 --> 00:32:19,679
+will not discuss that but I'm just
+
+559
+00:32:19,679 --> 00:32:22,440
+erasing this okay I'm just erasing this
+
+560
+00:32:22,440 --> 00:32:24,960
+this is maybe an extended version of the
+
+561
+00:32:24,960 --> 00:32:27,899
+dialog chapter have you thought of that
+
+562
+00:32:27,899 --> 00:32:30,500
+yeah
+
+563
+00:32:38,640 --> 00:32:41,120
+advantages and disadvantage of
+
+564
+00:32:41,120 --> 00:32:44,700
+multi-level page table
+
+565
+00:32:44,700 --> 00:32:46,679
+what do you think is the advantage of
+
+566
+00:32:46,679 --> 00:32:49,760
+multi-level page table
+
+567
+00:32:51,360 --> 00:32:53,220
+what do you think is the advantage of
+
+568
+00:32:53,220 --> 00:32:55,620
+multi-level page table
+
+569
+00:32:55,620 --> 00:32:57,320
+what do you think
+
+570
+00:32:57,320 --> 00:33:00,740
+what do you think
+
+571
+00:33:03,720 --> 00:33:06,000
+where is the page table we put the page
+
+572
+00:33:06,000 --> 00:33:08,240
+table
+
+573
+00:33:08,520 --> 00:33:12,620
+why we need multi-level page table
+
+574
+00:33:14,460 --> 00:33:17,120
+yes
+
+575
+00:33:40,580 --> 00:33:43,320
+very very good very good here's the
+
+576
+00:33:43,320 --> 00:33:47,100
+thing right so page table so um
+
+577
+00:33:47,100 --> 00:33:49,440
+why we need a page table page level save
+
+578
+00:33:49,440 --> 00:33:50,820
+the
+
+579
+00:33:50,820 --> 00:33:53,399
+save the entries save the entries
+
+580
+00:33:53,399 --> 00:33:54,720
+between the
+
+581
+00:33:54,720 --> 00:33:57,919
+save the entries
+
+582
+00:33:58,019 --> 00:34:00,360
+between the a virtual page to the
+
+583
+00:34:00,360 --> 00:34:04,279
+physical page right physical page
+
+584
+00:34:04,320 --> 00:34:06,919
+so in
+
+585
+00:34:07,200 --> 00:34:11,940
+if if if we have we have
+
+586
+00:34:11,940 --> 00:34:14,820
+small page size if we have small page
+
+587
+00:34:14,820 --> 00:34:17,580
+size and large memory large physical
+
+588
+00:34:17,580 --> 00:34:19,379
+memory then that means the page table
+
+589
+00:34:19,379 --> 00:34:22,020
+entries will be very very large right
+
+590
+00:34:22,020 --> 00:34:25,199
+will be very very large so to save the
+
+591
+00:34:25,199 --> 00:34:28,260
+memory spaces We cannot put the whole
+
+592
+00:34:28,260 --> 00:34:30,899
+page table in the memory that is why we
+
+593
+00:34:30,899 --> 00:34:33,599
+designed a multi-level page tables so
+
+594
+00:34:33,599 --> 00:34:35,580
+you can store some part of the page
+
+595
+00:34:35,580 --> 00:34:37,679
+table in the memory which you mostly
+
+596
+00:34:37,679 --> 00:34:40,260
+like the most frequently use the page
+
+597
+00:34:40,260 --> 00:34:43,320
+table entries then put the rest of the
+
+598
+00:34:43,320 --> 00:34:45,839
+levers okay one level to level in the
+
+599
+00:34:45,839 --> 00:34:48,000
+disk that is why we need
+
+600
+00:34:48,000 --> 00:34:50,580
+that is why we need a multi-level page
+
+601
+00:34:50,580 --> 00:34:53,240
+tables right
+
+602
+00:35:06,780 --> 00:35:09,780
+the number of page the number of the
+
+603
+00:35:09,780 --> 00:35:10,680
+size
+
+604
+00:35:10,680 --> 00:35:13,920
+the total size of the page table
+
+605
+00:35:13,920 --> 00:35:16,320
+page table what do you determine the
+
+606
+00:35:16,320 --> 00:35:17,940
+page table the page table is just the
+
+607
+00:35:17,940 --> 00:35:21,060
+mapping right a mapping from one address
+
+608
+00:35:21,060 --> 00:35:24,720
+to another address right so
+
+609
+00:35:24,720 --> 00:35:27,599
+so if there's a lot of mappings then the
+
+610
+00:35:27,599 --> 00:35:29,579
+page table will be huge right it'll be
+
+611
+00:35:29,579 --> 00:35:31,740
+huge
+
+612
+00:35:31,740 --> 00:35:33,780
+if it is huge
+
+613
+00:35:33,780 --> 00:35:36,720
+then you cannot store or waiting memory
+
+614
+00:35:36,720 --> 00:35:39,359
+because there will be significantly used
+
+615
+00:35:39,359 --> 00:35:41,520
+of memory
+
+616
+00:35:41,520 --> 00:35:43,980
+then multi-level page table may help you
+
+617
+00:35:43,980 --> 00:35:47,760
+may help you and and even you can post
+
+618
+00:35:47,760 --> 00:35:49,560
+that in memory you do not want to
+
+619
+00:35:49,560 --> 00:35:52,020
+Pursuit all together in a continual
+
+620
+00:35:52,020 --> 00:35:54,420
+display it's not much multi-level is
+
+621
+00:35:54,420 --> 00:35:56,339
+what is multi-level page table is just
+
+622
+00:35:56,339 --> 00:35:59,040
+adding a link like a Linker list right
+
+623
+00:35:59,040 --> 00:36:02,220
+link list so it can help you make the
+
+624
+00:36:02,220 --> 00:36:05,460
+best use of the resource to managing the
+
+625
+00:36:05,460 --> 00:36:07,500
+whole page table so it's an open
+
+626
+00:36:07,500 --> 00:36:10,560
+question guys do not try to memorize my
+
+627
+00:36:10,560 --> 00:36:13,200
+solution my answer is an open question
+
+628
+00:36:13,200 --> 00:36:17,280
+so you think of you you try to make it
+
+629
+00:36:17,280 --> 00:36:20,880
+sense okay this is an open question yeah
+
+630
+00:36:20,880 --> 00:36:23,700
+so the same thing like the page size
+
+631
+00:36:23,700 --> 00:36:25,740
+and the same thing like the I know table
+
+632
+00:36:25,740 --> 00:36:28,800
+remember why lastly in our last class we
+
+633
+00:36:28,800 --> 00:36:30,480
+have a question I'm asking you a design
+
+634
+00:36:30,480 --> 00:36:31,560
+question
+
+635
+00:36:31,560 --> 00:36:34,560
+why we need I know the table can we just
+
+636
+00:36:34,560 --> 00:36:36,240
+store the I know the information in
+
+637
+00:36:36,240 --> 00:36:39,540
+memory instead of inode table and why or
+
+638
+00:36:39,540 --> 00:36:42,960
+why not we do that
+
+639
+00:36:42,960 --> 00:36:47,359
+right this is an all open question
+
+640
+00:36:47,400 --> 00:36:50,060
+yes
+
+641
+00:36:54,599 --> 00:36:57,119
+in which situation you think of that in
+
+642
+00:36:57,119 --> 00:36:59,780
+which situation
+
+643
+00:37:02,040 --> 00:37:04,260
+if you do not have that much entries
+
+644
+00:37:04,260 --> 00:37:06,560
+right
+
+645
+00:37:15,480 --> 00:37:18,680
+the max number of
+
+646
+00:37:22,140 --> 00:37:25,460
+the max number of what
+
+647
+00:37:28,740 --> 00:37:32,540
+how big the physical memory is
+
+648
+00:37:33,359 --> 00:37:37,200
+how many page frames in the memory
+
+649
+00:37:37,200 --> 00:37:39,480
+how many page frames that's the term
+
+650
+00:37:39,480 --> 00:37:41,880
+that is determined by how large is the
+
+651
+00:37:41,880 --> 00:37:44,339
+memory that you have and then the size
+
+652
+00:37:44,339 --> 00:37:45,839
+of your page side
+
+653
+00:37:45,839 --> 00:37:48,060
+right because the page frame size is the
+
+654
+00:37:48,060 --> 00:37:50,960
+same as the page size
+
+655
+00:38:02,280 --> 00:38:04,700
+friends
+
+656
+00:38:04,740 --> 00:38:08,400
+yeah yeah yes yes yes yes of course that
+
+657
+00:38:08,400 --> 00:38:10,680
+is one-to-one mapping right one to one
+
+658
+00:38:10,680 --> 00:38:13,040
+mapping
+
+659
+00:38:20,040 --> 00:38:23,099
+any questions about the file system Io
+
+660
+00:38:23,099 --> 00:38:25,579
+Io
+
+661
+00:38:27,660 --> 00:38:30,980
+what is a reference count
+
+662
+00:38:31,140 --> 00:38:33,900
+of the I node what is the concept of
+
+663
+00:38:33,900 --> 00:38:37,400
+reference currently in the inode
+
+664
+00:38:43,980 --> 00:38:48,260
+or the reference counts of the I node
+
+665
+00:38:51,720 --> 00:38:55,920
+what is used for what is useful for
+
+666
+00:38:55,920 --> 00:38:58,260
+it's not how many is not how many users
+
+667
+00:38:58,260 --> 00:39:02,339
+are using this is how many directories
+
+668
+00:39:02,339 --> 00:39:04,859
+are concurrently
+
+669
+00:39:04,859 --> 00:39:08,160
+points to that specific it's not how
+
+670
+00:39:08,160 --> 00:39:10,440
+many users okay
+
+671
+00:39:10,440 --> 00:39:14,880
+right and then what is that used for
+
+672
+00:39:14,880 --> 00:39:17,520
+I can become three
+
+673
+00:39:17,520 --> 00:39:20,700
+and what is that used for
+
+674
+00:39:20,700 --> 00:39:23,420
+yes
+
+675
+00:39:28,500 --> 00:39:30,480
+yeah that's good but
+
+676
+00:39:30,480 --> 00:39:33,000
+you need to mention that's like holding
+
+677
+00:39:33,000 --> 00:39:36,660
+white becomes zero then that means
+
+678
+00:39:36,660 --> 00:39:40,640
+no directory is using
+
+679
+00:39:40,680 --> 00:39:44,400
+that specific files right that I know
+
+680
+00:39:44,400 --> 00:39:48,119
+then that file that can be
+
+681
+00:39:48,119 --> 00:39:50,700
+deleted right this can be a file Cameo
+
+682
+00:39:50,700 --> 00:39:52,560
+directory so the reference or the
+
+683
+00:39:52,560 --> 00:39:54,900
+reference count right this is
+
+684
+00:39:54,900 --> 00:39:57,300
+the differences between the hard link
+
+685
+00:39:57,300 --> 00:39:58,800
+and the
+
+686
+00:39:58,800 --> 00:40:01,280
+yes
+
+687
+00:40:08,040 --> 00:40:10,980
+you can be an insane it's access okay
+
+688
+00:40:10,980 --> 00:40:12,420
+access
+
+689
+00:40:12,420 --> 00:40:15,119
+the camera reading camera writing it can
+
+690
+00:40:15,119 --> 00:40:20,460
+be on it can be excess okay
+
+691
+00:40:20,460 --> 00:40:23,880
+reference count is a Concepts we or like
+
+692
+00:40:23,880 --> 00:40:28,160
+what is I node right what is inode
+
+693
+00:40:44,040 --> 00:40:47,119
+or is it I not
+
+694
+00:40:58,380 --> 00:41:01,380
+a lot of the information about the notes
+
+695
+00:41:01,380 --> 00:41:04,700
+the name name
+
+696
+00:41:08,520 --> 00:41:12,300
+where like address of the file uh how
+
+697
+00:41:12,300 --> 00:41:13,820
+big the file is
+
+698
+00:41:13,820 --> 00:41:16,740
+yeah very good
+
+699
+00:41:16,740 --> 00:41:20,160
+yeah yeah very good and we
+
+700
+00:41:20,160 --> 00:41:24,180
+um in file system we we first
+
+701
+00:41:24,180 --> 00:41:26,220
+before we're talking about I know so
+
+702
+00:41:26,220 --> 00:41:30,740
+this is all about I know the right we um
+
+703
+00:41:31,740 --> 00:41:35,760
+we've also spent a lot of time to
+
+704
+00:41:35,760 --> 00:41:40,260
+to discuss other like
+
+705
+00:41:40,260 --> 00:41:43,320
+other algorithms to managing the free
+
+706
+00:41:43,320 --> 00:41:46,460
+blocks right
+
+707
+00:41:46,940 --> 00:41:49,020
+for example
+
+708
+00:41:49,020 --> 00:41:51,240
+there's an approach called continually
+
+709
+00:41:51,240 --> 00:41:52,859
+allocation
+
+710
+00:41:52,859 --> 00:41:55,800
+right continuity allocation
+
+711
+00:41:55,800 --> 00:41:57,420
+and we have
+
+712
+00:41:57,420 --> 00:42:01,440
+in a continual allocation we using two
+
+713
+00:42:01,440 --> 00:42:03,780
+algorithms to implement two data
+
+714
+00:42:03,780 --> 00:42:05,579
+structures to implement the continually
+
+715
+00:42:05,579 --> 00:42:08,160
+allocation algorithm so first what is
+
+716
+00:42:08,160 --> 00:42:10,820
+the continually
+
+717
+00:42:12,839 --> 00:42:15,839
+location
+
+718
+00:42:16,440 --> 00:42:19,260
+allocation
+
+719
+00:42:19,260 --> 00:42:22,200
+continuous allocation
+
+720
+00:42:22,200 --> 00:42:24,540
+right we are we implement we use two
+
+721
+00:42:24,540 --> 00:42:26,760
+data structures right
+
+722
+00:42:26,760 --> 00:42:29,520
+be map right
+
+723
+00:42:29,520 --> 00:42:32,960
+and the link release right
+
+724
+00:42:35,880 --> 00:42:38,220
+so continually allocation then we say
+
+725
+00:42:38,220 --> 00:42:40,440
+that this is not good so why it is not
+
+726
+00:42:40,440 --> 00:42:43,760
+good why it is not good
+
+727
+00:42:43,859 --> 00:42:46,740
+so we say continue allocation it's not
+
+728
+00:42:46,740 --> 00:42:49,200
+that good why it is not that good and
+
+729
+00:42:49,200 --> 00:42:51,420
+the bin map is just or LinkedIn is just
+
+730
+00:42:51,420 --> 00:42:54,540
+two approach to implement the continuing
+
+731
+00:42:54,540 --> 00:42:58,140
+allocation approach right so be in the B
+
+732
+00:42:58,140 --> 00:42:59,579
+map
+
+733
+00:42:59,579 --> 00:43:03,300
+we we are using
+
+734
+00:43:03,300 --> 00:43:06,200
+what you think
+
+735
+00:43:07,440 --> 00:43:12,180
+a lot of bits to to represent whether
+
+736
+00:43:12,180 --> 00:43:14,760
+this block is taken or not right if it's
+
+737
+00:43:14,760 --> 00:43:17,460
+not taken then with zero if taken we use
+
+738
+00:43:17,460 --> 00:43:19,819
+one
+
+739
+00:43:20,520 --> 00:43:23,700
+so we use we use this so in the link
+
+740
+00:43:23,700 --> 00:43:27,420
+list we use the P to represent its
+
+741
+00:43:27,420 --> 00:43:29,339
+occupied
+
+742
+00:43:29,339 --> 00:43:31,859
+we use H to represent this or how it's
+
+743
+00:43:31,859 --> 00:43:34,160
+not occupied I mean we can also Define
+
+744
+00:43:34,160 --> 00:43:37,079
+the size of each
+
+745
+00:43:37,079 --> 00:43:39,260
+the size of each
+
+746
+00:43:39,260 --> 00:43:41,760
+blocks right so
+
+747
+00:43:41,760 --> 00:43:44,339
+um what is the advantage of beam map
+
+748
+00:43:44,339 --> 00:43:47,220
+what is the advantage of linked list
+
+749
+00:43:47,220 --> 00:43:49,380
+that is what we have learned in the file
+
+750
+00:43:49,380 --> 00:43:51,780
+system right
+
+751
+00:43:51,780 --> 00:43:55,020
+and in which circumstances you you may
+
+752
+00:43:55,020 --> 00:43:57,420
+choose these algorithms in May it this
+
+753
+00:43:57,420 --> 00:43:59,579
+up implementations in which
+
+754
+00:43:59,579 --> 00:44:02,460
+circumstances you choose linked lists
+
+755
+00:44:02,460 --> 00:44:05,180
+the implementation
+
+756
+00:44:05,460 --> 00:44:09,240
+right and then we're talking about
+
+757
+00:44:09,240 --> 00:44:11,460
+an improved version of the link list
+
+758
+00:44:11,460 --> 00:44:13,680
+that is called linked list with the
+
+759
+00:44:13,680 --> 00:44:14,880
+table
+
+760
+00:44:14,880 --> 00:44:17,819
+is the table Index right table index
+
+761
+00:44:17,819 --> 00:44:20,280
+with linked list and then we're talking
+
+762
+00:44:20,280 --> 00:44:24,920
+about inode with we will introduce inode
+
+763
+00:44:28,140 --> 00:44:30,480
+and we're also talking about I know the
+
+764
+00:44:30,480 --> 00:44:32,660
+table
+
+765
+00:44:36,300 --> 00:44:38,460
+so we are also talking about if I'm
+
+766
+00:44:38,460 --> 00:44:43,560
+giving you the absolute pass yes
+
+767
+00:45:21,540 --> 00:45:24,240
+yeah actually actually this these are
+
+768
+00:45:24,240 --> 00:45:26,220
+quite similar these are crazy in the
+
+769
+00:45:26,220 --> 00:45:28,500
+lecture in the lecture is the
+
+770
+00:45:28,500 --> 00:45:31,260
+continually allocation with the swapping
+
+771
+00:45:31,260 --> 00:45:34,200
+is called swapping technology right in
+
+772
+00:45:34,200 --> 00:45:38,240
+memory equals swapping technology
+
+773
+00:45:38,880 --> 00:45:41,280
+it's not this notice okay okay my force
+
+774
+00:45:41,280 --> 00:45:44,460
+my fault so
+
+775
+00:45:44,460 --> 00:45:46,920
+all in this Linker list all in this okay
+
+776
+00:45:46,920 --> 00:45:48,660
+only this yeah
+
+777
+00:45:48,660 --> 00:45:50,339
+so
+
+778
+00:45:50,339 --> 00:45:52,140
+yeah beach map in a bit when we're
+
+779
+00:45:52,140 --> 00:45:54,060
+talking about bitmap approach we are
+
+780
+00:45:54,060 --> 00:45:55,680
+actually talking about it with the
+
+781
+00:45:55,680 --> 00:45:57,720
+swapping technology in the in the memory
+
+782
+00:45:57,720 --> 00:46:01,440
+the memory chapter is actually this this
+
+783
+00:46:01,440 --> 00:46:03,599
+is just the one solution in the textbook
+
+784
+00:46:03,599 --> 00:46:06,000
+about how you can
+
+785
+00:46:06,000 --> 00:46:09,060
+um how you can
+
+786
+00:46:09,060 --> 00:46:11,160
+um keep track of
+
+787
+00:46:11,160 --> 00:46:14,520
+the available the free blocks so there's
+
+788
+00:46:14,520 --> 00:46:17,819
+many solutions bitmap is just a solution
+
+789
+00:46:17,819 --> 00:46:20,760
+in the page in the in the paging but it
+
+790
+00:46:20,760 --> 00:46:22,980
+you can also be used here it's just I'm
+
+791
+00:46:22,980 --> 00:46:26,940
+not putting that in the slide okay
+
+792
+00:46:26,940 --> 00:46:28,920
+yeah my badly okay I'm trying to not
+
+793
+00:46:28,920 --> 00:46:31,020
+make it confused just a link list so
+
+794
+00:46:31,020 --> 00:46:32,400
+linked list we're talking about
+
+795
+00:46:32,400 --> 00:46:35,400
+different algorithms right so the first
+
+796
+00:46:35,400 --> 00:46:36,900
+feeds
+
+797
+00:46:36,900 --> 00:46:39,180
+pass the feeds
+
+798
+00:46:39,180 --> 00:46:42,500
+versus the feet
+
+799
+00:46:43,200 --> 00:46:47,099
+quick Fades okay quick feeds so what is
+
+800
+00:46:47,099 --> 00:46:51,560
+a quick fix Quick Fix yes
+
+801
+00:46:52,079 --> 00:46:57,140
+all the um the most common sites oh yeah
+
+802
+00:47:00,300 --> 00:47:03,000
+yeah it's very good so so quick face is
+
+803
+00:47:03,000 --> 00:47:04,319
+that we
+
+804
+00:47:04,319 --> 00:47:06,720
+um it says it's like we we just keep
+
+805
+00:47:06,720 --> 00:47:09,060
+track of the like the comma size is like
+
+806
+00:47:09,060 --> 00:47:11,760
+two four eight sixteen something like
+
+807
+00:47:11,760 --> 00:47:13,680
+this then
+
+808
+00:47:13,680 --> 00:47:16,619
+when we have this the this is our empty
+
+809
+00:47:16,619 --> 00:47:19,500
+spaces empty spaces now when we have new
+
+810
+00:47:19,500 --> 00:47:24,180
+files we we find out we find out this
+
+811
+00:47:24,180 --> 00:47:26,760
+a continual location and then we're
+
+812
+00:47:26,760 --> 00:47:31,400
+talking about the um I node
+
+813
+00:47:32,040 --> 00:47:33,720
+I node
+
+814
+00:47:33,720 --> 00:47:36,740
+I know the table
+
+815
+00:47:37,319 --> 00:47:41,540
+so if I'm giving you a address
+
+816
+00:47:43,619 --> 00:47:45,680
+um
+
+817
+00:47:50,520 --> 00:47:53,520
+it's an absolute trust in
+
+818
+00:47:53,520 --> 00:47:55,680
+you are able to
+
+819
+00:47:55,680 --> 00:48:01,160
+find out the file okay the file
+
+820
+00:48:02,339 --> 00:48:05,880
+should be able to find out the file you
+
+821
+00:48:05,880 --> 00:48:07,980
+should be able to write down the path to
+
+822
+00:48:07,980 --> 00:48:11,640
+locate that file that is what we learn
+
+823
+00:48:11,640 --> 00:48:16,380
+in the file system okay file system
+
+824
+00:48:16,380 --> 00:48:18,380
+um
+
+825
+00:48:18,540 --> 00:48:21,000
+so here in file system we have actually
+
+826
+00:48:21,000 --> 00:48:23,640
+many open questions that I can think of
+
+827
+00:48:23,640 --> 00:48:26,040
+that so in file system we're talking
+
+828
+00:48:26,040 --> 00:48:28,140
+about centralized the file system we
+
+829
+00:48:28,140 --> 00:48:30,180
+will also talk about the centralized of
+
+830
+00:48:30,180 --> 00:48:32,220
+an example of decentralized file system
+
+831
+00:48:32,220 --> 00:48:34,980
+right so centralized the file system is
+
+832
+00:48:34,980 --> 00:48:38,099
+is what it's the what we learned a lot
+
+833
+00:48:38,099 --> 00:48:41,300
+the Linux file system
+
+834
+00:48:41,460 --> 00:48:44,520
+is a centralized then we learn hdfs
+
+835
+00:48:44,520 --> 00:48:47,819
+which is a decentralized right sorry
+
+836
+00:48:47,819 --> 00:48:49,859
+it's a distributed it's a distributed
+
+837
+00:48:49,859 --> 00:48:51,900
+file system so the difference is that
+
+838
+00:48:51,900 --> 00:48:54,540
+there are blocks
+
+839
+00:48:54,540 --> 00:48:57,300
+their blocks are replicated by three
+
+840
+00:48:57,300 --> 00:48:59,599
+times
+
+841
+00:49:00,480 --> 00:49:03,440
+and puts
+
+842
+00:49:03,540 --> 00:49:06,900
+so in hdfs the the difference is that
+
+843
+00:49:06,900 --> 00:49:09,660
+they put the blocks they replicate the
+
+844
+00:49:09,660 --> 00:49:12,180
+blocks into three times and put the
+
+845
+00:49:12,180 --> 00:49:14,160
+difference three blocks in different
+
+846
+00:49:14,160 --> 00:49:17,819
+places like one is within the same node
+
+847
+00:49:17,819 --> 00:49:20,520
+one is within the same rack and another
+
+848
+00:49:20,520 --> 00:49:23,099
+one is across the rack right the reason
+
+849
+00:49:23,099 --> 00:49:25,500
+is that we want to ensure the best for
+
+850
+00:49:25,500 --> 00:49:29,400
+tolerance so whenever a rack is fails we
+
+851
+00:49:29,400 --> 00:49:32,099
+can always find another blocks in
+
+852
+00:49:32,099 --> 00:49:32,819
+another
+
+853
+00:49:32,819 --> 00:49:35,880
+in another rock whatever
+
+854
+00:49:35,880 --> 00:49:40,140
+but if only the file is missing but the
+
+855
+00:49:40,140 --> 00:49:42,780
+machine is there we can copy it from our
+
+856
+00:49:42,780 --> 00:49:45,119
+laboring nodes something like that so
+
+857
+00:49:45,119 --> 00:49:48,599
+three blocks you need to understand why
+
+858
+00:49:48,599 --> 00:49:51,420
+we using three uh why are we using three
+
+859
+00:49:51,420 --> 00:49:54,480
+and where we put these three replica
+
+860
+00:49:54,480 --> 00:49:57,599
+replica blocks into understand the good
+
+861
+00:49:57,599 --> 00:49:59,040
+way
+
+862
+00:49:59,040 --> 00:50:02,280
+the good approach to ensure the failure
+
+863
+00:50:02,280 --> 00:50:04,859
+recovery for tolerance is redundancy so
+
+864
+00:50:04,859 --> 00:50:06,780
+which means the replication approach
+
+865
+00:50:06,780 --> 00:50:09,240
+there's another approach
+
+866
+00:50:09,240 --> 00:50:11,520
+is another approach is called
+
+867
+00:50:11,520 --> 00:50:13,560
+checkpointing Head model if you think of
+
+868
+00:50:13,560 --> 00:50:16,500
+that when when we learn this what is the
+
+869
+00:50:16,500 --> 00:50:18,660
+checkpointing checkpointing means that
+
+870
+00:50:18,660 --> 00:50:22,980
+whenever I do something I
+
+871
+00:50:23,040 --> 00:50:25,680
+I take down what I have
+
+872
+00:50:25,680 --> 00:50:28,260
+I take down my logs and then put the
+
+873
+00:50:28,260 --> 00:50:33,300
+logs in some safe spaces so for example
+
+874
+00:50:33,300 --> 00:50:34,740
+um
+
+875
+00:50:34,740 --> 00:50:37,800
+you know the white one drive right
+
+876
+00:50:37,800 --> 00:50:40,140
+use that you're using it right
+
+877
+00:50:40,140 --> 00:50:43,380
+OneDrive for Dropbox or Google Drive you
+
+878
+00:50:43,380 --> 00:50:46,859
+are using it so what they did Is that
+
+879
+00:50:46,859 --> 00:50:50,040
+real you are working or you are let's
+
+880
+00:50:50,040 --> 00:50:52,440
+say you are working on documents in the
+
+881
+00:50:52,440 --> 00:50:55,260
+in your desk in in a desktop you're
+
+882
+00:50:55,260 --> 00:50:58,680
+working on it and then you
+
+883
+00:50:58,680 --> 00:51:01,319
+you forget to
+
+884
+00:51:01,319 --> 00:51:04,020
+yes like auto save but auto save is like
+
+885
+00:51:04,020 --> 00:51:07,020
+checkpoint is it has a name more
+
+886
+00:51:07,020 --> 00:51:09,240
+professional names is checkpointing
+
+887
+00:51:09,240 --> 00:51:12,300
+that's the key that's the key idea of
+
+888
+00:51:12,300 --> 00:51:14,280
+checkpointing so it's going to
+
+889
+00:51:14,280 --> 00:51:16,440
+periodically checkpointing what you have
+
+890
+00:51:16,440 --> 00:51:19,920
+done maybe 10 minutes 10 seconds sorry
+
+891
+00:51:19,920 --> 00:51:22,740
+10 minutes or half a minute or 30
+
+892
+00:51:22,740 --> 00:51:24,960
+minutes so they they're going to push
+
+893
+00:51:24,960 --> 00:51:28,380
+them and then upload that into some safe
+
+894
+00:51:28,380 --> 00:51:32,099
+space safe place like in a OneDrive what
+
+895
+00:51:32,099 --> 00:51:34,319
+they did is that they put this uploaded
+
+896
+00:51:34,319 --> 00:51:36,780
+that to a Google drive right so
+
+897
+00:51:36,780 --> 00:51:39,059
+checkpoint is another approach to ensure
+
+898
+00:51:39,059 --> 00:51:40,920
+failure recovery
+
+899
+00:51:40,920 --> 00:51:42,480
+um
+
+900
+00:51:42,480 --> 00:51:46,760
+in this case if we are if we are using
+
+901
+00:51:46,760 --> 00:51:49,559
+checkpointing to implement the hdfs then
+
+902
+00:51:49,559 --> 00:51:52,200
+there will be no hdfs anymore then that
+
+903
+00:51:52,200 --> 00:51:55,859
+will be the same as NFS like Network
+
+904
+00:51:55,859 --> 00:51:58,440
+file system so we have we still have a
+
+905
+00:51:58,440 --> 00:52:02,280
+new nucleus FS system whenever we have a
+
+906
+00:52:02,280 --> 00:52:05,040
+new files comes in your local node then
+
+907
+00:52:05,040 --> 00:52:08,099
+we are going to upload that into some
+
+908
+00:52:08,099 --> 00:52:09,839
+Central cloud
+
+909
+00:52:09,839 --> 00:52:12,960
+right that is checkpoint into a cloud we
+
+910
+00:52:12,960 --> 00:52:16,500
+can still ensure that it has
+
+911
+00:52:16,500 --> 00:52:19,800
+a failure recovery right then if I'm
+
+912
+00:52:19,800 --> 00:52:21,900
+asking you to design a system like that
+
+913
+00:52:21,900 --> 00:52:24,720
+can you design it what would be the new
+
+914
+00:52:24,720 --> 00:52:26,880
+name node looks like what will be the
+
+915
+00:52:26,880 --> 00:52:29,119
+new
+
+916
+00:52:29,160 --> 00:52:32,280
+data node looks like what will be the
+
+917
+00:52:32,280 --> 00:52:34,380
+challenging problems what will be the
+
+918
+00:52:34,380 --> 00:52:35,940
+challenging problems that means students
+
+919
+00:52:35,940 --> 00:52:38,819
+can think of that why hdfs using
+
+920
+00:52:38,819 --> 00:52:41,160
+reputation to do the failure recovery
+
+921
+00:52:41,160 --> 00:52:43,079
+not using the checkpointing to do the
+
+922
+00:52:43,079 --> 00:52:44,400
+failure recovery
+
+923
+00:52:44,400 --> 00:52:46,020
+think of that
+
+924
+00:52:46,020 --> 00:52:48,720
+why
+
+925
+00:52:48,720 --> 00:52:51,180
+because many times you do not have the
+
+926
+00:52:51,180 --> 00:52:53,700
+disconnection to the cloud right
+
+927
+00:52:53,700 --> 00:52:57,059
+if it's just a local server local server
+
+928
+00:52:57,059 --> 00:53:00,900
+you have 10 servers you just have La in
+
+929
+00:53:00,900 --> 00:53:04,800
+contacts connects you do not have won
+
+930
+00:53:04,800 --> 00:53:08,640
+you cannot go to the cloud
+
+931
+00:53:08,640 --> 00:53:11,220
+send the data to the cloud then the
+
+932
+00:53:11,220 --> 00:53:12,839
+local replication may be the best
+
+933
+00:53:12,839 --> 00:53:15,900
+approach so so single creatively about
+
+934
+00:53:15,900 --> 00:53:19,280
+that so file system has a lot of
+
+935
+00:53:19,280 --> 00:53:22,680
+interesting scenes to to think of that
+
+936
+00:53:22,680 --> 00:53:24,440
+okay so
+
+937
+00:53:24,440 --> 00:53:26,760
+when we're talking about the new nucleus
+
+938
+00:53:26,760 --> 00:53:29,400
+file system watch DFS file systems they
+
+939
+00:53:29,400 --> 00:53:32,160
+are using Master Slave architecture we
+
+940
+00:53:32,160 --> 00:53:34,680
+work oh sorry no more we're using this
+
+941
+00:53:34,680 --> 00:53:37,920
+okay column server clients
+
+942
+00:53:37,920 --> 00:53:39,960
+server clients
+
+943
+00:53:39,960 --> 00:53:42,720
+architecture is like a Master Slave okay
+
+944
+00:53:42,720 --> 00:53:45,660
+so the I know the name node is like a
+
+945
+00:53:45,660 --> 00:53:47,900
+master
+
+946
+00:53:49,980 --> 00:53:52,440
+the data node is like a slave so Master
+
+947
+00:53:52,440 --> 00:53:56,160
+Slave what if I'm asking you can you
+
+948
+00:53:56,160 --> 00:53:58,380
+design a new architecture like
+
+949
+00:53:58,380 --> 00:54:01,819
+peer-to-peer architecture
+
+950
+00:54:03,059 --> 00:54:04,880
+so this is more like a design
+
+951
+00:54:04,880 --> 00:54:08,040
+challenging design questions can you
+
+952
+00:54:08,040 --> 00:54:10,819
+can you think of a solution
+
+953
+00:54:10,819 --> 00:54:13,260
+this is this will be so this kind of
+
+954
+00:54:13,260 --> 00:54:16,500
+work is what you are going to to
+
+955
+00:54:16,500 --> 00:54:19,859
+pursue in your in your graduate study
+
+956
+00:54:19,859 --> 00:54:23,520
+okay if you have that interest to to
+
+957
+00:54:23,520 --> 00:54:27,839
+take a mass or take a PhD degree then
+
+958
+00:54:27,839 --> 00:54:31,020
+that is the
+
+959
+00:54:31,020 --> 00:54:31,920
+um
+
+960
+00:54:31,920 --> 00:54:35,480
+some research topics
+
+961
+00:54:47,700 --> 00:54:50,540
+what else
+
+962
+00:55:00,300 --> 00:55:03,660
+there are actually not too much about IO
+
+963
+00:55:03,660 --> 00:55:07,520
+they are not too much about IO
+
+964
+00:55:09,119 --> 00:55:12,420
+I owe by Pauline
+
+965
+00:55:12,420 --> 00:55:15,920
+I hope I interrupt
+
+966
+00:55:17,400 --> 00:55:20,240
+I hope I
+
+967
+00:55:20,760 --> 00:55:23,940
+direct memory access so the differences
+
+968
+00:55:23,940 --> 00:55:27,000
+of this so what is Io Io it means import
+
+969
+00:55:27,000 --> 00:55:30,599
+output right so input output status is
+
+970
+00:55:30,599 --> 00:55:33,180
+another abstraction
+
+971
+00:55:33,180 --> 00:55:34,440
+um
+
+972
+00:55:34,440 --> 00:55:38,480
+you might find out that for
+
+973
+00:55:44,880 --> 00:55:47,760
+so an operating system is an abstraction
+
+974
+00:55:47,760 --> 00:55:50,280
+between the hardware and the software
+
+975
+00:55:50,280 --> 00:55:52,319
+the users software that is operating
+
+976
+00:55:52,319 --> 00:55:55,079
+system so if IO is one part of the
+
+977
+00:55:55,079 --> 00:55:57,960
+operating system so which part of it so
+
+978
+00:55:57,960 --> 00:56:00,720
+I always just translates
+
+979
+00:56:00,720 --> 00:56:03,780
+so you have for example you have a USB
+
+980
+00:56:03,780 --> 00:56:06,119
+either from a SanDisk
+
+981
+00:56:06,119 --> 00:56:09,660
+sentence this is a SanDisk right this is
+
+982
+00:56:09,660 --> 00:56:12,119
+a very good brand SanDisk and there's
+
+983
+00:56:12,119 --> 00:56:13,440
+another
+
+984
+00:56:13,440 --> 00:56:15,960
+King King song right there are many
+
+985
+00:56:15,960 --> 00:56:17,579
+different brands they may have different
+
+986
+00:56:17,579 --> 00:56:20,940
+ways to design the USC they may use
+
+987
+00:56:20,940 --> 00:56:23,400
+different material I know some material
+
+988
+00:56:23,400 --> 00:56:26,599
+is water resistance some material is
+
+989
+00:56:26,599 --> 00:56:31,579
+like heat resistant some material can
+
+990
+00:56:31,579 --> 00:56:34,079
+can be more safe like adding the
+
+991
+00:56:34,079 --> 00:56:36,420
+encoding some have encoding algorithm
+
+992
+00:56:36,420 --> 00:56:38,579
+into that so there's different Hardware
+
+993
+00:56:38,579 --> 00:56:40,920
+but the thing is that the operating
+
+994
+00:56:40,920 --> 00:56:43,680
+system you OS like the Microsoft your
+
+995
+00:56:43,680 --> 00:56:45,480
+nucleus they are not going to understand
+
+996
+00:56:45,480 --> 00:56:48,059
+every Hardware language they will not
+
+997
+00:56:48,059 --> 00:56:50,819
+they will not get an idea about the
+
+998
+00:56:50,819 --> 00:56:53,760
+language the the material that each of
+
+999
+00:56:53,760 --> 00:56:56,160
+the different brands are using then the
+
+1000
+00:56:56,160 --> 00:56:58,920
+then the key idea of the io is that
+
+1001
+00:56:58,920 --> 00:57:01,040
+operating system are going to give the
+
+1002
+00:57:01,040 --> 00:57:03,900
+interfaces to different brands
+
+1003
+00:57:03,900 --> 00:57:07,020
+so each each company then they can have
+
+1004
+00:57:07,020 --> 00:57:09,420
+using the this interface is to implement
+
+1005
+00:57:09,420 --> 00:57:13,440
+their own device controller so in device
+
+1006
+00:57:13,440 --> 00:57:15,240
+control what is device control device
+
+1007
+00:57:15,240 --> 00:57:18,359
+controller is to managing the input and
+
+1008
+00:57:18,359 --> 00:57:21,300
+outputs the bytes okay like the speed of
+
+1009
+00:57:21,300 --> 00:57:24,660
+the bytes the translation of the bytes
+
+1010
+00:57:24,660 --> 00:57:27,540
+into some languages that all us can't
+
+1011
+00:57:27,540 --> 00:57:28,500
+understand
+
+1012
+00:57:28,500 --> 00:57:30,839
+so always only give you the interface
+
+1013
+00:57:30,839 --> 00:57:33,059
+but how you implement search is by
+
+1014
+00:57:33,059 --> 00:57:34,800
+different company
+
+1015
+00:57:34,800 --> 00:57:39,300
+so that is IO then but OS inside of the
+
+1016
+00:57:39,300 --> 00:57:42,260
+OS they are going to use the difference
+
+1017
+00:57:42,260 --> 00:57:45,480
+different technology to manage the speed
+
+1018
+00:57:45,480 --> 00:57:48,900
+to manage enough data transfer speed
+
+1019
+00:57:48,900 --> 00:57:51,119
+between the
+
+1020
+00:57:51,119 --> 00:57:54,859
+um between our device
+
+1021
+00:57:55,280 --> 00:57:57,900
+to memory
+
+1022
+00:57:57,900 --> 00:57:59,280
+okay
+
+1023
+00:57:59,280 --> 00:58:03,240
+so this these are three device these are
+
+1024
+00:58:03,240 --> 00:58:05,700
+three approaches the OS managing the
+
+1025
+00:58:05,700 --> 00:58:08,579
+speed the data transfer speed between
+
+1026
+00:58:08,579 --> 00:58:12,000
+the device to the memory but how to do
+
+1027
+00:58:12,000 --> 00:58:13,339
+the um
+
+1028
+00:58:13,339 --> 00:58:15,420
+translation of the from different
+
+1029
+00:58:15,420 --> 00:58:17,880
+material to the OS as you can understand
+
+1030
+00:58:17,880 --> 00:58:18,900
+this
+
+1031
+00:58:18,900 --> 00:58:21,839
+that is belonging to the driver's job
+
+1032
+00:58:21,839 --> 00:58:24,300
+okay each driver's job so that's the
+
+1033
+00:58:24,300 --> 00:58:25,559
+difference
+
+1034
+00:58:25,559 --> 00:58:27,559
+um
+
+1035
+00:58:28,200 --> 00:58:30,480
+that is for Io
+
+1036
+00:58:30,480 --> 00:58:32,940
+well I think I have
+
+1037
+00:58:32,940 --> 00:58:36,319
+um any any more questions
+
+1038
+00:58:38,520 --> 00:58:41,420
+what else
+
+1039
+00:58:47,220 --> 00:58:49,740
+see some core right you understand see
+
+1040
+00:58:49,740 --> 00:58:51,480
+some call you understand the interrupt
+
+1041
+00:58:51,480 --> 00:58:55,280
+you can understand the contact switch
+
+1042
+00:58:57,180 --> 00:58:59,940
+you understand what is the kernel what
+
+1043
+00:58:59,940 --> 00:59:02,760
+is the user mode what is the kernel mode
+
+1044
+00:59:02,760 --> 00:59:03,720
+um
+
+1045
+00:59:03,720 --> 00:59:07,079
+what is the main job of os you
+
+1046
+00:59:07,079 --> 00:59:09,599
+understand the time sharing space
+
+1047
+00:59:09,599 --> 00:59:12,720
+sharing you understand the CPU pipeline
+
+1048
+00:59:12,720 --> 00:59:15,720
+you understand the interrupts
+
+1049
+00:59:15,720 --> 00:59:18,780
+oh you understand interrupt Handler you
+
+1050
+00:59:18,780 --> 00:59:20,180
+understand
+
+1051
+00:59:20,180 --> 00:59:24,799
+see some core system Library
+
+1052
+00:59:25,380 --> 00:59:30,559
+right you understand contact switch
+
+1053
+00:59:30,839 --> 00:59:31,440
+um
+
+1054
+00:59:31,440 --> 00:59:36,839
+many new Concepts like thread process
+
+1055
+00:59:36,960 --> 00:59:40,260
+process values what is the ready State
+
+1056
+00:59:40,260 --> 00:59:42,960
+what is block state
+
+1057
+00:59:42,960 --> 00:59:45,480
+what is the
+
+1058
+00:59:45,480 --> 00:59:47,280
+running stage
+
+1059
+00:59:47,280 --> 00:59:48,540
+can
+
+1060
+00:59:48,540 --> 00:59:51,240
+running stage directory go to the blog
+
+1061
+00:59:51,240 --> 00:59:53,460
+states can block States go directly to
+
+1062
+00:59:53,460 --> 00:59:55,140
+the running States in which
+
+1063
+00:59:55,140 --> 00:59:58,740
+circumstances a process can run from a
+
+1064
+00:59:58,740 --> 01:00:00,839
+running state
+
+1065
+01:00:00,839 --> 01:00:04,099
+to the block States
+
+1066
+01:00:08,940 --> 01:00:11,420
+what is a iobz
+
+1067
+01:00:11,420 --> 01:00:15,359
+what is iobz process what is a
+
+1068
+01:00:15,359 --> 01:00:18,059
+computational intensive
+
+1069
+01:00:18,059 --> 01:00:20,640
+process what's the difference is between
+
+1070
+01:00:20,640 --> 01:00:23,760
+the i o intensive and the completion
+
+1071
+01:00:23,760 --> 01:00:27,000
+intensive process how can you tell which
+
+1072
+01:00:27,000 --> 01:00:29,880
+process is a i o intensive
+
+1073
+01:00:29,880 --> 01:00:33,480
+or computation intensive
+
+1074
+01:00:33,480 --> 01:00:37,200
+if I'm giving you several process I tell
+
+1075
+01:00:37,200 --> 01:00:40,980
+you they are IO weight percentage can
+
+1076
+01:00:40,980 --> 01:00:43,859
+you tell me the average CPU utilization
+
+1077
+01:00:43,859 --> 01:00:46,200
+of the system
+
+1078
+01:00:46,200 --> 01:00:49,619
+can we can you tell me the idle time of
+
+1079
+01:00:49,619 --> 01:00:52,220
+the system
+
+1080
+01:00:54,780 --> 01:00:58,380
+what is the critical section
+
+1081
+01:00:58,380 --> 01:01:00,780
+what is the barrier what is
+
+1082
+01:01:00,780 --> 01:01:02,700
+synchronization
+
+1083
+01:01:02,700 --> 01:01:04,920
+what is shell valuable
+
+1084
+01:01:04,920 --> 01:01:07,920
+differences between busy waiting and the
+
+1085
+01:01:07,920 --> 01:01:10,339
+starvation
+
+1086
+01:01:11,400 --> 01:01:14,280
+what is the alternative clock right of
+
+1087
+01:01:14,280 --> 01:01:16,220
+the latest block right
+
+1088
+01:01:16,220 --> 01:01:18,599
+sorry Auto
+
+1089
+01:01:18,599 --> 01:01:24,140
+what is the software approach to to
+
+1090
+01:01:24,500 --> 01:01:27,359
+avoid a
+
+1091
+01:01:27,359 --> 01:01:29,700
+race condition what is the hardware
+
+1092
+01:01:29,700 --> 01:01:32,760
+approach to avoid race condition
+
+1093
+01:01:32,760 --> 01:01:35,339
+how to use the mutex and some phone to
+
+1094
+01:01:35,339 --> 01:01:38,520
+avoid the race condition what is exactly
+
+1095
+01:01:38,520 --> 01:01:40,920
+a race condition
+
+1096
+01:01:40,920 --> 01:01:43,859
+why race condition happens
+
+1097
+01:01:43,859 --> 01:01:46,400
+yes
+
+1098
+01:01:52,740 --> 01:01:55,020
+has not been neither of them are work
+
+1099
+01:01:55,020 --> 01:01:56,160
+properly
+
+1100
+01:01:56,160 --> 01:02:00,119
+but why it messes why because contact
+
+1101
+01:02:00,119 --> 01:02:02,880
+switch happens right when they try to
+
+1102
+01:02:02,880 --> 01:02:08,099
+access the same resources and then the
+
+1103
+01:02:08,099 --> 01:02:10,559
+then the accessing order
+
+1104
+01:02:10,559 --> 01:02:12,720
+is not determined by the process
+
+1105
+01:02:12,720 --> 01:02:15,180
+determined by the CPU scheduling and is
+
+1106
+01:02:15,180 --> 01:02:16,980
+unexpected that his Wireless condition
+
+1107
+01:02:16,980 --> 01:02:21,780
+happened right and then after this we're
+
+1108
+01:02:21,780 --> 01:02:23,339
+talking about
+
+1109
+01:02:23,339 --> 01:02:25,559
+some form you text
+
+1110
+01:02:25,559 --> 01:02:29,160
+why what is the what is some form what
+
+1111
+01:02:29,160 --> 01:02:32,099
+is mutex can some form become elective
+
+1112
+01:02:32,099 --> 01:02:36,200
+can mute tags become lactive
+
+1113
+01:02:36,299 --> 01:02:40,799
+how many values can mutex have has how
+
+1114
+01:02:40,799 --> 01:02:44,339
+many values can some form has
+
+1115
+01:02:44,339 --> 01:02:47,640
+when some form becomes zero what will
+
+1116
+01:02:47,640 --> 01:02:48,540
+happen
+
+1117
+01:02:48,540 --> 01:02:51,720
+will come when some form becomes
+
+1118
+01:02:51,720 --> 01:02:54,900
+like positive what will happen it will
+
+1119
+01:02:54,900 --> 01:02:55,980
+like
+
+1120
+01:02:55,980 --> 01:02:58,380
+make which process of sleep which will
+
+1121
+01:02:58,380 --> 01:03:01,200
+wake wake up which process oh that's a
+
+1122
+01:03:01,200 --> 01:03:04,319
+new order New Concept okay in the
+
+1123
+01:03:04,319 --> 01:03:06,420
+process
+
+1124
+01:03:06,420 --> 01:03:09,359
+or else producer customer problems
+
+1125
+01:03:09,359 --> 01:03:13,460
+dialing philosophy problems
+
+1126
+01:03:13,859 --> 01:03:15,480
+right and then we're talking about
+
+1127
+01:03:15,480 --> 01:03:18,180
+dialogue four conditions for that log to
+
+1128
+01:03:18,180 --> 01:03:19,920
+happen what are these four conditions
+
+1129
+01:03:19,920 --> 01:03:22,440
+then how to avoid these four conditions
+
+1130
+01:03:22,440 --> 01:03:25,380
+we have four Solutions right we can
+
+1131
+01:03:25,380 --> 01:03:28,799
+completely avoid the problem we can use
+
+1132
+01:03:28,799 --> 01:03:32,700
+or dynamic avoidance we can use
+
+1133
+01:03:32,700 --> 01:03:37,020
+active prevention and then we can use
+
+1134
+01:03:37,020 --> 01:03:40,680
+leak remove any of the conditions right
+
+1135
+01:03:40,680 --> 01:03:42,420
+avoid any of the conditions to happen
+
+1136
+01:03:42,420 --> 01:03:44,780
+easy
+
+1137
+01:03:47,220 --> 01:03:50,220
+no you are not there no you were not
+
+1138
+01:03:50,220 --> 01:03:52,619
+there yeah because I missed a lecture it
+
+1139
+01:03:52,619 --> 01:03:53,900
+were not there
+
+1140
+01:03:53,900 --> 01:03:56,160
+okay so
+
+1141
+01:03:56,160 --> 01:04:00,660
+Let's Help Me review then so how to
+
+1142
+01:04:00,660 --> 01:04:03,740
+what's the differences between
+
+1143
+01:04:03,740 --> 01:04:06,900
+non-preemption preemption what resources
+
+1144
+01:04:06,900 --> 01:04:09,720
+are preemptive resources what resources
+
+1145
+01:04:09,720 --> 01:04:13,520
+are long preemptive resources
+
+1146
+01:04:18,540 --> 01:04:21,420
+is that is the printer preemptive or
+
+1147
+01:04:21,420 --> 01:04:22,799
+non-preemptive
+
+1148
+01:04:22,799 --> 01:04:25,319
+okay
+
+1149
+01:04:25,319 --> 01:04:27,799
+yeah
+
+1150
+01:04:32,339 --> 01:04:35,700
+let's bring her the printer in normal in
+
+1151
+01:04:35,700 --> 01:04:37,559
+most cases is non-preemptive right
+
+1152
+01:04:37,559 --> 01:04:40,099
+because
+
+1153
+01:04:40,680 --> 01:04:42,960
+yeah that is the solution that how you
+
+1154
+01:04:42,960 --> 01:04:44,339
+avoid the
+
+1155
+01:04:44,339 --> 01:04:47,579
+um this situation right avoid the four
+
+1156
+01:04:47,579 --> 01:04:50,040
+conditions right we have four conditions
+
+1157
+01:04:50,040 --> 01:04:52,799
+we can support everything that is the
+
+1158
+01:04:52,799 --> 01:04:55,319
+approach we can order in the num the
+
+1159
+01:04:55,319 --> 01:04:57,859
+resources what are the resources we can
+
+1160
+01:04:57,859 --> 01:05:01,319
+ensure that different we can we can
+
+1161
+01:05:01,319 --> 01:05:04,559
+avoid the mutual exclusion we can show a
+
+1162
+01:05:04,559 --> 01:05:06,000
+different process we can share the
+
+1163
+01:05:06,000 --> 01:05:08,040
+results right
+
+1164
+01:05:08,040 --> 01:05:09,540
+um
+
+1165
+01:05:09,540 --> 01:05:12,780
+why else then yo you need to know how to
+
+1166
+01:05:12,780 --> 01:05:16,200
+write the resource or location graph for
+
+1167
+01:05:16,200 --> 01:05:19,400
+example I'm using
+
+1168
+01:05:20,099 --> 01:05:23,180
+we are using
+
+1169
+01:05:25,020 --> 01:05:28,980
+we're using the array the arrow to
+
+1170
+01:05:28,980 --> 01:05:32,880
+to represent rice I have I have the I
+
+1171
+01:05:32,880 --> 01:05:34,920
+have some resource and I want another
+
+1172
+01:05:34,920 --> 01:05:37,559
+resource right so you if I'm I'm giving
+
+1173
+01:05:37,559 --> 01:05:40,079
+you the number is like okay the resource
+
+1174
+01:05:40,079 --> 01:05:43,920
+the user a has the result of R but once
+
+1175
+01:05:43,920 --> 01:05:45,440
+the results of
+
+1176
+01:05:45,440 --> 01:05:49,140
+Z you you should be able to draw the
+
+1177
+01:05:49,140 --> 01:05:51,000
+resource allocation graph that is the
+
+1178
+01:05:51,000 --> 01:05:52,740
+because that is the only way that you
+
+1179
+01:05:52,740 --> 01:05:55,020
+can find out the you can find out
+
+1180
+01:05:55,020 --> 01:05:57,599
+whether there's a potentially secure
+
+1181
+01:05:57,599 --> 01:06:00,180
+change in the system right but it does
+
+1182
+01:06:00,180 --> 01:06:01,980
+not mean that the system will be that
+
+1183
+01:06:01,980 --> 01:06:03,900
+locked why does not mean the system will
+
+1184
+01:06:03,900 --> 01:06:05,520
+be deadlocked because the there are
+
+1185
+01:06:05,520 --> 01:06:06,900
+other four conditions you need to
+
+1186
+01:06:06,900 --> 01:06:09,299
+consider so the so the exam material
+
+1187
+01:06:09,299 --> 01:06:12,059
+give you the hints about the other four
+
+1188
+01:06:12,059 --> 01:06:17,040
+conditions then you you holding
+
+1189
+01:06:17,040 --> 01:06:19,200
+four conditions are there then that
+
+1190
+01:06:19,200 --> 01:06:21,599
+means it it is there's a dialogue then
+
+1191
+01:06:21,599 --> 01:06:23,880
+we long after we learn the dialogue we
+
+1192
+01:06:23,880 --> 01:06:26,700
+learned the memory chapter right we say
+
+1193
+01:06:26,700 --> 01:06:28,740
+why we need um what is the memory
+
+1194
+01:06:28,740 --> 01:06:31,260
+hierarchical structure why there's a
+
+1195
+01:06:31,260 --> 01:06:33,780
+memory hierarchical structure and we
+
+1196
+01:06:33,780 --> 01:06:35,819
+learn about the
+
+1197
+01:06:35,819 --> 01:06:38,640
+different algorithms to
+
+1198
+01:06:38,640 --> 01:06:41,039
+to manage the memories swapping
+
+1199
+01:06:41,039 --> 01:06:43,619
+technology right we use bitmap and the
+
+1200
+01:06:43,619 --> 01:06:46,940
+linked list to locate the free available
+
+1201
+01:06:46,940 --> 01:06:50,640
+memory resources then we have the
+
+1202
+01:06:50,640 --> 01:06:53,220
+virtual memory right when we introduce
+
+1203
+01:06:53,220 --> 01:06:55,140
+virtual memory why we need virtual
+
+1204
+01:06:55,140 --> 01:06:56,280
+memory
+
+1205
+01:06:56,280 --> 01:06:59,539
+because yeah
+
+1206
+01:07:13,859 --> 01:07:15,359
+or if there's enough space for a
+
+1207
+01:07:15,359 --> 01:07:16,579
+positive
+
+1208
+01:07:16,579 --> 01:07:19,020
+shot making the short why we need a
+
+1209
+01:07:19,020 --> 01:07:22,400
+virtual memory because yes
+
+1210
+01:07:23,099 --> 01:07:27,440
+why why we need a virtual memory
+
+1211
+01:07:27,480 --> 01:07:31,760
+no why we need virtual memory
+
+1212
+01:07:32,220 --> 01:07:34,020
+even for in the memory why we need
+
+1213
+01:07:34,020 --> 01:07:36,799
+virtual memory
+
+1214
+01:07:42,539 --> 01:07:44,579
+so that is that because we have shortage
+
+1215
+01:07:44,579 --> 01:07:46,920
+of memory that is the physical memory so
+
+1216
+01:07:46,920 --> 01:07:48,599
+in our world we have a shortage of
+
+1217
+01:07:48,599 --> 01:07:50,099
+physical memory
+
+1218
+01:07:50,099 --> 01:07:51,660
+okay
+
+1219
+01:07:51,660 --> 01:07:53,660
+um
+
+1220
+01:07:59,339 --> 01:08:01,920
+uh okay and version after virtual memory
+
+1221
+01:08:01,920 --> 01:08:03,599
+we will learn about the
+
+1222
+01:08:03,599 --> 01:08:05,039
+um
+
+1223
+01:08:05,039 --> 01:08:07,500
+so it's virtual memory so virtual memory
+
+1224
+01:08:07,500 --> 01:08:09,539
+every process has a virtual memory they
+
+1225
+01:08:09,539 --> 01:08:11,400
+are independent so virtual memory right
+
+1226
+01:08:11,400 --> 01:08:13,500
+they have their independence virtual
+
+1227
+01:08:13,500 --> 01:08:15,720
+memory address every process has that
+
+1228
+01:08:15,720 --> 01:08:19,198
+okay every process has that
+
+1229
+01:08:19,198 --> 01:08:23,419
+so a page table refers to
+
+1230
+01:08:24,839 --> 01:08:27,179
+the mapping between the
+
+1231
+01:08:27,179 --> 01:08:29,339
+between the virtual pages to the
+
+1232
+01:08:29,339 --> 01:08:32,460
+physical pages right physical pages so
+
+1233
+01:08:32,460 --> 01:08:35,040
+that is the page table and then you need
+
+1234
+01:08:35,040 --> 01:08:36,899
+to know the page table in the page table
+
+1235
+01:08:36,899 --> 01:08:40,040
+there's many entries right some some
+
+1236
+01:08:40,040 --> 01:08:43,259
+represents this is 30 or not what it
+
+1237
+01:08:43,259 --> 01:08:44,960
+means by Dirty
+
+1238
+01:08:44,960 --> 01:08:49,020
+dirty right some a bit rough if one
+
+1239
+01:08:49,020 --> 01:08:52,380
+means it's 30 what is 30 means right and
+
+1240
+01:08:52,380 --> 01:08:54,479
+some bits reference is the access model
+
+1241
+01:08:54,479 --> 01:08:58,439
+what is read or write or executes right
+
+1242
+01:08:58,439 --> 01:09:01,999
+and some um
+
+1243
+01:09:02,339 --> 01:09:05,640
+some rubber one reference one bit
+
+1244
+01:09:05,640 --> 01:09:08,160
+represents its if if it's in a physical
+
+1245
+01:09:08,160 --> 01:09:10,140
+memory one notch
+
+1246
+01:09:10,140 --> 01:09:14,160
+then that is the page table architecture
+
+1247
+01:09:14,160 --> 01:09:15,899
+so you need to know that where is Page
+
+1248
+01:09:15,899 --> 01:09:17,160
+table
+
+1249
+01:09:17,160 --> 01:09:20,040
+um right it's what is mmu what is the
+
+1250
+01:09:20,040 --> 01:09:23,339
+tlb what is Page table entry
+
+1251
+01:09:23,339 --> 01:09:26,900
+what is the um
+
+1252
+01:09:27,060 --> 01:09:30,000
+why we need a tlb well we already have
+
+1253
+01:09:30,000 --> 01:09:32,640
+page table why we need tlb
+
+1254
+01:09:32,640 --> 01:09:35,339
+um so if it is a hit in the tlb does it
+
+1255
+01:09:35,339 --> 01:09:37,920
+means there's no page fourth if it's a
+
+1256
+01:09:37,920 --> 01:09:40,198
+Miss in the tlb doesn't mean there are
+
+1257
+01:09:40,198 --> 01:09:42,420
+definitely no page Force well there's a
+
+1258
+01:09:42,420 --> 01:09:44,759
+page Force if it's a Miss in the tlb
+
+1259
+01:09:44,759 --> 01:09:46,198
+then I would say there's a page for
+
+1260
+01:09:46,198 --> 01:09:48,299
+these are true Force
+
+1261
+01:09:48,299 --> 01:09:50,520
+true or false fourth first yeah because
+
+1262
+01:09:50,520 --> 01:09:53,819
+you need to later you need to see the
+
+1263
+01:09:53,819 --> 01:09:55,980
+page table right you need this is how
+
+1264
+01:09:55,980 --> 01:09:59,520
+you um how you see the how to handle in
+
+1265
+01:09:59,520 --> 01:10:01,020
+the page Force how to handle page four
+
+1266
+01:10:01,020 --> 01:10:03,120
+we first look at tlb we then look at
+
+1267
+01:10:03,120 --> 01:10:05,460
+page table we go to the disk we fetch
+
+1268
+01:10:05,460 --> 01:10:07,199
+the disk we fetch the file from this
+
+1269
+01:10:07,199 --> 01:10:10,260
+proceeding number in the physical memory
+
+1270
+01:10:10,260 --> 01:10:12,420
+then updates One updates the page table
+
+1271
+01:10:12,420 --> 01:10:15,300
+then updates the TL video sequences you
+
+1272
+01:10:15,300 --> 01:10:17,219
+cannot update the trb and then update
+
+1273
+01:10:17,219 --> 01:10:19,440
+the page table you need to go like a
+
+1274
+01:10:19,440 --> 01:10:23,159
+circle and then finish the job right and
+
+1275
+01:10:23,159 --> 01:10:25,880
+then um
+
+1276
+01:10:27,600 --> 01:10:30,239
+after that we learn about the address
+
+1277
+01:10:30,239 --> 01:10:31,560
+translation
+
+1278
+01:10:31,560 --> 01:10:35,780
+we also learn about the um
+
+1279
+01:10:37,920 --> 01:10:40,500
+like the other Concepts like the page
+
+1280
+01:10:40,500 --> 01:10:45,120
+frames right working search we also
+
+1281
+01:10:45,120 --> 01:10:47,480
+learn about the
+
+1282
+01:10:47,480 --> 01:10:51,000
+offsets right so that's a very a lot of
+
+1283
+01:10:51,000 --> 01:10:53,880
+concept you know as the the course is
+
+1284
+01:10:53,880 --> 01:10:56,159
+full of Concepts we have hundreds of new
+
+1285
+01:10:56,159 --> 01:10:59,340
+Concepts and then we after we talk about
+
+1286
+01:10:59,340 --> 01:11:00,739
+the
+
+1287
+01:11:00,739 --> 01:11:03,239
+then talk about the files this Samurai
+
+1288
+01:11:03,239 --> 01:11:06,540
+so file see some key Concepts is the
+
+1289
+01:11:06,540 --> 01:11:09,840
+we first review it from a
+
+1290
+01:11:09,840 --> 01:11:11,100
+personal
+
+1291
+01:11:11,100 --> 01:11:13,679
+um user's point of view so you need to
+
+1292
+01:11:13,679 --> 01:11:15,840
+think about that oh
+
+1293
+01:11:15,840 --> 01:11:18,780
+what is a directory what is a file right
+
+1294
+01:11:18,780 --> 01:11:19,679
+that
+
+1295
+01:11:19,679 --> 01:11:22,260
+um what is the directory what is file so
+
+1296
+01:11:22,260 --> 01:11:24,600
+what is the tree hierarchical structure
+
+1297
+01:11:24,600 --> 01:11:26,760
+three hierarchical structure one is the
+
+1298
+01:11:26,760 --> 01:11:30,719
+absolute pass what is relative path
+
+1299
+01:11:30,719 --> 01:11:34,140
+what is the um
+
+1300
+01:11:34,140 --> 01:11:36,179
+what is block
+
+1301
+01:11:36,179 --> 01:11:38,100
+what is block
+
+1302
+01:11:38,100 --> 01:11:43,100
+um what is block address what is inode
+
+1303
+01:11:43,800 --> 01:11:48,060
+what is continually allocation approach
+
+1304
+01:11:48,060 --> 01:11:50,580
+in the continual allocation approach you
+
+1305
+01:11:50,580 --> 01:11:52,199
+use the linked list to implement the
+
+1306
+01:11:52,199 --> 01:11:54,480
+continually allocation approach right I
+
+1307
+01:11:54,480 --> 01:11:55,920
+think in the linked list we have
+
+1308
+01:11:55,920 --> 01:11:58,920
+different algorithms to look at locate
+
+1309
+01:11:58,920 --> 01:12:01,679
+the different blocks like we have first
+
+1310
+01:12:01,679 --> 01:12:05,880
+feeds next feeds best feeds versus the
+
+1311
+01:12:05,880 --> 01:12:08,460
+feeds quick feeds
+
+1312
+01:12:08,460 --> 01:12:13,380
+second feeds we have many algorithms so
+
+1313
+01:12:13,380 --> 01:12:14,040
+um
+
+1314
+01:12:14,040 --> 01:12:17,900
+then we learn about the
+
+1315
+01:12:20,580 --> 01:12:24,540
+here after that we learned about the
+
+1316
+01:12:24,540 --> 01:12:27,000
+I know it right I know this is a key
+
+1317
+01:12:27,000 --> 01:12:29,760
+concept I note so what is that exactly I
+
+1318
+01:12:29,760 --> 01:12:32,900
+node and I know there's a special
+
+1319
+01:12:32,900 --> 01:12:35,580
+contents called reference counts what is
+
+1320
+01:12:35,580 --> 01:12:38,760
+reference counts means
+
+1321
+01:12:38,760 --> 01:12:42,199
+what is the um
+
+1322
+01:12:42,719 --> 01:12:45,960
+a symbolic share link and a hard link
+
+1323
+01:12:45,960 --> 01:12:47,820
+right
+
+1324
+01:12:47,820 --> 01:12:48,420
+um
+
+1325
+01:12:48,420 --> 01:12:51,120
+what is the I know the table
+
+1326
+01:12:51,120 --> 01:12:53,100
+so I know you need to understand I know
+
+1327
+01:12:53,100 --> 01:12:55,140
+it contains the order of addresses right
+
+1328
+01:12:55,140 --> 01:12:59,100
+the block of address about the about the
+
+1329
+01:12:59,100 --> 01:13:01,380
+this file so each file has an inode
+
+1330
+01:13:01,380 --> 01:13:03,900
+right by the way and I know table will
+
+1331
+01:13:03,900 --> 01:13:06,179
+save the locations of
+
+1332
+01:13:06,179 --> 01:13:08,640
+what I node
+
+1333
+01:13:08,640 --> 01:13:10,739
+then we learned IO
+
+1334
+01:13:10,739 --> 01:13:12,960
+so we learned three approaches to doing
+
+1335
+01:13:12,960 --> 01:13:15,659
+the i o these three approaches what are
+
+1336
+01:13:15,659 --> 01:13:18,120
+their differences in which circumstances
+
+1337
+01:13:18,120 --> 01:13:21,300
+you may choose IO by interrupt
+
+1338
+01:13:21,300 --> 01:13:24,060
+in which circumstances you choose IO by
+
+1339
+01:13:24,060 --> 01:13:25,380
+dma
+
+1340
+01:13:25,380 --> 01:13:27,060
+so
+
+1341
+01:13:27,060 --> 01:13:29,040
+you don't understand in which
+
+1342
+01:13:29,040 --> 01:13:32,280
+circumstances you use each approach okay
+
+1343
+01:13:32,280 --> 01:13:35,880
+so this is mostly the
+
+1344
+01:13:35,880 --> 01:13:40,860
+what we learned in this semester are
+
+1345
+01:13:40,860 --> 01:13:42,840
+you any more questions
+
+1346
+01:13:42,840 --> 01:13:45,440
+yeah
+
+1347
+01:13:50,120 --> 01:13:52,920
+what exactly optimal page replace when
+
+1348
+01:13:52,920 --> 01:13:55,380
+the algorithms looks like so the optimal
+
+1349
+01:13:55,380 --> 01:13:59,900
+so well here's the scene we
+
+1350
+01:14:00,600 --> 01:14:02,940
+the optimal page replacement algorithm
+
+1351
+01:14:02,940 --> 01:14:05,400
+says that you
+
+1352
+01:14:05,400 --> 01:14:08,400
+you always know so
+
+1353
+01:14:08,400 --> 01:14:13,320
+if this is a reference count a b c d e a
+
+1354
+01:14:13,320 --> 01:14:17,820
+c d f g so if if there's a reference
+
+1355
+01:14:17,820 --> 01:14:21,179
+count streams like that so the optimal
+
+1356
+01:14:21,179 --> 01:14:24,620
+page replacement algorithm is that you
+
+1357
+01:14:24,620 --> 01:14:28,440
+assume that you order you already know
+
+1358
+01:14:28,440 --> 01:14:31,860
+which orbital most frequent which will
+
+1359
+01:14:31,860 --> 01:14:33,000
+be the
+
+1360
+01:14:33,000 --> 01:14:33,600
+um
+
+1361
+01:14:33,600 --> 01:14:36,360
+use which will be used in the next
+
+1362
+01:14:36,360 --> 01:14:39,120
+Circle in the next time
+
+1363
+01:14:39,120 --> 01:14:42,540
+okay so it assumes that you know what
+
+1364
+01:14:42,540 --> 01:14:44,699
+will happen in the future and you always
+
+1365
+01:14:44,699 --> 01:14:46,620
+make the best choice
+
+1366
+01:14:46,620 --> 01:14:49,860
+so that's it that is not that he's not
+
+1367
+01:14:49,860 --> 01:14:52,880
+going to implement that in in in
+
+1368
+01:14:52,880 --> 01:14:56,100
+the real world because it's it's just a
+
+1369
+01:14:56,100 --> 01:14:57,659
+test method
+
+1370
+01:14:57,659 --> 01:15:00,540
+it's just a customer okay
+
+1371
+01:15:00,540 --> 01:15:02,600
+um
+
+1372
+01:15:02,760 --> 01:15:06,360
+okay so uh I think it should be fine
+
+1373
+01:15:06,360 --> 01:15:08,400
+because I I see you on me drama see
+
+1374
+01:15:08,400 --> 01:15:10,560
+everyone's midterm I think you performs
+
+1375
+01:15:10,560 --> 01:15:12,480
+really great
+
+1376
+01:15:12,480 --> 01:15:13,340
+um
+
+1377
+01:15:13,340 --> 01:15:16,380
+yeah and it's even before I cover the
+
+1378
+01:15:16,380 --> 01:15:18,179
+grade I didn't curve your grade for
+
+1379
+01:15:18,179 --> 01:15:20,699
+midterm I would craft or everyone's
+
+1380
+01:15:20,699 --> 01:15:23,340
+great after I got all the great together
+
+1381
+01:15:23,340 --> 01:15:27,179
+okay like your homework your projects
+
+1382
+01:15:27,179 --> 01:15:28,800
+um you have
+
+1383
+01:15:28,800 --> 01:15:30,780
+you have one project so it's pending
+
+1384
+01:15:30,780 --> 01:15:33,900
+right final product the project five
+
+1385
+01:15:33,900 --> 01:15:36,780
+after I got all the grade then I
+
+1386
+01:15:36,780 --> 01:15:38,940
+calculate the final grades then I will
+
+1387
+01:15:38,940 --> 01:15:40,980
+calculate that
+
+1388
+01:15:40,980 --> 01:15:42,980
+um
+
+1389
+01:15:43,020 --> 01:15:46,440
+uh do the curve to the curve so my curve
+
+1390
+01:15:46,440 --> 01:15:47,940
+is very
+
+1391
+01:15:47,940 --> 01:15:48,719
+um
+
+1392
+01:15:48,719 --> 01:15:51,239
+strange forward okay I will try to cut
+
+1393
+01:15:51,239 --> 01:15:54,000
+it a half okay so as long as you stand
+
+1394
+01:15:54,000 --> 01:15:55,679
+in the middle of the class it should be
+
+1395
+01:15:55,679 --> 01:15:58,800
+good okay so um
+
+1396
+01:15:58,800 --> 01:16:03,060
+okay I I want to thank you guys for uh
+
+1397
+01:16:03,060 --> 01:16:07,080
+for well come for choose my lecture and
+
+1398
+01:16:07,080 --> 01:16:08,880
+I hope that you can learn something from
+
+1399
+01:16:08,880 --> 01:16:12,000
+this and uh okay so good luck with your
+
+1400
+01:16:12,000 --> 01:16:14,159
+final
+
+1401
+01:16:14,159 --> 01:16:16,199
+okay oh one thing one more thing I
+
+1402
+01:16:16,199 --> 01:16:19,080
+appreciate if you guys can um can review
+
+1403
+01:16:19,080 --> 01:16:21,780
+this class so I will give the actual one
+
+1404
+01:16:21,780 --> 01:16:24,900
+points to for for the students who
+
+1405
+01:16:24,900 --> 01:16:28,260
+submits the review okay so there will be
+
+1406
+01:16:28,260 --> 01:16:32,040
+uh yeah after the after the final week
+
+1407
+01:16:32,040 --> 01:16:35,159
+there will be a link for you to send the
+
+1408
+01:16:35,159 --> 01:16:35,940
+review
+
+1409
+01:16:35,940 --> 01:16:39,320
+okay okay thank you
+
+1410
+01:16:39,960 --> 01:16:42,620
+thank you
+
