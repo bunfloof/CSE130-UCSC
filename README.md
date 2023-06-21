@@ -2,7 +2,7 @@
 
 ## Notes
 
-Publishing to share with mental health provider
+Publishing to share with mental health provider as requested on June 20, 2023 
 
 ## synctool.config
 
