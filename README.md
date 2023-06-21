@@ -2,14 +2,14 @@
 
 ## Notes
 
-Moving everything from Replit to Github Codespaces cuz Replit run out of disk space
+Publishing to share with mental health provider
 
 ## synctool.config
 
-Published: No
+Published: Yes
 
 Backblaze: Yes
 
-Github: No
+Github: Yes
 
 Google Drive: Yes
